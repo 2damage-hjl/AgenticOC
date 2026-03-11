@@ -1,0 +1,7 @@
+{
+    "Provider": "deepseek",
+    "ModelName": "deepseek-chat",
+    "ApiKey": "sk-xxxx",
+    "ServerAddress": "https://api.deepseek.com",
+    "Temperature": 0.75
+}
