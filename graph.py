@@ -60,7 +60,15 @@ print("系统初始化完成！")
 from llm import create_llm
 llm = create_llm()
 
-INIT_FLAG = ".persona_init_done"
+import sys
+
+def _get_data_dir() -> str:
+    """获取数据存储目录（兼容 PyInstaller 打包）"""
+    if getattr(sys, 'frozen', False):
+        return os.path.dirname(sys.executable)
+    return os.path.dirname(os.path.abspath(__file__))
+
+INIT_FLAG = os.path.join(_get_data_dir(), ".persona_init_done")
 from memory.scripts.persona_seed import initial_persona_seed, build_damon_persona_seed
 from memory.scripts.citizen_seed import init_all_citizens
 if not os.path.exists(INIT_FLAG):

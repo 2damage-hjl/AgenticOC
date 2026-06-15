@@ -3,6 +3,14 @@ import random
 import uuid
 import json
 import os
+import sys
+
+
+def _get_data_dir() -> str:
+    """获取数据存储目录（兼容 PyInstaller 打包）"""
+    if getattr(sys, 'frozen', False):
+        return os.path.dirname(sys.executable)
+    return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 #=====weight======
 # 1. 标签的基础权重（阶梯式划分）
@@ -148,7 +156,7 @@ def _extract_text(res) -> str:
 
 def _write_mid_term_file(npc_id: str, scene: dict):
     """辅助函数：将 scene 追加写入中期记忆 JSON 文件。"""
-    file_path = f"memory/mid_term_{npc_id}.json"
+    file_path = os.path.join(_get_data_dir(), f"memory/mid_term_{npc_id}.json")
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
     data = []
@@ -167,12 +175,14 @@ def _write_mid_term_file(npc_id: str, scene: dict):
 
 #=====升级为长期记忆=======
 class MidTermMemory:
-    FILE_PATH_TEMPLATE = "memory/mid_term_{npc_id}.json"
+    @staticmethod
+    def _get_file_path(npc_id: str) -> str:
+        return os.path.join(_get_data_dir(), f"memory/mid_term_{npc_id}.json")
 
     @classmethod
     def load(cls, npc_id: str) -> List[Dict]:
         """加载中期记忆文件（scene-level 格式）。"""
-        file_path = cls.FILE_PATH_TEMPLATE.format(npc_id=npc_id)
+        file_path = cls._get_file_path(npc_id)
         if not os.path.exists(file_path):
             return []
         try:
@@ -188,7 +198,7 @@ class MidTermMemory:
     @classmethod
     def clear(cls, npc_id: str):
         """清除特定 NPC 的中期记忆文件。"""
-        file_path = cls.FILE_PATH_TEMPLATE.format(npc_id=npc_id)
+        file_path = cls._get_file_path(npc_id)
         if os.path.exists(file_path):
             try:
                 os.remove(file_path)
@@ -269,7 +279,7 @@ class MidTermMemory:
     @staticmethod
     def add_gossip_entry(npc_id, content, new_weight, location, time):
         """专用接口：直接向某人的中期记忆列表中插入一条"传闻"。"""
-        file_path = f"memory/mid_term_{npc_id}.json"
+        file_path = os.path.join(_get_data_dir(), f"memory/mid_term_{npc_id}.json")
 
         if os.path.exists(file_path):
             with open(file_path, "r", encoding='utf-8') as f:

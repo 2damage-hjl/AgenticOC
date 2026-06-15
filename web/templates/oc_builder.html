@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgenticOC - OC 角色构建器</title>
+    <style>
+        :root {
+            --bg: #0f1117;
+            --card: #1a1d27;
+            --border: #2a2d3a;
+            --accent: #6c5ce7;
+            --accent2: #a29bfe;
+            --text: #e0e0e0;
+            --text-dim: #888;
+            --danger: #e74c3c;
+            --success: #2ecc71;
+            --warning: #f39c12;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Segoe UI', -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            background: linear-gradient(135deg, var(--accent), var(--accent2));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+
+        .header p { color: var(--text-dim); font-size: 14px; }
+
+        .tabs {
+            display: flex;
+            gap: 4px;
+            margin-bottom: 20px;
+            background: var(--card);
+            border-radius: 12px;
+            padding: 4px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .tab {
+            flex: 1;
+            padding: 12px;
+            text-align: center;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-dim);
+            border: none;
+            background: transparent;
+        }
+
+        .tab:hover { background: rgba(108, 92, 231, 0.1); color: var(--text); }
+        .tab.active { background: var(--accent); color: #fff; }
+
+        .panel {
+            display: none;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .panel.active { display: block; }
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 16px;
+        }
+
+        .card h3 {
+            font-size: 16px;
+            margin-bottom: 16px;
+            color: var(--accent2);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 13px;
+            color: var(--text-dim);
+            margin-bottom: 6px;
+        }
+
+        .form-group label .hint {
+            font-size: 11px;
+            color: #666;
+        }
+
+        input[type="text"], input[type="number"], textarea, select {
+            width: 100%;
+            padding: 10px 14px;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text);
+            font-size: 14px;
+            font-family: inherit;
+            transition: border-color 0.2s;
+        }
+
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        textarea { resize: vertical; min-height: 80px; }
+
+        .row {
+            display: flex;
+            gap: 12px;
+        }
+
+        .row > * { flex: 1; }
+
+        /* Relationship table */
+        .relation-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .relation-table th {
+            text-align: left;
+            padding: 8px;
+            color: var(--text-dim);
+            font-size: 12px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .relation-table td {
+            padding: 6px 8px;
+            border-bottom: 1px solid rgba(42, 45, 58, 0.5);
+        }
+
+        .relation-table input, .relation-table select {
+            padding: 8px 10px;
+        }
+
+        .btn-remove {
+            background: transparent;
+            border: 1px solid var(--danger);
+            color: var(--danger);
+            border-radius: 6px;
+            padding: 6px 12px;
+            cursor: pointer;
+            font-size: 12px;
+            transition: all 0.2s;
+        }
+        .btn-remove:hover { background: var(--danger); color: #fff; }
+
+        .btn-add {
+            background: transparent;
+            border: 1px dashed var(--accent);
+            color: var(--accent);
+            border-radius: 8px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 13px;
+            width: 100%;
+            margin-top: 10px;
+            transition: all 0.2s;
+        }
+        .btn-add:hover { background: rgba(108, 92, 231, 0.1); }
+
+        /* Memory items */
+        .memory-item {
+            display: flex;
+            gap: 10px;
+            align-items: flex-start;
+            margin-bottom: 10px;
+            padding: 12px;
+            background: rgba(15, 17, 23, 0.5);
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+
+        .memory-item textarea {
+            flex: 1;
+            min-height: 50px;
+        }
+
+        .memory-item .weight-control {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            min-width: 60px;
+        }
+
+        .memory-item .weight-control label {
+            font-size: 11px;
+            color: var(--text-dim);
+        }
+
+        .memory-item .weight-control input {
+            width: 60px;
+            text-align: center;
+            padding: 6px;
+        }
+
+        .memory-item .btn-remove {
+            align-self: center;
+        }
+
+        /* Dialogue JSON upload */
+        .upload-zone {
+            border: 2px dashed var(--border);
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .upload-zone:hover { border-color: var(--accent); background: rgba(108, 92, 231, 0.05); }
+        .upload-zone.drag-over { border-color: var(--accent); background: rgba(108, 92, 231, 0.1); }
+        .upload-zone p { color: var(--text-dim); font-size: 13px; }
+        .upload-zone .icon { font-size: 32px; margin-bottom: 8px; }
+
+        #dialogue-preview {
+            margin-top: 12px;
+            max-height: 200px;
+            overflow-y: auto;
+            background: var(--bg);
+            border-radius: 8px;
+            padding: 12px;
+            font-family: 'Consolas', monospace;
+            font-size: 12px;
+            color: var(--text-dim);
+            display: none;
+        }
+
+        /* Submit */
+        .submit-area {
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .btn-submit {
+            background: linear-gradient(135deg, var(--accent), var(--accent2));
+            color: #fff;
+            border: none;
+            border-radius: 12px;
+            padding: 16px 48px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .btn-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(108, 92, 231, 0.3);
+        }
+
+        .btn-submit:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .status {
+            margin-top: 12px;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 14px;
+            display: none;
+        }
+
+        .status.success { display: block; background: rgba(46, 204, 113, 0.15); color: var(--success); border: 1px solid rgba(46, 204, 113, 0.3); }
+        .status.error { display: block; background: rgba(231, 76, 60, 0.15); color: var(--danger); border: 1px solid rgba(231, 76, 60, 0.3); }
+        .status.info { display: block; background: rgba(108, 92, 231, 0.15); color: var(--accent2); border: 1px solid rgba(108, 92, 231, 0.3); }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: var(--bg); }
+        ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .row { flex-direction: column; gap: 0; }
+            .tabs { flex-wrap: wrap; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>AgenticOC - OC 角色构建器</h1>
+    <p>填写你的原创角色信息，一键接入 AI 对话系统</p>
+</div>
+
+<div class="tabs">
+    <button class="tab active" data-tab="persona">基础人设</button>
+    <button class="tab" data-tab="relations">关系网</button>
+    <button class="tab" data-tab="memory">记忆种子</button>
+</div>
+
+<!-- ===== Tab 1: 基础人设 ===== -->
+<div class="panel active" id="panel-persona">
+    <div class="card">
+        <h3>角色基本信息</h3>
+        <div class="form-group">
+            <label>OC 名称 <span class="hint">(英文，如 Luna)</span></label>
+            <input type="text" id="oc_name" placeholder="Luna">
+        </div>
+        <div class="form-group">
+            <label>角色类型</label>
+            <select id="character_type">
+                <option value="original">原创角色 (OC)</option>
+                <option value="native">原版 NPC 改写</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="card">
+        <h3>性格与背景</h3>
+        <div class="form-group">
+            <label>核心性格 <span class="hint">(一句话概括这个角色的灵魂)</span></label>
+            <textarea id="persona_core" placeholder="例如：你是一个外冷内热的流浪画家，看似漫不经心，实际上对身边的一切观察入微。"></textarea>
+        </div>
+        <div class="form-group">
+            <label>背景故事 <span class="hint">(角色的来历、处境)</span></label>
+            <textarea id="persona_background" placeholder="例如：你来自祖祖城，因厌倦了画廊的商业化运作而来到鹈鹕镇，在海边支起画架，以卖画为生。"></textarea>
+        </div>
+        <div class="form-group">
+            <label>成长弧线 <span class="hint">(角色随时间如何变化)</span></label>
+            <textarea id="persona_growth" placeholder="例如：前期独来独往、抗拒社交，随着与玩家接触逐渐敞开心扉，最终将鹈鹕镇视为灵感源泉。"></textarea>
+        </div>
+        <div class="form-group">
+            <label>说话风格 <span class="hint">(语气、用词习惯、口癖)</span></label>
+            <textarea id="speech_style" placeholder="例如：说话简短有力，偶尔冒出文艺的比喻。紧张时会结巴。喜欢用反问句。"></textarea>
+        </div>
+    </div>
+
+    <div class="card">
+        <h3>行为准则</h3>
+        <div class="form-group">
+            <label>心情规则 <span class="hint">(不同心情如何影响说话方式)</span></label>
+            <textarea id="mood_rules" placeholder="例如：心情好时会主动搭话，心情差时只回复单字。雨天容易伤感。"></textarea>
+        </div>
+        <div class="form-group">
+            <label>对话限制 <span class="hint">(角色绝对不能做的事)</span></label>
+            <textarea id="dialogue_constraints" placeholder="例如：不能承诺任何需要行动才能完成的事情。不能编造物品。"></textarea>
+        </div>
+        <div class="row">
+            <div class="form-group">
+                <label>应该做 <span class="hint">(每行一条)</span></label>
+                <textarea id="do_list" placeholder="倾听别人说话&#10;在被问到艺术时变得健谈"></textarea>
+            </div>
+            <div class="form-group">
+                <label>不该做 <span class="hint">(每行一条)</span></label>
+                <textarea id="dont_list" placeholder="主动询问别人隐私&#10;对陌生人过度热情"></textarea>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===== Tab 2: 关系网 ===== -->
+<div class="panel" id="panel-relations">
+    <div class="card">
+        <h3>社交关系图</h3>
+        <p style="color: var(--text-dim); font-size: 13px; margin-bottom: 16px;">
+            定义你的 OC 与鹈鹕镇其他 NPC 的关系。权值衰减越小，八卦越容易传播到此人。
+        </p>
+        <table class="relation-table">
+            <thead>
+                <tr>
+                    <th style="width: 35%">关系对象</th>
+                    <th style="width: 25%">初始关系阶段</th>
+                    <th style="width: 25%">权值衰减</th>
+                    <th style="width: 15%">操作</th>
+                </tr>
+            </thead>
+            <tbody id="relation-list">
+                <!-- Dynamic rows -->
+            </tbody>
+        </table>
+        <button class="btn-add" onclick="addRelation()">+ 添加关系</button>
+    </div>
+
+    <div class="card">
+        <h3>各关系阶段描述</h3>
+        <p style="color: var(--text-dim); font-size: 13px; margin-bottom: 16px;">
+            为每个关系阶段定义行为规则、送礼规则和台词示例。未填写的阶段会自动使用默认值。
+        </p>
+        <div id="relationship-stages">
+            <!-- Dynamic stages -->
+        </div>
+    </div>
+</div>
+
+<!-- ===== Tab 3: 记忆种子 ===== -->
+<div class="panel" id="panel-memory">
+    <div class="card">
+        <h3>核心性格特征</h3>
+        <p style="color: var(--text-dim); font-size: 13px; margin-bottom: 16px;">
+            角色的底层性格逻辑，AI 会始终遵循。权重越高，对对话影响越大。
+        </p>
+        <div id="traits-list">
+            <!-- Dynamic items -->
+        </div>
+        <button class="btn-add" onclick="addMemoryItem('traits')">+ 添加性格特征</button>
+    </div>
+
+    <div class="card">
+        <h3>事实与背景</h3>
+        <p style="color: var(--text-dim); font-size: 13px; margin-bottom: 16px;">
+            角色已知的事实信息、生活细节、社交关系等。
+        </p>
+        <div id="facts-list">
+            <!-- Dynamic items -->
+        </div>
+        <button class="btn-add" onclick="addMemoryItem('facts')">+ 添加事实记忆</button>
+    </div>
+
+    <div class="card">
+        <h3>台词示例 (可选)</h3>
+        <p style="color: var(--text-dim); font-size: 13px; margin-bottom: 16px;">
+            上传 dialogue.json 文件，或手动添加台词示例。AI 会参考这些示例来模仿说话风格。
+        </p>
+        <div class="upload-zone" id="upload-zone">
+            <div class="icon">📄</div>
+            <p>拖拽 dialogue.json 到此处，或点击选择文件</p>
+            <input type="file" id="dialogue-file" accept=".json" style="display:none">
+        </div>
+        <div id="dialogue-preview"></div>
+
+        <div style="margin-top: 20px;">
+            <h4 style="color: var(--accent2); margin-bottom: 10px; font-size: 14px;">手动添加示例</h4>
+            <div id="dialogue-list">
+                <!-- Dynamic items -->
+            </div>
+            <button class="btn-add" onclick="addDialogueExample()">+ 添加台词示例</button>
+        </div>
+    </div>
+</div>
+
+<!-- Submit -->
+<div class="submit-area">
+    <button class="btn-submit" id="btn-submit" onclick="submitOC()">
+        生成 NPC → 一键接入对话
+    </button>
+    <div class="status" id="status"></div>
+</div>
+
+<script>
+// ===== Tab switching =====
+document.querySelectorAll('.tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+        tab.classList.add('active');
+        document.getElementById('panel-' + tab.dataset.tab).classList.add('active');
+    });
+});
+
+// ===== Available NPC names =====
+const NPC_NAMES = [
+    "Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily",
+    "Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent",
+    "Krobus","Leah","Leo","Lewis","Linus","Marnie","Maru","Pam",
+    "Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane",
+    "Vincent","Willy","Wizard"
+];
+
+const RELATIONSHIP_STAGES = [
+    "stranger", "acquaintance", "friend", "close friend", "best friend"
+];
+
+let dialogueData = null;
+
+// ===== Relation management =====
+function addRelation(name = '', stage = 'stranger', decay = 0.2) {
+    const tbody = document.getElementById('relation-list');
+    const tr = document.createElement('tr');
+
+    const nameOptions = NPC_NAMES.map(n =>
+        `<option value="${n}" ${n === name ? 'selected' : ''}>${n}</option>`
+    ).join('');
+
+    const stageOptions = RELATIONSHIP_STAGES.map(s =>
+        `<option value="${s}" ${s === stage ? 'selected' : ''}>${s}</option>`
+    ).join('');
+
+    tr.innerHTML = `
+        <td><select class="rel-name">${nameOptions}</select></td>
+        <td><select class="rel-stage">${stageOptions}</select></td>
+        <td><input type="number" class="rel-decay" value="${decay}" min="0.01" max="1" step="0.01"></td>
+        <td><button class="btn-remove" onclick="this.closest('tr').remove()">删除</button></td>
+    `;
+    tbody.appendChild(tr);
+}
+
+// Add default relations
+addRelation('Lewis', 'stranger', 0.25);
+addRelation('Robin', 'stranger', 0.3);
+
+// ===== Relationship stages =====
+function buildStages() {
+    const container = document.getElementById('relationship-stages');
+    container.innerHTML = '';
+
+    RELATIONSHIP_STAGES.forEach(stage => {
+        const isExpanded = stage === 'stranger';
+        const div = document.createElement('div');
+        div.className = 'card';
+        div.innerHTML = `
+            <h3 style="cursor:pointer" onclick="this.parentElement.querySelector('.stage-body').classList.toggle('collapsed')">
+                ${stage} <span style="font-size:12px; color:var(--text-dim)">(点击展开/折叠)</span>
+            </h3>
+            <div class="stage-body ${isExpanded ? '' : 'collapsed'}" style="${isExpanded ? '' : 'display:none'}">
+                <div class="form-group">
+                    <label>行为描述 <span class="hint">(这个阶段角色的社交态度)</span></label>
+                    <textarea class="stage-desc" data-stage="${stage}" placeholder="例如：完全的陌生人。保持礼貌但疏离。"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>互动指令 <span class="hint">(AI 在此阶段应如何回应)</span></label>
+                    <textarea class="stage-instruction" data-stage="${stage}" placeholder="例如：保持礼貌但绝对的疏离。句子简短。"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>送礼规则</label>
+                    <input type="text" class="stage-gift" data-stage="${stage}" placeholder="不送礼">
+                </div>
+                <div class="form-group">
+                    <label>台词示例 <span class="hint">(每行一条，格式: [标签] 台词内容)</span></label>
+                    <textarea class="stage-examples" data-stage="${stage}" placeholder="[sunny] 今天光线很好……适合画画。&#10;[rainy] 雨天让我想起一些事情。"></textarea>
+                </div>
+            </div>
+        `;
+        container.appendChild(div);
+    });
+
+    // Toggle handler
+    container.querySelectorAll('.stage-body.collapsed').forEach(el => el.style.display = 'none');
+    container.querySelectorAll('h3').forEach(h3 => {
+        h3.addEventListener('click', () => {
+            const body = h3.parentElement.querySelector('.stage-body');
+            body.style.display = body.style.display === 'none' ? '' : 'none';
+        });
+    });
+}
+buildStages();
+
+// ===== Memory items =====
+function addMemoryItem(type, content = '', weight = 0.75) {
+    const list = document.getElementById(type + '-list');
+    const div = document.createElement('div');
+    div.className = 'memory-item';
+    div.innerHTML = `
+        <textarea placeholder="描述内容...">${content}</textarea>
+        <div class="weight-control">
+            <label>权重</label>
+            <input type="number" value="${weight}" min="0.1" max="1.0" step="0.05">
+        </div>
+        <button class="btn-remove" onclick="this.closest('.memory-item').remove()">删除</button>
+    `;
+    list.appendChild(div);
+}
+
+// Default traits
+addMemoryItem('traits', '情感表达：习惯将关心藏在冷淡的外表下，被识破时会局促不安。', 0.85);
+addMemoryItem('traits', '社交边界：不主动搭话，但被搭话时不会无礼。不熟的时候会保持距离。', 0.75);
+
+// Default facts
+addMemoryItem('facts', '对玩家的初印象：觉得从城市搬到乡下的人大概是在逃避什么。', 0.70);
+
+// ===== Dialogue examples =====
+function addDialogueExample(tag = 'None', content = '') {
+    const list = document.getElementById('dialogue-list');
+    const div = document.createElement('div');
+    div.className = 'memory-item';
+    div.innerHTML = `
+        <div style="display:flex; gap:8px; flex:1;">
+            <input type="text" class="dlg-tag" value="${tag}" placeholder="标签" style="width:80px; flex:none;">
+            <textarea class="dlg-content" placeholder="台词内容...">${content}</textarea>
+        </div>
+        <button class="btn-remove" onclick="this.closest('.memory-item').remove()">删除</button>
+    `;
+    list.appendChild(div);
+}
+
+// ===== File upload =====
+const uploadZone = document.getElementById('upload-zone');
+const fileInput = document.getElementById('dialogue-file');
+const preview = document.getElementById('dialogue-preview');
+
+uploadZone.addEventListener('click', () => fileInput.click());
+uploadZone.addEventListener('dragover', e => { e.preventDefault(); uploadZone.classList.add('drag-over'); });
+uploadZone.addEventListener('dragleave', () => uploadZone.classList.remove('drag-over'));
+uploadZone.addEventListener('drop', e => {
+    e.preventDefault();
+    uploadZone.classList.remove('drag-over');
+    if (e.dataTransfer.files.length) handleFile(e.dataTransfer.files[0]);
+});
+fileInput.addEventListener('change', () => { if (fileInput.files.length) handleFile(fileInput.files[0]); });
+
+function handleFile(file) {
+    if (!file.name.endsWith('.json')) {
+        showStatus('请上传 .json 文件', 'error');
+        return;
+    }
+    const reader = new FileReader();
+    reader.onload = e => {
+        try {
+            dialogueData = JSON.parse(e.target.result);
+            preview.style.display = 'block';
+            preview.textContent = JSON.stringify(dialogueData, null, 2).substring(0, 2000);
+            showStatus('dialogue.json 已加载', 'info');
+        } catch (err) {
+            showStatus('JSON 解析失败: ' + err.message, 'error');
+        }
+    };
+    reader.readAsText(file);
+}
+
+// ===== Submit =====
+function collectData() {
+    const name = document.getElementById('oc_name').value.trim();
+    if (!name) { showStatus('请填写 OC 名称', 'error'); return null; }
+
+    // Relations
+    const relations = {};
+    document.querySelectorAll('#relation-list tr').forEach(tr => {
+        const npcName = tr.querySelector('.rel-name').value;
+        const decay = parseFloat(tr.querySelector('.rel-decay').value) || 0.2;
+        if (npcName) relations[npcName] = decay;
+    });
+
+    // Relationship stages
+    const relationshipMap = {};
+    RELATIONSHIP_STAGES.forEach(stage => {
+        const desc = document.querySelector(`.stage-desc[data-stage="${stage}"]`)?.value.trim() || '';
+        const instr = document.querySelector(`.stage-instruction[data-stage="${stage}"]`)?.value.trim() || '';
+        const gift = document.querySelector(`.stage-gift[data-stage="${stage}"]`)?.value.trim() || '不送礼';
+        const examplesRaw = document.querySelector(`.stage-examples[data-stage="${stage}"]`)?.value.trim() || '';
+
+        const examples = [];
+        if (examplesRaw) {
+            examplesRaw.split('\n').forEach(line => {
+                line = line.trim();
+                if (!line) return;
+                const match = line.match(/^\[(.+?)\]\s*(.+)/);
+                if (match) {
+                    examples.push({ tag: match[1], content: match[2] });
+                } else {
+                    examples.push({ tag: 'None', content: line });
+                }
+            });
+        }
+
+        relationshipMap[stage] = {
+            description: desc || `与${name}处于${stage}关系。`,
+            instruction: instr,
+            gift: gift,
+            examples: examples
+        };
+    });
+
+    // Memory items
+    const traits = [];
+    document.querySelectorAll('#traits-list .memory-item').forEach(item => {
+        const content = item.querySelector('textarea').value.trim();
+        const weight = parseFloat(item.querySelector('input[type="number"]').value) || 0.7;
+        if (content) traits.push({ content, importance: weight });
+    });
+
+    const facts = [];
+    document.querySelectorAll('#facts-list .memory-item').forEach(item => {
+        const content = item.querySelector('textarea').value.trim();
+        const weight = parseFloat(item.querySelector('input[type="number"]').value) || 0.7;
+        if (content) facts.push({ content, importance: weight });
+    });
+
+    // Dialogue examples
+    const dialogueExamples = [];
+    document.querySelectorAll('#dialogue-list .memory-item').forEach(item => {
+        const tag = item.querySelector('.dlg-tag').value.trim() || 'None';
+        const content = item.querySelector('.dlg-content').value.trim();
+        if (content) dialogueExamples.push({ tag, content });
+    });
+
+    // Do / Don't lists
+    const doList = document.getElementById('do_list').value.trim().split('\n').filter(s => s.trim());
+    const dontList = document.getElementById('dont_list').value.trim().split('\n').filter(s => s.trim());
+
+    return {
+        oc_name: name,
+        character_type: document.getElementById('character_type').value,
+        persona_core: document.getElementById('persona_core').value.trim(),
+        persona_background: document.getElementById('persona_background').value.trim(),
+        persona_growth: document.getElementById('persona_growth').value.trim(),
+        speech_style: document.getElementById('speech_style').value.trim(),
+        mood_rules: document.getElementById('mood_rules').value.trim(),
+        dialogue_constraints: document.getElementById('dialogue_constraints').value.trim(),
+        do_list: doList,
+        dont_list: dontList,
+        relations: relations,
+        relationship_map: relationshipMap,
+        traits: traits,
+        facts: facts,
+        dialogue_examples: dialogueExamples,
+        dialogue_json: dialogueData
+    };
+}
+
+// API base URL — when served from FastAPI on :8000, use same origin; fallback for Flask :5000
+const API_BASE = window.location.port === '5000' ? 'http://localhost:8000' : '';
+
+function submitOC() {
+    const data = collectData();
+    if (!data) return;
+
+    const btn = document.getElementById('btn-submit');
+    btn.disabled = true;
+    showStatus('正在生成 NPC 配置...', 'info');
+
+    fetch(API_BASE + '/oc/build', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+    })
+    .then(res => res.json())
+    .then(result => {
+        btn.disabled = false;
+        if (result.success) {
+            showStatus(`NPC「${data.oc_name}」已成功创建！${result.message}`, 'success');
+        } else {
+            showStatus('创建失败: ' + result.error, 'error');
+        }
+    })
+    .catch(err => {
+        btn.disabled = false;
+        showStatus('网络错误: ' + err.message, 'error');
+    });
+}
+
+function showStatus(msg, type) {
+    const el = document.getElementById('status');
+    el.textContent = msg;
+    el.className = 'status ' + type;
+}
+
+// ===== Load existing OC list =====
+function loadExistingOCs() {
+    fetch(API_BASE + '/oc/list')
+        .then(res => res.json())
+        .then(data => {
+            if (data.ocs && data.ocs.length > 0) {
+                const list = data.ocs.map(name => `<span style="background:var(--accent);padding:4px 12px;border-radius:6px;font-size:12px;">${name}</span>`).join(' ');
+                const info = document.createElement('div');
+                info.className = 'card';
+                info.style.maxWidth = '800px';
+                info.style.margin = '0 auto 16px';
+                info.innerHTML = `<h3>已接入的 OC 角色</h3><div style="display:flex;gap:8px;flex-wrap:wrap;">${list}</div>`;
+                document.querySelector('.tabs').before(info);
+            }
+        })
+        .catch(() => {});
+}
+loadExistingOCs();
+</script>
+
+</body>
+</html>

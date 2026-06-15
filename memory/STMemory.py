@@ -1,11 +1,19 @@
 import json
 import os
+import sys
+
+def _get_data_dir() -> str:
+    """获取数据存储目录（兼容 PyInstaller 打包）"""
+    if getattr(sys, 'frozen', False):
+        # PyInstaller 打包后，数据放在 exe 同级目录下
+        return os.path.dirname(sys.executable)
+    return os.path.dirname(os.path.abspath(__file__))
 
 #======短期记忆=======
 class ChatMemory:
     @staticmethod
     def get_path(npc_id: str):
-        return f"chat_history_{npc_id}.json"
+        return os.path.join(_get_data_dir(), f"chat_history_{npc_id}.json")
 
     @staticmethod
     def load(npc_id: str, limit: int = 10):

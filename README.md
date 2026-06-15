@@ -110,3 +110,40 @@ NPC 使用 **三层记忆架构** 来保持长期人格一致性。
 - 高权重事件
 
 该记忆将作为角色对玩家的好感度增减标准反馈回游戏。
+
+---
+
+# 🎨 OC 角色构建器
+
+AgenticOC 内置了一个 **网页端 OC 角色构建器**，让非技术用户也能轻松创建自己的原创角色并接入 AI 对话系统。
+
+## 使用方式
+
+1. 启动 AgenticOC 服务器（双击 `Start_AgenticOC.bat`）
+2. 浏览器打开 `http://localhost:5000/oc`
+3. 在网页表单中填写 OC 信息：
+   - **基础人设**：名称、核心性格、背景故事、说话风格
+   - **关系网**：OC 与鹈鹕镇 NPC 的关系和权值衰减
+   - **记忆种子**：核心性格特征、事实背景、台词示例
+4. 点击「生成 NPC → 一键接入对话」
+5. 重启游戏，即可与你的 OC 对话！
+
+## 技术原理
+
+用户填写的表单数据会被自动解析并写入三处：
+
+| 数据 | 写入位置 | 作用 |
+|------|---------|------|
+| NPC JSON 配置 | `prompt_construction/npc/{OC名}.json` | 定义角色人设、关系阶段、台词示例 |
+| Persona Seed | ChromaDB `persona_seed` collection | 角色的核心记忆，确保 AI 始终遵循人设 |
+| 关系网 | `prompt_construction/npc/relation_map.py` | 社交图谱，控制 Gossip 传播路径 |
+
+整个过程 **无需手动编辑任何代码文件**，OC Builder 会自动完成所有配置和导入。
+
+## 一键运行兼容性
+
+OC Builder 完全兼容 PyInstaller 打包模式：
+- 网页 UI 在 `http://localhost:5000/oc` 提供服务
+- AI 服务器在 `http://localhost:8000` 提供服务
+- 两者在 `Start_AgenticOC.bat` 启动时同时运行
+- 用户上传的 OC 数据保存在 `oc_uploads/` 目录

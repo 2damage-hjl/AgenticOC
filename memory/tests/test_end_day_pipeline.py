@@ -41,13 +41,12 @@ def _make_state(npc_id="Damon", time_num=5, location="Town"):
 
 def _write_mid_term_file(npc_id, scenes, tmp_dir):
     """写入中期记忆文件到临时目录。"""
-    # 需要修改 MidTermMemory 的文件路径
     from memory.MTMemory import MidTermMemory
     file_path = os.path.join(tmp_dir, f"mid_term_{npc_id}.json")
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(scenes, f, ensure_ascii=False, indent=2)
     # 猴子补丁：让 MidTermMemory 从临时目录读取
-    MidTermMemory.FILE_PATH_TEMPLATE = os.path.join(tmp_dir, "mid_term_{npc_id}.json")
+    MidTermMemory._get_file_path = staticmethod(lambda npc_id=npc_id, td=tmp_dir: os.path.join(td, f"mid_term_{npc_id}.json"))
     return file_path
 
 

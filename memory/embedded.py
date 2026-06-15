@@ -3,8 +3,16 @@ os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 import shutil
 import uuid
 import time as _time
+import sys
 from typing import List, Dict, Optional
 from langchain_core.documents import Document
+
+
+def _get_data_dir() -> str:
+    """获取数据存储目录（兼容 PyInstaller 打包）"""
+    if getattr(sys, 'frozen', False):
+        return os.path.dirname(sys.executable)
+    return os.path.dirname(os.path.abspath(__file__))
 
 
 class MemoryStore:
@@ -26,7 +34,9 @@ class MemoryStore:
         "narrative_arc": "arc",
     }
 
-    def __init__(self, db_path="./chroma_db"):
+    def __init__(self, db_path=None):
+        if db_path is None:
+            db_path = os.path.join(_get_data_dir(), "chroma_db")
         self.db_path = db_path
         self._embeddings = None
         self._collections = {}  # 延迟创建：等 embedding 模型加载后再初始化
@@ -141,8 +151,9 @@ class MemoryStore:
         if os.path.exists(self.db_path):
             shutil.rmtree(self.db_path)
             print(f"已清理数据库目录: {self.db_path}")
-            if os.path.exists(".persona_init_done"):
-                os.remove(".persona_init_done")
+            init_flag = os.path.join(_get_data_dir(), ".persona_init_done")
+            if os.path.exists(init_flag):
+                os.remove(init_flag)
 
     def add(self, layer: str, content: str, metadata: Optional[Dict]=None, doc_id: Optional[str]=None):
         """旧接口兼容：委托给 add_memory。"""

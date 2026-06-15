@@ -1,8 +1,15 @@
+"""AgenticOC Web Application — Flask app serving both the OC builder and legacy routes."""
+
 import os
 import requests
 from flask import Flask, render_template, request, jsonify
 
 app = Flask(__name__)
+
+# Register OC Builder blueprint
+from web.oc_builder_routes import oc_bp, auto_import_pending_ocs
+app.register_blueprint(oc_bp)
+
 
 # ====== LLM 调用 ======
 def call_llm(api_key, model, prompt, base_url=None):
@@ -31,7 +38,7 @@ def call_llm(api_key, model, prompt, base_url=None):
 
     response = requests.post(url, headers=headers, json=data)
 
-    # 👉 debug
+    # debug
     print("STATUS:", response.status_code)
     print("RAW RESPONSE:", response.text)
 
@@ -147,4 +154,6 @@ def index():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    # Auto-import any pending OCs on startup
+    auto_import_pending_ocs()
+    app.run(debug=True, port=5000)
