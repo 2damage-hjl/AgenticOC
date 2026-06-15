@@ -1,0 +1,6 @@
+lancedb>=0.17.0
+sentence-transformers>=3.0.0
+pyyaml>=6.0.0
+numpy>=1.26.0
+tqdm>=4.66.0
+python-dotenv>=1.0.0

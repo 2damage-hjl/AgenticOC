@@ -1,0 +1,2723 @@
+{
+  "dataset_meta": {
+    "schema": "canonical_dialogue_v2",
+    "source_root": "data/game_scripts/Dialogue",
+    "collection": "Dialogue",
+    "character": "Jas",
+    "record_count": 41,
+    "dialogue_type_counts": {
+      "general_dialogue": 41
+    }
+  },
+  "records": [
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:AcceptBirthdayGift_Negative",
+      "author_key": "AcceptBirthdayGift_Negative",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ein Geburtstagsgeschenk? Oh... Das gefällt mir nicht.$s",
+        "es": "¿Un regalo de cumpleaños? Oh... no me gusta.$s",
+        "fr": "Un cadeau d’anniversaire? Ho... je ne l’aime pas du tout.$s",
+        "hu": "Egy szülinapi ajándék? Ó... Ez nem tetszik.$s",
+        "it": "Un regalo di compleanno? Oh... non mi piace.$s",
+        "ja": "誕生日プレゼント？うーん…これキライなんだ。$s",
+        "en": "A birthday present? Oh... I don't like this.$s",
+        "ko": "생일선물? 어... 이건 싫어요.$s",
+        "pt": "Um presente de aniversário? Oh... eu não gostei disso.$s",
+        "ru": "Подарок на день рождения? Ой... Мне такое не нравится.$s",
+        "tr": "Doğum günü hediyesi mi? Ya... Bunu sevmedim.$s",
+        "zh": "是生日礼物吗？啊……我不喜欢。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptBirthdayGift_Negative' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:AcceptBirthdayGift_Positive",
+      "author_key": "AcceptBirthdayGift_Positive",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wow, ein Geburtstagsgeschenk! Ich liebe es!$h",
+        "es": "¡Guau, un regalo de cumple! ¡Me encanta!$h",
+        "fr": "Wouah, un cadeau d’anniversaire ! Je l’adore !$h",
+        "hu": "Váó, egy szülinapi ajándék! Imádom!$h",
+        "it": "Wow, un regalo di compleanno! Mi piace tantissimo!$h",
+        "ja": "わーい、誕生日プレゼントだ！これだーい好き！$h",
+        "en": "Wow, a birthday present! I love it!$h",
+        "ko": "와, 생일선물! 너무 좋아요!$h",
+        "pt": "Uau, um presente de aniversário! Eu amei!$h",
+        "ru": "Ух ты, подарок! Мне очень нравится!$h",
+        "tr": "Vay, doğum günü hediyesi! Bayıldım!$h",
+        "zh": "哇，是生日礼物！我很喜欢！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptBirthdayGift_Positive' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:AcceptGift_(O)103",
+      "author_key": "AcceptGift_(O)103",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh, ein kleines Püppchen! Sie ist etwas schmutzig, aber ich werde sie baden. Danke!$h",
+        "es": "Oh, ¡una muñequita! Está un poquito sucia, pero le daré un baño. ¡Gracias!$h",
+        "fr": "Ho, une petite poupée ! Elle est un peu sale, mais je vais lui donner un bon bain. Merci beaucoup !$h",
+        "hu": "Óh, egy játékbaba! Kissé piszkos, de majd megfürdetem. Köszönöm!$h",
+        "it": "Oh, una bambolina! È un po' sporca, ma le farò il bagnetto. Grazie!$h",
+        "ja": "わぁ、ちいさなお人形！汚れちゃってるね、お風呂に入れてあげくちゃ。ありがとう！$h",
+        "en": "Oh, a little dolly! She's kind of dirty, but I'll give her a bath. Thanks!$h",
+        "ko": "오, 작은 인형! 조금 지저분하네요, 목욕시켜줘야겠어요. 고마워요!$h",
+        "pt": "Oh, uma boneca! Ela tá um pouco suja, mas eu vou dar um banho nela. Obrigada!$h",
+        "ru": "Ой, куколка! Она немного грязная, но я ее искупаю. Спасибо!$h",
+        "tr": "Aa, küçük bir bebek! Biraz kirli ama onu yıkarım. Teşekkürler!$h",
+        "zh": "啊，是个娃娃！有点脏嘛，我要给它洗个澡。谢谢你！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)103' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:AcceptGift_(O)StardropTea",
+      "author_key": "AcceptGift_(O)StardropTea",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Bist du sicher? Es riecht so gut! Ich werde nur einen Fingerhut voll pro Tag trinken.$h",
+        "es": "¿Seguro? ¡Huele tan bien! Solo tomaré unas gotitas cada día.$h",
+        "fr": "Vraiment ? Ça sent tellement bon ! Je n’en boirai qu’un petit dé à coudre chaque jour.$h",
+        "hu": "Biztos vagy benne? Olyan jó az illata! Naponta csak egy gyűszűnyit fogok belőle inni.$h",
+        "it": "Davvero me lo regali? Ha un profumo buonissimo! Ne berrò solo un goccio al giorno.$h",
+        "ja": "いいの？とってもいい香りね！毎日ほんのちょっとずつ飲むわ。$h",
+        "en": "Are you sure? It smells so good! I'll only drink a thimbleful a day.$h",
+        "ko": "정말요? 향기 너무 좋아요! 하루에 한 모금씩만 마실게요.$h",
+        "pt": "Você tem certeza? O cheiro é tão bom! Eu vou beber só um pouquinho por dia.$h",
+        "ru": "Это точно мне? Как вкусно пахнет! Буду по капельке в день цедить.$h",
+        "tr": "Emin misin? Aşırı güzel kokuyor! Her gün azar azar içeceğim.$h",
+        "zh": "确定要给我吗？好香啊！那我每天喝一丁点。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)StardropTea' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:AcceptGift_(TR)FairyBox",
+      "author_key": "AcceptGift_(TR)FairyBox",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wow, es ist so hübsch! Und da ist eine Fee drin? *kicher*... Ich kann sie singen hören. Sie wird meine heimliche Freundin sein.$h",
+        "es": "¡Guau, es tan bonita! ¿Y hay un hada dentro? *risita*... Puedo escucharla cantando. Será mi amiga secreta.$h",
+        "fr": "Wouah, c’est tellement joli ! Et il y a une fée à l’intérieur ? *glousse*... Je peux l’entendre chanter. Elle sera mon amie secrète.$h",
+        "hu": "Váó, ez annyira szép! És egy tündérke van benne? *kacag*... Hallom ahogy énekel. Ő lesz a titkos barátom.$h",
+        "it": "Wow, com'è bella! E dentro c'è una fatina? *risolino*... La sento cantare. Sarà la mia amichetta segreta.$h",
+        "ja": "わぁ、とってもかわいいね！妖精さんが中にいるの？ うふふ…歌声が聞こえるわ。秘密の友だちができちゃった。$h",
+        "en": "Wow, it's so pretty! And there's a fairy inside? *giggle*... I can hear her singing. She'll be my secret friend.$h",
+        "ko": "우와, 너무 예뻐요! 안에 요정이 있어요? *히히*... 노래하는 게 들려요. 나만의 친구로 간직할게요.$h",
+        "pt": "Uau, é tão linda! E tem uma fada dentro? *risada*... Eu consigo ouvir ela cantando. Ela vai ser a minha amiga secreta.$h",
+        "ru": "Ух ты, какая красивая! А внутри что, фея? *смеется*... Я слышу, как она поет. Она будет моей тайной подружкой.$h",
+        "tr": "Vay, çok güzel! İçinde bir peri mi var? *kıkırdar*... Şarkı söylediğini duyabiliyorum. O benim gizli arkadaşım olacak.$h",
+        "zh": "哇，好漂亮！里面还有仙女？哈哈……我听到她在唱歌了，我要偷偷跟她做好朋友。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(TR)FairyBox' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:AcceptGift_Negative_alcohol_item",
+      "author_key": "AcceptGift_Negative_alcohol_item",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ähm... Ich sollte das nicht trinken. Ist das nicht für Erwachsene?$s",
+        "es": "Umm... No debo beber esto. ¿No es para adultos?$s",
+        "fr": "Euh... Je ne suis pas censé boire ça. Ce n’est pas pour les adultes ça ?$s",
+        "hu": "Öhm... Ezt nem szabadna meginnom. Ez nem csak felnőtteknek való?$s",
+        "it": "Ehmmm... Questa è una cosa che non dovrei bere. Non è solo per i grandi?$s",
+        "ja": "うぅ…これは飲んじゃいけないんだよ。おとなの人のものでしょ？$s",
+        "en": "Umm... I'm not supposed to drink this. Isn't it for adults?$s",
+        "ko": "어... 난 이거 마시면 안 돼요. 어른들만 마시는 거 아니에요?$s",
+        "pt": "Hmm... Eu não posso beber. Isso não é para adultos?$s",
+        "ru": "Эм... Мне же нельзя? Это для взрослых?$s",
+        "tr": "Şey... Bunu içmemem gerekiyor. Bu büyükler için değil mi?$s",
+        "zh": "呃……这个不是大人喝的吗？我还不能喝。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_Negative_alcohol_item' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:AcceptGift_Negative_coffee_item",
+      "author_key": "AcceptGift_Negative_coffee_item",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh... Tante Marnie lässt mich noch keinen Kaffee trinken...$s",
+        "es": "Oh... La Tía Marnie no me deja beber café aún...$s",
+        "fr": "Ho... Tante Marnie ne me laisse pas encore boire de café...$s",
+        "hu": "Óh... Marnie néni még nem engedi nekem, hogy kávét igyak...$s",
+        "it": "Oh... Zia Marnie non mi fa ancora bere il caffè...$s",
+        "ja": "えっと…マーニーおばさんから、まだコーヒーは飲んじゃだめって言われてるの…$s",
+        "en": "Oh... Aunt Marnie doesn't let me drink coffee yet...$s",
+        "ko": "오... 마니 이모가 아직 커피는 마시면 안 된대요...$s",
+        "pt": "Oh... A tia Marnie não me deixa tomar café ainda...$s",
+        "ru": "О... Тетушка Марни пока не разрешает мне пить кофе...$s",
+        "tr": "Of... Marnie teyze hâlâ benim kahve içmeme izin vermiyor...$s",
+        "zh": "啊……玛妮阿姨还不让我喝咖啡……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_Negative_coffee_item' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:AcceptGift_Positive_doll_item",
+      "author_key": "AcceptGift_Positive_doll_item",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh, ich mag ihn! Er wird gut zu meinen anderen Freunden passen.$h",
+        "es": "Oh, ¡me gusta! Encajará bien con mis otros amigos.$h",
+        "fr": "Ho, je l’adore ! Mes autres amis vont être tellement contents.$h",
+        "hu": "Óh, őt kedvelem! Jól be fog illeszkedni a többi barátom közé.$h",
+        "it": "Oh, mi piace! Si troverà benissimo con gli altri miei amici.$h",
+        "ja": "まぁ！すてき！きっと私のほかのお友だちともすぐに仲良しになれるわ！$h",
+        "en": "Oh, I like him! He'll fit right in with my other friends.$h",
+        "ko": "오, 마음에 들어요! 제 다른 친구들이랑 금방 친해질 거예요.$h",
+        "pt": "Oh, eu gostei! Vai ficar perfeito com os meus outros amiguinhos.$h",
+        "ru": "Ой, он мне нравится. Ему будет хорошо с моими остальными друзьями.$h",
+        "tr": "Aa, çok beğendim! Arkadaşlarımla iyi anlaşacak.$h",
+        "zh": "啊，这个好好玩！跟我的朋友们放在一起肯定很合适。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_Positive_doll_item' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Fri",
+      "author_key": "Fri",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "... Ich kenne dich nicht.$u",
+        "es": "...No te conozco.$u",
+        "fr": "... Je ne te connais pas.$u",
+        "hu": "... Nem is ismerlek.$u",
+        "it": "... Non ti conosco.$u",
+        "ja": "…あなたのこと、 よく知らない。$u",
+        "en": "... I don't know you.$u",
+        "ko": "... 누구세요.$u",
+        "pt": "... Não conheço você.$u",
+        "ru": "... Я тебя не знаю.$u",
+        "tr": "... Seni tanımıyorum.$u",
+        "zh": "……我不认识你。$u"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Fri2",
+      "author_key": "Fri2",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Magst du meine Schleife?",
+        "es": "¿Te gusta mi lazo?",
+        "fr": "Mon noeud te plaît ?",
+        "hu": "Tetszik a masnim?",
+        "it": "Ti piace il mio fiocco?",
+        "ja": "この リボン、 どうかな？",
+        "en": "Do you like my bow?",
+        "ko": "내 리본 마음에 들어요?",
+        "pt": "Gostou do meu laço?",
+        "ru": "Тебе нравится мой бантик?",
+        "tr": "Fiyonkumu sevdin mi?",
+        "zh": "你喜欢我的蝴蝶结吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Fri4",
+      "author_key": "Fri4",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich mag es, auf dem Hof zu leben... Am besten ist das frische Eis aus der Milch unserer Kühe.",
+        "es": "Me gusta vivir en la granja... Lo mejor es el helado recién hecho con leche de nuestras vacas.",
+        "fr": "J’aime bien vivre à la ferme... Ce que je préfère à la ferme, ce sont les crèmes glacées au lait de vache.",
+        "hu": "Szeretek a farmon élni... A kedvencem a friss fagylalt a bocijaink tejéből.",
+        "it": "Mi piace vivere in una fattoria... La cosa più bella è il gelato fresco fatto col latte delle nostre mucche.",
+        "ja": "牧場は 好きなんだ… 牛のミルクから 作った 新鮮な アイスクリームが 一番お気に入りなの。",
+        "en": "I like living on the farm... my favorite is the fresh ice cream from our cows' milk.",
+        "ko": "농장에서 사는 거 좋아요... 우리 소가 준 우유로 만든 신선한 아이스크림이 제일 좋아요.",
+        "pt": "Gosto de viver na fazenda... minha comida favorita é sorvete feito com o leite de nossas vacas.",
+        "ru": "Мне нравится жить на ферме... Больше всего мне нравится свежее мороженое из молока наших коровок.",
+        "tr": "Çiftlikte yaşamayı seviyorum... En sevdiğim şey ineklerimizin sütünden yapılan taze dondurma.",
+        "zh": "我喜欢住在农场……用自家产牛奶做出来的新鲜牛奶冰淇淋是我的最爱！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:GreenRain",
+      "author_key": "GreenRain",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe Angst...$s",
+        "es": "Tengo miedo...$s",
+        "fr": "J’ai peur...$s",
+        "hu": "Félek...$s",
+        "it": "Ho paura...$s",
+        "ja": "こわいよう…$s",
+        "en": "I'm scared...$s",
+        "ko": "무서워요...$s",
+        "pt": "Estou com medo...$s",
+        "ru": "Мне страшно...$s",
+        "tr": "Korkuyorum...$s",
+        "zh": "我好害怕……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "weather_green_rain",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:GreenRain_2",
+      "author_key": "GreenRain_2",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich hoffe, der Regen färbt mein Kleid nicht grün...$s",
+        "es": "Espero que la lluvia no me manche de verde el vestido...$s",
+        "fr": "J’espère que la pluie ne rendra pas ma robe toute verte...$s",
+        "hu": "Remélem az eső nem fogja bezöldíteni a ruhámat...$s",
+        "it": "Spero che la pioggia non mi farà diventare verde il vestito...$s",
+        "ja": "雨でドレスが緑色になっちゃたらいやだな…$s",
+        "en": "I hope the rain doesn't turn my dress green...$s",
+        "ko": "비 때문에 드레스가 녹색으로 물들지 않았으면 좋겠어요...$s",
+        "pt": "Espero que o meu vestido não fique verde por causa da chuva...$s",
+        "ru": "Надеюсь, дождь не окрасит мое платье в зеленый...$s",
+        "tr": "Umarım yağmur, elbisemi yeşile çevirmez...$s",
+        "zh": "希望雨水不要把我的裙子变成绿色……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Introduction",
+      "author_key": "Introduction",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "...$u#$b#Hi...$u",
+        "es": "...$u#$b#Hola...$u",
+        "fr": "...$u#$b#Salut...$u",
+        "hu": "...$u#$b#Szia...$u",
+        "it": "...$u#$b#Ciao...$u",
+        "ja": "…$u#$b#こんにちは…$u",
+        "en": "...$u#$b#Hi...$u",
+        "ko": "...$u#$b#안녕하세요...$u",
+        "pt": "...$u#$b#Oi...$u",
+        "ru": "...$u#$b#Здравствуйте...$u",
+        "tr": "...$u#$b#Selam...$u",
+        "zh": "……$u#$b#你好……$u"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Introduction' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Mon",
+      "author_key": "Mon",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh... Suchst du nach Tante Marnie?$u",
+        "es": "Oh... ¿Buscas a mi tía Marnie?$u",
+        "fr": "Oh... Tu cherches Tante Marnie ?$u",
+        "hu": "Ó...Marnie nénit keresed?$u",
+        "it": "Oh... Cerchi zia Marnie?$u",
+        "ja": "えっと…マーニーおばさんを 探してるの？$u",
+        "en": "Oh...Are you looking for Aunt Marnie?$u",
+        "ko": "오...마니 이모 찾고 있어요?$u",
+        "pt": "Ah... você está procurando pela tia Marnie?$u",
+        "ru": "Ой... Вы ищете тетю Марни?$u",
+        "tr": "Ah... Marnie teyzeyi mi arıyorsun?$u",
+        "zh": "哦……你是在找玛妮姑妈吗？$u"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Mon4",
+      "author_key": "Mon4",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hi, Herr @.^Hi, Frau @.#$e#Es macht Spaß, auf einem Hof zu leben.$h",
+        "es": "Hola, @.#$e#Es divertido vivir en una granja.$h",
+        "fr": "Bonjour, Monsieur @.^Bonjour, Madame @.#$e#C’est amusant de vivre dans une ferme.$h",
+        "hu": "Helló, @ úr.^Helló, @ néni.#$e#Jó móka farmon élni.$h",
+        "it": "Ciao, signor @.^Ciao, signorina @.#$e#È divertente vivere in una fattoria.$h",
+        "ja": "こんにちは、@さん。#$e#農場生活って 楽しいね。$h",
+        "en": "Hi, Mr. @.^Hi, Ms. @.#$e#It's fun to live on a farm.$h",
+        "ko": "안녕하세요, @ 아저씨.^안녕하세요, @ 아줌마.#$e#농장에 사는 거 재밌어요.$h",
+        "pt": "Oi, sr. @.^Oi, srª@.#$e#É divertido morar em uma fazenda.$h",
+        "ru": "Привет, мистер. @.^Привет, мисс @.#$e#На ферме жить весело.$h",
+        "tr": "Merhaba, Bay @.^Merhaba, Bayan @.#$e#Çiftlikte yaşamak çok güzel.$h",
+        "zh": "嗨，@先生。^嗨，@女士。#$e#农场生活是很有趣的哦。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Resort",
+      "author_key": "Resort",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Tante Marnie sagte, ich solle mir keinen Sonnenbrand holen... Aber wenn ich schnell laufe, fühlt es sich kühl an, also denke ich, dass das passen sollte.$h",
+        "es": "La tía Marnie me dijo que no me quemase... Pero cuando ando rápido hace fresquito, así que estaré bien.$h",
+        "fr": "Tante Marnie m’a dit de ne pas attraper des coups de soleil... Mais quand je marche vite, ça se rafraîchit... Je pense que ça ira. $h",
+        "hu": "Marnie néni mondta, hogy ne égjek le... De mikor gyorsan sétálok, akkor az jó érzés, szóval szerintem jól leszek.$h",
+        "it": "Zia Marnie mi ha detto di non scottarmi... Ma quando cammino in fretta sento fresco, credo di essere a posto.$h",
+        "ja": "マーニーおばさんが日焼けしちゃダメって言うの…でも早歩きすると涼しいから、わたしはきっと大丈夫。$h",
+        "en": "Aunt Marnie told me not to get burnt... But when I walk fast, it feels cool, so I think I'll be okay.$h",
+        "ko": "마니 고모가 햇볕에 타는 거 조심하라고 했어요... 근데 빨리 걸어 다니면 시원하니까 괜찮을 것 같아요.$h",
+        "pt": "A Tia Marnie falou pra eu não me queimar... Mas quando eu ando rápido, fica fresco, então acho que vou ficar bem.$h",
+        "ru": "Тетя Марни сказала, чтобы я не обгорела... Но если быстро идти, то тебя ветерок обдувает, так что все в порядке.$h",
+        "tr": "Marnie teyzem güneşin altında kalmamamı söyledi... Hızlı yürüdüğümde serinlik hissediyorum. Bence sorun olmaz.$h",
+        "zh": "玛妮姑妈叮嘱我别晒伤了……但如果我走得够快，就会感觉很凉爽，所以应该没事的。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Resort_Entering",
+      "author_key": "Resort_Entering",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich sehe eine Krabbe",
+        "es": "¡Veo un cangrejo!",
+        "fr": "Je vois un crabe !",
+        "hu": "Látok egy rákot!",
+        "it": "Vedo un granchio!",
+        "ja": "カニさんを見たわ！",
+        "en": "I see a crab!",
+        "ko": "게가 있어요!",
+        "pt": "Eu vejo um caranguejo!",
+        "ru": "Я вижу краба!",
+        "tr": "Bir yengeç gördüm!",
+        "zh": "我看到螃蟹了！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Resort_Leaving",
+      "author_key": "Resort_Leaving",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe Sand in meinem Schuh...$s",
+        "es": "Tengo arena en mis zapatillas...$s",
+        "fr": "J’ai du sable dans ma chaussure...$s",
+        "hu": "Homok került a cipőmbe...$s",
+        "it": "Ho la sabbia nelle scarpe...$s",
+        "ja": "靴に砂が入っちゃった…$s",
+        "en": "I've got sand in my shoe...$s",
+        "ko": "신발에 모래가 들어갔어요...$s",
+        "pt": "Tem areia no meu sapato...$s",
+        "ru": "У меня песок в ботиночке...$s",
+        "tr": "Ayakkabıma kum girdi...$s",
+        "zh": "我鞋里进沙子了……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Resort_Shore",
+      "author_key": "Resort_Shore",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich sammle Muscheln... Ich werde eine Halskette machen!",
+        "es": "Estoy recogiendo conchas... ¡Voy a hacerme un colgante!",
+        "fr": "Je collectionne des coquillages... Je vais faire un collier !",
+        "hu": "Kagylókat gyűjtök... Csinálok egy nyakláncot!",
+        "it": "Sto raccogliendo conchiglie... Ci farò una collana!",
+        "ja": "貝殻を集めて…ネックレスを作りたいの！",
+        "en": "I'm collecting seashells... I'm gonna make a necklace!",
+        "ko": "조개껍데기를 모으고 있어요... 목걸이를 만들 거예요!",
+        "pt": "Estou coletando conchas... eu vou fazer um colar!",
+        "ru": "Я собираю ракушки... Ожерелье сделаю!",
+        "tr": "Deniz kabuğu topluyorum... Bunlardan kolye yapacağım!",
+        "zh": "我在收集贝壳……我要做一条项链！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Sat",
+      "author_key": "Sat",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du riechst nach Gras.$u",
+        "es": "Hueles a hierba.$u",
+        "fr": "Tu sens l’herbe.$u",
+        "hu": "Fűillatod van.$u",
+        "it": "Profumi di erba.$u",
+        "ja": "あなたから 草の 匂いが するね。$u",
+        "en": "You smell like grass.$u",
+        "ko": "풀냄새 나요.$u",
+        "pt": "Você tem cheiro de grama.$u",
+        "ru": "От тебя пахнет травой.$u",
+        "tr": "Çimen kokuyorsun.$u",
+        "zh": "你身上有青草的味道。$u"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Sat2",
+      "author_key": "Sat2",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Manchmal suche ich nach Flusskrebsen. Sag Tante Marnie nichts... Aber ich habe mal einen an eine Kuh verfüttert.#$e#Sie fand es lecker.",
+        "es": "A veces busco cangrejos en el río. No se lo digas a mi tía Marnie... Pero una vez le di uno a una de las vacas.#$e#Le encantó.",
+        "fr": "Parfois, je cherche des écrevisses dans la rivière. Ne le dis pas à Tante Marnie... mais j’en ai donné à manger à une vache une fois.#$e#Elle a adoré ça.",
+        "hu": "Néha folyami rákokra vadászok a folyóban. Ne mondd el Marnie néninek... de egyszer megetettem egyet egy bocival.#$e#Nagyon ízlett neki.",
+        "it": "Ogni tanto vado in cerca di gamberi nel fiume. Non dirlo a zia Marnie... ma una volta ne ho dato uno a una mucca.#$e#Si è leccata i baffi.",
+        "ja": "時々 川に行って ザリガニを 探すの。一度だけ、 牛に 食べさせたこと… マーニー おばさんには 言わないでね。#$e#牛さん、 その味を 気に入っちゃったから。",
+        "en": "Sometimes I look for crawdads in the river. Don't tell Aunt Marnie... but I fed one to a cow once.#$e#She loved it.",
+        "ko": "가끔 강에서 가재 찾아요. 마니 이모한테는 말하지 마요... 근데 한 번은 소한테 하나 줬더니 먹었어요.#$e#엄청 맛있게 먹었어요.",
+        "pt": "Às vezes, eu procuro por lagostins no rio. Não conte para a Tia Marnie... mas já alimentei uma vaca uma vez.#$e#Ela amou.",
+        "ru": "Иногда я ищу в речке раков. Ты только не говори тете Марни, но я как-то дала корове рака.#$e#Ей очень понравилось.",
+        "tr": "Bazen suda kerevit arıyorum. Marnie teyzeye söyleme, bir keresinde birini ineklere verdim.#$e#Çok sevdiler.",
+        "zh": "我有时会去河里捉小龙虾。别告诉玛妮姑妈……但是我有一次喂一头牛吃了一只。#$e#她可喜欢了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Sat8",
+      "author_key": "Sat8",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du bist immer so nett zu mir, ${Herr^Frau}$ @.$h#$e#Erwachsene sind normalerweise gemein und langweilig, aber du bist anders.",
+        "es": "Qué amable eres conmigo, @.$h#$e#Los mayores suelen ser malos y aburridos, ¡pero tú eres diferente!",
+        "fr": "Tu es toujours si ${gentil^gentille}$ avec moi, ${monsieur^madame}$ @.$h#$e#Les adultes sont généralement méchants et ennuyeux, mais tu n’es pas comme ça toi.",
+        "hu": "Mindig olyan kedves vagy hozzám, @ ${bácsi^néni}$.$h#$e#A felnőttek általában gonoszak és unalmasak, de te más vagy.",
+        "it": "Sei sempre così gentile con me, ${signor^signorina}$ @.$h#$e#Di solito i grandi sono noiosi e cattivi, ma tu sei differente.",
+        "ja": "@さんって、 いつも あたしに やさしいんだね。$h#$e#大人って いつも イジワルで つまんないけど、 あなたは そうじゃない。",
+        "en": "You're always so nice to me, ${Mr.^Ms.}$ @.$h#$e#Grown-ups are usually mean and boring, but you're different.",
+        "ko": "@ 아${저씨는^아줌마는}$ 항상 나한테 잘해줘요.$h#$e#어른들은 보통 심술궂고 재미없는데, 다른 거 같아요.",
+        "pt": "Você é sempre tão gentil comigo, ${seu^dona}$ @.$h#$e#Os adultos geralmente são cruéis e chatos, mas você é diferente.",
+        "ru": "Вы всегда ${такой добрый, мистер^такая добрая, мисс}$ @.$h#$e#Обычно взрослые скучные и злюки, а вы — нет.",
+        "tr": "Bana karşı çok ${iyi davranıyorsunuz, Bay^iyisiniz, Bayan}$ @.$h#$e#Yetişkinler genellikle sıkıcı oluyorlar ama sen farklısın.",
+        "zh": "你总是这么好， @${先生^女士}$$h#$e#大人们总是刻薄又无聊，但是你不会。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Sun",
+      "author_key": "Sun",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Uhm... B-brauchst du etwas?$u#$e#Ich soll nicht mit Fremden reden.$u",
+        "es": "Um... ¿Q-Quieres algo?$u#$e#Se supone que no tengo que hablar con desconocidos.$u",
+        "fr": "Euh... tu... tu as besoin de quelque chose ?$u#$e#Je ne dois pas parler aux inconnus.$u",
+        "hu": "Őőő... sze... szeretnél valamit?$u#$e#Nem szabadna idegenekkel beszélnem.$u",
+        "it": "Ehm... v...vuoi qualcosa?$u#$e#Non devo parlare con gli sconosciuti.$u",
+        "ja": "えっと…な、何か 用なの？$u#$e#知らない人と 話しちゃ いけないんだ…$u",
+        "en": "Um... d...do you want something?$u#$e#I'm not supposed to talk to strangers.$u",
+        "ko": "음... 무...무엇을 도와드릴까요?$u#$e#모르는 사람이랑 얘기하면 안 돼요.$u",
+        "pt": "Hã... v-você quer alguma coisa?$u#$e#Não posso falar com estranhos.$u",
+        "ru": "Эм... В-вы что-то хотели?$u#$e#Мне нельзя говорить с незнакомыми.$u",
+        "tr": "Şey... bir...bir şey mi istiyorsun?$u#$e#Yabancılar ile konuşmamam gerekiyor.$u",
+        "zh": "嗯……你……你想要点什么？$u#$e#我不该和陌生人说话。$u"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Sun10",
+      "author_key": "Sun10",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wusstest du, dass Shane mein Patenonkel ist? Er war ein Freund meiner Eltern.$s#$e#... Sie sind gestorben. *schnief*$s",
+        "es": "¿Sabías que Shane es mi padrino? Era amigo de mis padres.$s#$e#Se murieron... *Snif*$s",
+        "fr": "Tu savais que Shane était mon parrain ? C’était un ami de mes parents.$s#$e#... Ils sont morts. *Pleure*$s",
+        "hu": "Tudtad, hogy Shane a keresztapám? A szüleim barátja volt.$s#$e#...ők meghaltak. *szipp*$s",
+        "it": "Sapevi che Shane è il mio padrino? Era amico dei miei genitori.$s#$e#...loro sono morti.*sniff*$s",
+        "ja": "シェーンは あたしの 後見人だって 知ってる？パパとママの 友達 だったんだ。$s#$e#…パパとママは もういないけど…グスッ…$s",
+        "en": "Did you know Shane's my godfather? He was a friend of my parents.$s#$e#...they died. *sniff*$s",
+        "ko": "셰인이 내 대부인 거 알아요? 부모님의 친구였어요.$s#$e#...부모님은 돌아가셨어요.*훌쩍*$s",
+        "pt": "Você sabia que o Shane é o meu padrinho? Ele era um amigo dos meus pais.$s#$e#... eles morreram. Snif...$s",
+        "ru": "А ты знаешь, что Шейн — мой крестный? Он был другом моих родителей.$s#$e#... Они умерли. *Всхлипывает*$s",
+        "tr": "Shane'in vaftiz babam olduğunu biliyor muydun? Ebeveynlerimin bir arkadaşıydı.$s#$e#...vefat ettiler. *burnunu çeker*$s",
+        "zh": "你知道吗？谢恩是我的教父。他是我父母的朋友。$s#$e#……他们都去世了。*啜泣*$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Sun2",
+      "author_key": "Sun2",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Shane ist oft nicht da und Tante Marnie ist immer beschäftigt... Also muss ich meine eigenen Spiele erfinden.#$e#Ich bin froh über all mein Spielzeug.$h",
+        "es": "Shane pasa mucho tiempo fuera, y la tía Marnie siempre está ocupada... Así que tengo que inventarme mis propios juegos.#$e#Menos mal que tengo mis juguetes.$h",
+        "fr": "Shane n’est pas souvent là et Tante Marnie est tout le temps occupée... je dois donc inventer mes propres jeux.#$e#Je suis reconnaissante d’avoir autant de jouets.$h",
+        "hu": "Shane keveset van itthon, Marnie néni folyton elfoglalt... szóval magamnak kell kitalálnom a játékokat.#$e#Hálás vagyok az összes játékomért.$h",
+        "it": "Shane non c'è quasi mai, e zia Marnie ha sempre da fare... perciò mi devo inventare dei giochi da sola.#$e#Per fortuna che ho tanti giocattoli.$h",
+        "ja": "シェーンは よく いなくなるし、 マーニー おばさんは いつも 忙しいから… 自分で 遊びを 考えなくちゃ いけないんだ。#$e#だから オモチャに ありがとうって 思ってるの。$h",
+        "en": "Shane's gone a lot, and Aunt Marnie is busy all the time... so I have to invent my own games.#$e#I'm thankful for all my toys.$h",
+        "ko": "셰인은 맨날 없고, 마니 이모는 맨날 바쁘고... 혼자서 놀아야 해요.#$e#장난감이 다양해서 다행이에요.$h",
+        "pt": "O Shane sai muito, tia Marnie está ocupada o tempo todo... então tenho que inventar minhas próprias brincadeiras.#$e#Fico grata por todos os meus brinquedos.$h",
+        "ru": "Шейна часто нет дома, а тетя Марни всегда занята... Приходится мне выдумывать себе игры.#$e#Я рада, что у меня столько игрушек.$h",
+        "tr": "Shane'in kafası hep uçuk ve Marnie teyze hep meşgul... Bu yüzden kendi oyunlarımı icat etmem gerekiyor.#$e#Oyuncaklarıma minnettarım.$h",
+        "zh": "谢恩经常不在，玛妮姑妈又很忙……所以我得自己发明游戏。#$e#感谢我的玩具们。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Thu",
+      "author_key": "Thu",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich soll nicht mit Fremden reden...$u",
+        "es": "Se supone que no tengo que hablar con desconocidos...$u",
+        "fr": "Je ne dois pas parler aux inconnus...$u",
+        "hu": "Nem szabadna idegenekkel beszélnem...$u",
+        "it": "Non devo parlare con gli sconosciuti...$u",
+        "ja": "知らない人と 話しちゃ いけないんだ…$u",
+        "en": "I'm not supposed to talk to strangers...$u",
+        "ko": "모르는 사람하고 얘기하면 안 돼요...$u",
+        "pt": "Não posso falar com estranhos...$u",
+        "ru": "Мне нельзя говорить с незнакомыми...$u",
+        "tr": "Yabancılar ile konuşmamam gerekiyor...$u",
+        "zh": "我不该和陌生人说话……$u"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Thu2",
+      "author_key": "Thu2",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Frau Penny bringt mir bei, wie man in Schreibschrift schreibt.$h#$e#Sie hat so eine schöne Handschrift.",
+        "es": "La señorita Penny me enseña a escribir en cursiva.$h#$e#Tiene una letra muy bonita.",
+        "fr": "Mademoiselle Penny m’a appris à écrire.$h#$e# Elle a une jolie écriture.",
+        "hu": "Penny néni folyóírásra tanít.$h#$e#Olyan szép kézírása van.",
+        "it": "La signorina Penny mi sta insegnando a scrivere in corsivo.$h#$e#Ha una scrittura così bella, lei.",
+        "ja": "ペニー先生が 筆記体の 書き方を 教えてくれてるの。$h#$e#先生の 書く字は かわいいんだよ。",
+        "en": "Miss Penny is teaching me how to write in cursive.$h#$e#She has such pretty handwriting.",
+        "ko": "페니 선생님이 필기체로 쓰는 방법 가르쳐주고 있어요.$h#$e#페니 선생님 글씨 너무 예뻐요.",
+        "pt": "Tia Penny está me ensinando a escrever com letra de mão.$h#$e#A letra dela é tão bonita!",
+        "ru": "Мисс Пенни учит меня чистописанию.$h#$e#У нее такой красивый почерк.",
+        "tr": "Bayan Penny bana el yazısı ile yazmayı öğretiyor.$h#$e#Harika bir el yazısı var.",
+        "zh": "潘妮小姐在教我连笔字。$h#$e#她的书法真好。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Tue",
+      "author_key": "Tue",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Was? *kicher*$h#$e#... Hi.",
+        "es": "¿Qué? *Ji, ji*$h#$e#...Hola.",
+        "fr": "Quoi ? *Glousse*$h#$e#... Salut.",
+        "hu": "Hogy? *kuncog*$h#$e#...szia.",
+        "it": "Che c'è? *risatina*$h#$e#...ciao.",
+        "ja": "なぁに？フフッ。$h#$e#…こんにちは。",
+        "en": "What? *giggle*$h#$e#...hi.",
+        "ko": "네? *히히*$h#$e#...안녕하세요.",
+        "pt": "Quê? Hi, hi$h#$e#... oi.",
+        "ru": "Что? *Хихикает*$h#$e#... Привет.",
+        "tr": "Ne? *kıkırdar*$h#$e#...Selam.",
+        "zh": "什么？* 咯咯笑 *$h#$e#……嗨。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Tue6",
+      "author_key": "Tue6",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du kannst mit meinen Puppen spielen, wenn du willst. Bürste nur ihre Haare, wenn du fertig bist.",
+        "es": "Puedes jugar con mis muñecas si quieres. Pero asegúrate de cepillarles el pelo cuando acabes.",
+        "fr": "Tu peux jouer avec mes poupées si tu veux. Mais brosse-leur les cheveux quand tu auras fini.",
+        "hu": "Játszhatsz a babáimmal, ha szeretnél. Csak mindig fésüld meg a hajukat, ha végeztél.",
+        "it": "Se vuoi puoi giocare con le mie bambole. Basta che ti ricordi di spazzolargli i capelli, quando hai fatto.",
+        "ja": "良かったら、 あたしの お人形さんで 遊んでもいいよ。終わったら、 ちゃんと お人形さんの 髪を といてね。",
+        "en": "You can play with my dolls if you want to. Just make sure to brush their hair when you're done.",
+        "ko": "내 인형 가지고 놀아도 돼요. 다 논 다음에 꼭 머리 빗겨줘야 해요.",
+        "pt": "Você pode brincar com minhas bonecas, se quiser. Só escove o cabelo delas quando acabar.",
+        "ru": "Можешь поиграть с моими куклами, если хочешь. Только причеши их, когда наиграешься.",
+        "tr": "İstersen oyuncak bebeklerimle oynayabilirsin. Yalnızca işin bittiğinde saçlarını taramayı unutma.",
+        "zh": "想玩我的娃娃的话不用客气。但是玩完别忘了给她们梳头发。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Wed",
+      "author_key": "Wed",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "...$u",
+        "es": "...$u",
+        "fr": "...$u",
+        "hu": "...$u",
+        "it": "...$u",
+        "ja": "…$u",
+        "en": "...$u",
+        "ko": "...$u",
+        "pt": "...$u",
+        "ru": "...$u",
+        "tr": "...$u",
+        "zh": "……$u"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Wed2",
+      "author_key": "Wed2",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "... Hi.$u",
+        "es": "...Hola.$u",
+        "fr": "... Salut.$u",
+        "hu": "...Szia.$u",
+        "it": "...Ciao.$u",
+        "ja": "…こんにちは。$u",
+        "en": "...Hi.$u",
+        "ko": "...안녕하세요.$u",
+        "pt": "... Oi.$u",
+        "ru": "... Привет.$u",
+        "tr": "...Selam.$u",
+        "zh": "……嗨。$u"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:Wed4",
+      "author_key": "Wed4",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Tante Marnie lässt mich nach 6 Uhr nicht mehr rausgehen. Das ist nicht fair!$s#$e#Ich habe keine Angst mehr im Dunkeln!",
+        "es": "A partir de las 18:00 la tía Marnie no me deja salir de casa. ¡No es justo!$s#$e#¡Ya no me da miedo la oscuridad!",
+        "fr": "Tante Marnie ne me laisse pas sortir après 18 heures. Ce n’est pas juste !$s#$e#Je n’ai plus peur du noir !",
+        "hu": "Marnie néni nem enged ki hat óra után. Ez nem igazság!$s#$e#Már nem félek a sötéttől!",
+        "it": "Zia Marnie non mi fa uscire dopo le 6. Non è giusto!$s#$e#Non ho più paura del buio, io!",
+        "ja": "マーニーおばさんがね、 6時以降は 外へ 出ちゃ ダメだって。ずるいよ！$s#$e#もう 暗いのは 怖くないのに！",
+        "en": "Aunt Marnie won't let me go out after 6 o'clock. It's not fair!$s#$e#I'm not afraid of the dark anymore!",
+        "ko": "마니 이모가 6시 지나면 밖에 못 나가게 해요. 불공평해!$s#$e#나 이제 어두운 거 안 무서운데 그래요!",
+        "pt": "A tia Marnie não me deixa sair depois das 6. Não é justo!$s#$e#Não tenho mais medo do escuro!",
+        "ru": "Тетя Марни не пускает меня гулять после 6-ти часов вечера. Так нечестно!$s#$e#Я больше не боюсь темноты!",
+        "tr": "Marnie teyze 6'dan sonra dışarıya çıkmama izin vermiyor. Bu haksızlık!$s#$e#Artık karanlıktan korkmuyorum!",
+        "zh": "玛妮姑妈 6 点之后不让我出门了。这不公平！$s#$e#我早就不怕黑了！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:cropMatured_595",
+      "author_key": "cropMatured_595",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "$y 'Ähm... Hast du schon mal eine Fee gesehen?_Ja_Wow! Ich will auch eine sehen.$h_Nein_...Ich auch nicht.$s'",
+        "es": "$y 'Ehm... ¿Has visto un hada alguna vez?_Sí_¡Guau! Yo también quiero ver una.$h_No_...Yo tampoco.$s'",
+        "fr": "$y 'Euh... Tu as déjà vu une fée ?_Oui_Wouah ! Moi aussi, je veux en voir une.$h_Non_... Moi non plus.$s'",
+        "hu": "$y 'Öhm... Találkoztál már tündérrel?_Igen_Váó! Én is látni akarok egyet.$h_Nem_...Még én sem.$s'",
+        "it": "$y 'Ehm... Hai mai visto una fata?_Sì_Wow! Anch'io voglio vederla.$h_No_...Neppure io.$s'",
+        "ja": "$y 'えっと…妖精さんに会ったことはある？_あるよ_わぁ！わたしも会ってみたいな。$h_ないよ_…わたしもなの。$s'",
+        "en": "$y 'Um... Have you ever seen a fairy?_Yes_Wow! I wanna see one, too.$h_No_...Me neither.$s'",
+        "ko": "$y '어... 요정 본 적 있어요?_응_우와! 나도 보고 싶어요.$h_아니_...나도 본 적 없어요.$s'",
+        "pt": "$y 'Hm... Você já viu uma fada?_Sim_Uau! Eu também quero ver uma.$h_Não_...Eu também não.$s'",
+        "ru": "$y 'Эм... А тебе доводилось видеть фей?_Да_Ух ты, я тоже хочу.$h_Нет_...Я тоже не видела.$s'",
+        "tr": "$y 'Şey... Daha önce hiç peri gördün mü?_Evet_Ya! Ben de görmek istiyorum.$h_Hayır_...Ben de görmedim.$s'",
+        "zh": "$y '呃……你见过仙子吗？_见过_哇！我也想看看。$h_没见过_……我也没有。$s'"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'cropMatured_595' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:eventSeen_3910974",
+      "author_key": "eventSeen_3910974",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "*kicher* ...guck mal, ich habe echte Hasenpantoffeln mit Juwelen!$h",
+        "es": "*risita* ...Mira, ¡tengo unas zapatillas enjoyadas de conejito reales!$h",
+        "fr": "*glousse* ... Regarde, j’ai de vraies pantoufles en forme de lapin !$h",
+        "hu": "*kacag* ...nézd, igazi nyuszókás papucsom van!$h",
+        "it": "*risatina* ...guarda, ho delle vere pantofole a coniglietto!$h",
+        "ja": "ふふっ… ほら、本物のバニージュエルのサンダルよ！$h",
+        "en": "*giggle* ...look, I've got real bunny-jewel slippers!$h",
+        "ko": "*히히* ...봐요, 진짜 토끼 보석 슬리퍼에요!$h",
+        "pt": "*risada* ...olha, eu tenho sandálias de joia de coelho!$h",
+        "ru": "*хихикает* ...Смотри, у меня настоящие кроличьи тапочки!$h",
+        "tr": "*kıkırdar* ...Bak, gerçek tavşan tüylü terliklerim var!$h",
+        "zh": "嘻嘻……快看，我有正版的兔子宝石拖鞋啦！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:eventSeen_3910975",
+      "author_key": "eventSeen_3910975",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "...wird Shane es schaffen?$s",
+        "es": "...¿Shane estará bien?$s",
+        "fr": "... Est-ce que ça va aller pour Shane ?$s",
+        "hu": "...Shane jól lesz?$s",
+        "it": "...Shane sta bene, vero?$s",
+        "ja": "…シェーンはだいじょうぶなの？$s",
+        "en": "...Is Shane going to be okay?$s",
+        "ko": "...셰인 괜찮을까요?$s",
+        "pt": "...O Shane vai ficar bem?$s",
+        "ru": "...С Шейном все будет хорошо?$s",
+        "tr": "...Shane iyi olacak mı?$s",
+        "zh": "……谢恩没事吧？$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'eventSeen_3910975' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:eventSeen_3910975_memory_oneweek",
+      "author_key": "eventSeen_3910975_memory_oneweek",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich hatte einen Albtraum, in dem das Haus brannte...$s",
+        "es": "Tuve una pesadilla de que la casa estaba ardiendo...$s",
+        "fr": "J’ai fait un cauchemar où la maison était en feu...$s",
+        "hu": "Egyszer olyan rémálmom volt, hogy ég a házunk...$s",
+        "it": "Ho fatto un incubo dove la casa andava a fuoco...$s",
+        "ja": "家がもえちゃうこわい夢を見たの…$s",
+        "en": "I had a nightmare that the house was on fire...$s",
+        "ko": "집에 불이 난 악몽을 꿨어요...$s",
+        "pt": "Eu tive um pesadelo em que a casa estava pegando fogo...$s",
+        "ru": "Мне приснилось, что наш дом горит, кошмар...$s",
+        "tr": "Kabusumda evde yangın çıkıyordu...$s",
+        "zh": "我做了个噩梦，梦见家里着火了……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'eventSeen_3910975_memory_oneweek' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:married",
+      "author_key": "married",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "*seufz*... Ich hoffe, ich kann eines Tages heiraten.$u",
+        "es": "*suspiro*... Espero que pueda casarme algún día.$u",
+        "fr": "*soupir*... J’espère que moi aussi je pourrais me marier un jour.$u",
+        "hu": "*sóhaj*... Remélem egy napon én is meg fogok házasodni.$u",
+        "it": "*sospira*... Spero di potermi sposare anch'io, un giorno.$u",
+        "ja": "はぁ…いつかわたしもけっこんしたいなあ。$u",
+        "en": "*sigh*... I hope I can get married some day.$u",
+        "ko": "*휴*... 저도 언젠가 결혼하고 싶어요.$u",
+        "pt": "*suspira*... Eu espero que eu consiga casar algum dia.$u",
+        "ru": "*вздыхает*... Надеюсь, у меня однажды тоже будет свадьба.$u",
+        "tr": "*iç çeker*... Umarım bir gün ben de evlenebilirim.$u",
+        "zh": "唉……希望有朝一日我也能结婚。$u"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'married' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:married_Shane",
+      "author_key": "married_Shane",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich hoffe, Shane wird mich trotzdem besuchen...$s",
+        "es": "Espero que Shane siga viniendo a verme...$s",
+        "fr": "J’espère que Shane viendra quand même me voir...$s",
+        "hu": "Remélem Shane továbbra is eljön meglátogatni engem...$s",
+        "it": "Spero che Shane verrà comunque a trovarmi...$s",
+        "ja": "シェーンはまたきっとわたしに会いに来てくれるよね…$s",
+        "en": "I hope Shane will still come and see me...$s",
+        "ko": "그래도 셰인이 나 보러 오겠죠...$s",
+        "pt": "Eu espero que o Shane ainda venha me visitar...$s",
+        "ru": "Надеюсь, Шейн все же придет в гости...$s",
+        "tr": "Umarım Shane beni ziyaret etmeye devam eder...$s",
+        "zh": "我希望谢恩还会过来陪我……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'married_Shane' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:movieTheater",
+      "author_key": "movieTheater",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Tante Marnie sagt, ich sei noch nicht alt genug, um alleine einen Film zu sehen...$s",
+        "es": "Tía Marnie dice que todavía soy pequeña para ir a ver una película sola...$s",
+        "fr": "Tante Marnie dit que je ne suis pas assez vieille pour aller voir un film toute seule...$s",
+        "hu": "Marnie néni azt mondta, hogy még nem vagyok elég idős ahhoz, hogy egyedül moziba menjek...$s",
+        "it": "Zia Marnie dice che non sono abbastanza grande per vedere un film da sola...$s",
+        "ja": "マーニーおばさんから、まだひとりで映画を見ちゃだめって言われてるの…$s",
+        "en": "Aunt Marnie says I'm not old enough to see a movie by myself...$s",
+        "ko": "마니 이모가 난 혼자서 영화 보러 가려면 나이를 더 먹어야 한대요...$s",
+        "pt": "A tia Marnie falou que não tenho idade para ir sozinha no cinema...$s",
+        "ru": "Тетушка Марни говорит, что одной ходить в кино мне пока рановато...$s",
+        "tr": "Marnie teyze tek başıma filme gitmek için yeterince büyük olmadığımı söylüyor...$s",
+        "zh": "玛妮阿姨说我还太小，不能一个人看电影……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'movieTheater' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jas:reject_869",
+      "author_key": "reject_869",
+      "character": "Jas",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Bäh, ekelhaft!$s",
+        "es": "Ew, ¡que asco!$s",
+        "fr": "Beurk, dégoûtant !$s",
+        "hu": "Fúj, undi!$s",
+        "it": "Bleah, che schifo!$s",
+        "ja": "うわっ、ひどい！$s",
+        "en": "Ew, gross!$s",
+        "ko": "으, 징그러!$s",
+        "pt": "Ew, nojento!$s",
+        "ru": "Фу, гадость!$s",
+        "tr": "Iyy!$s",
+        "zh": "哎呀，恶心！$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jas.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jas.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jas.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jas.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jas.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jas.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jas.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jas.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jas.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jas.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jas.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jas.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'reject_869' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    }
+  ]
+}

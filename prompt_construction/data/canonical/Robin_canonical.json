@@ -1,0 +1,3852 @@
+{
+  "dataset_meta": {
+    "schema": "canonical_dialogue_v2",
+    "source_root": "data/game_scripts/Dialogue",
+    "collection": "Dialogue",
+    "character": "Robin",
+    "record_count": 58,
+    "dialogue_type_counts": {
+      "general_dialogue": 58
+    }
+  },
+  "records": [
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:AcceptGift_(O)Book_Woodcutting",
+      "author_key": "AcceptGift_(O)Book_Woodcutting",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Was ist das... \"Woodys Geheimnis\"? ... Ähm, was ist das für ein Buch, @?$6#$b#Oh, es geht um Holzfällerei! Hahaha ... Oh ja, das wird mir gefallen. Danke!$4",
+        "es": "Qué es esto... ¿« El Secreto de Woody »? ... Ehm, ¿qué clase de libro es este, @?$6#$b#Oh, ¡es sobre la tala! Jajaja... Oh sí, me va a encantar. ¡Gracias!$4",
+        "fr": "Qu’est-ce que c’est que ça ? \"Le secret de Woody\" ? ... Hmm, c’est quoi exactement comme livre, @ ?$6#$b#Ho, c’est sur la gravure sur bois ! Ha, ha, ha... Ho oui, je vais l’adorer. Merci beaucoup !$4",
+        "hu": "Ez meg micsoda... 'Woody titka'? ... Öhm, ez mégis miféle könyv, @?$6#$b#Óh, hogy ez favágásról szól! Hahaha... Óh, igen, ezt szeretni fogom. Köszönöm!$4",
+        "it": "Cos'è questo... 'Come darci un taglio'? ... Ehm, che tipo di libro è, @?$6#$b#Oh, è su come tagliare la legna! Hahaha... Ma certo, mi piacerà un sacco. Grazie!$4",
+        "ja": "えっと…「ウッディの秘密」…？@、これはどんな本なの？$6#$b#わあ、木材加工の本なんだね！うふふ…すごく気に入ったわ。ありがとう！$4",
+        "en": "What's this... 'Woody's Secret'? ... Um, what kind of book is this, @?$6#$b#Oh, it's about woodcutting! Hahaha... Oh yeah, I'm going to love this. Thanks!$4",
+        "ko": "이건 무슨... '단단한 비밀'? ... 어, 이건 무슨 책이니, @?$6#$b#아, 목공예 책이구나! 하하하... 어 그래, 재밌겠다. 고마워!$4",
+        "pt": "O que é isso... 'O Segredo da Floresta'? ... Hm, que livro é esse, @?$6#$b#Oh, é sobre cortar madeira! Hahaha... claro, eu vou amar isso. Obrigada!$4",
+        "ru": "Что это... «Секрет дровосека»?.. Эм, что это за книга такая, @?$6#$b#А, она о лесозаготовке! Ха-ха-ха... О да, она мне понравится. Спасибо!$4",
+        "tr": "Bu da ne... 'Ağaçkakanların Sırrı' mı?.. Ne tür bir kitap ki bu @?$6#$b#Ah, odunculukla ilgiliymiş! Hahaha... Evet, bunu seveceğim. Teşekkürler!$4",
+        "zh": "这是啥……《阿木的秘密》？……呃，@，这是什么书啊？$6#$b#嗐，是伐木的书啊！哈哈哈……哎，我肯定爱看的，谢谢你！$4"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)Book_Woodcutting' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:AcceptGift_(O)SkillBook_2",
+      "author_key": "AcceptGift_(O)SkillBook_2",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ah, \"Holzfäller-Wochenblatt\"... Ich hatte gehofft, die neueste Ausgabe in die Finger zu bekommen! Da stehen die neuesten Techniken drin!#$b#Von einem Holzfäller zum anderen... Vielen Dank!$h",
+        "es": "Ah, « El Semanal del Leñador »... ¡Esperaba hacerme con la última publicación! ¡Tienen todas las técnicas nuevas aquí!#$b#De leñador a leñador... Gracias.$h",
+        "fr": "Ha, \"Bûcheron hebdomadaire\"... J’espérais mettre la main sur le dernier numéro ! Il y a toutes les dernières techniques là-dedans !#$b#De toi à moi... Merci beaucoup.$h",
+        "hu": "Áh, 'Favágók hetilapja'... Reménykedtem benne, hogy megszerzem a legújabb számot! Mindenféle új technikáról írnak benne!#$b#Mint egyik favágó a másiknak... Köszönöm.$h",
+        "it": "Ah, il 'Settimanale del taglialegna'... Speravo di mettere le mani sull'ultimo numero! Ci sono tutte le tecniche più innovative, qua dentro!#$b#Te lo dico da taglialegna a taglialegna... Grazie.$h",
+        "ja": "「週刊ウッドカッター」…この最新号がほしいと思ってたんだ！新しい技術がたくさん載ってるんだよ！#$b#あなたも木こりだからきっとわかるよね…ありがとう。$h",
+        "en": "Ah, 'Woodcutter's Weekly'... I was hoping to get my hands on the newest issue! They've got all the latest techniques in here!#$b#From one woodcutter to another... Thank you.$h",
+        "ko": "아, '주간 나무꾼'... 최신호 갖고 싶었어! 최신 기술 소식은 다 있더라고!#$b#나무꾼으로서 하는말인데... 정말 고마워.$h",
+        "pt": "Ah, 'Semanário do Lenhador'... Eu queria muito a última edição! Eles falam sobre todas as técnicas novas aqui!#$b#De um lenhador para outro... Obrigada.$h",
+        "ru": "А, «Еженедельник лесника»... Я как раз хотела купить новый выпуск! Там есть рубрика по обработке древесины!#$b#Как дровосек дровосеку скажу... Спасибо.$h",
+        "tr": "Ah, 'Oduncunun Haftalığı'... Yeni sayısını almayı düşünüyordum! Burada en yeni teknikler var!#$b#Bir oduncudan diğerine... Teşekkürler.$h",
+        "zh": "啊，是《樵夫周刊》……我一直想要最新一期的！里面有很多最新的技巧！#$b#砍树可是一门技术活……谢谢你。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:AcceptGift_(O)StardropTea",
+      "author_key": "AcceptGift_(O)StardropTea",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Moment mal... das schenkst du mir? Was für ein besonderes Vergnügen! Ich danke dir.",
+        "es": ">Espera un segundo... ¿me das esto? ¡Qué sorpresa! Gracias.",
+        "fr": "Attends une seconde... C’est pour moi ? C’est un régal ! Merci beaucoup.",
+        "hu": "Várjunk csak... ezt most nekem adod? Milyen különleges ajándék! Köszönöm.",
+        "it": ">Aspetta un secondo... Lo vuoi dare a me? Ma che regalo speciale! Grazie.",
+        "ja": "ちょっと待って… これを私に？とてもすごい飲み物なんだよ！ありがとう。",
+        "en": "Wait a sec... you're giving me this? What a special treat! Thank you.",
+        "ko": ">잠깐만... 이걸 나한테 주겠다고? 이런 특별한 간식이라니! 고마워.",
+        "pt": ">Espera ai... você vai me dar isso? Que presente especial! Obrigada.",
+        "ru": "Погоди... Это мне? Какая прекрасная вещь! Спасибо.",
+        "tr": "Bir saniye... Bunu bana mı veriyorsun? Ne kadar özel bir sürpriz! Teşekkürler.",
+        "zh": "等等……你要送我这个吗？这个礼物太特别了！谢谢你。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)StardropTea' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:Fri",
+      "author_key": "Fri",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du hast meinen Sohn Sebastian getroffen, richtig? Er lebt unten.#$e#Er ist ein wenig schüchtern, aber ich bin mir sicher, dass ihr Freunde werden könnt.",
+        "es": "Ya has conocido a Sebastian, mi hijo, ¿no? Vive abajo.#$e#Es un poco tímido, pero seguro que os hacéis amigos si te portas bien con él.",
+        "fr": "As-tu rencontré mon fils Sebastian ? Il vit à l’étage du bas.#$e#Il est un peu timide, mais je suis sûre que si tu es sympa avec lui, il finira par te faire confiance.",
+        "hu": "Találkoztál már a fiammal, Sebastiannal, ugye? Odalent lakik.#$e#Egy kissé szerény, de ha jól viselkedsz vele biztosan megkedvel téged.",
+        "it": "Hai conosciuto mio figlio Sebastian, sì? Vive al piano di sotto.#$e#È un tantino timido, ma sono certa che si scioglierà se sei gentile con lui.",
+        "ja": "息子の セバスチャンには 会った？下の階に いるわ。#$e#ちょっと 人見知りな子だけど、 やさしく 接したら すぐ 打ち解けてくれるはずよ。",
+        "en": "You've met my son Sebastian, right? He lives downstairs.#$e#He's a little shy, but I'm sure he'll warm up to you if you're nice to him.",
+        "ko": "내 아들 세바스찬은 만나봤어? 아래층에서 지내고 있어.#$e#조금 낯을 가리지만, 잘 대해주면 분명 마음을 열 거야.",
+        "pt": "Você conheceu o meu filho, Sebastian. Certo? Ele vive no andar de baixo.#$e#Ele é meio tímido, mas tenho certeza que vai se abrir com você se for gentil com ele.",
+        "ru": "Вы же с Себастианом уже знакомы, да? Он живет внизу.#$e#Он немного стеснительный, но если быть с ним добрее, то он к тебе потянется.",
+        "tr": "Bodrumda yaşayan oğlum Sebastian ile tanıştın değil mi?#$e#Biraz utangaçtır ama ona iyi davranırsan sana alışacağına eminim.",
+        "zh": "你遇见我的儿子塞巴斯蒂安了吗？他就住在楼下。#$e#他为人害羞，但是你对他好，他一定会把你当朋友的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:Fri4",
+      "author_key": "Fri4",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "#$1 RobinSeb#Ich habe in Sebastians Zimmer einen Aschenbecher gefunden, der ziemlich merkwürdig gerochen hat. Sollte ich mir deswegen Sorgen machen?#$e#Manchmal sorge ich mich um Sebastian... Er hat nicht viele Freunde und er scheint sich nicht sehr für seine Zukunft zu interessieren...#$e#Ich würde mit ihm reden, aber er öffnet sich mir nie.",
+        "es": "#$1 RobinSeb#He encontrado un cenicero en el cuarto de Sebastian, y huele muy raro. ¿Debería preocuparme?#$e#A veces Sebastian me preocupa... No tiene muchos amigos y no parece que le importe demasiado su futuro...#$e#Hablaría con él, pero siempre se cierra en banda.",
+        "fr": "#$1 RobinSeb#J’ai trouvé un cendrier dans la chambre de Sebastian qui sentait vraiment bizarre. Est-ce qu’il faut que je m’inquiète ?#$e#Parfois, je m’inquiète pour Sebastian... il n’a pas beaucoup d’amis et il ne semble pas vraiment se soucier de son avenir...#$e#Je devrais lui en parler, mais il ne s’ouvre pas beaucoup à moi.",
+        "hu": "#$1 RobinSeb#Találtam egy hamutartót Sebastian szobájában, és fura szaga volt. Szerinted aggódnom kellene miatta?#$e#Néha aggódom Sebastian miatt... nincs neki túl sok barátja, és nem igazán törődik a jövőjével...#$e#Elbeszélgetnék vele, de nem igazán nyílik meg előttem.",
+        "it": "#$1 RobinSeb#Ho trovato un posacenere nella stanza di Sebastian, e aveva pure un odore insolito. Ci sarà da preoccuparsi?#$e#A volte sto in pensiero per Sebastian... Non ha molti amici e sembra che non gli importi granché del suo futuro...#$e#Io gliene parlerei, ma lui non si apre mai con me.",
+        "ja": "#$1 RobinSeb#セバスチャンの 部屋で 私の 灰皿を 見つけたけど、 変な 臭いが したわ。心配したほうが いいわよね…#$e#時々、 セバスチャンのことが 心配なの… 友達は あんまり いないし、 自分の 未来についても それほど 考えていないから…#$e#セバスチャンと 話を したいけど、 私には 打ち明けてくれないの。",
+        "en": "#$1 RobinSeb#I found an ashtray in Sebastian's room, and it smelled really weird. Should I be worried about this?#$e#Sometimes I worry about Sebastian... he doesn't have many friends and doesn't really seem to care about his future very much...#$e#I would talk to him about it but he never opens up to me.",
+        "ko": "#$1 RobinSeb#세바스찬 방에서 재떨이를 발견했는데, 냄새가 정말 이상했어. 걱정해야 할 일일까?#$e#가끔 세바스찬이 걱정돼... 친구가 많은 것 같지 않고 자신의 미래에 대한 관심이 없어 보여...#$e#얘기를 할 수 있으면 하겠는데 나한테 마음을 여는 일이 없어.",
+        "pt": "#$1 RobinSeb#Achei um cinzeiro no quarto do Sebastian, e estava com um cheiro um pouco estranho. Devo me preocupar com isso?#$e#Às vezes me preocupo com o Sebastian... ele não tem muitos amigos e não parece ligar muito para o futuro...#$e#Gostaria de falar com ele, mas ele nunca se abre para mim.",
+        "ru": "#$1 RobinSeb#Я нашла у Себастиана в комнате пепельницу, от которой очень странно пахло. Стоит ли мне об этом волноваться?#$e#Иногда я волнуюсь за Себастиана... Друзей у него немного, и о будущем своем он не очень-то заботится...#$e#Я бы с ним поговорила, но он никогда мне не открывается.",
+        "tr": "#$1 RobinSeb#Sebastian'ın odasına çok garip kokan bir kül tablası buldum. Bu beni endişelendirmeli mi?#$e#Bazen Sebastian için endişeleniyorum...Pek arkadaşı yok ve geleceğini hiç düşünmüyor...#$e#Onunla konuşurdum ama bana içini hiç dökmez.",
+        "zh": "#$1 RobinSeb#我在塞巴斯蒂安的房间里发现一个烟灰缸，散发着奇怪的味道。我该不该担心？#$e#有时候我很担心塞巴斯蒂安……他没有多少朋友，而且对自己的未来漠不关心……#$e#我一直想跟他聊聊，但是他总是不愿意对我敞开心扉。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:Fri4_inlaw_Sebastian",
+      "author_key": "Fri4_inlaw_Sebastian",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Sebastian hat mir gesagt, dass er mit dem Rauchen aufhören will! Ich bin sehr stolz auf ihn.",
+        "es": "¡Sebastian me ha dicho que está intentando dejar de fumar! Qué orgullosa estoy de él.",
+        "fr": "Sebastian m’a dit qu’il essayait d’arrêter de fumer ! Je suis vraiment fière de lui.",
+        "hu": "Sebastian azt mondta, hogy le fog szokni a dohányzásról! Nagyon büszke vagyok rá.",
+        "it": "Sebastian mi ha detto che sta provando a smettere di fumare! Sono davvero orgogliosa di lui.",
+        "ja": "セバスチャンが タバコを やめるって 言ってくれたわ！すごく 誇らしい ことよ。",
+        "en": "Sebastian told me he's trying to quit smoking! I'm really proud of him.",
+        "ko": "세바스찬이 담배를 끊으려고 하고 있대! 정말 자랑스러워.",
+        "pt": "O Sebastian me disse que está tentando parar de fumar! Estou orgulhosa dele.",
+        "ru": "Себастиан сказал мне, что бросает курить! Я так им горжусь.",
+        "tr": "Sebastian bana sigarayı bırakmaya çalıştığını söyledi. Onunla gurur duyuyorum.",
+        "zh": "塞巴斯蒂安告诉我他正努力戒烟！我真为他感到骄傲。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Fri4_inlaw_Sebastian' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:Fri_inlaw_Sebastian",
+      "author_key": "Fri_inlaw_Sebastian",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich vermisse meinen Basti... Er wurde immer ein wenig missverstanden, aber ich habe an ihn geglaubt.",
+        "es": "Echo de menos a mi Seby... Siempre ha sido un incomprendido, pero yo siempre he confiado en él.",
+        "fr": "Mon Sebby me manque... Il était un peu incompris, mais je croyais en lui.",
+        "hu": "Hiányzik az én Sebbym... mindig kissé félreérthető volt, de én hittem neki.",
+        "it": "Mi manca il mio Sebby... È sempre stato un po' frainteso, ma io credevo in lui.",
+        "ja": "セビィが 恋しいわ… 誤解されがち だったけど、 私は あの子を 信じてたのよ。",
+        "en": "I miss my Sebby... he was always a little misunderstood, but I believed in him.",
+        "ko": "우리 세비 보고 싶네... 항상 조금씩 오해는 있었지만, 언제라도 그 아이를 믿었어.",
+        "pt": "Sinto falta do meu Tião... ele nunca foi complicado, mas eu acreditava nele.",
+        "ru": "Я скучаю по своему Себби... Его часто понимали неправильно, но я в него верила.",
+        "tr": "Küçük Sebby'mi özledim... hep yanlış anlaşılıyor, ama ben ona güveniyordum.",
+        "zh": "我想念小巴……他以前总是被人误解，但是我相信他。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Fri_inlaw_Sebastian' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:GreenRain",
+      "author_key": "GreenRain",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Dieser Mann ist wahnsinnig! Warum muss er da rausgehen? Wir haben keine Ahnung, ob dieser Regen gefährlich ist!$u%noturn",
+        "es": "¡Ese hombre está loco! ¿Por qué tiene que salir ahí fuera? ¡No tenemos ni idea si esta lluvia es peligrosa!$u%noturn",
+        "fr": "Cet homme est fou ! Pourquoi doit-il aller dehors ? Nous ne savons pas si cette pluie est dangereuse !$u%noturn",
+        "hu": "Az az ember megőrült! Miért kell kimennie oda? Fogalmunk sincs, hogy az az eső veszélyes vagy sem!$u%noturn",
+        "it": "Quell'uomo è pazzo! Perché deve andare là fuori? Non abbiamo idea se questa pioggia è pericolosa!$u%noturn",
+        "ja": "ディメトリウスはどうかしてるよ！どうして外に出なきゃいけないの？この雨は危ないかもしれないのに！$u%noturn",
+        "en": "That man is insane! Why does he have to go out there? We have no idea if this rain is dangerous!$u%noturn",
+        "ko": "미쳤어! 왜 밖으로 나간 거지? 위험할 수도 있다고!$u%noturn",
+        "pt": "Aquele homem é insano! Por que ele tem que ir lá fora? Nós não temos ideia se essa chuva é perigosa!$u%noturn",
+        "ru": "Да он сошел с ума! Зачем вообще выходить на улицу? Кто знает, вдруг там опасно!$u%noturn",
+        "tr": "Deli adam! Neden dışarı çıkıyor ki? Bu yağmurun tehlikeli olup olmadığını bilmiyoruz!$u%noturn",
+        "zh": "那家伙疯了吧！他干啥非得出去？这场雨危不危险我们还不知道啊！$u%noturn"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "weather_green_rain",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:GreenRainFinished",
+      "author_key": "GreenRainFinished",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich hoffe, Demetrius ist mit den \"Proben\", die er gesammelt hat, zufrieden. Anscheinend ist ihm sein kleines Wissenschaftsprojekt wichtiger als seine eigene Frau. Hmmph.$6",
+        "es": "Espero que Demetrius esté contento con sus « muestras » que ha recogido. Parece que su proyectito de ciencia es más importante para él que su propia esposa. Hmmph.$6",
+        "fr": "J’espère que Demetrius est satisfait des \"échantillons\" qu’il a recueillis. On dirait que son petit projet scientifique est plus important pour lui que sa propre femme. Hmm.$6",
+        "hu": "Remélem Demetrius boldog, hogy 'mintákat' gyűjthetett. Úgy tűnik a kis tudományos kísérlete fontosabb számára, mint a saját felesége. Hmmph.$6",
+        "it": "Spero che Demetrius sia soddisfatto dei 'campioni' che ha raccolto. A quanto pare, il suo piccolo progetto scientifico è più importante di sua moglie. Hmmph.$6",
+        "ja": "ディメトリウスはサンプルが集められてきっと満足だろうね。あの人は、ちょっとした研究の方が自分の奥さんよりも大事なんだよ。まったくもう。$6",
+        "en": "I hope Demetrius is happy with the 'samples' he collected. Seems like his little science project is more important to him than his own wife. Hmmph.$6",
+        "ko": "드미트리우스가 '샘플' 모은 거에 만족했으면 좋겠네. 보아하니 아내보다 과학 프로젝트가 중요한가 봐. 흥.$6",
+        "pt": "Espero que o Demetrius esteja feliz com as 'amostras' que ele coletou. Parece que os projetos científicos dele são mais importantes do que a própria esposa. Hmmf.$6",
+        "ru": "Надеюсь, Деметриус рад «образцам», которые он собрал. Похоже, его научный проектик для него важнее собственной жены. Пф-ф.$6",
+        "tr": "Umarım Demetrius, topladığı 'örneklerden' memnundur. Küçük bilim projesini kendi karısından daha önemli görüyor. Of.$6",
+        "zh": "希望德米对采集到的“样本”还满意吧，感觉他的那什么科学研究比老婆还重要，哼。$6"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'GreenRainFinished' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:GreenRain_2",
+      "author_key": "GreenRain_2",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Heute gibt es jede Menge gutes Holz da draußen. Wir fangen besser an zu hacken, was?",
+        "es": "Hay todo tipo de maderas buenas hoy. Mejor vamos talando, ¿eh?",
+        "fr": "Il y a toutes sortes de bons bois aujourd’hui. On ferait mieux de s’y mettre !",
+        "hu": "Ma mindenféle remek fa van odakint. Jobb lesz szétvágni őket, nem?",
+        "it": "Oggi c'è sacco di legno buono in giro. Meglio mettersi a tagliare, eh?",
+        "ja": "世界にはいろんな種類のいい木材があるよね。さっそく切りに行ってみる？",
+        "en": "There's all kinds of good wood out there today. Better get chopping, huh?",
+        "ko": "오늘 별별 좋은 나무가 많아. 얼른 베어야겠지, 그치?",
+        "pt": "Tem vários tipos de madeira boa para cortar hoje. Bora começar os trabalhos?",
+        "ru": "Сегодня нас ждет столько хорошей и разной древесины. Не пора ли ее нарубить?",
+        "tr": "Bugün dışarıda her çeşit kaliteli odun var. Kesmeye başlamak lazım, ne dersin?",
+        "zh": "今天外面长出了很多上好的木材，是不是该去砍一砍了？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:Introduction",
+      "author_key": "Introduction",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hast du jeden in der Stadt schon getroffen? Das klingt anstrengend.",
+        "es": "¿Has conocido ya a todos los del pueblo? Suena agotador.",
+        "fr": "Est-ce que tu as rencontré tout le monde au village ? Ça a dû être épuisant.",
+        "hu": "Már mindenkivel találkoztál a városban? Az elég fárasztónak hangzik.",
+        "it": "Hai già fatto conoscenza con tutti quanti in paese? Dev'essere spossante.",
+        "ja": "町の みんなとは もう会った？一人ずつ あいさつするのって たいへんよね。",
+        "en": "Have you met everyone in town yet? That sounds exhausting.",
+        "ko": "마을 사람들은 다 만나봤어? 그러다 지칠 것 같아.",
+        "pt": "Você já se encontrou com alguém da cidade? Parece bem cansativo.",
+        "ru": "Знакомишься со всеми в городе? Звучит утомительно.",
+        "tr": "Kasabadaki herkes ile tanıştın mı? Yorulmuş olmalısın.",
+        "zh": "你有拜访镇子上的所有人吗？听上去很累的样子。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Introduction' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:Mon",
+      "author_key": "Mon",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Habe ich dir erzählt, dass ich unser Haus komplett selbst gebaut habe?#$e#Das ist bisher definitiv das Highlight meiner Karriere.",
+        "es": "¿Te había dicho que construí nuestra casa desde los cimientos?#$e#Sin duda, el logro más importante de mi carrera hasta ahora.",
+        "fr": "Tu sais, j’ai construit notre maison moi-même#$e#Cela a certainement été le clou de ma carrière.",
+        "hu": "Meséltem már neked, hogy sajátkezűleg építettem fel a házunkat?#$e#Eddig egyértelműen ez a karrierem fénypontja.",
+        "it": "Te l'ho detto che ho costruito io la nostra casa dalle fondamenta?#$e#Finora è certamente il culmine della mia carriera.",
+        "ja": "この家は 私が 土台から 建てたって 話を したかしら？#$e#私の 経験した中で 一番の ハイライトだわ。",
+        "en": "Have I told you that I built our house from the ground up?#$e#It's definitely been the highlight of my career so far.",
+        "ko": "내가 우리 집을 첫 주춧돌부터 내가 지었다는 거 얘기해줬나?#$e#지금까지 내 경력 중에 최고의 업적이야.",
+        "pt": "Eu já disse que construí nossa casa do zero?#$e#Definitivamente, é o destaque da minha carreira até agora.",
+        "ru": "Я тебе рассказывала, что построила весь наш дом с нуля, в одиночку?#$e#Это явно одно из лучших достижений за мою карьеру.",
+        "tr": "Evimizi baştan aşağı ben inşa ettim, biliyor musun?#$e#Kesinlikle kariyerimin dönüm noktası o andı.",
+        "zh": "我有告诉过你我们的房子是我负责建造的吗？#$e#这是我入行以来最伟大的成就之一了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:MovieInvitation",
+      "author_key": "MovieInvitation",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ooh... Zwei Tickets für die Show heute Abend, hm? Hört sich gut an! Ich treffe dich dort.$h",
+        "es": "Ooh... Dos entradas para la sesión de esta noche, ¿eh? ¡Suena bien! Nos vemos allí.$h",
+        "fr": "Ho... Deux billets pour le film diffusé au cinéma ce soir, hein ? C’est une très bonne idée ! Je te retrouve là-bas.$h",
+        "hu": "Óóh... Két jegy az esti műsorra, mi? Remekül hangzik! Ott találkozunk.$h",
+        "it": "Ooh... Due biglietti per il film di stasera, eh? Benissimo! Ci vediamo là.$h",
+        "ja": "わあ… 今夜のチケットが2枚あるの？ おもしろそう！ 楽しみだわ！$h",
+        "en": "Ooh... Two tickets for tonight's show, huh? Sounds good! I'll meet you there.$h",
+        "ko": "오오... 오늘 밤 영화표가 두 장 있다고? 아주 좋은 걸! 시간 맞춰서 영화관에서 보자.$h",
+        "pt": "Ooh... Dois ingressos pro filme de hoje à noite, é? Parece legal! Eu te encontro lá.$h",
+        "ru": "Ой... Билеты на сегодняшний сеанс? Хорошо! Увидимся там.$h",
+        "tr": "Vay... Bugünkü filme iki bilet demek? Olur! Orada buluşuruz.$h",
+        "zh": "噢噢……我们俩一人一张票，去看今晚的节目吗？好呀！我们到时候见。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'MovieInvitation' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:Resort",
+      "author_key": "Resort",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wow, sehen Sie sich diese Bauwerke an! $h#$b#Ich kann erkennen, dass sie von einem Baumeister geschaffen wurden. Ich bin wirklich beeindruckt!",
+        "es": "¡Wow, mira esas estructuras!$h#$b#Se puede ver que fueron construidas por un maestro constructor. ¡Estoy realmente impresionada!",
+        "fr": "Waouh, regarde-moi ces structures !$h#$b#Elles ont clairement été fabriquées par un véritable architecte. Je suis vraiment impressionnée !",
+        "hu": "Váó, nézd ezt a sok épületet!$h#$b#Meg tudom állapítani, hogy egy mesterépítész készítette. Le vagyok nyűgözve!",
+        "it": "Wow, guarda un po' queste strutture!$h#$b#Si vede che sono state fatte da un costruttore provetto. Complimenti!",
+        "ja": "うわっ、見てよこの構造！$h#$b#わたしにはこれが名工の手によるものだってわかるよ。感動しちゃった！",
+        "en": "Wow, look at these structures!$h#$b#I can tell they were made by a master builder. I'm really impressed!",
+        "ko": "와우, 이 건물들 봐!$h#$b#딱 봐도 뛰어난 건축가의 손길이 보여. 아주 인상적이야!",
+        "pt": "Uau, olha essas estruturas!$h#$b#Eu consigo ver que foram feitas por um construtor excelente. Estou muito impressionada!",
+        "ru": "Ух ты, вот это здания!$h#$b#Точно говорю, их возводил настоящий знаток своего дела. Я под впечатлением!",
+        "tr": "Vay canına, şu yapılara baksana!$h#$b#İşinde usta biri tarafından yapıldıkları çok belli. Epey etkilendim!",
+        "zh": "哇，看看这些建筑！$h#$b#我能看出来，它们是大师级建筑家的手笔。真是太了不起了！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:Resort_Bar",
+      "author_key": "Resort_Bar",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das ist so entspannend...",
+        "es": "Es tan relajante...",
+        "fr": "C’est tellement relaxant...",
+        "hu": "Ez olyan nyugtató...",
+        "it": "Mi sto proprio rilassando...",
+        "ja": "とっても落ち着くね…",
+        "en": "This is so relaxing...",
+        "ko": "정말 느긋하다...",
+        "pt": "Isso é tão relaxante...",
+        "ru": "Здесь так расслабляюще прекрасно...",
+        "tr": "Ne kadar da dinlendirici...",
+        "zh": "真是太舒服了……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:Resort_Chair",
+      "author_key": "Resort_Chair",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey @. Weißt Du, ich habe gerade darüber nachgedacht, wie weit sich die Stadt entwickelt hat, seit Du hierher gezogen bist.#$b#Du solltest wirklich stolz auf alles sein, was Du geleistet hast!$h",
+        "es": "Hey @. Ya sabes, Estaba pensando en lo lejos que ha llegado el pueblo desde que llegaste.#$b#¡Deberías enorgullecerte de todo lo que has hecho!$h",
+        "fr": "Salut @. Tu tombes à pic. J’étais justement en train de penser à l’évolution du village depuis que tu es arrivé.#$b#Tu devrais vraiment être fier de tout ce que tu as accompli !$h",
+        "hu": "Hé @. Tudod, épp azon gondolkoztam, hogy milyen messzire kerültünk a várostól azóta, mióta először ideköltöztél.#$b#Büszkének kell lenned mindarra, amit elértél!$h",
+        "it": "Ehi @. Sai, stavo pensando a quanto sono migliorate le cose in paese da quando ci sei tu.#$b#Al tuo posto sarei orgogliosissima dei tuoi risultati!$h",
+        "ja": "やあ、@。あなたが引っ越して来てから、町がどれだけ発展したか考えていたんだ。#$b#あなたは自分がやったことを誇りに思うべきだよ！$h",
+        "en": "Hey @. You know, I was just thinking about how far the town has come since you first moved here.#$b#You should really be proud of all you've done!$h",
+        "ko": "안녕 @. 네가 처음 이사 온 후 마을이 얼마나 발전했나 생각하고 있었어.#$b#네가 이룬 업적들을 자랑스러워해도 되겠어!$h",
+        "pt": "Ei @. Sabe, eu estava pensando sobre o quão longe a vila chegou desde que você veio pra cá.#$b#Você devia ter muito orgulho de tudo que fez!$h",
+        "ru": "Эй, @. Знаешь, я тут сидела и думала, как хорошо пошли дела в городе после твоего приезда.#$b#Тебе бы стоило гордиться своими свершениями!$h",
+        "tr": "Selam @. Düşünüyordum da, sen geldiğinden beri kasabamız çok ama çok büyüdü, ilerledi, gelişti.#$b#Yaptığın şeylerle gurur duymalısın!$h",
+        "zh": "你好，@。我刚刚在想，从你最初搬到这里起，整座镇子发生了多少改变。#$b#你真的应该为自己的成就感到自豪！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:Resort_Leaving",
+      "author_key": "Resort_Leaving",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das hat Spaß gemacht!$h",
+        "es": "¡Ha sido divertido!$h",
+        "fr": "C’était amusant !$h",
+        "hu": "Ez jó móka volt!$h",
+        "it": "Mi sono divertita!$h",
+        "ja": "とても楽しかったよ。$h",
+        "en": "That was fun!$h",
+        "ko": "재밌었다!$h",
+        "pt": "Isso foi divertido!$h",
+        "ru": "Было весело!$h",
+        "tr": "Çok eğlendim!$h",
+        "zh": "真是有趣！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:Resort_Shore",
+      "author_key": "Resort_Shore",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "He, seht mal! Ich kann von hier aus eine andere Insel sehen.",
+        "es": "Hey, ¡mira! Puedo ver otra isla desde aquí.",
+        "fr": "Hé, regarde ! Je peux voir une autre île d’ici.",
+        "hu": "Hé, nézd! Látok innen egy másik szigetet.",
+        "it": "Ehi, guarda! Da qui si vede un'altra isola.",
+        "ja": "ほら、見て！ここから他の島が見えるよ。",
+        "en": "Hey, look! I can see another island from here.",
+        "ko": "어, 저기 봐봐! 저기 다른 섬이 하나 보이는데?",
+        "pt": "Ei, olha! Eu consigo ver outra ilha daqui.",
+        "ru": "Эй, смотри! Отсюда я вижу еще один остров.",
+        "tr": "Baksana! Şurada bir ada daha var.",
+        "zh": "嘿，瞧啊！我可以从这里看见另一座岛。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:Sat",
+      "author_key": "Sat",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Unser Haus hat so eine schöne Lage, findest du nicht?#$e#Ich liebe die frische Luft in den Bergen.",
+        "es": "Nuestra casa está en una zona preciosa, ¿verdad?#$e#Me encanta el aire fresco de las montañas.",
+        "fr": "Notre maison est dans un très bel endroit, tu ne trouves pas ?#$e#J’adore l’air frais des montagnes.",
+        "hu": "A házunk olyan gyönyörű területen van, nem gondolod?#$e#Szeretem a hegyek friss illatát.",
+        "it": "La nostra casa è in una zona così bella, vero?#$e#Adoro l'aria fresca di montagna.",
+        "ja": "私達の家って いいところに 建ってると 思わない？#$e#山の 新鮮な 空気が 大好きなの。",
+        "en": "Our house is in such a beautiful area, don't you think?#$e#I love the fresh air of the mountains.",
+        "ko": "우리 집 정말 아름다운 곳에 있지 않아?#$e#산의 신선한 공기는 사랑스럽지.",
+        "pt": "Nossa casa fica em um lugar muito bonito, não acha?#$e#Amo o ar fresco das montanhas.",
+        "ru": "Наш дом стоит на таком красивом участке, правда?#$e#Я люблю свежий воздух в горах.",
+        "tr": "Evim çok güzel bir yerde, sence de öyle değil mi?#$e#Dağlardaki ferahlatıcı havayı seviyorum.",
+        "zh": "我们家四周的景色是不是很漂亮？#$e#我喜欢山上的清新空气。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:Sun",
+      "author_key": "Sun",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich hoffe, dass Demetrius unser Haus mit seinen Experimenten nicht in die Luft jagt.#$e#Ich bin mir nicht einmal sicher, woran er arbeitet. Es hat vielleicht etwas mit Pflanzen zu tun.",
+        "es": "Espero que Demetrius no haga volar la casa con sus experimentos.#$e#Ni siquiera estoy segura de en qué está trabajando. Creo que tiene algo que ver con las plantas.",
+        "fr": "J’espère que Demetrius ne fera pas exploser la maison avec ses expériences scientifiques.#$e#Je ne sais même pas sur quoi il travaille. Je pense que ça a quelque chose à voir avec les plantes.",
+        "hu": "Remélem Demetrius nem fogja felrobbantani a házat az egyik tudományos kísérletével.#$e#Azt se tudom, hogy épp min munkálkodik. Talán valamilyen növényekkel kapcsolatos dolgon.",
+        "it": "Spero che Demetrius non faccia saltare la casa con quei suoi esperimenti.#$e#Non so nemmeno di cosa si tratti di preciso. Credo che abbia a che fare con le piante.",
+        "ja": "ディメトリウスが 科学実験で この家を 吹き飛ばさなきゃ いいんだけど。#$e#いったい 何を しているのか 私には 見当もつかないわ。ただ、 植物と 関係が あるように 思えるの。",
+        "en": "I hope Demetrius doesn't blow the house up with those science experiments of his.#$e#I'm not even sure what he's working on. I think it has something to do with plants.",
+        "ko": "드미트리우스가 무슨 과학 실험을 하다가 집을 폭파시키지 않아야 할 텐데.#$e#사실 정확히 어떤 연구를 하는지 잘 모르겠어. 뭔가 식물과 관련된 것 같은데.",
+        "pt": "Espero que o Demetrius não exploda a casa com seus experimentos científicos.#$e#Não faço nem ideia do que ele está trabalhando. Acho que tem a ver com plantas.",
+        "ru": "Надеюсь, Деметриус не взорвет дом своими научными экспериментами.#$e#Я даже не знаю толком, над чем он работает. Кажется, что-то про растения.",
+        "tr": "Umarım Demetrius deneyleri ile evi patlatmaz.#$e#Tam olarak ne üzerinde çalıştığını bilmiyorum ama bitkilerle ilgiliydi.",
+        "zh": "希望德米特里厄斯做的那些实验不会把房子给炸了。#$e#我不知道他在研究什么，但好像是跟植物有关的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:Sun2",
+      "author_key": "Sun2",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "#$1 RobinDem#Mein Mann hat letzte Nacht fast das Haus mit seinen Experimenten in Brand gesteckt. Einer seiner Kolben ist explodiert und hat einen Feuerball in die Dachsparren geschossen! Yoba sei Dank habe ich feuerresistenten Lack genommen, als ich das Haus gebaut habe.$u#$e#Entschuldige, falls es hier merkwürdig riecht, @. Es ist eines der bizarren Experimente meines Mannes...",
+        "es": "#$1 RobinDem#Mi marido casi prende fuego a la casa anoche con su último experimento. ¡Uno de sus matraces explotó y lanzó una bola de fuego hacia las vigas! Gracias a Yoba, usé barniz resistente al fuego cuando construí la casa.$u#$e#Lo siento si huele raro, @. Es un extraño proyecto científico de mi marido...",
+        "fr": "#$1 RobinDem#Mon mari a failli mettre le feu à la maison hier soir avec son expérience scientifique. L’un de ses béchers a explosé et a projeté une boule de feu droit sur les poutres ! Yoba soit louée, j’ai utilisé de la laque ignifugée quand j’ai construit la maison.$u#$e#Désolée si ça sent bizarre ici, @. C’est à cause du drôle de projet scientifique de mon mari...",
+        "hu": "#$1 RobinDem#A férjem tegnap este kísérletezés közben majdnem felgyújtotta a házat. Az egyik kapcsolója felrobbant és egy tűzgolyót lőtt ki a szarufa felé! Yobanak hála tűzálló lakkot használtam, mikor felépítettem ezt a helyet.$u#$e#Elnézést a kellemetlen szagokért, @. Ez a férjem bizarr tudományos kísérlete...",
+        "it": "#$1 RobinDem#Ieri sera mio marito ha quasi dato fuoco alla casa con i suoi esperimenti. Uno dei suoi recipienti è esploso, scagliando una palla di fuoco fra le travi! Grazie a Yoba avevo usato la lacca ignifuga quando ho costruito tutto.$u#$e#Scusa se c'è un odore strano qua dentro, @. È il bislacco progetto scientifico di mio marito...",
+        "ja": "#$1 RobinDem#昨晩の 夫の 実験で、家が 焼けてしまいそうに なったわ。 ビーカーが 爆発して 垂木に 火が 飛び移ったのよ！家を 建てる際に 耐火性の 塗料を 使って、 本当に 良かったわ。$u#$e#@、変な 臭いが したら ごめんなさいね。夫の 変な 科学実験に よるものだから…",
+        "en": "#$1 RobinDem#My husband almost set the house on fire last night with his science experiment. One of his beakers exploded and sent a fireball into the rafters! Thank Yoba I used fire-resistant lacquer when I built the place.$u#$e#Sorry if it smells weird in here, @. It's my husband's bizarre science project...",
+        "ko": "#$1 RobinDem#어젯밤에 남편이 실험을 하다가 집에 불이 붙었어. 비커가 터지더니 서까래 쪽으로 불덩이가 날아갔어! 요바께 감사한 게 여길 지을 때 내화성 라커로 칠했지.$u#$e#여기 냄새가 좀 이상하다면 미안해, @. 남편의 기이한 과학 프로젝트 때문이야...",
+        "pt": "#$1 RobinDem#Meu marido quase incendiou a casa na noite passada com seu experimento científico. Um de seus béquers explodiu e lançou uma bola de fogo nas vigas da casa! Graças à Ioba, eu estava com meu laquê à prova de fogo quando construí a casa.$u#$e#Desculpe pelo cheiro estranho aqui, @. É o projeto de ciências bizarro do meu marido...",
+        "ru": "#$1 RobinDem#Вчера вечером мой муженек чуть не спалил дом своими экспериментами. У него взорвалась колба, и огонь полетел прямо к балкам! Хвала Иобе, я догадалась использовать огнеупорный лак, когда строила дом.$u#$e#Прости, если пахнет у нас странно, @. Это все тот чудной научный проект моего мужа...",
+        "tr": "#$1 RobinDem#Kocam dün geceki deneyi ile neredeyse evi yakıyordu. Deney tüplerinden birisi patladı ve kirişlerden birini ateşe verdi! Yoba'ya şükürler olsun ki evi yaparken ateşe dayanıklı malzeme kullanmıştım.$u#$e#Kötü kokunun kusuruna bakma, @. Kocamın bilim projelerinden biri işte...",
+        "zh": "#$1 RobinDem#我丈夫昨晚做科学实验差点把房子给烧掉了。他的其中一个烧瓶爆炸了，对着房椽射出了一颗火球！由巴在上，还好我当初建造这间房子的时候用了耐火漆。$u#$e#如果有难闻之极的气味，请见谅，@。我丈夫又在搞奇奇怪怪的科学项目……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:Sun6",
+      "author_key": "Sun6",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hi @! Schön dich zu sehen.#$e#Du bist schon ein richtiges Mitglied dieser Gemeinde, findest du nicht?",
+        "es": "¡Hola, @! Me alegro de verte.#$e#Ya eres miembro de pleno derecho de la comunidad, ¿no crees?",
+        "fr": "Salut @ ! Contente de te voir.#$e#Tu es un membre régulier de la communauté maintenant, non ?",
+        "hu": "Szia @! Öröm látni téged.#$e#Most már mindennapos tagja vagy a közösségnek, nem gondolod?",
+        "it": "Ciao @! Che piacere vederti.#$e#Ormai sei parte integrante della comunità, non trovi?",
+        "ja": "あら、@！あえて うれしいわ。#$e#今では あなたも この町の りっぱな 一員ね。",
+        "en": "Hi @! It's good to see you.#$e#You're a regular member of the community now, don't you think?",
+        "ko": "안녕 @! 반가워.#$e#이제 진짜 공동체의 주요 인원이 되었네, 안 그래?",
+        "pt": "Oi @! Que bom ver você.#$e#Você é um membro da comunidade agora, não é?",
+        "ru": "Привет, @! Рада тебя видеть.#$e#Ты теперь неотъемлемая часть коллектива нашего города, не думаешь?",
+        "tr": "Selam, @! Seni görmek güzel.#$e#Bu topluluğun bir parçası oldun artık. Sen ne düşünüyorsun?",
+        "zh": "嗨，@！很高兴见到你。#$e#你不觉得自己已经融入了这个社区吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:Thu",
+      "author_key": "Thu",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du bist immer hier willkommen, auch wenn du nicht einkaufst.$h#$e#Es kann hier in den Bergen ziemlich einsam werden.",
+        "es": "Puedes venir de visita siempre que quieras, aunque no necesites comprar nada.$h#$e#Como vivimos en las montañas no solemos tener compañía.",
+        "fr": "Tu es toujours la bienvenue, même si tu n’achètes rien.$h#$e#On se sent vite seul dans les montagnes.",
+        "hu": "Tudod, minket nyugodtan meglátogathatsz, még akkor is, ha épp nem vásárolsz.$h#$e#Elég magányos tud lenni idefent a hegyekben.",
+        "it": "Le tue visite sono sempre gradite, anche se non compri niente, sai.$h#$e#Quassù in montagna la solitudine è sempre in agguato.",
+        "ja": "買い物が 目当てじゃなくても、 いつでも 会いにきても いいのよ。$h#$e#山の上じゃ、 結構 人恋しくなるから。",
+        "en": "You're always welcome to visit us, even if you aren't shopping, you know.$h#$e#It can get pretty lonely up here in the mountains.",
+        "ko": "꼭 물품을 사러 오는 게 아니더라도 언제든 놀러 와도 괜찮아.$h#$e#여기 산중이라 좀 너무 조용해지더라고.",
+        "pt": "Você sempre pode nos visitar, mesmo que não compre, sabe?$h#$e#Às vezes fico muito sozinha nas montanhas.",
+        "ru": "Мы всегда рады тебя видеть, даже если ты и не собираешься ничего покупать.$h#$e#Нам иногда бывает так одиноко в горах.",
+        "tr": "Alışveriş yapmayacaksan bile bizi istediğin zaman ziyaret edebilirsin.$h#$e#Bu dağlarda yalnız kalabiliyorum.",
+        "zh": "即使不是来买东西，我们也很欢迎你来聊聊天的。$h#$e#住在山上有时候是挺孤独的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:Tue",
+      "author_key": "Tue",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey, wenn du Materialien oder Blaupausen brauchst, ist mein Laden die erste Anlaufstelle für dich!#$e#Dazu unterstützt du so die regionale Wirtschaft.$h",
+        "es": "Ey, si necesitas materiales o planos, ¡mi tienda es el lugar adecuado!#$e#Y además contribuyes a la economía local.$h",
+        "fr": "Si tu as besoin de matériaux ou de plans, ma boutique est l’endroit qu’il te faut !#$e#Et puis ta ferme soutient l’économie locale.$h",
+        "hu": "Hé, ha alapanyagokra vagy tervrajzokra van szükséged, akkor te az én boltomat keresed!#$e#Plusz a te üzleted támogatja a helyi gazdaságot.$h",
+        "it": "Ehi, se ti servono dei progetti o dei materiali, il mio negozio è quello che fa per te!#$e#E poi, i tuoi affari supportano l'economia locale.$h",
+        "ja": "もし 素材や 設計図が 必要なら、 私の 店を 見ると いいわよ！#$e#あなたの 仕事が 地元経済を 支えてくれるからね。$h",
+        "en": "Hey, if you need any materials or blueprints, my shop is the place you're looking for!#$e#Plus, your business supports the local economy.$h",
+        "ko": "이봐, 건축자재나 청사진이 필요하다면 내 가게가 딱이야!#$e#게다가 이러면 지역 경제도 지원해주는 일이고.$h",
+        "pt": "Ei, se você precisar de materiais ou projetos, minha loja tem o que você precisa!#$e#Além disso, seu negócio ajuda a economia local.$h",
+        "ru": "Слушай, если тебе понадобятся материалы или чертежи, то заходи ко мне в магазин!#$e#К тому же, деньги от твоих покупок поддержат местную экономику.$h",
+        "tr": "Eğer taslak veya malzeme satın almak istiyorsan mağazam tam sana göre!#$e#Ayrıca, satın alacağın her bir şey ile kasaba ekonomisine katkıda bulunmuş olursun!$h",
+        "zh": "嘿，如果你需要什么材料或者蓝图，请到我的店里来！#$e#而且，你的光顾能够为本地的经济贡献一份力量。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:Wed",
+      "author_key": "Wed",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh, @.#$e#Ich war ganz in Gedanken versunken über ein paar neue Schreinerei-Projekte.#$e#Bei dir läuft alles okay? Wie steht es um das Balkenwerk in deiner Hütte?",
+        "es": "Hola, @.#$e#Estaba soñando con nuevos proyectos de carpintería.#$e#¿Te va bien en tu granja? ¿Qué tal aguanta la madera de tu cabaña?",
+        "fr": "Salut, @.#$e#Je réfléchissais à de nouveaux projets de menuiserie.#$e#Est-ce que tout va bien à la ferme ? Comment avance la menuiserie de ta maison ?",
+        "hu": "Szia, @.#$e#Épp elkalandoztam pár új ácsprojekt felett.#$e#Nálad minden jól megy? Jó állapotban van a fa a kunyhódban?",
+        "it": "Ehilà, @.#$e#Stavo solo fantasticando riguardo a nuovi progetti di carpenteria.#$e#Ti trovi bene in casa tua? Come tiene l'ossatura del tuo cottage?",
+        "ja": "こんにちは、@。#$e#ちょうど今、 新しいものを 作ろうと 考えていた ところなの。#$e#そっちの 調子は どうかしら？あなたの 家の 木材は まだ しっかり してる？",
+        "en": "Hey there, @.#$e#I was just daydreaming about some new carpentry projects.#$e#Are you doing OK at your place? How's the woodwork in your cottage holding up?",
+        "ko": "안녕, @.#$e#목공 프로젝트 몇 가지를 떠올려보고 있었어.#$e#집은 괜찮아? 오두막의 목조부는 건재하고?",
+        "pt": "Olá, @.#$e#Eu estava sonhando acordada com novos projetos de carpintaria.#$e#Você está indo bem na sua casa? Como vai a marcenaria na sua cabana?",
+        "ru": "Приветик, @.#$e#Я тут замечталась о новых проектах по дереву.#$e#У тебя хорошо идут дела? Дерево в доме хорошо держится?",
+        "tr": "Selam, @.#$e#Az önce birkaç marangozluk projesi ile ilgili hayaller kuruyordum.#$e#Evin nasıl? Barakandaki tahtalar sağlam mı?",
+        "zh": "嘿，你好！@。#$e#我正在构思一些新的木工项目呢。#$e#你的工作还好吗？你的小屋还结实吧？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:cc_Begin",
+      "author_key": "cc_Begin",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey! Ich habe gehört, dass Lewis dir das Gemeinschaftszentrum gezeigt hat ... Es wäre toll, wenn du es renovieren könntest. Früher war es mal ein tolles Gebäude!",
+        "es": "¡Oye! Dicen que Lewis te mostró el centro cívico... Sería genial que pudieses arreglar ese lugar. ¡Antes era un edificio muy bonito!",
+        "fr": "Hé ! J’ai entendu dire que Lewis t’a fait visiter le centre communautaire... Ce serait formidable si tu pouvais réparer cet endroit. C’était un très beau bâtiment avant !",
+        "hu": "Hé! Hallottam, hogy Lewis megmutatta neked a Közösségi központot... Jó volna, ha feltudnád újítani azt a helyet. Régen nagyon jó és szép épület volt!",
+        "it": "Ehi! Ho sentito che Lewis ti ha mostrato il Centro sociale... Sarebbe magnifico se potessi sistemare quel posto. Era un edificio così bello!",
+        "ja": "ルイスが コミュニティ センター の案内を してくれたらしいね…あそこを 直せたら どんなに うれしいか。本当に 昔は素敵な 建物だったの！",
+        "en": "Hey! I heard that Lewis showed you around the Community Center... It'd be great if you could fix that place up. It used to be a really nice building!",
+        "ko": "이봐! 루이스가 마을 회관을 구경시켜줬다고 들었어... 고칠 수 있으면 정말 좋을 텐데. 예전엔 근사한 건물이었어!",
+        "pt": "Ei! Fiquei sabendo que o Lewis levou você ao Centro Comunitário... Seria ótimo se você pudesse consertar o local. Antigamente ele era um belo edifício!",
+        "ru": "Привет! Я слышала, Льюис показал вам клуб... Было бы здорово, если бы вы смогли его починить. Раньше это было такое красивое здание!",
+        "tr": "Hey! Lewis'in sana Halkevi'ni gösterdiğini duydum, umarım orayı onarabilirsin. Eskiden çok güzel bir yerdi.",
+        "zh": "嘿！我听说刘易斯带你参观了社区中心……如果你能修好那个地方，那就太好了。它曾经是一座很美的建筑！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "community_center_event",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "community_center"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:cc_Bridge",
+      "author_key": "cc_Bridge",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey! Letzte Nacht habe ich komische Geräusche gehört. Heute Morgen bin ich aufgewacht und die Brücke am Steinbruch war vollständig repariert!#$b#Ein Wunderwerk der Holzverarbeitung!",
+        "es": "¡Oye! Anoche oí unos ruidos muy extraños. Esta mañana me desperté ¡y el puente de la cantera estaba completamente reparado!#$b#¡Es un milagro de la carpintería!",
+        "fr": "Hé ! J’ai entendu des bruits étranges la nuit dernière et quand je me suis réveillée ce matin, j’ai trouvé le pont de la carrière complètement réparé !#$b#C’est un miracle et un superbe travail de menuiserie !",
+        "hu": "Hé! Fura hangokat hallottam tegnap este, és arra ébredtem, hogy a bányához vezető híd teljesen megjavult!#$b#Igazán csodálatos famegmunkálás!",
+        "it": "Ehi! Stanotte ho sentito dei rumori strani, e stamattina mi sveglio e trovo il ponte della cava completamente riparato!#$b#È un miracolo della carpenteria!",
+        "ja": "昨日の夜 変な音が　聞こえてたの、それで今朝 起きたら、 石切り場への 橋が 完璧に 直ってたの！#$b#まさかの奇跡が起きたわ！",
+        "en": "Hey! I heard some weird noises last night, and woke up this morning to find the quarry bridge completely repaired!#$b#It's a miracle of woodworking!",
+        "ko": "들어봐! 어젯밤에 이상한 소리가 좀 난다 싶었는데, 아침에 일어나 보니 채석장으로 가는 다리가 완전히 수리되어 있더라고!#$b#이건 목공적인 기적이야!",
+        "pt": "Ei! Ouvi alguns barulhos estranhos à noite e acordei hoje de manhã com a ponte completamente restaurada!#$b#É um milagre da carpintaria!",
+        "ru": "Привет! Ночью я слышала странный шум, утром просыпаюсь — а мост в карьер как новенький!#$b#Какой-то плотник просто чудо сотворил!",
+        "tr": "Hey! Dün akşam garip garip sesler duydum. Sabah kalktığımda taş ocağına giden köprü tamamen onarılmıştı!#$b#Köprü yeni haliyle harika duruyor!",
+        "zh": "嘿！昨晚我听到一些奇怪的声音，今天早上醒来发现石桥完全修好了！#$b#这真是木艺奇迹！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "community_center_event",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "community_center"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:cc_Complete",
+      "author_key": "cc_Complete",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich wusste es schon, als du aus dem Bus gestiegen bist, @ ... Du warst dazu bestimmt, der Held der Stadt zu werden!$h",
+        "es": "Lo supe desde el momento en que te bajaste de ese autobús, @... ¡Tu destino es ser un emblema para este pueblo!$h",
+        "fr": "Je l’ai su dès ta sortie du bus, @... que tu étais destiné à être un héros au village !$h",
+        "hu": "Már akkor tudtam @, mikor leléptél arról a buszról... hogy te valódi városi hősnek születtél!$h",
+        "it": "L'ho saputo dal momento in cui ti ho visto scendere dall'autobus, @... Ho capito che il paese aveva trovato il suo eroe!$h",
+        "ja": "あなたが バスを降りた あの瞬間から わかってたの、@... あなたは 町の ヒーローに なるって！$h",
+        "en": "I knew it from the moment you stepped off that bus, @... you were destined to be a town hero!$h",
+        "ko": "네가 버스에서 내린 순간부터 알았어, @... 넌 이 마을의 영웅이 될 운명이었다는 걸!$h",
+        "pt": "Eu sabia desde o momento em que você saiu do ônibus, @... seu destino era ser o herói da cidade!$h",
+        "ru": "С той самой минуты, когда вы сошли с автобуса, @, я знала, что вы станете героем города!$h",
+        "tr": "O otobüsten indiğin anda kasabamızın kahramanı olacağını biliyordum, @... $h",
+        "zh": "我从你走下那辆公共汽车那一刻起就知道了，@……你注定会成为这座城市的英雄！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "community_center_event",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "community_center"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:divorced_Maru",
+      "author_key": "divorced_Maru",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Maru hat die ganze Nacht geweint... Wir sind alle am Boden zerstört...$s",
+        "es": "Maru ha estado llorando toda la noche... Estamos todos devastados...$s",
+        "fr": "Maru a pleuré toute la nuit... Nous sommes tous dévastés...$s",
+        "hu": "Maru egész este sírt... Mind fel vagyunk dúlva...$s",
+        "it": "Maru ha passato la notte a piangere... Siamo tutti distrutti...$s",
+        "ja": "マルは一晩中泣いていたのよ…みんなショックを受けているわ…$s",
+        "en": "Maru was crying through the night... We're all devastated...$s",
+        "ko": "마루는 밤새 울었어... 우리 모두 충격이 커...$s",
+        "pt": "A Maru chorou durante a noite inteira... Todos nós estamos tristes...$s",
+        "ru": "Мару проплакала всю ночь... Мы все так расстроены...$s",
+        "tr": "Maru tüm gece boyunca ağlıyordu... Hepimiz yıkılmış durumdayız...$s",
+        "zh": "玛鲁哭了一晚上了……我们都心疼得不行……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'divorced_Maru' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:divorced_Sebastian",
+      "author_key": "divorced_Sebastian",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Sebastian ist wieder im Keller... was ist zwischen euch beiden passiert?$s",
+        "es": "Sebastian está otra vez en el sótano... ¿qué os ha pasado?$s",
+        "fr": "Sebastian est de retour dans mon sous-sol... que s’est-il passé entre vous deux ?$s",
+        "hu": "Sebastian visszakerült az alagsorba... mi történt köztetek?$s",
+        "it": "Sebastian è tornato nello scantinato... Cos'è successo tra di voi?$s",
+        "ja": "セバスチャンが地下室に帰ってきたんだけど… 何があったの？$s",
+        "en": "Sebastian's back in the basement... what happened between you two?$s",
+        "ko": "세바스찬이 다시 지하로 돌아왔던데... 너희 무슨 일이 있었던 거니?$s",
+        "pt": "O Sebastian voltou para o porão... o que aconteceu entre vocês dois?$s",
+        "ru": "Себастиан вернулся в свой подвал... Что между вами произошло?$s",
+        "tr": "Sebastian şu anda bodrumda... Aranızda neler oldu?$s",
+        "zh": "塞巴斯蒂安又回地下室去了……你们发生什么了？$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'divorced_Sebastian' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:event_wood1",
+      "author_key": "event_wood1",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Großartig, dann sollte diese Blaupause ein Kinderspiel für dich sein!$h",
+        "es": "Genial, ¡entonces este plano será pan comido para ti!$h",
+        "fr": "Génial, alors ce plan devrait être du gâteau pour toi !$h",
+        "hu": "Nagyszerű, akkor ez a tervrajz számodra gyerekjáték lesz!$h",
+        "it": "Grande, allora questo progetto dovrebbe essere una passeggiata per te!$h",
+        "ja": "ええ、 それなら この 設計図も あなたに とっては 簡単そうね！$h",
+        "en": "Great, then this blueprint should be a piece of cake for you!$h",
+        "ko": "좋아, 그럼 이 청사진은 네게는 간단할 거야!$h",
+        "pt": "Ótimo. Então esta planta deve ser bem fácil de entender para você!$h",
+        "ru": "Отлично! Тогда сделать что-то по этому чертежу тебе будет раз плюнуть!$h",
+        "tr": "Harika, bu taslağı tamamlamak senin için çocuk oyuncağı olmalı!$h",
+        "zh": "太好了，那么这份蓝图对你来说一定是易如反掌！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'event_wood1' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:event_wood2",
+      "author_key": "event_wood2",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Nun, dann habe ich die perfekte Blaupause für dich, um loszulegen!",
+        "es": "Bueno, ¡pues tengo el plano perfecto para que empieces!",
+        "fr": "Eh bien, j’ai le plan parfait pour t’aider à démarrer !",
+        "hu": "Nos, akkor kezdésképpen itt a tökéletes tervrajz számodra!",
+        "it": "Beh, allora ho il progetto perfetto per farti iniziare!",
+        "ja": "それなら、 初めてに うってつけの 設計図が あるわよ！",
+        "en": "Well, then I have the perfect blueprint to get you started!",
+        "ko": "그렇다면, 시작하기 딱 좋은 청사진이 하나 있지!",
+        "pt": "Bem, acho que tenho os projetos ideais para você começar!",
+        "ru": "Ну, тогда у меня есть отличный чертеж, чтобы начать!",
+        "tr": "Başlaman için gereken taslak bende var, muhteşem!",
+        "zh": "那我这份蓝图就很适合你了！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:fall_Fri",
+      "author_key": "fall_Fri",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hast du den wilden Mann hinter unserem Haus getroffen?$s#$e#Er stört mich nicht wirklich, solange er uns nicht belästigt.",
+        "es": "¿Has conocido al hombre salvaje que vive detrás de nuestra casa?$s#$e#Supongo que su presencia no me importa demasiado, siempre y cuando no nos moleste.",
+        "fr": "As-tu rencontré le sauvage qui vit derrière notre maison ?$s#$e#Je suppose que ça ne me dérange pas vraiment, tant qu’il ne nous embête pas.",
+        "hu": "Találkoztál már azzal a vademberrel, aki a házunk mögött lakik?$s#$e#Engem annyira nem zavar, amíg távol tartja magát tőlünk.",
+        "it": "Hai incontrato l'uomo selvatico che vive dietro casa nostra?$s#$e#Non mi dà fastidio, suppongo, purché non c'importuni.",
+        "ja": "家の 後ろに 住んでる 野生の 男性には 会った？$s#$e#問題を 起こさない限り、 私は あまり 彼のことを 気にしないけど。",
+        "en": "Have you met the wild man that lives behind our house?$s#$e#I guess I don't really mind, as long as he doesn't bother us.",
+        "ko": "우리 집 뒤쪽에 사는 야생인 만나봤니?$s#$e#사실 난 그렇게 신경 쓰는 편은 아냐, 우리를 괴롭히는 것도 아니고.",
+        "pt": "Você conheceu o homem selvagem que mora atrás de nossa casa?$s#$e#Não ligo muito para ele, desde que não nos incomode.",
+        "ru": "Ты знаешь того дикого человека, который живет за нашим домом?$s#$e#Мне-то без разницы, лишь бы он нас не беспокоил.",
+        "tr": "Evimizin arkasındaki yabani adam ile tanıştın mı?$s#$e#Sanırım bizi rahatsız etmediği sürece umurumda olmayacak.",
+        "zh": "你遇见住在我们房子后的那位野人了吗？$s#$e#只要他不打扰我们，那我也不在意他的存在。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:fall_Mon",
+      "author_key": "fall_Mon",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "#$1 RobinMaru#Maru mag Edelsteine. Sie benutzt sie immer für ihre Erfindungen.#$e#Wie läuft es so zwischen dir und Maru?",
+        "es": "#$1 RobinMaru#A Maru le gustan las gemas. Las usa en sus inventos.#$e#¿Qué tal te llevas con Maru?",
+        "fr": "#$1 RobinMaru#Maru aime bien les pierres précieuses. Elle s’en sert pour ses inventions.#$e#Alors, comment ça va avec Maru ?",
+        "hu": "#$1 RobinMaru#Maru szereti a drágaköveket. A találmányaihoz kellenek.#$e#Szóval mi a helyzet veled és Maruval?",
+        "it": "#$1 RobinMaru#A Maru piacciono le gemme. Le usa nelle sue invenzioni.#$e#Dimmi, tu e Maru andate d'accordo?",
+        "ja": "#$1 RobinMaru#マルは 宝石が 好きなの。発明に 使うんだって。#$e#あなたは マルとは うまく やっていけてるかしら？",
+        "en": "#$1 RobinMaru#Maru likes gems. She uses them in her inventions.#$e#So how are you and Maru getting along?",
+        "ko": "#$1 RobinMaru#마루는 보석을 좋아해. 발명품에 사용하더라고.#$e#그래, 마루랑은 친하게 지내?",
+        "pt": "#$1 RobinMaru#A Maru gosta de pedras preciosas. Ela as usa em suas invenções.#$e#Você e a Maru estão se dando bem?",
+        "ru": "#$1 RobinMaru#Мару любит драгоценные камни. Она использует их в своих изобретениях.#$e#Вы с Мару дружите?",
+        "tr": "#$1 RobinMaru#Maru mücevherleri seviyor, onları deneylerinde kullanıyor.#$e#Maru ile anlaşabiliyor musun?",
+        "zh": "#$1 RobinMaru#玛鲁喜欢宝石。她需要宝石发明东西。#$e#你跟玛鲁合得来吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:fall_Thu",
+      "author_key": "fall_Thu",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du bist immer hier willkommen, auch wenn du dein Haus nicht gerade ausbauen willst!$h#$e#Es kann hier in den Bergen ziemlich einsam werden.",
+        "es": "Puedes venir de visita siempre que quieras, aunque no necesites mejorar ningún edificio.$h#$e#Como vivimos en las montañas no solemos tener compañía.",
+        "fr": "Tu es toujours la bienvenue, même si tu ne veux pas acheter d’améliorations de bâtiment !$h#$e#On se sent vite seul dans les montagnes.",
+        "hu": "Nyugodtan meglátogathatsz minket, még akkor is, ha épp nem fejlesztenéd a házadat!$h#$e#Elég magányos tud lenni idefent a hegyekben.",
+        "it": "Le tue visite sono sempre gradite, anche se non hai intenzione di ristruttrare casa!$h#$e#Qui sui monti ci si sente spesso soli.",
+        "ja": "建物の 拡張が 目当てじゃなくても、 いつでも 会いにきても いいのよ。$h#$e#山の上じゃ、 結構 人恋しくなるから。",
+        "en": "You're always welcome to visit us, even if you aren't in the market for a building upgrade!$h#$e#It can get pretty lonely up here in the mountains.",
+        "ko": "꼭 업그레이드를 하려는 게 아니더라도, 언제든 방문 오는 건 환영이야!$h#$e#여기 산중이라 좀 너무 조용해지더라고.",
+        "pt": "Você sempre pode nos visitar, mesmo que não esteja querendo melhorar suas construções!$h#$e#Às vezes fico muito sozinha aqui nas montanhas.",
+        "ru": "Мы всегда рады тебя видеть, даже если ты и не собираешься ничего заказывать.$h#$e#Нам иногда бывает так одиноко в горах.",
+        "tr": "Binaları geliştirmek için gelmediysen bile evimize hoş geldin!$h#$e#Dağlarda insan yalnız hissedebiliyor.",
+        "zh": "即使不是来购置房屋升级，我们也很欢迎你来聊聊天的！$h#$e#山上的生活有时候是挺孤独的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:houseUpgrade_1",
+      "author_key": "houseUpgrade_1",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Es hat Spaß gemacht, an deinem Haus zu arbeiten. Das war vielleicht eine der besten Arbeiten, die ich je gemacht habe!$h#$e#Ich hoffe, die neue Küche gefällt dir.",
+        "es": "Fue divertido trabajar en tu casa. ¡Esa es posiblemente una de las mejores construcciones que he hecho nunca!$h#$e#Espero que disfrutes la nueva cocina.",
+        "fr": "C’était sympa de travailler sur ta maison. C’est peut-être l’une des plus belles constructions que j’ai jamais faites !$h#$e#J’espère que tu aimeras ta nouvelle cuisine.",
+        "hu": "Jó móka volt a házadon dolgozni. Valószínűleg az volt az eddigi legaprólékosabb munkám!$h#$e#Remélem tetszik az új konyhád.",
+        "it": "Mi sono divertita a lavorare alla tua casa. Potrebbe essere una delle mie costruzioni migliori di sempre!$h#$e#Spero che la nuova cucina ti piaccia.",
+        "ja": "あなたの家での仕事は楽しかったよ。これまでで一番の仕上がりかも！$h#$e#新しいキッチンの使い心地はどう？",
+        "en": "It was fun working on your house. That might be some of the finest construction I've ever done!$h#$e#I hope you're enjoying the new kitchen.",
+        "ko": "네 집 공사 재밌었어. 내 건축물 중 가장 훌륭한 건물일걸!$h#$e#새 주방이 마음에 들길 바라.",
+        "pt": "Foi divertido trabalhar na sua casa. Acho que foi uma das melhores construções que já fiz!$h#$e#Espero que esteja gostando da nova cozinha.",
+        "ru": "Обновить твой дом было очень приятно. Это одна из моих лучших работ!$h#$e#Надеюсь, тебе понравится твоя новая кухня.",
+        "tr": "Evinde çalışmak eğlenceliydi. Bu, şu ana kadar yaptığım en iyi işçilik olabilir!$h#$e#Umarım yeni mutfağının tadını çıkarırsın.",
+        "zh": "修你的房子还是挺开心的，我可是使出了十成功力！$h#$e#希望你喜欢新的厨房。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'houseUpgrade_1' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:houseUpgrade_2",
+      "author_key": "houseUpgrade_2",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Was wirst du mit all dem neuen Platz in deinem Haus machen?#$e#oder sollte ich es vielleicht deine \"Villa\" nennen?$h",
+        "es": "¿Qué vas a hacer con todo ese espacio libre nuevo en tu casa?#$e#¿O quizás debería llamarla... tu «mansión»?$h",
+        "fr": "Que vas-tu faire avec tout ce nouvel espace dans ta maison ?#$e#Ou devrais-je dire... ton \"manoir\" ?$h",
+        "hu": "Mihez kezdesz majd a házadban lévő új és temérdek hellyel?#$e#Vagy nevezzük inkább... a 'palotádnak'?$h",
+        "it": "Cos'hai intenzione di fare con tutto il nuovo spazio nella tua casa?#$e#O dovrei dire... nella tua 'villa'?$h",
+        "ja": "あなたの家に作った新しい部屋はどう使うの？#$e#それとも… もう「お屋敷」と言った方がいいかな？$h",
+        "en": "What are you going to do with all that new space in your house?#$e#Or perhaps I should call it... your 'mansion'?$h",
+        "ko": "집에 새로 생긴 공간은 어떻게 활용할 계획이야?#$e#아니, 집이 아니라 이젠... '저택'이라고 해야 하나?$h",
+        "pt": "O que você vai fazer com todo aquele novo espaço na sua casa?#$e#Ou talvez eu devesse chamar de... sua 'mansão'?$h",
+        "ru": "Ну и что теперь будешь делать со всем этим новым пространством в своем доме?#$e#Или лучше называть его... «особняком»?$h",
+        "tr": "Evinde açtığım tüm bu boş alanla ne yapacaksın?#$e#Gerçi burası ev değil, malikane sayılır.$h",
+        "zh": "新的房间你打算用来干什么呢？#$e#你这也算是住上豪宅了吧！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:houseUpgrade_3",
+      "author_key": "houseUpgrade_3",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Steigst du in das Geschäft mit alten Weinen ein? Ich habe gehört, dass es sehr lukrativ sein soll... wenn man die Geduld hat.",
+        "es": "Así que, ¿te estás metiendo en el negocio de los vinos añejos? Escuché que es muy lucrativo... si tienes suficiente paciencia.",
+        "fr": "Alors, vas-tu te lancer dans le commerce du vin de cuve ? J’ai entendu dire que c’était très lucratif... si tu possèdes un peu de patience.",
+        "hu": "Szóval már a borbizniszbe is beszállsz? Úgy hallottam, hogy az nagyon jövedelmező... már ha van hozzá türelmed.",
+        "it": "E così stai entrando nel giro del vino invecchiato? Ho sentito che rende parecchio... se si ha pazienza.",
+        "ja": "熟成ワインをつくり始めるの？すごくお金がもうかるらしいね… 忍耐力があればだけど。",
+        "en": "So, are you getting into the aged wine business? I've heard it's very lucrative... if you have the patience.",
+        "ko": "그래, 와인 숙성에 손대보려고? 수익이 좋은 사업이라고 들었어... 참을성이 있다면 말이지.",
+        "pt": "Então, você está entrando no negócio de vinhos envelhecidos? Ouvi falar que é muito lucrativo... se você tiver a paciência.",
+        "ru": "Вижу, ты теперь старыми винами занимаешься? Говорят, бизнес довольно прибыльный... Если умеешь ждать.",
+        "tr": "Yıllandırılmış şarap işine mi giriyorsun? Kazançlı olduğunu duydum... Tabii sabredebilirsen.",
+        "zh": "怎么说，你打算开始陈酿吗？听说可以赚大钱……前提是你要有耐心。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'houseUpgrade_3' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:married_Maru",
+      "author_key": "married_Maru",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wir alle werden Maru im Haus vermissen, aber ich bin sicher, dass wir sie noch oft sehen werden!",
+        "es": "Echaremos de menos tener a Maru en casa, ¡pero estoy segura que aún así la veremos a menudo!",
+        "fr": "La présence de Maru à la maison va nous manquer, mais je suis certaine que nous la verrons souvent !",
+        "hu": "Mindannyian hiányoljuk Marut a háznál, de biztos vagyok benne, hogy gyakran találkozni fogunk vele!",
+        "it": "Ci mancherà avere Maru in giro per casa, ma sono sicura che continueremo a vederla spesso!",
+        "ja": "マルが家にいないのはさびしいけど、これからも顔を合わせる機会はたくさんあるよね！",
+        "en": "We'll all miss having Maru around the house, but I'm sure we'll still see her often!",
+        "ko": "마루가 집에 없으면 허전하겠지만, 분명 자주 보러 오겠지!",
+        "pt": "Todos nós vamos sentir falta da Maru aqui em casa, mas eu tenho certeza que nos veremos muito ainda!",
+        "ru": "Мы все очень скучаем по Мару, но надеюсь, что мы будем часто видеться!",
+        "tr": "Evde Maru'yu arayacağız. Eminim sık sık görüşeceğiz!",
+        "zh": "玛鲁不在家里了，我们很想念，不过我相信还是可以经常见面的！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'married_Maru' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:married_Sebastian",
+      "author_key": "married_Sebastian",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh, keine Sorge... das sind Tränen der Freude. Ich weiß, dass Sebastian auf dem %farm Hof sehr glücklich sein wird!$h",
+        "es": "Oh, no te preocupes... son lágrimas de felicidad. ¡Sé que Sebastian será muy feliz en la granja %farm!$h",
+        "fr": "Ho, ne t’inquiète pas... ce sont des larmes de joie. Je sais que Sebastian sera très heureux à la ferme %farm.$h",
+        "hu": "Ó, ne aggódj... ezek valójában örömkönnyek. Tudom, hogy Sebastian jól fogja érezni magát %farm farmon!$h",
+        "it": "Oh, non preoccuparti... Sono lacrime di gioia. So che Sebastian sarà felicissimo alla Fattoria %farm!$h",
+        "ja": "心配しないで… これはうれし涙よ。セバスチャンが%farm牧場で幸せになれることは分かってるもの！$h",
+        "en": "Oh, don't worry... these are tears of joy. I know Sebastian will be very happy on %farm Farm!$h",
+        "ko": "오, 걱정하지 마... 이건 기쁨의 눈물이야. 세바스찬은 분명 %farm 농장에서 행복할 거야!$h",
+        "pt": "Oh, não se preocupe... essas são lágrimas de felicidade. Eu sei que o Sebastian vai ficar muito feliz na Fazenda %farm!$h",
+        "ru": "О, не переживай... это слезы радости. Я знаю, что Себастиан будет счастлив с тобой на ферме «%farm»!$h",
+        "tr": "Ah, merak etme... Bunlar mutluluk gözyaşları. Eminim ki Sebastian, %farm Çiftliği'nde mutlu olacak!$h",
+        "zh": "啊，不用担心……我这是太高兴了。我相信塞巴斯蒂安在%farm农场肯定会很幸福的！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'married_Sebastian' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:pamHouseUpgrade",
+      "author_key": "pamHouseUpgrade",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Unser kleiner Plan hat gut funktioniert, meinst du nicht? Pam und Penny machen einen sehr glücklichen Eindruck.",
+        "es": "Nuestro pequeño plan salió a la perfección, ¿no te parece? Pam y Penny parecen estar muy contentas.",
+        "fr": "Notre petit projet a fonctionné à merveille, tu ne trouves pas ? Pam et Penny ont l’air vraiment très heureuses.",
+        "hu": "A mi kis tervünk egész jól bevált, nem gondolod? Pam és Penny elég boldognak tűnik.",
+        "it": "Direi che il nostro progettino è andato benone, vero? Pam e Penny sembrano proprio felici.",
+        "ja": "サプライズプランは 上手くいったね、 そう思わない？パムも ペニーも 本当に 幸せそう。",
+        "en": "Our little plan worked out well, don't you think? Pam and Penny seem really happy.",
+        "ko": "우리 계획대로 잘 되었네, 그치? 팸이랑 페니랑 정말 행복해 보여.",
+        "pt": "Nosso plano funcionou muito bem, você não acha? Pam e Penny parecem estar muito felizes.",
+        "ru": "Наш маленький план, похоже, сработал, а? Пэм и Пенни выглядят счастливыми.",
+        "tr": "Küçük planımız harika sonuçlandı, haksız mıyım? Pam ve Penny çok mutlular.",
+        "zh": "我们的小计划很奏效，你不觉得吗？潘姆和潘妮似乎真的很开心。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'pamHouseUpgrade' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:pamHouseUpgradeAnonymous",
+      "author_key": "pamHouseUpgradeAnonymous",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Unser kleiner Plan hat gut funktioniert, meinst du nicht? Pam und Penny machen einen sehr glücklichen Eindruck.",
+        "es": "Nuestro pequeño plan salió a la perfección, ¿no te parece? Pam y Penny parecen estar muy contentas.",
+        "fr": "Notre petit projet a fonctionné à merveille, tu ne trouves pas ? Pam et Penny ont l’air vraiment très heureuses.",
+        "hu": "A mi kis tervünk egész jól bevált, nem gondolod? Pam és Penny elég boldognak tűnik.",
+        "it": "Direi che il nostro progettino è andato benone, vero? Pam e Penny sembrano proprio felici.",
+        "ja": "サプライズプランは 上手くいったね、 そう思わない？パムも ペニーも 本当に 幸せそう。",
+        "en": "Our little plan worked out well, don't you think? Pam and Penny seem really happy.",
+        "ko": "우리 계획대로 잘 되었네, 그치? 팸이랑 페니랑 정말 행복해 보여.",
+        "pt": "Nosso plano funcionou muito bem, você não acha? Pam e Penny parecem estar muito felizes.",
+        "ru": "Наш маленький план, похоже, сработал, а? Пэм и Пенни выглядят счастливыми.",
+        "tr": "Küçük planımız harika sonuçlandı, haksız mıyım? Pam ve Penny çok mutlular.",
+        "zh": "我们的小计划很奏效，你不觉得吗？潘姆和潘妮似乎真的很开心。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'pamHouseUpgradeAnonymous' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:reject_865",
+      "author_key": "reject_865",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Veggie-Salz? Klingt gut, aber ich brauche es nicht.",
+        "es": "¿Sal para verduras? Suena bien, pero no la necesito.",
+        "fr": "Du sel aux légumes ? Pourquoi pas, mais, non merci.",
+        "hu": "Zöldség só? Jól hangzik, de nincs szükségem rá.",
+        "it": "Sale alle verdure? Sembra buono, ma non mi serve.",
+        "ja": "野菜塩？面白そうだけど、わたしは要らないよ。",
+        "en": "Veggie salt? Sounds good, but I don't need it.",
+        "ko": "야채 소금? 괜찮아, 난 그런 거 없어도 될 것 같아.",
+        "pt": "Sal vegano? Parece bom, mas eu não preciso.",
+        "ru": "Вкусная соль? Штука крутая, но мне ни к чему.",
+        "tr": "Vejeteryan tuzu mu? İyiymiş ama istemiyorum.",
+        "zh": "植物盐？听起来不错，但我不需要。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'reject_865' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:reject_866",
+      "author_key": "reject_866",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hmm... wenn ich an Blumen denke, denke ich an Evelyn. Vielleicht zeigst du ihr das hier?",
+        "es": "Hmm... cuando pienso en las flores, pienso en Evelyn. ¿Quizás deberíamos enseñárselo?",
+        "fr": "Hmm... quand je pense aux fleurs, je pense à Evelyn. Tu devrais aller les lui montrer.",
+        "hu": "Hmm... ha virágokra gondolok, mindig Evelyn jut eszembe. Mi lenne, ha megmutatnád neki?",
+        "it": "Hmm... quando penso ai fiori, penso ad Evelyn. Perché non la mostri a lei?",
+        "ja": "うーん…花といったら、エブリンが思い浮かぶよね。彼女に見せてみたら？",
+        "en": "Hmm... when I think of flowers, I think of Evelyn. Maybe show this to her?",
+        "ko": "흠... 꽃 생각하면 에블린부터 떠오르는걸. 이걸 보여드리는 건 어떨까?",
+        "pt": "Hmm... quando eu penso em flores, eu penso na Evelyn. Talvez mostre isso para ela?",
+        "ru": "Хмм... Когда я думаю о цветах, я думаю об Эвелин. Может, тебе показать это ей?",
+        "tr": "Hım... Ne zaman çiçek görsem aklıma Evelyn geliyor. Bunu ona göstermeli miyim dersin?",
+        "zh": "嗯……关于花的话，我会想到艾芙琳。也许你可以把这个拿给她看？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:structureBuilt_Barn_memory_oneweek",
+      "author_key": "structureBuilt_Barn_memory_oneweek",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Bist du mit dem neuen Stall zufrieden? Ich bin mir sicher, dass du dort sehr glückliche Tiere aufziehen wirst!",
+        "es": "¿Estás conforme con el nuevo establo? ¡Seguro que crías un ganado muy feliz allí!",
+        "fr": "Aimes-tu de ta nouvelle grange ? Je suis certaine que tu y élèveras des animaux très heureux !",
+        "hu": "Elégedett vagy az új istállóval? Biztos vagyok benne, hogy boldog haszonállatokat nevelsz majd benne!",
+        "it": "Il nuovo granaio ti soddisfa? Sono certa che il bestiame che ci alleverai sarà contentissimo!",
+        "ja": "新しい家畜小屋には満足してもらえた？動物たちが楽しく暮らしてくれたらいいな！",
+        "en": "Are you satisfied with the new barn? I'm sure you'll raise some very happy livestock in there!",
+        "ko": "새 외양간은 만족스러워? 분명 거기서 기르는 가축들은 행복할 거야!",
+        "pt": "Está feliz com o novo celeiro? Tenho certeza que os animais vão ficar muito felizes lá!",
+        "ru": "Тебе нравится твой новый хлев? Думаю, туда можно заселить кучу новых животных!",
+        "tr": "Yeni ahırından mutlu musun? Orada çiftlik hayvanlarını harika bir şekilde yetiştireceğine eminim!",
+        "zh": "新建的畜棚还满意吗？牲畜待在里面肯定会很开心！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'structureBuilt_Barn_memory_oneweek' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:structureBuilt_Coop",
+      "author_key": "structureBuilt_Coop",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das ist wahrscheinlich der stabilste Hühnerstall, den ich je gebaut habe. Ich hoffe, du hast viel Freude daran!",
+        "es": "Probablemente sea el corral más robusto que he construido nunca. ¡Espero que te sirva mucho!",
+        "fr": "C’est probablement le poulailler le plus solide que j’ai jamais construit. J’espère qu’il te sera très utile !",
+        "hu": "Az valószínűleg a legtartósabb csűr amit valaha is építettem. Remélem rengeteg hasznát veszed majd!",
+        "it": "Dev'essere la stia più robusta che ho mai costruito. Spero che la utilizzerai a lungo!",
+        "ja": "私が建てた中でもいちばんしっかりした小屋だよ。お役に立てたらうれしいな！",
+        "en": "That's probably the sturdiest coop I've ever built. Hope you get a lot of use out of it!",
+        "ko": "내가 지금껏 지은 닭장 중 제일 튼튼한 거야. 오래 사용하길 바라!",
+        "pt": "Aquele é provavelmente o melhor galinheiro que já construí. Espero que consiga aproveitar bem!",
+        "ru": "Наверное, самый крепкий курятник на моей памяти. Надеюсь, он будет долго тебе служить!",
+        "tr": "Muhtemelen bu inşa ettiğim en sağlam kümes oldu. Umarım sana faydası dokunur!",
+        "zh": "这个栏舍我修得可结实了，希望你能充分利用！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'structureBuilt_Coop' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:structureBuilt_Coop_memory_oneweek",
+      "author_key": "structureBuilt_Coop_memory_oneweek",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wie läuft es mit dem neuen Hühnerstall? Ich bin schon gespannt auf deine neuen Tiere!",
+        "es": "¿Qué tal te trata el nuevo corral? ¡Estoy emocionada por conocer a tus nuevos animales!",
+        "fr": "Comment se porte ton nouveau poulailler ? J’ai hâte de rencontrer tous tes nouveaux animaux !",
+        "hu": "Nos, milyen az új csűr? Izgatottan várom, hogy találkozzak az új állataiddal!",
+        "it": "Come va con la nuova stia? Non vedo l'ora di conoscere i tuoi nuovi animali!",
+        "ja": "新しい小屋の使い心地はどう？動物たちに会えるのを楽しみにしてるよ！",
+        "en": "How's that new coop treatin' ya? I'll be excited to meet your new animals!",
+        "ko": "닭장은 좀 어때? 새로 들인 동물들 만나보고 싶다!",
+        "pt": "Como está indo seu novo galinheiro? Estou animada para conhecer os animaizinhos novos!",
+        "ru": "Как там курятник поживает? Очень хочу увидеть твоих новых животных!",
+        "tr": "Kümes işi nasıl gidiyor? Yeni hayvanlarınla tanışmak için sabırsızlanıyorum!",
+        "zh": "新建的栏舍怎么样？如果能看看你养的新动物就好了！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'structureBuilt_Coop_memory_oneweek' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:structureBuilt_Fish Pond",
+      "author_key": "structureBuilt_Fish Pond",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe Willy gegenüber erwähnt, dass du einen neuen Fischteich hast. Er schien sich sehr darüber zu freuen.#$e#Anscheinend hat er als junger Mann Krebse gezüchtet. Er nannte es eine \"altehrwürdige Tradition\".$h",
+        "es": "Le mencioné a Willy que tienes un nuevo estanque de peces. Parecía muy feliz por eso.#$e#Al parecer, criaba cangrejos cuando era un mozo. Lo llamó una 'práctica de larga tradición'.$h",
+        "fr": "J’ai dit à Willy que tu avais un nouvel étang à poissons. Il avait l’air très content.#$e#Apparemment, il élevait des crabes quand il était jeune. Il appelle ça une \"tradition ancestrale\".$h",
+        "hu": "Mondtam Willynek, hogy van egy új halastó a farmodon. Nagyon boldognak tűnt miatta.#$e#Mint kiderült fiatalkorában rákokat nevelt. Azt mondta, hogy ez egy 'időtálló hagyomány'.$h",
+        "it": "Ho detto a Willy che hai un nuovo laghetto per pesci. Mi è sembrato molto contento.#$e#A quanto pare, da giovane allevava granchi. L'ha definita una 'tradizione antica'.$h",
+        "ja": "ウィリーにあなたの魚のいる池のことを話してみたの。とてもうれしそうにしていたわ。#$e#ウィリーも若い頃はカニを育てていたんですって。「由緒ある伝統」だって言ってたわ。$h",
+        "en": "I mentioned to Willy that you got a new fish pond. He seemed really happy about it.#$e#Apparently, he raised crabs when he was a young man. Called it a 'time-honored tradition'.$h",
+        "ko": "네가 물고기 연못을 마련했다고 윌리 아저씨께 얘기했어. 소식 듣고 기뻐하시더라고.#$e#내가 알기론 젊었을 적 게를 키우셨던 걸로 알아. '오랜 전통'이라고 하시더라.$h",
+        "pt": "Eu falei pro Willy que você fez um novo lago de peixes. Ele ficou muito feliz com isso.#$e#Aparentemente, o Willy cuidava de caranguejos quando era jovem. Ele chamava isso de 'uma tradição consagrada'.$h",
+        "ru": "Я рассказала Вилли про твой рыбный пруд. Он был очень доволен.#$e#Оказалось, что в молодости он разводил крабов. Назвал это «достойной традицией».$h",
+        "tr": "Willy'ye yeni bir balık havuzun olduğundan bahsettim. Çok hoşuna gitti.#$e#Anlaşılan gençken yengeç yetiştirmiş. Buna 'zamanın onurlandırdığı gelenek' diyormuş.$h",
+        "zh": "我跟威利说你造了新的鱼塘，他好像很高兴。#$e#他年轻的时候好像养过螃蟹，他自称是“历史悠久的传统”。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'structureBuilt_Fish Pond' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:structureBuilt_Shed",
+      "author_key": "structureBuilt_Shed",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Welche Pläne hast du also mit dem neuen Schuppen? Die Möglichkeiten sind endlos!",
+        "es": "Así que, ¿cuáles son tus planes para el nuevo cobertizo? ¡Las posibilidades son infinitas!",
+        "fr": "Alors, quels sont tes projets pour la nouvelle cabane ? Les possibilités sont infinies !",
+        "hu": "Szóval mik a terveid az új raktárral? A lehetőségek száma szinte végtelen!",
+        "it": "Dimmi, che piani hai per la nuova rimessa? Le possibilità sono infinite!",
+        "ja": "新しい納屋はどう使うつもりなの？可能性は無限大だよ！",
+        "en": "So, what are your plans with the new shed? The possibilities are endless!",
+        "ko": "그래, 새 헛간은 어떻게 활용할 계획이야? 가능성이 무궁무진하지!",
+        "pt": "Então, quais são os seus planos para o novo galpão? As possibilidades são ilimitadas!",
+        "ru": "Уже есть планы на новый сарай? С ним столько всего можно сделать!",
+        "tr": "Yeni barakanla ne yapacaksın? İhtimaller resmen sınırsız!",
+        "zh": "好了，你想用这个小屋做什么呢？生活有无尽可能！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'structureBuilt_Shed' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:structureBuilt_Slime Hutch",
+      "author_key": "structureBuilt_Slime Hutch",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "*puh*... Diesen Schleim-Stall zu bauen war eine Menge Arbeit... Ich werde einen Tag im Spa brauchen, um mich zu erholen!$h",
+        "es": "*fiú*... Construir ese criadero de babas fue mucho trabajo... ¡Necesitaré un día en el spa para recuperarme!$h",
+        "fr": "*soupir*... La construction de ce clapier de slime a demandé beaucoup de travail... Je vais avoir besoin d’une journée entière au spa pour récupérer !$h",
+        "hu": "*huhhh*... Sok munka volt felépíteni azt a ragacs ketrecet... Legalább egy nap kell a fürdőben, hogy összeszedjem magamat!$h",
+        "it": "*fiù*... Costruire quella gabbia per melme è stato un lavorone... Mi servirà una giornata alle terme per recuperare!$h",
+        "ja": "ふぅ…スライムハッチを建てるのは大変だったよ…お休みをとってスパでゆっくりしようかな！$h",
+        "en": "*phew*... Building that slime hutch was a lot of work... I'll need a day at the spa to recuperate!$h",
+        "ko": "*휴*... 슬라임 장 짓기 힘들었어... 하루 정도 온천에서 회복해야겠는데!$h",
+        "pt": "*ufa*... Construir aquela casa de gosmas deu um trabalho... Vou precisar de um dia no spa para me recuperar!$h",
+        "ru": "*уф*... Вольер для слаймов строить не так-то легко... Мне после этого день в спа положен!$h",
+        "tr": "*öfler*... Şu Balçıkça Kümesini inşa etmek epey uğraştırdı... Toparlanmak için bir günümü hamamda geçirmem gerek!$h",
+        "zh": "呼……造史莱姆屋可真是个大工程……我得泡一天温泉恢复一下！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'structureBuilt_Slime Hutch' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:structureBuilt_Stable_memory_oneweek",
+      "author_key": "structureBuilt_Stable_memory_oneweek",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Bist du schon auf deinem neuen Pferd durch die Stadt geritten?#$b#Ich kann mir vorstellen, dass du ziemlich Muskelkater hast, aber du wirst dich bald daran gewöhnen.$h",
+        "es": "Así que, ¿has estado montando a tu nuevo caballo por el pueblo?#$b#Imagino que tendrás agujetas, pero te acostumbrarás pronto.$h",
+        "fr": "Alors, tu as fait le tour de la vallée avec ton nouveau cheval ?#$b#Tu dois avoir mal partout, mais tu t’y habitueras vite.$h",
+        "hu": "Szóval bejártad már az új lovaddal a várost?#$b#Biztos, hogy a lovaglás kezdetben még kellemetlen, de hamar hozzá fogsz szokni.$h",
+        "it": "Allora, hai fatto qualche giro a cavallo per il paese?#$b#All'inizio si resta un po' indolenziti, ma poi ci si fa l'abitudine.$h",
+        "ja": "馬に乗って町を走ってみた？#$b#体のあちこちが痛いと思うけど、きっとすぐに慣れるよ。$h",
+        "en": "So, have you been riding your new horse around town?#$b#I imagine you're pretty sore, but you'll get used to it soon.$h",
+        "ko": "그래, 새로 생긴 말은 좀 타고 다녀봤어?#$b#몸이 좀 욱신거릴 수 있겠지만 곧 적응될 거야.$h",
+        "pt": "Então, você tem galopado com seu cavalo pela vila?#$b#Eu imagino que esteja com algumas dores, mas logo logo você acostuma.$h",
+        "ru": "Ну как, объезжаешь город на новой лошадке?#$b#Сдается мне, спина и седалище тебе спасибо не скажут, но скоро привыкнешь.$h",
+        "tr": "Yeni atınla tüm kasabayı mı turladın?#$b#Muhtemelen şu an ağrıların vardır ama zamanla alışacaksın, merak etme.$h",
+        "zh": "你骑马在镇上逛过了吗？#$b#一开始可能会腰酸背痛，不过很快就会适应的。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'structureBuilt_Stable_memory_oneweek' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:summer_Fri",
+      "author_key": "summer_Fri",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hier im Sternentautal sind wir ziemlich vom Rest der Welt isoliert.#$e#Es hat seine Vor- und Nachteile.",
+        "es": "Estamos bastante aislados del resto del mundo en Stardew Valley.#$e#Tiene sus ventajas y sus inconvenientes.",
+        "fr": "Nous sommes très isolés du reste du monde, ici à Stardew Valley.#$e#Ça a ses avantages et ses inconvénients.",
+        "hu": "Eléggé el vagyunk zárva itt Stardew Valleyben a világ többi részétől.#$e#Ennek megvannak az előnyei és a hátrányai.",
+        "it": "Siamo piuttosto isolati dal resto del mondo qui a Stardew Valley.#$e#Ha i suoi pro e i suoi contro.",
+        "ja": "スターデューバレーは 外の 世界とは ほぼ 断絶 されてるのよ。#$e#良い面と 悪い面、 両方 あるわね。",
+        "en": "We're pretty insulated from the rest of the world here in Stardew Valley.#$e#It has its pros and cons.",
+        "ko": "스타듀 밸리는 세계 다른 곳들과 좀 동떨어진 편이야.#$e#장단점이 있어.",
+        "pt": "Estamos bem isolados do resto do mundo aqui no Vale do Orvalho.#$e#Tem seus prós e contras.",
+        "ru": "Мы здесь почти отрезаны от мира, в долине Стардью.#$e#У этого есть свои плюсы и минусы.",
+        "tr": "Yıldızçiyi Vadisi'nde dış dünyadan izole durumdayız.#$e#Bunun iyi ve kötü yanları var.",
+        "zh": "我们星露谷这里可算是与世隔绝。#$e#有好也有坏。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:summer_Mon",
+      "author_key": "summer_Mon",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Holz ist ein wundervolles Material... Es ist vielseitig, billig, stark und jedes Stück hat seinen eigenen einzigartigen Charakter!",
+        "es": "La madera es un material maravilloso: versátil, barata, fuerte... ¡Y cada pieza tiene un carácter único!",
+        "fr": "Le bois est une substance merveilleuse... Il est polyvalent, bon marché, solide et chaque morceau a son propre caractère unique !",
+        "hu": "A fa egy csodálatos anyag... sokoldalú, olcsó, erős, és minden darabnak egyedi vonása van!",
+        "it": "Il legno è una sostanza splendida... è versatile, economico, resistente, e ogni pezzo ha la sua personalità particolare!",
+        "ja": "木材って、すばらしい素材なんだよ…いろんなものがつくれるし、安いし強いし、それに、ひとつひとつがみんなちがう個性を持ってるんだ！",
+        "en": "Wood is a wonderful substance... it's versatile, cheap, strong, and each piece has its own unique character!",
+        "ko": "목재는 참 대단한 물질이야... 다용도로 쓸 수 있고, 값싸고, 강하고, 한 조각 한 조각 자신만의 특성이 있어!",
+        "pt": "A madeira é um material maravilhoso... é versátil, barata, forte, e cada pedaço têm sua própria personalidade!",
+        "ru": "Дерево — удивительный материал... Универсальный, прочный, дешевый, и у каждого изделия — уникальный характер!",
+        "tr": "Odun harika bir materyal... Ucuz, sert, birçok alanda kullanılabiliyor. Üstelik, her odun parçasının kendine özel bir karakteri var!",
+        "zh": "木材是一种很棒的东西，它的用途很多，便宜又结实，每一块都具有独特的性质。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:summer_Tue",
+      "author_key": "summer_Tue",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wenn du Gebäude auf deinem Gelände verbessern willst, frage einfach mich!#$e#Du musst mir nur genug Holz und Steine für das Projekt bringen. Und es kostet auch Geld.#$e#Aber ich bin mir sicher, dass dir das Ergebnis gefallen wird!$h",
+        "es": "¡Si necesitas que mejore alguno de los edificios de tu granja, dímelo!#$e#Tendrás que proporcionarme leña y piedras suficientes para el proyecto. Y también dinero.#$e#¡Pero seguro que el resultado te complace!$h",
+        "fr": "Si tu as besoin de bâtiments pour l’amélioration de ta ferme, n’hésite pas à me demander !#$e#Tu devras fournir suffisamment de bois et de pierres pour le projet. Ça te coûtera aussi de l’argent.#$e#Mais je suis sûre que le résultat te plaira !$h",
+        "hu": "Ha bármilyen épületet fel kellene újítani a farmodon, csak szólj nekem!#$e#Elég fát és követ kell adnod a projekt kezdéséhez. És emellett pénzbe is kerül.#$e#De biztosan elégedett leszel az eredménnyel!$h",
+        "it": "Se devi migliorare delle costruzioni nella tua fattoria, basta chiedere a me!#$e#Dovrai fornirmi abbastanza pietre e legna per il progetto. E naturalmente pagarmi.#$e#Ma sono sicura che gradirai i risultati!$h",
+        "ja": "もし 牧場の 拡張や 建物の 建築が 必要なら、 私に 言ってね！#$e#建築に 必要な 木材と 石は あなたが 用意してちょうだい。もちろん、 お金もよ。#$e#でも、 あなたが 満足いくような 仕上がりに するから！$h",
+        "en": "If you need any buildings on your farm upgraded, just ask me!#$e#You'll need to provide enough lumber and stone for the project. And it costs money, too.#$e#But I'm sure you'll be pleased with the results!$h",
+        "ko": "농장에 있는 건물 업그레이드가 필요하면, 나한테 물어봐!#$e#프로젝트를 진행하려면 목재랑 돌을 충분히 제공해줘야 해. 돈도 들 거고.#$e#하지만 결과는 분명 만족스러울 거야!$h",
+        "pt": "Se você precisar melhorar alguma de suas construções da fazenda, basta me pedir!#$e#Você vai ter que me dar madeira e pedra o suficiente para o projeto. E também custa dinheiro, tá?#$e#Mas tenho certeza que você vai ficar satisfeito com os resultados!$h",
+        "ru": "Если тебе нужно расширить здания на ферме, ты только скажи!#$e#Тебе нужно будет принести достаточно древесины и камня. А еще это стоит денег.#$e#Но я уверена, результат тебе понравится!$h",
+        "tr": "Çiftliğindeki herhangi bir binayı geliştirmen gerekirse bana uğra!#$e#İhtiyacın olan taş ve odunu temin ederim. Parası karşılığında olmak üzere.#$e#Ama bittiğinde memnun kalacağından emin olabilirsin!$h",
+        "zh": "如果你想要升级农场的建筑，告诉我就好了！#$e#你只需为该项目提供足够的木材和石块。当然也需要花钱。#$e#但我保证成果会让你满意！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:winter_Fri",
+      "author_key": "winter_Fri",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Meine Eltern waren schockiert, als ich ihnen gestand, dass ich Schreinerin werden will.#$e#Sie waren ziemlich altmodisch.",
+        "es": "Mis padres se escandalizaron cuando les dije que quería ser carpintera.#$e#Eran bastante conservadores.",
+        "fr": "Mes parents étaient abasourdis quand je leur ai dit que je voulais devenir menuisière.#$e#Ils sont très vieux jeu.",
+        "hu": "A szüleim teljesen meghökkentek, mikor mondtam, hogy ács akarok lenni.#$e#Ők elég régimódiak.",
+        "it": "I miei genitori erano sconvolti quando rivelai loro che volevo fare la falegname.#$e#Erano parecchio all'antica.",
+        "ja": "大工に なりたいって 言った時、 両親は 戸惑っていたわ。#$e#二人とも、 考えが 古臭かったのよ。",
+        "en": "My parents were bewildered when I told them I wanted to be a carpenter.#$e#They were pretty old-fashioned.",
+        "ko": "내가 목수가 되고 싶다고 얘기했을 때 부모님께서 많이 당혹스러워하셨어.#$e#사고방식이 좀 전통적인 분들이셨어.",
+        "pt": "Meus pais ficaram chocados quando disse a eles que queria ser carpinteira.#$e#Eles são bem conservadores.",
+        "ru": "Мои родители обалдели, когда я им сказала, что хочу стать плотником.#$e#Они были достаточно старомодными.",
+        "tr": "Annemle babama marangoz olacağım dediğimde kafayı yemişlerdi.#$e#Biraz eski topraklardır da...",
+        "zh": "当初我告诉父母我想成为木匠时，他们都听傻了。#$e#我父母是很墨守成规的人。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:winter_Fri_inlaw_Sebastian",
+      "author_key": "winter_Fri_inlaw_Sebastian",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das Bauernleben tut Bastis Gesundheit gut.",
+        "es": "Creo que la vida en la granja es muy saludable para Sebby.",
+        "fr": "Je pense que la vie à la ferme est vraiment saine pour Sebby.",
+        "hu": "Azt hiszem a gazdalét nagyon egészséges Sebby számára.",
+        "it": "Penso che la vita alla fattoria faccia bene alla salute di Sebby.",
+        "ja": "牧場生活は セビィにとって 健康的だと 思うのよ。",
+        "en": "I think the farm life is really healthy for Sebby.",
+        "ko": "농장에서 지내는 건 세비에게 정말 건강한 삶이라고 생각해.",
+        "pt": "Acho que a vida na fazenda é muito saudável para o Sebastian.",
+        "ru": "Думаю, жизнь на ферме для Себби только на пользу.",
+        "tr": "Çiftlik hayatı Sebby'e çok iyi geliyor.",
+        "zh": "我觉得农场生活对小巴来说很健康。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:winter_Mon",
+      "author_key": "winter_Mon",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey, es ist die perfekte Jahreszeit, um Holz zu sammeln!#$e#Vielleicht bekommst du genug zusammen, um dein Haus auszubauen!",
+        "es": "Ey, es el momento ideal del año para acumular madera.#$e#¡Igual consigues la suficiente para mejorar tu casa!",
+        "fr": "Hé, c’est le moment idéal pour ramasser du bois.#$e#Peut-être pourrais-tu en ramasser assez pour pouvoir améliorer ta maison !",
+        "hu": "Hé, ez az évszakasz tökéletes arra, hogy fát gyűjtsünk.#$e#Lehet, hogy eleget tudsz gyűjteni a házad fejlesztéséhez!",
+        "it": "Ehi, è il periodo dell'anno perfetto per raccogliere legna.#$e#Magari puoi trovarne abbastanza per migliorare la tua casa!",
+        "ja": "この時期は 木を 集めるのに 一番ね！#$e#家を 拡張できるだけの 木材を 集められるかも しれないわ！",
+        "en": "Hey, it's a perfect time of year to gather wood.#$e#Maybe you can collect enough to upgrade your house!",
+        "ko": "야, 나무 캐서 모으기 딱 좋은 시기네.#$e#집을 업그레이드할 만큼 많이 모을 수도 있겠다!",
+        "pt": "Ei. É a melhor época do ano para coletar madeira.#$e#Talvez se você coletar o suficiente, eu consiga melhorar sua casa!",
+        "ru": "О, сегодня идеальный день, чтобы заготовить древесину.#$e#Может, ты даже заготовишь достаточно, чтобы расширить дом!",
+        "tr": "Hey, şu sıralar odun toplamak için en iyi zamanlardır.#$e#Belki sen de evini geliştirebilecek kadar odun toplayabilirsin!",
+        "zh": "这是一年中最适合采集木材的时候了。#$e#也许你能够找到足够的木材升级你的屋子！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Robin:winter_Sat",
+      "author_key": "winter_Sat",
+      "character": "Robin",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Unser Haus hat so eine wunderschöne Lage, findest du nicht?#$e#Alles sieht so friedlich aus unter einer frisch gefallenen Schneeschicht.",
+        "es": "Nuestra casa está en una zona preciosa, ¿verdad?#$e#Todo parece tranquilo tras una nevada.",
+        "fr": "Notre maison est vraiment dans un très bel endroit, tu ne trouves pas ?#$e#Tout semble paisible quand de la neige fraîche est tombée.",
+        "hu": "A házunk olyan gyönyörű helyre épült, nem gondolod?#$e#Minden oly békésnek tűnik a friss hótakaróban.",
+        "it": "La nostra casa si trova in una zona così bella, non credi?#$e#Dopo una nevicata, tutto appare immobile.",
+        "ja": "私達の家って いいところに 建ってると 思わない？#$e#新雪の 後の 景色が 静かで キレイよ。",
+        "en": "Our house is in such a beautiful area, don't you think?#$e#Everything looks still after a fresh snow.",
+        "ko": "우리 집 정말 아름다운 곳에 있지 않아?#$e#갓 눈이 내린 뒤에 모든 게 너무 고요해 보여.",
+        "pt": "Nossa casa está em um lugar tão bonito, não acha?#$e#Tudo parece tão parado após uma nevasca.",
+        "ru": "Наш дом стоит на таком красивом участке, правда?#$e#Все будто замирает, когда выпадает снег.",
+        "tr": "Evimizin yeri çok iyi değil mi?#$e#Kardan sonra her şey çok dingin duruyor.",
+        "zh": "我们家附近的景色是不是很美？#$e#刚下完雪后一切都如此安宁。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Robin.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Robin.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Robin.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Robin.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Robin.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Robin.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Robin.json",
+          "ko": "data\\game_scripts\\Dialogue\\Robin.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Robin.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Robin.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Robin.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Robin.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    }
+  ]
+}

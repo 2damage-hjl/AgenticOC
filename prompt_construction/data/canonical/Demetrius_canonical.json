@@ -1,0 +1,3970 @@
+{
+  "dataset_meta": {
+    "schema": "canonical_dialogue_v2",
+    "source_root": "data/game_scripts/Dialogue",
+    "collection": "Dialogue",
+    "character": "Demetrius",
+    "record_count": 60,
+    "dialogue_type_counts": {
+      "general_dialogue": 60
+    }
+  },
+  "records": [
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:AcceptBirthdayGift_Negative",
+      "author_key": "AcceptBirthdayGift_Negative",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ein Geschenk!... mit optimalem Timing. Heute ist der Jahrestag meiner Geburt.$h#$b#Mal sehen, was es ist... $h#$b#...Oh.$s",
+        "es": "¡Un regalo!... en el momento óptimo. Hoy es el aniversario de mi nacimiento.$h#$b#Veamos qué es... $h#$b#...Oh.$s",
+        "fr": "Un cadeau !... Et pile-poil au bon moment. Aujourd'hui, c'est l'anniversaire de ma naissance.$h#$b#Voyons voir ce que c'est...$h#$b#... Ho.$s",
+        "hu": "Egy ajándék!... optimális az időzítésed. Ma van a születésem évfordulója.$h#$b#Nézzük, hogy mi ez... $h#$b#...Óh.$s",
+        "it": "Un regalo!... con un tempismo ottimale. Oggi è l'anniversario della mia nascita.$h#$b#Vediamo di cosa si tratta... $h#$b#...Oh.$s",
+        "ja": "贈り物？ …最高のタイミングだよ！今日は僕が生まれた記念日なんだ。$h#$b#さっそく…$h#$b#…ああ。$s",
+        "en": "A present!... with optimal timing. Today is the anniversary of my birth.$h#$b#Let's see what it is... $h#$b#...Oh.$s",
+        "ko": "선물!... 그것도 최적의 타이밍에. 오늘은 내 출산을 기념하는 날이거든.$h#$b#이게 뭔지 볼까... $h#$b#...오.$s",
+        "pt": "Um presente!... no momento certo. Hoje é o aniversário do meu nascimento.$h#$b#Vamos ver o que é isso... $h#$b#...Oh.$s",
+        "ru": "Подарок!.. В самое оптимальное время. Сегодня годовщина моего рождения.$h#$b#Что же там... $h#$b#...А.$s",
+        "tr": "Bir hediye! Ne harika zamanlama. Bugün benim doğum günüm.$h#$b#Bakalım neymiş... $h#$b#...Aa.$s",
+        "zh": "是礼物！……送的时机恰到好处，今天可是我出生的纪念日。$h#$b#我来拆开看看……$h#$b#……啊。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptBirthdayGift_Negative' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:AcceptBirthdayGift_Positive",
+      "author_key": "AcceptBirthdayGift_Positive",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ein Geschenk!... mit optimalem Timing. Heute ist der Jahrestag meiner Geburt. Vielen Dank dafür!$h",
+        "es": "¡Un regalo!... en el momento óptimo. Hoy es el aniversario de mi nacimiento. ¡Gracias!$h",
+        "fr": "Un cadeau !... Et pile-poil au bon moment. Aujourd'hui, c'est l'anniversaire de ma naissance. Merci !$h",
+        "hu": "Egy ajándék!... optimális az időzítésed. Ma van a születésem évfordulója. Köszönöm!$h",
+        "it": "Un regalo!... con un tempismo ottimale. Oggi è l'anniversario della mia nascita. Grazie!$h",
+        "ja": "贈り物？ …最高のタイミングだよ！今日は僕が生まれた記念日なんだ。ありがとう！$h",
+        "en": "A present!... with optimal timing. Today is the anniversary of my birth. Thank you!$h",
+        "ko": "선물!... 그것도 최적의 타이밍에. 오늘은 내 출산을 기념하는 날이거든. 고마워!$h",
+        "pt": "Um presente!... no momento certo. Hoje é o aniversário do meu nascimento. Obrigado!$h",
+        "ru": "Подарок!.. В самое оптимальное время. Сегодня годовщина моего рождения. Спасибо!$h",
+        "tr": "Bir hediye! Ne harika zamanlama. Bugün benim doğum günüm. Teşekkürler!$h",
+        "zh": "是礼物！……送的时机恰到好处，今天可是我出生的纪念日，谢谢你！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptBirthdayGift_Positive' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:AcceptGift_(O)107",
+      "author_key": "AcceptGift_(O)107",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wow, ein intaktes Dinosaurier-Ei! Das ist ein extrem seltenes Exemplar. Wenn es jetzt nur ausgebrütet werden könnte...",
+        "es": "¡Guau, un huevo de dinosaurio intacto! Este espécimen es extremadamente raro. Si tan solo pudiera ser incubado...",
+        "fr": "Wouah, un œuf de dinosaure intact ! Il s'agit d'un spécimen extrêmement rare. Si seulement il pouvait être incubé...",
+        "hu": "Váó, egy ép dinoszaurusztojás! Ez egy extrém ritka példány. Bárcsak valahogy ki lehetne költeni...",
+        "it": "Wow, un uovo di dinosauro intatto! È un esemplare estremamente raro. Ora, se solo lo si potesse incubare...",
+        "ja": "すごい！ 完全な恐竜のタマゴだ！極めて珍しい標本だよ。これをふ化させることが出来れば…",
+        "en": "Wow, an intact dinosaur egg! This is an extremely rare specimen. Now, if only it could be incubated...",
+        "ko": "와우, 온전한 공룡알이라니! 무척 희귀한 견본이지. 이제, 이걸 부화시킬 방법만 있다면...",
+        "pt": "Uau, um ovo de dinoussauro intacto! Essa é uma espécime muito rara. Se conseguíssemos incubá-lo...",
+        "ru": "Ух ты, настоящее яйцо динозавра! Крайне редкий экземпляр. Вот бы я смог засунуть его в инкубатор..",
+        "tr": "Vay, zarar görmemiş bir dinozor yumurtası! Bu aşırı nadir bir numune. Keşke kuluçkaya yatırılabilseydi...",
+        "zh": "哇，这是完好无缺的恐龙蛋！这个标本可是极其罕见，要是能孵化出来的话……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)107' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:AcceptGift_(O)StardropTea",
+      "author_key": "AcceptGift_(O)StardropTea",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wow, das ist eine seltene Substanz. Ich muss sie ins Labor bringen für... äh... weitere Analysen.",
+        "es": "Guau, esto es una substancia rara. Tendré que llevarla al laboratorio para... uh... un análisis más profundo.",
+        "fr": "Wouah, c'est une substance rare. Je vais devoir aller au laboratoire pour... euh... faire une analyse plus approfondie.",
+        "hu": "Váó, ez egy ritka alapanyag. Ezt el kell vinnem a laborba, hogy... öhm... tovább analizálhassam.",
+        "it": "Wow, questa è una sostanza rara. Dovrò portarla in laboratorio per... ehm... ulteriori analisi.",
+        "ja": "おお、なんて貴重な物質なんだ。研究室に運んで… ええと… 詳しく分析しないと。",
+        "en": "Wow, this is a rare substance. I'll have to take it to the lab for... uh... further analysis.",
+        "ko": "오, 이건 희귀한 물질이네. 이건 연구실로 가져가서... 어... 자세히 분석해 봐야겠어.",
+        "pt": "Uau, isto é uma substância rara. Eu vou ter que levá-la ao laboratório para... é... mais análises.",
+        "ru": "Ух ты, довольно редкая субстанция. Нужно отнести ее в лабораторию для... эм... дальнейшего анализа.",
+        "tr": "Vay be, bu nadir bir şey. Bunu... Şey... Daha detaylı incelemek için laboratuvara götüreceğim.",
+        "zh": "哇，这可是罕见的物质，我得带回实验室……呃……进一步分析。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)StardropTea' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:Event_Lab_Rat",
+      "author_key": "Event_Lab_Rat",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "*seufz*... %fork$4",
+        "es": "*Sigh...* %fork$4",
+        "fr": "*Soupir*... %fork$4",
+        "hu": "*sóhaj*... %fork$4",
+        "it": "*sospira*... %fork$4",
+        "ja": "はぁ… %fork$4",
+        "en": "*sigh*... %fork$4",
+        "ko": "*한숨*... %fork$4",
+        "pt": "*Aaah...* %fork$4",
+        "ru": "Эх... %fork$4",
+        "tr": "*iç çeker*... %fork$4",
+        "zh": "*唉*……%fork$4"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Event_Lab_Rat' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:Event_Lab_Silence",
+      "author_key": "Event_Lab_Silence",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Nun, wir titrieren besser diese Lösung, bevor sie uns kristallisiert.",
+        "es": "Bueno, vamos a valorar esta solución antes de que se nos cristalice.",
+        "fr": "Eh bien, nous ferions mieux de trouver cette solution avant qu’elle ne se cristallise.",
+        "hu": "Nos, jobb, ha letitráljuk ezt az oldatot mielőtt ránkkristályosodik.",
+        "it": "Beh, sarà meglio titolare questa soluzione prima che cristallizzi.",
+        "ja": "さて、 この溶液が 結晶化する前に 滴定した ほうがいいな。",
+        "en": "Well, we'd better titrate this solution before it crystallizes on us.",
+        "ko": "여하튼, 이 용액에 결정체가 생기기 전에 적정해야겠다.",
+        "pt": "Bem, é melhor titular essa solução antes que ela cristalize.",
+        "ru": "Значит, нужно поскорее оттитровать раствор, пока он не кристаллизовался.",
+        "tr": "Eh, kristalleşmeden önce bu çözeltiyi titrilesek iyi olur.",
+        "zh": "好吧，我们最好在结晶前滴定这个溶液。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Event_Lab_Silence' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:Event_tomato1",
+      "author_key": "Event_tomato1",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wirklich? Ich dachte, dass ein Bauer die richtige Antwort kennen würde...$s",
+        "es": "¿De verdad? Suponía que alguien de una granja sabría la respuesta correcta...$s",
+        "fr": "Vraiment ? Je pensais qu'une personne qui travaille à la ferme connaîtrait la bonne réponse...$s",
+        "hu": "Tényleg? Úgy gondoltam egy gazda tudni fogja a helyes választ...$s",
+        "it": "Davvero? Mi figuravo che un agricoltore conoscesse la risposta giusta...$s",
+        "ja": "ほんと？牧場主だったら 正解を 知っていると 思っていたが…$s",
+        "en": "Really? I figured a farmer would know the correct answer...$s",
+        "ko": "정말? 농부라면 맞는 답변을 알 거라 생각했는데...$s",
+        "pt": "Sério? Achei que alguém que trabalha na fazenda saberia a resposta...$s",
+        "ru": "Правда? Я-то думал, что фермер должен знать правильный ответ...$s",
+        "tr": "Gerçekten mi? Bir çiftçinin doğru yanıtı bildiğini sanmıştım...$s",
+        "zh": "真的？我以为农民会知道正确答案呢……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Event_tomato1' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:Event_tomato2",
+      "author_key": "Event_tomato2",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Siehst du? @ stimmt mir zu.",
+        "es": "¿Lo ves? @ está de acuerdo conmigo.",
+        "fr": "Tu vois ? @ est d’accord avec moi.",
+        "hu": "Látod? @ egyetért velem.",
+        "it": "Visto? @ è d'accordo con me.",
+        "ja": "ほらね？@は 私に 同意してくれてる。",
+        "en": "See? @ agrees with me.",
+        "ko": "그치? @(이)는 나랑 동의한다고.",
+        "pt": "Está vendo? @ concorda comigo.",
+        "ru": "Видишь? @ тоже так считает.",
+        "tr": "Görüyor musun? @ benimle aynı fikirde.",
+        "zh": "看见没？@和我达成一致了哦。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:Fri",
+      "author_key": "Fri",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Robin hat einen ziemlichen Hitzkopf. Es ist besser, es sich nicht mit ihr zu verscherzen.#$e#Sag ihr nicht, dass ich das gesagt habe.$h",
+        "es": "Robin tiene mucho carácter. Es mejor tenerla contenta.#$e#No le digas que he dicho eso.$h",
+        "fr": "Robine a un caractère bien trempé. Il vaut mieux rester dans ses bonnes grâces.#$e#Ne lui dis pas que j’ai dit ça.$h",
+        "hu": "Robin lobbanékony természetű. Érdemes jóban lenni vele.#$e#Ne mondd el neki, hogy ezt mondtam.$h",
+        "it": "Robin ha un bel caratterino. Meglio non prenderla per il verso sbagliato.#$e#Non dirle che te l'ho detto.$h",
+        "ja": "ロビンは 短気なんだ。彼女に 気に入られるように したほうがいい。#$e#あと、今のは 内緒にしてくれ。$h",
+        "en": "Robin has a hot temper. It's better to stay on her good side.#$e#Don't tell her I said that.$h",
+        "ko": "로빈은 좀 다혈질적인 면이 있어. 그냥 애당초에 화를 안 나게 하는 게 좋아.#$e#내가 이런 얘기 했다고는 말하지 말고.$h",
+        "pt": "Robin tem um temperamento explosivo. É melhor ser amigo dela.#$e#Não conte para ela que eu disse isso a você.$h",
+        "ru": "Робин вспыльчивая. Лучше с ней не ссориться.#$e#Только не говори ей, что я это сказал.$h",
+        "tr": "Robin çabuk öfkeleniyor. Onunla ters düşmemek en iyisi.#$e#Ona sakın böyle dediğimi söyleme.$h",
+        "zh": "罗宾可是个暴脾气。最好还是多说些她的好话吧。#$e#别让她知道是我说的哦。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:Fri4",
+      "author_key": "Fri4",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Robin hat einen ziemlichen Hitzkopf. Es ist besser, es sich nicht mit ihr zu verscherzen.#$e#... Könnte ich einfach ihre Gefühlslagen messen, wäre es vielleicht möglich, die Schwankungen mit einer sinusförmigen Kurve darzustellen...$u",
+        "es": "Robin tiene mucho carácter. Es mejor tenerla contenta.#$e#Si pudiera cuantificar sus cambios de humor, podría representar las fluctuaciones en una curva sinusoidal...$u",
+        "fr": "Robine a un caractère bien trempé. Il vaut mieux rester dans ses bonnes grâces.#$e#... Si seulement je pouvais quantifier ses niveaux d'humeur, je pourrais peut-être en déduire les fluctuations à l’aide d’une courbe sinusoïdale...$u",
+        "hu": "Robin lobbanékony természetű. Érdemes jóban lenni vele.#$e#...ha mennyiségileg meghatározhatnám a kedélyállapotát, talán lemodellezhetném annak ingadozását egy szinuszgörbe segítségével...$u",
+        "it": "Robin ha un bel caratterino. Meglio non prenderla per il verso sbagliato.#$e#...ora, se solo potessi quantificare i suoi livelli umorali, forse sarei in grado d'illustrare le fluttuazioni usando una curva sinusoidale...$u",
+        "ja": "ロビンは 短気なんだ。彼女に 気に入られるように したほうがいい。#$e#…彼女の機嫌を 定量化できるなら、 正弦曲線を 利用して 変動を モデル化することが できそうだ…$u",
+        "en": "Robin has a hot temper. It's better to stay on her good side.#$e#...now if I could only quantify her mood levels, perhaps I could model the fluctuations using a sinusoidal curve...$u",
+        "ko": "로빈은 좀 다혈질적인 면이 있어. 그냥 애당초에 화를 안 나게 하는 게 좋아.#$e#...만약 내가 로빈의 기분을 수량화할 수 있다면, 사인 곡선으로 변동량을 모델링 할 수도 있겠는데...$u",
+        "pt": "Robin tem um temperamento explosivo. É melhor ser amigo dela.#$e#... agora, se eu puder quantificar seus níveis de humor, talvez consiga modelar as flutuações usando uma curva sinusoidal...$u",
+        "ru": "Робин вспыльчивая. Лучше с ней не ссориться.#$e#... Если бы я мог выразить ее настроение в количественной форме, возможно, я бы смоделировал колебания в ее настроении с помощью синусоиды...$u",
+        "tr": "Robin çabuk öfkeleniyor. Onunla ters düşmemek en iyisi.#$e#...Ruh hallerini ölçebilseydim, belki de sinüzoidal eğreciyle sinüs dalgalarını inceleyebilirdim...$u",
+        "zh": "罗宾可是个暴脾气。最好还是多说些她的好话吧。#$e#如果可以划定她愤怒等级的话，我就可以用正弦波动模型建模了……$u"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:GreenRain",
+      "author_key": "GreenRain",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Kümmere dich nicht um mich, @. Ich sammle nur ein paar Proben. Das ist vielleicht eine einmalige Gelegenheit! $7#$e#Erm... Wenn du meine Frau siehst, kannst du ihr sagen, dass es mir gut geht?$7",
+        "es": "No me hagas caso, @. Solo estoy recolectando algunas muestras. ¡Esta puede ser una oportunidad que se presenta solo una vez en la vida!$7#$e#Erm... Si ves a mi esposa, ¿le puedes decir que estoy bien?$7",
+        "fr": "Ne fais pas attention à moi, @. Je recueille juste quelques échantillons. C'est peut-être une occasion unique !$7#$e#Euh... Si tu vois ma femme, pourrais-tu lui dire que je vais bien ?$7",
+        "hu": "Ne is figyelj rám, @. Csak próbálok pár mintát gyűjteni. Lehet az életben csak egyszer adódik ilyen lehetőség!$7#$e#Öhm... Ha találkoznál a feleségemmel, megmondanád neki, hogy jól vagyok?$7",
+        "it": "Non fare caso a me, @. Sto solo raccogliendo qualche campione. Potrebbe essere un'occasione irripetibile!$7#$e#Ehm... Se vedi mia moglie, puoi dirle che sto bene?$7",
+        "ja": "@、私の心配はいらないよ。今はサンプルを集めてるんだ。これは一生に一度のチャンスかもしれない！$7#$e#そうだ…もし妻に会ったら、私は大丈夫だと伝えてくれないか？$7",
+        "en": "Don't mind me, @. I'm just collecting some samples. This may be a once-in-a-lifetime opportunity!$7#$e#Erm... If you see my wife, can you tell her I'm okay?$7",
+        "ko": "난 걱정하지 않아도 돼, @. 샘플을 모으는 중이야. 일생일대의 기회일 수도 있어!$7#$e#어... 혹시 내 와이프가 물어보면 난 괜찮다고 전해줘, 알았지?$7",
+        "pt": "Não se preocupe comigo, @. Estou apenas coletando amostras. Esta pode ser uma oportunidade única!$7#$e#É... Se você ver a minha esposa, consegue falar para ela que eu estou bem?$7",
+        "ru": "На меня внимания не обращай, @. Я просто собираю образцы. Другого такого шанса может и не представиться!$7#$e#Это... Если увидишь мою жену, скажешь ей, что я в порядке?$7",
+        "tr": "Bana aldırma @. Örnek topluyorum. Bu, hayatım boyunca karşıma çıkacak tek şans olabilir!$7#$e#Şey... Eşimi görürsen ona iyi olduğumu iletir misin?$7",
+        "zh": "@，不用管我，我就采集一些样本。这可是千载难逢的机会啊！$7#$e#呃……如果你遇到我老婆，麻烦你跟她说我没事。$7"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "weather_green_rain",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:GreenRain_2",
+      "author_key": "GreenRain_2",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Der Regen scheint harmlos zu sein, deshalb bin ich in diesem Jahr weniger vorsichtig.",
+        "es": "La lluvia parece ser inofensiva, así que tomaré menos precauciones este año.",
+        "fr": "Je prends moins de précautions cette année, car cette pluie semble inoffensive.",
+        "hu": "Úgy tűnik az eső ártalmatlan, szóval idén kevesebb óvintézkedést vezetek be.",
+        "it": "La pioggia sembra essere innocua, per cui quest'anno ho preso meno precauzioni.",
+        "ja": "この雨には害がないようだから、今年はあまり心配していないよ。",
+        "en": "The rain appears to be harmless, so I'm taking less precaution this year.",
+        "ko": "비를 맞아도 문제는 없는 것 같아서 올해는 걱정하지 않으려고 해.",
+        "pt": "A chuva parece ser inofensiva, então estou tomando menos cuidado este ano.",
+        "ru": "Кажется, зеленый дождь не особо опасен. Так что в этот раз я не особо от него защищаюсь.",
+        "tr": "Yağmur zararsız görünüyor, o yüzden bu yıl önlemlerimi azalttım.",
+        "zh": "这场雨似乎是无害的，所以今年就不用那么小心翼翼了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:Introduction",
+      "author_key": "Introduction",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Grüße! Ich bin Demetrius, örtlicher Wissenschaftler und Vater. Danke, dass du dich vorstellst!#$e#Ich studiere momentan die hiesige Flora und Fauna von meinem Heimlabor aus.#$b#Hast du meine Tochter Maru getroffen? Sie scheint dich gern treffen zu wollen.",
+        "es": "¡Saludos! Soy Demetrius, científico local y padre. ¡Gracias por presentarte!#$e#Estudio las plantas y animales de la zona desde el laboratorio de casa.#$b#¿Conoces a Maru, mi hija? Está interesada en conocerte.",
+        "fr": "Salutations ! Je me nomme Demetrius, scientifique local et père de famille. C’est gentil de ta part d’être venu te présenter !^Salutations ! Je me nomme Demetrius, scientifique local et père de famille. C'est gentil de ta part d'être venue te présenter !#$e#J’étudie les plantes et les animaux locaux dans mon laboratoire.#$b#As-tu rencontré ma fille Maru ? Elle a hâte de faire ta connaissance.",
+        "hu": "Üdvözöllek! Demetrius vagyok, helyi tudós és édesapa. Köszönöm, hogy bemutatkoztál!#$e#A helyi állatokat és növényeket tanulmányozom az otthoni laboratóriumomban.#$b#Találkoztál már a lányommal, Maruval? Szeretne megismerni téged.",
+        "it": "Buondì! Io sono Demetrius, scienziato locale e padre. Grazie per il saluto!#$e#Sto studiando la flora e la fauna locali dal mio laboratorio domestico.#$b#Hai conosciuto mia figlia Maru? Le interesserebbe incontrarti.",
+        "ja": "こんにちは！私はディメトリウス、妻子持ちの 科学者さ。あいさつに 来てくれて ありがとう！#$e#私は自宅の 研究室で 地元の 動植物を 研究してるんだ。#$b#娘のマルには会ったかい？君に 会いたがってるみたいだよ。",
+        "en": "Greetings! I'm Demetrius, local scientist and father. Thanks for introducing yourself!#$e#I'm studying the local plants and animals from my home laboratory.#$b#Have you met my daughter Maru? She's interested to meet you.",
+        "ko": "안녕하세요! 난 드미트리우스라고 해요, 이 지역 과학자이고 한 가정의 아버지죠. 인사하러 와줘서 고마워요!#$e#난 집에 있는 연구실에서 현지 식물과 동물을 공부하고 있어요.#$b#혹시 우리 딸 마루를 만나봤나요? 마루는 무척 만나고 싶어 하던데.",
+        "pt": "Saudações! Meu nome é Demetrius, cientista local e pai. Obrigado por se apresentar!#$e#Estou estudando as plantas e animais regionais no meu laboratório doméstico.#$b#Você já conheceu minha filha, Maru? Ela gostaria de conhecer você.",
+        "ru": "Приветствую! Я — Деметриус, ученый и отец. Спасибо, что пришли представиться!#$e#Я изучаю местные растения и животных в своей домашней лаборатории.#$b#Вы еще не встречали мою дочь, Мару? Она хотела с вами познакомиться.",
+        "tr": "Selamlar! Ben Demetrius, buraların bilim insanı ve bir babayım. Kendini tanıttığın için teşekkür ederim!#$e#Evimdeki laboratuvarımdan bölgemizdeki bitki ve hayvanlar üzerinde çalışıyorum.#$b#Kızım Maru ile tanıştın mı? Seninle tanışmak istiyordu.",
+        "zh": "你好啊！我是德米特里厄斯，是这里的科学家以及神父。谢谢你的自我介绍！#$e#我在家里的实验室里研究当地的动植物。#$b#你看到我的女儿玛鲁了吗？她很想见见你。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Introduction' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:Mon",
+      "author_key": "Mon",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Maru hilft mir manchmal im Labor... Sie ist ein gutes Kind.",
+        "es": "Maru me ayuda con el laboratorio a veces... Es buena chica.",
+        "fr": "Maru m’aide parfois au labo... C’est une brave petite.",
+        "hu": "Maru néha besegít a laborban... Jó kislány.",
+        "it": "A volte Maru mi aiuta nel laboratorio... È una brava ragazza.",
+        "ja": "マルは時々、 研究の手伝いを してくれる…そんな良い子さ。",
+        "en": "Maru helps me out in the lab sometimes... She's a good kid.",
+        "ko": "마루가 가끔 실험실에서 날 도와주곤 해... 착한 아이야.",
+        "pt": "A Maru me ajuda no laboratório de vez em quando... É uma boa filha.",
+        "ru": "Мару иногда помогает мне в лаборатории... Она — славный ребенок.",
+        "tr": "Maru bazen laboratuvarımda bana yardımcı oluyor... O iyi bir çocuk.",
+        "zh": "玛鲁有时也会在实验室里帮我一把……她真是个好孩子。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:Mon_inlaw_Maru",
+      "author_key": "Mon_inlaw_Maru",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ohne sie wären meine Forschungsarbeiten lang nicht so erfolgreich...#$b#Aber ihr Glück ist wichtiger als meine Experimente!",
+        "es": "Es difícil investigar cosas si Maru no me ayuda...#$b#¡Pero su felicidad es más importante que mis experimentos!",
+        "fr": "C’est difficile de faire de bonnes expériences scientifiques sans l’aide de Maru...#$b#Mais son bonheur est bien plus important que mes expériences !",
+        "hu": "Nehéz jó tudományos munkát végezni Maru segítsége nélkül...#$b#De a boldogsága sokkal fontosabb, mint az én kísérleteim!",
+        "it": "È dura fare scienza per bene senza l'aiuto di Maru...#$b#Ma la sua felicità è molto più importante dei miei esperimenti!",
+        "ja": "マルの助け無しじゃ、 研究が 思うように 進まないな…#$b#しかし、 私にとっては、 自分の研究より あの子の 幸せのほうが 大事だ！",
+        "en": "It's hard to do good science without Maru's help...#$b#But her happiness is much more important than my experiment!",
+        "ko": "마루의 도움 없이 꼼꼼한 실험을 하기 어려워...#$b#하지만 내 실험보다 그녀의 행복이 훨씬 더 중요해!",
+        "pt": "É difícil fazer ciência sem a ajuda da Maru...#$b#Mas a felicidade dela é muito mais importante que meus experimentos!",
+        "ru": "Без помощи Мару сложно заниматься наукой...#$b#Но ее счастье гораздо важнее этого эксперимента!",
+        "tr": "Maru'nun yardımı olmadan düzgün bir şekilde bilim yapmak çok zor...#$b#Ancak, onun mutluluğu benim deneylerimden çok daha önemli!",
+        "zh": "没有玛鲁的帮助，想做好科研很难……#$b#但是她的幸福比我的实验更加重要！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Mon_inlaw_Maru' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:Resort",
+      "author_key": "Resort",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ist dieser Ort nicht unglaublich? Hier wimmelt es von exotischem Leben!",
+        "es": "¿Puedes creerte este lugar? ¡Está lleno de vida exótica!",
+        "fr": "Peux-tu en croire tes yeux ? Cet endroit regorge de vie exotique !",
+        "hu": "Láttál már ehhez fogható helyet? Csak úgy nyüzsög az egzotikus élettől!",
+        "it": "Questo posto è incredibile! È zeppo di vita esotica!",
+        "ja": "ここは信じられないような場所だと思わないかい？エキゾチックな生物でいっぱいだよ！",
+        "en": "Can you believe this place? It's teeming with exotic life!",
+        "ko": "여기 정말 믿기지 않아! 보기 드문 생명체가 바글바글해!",
+        "pt": "Dá pra acreditar neste lugar? Está repleto de coisas exóticas!",
+        "ru": "Ты вообще веришь, что это место реально? Тут так много всяких экзотических видов!",
+        "tr": "Buraya inanabiliyor musun? Egzotik varlıklarla dolu bir yer!",
+        "zh": "这里到处是奇妙的生物，太令人难以置信了！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:Resort_Bar",
+      "author_key": "Resort_Bar",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Normalerweise mache ich nicht mit... aber normalerweise bin ich auch nicht auf einer tropischen Insel. Hahaha.$h",
+        "es": "No suelo participar... Pero tampoco suelo estar en una isla tropical. Jajaja.$h",
+        "fr": "En règle générale, je ne participe pas trop avec le reste de la communauté... mais en règle générale, je ne suis pas non plus sur une île tropicale. Hahaha.$h",
+        "hu": "Általában nem kapcsolódok be... de ugyanakkor általában nem egy trópusi szigeten vagyok. Hahaha.$h",
+        "it": "Di solito non bevo... ma di solito non sono nemmeno tipo da isola tropicale. Hahaha.$h",
+        "ja": "いつもは飲まないんだけど…いつもと違って、ここは南国の島だからね。ハハハ。$h",
+        "en": "I usually don't partake... but I'm usually not on a tropical island, either. Hahaha.$h",
+        "ko": "평소라면 안 마시는데... 평소에는 열대 섬에서 시간을 보내고 있지도 않지. 하하하.$h",
+        "pt": "Geralmente eu não bebo... mas eu geralmente não estou em uma ilha tropical também. Hahaha.$h",
+        "ru": "Обычно я от такого держусь в стороне... Но и на тропических островах я тоже не так часто бываю. Ха-ха-ха.$h",
+        "tr": "Ben genellikle ortama dahil olmam... Genellikle tropik bir adaya da gitmem tabii. Hahaha.$h",
+        "zh": "我一般不喝酒……但我一般也不会到热带岛屿上来。哈哈哈。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:Resort_Chair",
+      "author_key": "Resort_Chair",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hast du Spaß, @? Du musst daran denken, auch ab und zu Pausen einzulegen!",
+        "es": "¿Te estás divirtiendo, @? ¡Debes acordarte de tomar descansos de vez en cuando!",
+        "fr": "On s'amuse, @ ? N'oublie pas de faire une pause de temps en temps !",
+        "hu": "Jól szórakozol, @? Ne feledd, hogy néha neked is pihenned kellene!",
+        "it": "Ti stai divertendo, @? Ricordati di fare anche una pausa ogni tanto!",
+        "ja": "楽しんでるかい、@？たまには休憩することも大切だよ！",
+        "en": "Are you having fun, @? You need to remember to take breaks now and then too!",
+        "ko": "즐거운 시간 보내고 있어, @? 가끔은 휴식을 취해야 한다는 걸 잊지 마!",
+        "pt": "Você está se divertindo, @? Você precisa lembrar de descansar de vez em quando também!",
+        "ru": "Тебе тут весело, @? Помни, иногда нужно и отдыхать!",
+        "tr": "Eğleniyor musun @? Arada bir mola vermeyi unutma ha!",
+        "zh": "@，你玩得开心吗？累了的话，记得休息一下！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:Resort_Entering",
+      "author_key": "Resort_Entering",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe bereits eine seltene Krabbe entdeckt. Dieser Ort ist großartig.$h",
+        "es": "Ya he visto un cangrejo raro. Este lugar es genial.$h",
+        "fr": "J'ai déjà repéré un crabe rare. Cet endroit est génial.$h",
+        "hu": "Már láttam is egy ritka rákot. Nagyszerű ez a hely.$h",
+        "it": "Ho già notato un granchio raro. Questo posto è fantastico.$h",
+        "ja": "私はもう珍しいカニを見つけたよ。ここは素晴らしい場所だね。$h",
+        "en": "I already spotted a rare crab. This place is great.$h",
+        "ko": "벌써 희귀한 게를 한 마리 봤어. 여기 너무 좋다.$h",
+        "pt": "Eu já encontrei um caranguejo raro. Este lugar é incrível.$h",
+        "ru": "Я уже заметил одного редкого краба. Это место просто великолепно.$h",
+        "tr": "Şimdiden daha önce görmediğim bir yengeç türü gördüm. Burası inanılmaz.$h",
+        "zh": "我找到了一只稀有的螃蟹。这地方太棒了。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:Resort_Leaving",
+      "author_key": "Resort_Leaving",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich werde diese Daten monatelang analysieren.",
+        "es": "Estaré analizando estos datos durante meses.",
+        "fr": "Je vais analyser ces données pendant des mois.",
+        "hu": "Hónapokig fogom elemezni ezeket az adatokat.",
+        "it": "Analizzerò questi dati per mesi.",
+        "ja": "ここでのデータを数か月かけて分析するつもりだよ。",
+        "en": "I'll be analyzing this data for months.",
+        "ko": "여기서 모은 자료를 몇 달씩은 분석해야겠군!",
+        "pt": "Eu vou analisar estes dados por meses.",
+        "ru": "У меня целые месяцы уйдут на анализ этих данных.",
+        "tr": "Bu verileri aylarca inceleyeceğim.",
+        "zh": "我会花几个月的时间分析这些数据。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:Resort_Shore",
+      "author_key": "Resort_Shore",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "*Knirsch*... hoppla, da verschwindet eine vom Aussterben bedrohte Krebsart... $s#$b#... #$b#Oh, vergiss es. Es war nur die leere Muschel! Ich kann heute Nacht schlafen.",
+        "es": "*crunch*... whoops, ahí va una especie de cangrejo en peligro de extinción...$s#$b#...#$b#Oh, olvídalo. ¡Solo era el caparazón! Podré dormir esta noche.",
+        "fr": "*Craquement*... Whoops, et voilà une espèce de crabe en voie de disparition...$s#$b#...#$b#Ah, enfaite, non. C'était juste une coquille vide ! Je vais pouvoir dormir ce soir.",
+        "hu": "*reccs*... hoppá, azt hiszem ennyi volt egy veszélyeztetett rákfajnak...$s#$b#...#$b#Ó, mégse. Ez csak egy üres héj volt! Akkor mégis tudok este aludni.",
+        "it": "*crac*... ooops, addio ad una specie di granchio in via d'estinzione...$s#$b#...#$b#Oh, per fortuna. Era solo un carapace vuoto! Stanotte dormirò tranquillo.",
+        "ja": "（バリッ）…うわっと、絶滅危惧種のカニだ…$s#$b#...#$b#ああ、気にしないで。ただの殻だったから！今夜は眠れそうだよ。",
+        "en": "*crunch*... whoops, there goes an endangered crab species...$s#$b#...#$b#Oh, never mind. It was just the empty shell! I can sleep tonight.",
+        "ko": "*콰직*... 아이고, 멸종 위기 게였는데 분명...$s#$b#...#$b#오, 다행이다. 그냥 빈 껍데기였잖아! 잠도 못 잘뻔했네.",
+        "pt": "*esmaga*... oops, lá se vai uma espécime de caranguejo em extinção...$s#$b#...#$b#Oh, deixa pra lá. Era só uma concha vazia! Vou conseguir dormir à noite.",
+        "ru": "*хрусть*... ой, это был краснокнижный вид краба...$s#$b#...#$b#А, нет, ничего страшного. Просто пустой панцирь! Значит, можно спать спокойно.",
+        "tr": "*çıtırdar*... Hayda, nesli tükenmekte olan bir yengeç türü...$s#$b#...#$b#Ah, boş ver ya. İçi boş kabukmuş! Bu gece rahat uyuyabileceğim.",
+        "zh": "（嘎吱）……哎呀，这种螃蟹要濒临灭绝了……$s#$b#……#$b#哦，只是个空壳子，那没事了！我今晚能安心睡了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:Sat",
+      "author_key": "Sat",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Mal sehen... Wenn Verbindungen in der Rhizosphäre genügend Carbon-13 enthalten, dann...$u#$b#Oh! Tut mir leid. Ich habe gerade über ein paar Daten nachgedacht und dich gar nicht bemerkt.#$e#Brauchst du etwas?",
+        "es": "Veamos... Si los compuestos de la rizosfera contiene unos niveles suficientes de carbono-13, entonces...$u#$b#¡Oh! Lo siento. Estaba ponderando unos datos y no me he dado cuenta de que estabas aquí.#$e#¿Necesitas algo?",
+        "fr": "Voyons voir... Si des composants de la rhizosphère contiennent des niveaux suffisamment élevés de carbone 13, alors...$u#$b#Oh, pardon ! Je réfléchissais à des données et je ne t’avais pas remarqué.#$e#As-tu besoin de quelque chose ?",
+        "hu": "Nézzük csak... Ha a rhizoszféra összetevőiben megfelelő mennyiségű szén-13 található, akkor...$u#$b#Ó! Ne haragudj. Adatokon tűnődtem és nem vettelek észre.#$e#Segíthetek valamiben?",
+        "it": "Vediamo... Se i composti nella rizosfera contengono livelli sufficienti di Carbonio-13, allora...$u#$b#Oh! Perdonami. Stavo vagliando alcuni dati e non ho fatto caso a te.#$e#Hai bisogno di qualcosa?",
+        "ja": "ふむ…もし根圏の中の 化合物に 十分な量の 炭素13が 含まれているなら…$u#$b#おっと！ごめんね。いま調べ物を していたから、 君に 気づけなかったんだ。#$e#何か 必要かい？",
+        "en": "Let's see... If compounds in the rhizosphere contain sufficient levels of Carbon-13, then...$u#$b#Oh! Sorry. I was pondering some data and I didn't notice you there.#$e#Do you need anything?",
+        "ko": "어디 보자... 근권에 있는 화합물이 탄소-13량이 충분하다면...$u#$b#오! 미안. 데이터 좀 곰곰이 생각하다가 네가 온 줄도 몰랐네.#$e#뭘 도와줄까?",
+        "pt": "Vejamos... Se os compostos na rizosfera contiverem níveis suficientes de carbono 13, então...$u#$b#Ah! Desculpe. Estava analisando alguns dados e não percebi você aí.#$e#Precisa de alguma coisa?",
+        "ru": "Посмотрим... Если в соединениях из ризосферы углерод-13 находится в достаточной концентрации, то...$u#$b#Ой! Прости. Я тут размышлял над данными и не заметил тебя.#$e#Тебе что-то нужно?",
+        "tr": "Bir bakalım... Eğer bu rizosferdeki bileşikler yeterli düzeyde Karbon-13 içeriyorsa...$u#$b#Ah! Özür dilerim. Veriler üzerine düşünüyordum. Orada olduğunu fark etmedim.#$e#Bir şey mi lazım?",
+        "zh": "唔……如果根际化合物的碳-13 水平足够的话……$u#$b#噢！抱歉。我在想数据的事，没注意到你。#$e#有什么事吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:Sun",
+      "author_key": "Sun",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Es ist gut, hin und wieder eine Pause zu machen.#$e#Aber das ist wohl nicht so leicht, wenn du auf einem Hof lebst.#$e#Hey, zumindest musst du dir im Winter keine Gedanken über deine Pflanzen machen.",
+        "es": "Es bueno descansar de vez en cuando.#$e#Aunque supongo que es difícil si vives en una granja.#$e#Bueno, por lo menos en invierno no tienes que preocuparte por los cultivos.",
+        "fr": "C’est bien de faire une pause de temps en temps.#$e#J’imagine que ça doit être difficile quand on travaille dans une ferme.#$e#Au moins en hiver, tu n'as pas à te préoccuper des récoltes.",
+        "hu": "Jó dolog kipihenni a munka fáradalmait.#$e#Gondolom ez kicsit nehezebb, ha az ember egy farmon él.#$e#Télen legalább nem kell a termésekkel foglalkoznod.",
+        "it": "Fa bene, ogni tanto, prendersi una pausa dal lavoro.#$e#Sebbene immagino che sia un po' difficile quando vivi in una fattoria.#$e#Ehi, perlomeno durante l'inverno non devi preoccuparti delle colture.",
+        "ja": "適度に 休憩を 取ることは 良いことだよ。#$e#牧場運営の 仕事では 難しいことかも 知れないけどね。#$e#まあ、少なくとも 冬の間は 作物の世話をする 必要がないか。",
+        "en": "It's good to take a break from work every now and then.#$e#I guess that's kind of difficult when you live on a farm, though.#$e#Hey, at least in the winter you don't have to worry about crops.",
+        "ko": "주기적으로 휴식을 취하는 게 좋아.#$e#농장에서 생활하면 그게 어려울 수는 있겠다, 근데.#$e#뭐, 그래도 겨울에는 작물 걱정을 할 필요가 없으니까.",
+        "pt": "É bom tirar uma folga do trabalho de vez em quando.#$e#Mas acho que isso deve ser difícil em uma fazenda.#$e#Bem, pelo menos no inverno você não precisa se preocupar com as lavouras.",
+        "ru": "Полезно бывает иногда сделать перерыв в работе.#$e#Правда, на ферме это может быть не так-то просто.#$e#Ну, зато зимой не нужно будет волноваться об урожае.",
+        "tr": "Arada bir çalışmaya ara vermek iyi oluyor.#$e#Sanırım çiftlikte yaşadığın zaman ara vermek hiç kolay olmuyordur.#$e#Hey, en azından kışları ekinleri düşünmen gerekmiyor.",
+        "zh": "时不时歇一歇是有好处的。#$e#虽然我猜住在农场应该没什么休息的时间吧。#$e#对了，至少在冬天的时候你不用操心那些作物啊。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:Thu",
+      "author_key": "Thu",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wie läuft es so mit den bäuerlichen Geschäften? Es ist Pastinakenzeit, nicht?#$e#Ich kann mir vorstellen, dass es es ziemlich friedlich ist, den ganzen Tag draußen mit Pflanzen zu verbringen.",
+        "es": "¿Qué tal va el negocio de la granja? Es temporada de chirivías, ¿no?#$e#Debe de ser muy relajado trabajar fuera con las plantas todo el día.",
+        "fr": "Comment se porte ta ferme ? C’est la saison du panais, n’est-ce pas ?#$e#J’imagine que c’est assez paisible de travailler au grand air, entouré de plantes toute la journée.",
+        "hu": "Hogy megy a gazdálkodós üzlet? Most a paszternáknak van szezonja, ugye?#$e#Elég nyugalmas lehet egész nap kint dolgozni a növények között.",
+        "it": "Come vanno le coltivazioni? È la stagione della pastinaca, giusto?#$e#Immagino che sia molto tranquillo, lavorare tutto il giorno all'aperto con le piante.",
+        "ja": "牧場運営の 調子はどうだい？今は パースニップが 旬だったかな。#$e#毎日 外の 植物の 世話をする、 そんな穏やかな 暮らしを 送ってるんだろうね。",
+        "en": "How's the farming business going? It's parsnip season, isn't it?#$e#I can imagine it being pretty peaceful, working outdoors with plants all day.",
+        "ko": "농장 일은 어때? 요즘 파스닙 철이지, 그치?#$e#야외에서 하루 종일 식물 보면서 일하는 건 참 평화로울 거 같아.",
+        "pt": "Como vão as coisas na fazenda? É época de chirívia, né?#$e#Posso imaginar uma vida bem tranquila... com trabalho ao ar livre o dia todo, perto das plantas.",
+        "ru": "Как дела на ферме? Сейчас сезон пастернака, правильно?#$e#Представляю, как должно быть спокойно работать весь день с растениями на свежем воздухе.",
+        "tr": "Çiftlik işi nasıl gidiyor? Yaban havucu mevsimindeyiz, değil mi?#$e#Bütün gün açık havada bitkilerle uğraşmanın ne kadar rahatlatıcı olduğunu düşleyebiliyorum.",
+        "zh": "你的农活干得怎么样了？现在是不是到了种防风草的季节了？#$e#整日在户外工作一定相当恬静淡泊吧。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:Tue",
+      "author_key": "Tue",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Dieses Tal hat ein sehr lebendiges und vielfältiges Ökosystem. Das ist einer der Gründe, warum ich hierher gezogen bin.",
+        "es": "Este valle posee un ecosistema muy diverso y dinámico. Por eso me hacía ilusión vivir aquí.",
+        "fr": "Cette vallée possède un écosystème très dynamique et varié. C’est une des raisons pour laquelle j’étais ravi de déménager ici.",
+        "hu": "Ennek a völgynek nagyon vibráló és sokrétű az ökoszisztémája. Ez az egyik oka annak, hogy ideköltöztem.",
+        "it": "Questa valle ha un ecosistema così vivace e variegato. Ero eccitato di trasferirmi qui anche per questo motivo.",
+        "ja": "この谷は とても多種多様な 生態系を 持っているようだ。私が ここへ 引っ越した 理由の 1つでもある。",
+        "en": "This valley has a very vibrant and diverse ecosystem. That's one reason I was excited to move here.",
+        "ko": "이 계곡의 생태계는 참 생기 넘치고 다양해. 여기 이사 오고 싶었던 이유 중 하나지.",
+        "pt": "Este vale possui um ecossistema muito vibrante e diverso. Esse é um dos motivos pelos quais me empolguei em me mudar para cá.",
+        "ru": "У этой долины очень незаурядная и разнообразная экосистема. Это одна из причин, по которым я был рад сюда переехать.",
+        "tr": "Bu vadi oldukça dolgun ve çeşitli bir ekosisteme sahip. Heyecanla buraya taşınma nedenlerimden biri de bu.",
+        "zh": "星露谷这里有着非常活跃而多样的生态系统。正因为如此，我才迫不及待地搬到这里。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:Wed",
+      "author_key": "Wed",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du baust vermutlich eine Menge interessanter Pflanzen auf deinem Hof an, nicht?#$e#Vielleicht schaue ich mal vorbei und werf einen Blick darauf.",
+        "es": "Seguro que tienes un montón de plantas interesantes en la granja, ¿no?#$e#Quizá algún día me pase a echar un vistazo.",
+        "fr": "Tu récoltes probablement beaucoup de plantes intéressantes sur ta ferme, non ?#$e#Peut-être que je passerai chez toi un jour pour voir tout ça.",
+        "hu": "Több igen érdekes növényt is termesztesz a farmon, igaz?#$e#Talán egy napon ellátogatok hozzád és megvizsgálom őket.",
+        "it": "Di certo stai coltivando parecchie piante interessanti nella tua fattoria, eh?#$e#Può darsi che un giorno ti venga a trovare e a dare un'occhiata.",
+        "ja": "君の 牧場で 興味深い 植物を 沢山 育てているんだって？#$e#近いうちに立ち寄って、 牧場の 様子を 見せてもらうよ。",
+        "en": "You're probably growing a lot of interesting plants on your farm, huh?#$e#Maybe I'll stop by your place some day and check it out.",
+        "ko": "넌 아마 농장에서 흥미로운 식물 많이 기르고 있겠지?#$e#하루쯤 방문해서 한번 조사해볼까 싶어.",
+        "pt": "Você já deve estar cultivando várias plantas interessantes na sua fazenda, né?#$e#Talvez eu passe na sua casa um dia para conferi-las.",
+        "ru": "Ты, наверное, много интересных растений выращиваешь у себя на ферме, да?#$e#Может, я как-нибудь загляну к тебе на ферму и посмотрю сам.",
+        "tr": "Yüksek olasılıkla çiftliğinde pek çok ilginç bitki yetişiyordur, ha?#$e#Belki bir gün uğrayıp bitkilere göz atabilirim.",
+        "zh": "你现在一定是越来越对你的农场里的作物感兴趣了吧？#$e#有机会我也许会到你那里去拜访一下呢。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:Wed6",
+      "author_key": "Wed6",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hi @! Wie geht es dir heute?#$e#Ich wünschte, ich könnte deine Hofarbeit irgendwie einfacher machen.",
+        "es": "¡Hola, @! ¿Qué tal te va?#$e#Ojalá pudiera contribuir a facilitarte el trabajo de alguna manera.",
+        "fr": "Bonjour @ ! Comment vas-tu aujourd’hui ?#$e#J’aimerais pouvoir t’aider avec ton travail à la ferme.",
+        "hu": "Szia @! Hogy vagy ma?#$e#Bárcsak valahogy megkönnyíthetném a munkádat!",
+        "it": "Ciao @! Come stai oggi?#$e#Vorrei poterti semplificare il lavoro nei campi, in qualche maniera.",
+        "ja": "あら、@！元気でやってるかい？#$e#何らかの形で、 君の農作業を 手伝えれば なぁ。",
+        "en": "Hi @! How are you doing today?#$e#I wish I could make your farming job easier somehow.",
+        "ko": "안녕 @! 오늘 기분은 어때?#$e#네 농장 일을 내가 좀 더 손쉽게 만들 수 있었으면 좋겠다.",
+        "pt": "Oi @! Como você está hoje?#$e#Gostaria de facilitar seu trabalho na fazenda de alguma forma.",
+        "ru": "Привет, @! Как у тебя сегодня дела?#$e#Хотелось бы мне как-нибудь облегчить твою работу на ферме.",
+        "tr": "Merhaba @! Bugün nasılsın?#$e#Keşke bir şekilde çiftlikte işlerini kolaylaştırabilsem.",
+        "zh": "嗨，@！今天感觉如何啊？#$e#希望我可以帮你把农活变得更轻松些啊。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:dating_Maru",
+      "author_key": "dating_Maru",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ja, Maru hat mir die Neuigkeiten erzählt. Ich kann nicht sagen, dass ich darüber begeistert bin, aber vielleicht beweist du mir das Gegenteil.$u",
+        "es": "Sí, Maru me dió la noticia. No puedo decir que me entusiasme , pero quizás me demuestres que estoy equivocado.$u",
+        "fr": "Oui, Maru m'a annoncé la nouvelle. Je ne peux pas dire que j'en suis ravi, mais peut-être que tu me prouveras que j'ai tort.$u",
+        "hu": "Igen, Maru mesélte nekem a hírt. Nem mondhatom, hogy el vagyok ragadtatva miatta, de talán majd bebizonyítod, hogy tévedtem.$u",
+        "it": "Sì, Maru mi ha dato l'annuncio. Non posso dire di esserne entusiasta, ma forse mi farai cambiare idea.$u",
+        "ja": "そうだ、マルから聞いたよ。今はうれしいとは言えないが、きみなら僕が間違っていたと証明できるかもしれない。$u",
+        "en": "Yes, Maru told me the news. I can't say I'm thrilled about it, but maybe you'll prove me wrong.$u",
+        "ko": "그래, 마루에게 소식 들었어. 그렇게 기쁜 소식은 아니지만, 네가 내 생각을 바꿀 수 있을지도 모르지.$u",
+        "pt": "É, a Maru me deu a notícia. Não posso dizer que estou animado, mas talvez você me prove o contrário.$u",
+        "ru": "Да, Мару сообщила мне новости. Не скажу, что я рад, но, может, ты сможешь доказать обратное.$u",
+        "tr": "Maru, gelişmelerden bahsetti. Bunun için pek de heyecanlı sayılmam fakat belki haksız olduğumu kanıtlarsın.$u",
+        "zh": "嗯，玛鲁告诉我了，我不算太高兴，不过希望你能让我刮目相看。$u"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'dating_Maru' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:eventSeen_65_memory_oneweek",
+      "author_key": "eventSeen_65_memory_oneweek",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "$y 'Wie geht es mit dem Höhlenexperiment voran? Hat es schon irgendetwas Wertvolles hervorgebracht?_Ja!_Ah! Das bedeutet, dass die Bedingungen geeigneter sein müssen, als ich ursprünglich angenommen habe... hmm..._Nein_Nun ja, sieh ab und zu mal nach. Ich bin sicher, dass diese kleinen Kerle irgendwann etwas hervorbringen werden.'",
+        "es": "$y '¿Qué tal va el experimento de la cueva? ¿Ha producido algo valioso ya?_Sí_¡Ah! Eso significa que las condiciones deben de ser más apropiadas de lo que teoricé originalmente... hmm..._No_Bueno, sigue echándole un vistazo de vez en cuando. Estoy seguro de que esos pequeños producirán algo eventualmente...'",
+        "fr": "$y 'Comment se déroule cette expérience dans la grotte ? Est-ce que ça a déjà produit quelque chose d'utile ?_Oui_Ha ! Cela signifie que les conditions doivent être bien plus adaptées que ce que j'avais théorisé à l'origine... hmm..._Non_Eh bien, continue de vérifier de temps en temps. Je suis certain que ça finira par rapporter quelque chose.'",
+        "hu": "$y 'Hogy megy a kísérlet? Kaptál már belőle valami értékeset?_Igen_Áh! Ez azt jelenti, hogy a feltételek sokkalta jobbak, mint ahogyan azokat eredetileg gondoltam... hmm..._Nem_Nos, nézz rá néhanapján. Biztos, hogy idővel valami hasznosat fogsz kapni belőlük.'",
+        "it": "$y 'Come procede quell'esperimento nella grotta? Ha prodotto qualcosa di valore?_Sì_Ah! Significa che le condizioni devono essere più idonee di quel che avevo teorizzato inizialmente... hmm..._No_Beh, continua a controllare, di quando in quando. Sono sicuro che quei piccoletti ti lasceranno qualcosa, prima o poi.'",
+        "ja": "$y 'あの洞窟での実験は進んでるかい？なにか価値があるものは得られたかい？_はい_おお！ということは、私が考えていたよりもいい条件がそろっているに違いない…_いいえ_そうか、たまには確認するようにしてほしい。小さなことかもしれないが、なにか収穫があるはずだ。'",
+        "en": "$y 'How's that cave experiment coming along? Has it produced anything of value yet?_Yes_Ah! That means the conditions must be more suitable than I originally theorized... hmm..._No_Well, keep checking on it every now and then. I'm sure those little guys will yield something eventually.'",
+        "ko": "$y '동굴 실험은 잘 진행되고 있어? 가치 있는 생산물이 있었어?_네_아! 내 초기 이론보다 적합한 조건이 갖춰져있다는 의미겠군... 흠..._아니요_그래, 그래도 종종 확인해 봐. 분명 뭔가 얻을 수 있을 거라 확신해.'",
+        "pt": "$y 'Como está indo aquele experimento da caverna? Já produziu alguma coisa de valor?_Sim_Ah! Isso quer dizer que as condições devem ser melhores do que eu tinha originalmente teorizado... hmm..._Não_Bem, continue checando de vez em quando. Tenho certeza que alguma coisa de valor vai sair de lá um dia.'",
+        "ru": "$y 'Как там тот пещерный эксперимент? Есть ли полезные изыскания?_Да_О! Значит, те условия оказались более подходящими, чем я предполагал... Хм-м..._Нет_Что ж, не бросай проверки. Уверен, эти мальцы нам еще покажут.'",
+        "tr": "$y 'Mağara deneyi nasıl gidiyor? Şimdiye kadar güzel bir sonuç alabildin mi?_Evet_Ha! Bu, koşulların başlangıçta düşündüğümden daha uygun olduğu anlamına geliyor... Hım..._Hayır_Peki, ara sıra kontrol etmeye devam et. Eminim ki o ufaklıklardan eninde sonunda bir şeyler alacaksın.'",
+        "zh": "$y '洞穴的研究有没有进展？产生有用的东西了吗？_有_哦！说明那里的条件比我推测的还要合适……唔……_没有_那你经常去检查一下吧，最终肯定会产出一些东西的。'"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'eventSeen_65_memory_oneweek' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:eventSeen_65_memory_twoweeks",
+      "author_key": "eventSeen_65_memory_twoweeks",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Vergiss nicht, in der Hof-Höhle nachzusehen! Da ist bestimmt schon etwas Nützliches drin.",
+        "es": "¡No olvides escharle un vistazo a la cueva de la granja! Seguro que hay algo útil allí a estas alturas.",
+        "fr": "N'oublie pas de vérifier cette petite ferme dans la grotte dont tu t'occupes ! Il doit sûrement y avoir quelque chose d'utile là-dedans maintenant.",
+        "hu": "Ne felejts el benézni a farmodon lévő barlangba! Most már biztos, hogy van valami hasznos odabent.",
+        "it": "Non scordarti di controllare la grotta della fattoria! Ormai dev'esserci per forza qualcosa di utile.",
+        "ja": "牧場の洞窟を忘れずに確認してくれ！そろそろ役に立つものが得られるはずなんだ。",
+        "en": "Don't forget to check that farm cave! There's bound to be something useful in there by now.",
+        "ko": "농장에 동굴 확인하는 거 잊지 말고! 지금쯤이면 분명 뭔가 유용한 게 있을 거야.",
+        "pt": "Não se esqueça de checar a caverna da fazenda! Alguma coisa de útil já deve ter surgido por lá a este ponto.",
+        "ru": "Не забывай проверять ферму в пещере! Может быть, там уже выросло что-нибудь полезное.",
+        "tr": "Çiftlikteki mağarayı kontrol etmeyi unutma! İçinde işe yarar bir şeyler vardır.",
+        "zh": "别忘了去看农场洞穴！肯定已经出现有用的东西了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'eventSeen_65_memory_twoweeks' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:fall_Fri",
+      "author_key": "fall_Fri",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Maru verbringt ganz schön viel Zeit damit, an ihren Apparaten zu arbeiten.#$e#Ich bin froh, dass sie so engagiert ist.",
+        "es": "Maru pasa mucho tiempo trabajando en esos aparatos suyos.#$e#Me alegro de que sea tan aplicada.",
+        "fr": "Maru, passe beaucoup de temps à travailler sur ses gadgets.#$e#Je suis ravi qu'elle soit aussi assidue.",
+        "hu": "Maru jó sok idejét tölti a kütyüjein dolgozva.#$e#Örülök, hogy ilyen elhivatott.",
+        "it": "Quanto tempo passa Maru a lavorare su quei suoi congegni!#$e#Mi fa piacere che abbia tanta dedizione.",
+        "ja": "マルは 自分のガジェットに 沢山の時間を 費やしてるね。#$e#とても熱心で うれしいよ。",
+        "en": "Maru sure spends a lot of time working on those gadgets of hers.#$e#I'm glad she's so dedicated.",
+        "ko": "마루는 참 자기 장비들 손보는데 시간을 많이 보내.#$e#전념하는 모습이 참 보기 좋아.",
+        "pt": "Maru passa muito tempo trabalhando naquelas engenhocas dela.#$e#Que bom que ela é tão dedicada.",
+        "ru": "Мару так много возится со своими устройствами.#$e#Я рад, что она такая целеустремленная.",
+        "tr": "Maru, aletleri üzerine epey zaman harcıyor.#$e#Kendini onlara adamasından memnunum.",
+        "zh": "玛鲁真是花了很多时间在她的那些小玩意上面。#$e#看到她这么投入我很高兴。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:fall_Fri_inlaw_Maru",
+      "author_key": "fall_Fri_inlaw_Maru",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich bin immer noch von Marus geheimen Roboter verblüfft... War das alles nur ein Traum?",
+        "es": "Todavía estoy pasmado con lo del robot secreto de Maru... ¿Quizá ha sido solo un sueño?",
+        "fr": "Je suis encore stupéfait du robot secret de Maru... est-ce que je l'ai rêvé ?",
+        "hu": "Még mindig nem térek magamhoz Maru titkos robotját illetően... vagy azt csak álmodtam?",
+        "it": "Sono ancora sbalordito per il robot segreto di Maru... forse era tutto un sogno?",
+        "ja": "マルが 秘密に 作ってた ロボットに まだ驚いてるんだ… あれは 夢だったのかな？",
+        "en": "I'm still flabbergasted about Maru's secret robot... was it all a dream?",
+        "ko": "아직도 마루의 비밀 로봇 일은 어리둥절해... 설마 전부 꿈이었나?",
+        "pt": "Ainda estou boquiaberto com o robô secreto da Maru... será que foi um sonho?",
+        "ru": "Я до сих пор ошеломлен тайным роботом Мару... Это точно был не сон?",
+        "tr": "Hâlâ daha Maru'nun gizli robotu konusunda şaşkınım... Her şey bir rüyadan mı ibaretti?",
+        "zh": "我仍然对玛鲁的秘密机器人感到吃惊……难道都是梦吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:fall_Mon",
+      "author_key": "fall_Mon",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Zu dieser Zeit im Jahr lenke ich meine Aufmerksamkeit auf Pilze.",
+        "es": "En esta época del año centro mi atención en los hongos.",
+        "fr": "Pendant cette période de l’année, j'étudie les champignons.",
+        "hu": "Az év ezen szakaszában figyelmemet a gombákra fordítom.",
+        "it": "In questo periodo dell'anno sposto la mia attenzione sui funghi.",
+        "ja": "この時期の間は、 菌類のことに 集中するんだ。",
+        "en": "During this time of year I divert my attentions to fungi.",
+        "ko": "일 년 중 이맘때 난 균상종 연구에 집중해.",
+        "pt": "Nesta época do ano, concentro minha atenção nos fungos.",
+        "ru": "В это время года я переключаю внимание на грибы.",
+        "tr": "Yılın bu zamanı dikkatimi mantarlara çeviriyorum.",
+        "zh": "这一整年我关注的重点都在真菌上。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:fall_Sat",
+      "author_key": "fall_Sat",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Mal sehen... Vielleicht werden die Stickstoff-Fixierungen von den Nematoden-Absonderungen beeinflusst...$u#$b#Oh! Tut mir leid. Ich habe gerade über ein paar Daten nachgedacht und dich gar nicht bemerkt.#$e#Brauchst du etwas?",
+        "es": "Vamos a ver... Quizá el nivel de fijación del nitrógeno esté afectado por las secreciones de nematodos...$u#$b#¡Oh! Lo siento. Estaba ponderando unos datos y no me he dado cuenta de que estabas aquí.#$e#¿Necesitas algo?",
+        "fr": "Voyons voir... peut-être que le niveau des composants de fixation de l’azote est affecté par les sécrétions de nématodes...$u#$b#Oh, pardon. Je réfléchissais à des données et je ne t’avais pas remarqué.#$e#As-tu besoin de quelque chose ?",
+        "hu": "Lássuk csak... talán a hengeresférgek váladéka befolyásolja a nitrogéntartósítási szintet...$u#$b#Ó! Ne haragudj. Adatokon tűnődtem és nem vettelek észre.#$e#Segíthetek valamiben?",
+        "it": "Vediamo... può darsi che il livello di azotofissazione sia influenzato dalle secrezioni del nematode...$u#$b#Oh! Perdonami. Stavo vagliando alcuni dati e non ho fatto caso a te.#$e#Hai bisogno di qualcosa?",
+        "ja": "どれどれ…おそらく、窒素固定レベルは 緑虫の 分泌物の 影響を 受けて…$u#$b#おっと！ごめんね。いま調べ物を していたから、 君に 気づけなかったんだ。#$e#何か 必要かい？",
+        "en": "Let's see... perhaps the nitrogen fixation level is affected by nematode secretions...$u#$b#Oh! Sorry. I was pondering some data and I didn't notice you there.#$e#Do you need anything?",
+        "ko": "어디 보자... 질소고정량이 선충 분비물의 영향을 받는 걸지도...$u#$b#오! 미안. 데이터 좀 곰곰이 생각하다가 네가 온 줄도 몰랐네.#$e#뭘 도와줄까?",
+        "pt": "Vejamos... talvez o nível de fixação de nitrogênio seja afetado pela secreção de nematoides...$u#$b#Ah! Desculpe. Estava analisando alguns dados e não percebi você aí.#$e#Precisa de alguma coisa?",
+        "ru": "Посмотрим... Возможно, на усвоение азота влияют выделения нематод...$u#$b#Ой! Прости. Я тут размышлял над данными и не заметил тебя.#$e#Тебе что-то нужно?",
+        "tr": "Bir bakalım... Belki de nitrojen katılaştırma düzeyini kancalıkurt salgısı etkiliyordur...$u#$b#Ah! Özür dilerim. Veriler üzerine düşünüyordum. Orada olduğunu fark etmedim.#$e#Bir şey mi lazım?",
+        "zh": "唔……固氮水平也许是受线虫分泌物所影响的……$u#$b#噢！抱歉。我在思考一些数据，没注意到你。#$e#有什么事吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:fall_Thu",
+      "author_key": "fall_Thu",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wie läuft es so mit den bäuerlichen Geschäften? Es ist Weizenzeit, nicht?#$e#Ich kann mir vorstellen, dass es es ziemlich friedlich ist, den ganzen Tag draußen mit Pflanzen zu verbringen.",
+        "es": "¿Qué tal va el negocio de la granja? Es temporada de maíz, ¿no?#$e#Debe de ser muy relajado trabajar fuera con las plantas todo el día.",
+        "fr": "Comment se porte ta ferme ? C’est la saison du maïs, n’est-ce pas ?#$e#J’imagine que c’est assez paisible de travailler au grand air, entouré de plantes toute la journée.",
+        "hu": "Hogy megy az üzlet? Most a kukoricának van szezonja, ugye?#$e#Elég nyugalmas lehet egész nap kint dolgozni a növények között.",
+        "it": "Come vanno le coltivazioni? È la stagione del mais, giusto?#$e#Immagino che sia molto tranquillo, lavorare tutto il giorno all'aperto con le piante.",
+        "ja": "牧場運営の 調子はどうだい？今は トウモロコシが 旬だったかな。#$e#毎日 外の 植物の 世話をする、 そんな穏やかな 暮らしを 送ってるんだろうね。",
+        "en": "How's the farming business going? It's corn season, isn't it?#$e#I can imagine it being pretty peaceful, working outdoors with plants all day.",
+        "ko": "농장 일은 요즘 어때? 지금 옥수수 시즌이지, 그치?#$e#야외에서 하루 종일 식물 보면서 일하는 건 참 평화로울 거 같아.",
+        "pt": "Como vão as coisas na fazenda? É época de milho, não é?#$e#Posso imaginar uma vida bem tranquila... com trabalho ao ar livre o dia todo, perto das plantas.",
+        "ru": "Как дела на ферме? Сейчас ведь сезон кукурузы, да?#$e#Представляю, как должно быть спокойно работать весь день с растениями на свежем воздухе.",
+        "tr": "Çiftlik işi nasıl gidiyor? Mısır mevsimindeyiz, değil mi?#$e#Bütün gün açık havada bitkilerle uğraşmanın ne kadar rahatlatıcı olduğunu düşleyebiliyorum.",
+        "zh": "你的农活干得怎么样了？到了种玉米的季节了，对不对？#$e#整日在户外工作一定相当恬静淡泊吧。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:fall_Tue",
+      "author_key": "fall_Tue",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wir wissen Dank der Wissenschaft eine Menge über die Natur.#$e#Aber es gibt immer eine Menge mehr zu lernen.",
+        "es": "Sabemos mucho sobre la naturaleza gracias a la ciencia.#$e#Pero siempre hay más que aprender.",
+        "fr": "Nous en savons beaucoup sur la nature avec l’aide de la science.#$e#Mais il reste encore beaucoup à apprendre.",
+        "hu": "A tudománynak köszönhetően sokat tudunk a természetről.#$e#De mindig van mit tanulni.",
+        "it": "Grazie alla scienza, conosciamo moltissime cose sulla natura.#$e#Ma ce ne sono sempre tante altre da scoprire.",
+        "ja": "科学のおかげで、 自然のことを 多く知った。#$e#でも、 学ぶべきことは まだまだ沢山ある。",
+        "en": "We know a lot about nature thanks to science.#$e#But there's always a lot more to learn.",
+        "ko": "과학 덕에 우린 자연에 대해 알게 된 게 많지.#$e#하지만 항상 더 배울 점이 많아.",
+        "pt": "Sabemos muito sobre a natureza graças à ciência.#$e#Mas sempre há muito a aprender.",
+        "ru": "Мы многое знаем о природе благодаря науке.#$e#Но многое еще остается неизведанным.",
+        "tr": "Bilim sayesinde doğa hakkında birçok şey biliyoruz.#$e#Her zaman öğrenilecek bir sürü şey olacak.",
+        "zh": "多亏了科学我们才能对自然有这么多的了解。#$e#不过学无止境啊。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:fall_Wed6",
+      "author_key": "fall_Wed6",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hi, @. Ich bin immer froh, wenn du auf einen Besuch vorbeischaust.#$e#Es ist nett, nach all dieser einsamen Laborarbeit ein wenig Gesellschaft zu haben.",
+        "es": "Hola, @. Siempre me alegro cuando me visitas.#$e#Es agradable tener compañía después de todo el día solo en el laboratorio.",
+        "fr": "Salut @. J'aime bien quand tu viens me rendre visite.#$e#C’est agréable d’avoir de la compagnie après tout ce travail solitaire au laboratoire.",
+        "hu": "Helló @. Mindig örülök neki, ha meglátogatsz.#$e#Jól jön egy kis társaság a magányos labormunka után.",
+        "it": "Ciao @. Le tue visite mi fanno sempre piacere.#$e#È bello avere un po' di compagnia dopo tutti questi esperimenti per conto mio.",
+        "ja": "@さんこんにちは。君なら いつでも 大歓迎だよ。#$e#孤独な 研究作業の 後は 人恋しくなるからね。",
+        "en": "Hi @. I'm always glad when you come for a visit.#$e#It's nice to have some company after all this lonely lab-work.",
+        "ko": "안녕 @. 방문하러 와 줄 때마다 반가워.#$e#사실 연구실 일은 좀 외로운 편이라 손님이 오면 좋더라고.",
+        "pt": "Oi, @. Sempre fico feliz quando você vem nos visitar.#$e#É muito bom ter companhia depois de ficar tanto tempo sozinho no laboratório.",
+        "ru": "Привет, @. Я всегда рад твоему визиту.#$e#Приятно побыть в компании после одинокой работы в лаборатории.",
+        "tr": "Merhaba @. Ziyaretime gelmen beni her zaman mutlu ediyor.#$e#Yalnız olduğum laboratuvar çalışmalarının ardından ziyaretçim olması çok hoş.",
+        "zh": "嗨，@。我时刻都欢迎你的到来。#$e#要知道，一个人做实验无聊得很，能有人陪陪我真是太好了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:firstVisit_Desert",
+      "author_key": "firstVisit_Desert",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe gehört, dass du kürzlich die Calico-Wüste besucht hast. Wie faszinierend! Ich bin sicher, du hast auf deiner Reise viele einzigartige Lebensformen beobachtet.",
+        "es": "Escuché que visitaste el Desierto de Calico recientemente. ¡Fascinante! Seguro que observaste muchas formas de vida únicas durante tu viaje.",
+        "fr": "J'ai entendu dire que tu as visité le désert de Calico récemment. Comme c’est fascinant ! Je suis certain que tu as pu observer de nombreuses formes de vie uniques au cours de ton voyage.",
+        "hu": "Hallottam, hogy nemrég a Calico-sivatagban jártál. Milyen lenyűgöző! Biztos vagyok benne, hogy az utad során számtalan egyedi létformát figyeltél meg.",
+        "it": "So che di recente hai visitato il Deserto di Calico. Quant'è fascinoso! Sicuramente avrai osservato molte forme di vita particolari durante il viaggio.",
+        "ja": "カリコ砂漠に行ったんだって？それはすごい！きっとたくさんの固有生物を見てきたんだろうね。",
+        "en": "I heard you visited Calico Desert recently. How fascinating! I'm sure you observed many unique life forms on your trip.",
+        "ko": "최근 네가 칼리코 사막을 방문했단 얘기를 들었어. 흥미로운 소식이야! 분명 방문하는 동안 사막 특유의 생명체를 많이 봤겠지.",
+        "pt": "Eu ouvi dizer que você visitou o Deserto de Calico recentemente. Que fascinante! Tenho certeza que você viu várias formas de vida únicas na sua viagem.",
+        "ru": "Слышал, тебе недавно довелось побывать в Пустыне Калико. Как интересно! Уверен, тебе там встретилось множество уникальных животных и растений.",
+        "tr": "Yakın zamanda Patisko Çölü'ne gittiğini duydum. Ne etkileyici! Eminim ziyaretin boyunca birçok sıra dışı yaşam formu gözlemlemişsindir.",
+        "zh": "听说你最近去了卡利科沙漠，好有意思！你在旅途中肯定看到了许多独特的生物吧。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'firstVisit_Desert' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:married_Maru",
+      "author_key": "married_Maru",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "*seufz*... @, ich habe mich damit abgefunden, dass es für mein 'kleines Mädchen' an der Zeit ist, eine Frau zu werden. Du hast meinen Segen.$s",
+        "es": "*suspiro*... @, he aceptado que es hora de que mi « pequeña » se convierta en una mujer. Tienes mi beneplácito.$s",
+        "fr": "*soupir*... @, je peux enfin accepter que ma « petite fille » est une femme maintenant. Tu as ma bénédiction.$s",
+        "hu": "*sóhaj*... @, elfogadtam a tényt, hogy itt az ideje, hogy az én 'kicsi lányom' nővé váljon. Áldásom adom rátok.$s",
+        "it": "*sospira*... @, ho accettato che è ora che la mia 'bambina' diventi una donna. Avete la mia benedizione.$s",
+        "ja": "はぁ… @、私の「小さな女の子」が立派な女性に育ったのだと、やっと受け入れられるようになったよ。心から祝福するよ。$s",
+        "en": "*sigh*... @, I've come to accept that it's time for my 'little girl' to become a woman. You have my blessing.$s",
+        "ko": "*한숨*... @, 내 딸이 이젠 다 자랐다는 사실을 받아들이기로 했어. 결혼 축하한다.$s",
+        "pt": "*suspira*... @, eu aceitei o fato de que minha 'garotinha' se tornou uma mulher. Você tem a minha bênção.$s",
+        "ru": "*вздыхает*... @, я понял, что пришла пора мне принять, что моя «малышка» выросла. Прими мое благословение.$s",
+        "tr": "*iç çeker*... @, sanırım artık 'küçük kızımın' bir kadın olduğunu kabul etmeliyim. Benim onayımı aldın.$s",
+        "zh": "唉……@啊，我家的小女孩长成了大姑娘，我已经接受了，你们要好好的。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'married_Maru' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:married_Sebastian",
+      "author_key": "married_Sebastian",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Herzlichen Glückwunsch zur Hochzeit. Robin hat seit der Hochzeit geweint. 'Freudentränen', wie sie es nennt! Ein höchst eigenartiges Konzept...#$e#Hmm, jetzt, wo der Keller frei ist, muss ich vielleicht das Labor erweitern...$u",
+        "es": "Enhorabuena por el matrimonio. Robin ha estado llorando desde la boda. «Lágrimas de felicidad», ¡como ella las llama! Un concepto muy peculiar...#$e#Hmm, ahora que el sótano está libre, puede que tenga que ampliar el laboratorio...$u",
+        "fr": "Félicitations pour le mariage. Depuis le mariage, Robine n'arrête pas de pleurer. Mais ce sont des \"larmes de joie\", comme elle dit ! Un concept très particulier...#$e#Hmm, maintenant que le sous-sol de la maison est inoccupé, je vais peut-être pouvoir agrandir le laboratoire...$u",
+        "hu": "Gratulálok az esküvőhöz! Robin azóta is sír. 'Örömkönnyek', azt mondja! Milyen különös fogalom...#$e#Hmm, most, hogy az alagsor nem foglalt, lehet, hogy kitudom bővíteni a laboratóriumomat...$u",
+        "it": "Congratulazioni per le nozze. Robin non ha smesso di piangere dal matrimonio. 'Lacrime di gioia', come le chiama lei! Un concetto davvero peculiare...#$e#Hmm, ora che lo scantinato è libero, potrei aver bisogno di espandere il mio laboratorio...$u",
+        "ja": "結婚おめでとう。ロビンは結婚式の時から泣いていたよ。もちろん、うれし涙さ！心の底から喜んでいたんだろうね…#$e#うーん、これで地下室が空いたから、研究室を拡張できるかもしれないな…$u",
+        "en": "Congratulations on the marriage. Robin's been crying since the wedding. 'Tears of joy', as she calls it! A most peculiar concept...#$e#Hmm, now that the basement is unoccupied, I might have to expand the laboratory...$u",
+        "ko": "결혼 축하해. 결혼식 이후로 로빈이 계속 울더라고. '기쁨의 눈물'이라던데! 희한한 개념이지...#$e#흠, 지하실도 비었겠다, 연구실을 확장할 차례인가...$u",
+        "pt": "Felicidades pelo casamento. A Robin tem chorado desde o dia da cerimônia. 'Lágrimas de Alegria', ela fala! Um conceito muito peculiar...#$e#Hmm, agora que o porão vai ficar desocupado, talvez eu deva expandir o meu laboratório...$u",
+        "ru": "Поздравляю со свадьбой. Робин плачет с самой церемонии. Она говорит, что это «слезы счастья»! Довольно странное понятие...#$e#Хм-м, раз у меня в подвале теперь есть лишнее место, пора расширить мою лабораторию...$u",
+        "tr": "Evliliğini kutlarım. Robin düğünden beri ağlıyor. 'Mutluluk gözyaşları' diyor! Gerçekten tuhaf bir laf…#$e#Eh, bodrum boşaldığına göre laboratuvarı genişletmeyi düşünebilirim.$u",
+        "zh": "祝你们新婚快乐。婚礼之后罗宾一直在哭，她还说是那是太高兴了！真是古怪……#$e#唔，既然地下室没人住了，我是不是可以扩建一下实验室……$u"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'married_Sebastian' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:pamHouseUpgradeAnonymous",
+      "author_key": "pamHouseUpgradeAnonymous",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Robin weigert sich selbst *mir* zu erzählen, wer für Pams neues Haus bezahlt hat!#$e#Ich tue zwar so, als wäre ich sauer, aber eigentlich freue ich mich, dass sie ihr Versprechen hält ...$h",
+        "es": "¡Robin no quiere decirme quién pagó la casa nueva de Pam!#$e#Lo cierto es que el enfado es fingido. En realidad, me alegra que cumpla su palabra...$h",
+        "fr": "Robine ne veut pas me dire à *moi* qui a payé pour la nouvelle maison de Pam !#$e#Je fais semblant de lui en vouloir mais en réalité, je suis content qu'elle tienne sa promesse...$h",
+        "hu": "Robin még *velem* se hajlandó közölni, hogy ki fizetett Pam új házáért!#$e#Úgy teszek mintha mérges volnék rá, de titokban annyira boldog vagyok, hogy ennyire tartja a szavát...$h",
+        "it": "Robin non vuole dire nemmeno a *me* chi ha pagato per la nuova casa di Pam!#$e#Faccio finta di arrabbiarmi con lei, ma in realtà sono contento che mantenga la parola data...$h",
+        "ja": "パムの 新しい家の お金を 出したのは 誰か、 ロビンのやつ 私にさえ 教えてくれないんだ！#$e#なんて、 彼女に 怒ったフリを したけど、 ほんとは約束を 守ろうとしてる 彼女を見てて うれしいんだよね...$h",
+        "en": "Robin won't even tell *me* who paid for Pam's new house!#$e#I pretend I'm mad at her but secretly I'm glad she's so loyal to her word...$h",
+        "ko": "팸의 새 집 비용을 누가 지불했는지 로빈이 *나한테도* 얘기를 안 해주는 거 있지!#$e#사실 그냥 화난 척하는 거야, 로빈이 비밀을 잘 지켜준다는 사실이 기뻐...$h",
+        "pt": "Robin não contou para ninguém quem comprou a casa da Pam, nem mesmo para *mim*!#$e#Eu fingi estar com raiva dela, mas na verdade fico muito feliz ao saber que ela cumpre suas promessas...$h",
+        "ru": "Робин даже *мне* не говорит, кто купил Пэм новый дом!#$e#Я делаю вид, что сержусь, но на самом деле я рад, что она держит слово...$h",
+        "tr": "Robin *bana* bile Pam'in yeni evini kimin yaptırdığını söylemiyor!#$e#Ona kızgınmış gibi davranıyorum ama gizliden gizliye, sözüne sadık olmasından memnunum...$h",
+        "zh": "罗宾甚至不会告诉*我*谁为潘姆买了新房子！#$e#虽然我假装在生她的气，但偷偷地说，我很高兴她说到做到……$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'pamHouseUpgradeAnonymous' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:purchasedAnimal_Dinosaur",
+      "author_key": "purchasedAnimal_Dinosaur",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Sag das noch mal!? Du hast erfolgreich ein Dinosaurier-Ei bebrütet? Das ist einmalig!$5#$e#Hier, nimm meinen Kaffee, ich bin schon ganz aufgeregt... Ich kann nicht mehr trinken. [253]",
+        "es": "¿¡Di eso otra vez!? ¿Has incubado con éxito un huevo de dinosaurio? ¡Esto es inaudito!$5#$e#Ten, toma mi café, estoy demasiado alterado ahora... No puedo beber más. [253]",
+        "fr": "Répète ça ! Tu as réussi à incuber un œuf de dinosaure ? C'est du jamais vu !$5#$e#Tiens, prends mon café, je suis trop excité maintenant... Je ne peux plus boire de caféine. [253]",
+        "hu": "Hogy mit mondtál?! Sikeresen kiköltöttél egy dinoszaurusztojást? Ez példátlan dolog!$5#$e#Tessék, itt a kávém, teljesen fel vagyok pörögve... Egyszerűen már nem tudnék inni belőle. [253]",
+        "it": "Come, scusa!? Hai incubato con successo un uovo di dinosauro? È un evento senza precedenti!$5#$e#Ecco, tieni il mio caffè, ora sono troppo agitato... Non lo posso più bere. [253]",
+        "ja": "もう一度確認させてくれないか。恐竜のタマゴのふ化に成功したって言ったのかい？これは前例がないことだよ！$5#$e#ちょっとこのコーヒーを持っていてくれないか。興奮しすぎて…のどを通りそうにないよ。[253]",
+        "en": "Say that again!? You successfully incubated a dinosaur egg? This is unprecedented!$5#$e#Here, take my coffee, I'm all worked up now... I can't drink any more. [253]",
+        "ko": "다시 말해봐!? 성공적으로 공룡알을 부화시켰다고? 전례 없는 일이야!$5#$e#여기, 내 커피 받아, 나 지금 너무 흥분해서... 더 못 마시겠다. [253]",
+        "pt": "O que você disse!? Você conseguiu incubar um ovo de dinossauro? Isso é um feito sem precedentes!$5#$e#Aqui, pega o meu café, estou animado demais... não vou conseguir tomar o resto. [253]",
+        "ru": "Что-что?! У тебя получилось вывести яйцо динозавра в инкубаторе? Это же беспрецедентно!$5#$e#Вот, возьми мой кофе. Я и без него уже весь дрожу... Не могу больше его пить. [253]",
+        "tr": "Ne dedin? Bir dinozor yumurtasını mı kuluçkaladın? Eşi görülmemiş bir şey!$5#$e#İşte, kahvemi alabilirsin. Çok heyecanlandım... Daha fazla içemem. [253]",
+        "zh": "我没听错吧？！你成功孵化了恐龙蛋？简直是史无前例！$5#$e#来，这杯咖啡就给你了，我现在兴奋得不得了……不能再喝了。[253]"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'purchasedAnimal_Dinosaur' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:questComplete_104_memory_oneday",
+      "author_key": "questComplete_104_memory_oneday",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wie steht es um die Melonenforschung? Ja, ich... äh... habe sie \"analysiert\", und sie hat auf jeden Fall ein optimales Makronährstoffprofil...",
+        "es": "¿Revisando la investigación sobre los melones? Sí, yo... eh... lo « analicé », indudablemente tiene un perfil de macronutrientes óptimo...",
+        "fr": "Tu viens vérifier comment avance ma recherche sur le melon ? Oui, je... euh... je l'ai \"analysé\", et il possède un profil de macronutriments optimal...",
+        "hu": "Nézegeted a dinnyés kutatásomat? Igen, én... öhm... 'analizáltam', és valóban optimális makroelem profillal rendelkezik...",
+        "it": "Vuoi sapere come va la ricerca sul melone? Sì, l'ho... ehm... 'analizzato', e ha di certo un profilo di macronutrienti ottimale...",
+        "ja": "メロンの研究？ええと… 確かに「分析」したよ… 間違いなく豊富な栄養素を含んでいたね…",
+        "en": "Checking up on the melon research? Yes, I... uh... 'analyzed' it, and it certainly has an optimal macronutrient profile...",
+        "ko": "멜론 연구 어떻게 되어가냐고? 맞아, 어... 내가... '분석'해본 결과, 대량영양소 분포가 최적이라는 사실은 알겠어...",
+        "pt": "Checando por atualizações na pesquisa dos melões? Sim, eu... é... 'analizei', eles têm um ótimo perfil de macronutrientes...",
+        "ru": "Мое дынное исследование? Да, я... это... все «проанализировал». Содержание макроэлементов там оптимальное...",
+        "tr": "Kavun araştırmasını mı kontrol ediyorsun? Evet, ben... Şey... 'İnceledim' ve kesinlikle optimal bir makro besin profiline sahip..",
+        "zh": "你想问甜瓜研究的事情是吧？我……呃……我“分析”过了，它的宏量营养素含量确实恰到好处……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'questComplete_104_memory_oneday' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:reject_865",
+      "author_key": "reject_865",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Obst und Salz? Was für eine seltsame Kombination...$s",
+        "es": "¿Fruta y sal? Qué combinación más rara...$s",
+        "fr": "Fruits et sel ? Quelle étrange combinaison...$s",
+        "hu": "Gyümölcs és só? Micsoda fura kombináció...$s",
+        "it": "Un sale alla frutta? Che combinazione bizzarra...$s",
+        "ja": "果物に塩？何て奇妙な組み合わせなんだ…$s",
+        "en": "Fruit and salt? What an odd combination...$s",
+        "ko": "과일하고 소금? 특이한 조합이네...$s",
+        "pt": "Fruta e sal? Que combinação estranha...$s",
+        "ru": "Фрукт и соль? Какая странная комбинация...$s",
+        "tr": "Meyve ve tuz mu? Ne kadar da garip bir ikili...$s",
+        "zh": "水果加盐？好奇怪的搭配……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'reject_865' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:reject_869",
+      "author_key": "reject_869",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Es ist ein gutes Exemplar, aber eine sehr häufige Art. Du kannst es behalten.",
+        "es": "Es un buen espécimen, pero de una especie muy común. Te lo puedes quedar.",
+        "fr": "C'est un beau spécimen, mais une espèce très commune. Tu peux le garder.",
+        "hu": "Ez egy szép példány, de a nagyon átlagos fajtából. Megtarthatod.",
+        "it": "Bell'esemplare, ma di una specie comunissima. Puoi tenertelo.",
+        "ja": "これはいい標本だ、でも一般的な種だね。持ってていいよ。",
+        "en": "It's a good specimen, but a very common species. You can keep it.",
+        "ko": "좋은 표본이긴 한데, 흔한 종이네. 그냥 네가 가지고 있어.",
+        "pt": "É uma boa espécime, mas de uma espécie muito comum. Você pode ficar.",
+        "ru": "Хороший представитель, но это норма для данного вида. Можешь оставить себе.",
+        "tr": "Güzel bir örnek ama oldukça yaygın bir tür. Sende kalsın.",
+        "zh": "这是个很好的标本，不过只是常见的品种。你可以留着。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'reject_869' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:summer_Fri",
+      "author_key": "summer_Fri",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "$p 40#Ich habe gehört, dass Maru dich durch das Teleskop hinten schauen gelassen hat.|Wenn du und Maru Freunde werden, bin ich mir sicher, dass sie dir das Teleskop hinten zeigen wird.#$e#Ganz schön aufregend, was?",
+        "es": "$p 40#He oído que Maru te dejó mirar por el telescopio.|Si Maru y tú congeniáis, seguro que te enseña a usar el telescopio.#$e#Qué chulo, ¿no?",
+        "fr": "$p 40#J’ai entendu dire que Maru t’a fait regarder dans le télescope.|Si toi et Maru devenez amis, je suis sûr qu’elle te montrera comment utiliser ce télescope toi-même.#$e#Assez excitant, non ?",
+        "hu": "$p 40#Hallom Maru rávett, hogy belenézz a teleszkópba ott hátul.|Ha összebarátkozol Maruval, biztosan megmutatja, hogyan kell a hátul lévő teleszkópot használni.#$e#Izgalmas, igaz?",
+        "it": "$p 40#Ho sentito che Maru ti ha fatto guardare in quel telescopio sul retro.|Se tu e Maru farete amicizia, ti mostrerà sicuramente come usare quel telescopio sul retro.#$e#Eccitante, eh?",
+        "ja": "$p 40#マルが君に あの外にある 望遠鏡を 覗かせたって 聞いたよ。|もし君が マルと 友達になれば、 外にある 望遠鏡の 使い方を 教えてくれるはず。#$e#ワクワク してこないかい？",
+        "en": "$p 40#So I heard Maru had you look through that telescope out back.|If you and Maru become friends, I'm sure she'll show you how to use that telescope out back.#$e#Pretty exciting, huh?",
+        "ko": "$p 40#마루랑 뒤뜰에 있는 망원경 써봤다며?|마루랑 친해지면 분명 뒤뜰에 있는 망원경 어떻게 쓰는지 알려줄 거야.#$e#흥미진진하지?",
+        "pt": "$p 40#Ouvi falar que Maru fez você olhar no telescópio naquele dia.|Se você e Maru fizerem amizade, tenho certeza que ela vai ensinar você a usá-lo.#$e#Maravilha, né?",
+        "ru": "$p 40#Я слышал, Мару дала тебе посмотреть в ее телескоп на заднем дворе.|Если вы с Мару подружитесь, то она наверняка покажет тебе, как пользоваться ее телескопом, который стоит на заднем дворе.#$e#Заманчиво, правда?",
+        "tr": "$p 40#Maru, arkadaki teleskopla gökyüzüne bakmana izin vermiş diye duydum.|Maru ile arkadaş olduysanız arkadaki teleskobu nasıl kullanacağını göstereceğine eminim.#$e#Çok heyecanlı, ha?",
+        "zh": "$p 40#我听说玛鲁让你用了后面那个望远镜。|如果你和玛鲁成为朋友的话，我相信她一定会教你怎么用后面那个望远镜的。#$e#很刺激啊，是不是？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:summer_Fri_inlaw_Maru",
+      "author_key": "summer_Fri_inlaw_Maru",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich hoffe, meine Tochter arbeitet weiterhin an ihrer Mathematik und Wissenschaft!",
+        "es": "¡Espero que mi hija siga siendo un as de las matemáticas y ciencias!",
+        "fr": "J’espère que ma fille continue à suivre des cours de maths et de sciences !",
+        "hu": "Remélem a lányom nem hanyagolja el a matematikát és a tudományokat!",
+        "it": "Spero che mia figlia si stia tenendo al passo con matematica e scienza!",
+        "ja": "娘がちゃんと 数学と科学を 勉強してくれていたら いいな！",
+        "en": "I hope my daughter's keeping up on her math and science!",
+        "ko": "딸아이가 수학이랑 과학 공부는 꾸준히 하고 있어야 할 텐데!",
+        "pt": "Espero que minha filha continue estudando matemática e ciência!",
+        "ru": "Надеюсь, моя дочка не забрасывает математику с физикой!",
+        "tr": "Umarım kızım matematik ve fen ile ilgilenmeye devam ediyordur!",
+        "zh": "我希望我女儿跟上数学和科学两门功课！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:summer_Mon",
+      "author_key": "summer_Mon",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "#$e#%Demetrius ist in Gedanken versunken.#$e#Entschuldige, ich bin wirklich beschäftigt.#$e#Es gibt gerade so viele Pflanzen zu untersuchen.",
+        "es": "#$e#%Demetrius está reflexionando profundamente.#$e#Lo siento, estoy muy ocupado.#$e#Hay tantas plantas que estudiar ahora mismo...",
+        "fr": "#$e#%Demetrius est plongé dans ses pensées.#$e#Désolé, je suis très occupé.#$e#Il y a tellement de plantes à étudier en ce moment.",
+        "hu": "#$e#%Demetrius erősen gondolkodik.#$e#Bocsánat, eléggé elfoglalt vagyok.#$e#Rengeteg növényt lehet ilyenkor megvizsgálni.",
+        "it": "#$e#%Demetrius è immerso nei suoi pensieri.#$e#Perdonami, sono davvero impegnato.#$e#Ci sono così tante piante da studiare, adesso.",
+        "ja": "#$e#%ディメトリウスは 考え事をしている。#$e#すまない、 とても 忙しいんだ。#$e#研究すべき 植物が 沢山 あってね。",
+        "en": "#$e#%Demetrius is deep in thought.#$e#Sorry, I'm really busy.#$e#There's so many plants to study right now.",
+        "ko": "#$e#%드미트리우스는 깊은 생각에 잠겨있다.#$e#미안, 지금 무척 바빠.#$e#연구해야 할 식물이 너무 많아.",
+        "pt": "#$e#O Demetrius está pensando bastante.#$e#Desculpe, estou muito ocupado.#$e#Há tantas plantas para estudar agora.",
+        "ru": "#$e#%Деметриус глубоко задумался.#$e#Прости, я очень занят.#$e#Мне сейчас нужно изучить так много растений.",
+        "tr": "#$e#%Demetrius düşüncelere dalmış gibi duruyor.#$e#Affedersin, çok meşgulüm.#$e#Üzerinde çalışmam gereken çok fazla bitki var.",
+        "zh": "#$e#%德米特里厄斯陷入了沉思。#$e#抱歉啊，我现在真的很忙。#$e#我现在还有很多的植物要去研究呢。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:summer_Mon6",
+      "author_key": "summer_Mon6",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich bin ein Wissenschaftler geworden, um einen Beitrag zur Fortentwicklung unserer Spezies zu leisten.#$e#Natürlich wäre nichts davon ohne Bauern wie dich möglich.$h",
+        "es": "Me hice científico porque quería contribuir a la evolución de nuestra especie.#$e#Por supuesto, eso no sería posible sin agricultores como tú.$h",
+        "fr": "Je suis devenu scientifique parce que je voulais contribuer à l’évolution de notre espèce.#$e#Bien sûr, rien de tout cela ne serait possible sans des agriculteurs comme toi.$h",
+        "hu": "Azért lettem tudós, mert hozzá akartam járulni fajunk fejlődéséhez.#$e#Természetesen ez mind lehetetlen lenne olyan gazdák nélkül, mint amilyen jómagad is vagy.$h",
+        "it": "Sono divenuto uno scienziato perché volevo contribuire al progresso della nostra specie.#$e#Ovviamente, niente di questo sarebbe possibile senza gli agricoltori come te.$h",
+        "ja": "私は 人類の 発展に 貢献したいから 科学者になった。#$e#もちろん、 君のような 牧場主が いなければ、 何も 成し遂げられなかった かもしれない。$h",
+        "en": "I became a scientist because I wanted to contribute to the progression of our species.#$e#Of course, none of this would be possible without farmers such as yourself.$h",
+        "ko": "난 우리 인류의 진척에 기여하고 싶어서 과학자가 되었어.#$e#물론, 너와 같은 농부들이 없었더라면 불가능한 일이었겠지만.$h",
+        "pt": "Eu me tornei um cientista porque queria contribuir com o progresso de nossa espécie.#$e#Claro, nada disso seria possível sem fazendeiros como você.$h",
+        "ru": "Я стал ученым, потому что я хотел сделать свой вклад в развитие нашего вида.#$e#Конечно, все это было бы невозможно без фермеров, таких, как ты.$h",
+        "tr": "Bilim insanı oldum çünkü türümüzün devamlılığına katkıda bulunmak istedim.#$e#Elbette, senin gibi çiftçiler olmadan bunların hiçbiri mümkün olmazdı.$h",
+        "zh": "我之所以要成为科学家，是因为我想帮助到我们这个物种的发展。#$e#当然了，这一切都离不开像你这样的农民的帮助。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:summer_Sat",
+      "author_key": "summer_Sat",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hmm... Wenn das Strigolaktonen-Niveau sich weiter erhöht, würde es dann einen proportionalen Effekt auf das mykorrhizale Wachstum haben?$u#$b#Oh! Tut mir leid. Ich habe gerade über ein paar Daten nachgedacht und dich gar nicht bemerkt.#$e#Brauchst du etwas?",
+        "es": "Hmm... Si se pudieran aumentar los niveles de estringolactona, ¿el crecimiento micorrizal aumentaría de forma proporcional?$u#$b#¡Oh! Lo siento. Estaba ponderando unos datos y no me he dado cuenta de que estabas aquí.#$e#¿Necesitas algo?",
+        "fr": "Mmm... Si les composants de strigolactone pouvaient être augmentés, cela aurait-il un effet proportionnel sur la croissance mycorhizienne ?$u#$b#Oh, pardon ! Je réfléchissais à des données et je ne t’avais pas remarqué.#$e#As-tu besoin de quelque chose ?",
+        "hu": "Hmm... Vajon arányosan hatna a mikorrhiza fejlődésére a strigolakton szint növelése?$u#$b#Ó! Ne haragudj. Adatokon tűnődtem és nem vettelek észre.#$e#Segíthetek valamiben?",
+        "it": "Hmm... Se i livelli di strigolattoni potessero essere aumentati, avrebbe forse un effetto proporzionale sulla crescita micorrizica?$u#$b#Oh! Perdonami. Stavo vagliando alcuni dati e non ho fatto caso a te.#$e#Hai bisogno di qualcosa?",
+        "ja": "うーん…ストリゴラクトンを 増加させた時、 菌根類の 成長に 比例的な 効果を 及ぼすのか？$u#$b#おっと！ごめんね。いま調べ物を していたから、 君に 気づけなかったんだ。#$e#何か 必要かい？",
+        "en": "Hmm... If strigolactone levels could be increased, would it have a proportional effect on mycorrhizal growth?$u#$b#Oh! Sorry. I was pondering some data and I didn't notice you there.#$e#Do you need anything?",
+        "ko": "흠... 스트리고락톤 양을 늘릴 수 있다면, 균근 성장도 비례하는 효과가 있으려나?$u#$b#오! 미안. 데이터 좀 곰곰이 생각하다가 네가 온 줄도 몰랐네.#$e#뭘 도와줄까?",
+        "pt": "Huum... Se eu conseguir aumentar os níveis de estrigolactona, ela teria um efeito proporcional no crescimento micorrízico?$u#$b#Ah! Desculpe. Estava analisando alguns dados e não percebi você aí.#$e#Precisa de alguma coisa?",
+        "ru": "Хм-м... Если бы можно было увеличить уровень стриголактонов, оказало бы это пропорциональный эффект на рост микоризного гриба?$u#$b#Ой! Прости. Я тут размышлял над данными и не заметил тебя.#$e#Тебе что-то нужно?",
+        "tr": "Hım... Strigolakton düzeyini artırırsak, kökmantar büyümesinde orantılı bir etki görülür mü?$u#$b#Ah! Özür dilerim. Veriler üzerine düşünüyordum. Orada olduğunu fark etmedim.#$e#Bir şey mi lazım?",
+        "zh": "嗯……如果独角金内酯的水平可以提高，会对菌根生长产生影响吗？$u#$b#噢！抱歉。我在思考一些数据，没注意到你。#$e#有什么事吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:summer_Thu",
+      "author_key": "summer_Thu",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wie läuft es so mit den bäuerlichen Geschäften? Es ist Tomatenzeit, nicht?#$e#Ich kann mir vorstellen, dass es es ziemlich friedlich ist, den ganzen Tag draußen mit Pflanzen zu verbringen.",
+        "es": "¿Qué tal va el negocio de la granja? Es temporada de tomates, ¿no?#$e#Debe de ser muy relajado trabajar fuera con las plantas todo el día.",
+        "fr": "Comment se porte ta ferme ? C’est la saison des tomates, n’est-ce pas ?#$e#J’imagine que c’est assez paisible de travailler au grand air, entouré de plantes toute la journée.",
+        "hu": "Hogy megy az üzlet? Most a paradicsomnak van szezonja, ugye?#$e#Elég nyugalmas lehet egész nap kint dolgozni a növények között.",
+        "it": "Come vanno le coltivazioni? È la stagione dei pomodori, giusto?#$e#Immagino che sia molto tranquillo, lavorare tutto il giorno all'aperto con le piante.",
+        "ja": "牧場運営の 調子はどうだい？今は トマトが 旬だったかな。#$e#毎日 外の 植物の 世話をする、 そんな穏やかな 暮らしを 送ってるんだろうね。",
+        "en": "How's the farming business going? It's tomato season, isn't it?#$e#I can imagine it being pretty peaceful, working outdoors with plants all day.",
+        "ko": "농장 일은 요즘 어때? 지금 토마토 시즌이지, 그치?#$e#야외에서 하루 종일 식물 보면서 일하는 건 참 평화로울 거 같아.",
+        "pt": "Como vão as coisas na fazenda? É época de tomate, né?#$e#Posso imaginar uma vida bem tranquila... com trabalho ao ar livre o dia todo, perto das plantas.",
+        "ru": "Как дела на ферме? Сейчас сезон помидоров, верно?#$e#Представляю, как должно быть спокойно работать весь день с растениями на свежем воздухе.",
+        "tr": "Çiftlik işi nasıl gidiyor? Domates mevsimindeyiz, değil mi?#$e#Bütün gün açık havada bitkilerle uğraşmanın ne kadar rahatlatıcı olduğunu düşleyebiliyorum.",
+        "zh": "你的农活干得怎么样了？到了种西红柿的季节了，对不对？#$e#整日在户外工作一定相当恬静淡泊吧。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:summer_Tue",
+      "author_key": "summer_Tue",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Vergiss nicht, deine Pflanzen jeden Tag zu gießen.#$e#Wobei, wenn du Hydrogel benutzt, musst du dir darüber nicht so häufig Gedanken machen.#$e#Es ist ziemlich praktisch.",
+        "es": "Asegúrate de regar las plantas todos los días.#$e#Aunque si usas hidrogel no necesitas preocuparte tanto por regar.#$e#Es muy práctico.",
+        "fr": "N’oublie pas d’arroser tes plantes tous les jours.#$e#Mais, si tu utilises un sol à rétention d’eau, tu n'auras pas besoin d'arroser aussi souvent.#$e#C’est très pratique.",
+        "hu": "Minden nap locsold meg a növényeidet!#$e#Bár ha hidrogélt használsz, nem kell olyan gyakran a locsolással foglalkoznod.#$e#Nagyon hasznos.",
+        "it": "Assicurati d'innaffiare le tue piante ogni giorno.#$e#Per quanto, se utilizzi un terriccio che trattiene l'acqua, puoi anche innaffiarle un po' più di rado.#$e#È parecchio comodo.",
+        "ja": "毎日、必ず作物に 水をやるんだよ。#$e#でも、保水土を使えば 水をやる 頻度を 少なくすることが できるはず。#$e#かなり 便利だと 思うよ。",
+        "en": "Make sure to water your plants every day.#$e#Although, if you're using water retaining soil you don't need to worry about watering as often.#$e#It's pretty convenient.",
+        "ko": "식물한테 꼭 매일 물을 줘야 해.#$e#물론, 보습 토양을 사용한다면 그렇게 자주 물을 안 줘도 되지만.#$e#꽤 편리해.",
+        "pt": "Regue suas plantas todos os dias.#$e#Mas, pensando bem, se você estiver usando um solo que retem água, não vai precisar se preocupar em regá-lo com frequência.#$e#É bem conveniente.",
+        "ru": "Не забывай поливать растения каждый день.#$e#Правда, если ты используешь влагосохраняющую почву, то можно поменьше беспокоиться о поливе.#$e#Очень удобно.",
+        "tr": "Bitkilerini her gün suladığından emin ol.#$e#Gerçi su tutucu toprak kullanıyorsan o kadar sık sulamana gerek yok.#$e#Oldukça pratik bir yöntem.",
+        "zh": "一定要每天给植物浇水。#$e#不过呢，要是你用的是保水肥料的话就不用太频繁地浇水了。#$e#很方便吧？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:winter_Fri",
+      "author_key": "winter_Fri",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hallo.#$e#%Demetrius scheint in Gedanken verloren zu sein.",
+        "es": "Hola.#$e#%Demetrius parece ensimismado.",
+        "fr": "Bonjour.#$e#%Demetrius semble perdu dans ses pensées.",
+        "hu": "Helló.#$e#%Demetrius elveszett a gondolataiban.",
+        "it": "Salve.#$e#%Demetrius sembra immerso nei suoi pensieri.",
+        "ja": "こんにちは。#$e#%ディメトリウスは 考え事を しているようだ。",
+        "en": "Hello.#$e#%Demetrius seems lost in thought.",
+        "ko": "안녕.#$e#%드미트리우스는 사색에 잠겨있는 듯하다.",
+        "pt": "Oi.#$e#%Demetrius parece perdido em seus pensamentos.",
+        "ru": "Здравствуй.#$e#%Похоже, Деметриус глубоко задумался.",
+        "tr": "Merhaba.#$e#%Demetrius düşüncelere dalmış gibi duruyor.",
+        "zh": "你好。#$e#%德米特里厄斯好像陷入了沉思。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:winter_Fri4",
+      "author_key": "winter_Fri4",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Danke für's Vorbeischauen. Ich muss mal über etwas anderes als Hülsenfrüchte nachdenken.#$e#Also, was hast du so in letzter Zeit gemacht?#$e#Das klingt interessant.",
+        "es": "Gracias por pasarte. Necesito pensar en algo que no sea leguminosas durante un rato.#$e#Dime, ¿qué has hecho últimamente?#$e#Suena interesante.",
+        "fr": "Merci d’être passé me voir. J’ai besoin de penser à autre chose qu’aux légumes pendant un moment.#$e#Alors, que fais-tu en ce moment ?#$e#Ça a l’air intéressant.",
+        "hu": "Köszönöm, hogy benéztél. Egy ideig kerülnöm kell a hüvelyes növények gondolatát.#$e#Szóval, mit csinálsz mostanság?#$e#Izgalmasan hangzik.",
+        "it": "Grazie per aver fatto un salto. Ho bisogno di pensare per un po' a qualcosa che non siano i legumi.#$e#Dunque, cos'hai fatto di recente?#$e#Interessante.",
+        "ja": "来てくれてありがとう。たまには、 マメ科以外に ついても 考えないとな。#$e#最近は 何をしているんだい？#$e#それは興味深いね。",
+        "en": "Thanks for stopping by. I need to think about something other than legumes for a while.#$e#So, what have you been doing lately?#$e#That sounds interesting.",
+        "ko": "방문해줘서 고마워. 콩과 식물 외에 다른 생각을 좀 해야겠어.#$e# 그래, 요즘은 뭐하고 지내?#$e#그거 흥미로운걸.",
+        "pt": "Obrigado por passar aqui. Preciso parar de pensar em legumes por um tempo.#$e#Então, o que você esteve fazendo ultimamente?#$e#Parece interessante.",
+        "ru": "Спасибо, что заглядываешь. Мне нужно отвлечься от бобовых на что-нибудь.#$e#Чем занимаешься в последнее время?#$e#Это интересно.",
+        "tr": "Uğradığın için teşekkürler. Bir süreliğine baklagillerden farklı bir şeyler düşünmem gerekiyor.#$e#Sen bu aralar neler yapıyorsun?#$e#İlginç görünüyor.",
+        "zh": "谢谢你来看我。我也不能光想着豆科植物了，得换换脑子。#$e#你最近在忙什么？#$e#听起来很有趣啊。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:winter_Mon",
+      "author_key": "winter_Mon",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich mache gerade eine Pause von meiner Forschung.",
+        "es": "Estoy descansando un poco de la investigación ahora mismo.",
+        "fr": "Je fais une petite pause avec mes recherches pour l'instant.",
+        "hu": "Egy kicsit szüneteltetem a kutatásomat.",
+        "it": "Mi sto prendendo una pausa dalla ricerca.",
+        "ja": "今、研究に 小休止を 挟んでいるところさ。",
+        "en": "I'm taking a break from my research right now.",
+        "ko": "지금은 연구 잠깐 쉬는 중이야.",
+        "pt": "Estou tirando uma folga da minha pesquisa agora.",
+        "ru": "Я сейчас отдыхаю от своих исследований.",
+        "tr": "Şu anda araştırmama ara vermiş bulunuyorum.",
+        "zh": "我现在要休息一会儿。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:winter_Sat",
+      "author_key": "winter_Sat",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Mal sehen... wenn saisonale Stickstoffwerte mit einer stückweisen Funktion modelliert werden könnten...$u#$b#Oh! Tut mir leid. Ich habe gerade ein paar Daten analysiert und dich gar nicht bemerkt.#$e#Brauchst du etwas?",
+        "es": "Vamos a ver... Si los niveles de nitrógeno de cada temporada se pudieran representar en una función por partes...$u#$b#¡Oh! Lo siento. Estaba analizando unos datos y no me he dado cuenta de que estabas aquí.#$e#¿Necesitas algo?",
+        "fr": "Voyons voir... si les niveaux des composants d’azote saisonniers pouvaient être modélisés par une fonction constante...$u#$b#Oh, pardon. Je réfléchissais à des données et je ne t’avais pas remarqué.#$e#As-tu besoin de quelque chose ?",
+        "hu": "Nos tehát... ha szakaszos függvényekkel fel lehetne írni a szezonális nitrogén szinteket...$u#$b#Ó! Ne haragudj. Adatokon tűnődtem és nem vettelek észre.#$e#Segíthetek valamiben?",
+        "it": "Vediamo... se i livelli stagionali di azoto potessero essere illustrati da una funzione a tratti...$u#$b#Oh! Perdonami. Stavo vagliando alcuni dati e non ho fatto caso a te.#$e#Hai bisogno di qualcosa?",
+        "ja": "ふむふむ… 季節ごとの 窒素レベルは 区分関数に したがって モデル化できそうな…$u#$b#おっと！ごめんね。データを 精査していたから、 君に 気づけなかったんだ。#$e#何か 必要かい？",
+        "en": "Let's see... if seasonal nitrogen levels could be modeled by a piecewise function...$u#$b#Oh! Sorry. I was analyzing data and I didn't notice you there.#$e#Do you need anything?",
+        "ko": "어디 보자... 계절별 질소량을 개별식 함수로 모델링 할 수 있다면...$u#$b#오! 미안. 데이터 좀 곰곰이 생각하다가 네가 온 줄도 몰랐네.#$e#뭘 도와줄까?",
+        "pt": "Vejamos... se os níveis de nitrogênio sazonais puderem ser modelados em uma função por partes...$u#$b#Ah! Desculpe. Estava analisando alguns dados e não percebi você aí.#$e#Precisa de alguma coisa?",
+        "ru": "Посмотрим... Если сезонный уровень азота можно выразить кусочной функцией, то...$u#$b#Ой! Прости. Я тут размышлял над данными и не заметил тебя.#$e#Тебе что-то нужно?",
+        "tr": "Bir bakalım... Mevsimsel nitrojen düzeyini parçalı fonksiyon ile biçimlendirebilirsem...$u#$b#Ah! Özür dilerim. Veriler üzerine düşünüyordum. Orada olduğunu fark etmedim.#$e#Bir şey mi lazım?",
+        "zh": "唔……如果季节性含氮量水平可以采用分段函数建模……$u#$b#噢！抱歉。我正在分析数据，没看到你。#$e#有什么事吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:winter_Sun",
+      "author_key": "winter_Sun",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Sammle ruhig so viel Holz und Stein aus diesem Gebiet wie du willst.",
+        "es": "Recoge tanta madera y piedra de esta zona como quieras.",
+        "fr": "N'hésite pas à ramasser tout le bois et la pierre dont tu as besoin dans cette zone.",
+        "hu": "Nyugodtan gyűjts be annyi fát meg követ erről a területről amennyit szeretnél.",
+        "it": "Raccogli pure tutte le pietre e il legname che vuoi, da questa zona.",
+        "ja": "この辺にある 木と石は、 いくらでも 持って行って いいよ。",
+        "en": "Feel free to harvest as much lumber and stone from this area as you please.",
+        "ko": "이 근방에서 목재랑 돌을 마음껏 가져가도 좋아.",
+        "pt": "Fique à vontade para pegar o quanto precisar de madeira e pedra desta área.",
+        "ru": "Можешь собирать здесь камень и древесину, сколько захочешь.",
+        "tr": "Bu bölgeden istediğin kadar odun ve taş almaktan çekinme.",
+        "zh": "我这里的石头和木材都随便拿。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:winter_Thu",
+      "author_key": "winter_Thu",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hast du irgendwelche Tiere auf deinem Hof?",
+        "es": "¿Tienes animales en tu granja?",
+        "fr": "Est-ce que tu as des animaux dans ta ferme ?",
+        "hu": "Vannak állataid a farmodon?",
+        "it": "Hai degli animali nella tua fattoria?",
+        "ja": "君の牧場に 動物は いるかい？",
+        "en": "Do you have any animals on your farm?",
+        "ko": "농장에 동물도 있어?",
+        "pt": "Você tem algum animal em sua fazenda?",
+        "ru": "У тебя на ферме есть какие-нибудь животные?",
+        "tr": "Çiftliğinde hiç hayvan var mı?",
+        "zh": "你的农场养动物了吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:winter_Tue",
+      "author_key": "winter_Tue",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Rede mit meiner Frau, wenn du dein Haus vergrößern willst.",
+        "es": "Habla con mi mujer si quieres aumentar el tamaño de tu casa.",
+        "fr": "Parle avec ma femme si tu veux agrandir ta maison.",
+        "hu": "Beszélj a feleségemmel, ha bővíteni szeretnéd a házad.",
+        "it": "Se vuoi ingrandire la tua casa, parla con mia moglie.",
+        "ja": "君の家を 増築したいなら、 妻に 話しかけてくれ。",
+        "en": "Talk to my wife if you want to increase the size of your house.",
+        "ko": "집 확장공사를 하고 싶다면 아내랑 얘기해봐.",
+        "pt": "Fale com minha esposa se quiser aumentar sua casa.",
+        "ru": "Если хочешь расширить дом, поговори об этом с моей женой.",
+        "tr": "Evini genişletmek istiyorsan karımla konuş.",
+        "zh": "要是你想扩建房子的话可以和我妻子聊聊。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Demetrius:winter_Wed",
+      "author_key": "winter_Wed",
+      "character": "Demetrius",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hast du in deinem Haus schon eine Küche?#$e#Kochen ist ein wenig wie Laborarbeit.",
+        "es": "¿Tienes ya una cocina en la casa?#$e#Cocinar es un poco como trabajar en el laboratorio.",
+        "fr": "Est-ce que tu as une cuisine dans ta maison ?#$e#La cuisine et le travail de labo se ressemblent beaucoup.",
+        "hu": "Van már konyha a házadban?#$e#A főzés kicsit olyan mint a labormunka.",
+        "it": "Ce l'hai già una cucina in casa tua?#$e#Cucinare è un po' come lavorare in laboratorio.",
+        "ja": "君の家にはもう キッチンは あるかい？#$e#料理は 実験作業に 似たところが あるんだ。",
+        "en": "Do you have a kitchen in your house yet?#$e#Cooking is kind of like doing lab work.",
+        "ko": "집에 주방 설치했어?#$e#요리도 약간 실험실 일이랑 비슷하지.",
+        "pt": "Você já tem uma cozinha na sua casa?#$e#Cozinhar é como trabalhar no laboratório.",
+        "ru": "У тебя в доме уже есть кухня?#$e#Готовка в чем-то схожа с работой в лаборатории.",
+        "tr": "Evinde mutfağın yok mu?#$e#Yemek yapmak laboratuvarda çalışmaya benzer.",
+        "zh": "你家有厨房吗？#$e#料理其实跟做实验挺像的哦。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Demetrius.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Demetrius.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Demetrius.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Demetrius.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Demetrius.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Demetrius.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Demetrius.json",
+          "ko": "data\\game_scripts\\Dialogue\\Demetrius.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Demetrius.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Demetrius.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Demetrius.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Demetrius.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    }
+  ]
+}

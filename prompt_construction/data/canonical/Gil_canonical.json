@@ -1,0 +1,148 @@
+{
+  "dataset_meta": {
+    "schema": "canonical_dialogue_v2",
+    "source_root": "data/game_scripts/Dialogue",
+    "collection": "Dialogue",
+    "character": "Gil",
+    "record_count": 2,
+    "dialogue_type_counts": {
+      "general_dialogue": 2
+    }
+  },
+  "records": [
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gil:ComeBackLater",
+      "author_key": "ComeBackLater",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "... Komm wieder, wenn du mir was zu zeigen hast, Kind.",
+        "es": "...Vuelve cuando tengas algo que enseñarme, anda.",
+        "fr": "... Reviens me voir quand tu auras quelque chose à me montrer.",
+        "hu": "...Jöjj vissza, ha van számomra valamid, kölyök.",
+        "it": "...Torna quando hai qualcosa da mostrarmi, giovane.",
+        "ja": "…何か 見せたいものが ある時に 戻ってきなされ。",
+        "en": "...Come back when you've got something to show me, kid.",
+        "ko": "...보여줄 만한 게 있을 때 돌아와라, 꼬마야.",
+        "pt": "... Volte quando tiver algo para me mostrar, criança",
+        "ru": "... Возвращайся, когда у тебя будет, что мне показать, молодежь.",
+        "tr": "...Bana gösterecek bir şeyin olduğunda gel evlat.",
+        "zh": "……孩子，等你有了能让我刮目相看的东西，再来找我吧。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gil.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gil.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gil.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gil.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gil.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gil.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gil.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gil.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gil.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gil.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gil.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gil.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'ComeBackLater' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gil:Snoring",
+      "author_key": "Snoring",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "...*schnarch*...",
+        "es": "*Ngh...*",
+        "fr": "...*Ronflement*...",
+        "hu": "...*horkol*...",
+        "it": "...*russa*...",
+        "ja": "…グーッ…",
+        "en": "...*snore*...",
+        "ko": "...*쿨쿨*...",
+        "pt": "*Ronc...*",
+        "ru": "...*Храпит*...",
+        "tr": "...*horuldar*...",
+        "zh": "……*打鼾*……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gil.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gil.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gil.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gil.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gil.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gil.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gil.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gil.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gil.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gil.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gil.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gil.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Snoring' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1322 @@
+{
+  "dataset_meta": {
+    "schema": "canonical_dialogue_v2",
+    "source_root": "data/game_scripts/Dialogue",
+    "collection": "Dialogue",
+    "character": "LeoMainland",
+    "record_count": 20,
+    "dialogue_type_counts": {
+      "general_dialogue": 20
+    }
+  },
+  "records": [
+    {
+      "canonical_id": "Dialogue/general_dialogue/LeoMainland:18",
+      "author_key": "18",
+      "character": "LeoMainland",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Als ich ankam, machte mir Linus einen Anzug aus Blättern, wie seine...#$b#Aber ich sah komisch aus... wie eine wuschelige Mango!$h#$e#Ich glaube, ich bleibe bei meinen Federn.",
+        "es": "Cuando llegué, Linus me hizo un traje de hojas, como el suyo...#$b#Pero tenía un aspecto divertido... ¡Como un mango peludo!$h#$e#Creo que me quedaré con mis plumas.",
+        "fr": "Quand je suis arrivé, Linus m’a fait une tenue à partir de feuilles, comme la sienne...#$b#Mais je ressemblais à une mangue touffue avec !$h#$e#Je crois que je vais juste garder mes plumes sur moi.",
+        "hu": "Mikor először idejöttem, Linus levelekből készült ruhát adott rám, olyat, mint amilyen neki is van...#$b#De viccesen néztem ki... mint egy lágy mangó!$h#$e#Azt hiszem maradok a tollaimnál.",
+        "it": "Appena sono arrivato, Linus mi ha fatto un vestito di foglie come il suo...#$b#Ma ero troppo buffo... sembravo un mango peloso!$h#$e#Penso che resterò con le mie penne.",
+        "ja": "初めてここに着いたとき、ライナスが葉っぱで服を作ってくれたんだ、彼みたいな…#$b#でもおかしな感じだったよ…ケバケバしたマンゴーみたいで！$h#$e#ボクはいつもの羽根でいいと思ったね。",
+        "en": "When I first arrived, Linus made me a suit out of leaves, like his...#$b#But I looked funny... like a fuzzy mango!$h#$e#I think I'll stick to my feathers.",
+        "ko": "내가 처음 도착했을 때 라이너스 아저씨가 나뭇잎으로 옷을 만들어줬어, 아저씨 옷처럼...#$b#근데 나랑 너무 안 어울렸어... 털 난 망고 같았어!$h#$e#난 그냥 내 깃털 옷 입을 거야.",
+        "pt": "Quando eu cheguei, Linus fez uma roupa de folhas pra mim, igual a dele...#$b#Mas parecia estranha... tipo uma manga peluda!$h#$e#Eu acho que vou ficar com as minhas penas.",
+        "ru": "Когда я прибыл, Линус сделал мне костюм из листьев, прямо как у него...#$b#Но я был в нем смешон... словно пушистое манго!$h#$e#Думаю, похожу пока в перьях.",
+        "tr": "İlk geldiğimde, Linus amca bana yapraklardan kendisininkine benzeyen bir elbise yaptı...#$b#Tabii komik görünüyordum... Tüylü bir mango gibiydim!$h#$e#Sanırım tüylerimi tercih edeceğim.",
+        "zh": "我刚来的时候，莱纳斯给我做了一套叶子衣服，就和他的衣服一样……#$b#但我穿着看上去很滑稽……像一只毛茸茸的芒果！$h#$e#我想，我还是继续用羽毛就好。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\LeoMainland.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\LeoMainland.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\LeoMainland.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\LeoMainland.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\LeoMainland.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\LeoMainland.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\LeoMainland.json",
+          "ko": "data\\game_scripts\\Dialogue\\LeoMainland.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\LeoMainland.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\LeoMainland.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\LeoMainland.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\LeoMainland.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/LeoMainland:4",
+      "author_key": "4",
+      "character": "LeoMainland",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich sah eine große Mango am Himmel schweben. Linus sagte mir, es sei ein Heißluftballon!$u#$b#Ich dachte, nur Vögel können fliegen...",
+        "es": "Vi un mango enorme volar por el cielo. ¡Linus me dijo que era un globo aerostático!$u#$b#Pensé que solo los pájaros sabían volar...",
+        "fr": "J’ai vu une grosse mangue voler dans le ciel. Linus m’a dit que c’était une montgolfière !$u#$b#Je croyais que seuls les oiseaux pouvaient voler...",
+        "hu": "Láttam egy nagy mangót az égen lebegni. Linus azt mondta, hogy az egy hőlégballon!$u#$b#Azt hittem csak a madarak képesek repülni...",
+        "it": "Ho visto un grosso mango che fluttuava nel cielo. Linus mi ha detto che era una mongolfiera!$u#$b#Pensavo che solo gli uccelli volassero...",
+        "ja": "空に大きなマンゴーが浮かんでるのを見たんだ。ライナスが、それは熱気球だって教えてくれたんだよ！$u#$b#ボクは、空を飛べるのは鳥だけだと思ってたよ…",
+        "en": "I saw a big mango floating in the sky. Linus told me it was a hot-air balloon!$u#$b#I thought only birds could fly...",
+        "ko": "하늘을 나는 큰 망고를 봤어. 라이너스 아저씨 말로는 열기구래!$u#$b#난 새들만 하늘을 날 수 있다 생각했는데...",
+        "pt": "Eu vi uma manga gigante voando no céu. Linus me contou que era um balão de ar quente!$u#$b#Eu pensava que só pássaros pudessem voar...",
+        "ru": "Сегодня я видел парящее манго. Линус сказал мне, что это воздушный шар!$u#$b#А я думал, только птицы умеют летать...",
+        "tr": "Havada duran büyük bir mango gördüm. Linus amca onun bir sıcak hava balonu olduğunu söyledi!$u#$b#Oysa ben sadece kuşların uçabildiğini sanıyordum...",
+        "zh": "我看到一个大芒果飘在空中。莱纳斯告诉我说，那是个热气球！$u#$b#我还以为只有鸟儿能飞呢……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\LeoMainland.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\LeoMainland.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\LeoMainland.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\LeoMainland.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\LeoMainland.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\LeoMainland.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\LeoMainland.json",
+          "ko": "data\\game_scripts\\Dialogue\\LeoMainland.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\LeoMainland.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\LeoMainland.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\LeoMainland.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\LeoMainland.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/LeoMainland:AcceptGift_(O)StardropTea",
+      "author_key": "AcceptGift_(O)StardropTea",
+      "character": "LeoMainland",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wow, schmeckt genau wie goldene Walnüsse! Das ist großartig!",
+        "es": "Guau, ¡sabe igualito que las nueces doradas! ¡Es genial!",
+        "fr": "Wouah, ça a le même goût que les noix dorées ! C’est incroyable !",
+        "hu": "Váó, pont olyan az íze, mint az arany dióknak! Ez nagyszerű!",
+        "it": "Wow, sa proprio di noci dorate! Fantastico!",
+        "ja": "わあ！ 金のクルミみたいな味だね！すっごくおいしいよ！",
+        "en": "Wow, tastes just like golden walnuts! This is great!",
+        "ko": "우와, 황금 호두랑 맛이 똑같다! 최고다!",
+        "pt": "Uau, tem o mesmo gosto de uma noz dourada! Isso é incrível!",
+        "ru": "Ух ты, на вкус как золотые орехи! Вкуснятина!",
+        "tr": "Vay, tadı aynı altın ceviz gibi! Mükemmel!",
+        "zh": "哇，是金色核桃的味道！真好喝！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\LeoMainland.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\LeoMainland.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\LeoMainland.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\LeoMainland.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\LeoMainland.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\LeoMainland.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\LeoMainland.json",
+          "ko": "data\\game_scripts\\Dialogue\\LeoMainland.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\LeoMainland.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\LeoMainland.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\LeoMainland.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\LeoMainland.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)StardropTea' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/LeoMainland:Fri",
+      "author_key": "Fri",
+      "character": "LeoMainland",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Linus hat mich über all die wilde Nahrung im Tal unterrichtet. Es gibt eine Menge gutes Zeug hier draußen! $h#$e#Obwohl... Ich vermisse es irgendwie, jeden Morgen goldene Walnüsse zum Frühstück zu haben...$s",
+        "es": "Linus me ha estado enseñando todo sobre la comida salvaje del valle. ¡Hay muchas cosas buena ahí fuera!$h#$e#Pero... Echo de menos tener nueces doradas para desayunar cada mañana...$s",
+        "fr": "Linus m’a tout enseigné sur les aliments sauvages de la vallée. Il y a l’air d’avoir plein de bonnes choses dans la nature!$h#$e#Cependant... Ça me manque un peu de pouvoir manger des noix dorées au petit-déjeuner...$s",
+        "hu": "Linus tanítgatott engem a völgyben található összes vad ételről. Nagyon sok jó dolog van idekint!$h#$e#Habár... nagyon hiányzik az arany dió, amit minden nap reggelire ettem...$s",
+        "it": "Linus mi sta facendo conoscere tutti i cibi selvatici della valle. C'è un sacco di roba buona là fuori!$h#$e#Anche se... un po' mi manca fare colazione con le noci dorate...$s",
+        "ja": "ライナスが、谷にある野生の食べ物をぜんぶ教えてくれたんだ。ここにはいいものがたくさんあるんだね！$h#$e#でも…朝ごはんに金のクルミが食べられないのは寂しいな…$s",
+        "en": "Linus has been teaching me about all the wild food in the valley. There's a lot of good stuff out here!$h#$e#Though... I do kind of miss having golden walnuts for breakfast every morning...$s",
+        "ko": "라이너스 아저씨가 계곡에서 나는 야생 음식에 대해 알려주고 있었어. 맛있는 거 정말 많아!$h#$e#그래도... 매일 아침 황금 호두 먹던 건 좀 그리워...$s",
+        "pt": "Linus tem me ensinado tudo sobre as comidas selvagens do vale. Tem muita coisa boa aqui!$h#$e#Se bem que... eu sinto um pouco a falta de comer nozes douradas pela manhã todo dia...$s",
+        "ru": "Линус начал рассказывать мне о пище из диких растений и животных долины. У вас тут столько всего вкусного!$h#$e#Но все же... я скучаю по золотым грецким орехам на завтрак...$s",
+        "tr": "Linus amca bana vadideki yabani yemişlerden bahsediyordu. Burada bir sürü güzel şey varmış!$h#$e#Yine de... sabahleyin kahvaltıda altın ceviz yemeyi özlüyorum...$s",
+        "zh": "莱纳斯一直在教我山谷里野生食物的各种知识。野外真是有不少好东西！$h#$e#不过……我确实有点怀念每天吃金色核桃当早餐的日子……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\LeoMainland.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\LeoMainland.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\LeoMainland.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\LeoMainland.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\LeoMainland.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\LeoMainland.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\LeoMainland.json",
+          "ko": "data\\game_scripts\\Dialogue\\LeoMainland.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\LeoMainland.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\LeoMainland.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\LeoMainland.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\LeoMainland.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/LeoMainland:Fri8",
+      "author_key": "Fri8",
+      "character": "LeoMainland",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Onkel Linus sagt, ich soll meinen Fisch 'kochen', bevor ich ihn esse... $s#$b#Ich kann mich nur schwer daran gewöhnen... so trocken...$s",
+        "es": "El tío Linus dice que debo «cocinar» mi pescado antes de comerlo...$s#$b#Estoy teniendo muchos problemas intentando acostumbrarme... es tan seco...$s",
+        "fr": "Oncle Linus dit que je devrais faire \"cuire\" mon poisson avant de le manger...$s#$b#J’ai du mal à m’habituer au goût... ça l’assèche tellement...$s",
+        "hu": "Linus bácsi szerint meg kellene 'sütnöm' a halakat, mielőtt megenném őket...$s#$b#Nagyon nehezen tudok hozzászokni ehhez... olyan szárazak...$s",
+        "it": "Zio Linus dice che dovrei 'cuocere' il pesce prima di mangiarlo...$s#$b#Faccio fatica ad abituarmici... è così secco...$s",
+        "ja": "ライナスは魚を食べる時には「料理」をした方がいいって言うんだ。$s#$b#ぜんぜん慣れないよ…とっても乾いてるから…$s",
+        "en": "Uncle Linus says I should 'cook' my fish before eating it...$s#$b#I'm having a hard time getting used to it... so dry...$s",
+        "ko": "라이너스 삼촌이 내가 생선을 먹기 전에 '요리'해야 한댔어...$s#$b#아직은 익숙해지기 힘들어... 너무 건조해...$s",
+        "pt": "O tio Linus falou que eu tenho que 'assar' o peixe antes de comer...$s#$b#Está sendo difícil me acostumar... tão seco...$s",
+        "ru": "Дядя Линус говорит, что перед тем, как съесть рыбу, ее лучше «приготовить»...$s#$b#К этому очень сложно привыкнуть... так сухо...$s",
+        "tr": "Linus amca yemeden önce balığımı 'pişirmem' gerektiğini söylüyor...$s#$b#Pişmiş yemeğe alışmakta zorlanıyorum... Fazla kuru...$s",
+        "zh": "莱纳斯叔叔说我应该把鱼先“烹饪”了再吃……$s#$b#这太难适应了……干巴巴的……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\LeoMainland.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\LeoMainland.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\LeoMainland.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\LeoMainland.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\LeoMainland.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\LeoMainland.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\LeoMainland.json",
+          "ko": "data\\game_scripts\\Dialogue\\LeoMainland.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\LeoMainland.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\LeoMainland.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\LeoMainland.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\LeoMainland.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/LeoMainland:GreenRain",
+      "author_key": "GreenRain",
+      "character": "LeoMainland",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich mag dieses Wetter... es ist so feucht. Es erinnert mich an den Wald zu Hause..",
+        "es": "Me gusta este clima... es muy húmedo. Me recuerda al bosque de mi hogar.",
+        "fr": "J’aime ce climat... c’est si humide. Ça me rappelle la forêt de mon pays.",
+        "hu": "Tetszik ez az időjárás... annyira párás. Az otthonomnál lévő erdőre emlékeztet.",
+        "it": "Mi piace questo tempo... È così umido! Mi ricorda la foresta di casa mia.",
+        "ja": "ボクはこの天気は好きだな… 湿気があって。ふるさとの森を思い出すんだ。",
+        "en": "I like this weather... it's so humid. It reminds me of the forest back home.",
+        "ko": "이 날씨 좋아... 축축해. 집에 있던 숲이 생각나.",
+        "pt": "Eu gosto deste clima... é tão úmido. Me lembra das florestas lá de casa.",
+        "ru": "Мне нравится такая погода. Она... влажная. Напоминает мне о лесах дома.",
+        "tr": "Bu havayı sevdim... Eski yuvamdaki ormanı hatırlatıyor.",
+        "zh": "我很喜欢这个天气……很潮湿，仿佛回到了我家乡的森林。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\LeoMainland.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\LeoMainland.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\LeoMainland.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\LeoMainland.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\LeoMainland.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\LeoMainland.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\LeoMainland.json",
+          "ko": "data\\game_scripts\\Dialogue\\LeoMainland.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\LeoMainland.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\LeoMainland.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\LeoMainland.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\LeoMainland.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "weather_green_rain",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/LeoMainland:LeoDeparture",
+      "author_key": "LeoDeparture",
+      "character": "LeoMainland",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich muss eine Wohnung finden... $s#$b#Aber ich habe einen Plan... Ich werde mich auf meine Freunde verlassen.",
+        "es": "Debo encontrar un lugar para vivir...$s#$b#Pero tengo un plan... Confiaré en mis amigos.",
+        "fr": "J’ai besoin de trouver un endroit où vivre...$s#$b#Mais ne t’inquiète pas, j’ai un plan... Je vais compter sur mes amis.",
+        "hu": "Kell keresnem egy helyet, ahol lakhatok...$s#$b#De van egy tervem... A barátaimra fogok hagyatkozni.",
+        "it": "Devo trovare un posto dove vivere...$s#$b#Ma ho un piano... Mi affiderò ai miei amici.",
+        "ja": "住む場所を探さなくちゃ…$s#$b#でも考えてることがあるんだ…ボクの友達を頼ろうと思ってるんだ。",
+        "en": "I need to find some place to live...$s#$b#But I have a plan... I'm going to rely on my friends.",
+        "ko": "살 곳을 찾아야 해...$s#$b#그래도 계획이 있어... 친구들한테 신세 좀 져야지.",
+        "pt": "Eu preciso achar um lugar para morar...$s#$b#Mas eu tenho um plano... eu vou contar com os meus amigos.",
+        "ru": "Мне нужно найти себе место для жилья...$s#$b#Но у меня есть план... Я положусь на своих друзей.",
+        "tr": "Yaşayacak bir yer bulmalıyım...$s#$b#Bir planım var... Arkadaşlarıma bel bağlayacağım.",
+        "zh": "我需要找到能够居住的地方……$s#$b#但我有个计划……我打算依靠我的朋友们。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\LeoMainland.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\LeoMainland.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\LeoMainland.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\LeoMainland.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\LeoMainland.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\LeoMainland.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\LeoMainland.json",
+          "ko": "data\\game_scripts\\Dialogue\\LeoMainland.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\LeoMainland.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\LeoMainland.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\LeoMainland.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\LeoMainland.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'LeoDeparture' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/LeoMainland:Mon",
+      "author_key": "Mon",
+      "character": "LeoMainland",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey, @. Schön, dich wieder auf der Insel zu sehen, genau wie in alten Zeiten. Das macht Spaß!#$e#Weißt du, ich hatte Angst, als du ankamst... Ich wusste, mein Leben würde sich ändern.$u",
+        "es": "Hey, @. Me alegro de verte de vuelta en la isla, como en los viejos tiempos. ¡Esto es divertido!#$e#Ya sabes, tuve miedo cuando llegaste por primera vez... Sabía que mi vida estaba a punto de cambiar.$u",
+        "fr": "Bonjour, @. Je suis ravi de te revoir sur l’île, comme au bon vieux temps. C’est tellement amusant !#$e#Tu sais, j’avais un peu peur de toi la première fois que tu es venu sur l’île... Je savais que ma vie allait changer.$u",
+        "hu": "Hé, @. Jó téged ismét a szigeten látni, mint a régi időkben. Ez mókás!#$e#Tudod, kissé féltem, mikor először megjöttél... Tudtam, hogy az életem meg fog változni.$u",
+        "it": "Ehi, @. Che bello vederti di nuovo sull'isola, come ai vecchi tempi. È divertente!#$e#Sai, la prima volta che ti ho visto ho avuto paura... Sapevo che la mia vita stava per cambiare.$u",
+        "ja": "やあ、@。昔みたいに、また島で会えてうれしいよ。面白いよね！#$e#初めてみんなが来た時は、とても怖かったんだよ…ボクの生活が変わるかもしれないって思ったんだ。$u",
+        "en": "Hey, @. Nice to see you back on the island, just like old times. This is fun!#$e#You know, I was scared when you first arrived... I knew my life was about to change.$u",
+        "ko": "안녕, @. 섬에서 보니까 좋다, 옛날 생각나. 재밌어!#$e#나 사실 널 처음 봤을 때 좀 무서웠어... 내 인생이 변할 거란 걸 알았거든.$u",
+        "pt": "Ei, @. Que bom te ver de volta à ilha, igual nos velhos tempos. Isso é divertido!#$e#Sabe, eu estava com medo quando você chegou pela primeira vez... Eu sabia que minha vida ia mudar.$u",
+        "ru": "Привет, @. Рад, что ты снова на острове, как в старые добрые. Так здорово!#$e#Знаешь, сначала я боялся тебя, твоего прибытия... Я чувствовал, что из-за этого моя жизнь скоро изменится.$u",
+        "tr": "Merhaba @. Eskiden olduğu gibi seni adada görmek çok güzel!#$e#İlk geldiğinde senden korkmuştum... Hayatımın değişmek üzere olduğunu biliyordum.$u",
+        "zh": "你好，@。能再在岛上见到你，就跟从前一样，真是太好了。我很开心！#$e#嗯，当初你第一次来的时候，我被吓到了……当时我就感觉我的生活会发生变化。$u"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\LeoMainland.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\LeoMainland.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\LeoMainland.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\LeoMainland.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\LeoMainland.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\LeoMainland.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\LeoMainland.json",
+          "ko": "data\\game_scripts\\Dialogue\\LeoMainland.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\LeoMainland.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\LeoMainland.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\LeoMainland.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\LeoMainland.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/LeoMainland:Sat",
+      "author_key": "Sat",
+      "character": "LeoMainland",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Vielleicht werde ich eines Tages Zuzu-Stadt besuchen... $u#$b#Aber ich bin noch nicht einmal annähernd so weit. Diese Welt ist mir schon so fremd, und ich fühle mich hier im Moment sehr wohl!$h",
+        "es": "Puede que algún día, visite Ciudad Zuzu...$u#$b#Pero aun no estoy ni cerca de haberme preparado, aún. Este mundo es tan raro para mí, ¡Y me siento bien aquí ahora mismo!$h",
+        "fr": "Peut-être qu’un jour je pourrais visiter Zuzu Ville.$u#$b#Mais je suis encore loin d’être prêt. Ce monde est déjà si étrange pour moi. Je me sens très à l’aise ici pour le moment !$h",
+        "hu": "Talán egy napon meglátogatom Zuzu várost...$u#$b#De még közel se vagyok felkészülve rá. Ez a világ így is elég fura számomra, és itt most nagyon jól érzem magam!$h",
+        "it": "Forse un giorno visiterò Zuzu City...$u#$b#Ma ancora non sono minimamente pronto. Questo mondo mi sembra già così strano, e per il momento qui sto davvero bene!$h",
+        "ja": "いつか、ズズシティにも行ってみようかな…$u#$b#でも今はまだ心の準備ができていないんだ。この世界はボクにとって不思議なものだけど、ここは本当に安心できるところだよ！$h",
+        "en": "Maybe some day, I'll visit Zuzu City...$u#$b#But I'm not even close to being ready, yet. This world is already so strange to me, and I'm very comfortable here right now!$h",
+        "ko": "언젠가 주주 시티에 가볼 수 있을까...$u#$b#하지만 난 아직 준비가 안됐어. 이 세상은 내게 너무나 이상한 곳이야, 난 여기 있는 게 편한걸!$h",
+        "pt": "Talvez algum dia, eu vou visitar a Cidade Zuzu...$u#$b#Mas eu ainda não estou nem perto de estar pronto. Este mundo já é tão estranho pra mim, e eu estou muito confortável aqui agora!$h",
+        "ru": "Может быть, однажды я и поеду в город Зузу...$u#$b#Но пока что я совсем к этому не готов. Этот мир еще такой новый для меня, да мне и тут пока довольно уютно!$h",
+        "tr": "Belki bir gün Zuzu Şehri'ne giderim...$u#$b#Ancak şu anda buna hazır olmaktan çok uzağım. İçinde bulunduğum dünya zaten yeterince garip. Ha bir de burada keyfim yerinde!$h",
+        "zh": "也许有一天，我会去参观一下祖祖城……$u#$b#但现在我完全没有准备好。对我来说，这里已经够陌生的了，不过目前我待在这里感觉很自在！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\LeoMainland.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\LeoMainland.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\LeoMainland.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\LeoMainland.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\LeoMainland.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\LeoMainland.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\LeoMainland.json",
+          "ko": "data\\game_scripts\\Dialogue\\LeoMainland.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\LeoMainland.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\LeoMainland.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\LeoMainland.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\LeoMainland.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/LeoMainland:Sat10",
+      "author_key": "Sat10",
+      "character": "LeoMainland",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "@? Ähm... es ist mir etwas peinlich zu fragen... $u#$b#Aber... glaubst du, dass Jas jemals einen Typen wie mich mögen würde?$u#$b#Oder bin ich zu komisch?$s#$e#Hahaha... wen interessiert's. Ich werde es eines Tages herausfinden.$h",
+        "es": "¿@? Um... Me da algo de vergüenza preguntar...$u#$b#Pero... ¿crees que a Jas le puede llegar a gustar un chico como yo?$u#$b#¿O soy demasiado raro?$s#$e#Jajaja... a quien le importa. Lo decubriré algún día.$h",
+        "fr": "@ ? Euh... Je suis un peu gêné de te demander ça...$u#$b#Mais... Tu crois qu’un jour Jas aimerait être ma petite amie ?$u#$b#Ou je suis trop bizarre ?$s#$e#Hahaha... peu importe. On verra bien un jour.$h",
+        "hu": "@? Öhm... Kissé zavar, hogy megkérdezzem...$u#$b#De... szerinted Jasnak tetszene egy olyasvalaki, mint én?$u#$b#Vagy túlságosan fura volnék?$s#$e#Hahaha... Kit érdekel. Majd egy napon rájövök.$h",
+        "it": "@? Ehm... Mi vergogno un po' a chiedertelo...$u#$b#Ma... pensi che a Jas potrebbe mai piacere uno come me?$u#$b#O sono troppo strambo?$s#$e#Hahaha... chi se ne importa. Prima o poi lo capirò.$h",
+        "ja": "@？うーん…聞くのがちょっと恥ずかしいんだけど…$u#$b#ジャスはボクたいなやつを好きになると思う？$u#$b#やっぱりボクは変わり者かな？$s#$e#ははは…まあいいや。いつか、わかるといいな。$h",
+        "en": "@? Um... I'm a little embarrassed to ask...$u#$b#But... do you think Jas would ever like a guy like me?$u#$b#Or am I too weird?$s#$e#Hahaha... who cares. I'll figure it out some day.$h",
+        "ko": "@? 음... 물어보기 좀 부끄러운데...$u#$b#혹시... 재스가 나 같은 사람을 좋아할 수 있을까?$u#$b#아니면 나 너무 이상해?$s#$e#하하하... 뭐 어때. 언젠간 알게 되겠지.$h",
+        "pt": "@? Hm... Estou meio com vergonha de perguntar...$u#$b#Mas... você acha que a Jas gostaria de um garoto como eu?$u#$b#Ou eu sou muito estranho?$s#$e#Hahaha... quem liga. Eu vou descobrir algum dia.$h",
+        "ru": "@? Эм... Мне немного стыдно об этом спрашивать...$u#$b#Но... как думаешь, Джас может понравиться кто-то вроде меня?$u#$b#Или я слишком странненький?$s#$e#Ха-ха-ха... ну да ладно. Сам как-нибудь разберусь.$h",
+        "tr": "@... Şey... Sormaya utanıyorum ama...$u#$b#Sence Jas benim gibi birini sever mi?$u#$b#Yoksa çok mu değişiğim?$s#$e#Hahaha... kimin umurunda. Elbet bir gün öğreneceğim.$h",
+        "zh": "@？呃……我有点不好意思问……$u#$b#你觉得……贾斯会跟我这样的人做朋友吗？$u#$b#我是不是太古怪了？$s#$e#哈哈哈……谁在乎呢。总有一天我会弄明白的。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\LeoMainland.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\LeoMainland.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\LeoMainland.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\LeoMainland.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\LeoMainland.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\LeoMainland.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\LeoMainland.json",
+          "ko": "data\\game_scripts\\Dialogue\\LeoMainland.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\LeoMainland.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\LeoMainland.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\LeoMainland.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\LeoMainland.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/LeoMainland:Sun",
+      "author_key": "Sun",
+      "character": "LeoMainland",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Weißt du, das Sternentautal mag mein neues Zuhause sein... die Insel wird jedoch auch immer mein Zuhause sein.#$e#Es ist schön, zurückkommen und dich besuchen zu können.",
+        "es": "Ya sabes, Stardew Valley puede ser mi nuevo hogar... pero la isla siempre será mi hogar, también.#$e#Es genial poder volver a visitarla.",
+        "fr": "Tu sais, Stardew Valley est bien ma nouvelle maison... mais je me sentirais toujours comme chez moi sur l’île aussi...#$e#C’est agréable de pouvoir venir faire une petite visite.",
+        "hu": "Tudod, lehet, hogy Stardew Valley az új otthonom... de a sziget is mindig az otthonom marad.#$e#Jó, hogy vissza tudok jönni és meglátogatni.",
+        "it": "Sai, Stardew Valley sarà anche la mia nuova casa... ma anche l'isola sarà sempre casa mia.#$e#È bello poter tornare a visitarla.",
+        "ja": "スターデューバレーがボクの新しい家なのかもしれないけど…島はいつまでもボクの家なんだよ。#$e#また帰って来れて本当に嬉しいよ。",
+        "en": "You know, Stardew Valley might be my new home... but the island will always be my home, too.#$e#It's nice to be able to come back and visit.",
+        "ko": "있지, 스타듀 밸리가 내 새 집이지만... 섬도 언제까지나 내 집일 거야.#$e#다시 방문할 수 있어서 좋아.",
+        "pt": "Sabe, o Vale do Orvalho pode ser o meu novo lar... mas a ilha vai ser sempre a minha casa também.#$e#É legal poder voltar e visitá-la.",
+        "ru": "Знаешь, Долина Стардью может стать моим новым домом... но остров навсегда останется в моем сердце.#$e#Хорошо иногда снова вернуться в эти края.",
+        "tr": "Biliyor musun, Yıldızçiyi Vadisi yeni evim olabilir... Öte yandan ada da benim evim olarak kalmaya devam edecek.#$e#Arada gelip gitmek çok güzel.",
+        "zh": "也许我会把星露谷当作我的新家……但是，这座岛也始终会是我的家。#$e#能够回来看看，真是不错。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\LeoMainland.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\LeoMainland.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\LeoMainland.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\LeoMainland.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\LeoMainland.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\LeoMainland.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\LeoMainland.json",
+          "ko": "data\\game_scripts\\Dialogue\\LeoMainland.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\LeoMainland.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\LeoMainland.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\LeoMainland.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\LeoMainland.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/LeoMainland:Sun10",
+      "author_key": "Sun10",
+      "character": "LeoMainland",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Die Papageien wollen, dass ich mich bei dir für all die goldenen Walnüsse bedanke, die du gefunden hast. Sie genießen sie wirklich.$h",
+        "es": "Los loros quieren que te agradezca que hayas encontrado tantas nueces de oro. Las están disfrutando mucho.$h",
+        "fr": "Les perroquets veulent que je te remercie pour toutes les noix dorées que tu as trouvées. Ils les aiment tellement.$h",
+        "hu": "A papagájok azt akarják, hogy háláljam meg neked azt a sok arany diót, amit találtál. Nagyon jól esik nekik.$h",
+        "it": "I pappagalli mi chiedono di ringraziarti per tutte le noci dorate che hai trovato. Se le stanno godendo un mondo.$h",
+        "ja": "オウムたちが、金のクルミを見つけてくれてありがとうってお礼を言ってるよ。あれはみんなのお気に入りなんだ。$h",
+        "en": "The parrots want me to thank you for all the golden walnuts you've found. They're really enjoying them.$h",
+        "ko": "앵무새들이 황금 호두 많이 찾아줘서 고맙대. 다들 맛있게 먹고 있어.$h",
+        "pt": "Os papagaios querem que eu te agradeça por todas as nozes douradas que achou. Eles estão gostando muito delas.$h",
+        "ru": "Попугаи хотят поблагодарить тебя за все эти золотые грецкие орехи. Они им очень нравятся.$h",
+        "tr": "Papağanlar bulduğun tüm altın cevizler için sana teşekkür etmemi istedi. Şu anda cevizlerin tadını çıkartıyorlar.$h",
+        "zh": "鹦鹉们想让我感谢你给它们找到那么多金色核桃。它们觉得很好吃。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\LeoMainland.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\LeoMainland.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\LeoMainland.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\LeoMainland.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\LeoMainland.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\LeoMainland.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\LeoMainland.json",
+          "ko": "data\\game_scripts\\Dialogue\\LeoMainland.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\LeoMainland.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\LeoMainland.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\LeoMainland.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\LeoMainland.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/LeoMainland:Thu",
+      "author_key": "Thu",
+      "character": "LeoMainland",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hast Du jemals all die interessanten Vögel bemerkt, die hier leben?#$e#Wenn du genau hinhörst, erzählen sie dir vielleicht etwas.",
+        "es": "¿Has visto todos los pájaros interesantes que viven aquí?#$e#Si escuchas atentamente, pueden decirte algo.",
+        "fr": "As-tu remarqué tous ces oiseaux très intéressants qui vivent ici ?#$e#Si tu prends le temps de les écouter, ils auront peut-être quelque chose d’intéressant à te dire.",
+        "hu": "Láttad már, hogy mennyi érdekes madár él itt?#$e#Ha alaposan figyelsz, akkor talán közölhetnek veled valamit.",
+        "it": "Hai mai notato quanti uccelli interessanti ci sono qui?#$e#Se ascolti con attenzione, potrebbero dirti qualcosa.",
+        "ja": "ここに住んでる面白い鳥たちを知ってる？#$e#耳をすましたら、何か教えてくれるかもしれないよ。",
+        "en": "Have you ever noticed all the interesting birds that live here?#$e#If you listen closely, they might tell you something.",
+        "ko": "여기 사는 신기한 새들 다 본 적 있어?#$e#잘 들어보면, 뭔가 알려줄지도 몰라.",
+        "pt": "Você já percebeu todos os pássaros interessantes que vivem aqui?#$e#Se você escutar atentamente, eles podem te contar algo.",
+        "ru": "Ты вообще в курсе, какие интересные птицы живут в этих краях?#$e#Если прислушаться, они могут рассказать тебе свои истории.",
+        "tr": "Burada yaşayan tüm o ilginç kuşları gördün mü?#$e#Dikkatlice dinlersen seninle konuştuklarını fark edebilirsin.",
+        "zh": "你有没有注意过，生活在这里的各种有趣鸟儿？#$e#如果你听得足够仔细，它们也许会告诉你一些东西。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\LeoMainland.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\LeoMainland.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\LeoMainland.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\LeoMainland.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\LeoMainland.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\LeoMainland.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\LeoMainland.json",
+          "ko": "data\\game_scripts\\Dialogue\\LeoMainland.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\LeoMainland.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\LeoMainland.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\LeoMainland.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\LeoMainland.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/LeoMainland:Thu10",
+      "author_key": "Thu10",
+      "character": "LeoMainland",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Zuerst fühlte ich mich hier wie ein Fremder. Aber ich habe viele Freunde gefunden!$h#$b#Ausnahmsweise habe ich das Gefühl, dazuzugehören...",
+        "es": "Me sentía como une extraño aquí, al principio. ¡Pero he hecho muchos amigos!$h#$b#Por una vez, siento que pertenezco a algo...",
+        "fr": "Au début, je me sentais comme un étranger. Mais je me suis fait beaucoup d’amis !$h#$b#Pour la première fois de ma vie, j’ai vraiment l’impression d’être à ma place...",
+        "hu": "Először idegennek éreztem magam itt. De azóta sok barátot szereztem!$h#$b#Most az egyszer úgy érzem, hogy tartozom valahová...",
+        "it": "All'inizio mi sentivo uno straniero qui. Ma ho conosciuto un sacco di amici!$h#$b#Finalmente, mi sento a casa...",
+        "ja": "最初はとても寂しかったんだ。でもボクにはたくさん友達ができた！$h#$b#今は、居心地がいいんだよ…",
+        "en": "I felt like a stranger here, at first. But I've made a lot of friends!$h#$b#For once, I feel like I belong...",
+        "ko": "처음에는 너무 낯선 곳에 와서 이방인이 된 느낌이었어. 하지만 이제는 친구 많이 생겼어!$h#$b#드디어 내가 있을 곳을 찾은 기분이야...",
+        "pt": "Eu me senti como um estranho aqui no começo. Mas eu fiz muitos amigos!$h#$b#Pela primeira vez, eu sinto que pertenço em algum lugar...",
+        "ru": "Сначала я чувствовал себя здесь не в своей тарелке. Но потом со многими подружился!$h#$b#Наконец-то я чувствую себя нужным...",
+        "tr": "Önceleri buralara yabancıydım. Sonrasında bir sürü arkadaşım oldu!$h#$b#İlk kez bir yere ait olduğumu hissediyorum...",
+        "zh": "最初，我感觉自己在这里是个外来者。但我已经交到了许多朋友！$h#$b#终于，我感觉自己有了归属……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\LeoMainland.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\LeoMainland.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\LeoMainland.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\LeoMainland.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\LeoMainland.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\LeoMainland.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\LeoMainland.json",
+          "ko": "data\\game_scripts\\Dialogue\\LeoMainland.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\LeoMainland.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\LeoMainland.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\LeoMainland.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\LeoMainland.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/LeoMainland:Thu8",
+      "author_key": "Thu8",
+      "character": "LeoMainland",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Zuerst fühlte es sich schlecht an... die Insel zu verlassen und einen Fuß in ein fremdes Land zu setzen.$s#$e#Aber nach einer Weile gewöhnte ich mich daran.#$b#Ich bin ein sehr flexibler Mensch!$h",
+        "es": "Me sentía mal al principio... Por dejar la isla y poner pie en tierras desconocidas.$s#$e#Pero, me he acostumbrado después de un tiempo.#$b#¡Soy una persona muy flexible!$h",
+        "fr": "J’étais triste au début... de quitter l’île pour une nouvelle terre lointaine.$s#$e#Mais, je m’y suis habitué.#$b#Je sais m’adapter facilement !$h",
+        "hu": "Először rossz érzés volt... hogy elhagytam a szigetet és egy furcsa földre költöztem.$s#$e#De idővel hozzászoktam.#$b#Nagyon alkalmazkodó személy vagyok!$h",
+        "it": "All'inizio ci sono stato male... ad andarmene dall'isola e mettere piede su una terra strana.$s#$e#Ma dopo un po' ci ho fatto l'abitudine.#$b#Sono un tipo molto flessibile!$h",
+        "ja": "最初は嫌だったんだ…島を出て見知らぬ土地に行くなんて。$s#$e#でも、もう慣れてきたよ。#$b#ボクはどこにだって馴染めるんだ！$h",
+        "en": "It felt bad at first... to leave the island and set foot in a strange land.$s#$e#But, I got used to it after a while.#$b#I'm a very flexible person!$h",
+        "ko": "처음에는 별로였어... 섬을 떠나서 처음 가보는 곳으로 간다는 게.$s#$e#하지만, 점점 익숙해졌어.#$b#나 적응 잘하는 사람이야!$h",
+        "pt": "Pareceu ruim no começo... sair da ilha e ir para uma terra estranha.$s#$e#Mas eu me acostumei depois de um tempo.#$b#Eu sou uma pessoa muito flexível!$h",
+        "ru": "Сначала мне было не по себе... Я покинул остров и приехал в чужие земли.$s#$e#Но потом я ко всему попривык.#$b#Я хорошо умею адаптироваться!$h",
+        "tr": "Başta kötü hissettim... adadan ayrılıp garip bir yere yerleşmek farklıydı.$s#$e#Ancak, bir süre sonra alıştım.#$b#Çok rahat bir insanım!$h",
+        "zh": "最初感觉很糟……要离开岛屿，然后踏上一片陌生的土地。$s#$e#但，过了一段时间后，我就适应了。#$b#我真是个适应性极强的人！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\LeoMainland.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\LeoMainland.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\LeoMainland.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\LeoMainland.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\LeoMainland.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\LeoMainland.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\LeoMainland.json",
+          "ko": "data\\game_scripts\\Dialogue\\LeoMainland.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\LeoMainland.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\LeoMainland.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\LeoMainland.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\LeoMainland.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/LeoMainland:Tue",
+      "author_key": "Tue",
+      "character": "LeoMainland",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Fräulein Penny tut ihr Bestes, um mich in meiner Schulausbildung auf den neuesten Stand zu bringen. Sie ist wirklich nett... #$e#... Zum Glück erinnere ich mich an einige Dinge aus meinem alten, alten Leben... bevor ich auf der Insel angespült wurde... es ist also nicht so schwierig, wie es sein könnte.#$e#Fräulein Penny sagt, sie ist beeindruckt davon, wie viel ich weiß!",
+        "es": "La señorita Penny hace todo lo que puede para ayudarme con mis estudios. Es muy amable...#$e#...Por suerte, recuerdo algunas cosas de mi antigua vida... antes de naufragar en la isla... así que no es tan difícil como podría ser.#$e#¡La señorita Penny dice que está muy impresionada con todo lo que sé!",
+        "fr": "Mlle Penny fait de son mieux pour me faire rattraper mon retard dans ma scolarité. Elle est très gentille...#$e#... J’ai de la chance, car maintenant, je me souviens de certaines choses de mon ancienne vie... Avant d’échouer sur l’île... donc ça rend les choses moins difficiles que ça pourrait l’être.#$e#Mlle Penny dit qu’elle est impressionnée par mes connaissances !",
+        "hu": "Penny néni mindent megtesz, hogy felgyorsítsa az iskoláztatásomat. Nagyon kedves...#$e#...Szerencsére emlékszem pár régi dologra, még a régi életemből... mielőtt a szigetre vetődtem volna... szóval nem annyira veszélyes.#$e#Penny néni azt mondja, hogy lenyűgöző, hogy milyen sokat tudok!",
+        "it": "La signorina Penny sta facendo del suo meglio per farmi tornare in pari con la scuola. È davvero gentile...#$e#...Per fortuna mi ricordo qualcosa della mia vita di tanto tempo fa... prima di naufragare sull'isola... quindi non faccio tutta questa fatica.#$e#La signorina Penny dice che è colpita da quante cose so!",
+        "ja": "ペニーさんは、ボクが新しいことを勉強するのを一生懸命手伝ってくれるんだ。彼女は本当にいい人だね…#$e#…それにボクは、とても昔のことを少し憶えているんだ…島に流れ着く前のこと…だから、そんなに難しくはないんだよ。#$e#ボクが色んな事を知ってるって、ペニーさんが感心してくれるんだ。",
+        "en": "Miss Penny is doing her best to get me up to speed in my schooling. She's really nice...#$e#...Luckily, I remember some things from my old, old life... before washing up on the island... so it's not as difficult as it could be.#$e#Miss Penny says she's impressed with how much I know!",
+        "ko": "페니 선생님께서 학교 공부 많이 가르쳐주고 있어. 정말 좋은 분이셔...#$e#...다행히도 옛 삶에서 몇 가지 기억이 나긴 해... 섬에 도착하지 전의 삶... 그래서 너무 어렵진 않아.#$e#페니 선생님께서 내가 많이 알고 있다고 칭찬해 줬어!",
+        "pt": "A senhorita Penny está dando tudo de si pra me ajudar nos estudos. Ela é muito gentil...#$e#...Por sorte, eu me lembro de algumas coisas da minha vida antiga... antes de ir pra a ilha... então não é tão difícil assim.#$e#A senhorita Penny falou que está impressionada com o quanto eu sei!",
+        "ru": "Мисс Пенни очень старается поскорей закрыть все пробелы в моем образовании. Она очень милая...#$e#...К счастью, я еще что-то помню из той своей старой-старой жизни... До того, как меня вынесло на берег острова... Так что все не так сложно, как могло бы быть.#$e#Мисс Пенни всегда хвалит меня за мои познания.",
+        "tr": "Bayan Penny eğitimimde beni hızlandırmak için elinden geleni yapıyor...#$e#...Neyse ki, eski hayatımdan... adadan önceki hayatımdan bir şeyler hatırlıyorum... O yüzden o kadar da zor değil.#$e#Bayan Penny bu kadar çok şey bilmemden etkilenmiş!",
+        "zh": "潘妮小姐正在尽力让我加快学习的速度。她真是个好人……#$e#……幸运的是，我回想起了一些事情，来自我过去的过去……在我流落到岛上之前……所以，学习也没有想象中的那么难。#$e#潘妮小姐说，她很惊讶我知道那么多的东西！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\LeoMainland.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\LeoMainland.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\LeoMainland.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\LeoMainland.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\LeoMainland.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\LeoMainland.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\LeoMainland.json",
+          "ko": "data\\game_scripts\\Dialogue\\LeoMainland.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\LeoMainland.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\LeoMainland.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\LeoMainland.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\LeoMainland.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/LeoMainland:Tue10",
+      "author_key": "Tue10",
+      "character": "LeoMainland",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich bin sicher, dass Jas und Vincent mich anfangs für seltsam hielten. Ich habe versehentlich ein paar Mal am Schultisch gequäkt... das hat nicht gerade geholfen.$s#$e#Es war eine große Veränderung für alle. Aber wir sind jetzt gute Freunde! $h",
+        "es": "Seguro que Jas y Vincent pensaron que era raro, al principio. Accidentalmente grazné en el pupitre unas pocas veces... eso no ayudó.$s#$e#Fue un gran cambio para todos. ¡Pero somos buenos amigos ahora!$h",
+        "fr": "Je suis sûre que Jas et Vincent pensaient que j’étais bizarre au début. J’ai accidentellement crié sur la table de l’école à quelques reprises... ce qui n’a pas aidé.$s#$e#Il a fallu un temps d’adaptation pour tout le monde. Mais nous sommes de bons amis maintenant !$h",
+        "hu": "Jas és Vincent először biztos azt hitték, hogy fura vagyok. Párszor véletlenül rárikoltottam az asztalra... az se segített.$s#$e#Mindenki számára nagy változás volt. De most már jó barátok vagyunk!$h",
+        "it": "Sono sicuro che all'inizio Jas e Vincent hanno pensato che ero strano. Un paio di volte ho garrito per sbaglio mentre ero a lezione... e sicuramente non mi ha aiutato.$s#$e#È stato un grosso cambiamento per tutti. Ma adesso siamo amiconi!$h",
+        "ja": "ジャスもヴィンセントも、最初はボクを変なやつだと思ってたんだろうな。うっかり学校の机に座っちゃったことが何回かあって…それはしょうがないんだけど。$s#$e#それから色んなことが変わったんだ。今は、とてもいい友達だよ！$h",
+        "en": "I'm sure Jas and Vincent thought I was weird, at first. I accidentally squawked at the school table a few times... that didn't help.$s#$e#It was a big change for everyone. But we're good friends now!$h",
+        "ko": "분명 처음에는 재스랑 빈센트는 내가 이상하다 생각했을 거야. 실수로 수업 중에 내가 짹짹거렸거든...$s#$e#다들 큰 변화였을 거야. 이젠 친한 친구가 되었어!$h",
+        "pt": "Eu tenho certeza que a Jas e o Vincent me acharam estranho no começo. Eu acidentalmente grasnei na escola algumas vezes... isso não ajudou.$s#$e#Foi uma grande mudança para todos. Mas somos bons amigos agora!$h",
+        "ru": "Уверен, сначала Джас и Винсент думали, что я странненький. Я даже пару раз кричал по-попугайски во время урока... Так что ничего удивительного, их можно понять.$s#$e#Им это было в новинку. Но теперь мы хорошие друзья!$h",
+        "tr": "Eminim Jas ve Vincent başta garip biri olduğumu düşünmüştür. Yanlışlıkla birkaç kez okuldaki sırada viyakladım... Pek yardımı dokunmadı.$s#$e#Herkes için büyük bir değişiklik oldu. Şimdilerde ise iyi arkadaşlar olduk!$h",
+        "zh": "在一开始的时候，我确定贾斯和文森特觉得我很奇怪。我不小心在学习的桌子旁鸟叫了几次……很尴尬。$s#$e#大家都觉得我来了之后镇上的变化很大。但我们现在是好朋友了！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\LeoMainland.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\LeoMainland.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\LeoMainland.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\LeoMainland.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\LeoMainland.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\LeoMainland.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\LeoMainland.json",
+          "ko": "data\\game_scripts\\Dialogue\\LeoMainland.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\LeoMainland.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\LeoMainland.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\LeoMainland.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\LeoMainland.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/LeoMainland:Wed",
+      "author_key": "Wed",
+      "character": "LeoMainland",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Mit Linus und Fräulein Penny werde ich alles lernen, was es zu lernen gibt!$h#$e#Bürgermeister Lewis sagt, ich sei auf der Überholspur, um ein 'wohlgerundeter Bürger' zu werden... was auch immer das bedeutet.",
+        "es": "Entre Linus y la señorita Penny, ¡voy a aprenderlo todo!$h#$e#El alcalde Lewis dice que me estoy convirtiendo rápido en un «ciudadano ejemplar»... Lo que sea que signifique eso.",
+        "fr": "Avec l’aide de Linus et Mlle Penny, je vais apprendre tout ce qu’il y a à apprendre !$h#$e#Le Maire Lewis dit que je suis sur la bonne voie pour devenir un « bon citoyen »... quoi que ça veuille dire.",
+        "hu": "Linus és Penny néni által annyit fogok tanulni amennyit csak tanulni lehet!$h#$e#Lewis polgármester szerint nagyon gyorsan 'teljes értékű polgárrá' fogok válni... bármit is jelentsen ez.",
+        "it": "Tra Linus e la signorina Penny, imparerò tutto quello che c'è da imparare!$h#$e#Il sindaco Lewis dice che sono sulla strada giusta per diventare un 'cittadino a tutto tondo'... qualunque cosa sia.",
+        "ja": "ライナスとペニーさんから色んな事を習うつもりなんだ！$h#$e#ルイス町長は、ボクが「博識な町民」になるための高速バスに乗ったって言うんだけど…ぜんぜん意味がわからないよ。",
+        "en": "Between Linus and Miss Penny, I'm going to learn everything there is to learn!$h#$e#Mayor Lewis says I'm on the fast track to becoming a 'well-rounded citizen'... whatever that means.",
+        "ko": "라이너스 아저씨랑 페니 선생님한테 이 세상 모든 걸 배울 거야!$h#$e#루이스 시장님이 내가 곧 '다재다능한 시민'이 될 거래... 무슨 뜻인지는 모르겠지만.",
+        "pt": "Entre o Linus e a senhorita Penny, eu vou aprender tudo que há pra aprender!$h#$e#O prefeito Lewis falou que eu estou no caminho rápido para me tornar um 'cidadão de bem'... seja lá o que isso signifique.",
+        "ru": "С помощью Линуса и мисс Пенни я обучусь вообще всему необходимому!$h#$e#Мэр Льюис говорит, что такими темпами я скоро стану «благонадежным гражданином»... что бы это ни значило.",
+        "tr": "Linus amca ve Bayan Penny'e söyleme ama öğrenilecek ne var ne yoksa öğreneceğim!$h#$e#Başkan Lewis 'çok yönlü bir vatandaş' olma yolunda hızlı adımlarla ilerlediğimi söyledi... Ne demek istedi bilemiyorum.",
+        "zh": "莱纳斯和潘妮小姐会让我学到所有需要学习的东西！$h#$e#刘易斯镇长说，我就快要成为“全方位发展的镇民”了……虽然我不懂是什么意思。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\LeoMainland.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\LeoMainland.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\LeoMainland.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\LeoMainland.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\LeoMainland.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\LeoMainland.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\LeoMainland.json",
+          "ko": "data\\game_scripts\\Dialogue\\LeoMainland.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\LeoMainland.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\LeoMainland.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\LeoMainland.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\LeoMainland.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/LeoMainland:winter_Fri",
+      "author_key": "winter_Fri",
+      "character": "LeoMainland",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Linus brachte mir bei, wie man einen speziellen Gewürzbeeren geriebenen Fisch macht...#$b#Er sagt, wenn ich genug davon esse, hält mich das diesen Winter warm!$h",
+        "es": "Linus me enseñó como preparar pescado especial frotado con baya especiada...#$b#¡Dice que si como suficiente me mantendrá caliente durante el invierno!$h",
+        "fr": "Linus m’a appris à faire un poisson spécial aux baies épicées...#$b#Il dit que si j’en mange beaucoup, ça me gardera au chaud cet hiver !$h",
+        "hu": "Linus megtanította nekem, hogy hogyan készíthetek különös fűszeres bogyóba dörzsölt halat...#$b#Azt mondta, hogyha eleget eszek belőle, akkor melegen tart engem télen!$h",
+        "it": "Linus mi ha insegnato a cucinare un pesce speciale alle bacche speziate...#$b#Dice che se ne mangio abbastanza, non soffrirò il freddo invernale!$h",
+        "ja": "ライナスから、特製のスパイスベリーが入った魚のすり身の作り方を習ったんだ…#$b#たくさん食べると冬でも温かく過ごせるんだって！$h",
+        "en": "Linus taught me how to make a special spice berry rubbed fish...#$b#He says if I eat enough of it it'll keep me warm this winter!$h",
+        "ko": "라이너스 아저씨가 백량금 바른 생선 만드는 법을 알려줬어...#$b#많이 먹으면 이번 겨울에 따뜻하게 보낼 수 있다고 했어!$h",
+        "pt": "Linus me ensinou a fazer um peixe especial com tempero de frutas...#$b#Ele me falou que se eu comer o suficiente eu fico quente pelo inverno inteiro!$h",
+        "ru": "Линус научил меня рецепту рыбы в обмазке из острых ягод...#$b#Он говорит, что если я съем достаточно такой рыбы, то смогу перезимовать с комфортом!$h",
+        "tr": "Linus amca bana üzerine böğürtlen sürülmüş baharatlı balık pişirmeyi öğretti...#$b#Yeterince yersem kış boyunca beni sıcak tutarmış!$h",
+        "zh": "莱纳斯教我制作了一种特殊的辣味梅子渍鱼……#$b#他说，只要我多吃点这种鱼，今年冬天我就不愁保暖了！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\LeoMainland.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\LeoMainland.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\LeoMainland.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\LeoMainland.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\LeoMainland.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\LeoMainland.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\LeoMainland.json",
+          "ko": "data\\game_scripts\\Dialogue\\LeoMainland.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\LeoMainland.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\LeoMainland.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\LeoMainland.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\LeoMainland.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/LeoMainland:winter_Thu",
+      "author_key": "winter_Thu",
+      "character": "LeoMainland",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Die Vögel dieses Tals stört die Kälte nicht so sehr.#$e#Ich bin ein wenig neidisch auf ihre warmen Befederungen...$s",
+        "es": "A los pájaros de este valle no les importa mucho el frío.#$e#Estoy algo celoso de sus cálidos abrigos...$s",
+        "fr": "Les oiseaux de cette vallée ne sont pas sensibles au froid.#$e#Je suis un peu jaloux de leur plumage épais...$s",
+        "hu": "Az itteni völgy madarait nem zavarja annyira a hideg időjárás.#$e#Kissé irigy vagyok a meleg takarójukra...$s",
+        "it": "Gli uccelli di questa valle sono più resistenti al freddo.#$e#Sono un po' invidioso dei loro piumaggi caldi...$s",
+        "ja": "この谷の鳥たちは、寒さが気にならないみたいなんだ。#$e#みんなの温かそうな羽毛がちょっとうらやましいな…$s",
+        "en": "The birds of this valley don't mind the cold so much.#$e#I'm a little jealous of their warm coats...$s",
+        "ko": "이 계곡의 새들은 추운 날씨에 익숙한가 봐.#$e#나도 따뜻한 깃털 있었으면 좋겠어...$s",
+        "pt": "Os pássaros deste vale não ligam tanto pro frio.#$e#Estou com um pouco de inveja de seus casacos quentinhos...$s",
+        "ru": "Птицам в этой долине холод нипочем.#$e#Я немного завидую их теплым шубкам...$s",
+        "tr": "Bu vadinin kuşları soğuğa pek de aldırış etmiyor.#$e#O sıcacık tüylerini kıskanıyorum doğrusu...$s",
+        "zh": "山谷里的鸟儿并不太怕冷。#$e#我有一点点嫉妒它们暖和的衣裳……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\LeoMainland.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\LeoMainland.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\LeoMainland.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\LeoMainland.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\LeoMainland.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\LeoMainland.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\LeoMainland.json",
+          "ko": "data\\game_scripts\\Dialogue\\LeoMainland.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\LeoMainland.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\LeoMainland.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\LeoMainland.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\LeoMainland.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    }
+  ]
+}

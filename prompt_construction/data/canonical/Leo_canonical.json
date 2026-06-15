@@ -1,0 +1,798 @@
+{
+  "dataset_meta": {
+    "schema": "canonical_dialogue_v2",
+    "source_root": "data/game_scripts/Dialogue",
+    "collection": "Dialogue",
+    "character": "Leo",
+    "record_count": 12,
+    "dialogue_type_counts": {
+      "general_dialogue": 12
+    }
+  },
+  "records": [
+    {
+      "canonical_id": "Dialogue/general_dialogue/Leo:AcceptGift_(O)StardropTea",
+      "author_key": "AcceptGift_(O)StardropTea",
+      "character": "Leo",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wow, schmeckt genau wie goldene Walnüsse! Das ist großartig!",
+        "es": "Guau, ¡sabe justo a nueces de oro! ¡Es genial!",
+        "fr": "Wouah, ça a le même goût des noix dorées ! C’est incroyable !",
+        "hu": "Váó, pont olyan az íze, mint az arany dióknak! Ez nagyszerű!",
+        "it": "Wow, sa proprio di noci dorate! Fantastico!",
+        "ja": "わあ！ 金のクルミみたいな味だね！すっごくおいしいよ！",
+        "en": "Wow, tastes just like golden walnuts! This is great!",
+        "ko": "우와, 황금 호두랑 맛이 똑같네! 최고다!",
+        "pt": "Uau, tem o mesmo gosto de uma noz dourada! É muito bom!",
+        "ru": "Ух ты, на вкус как золотые орехи! Прекрасно!",
+        "tr": "Vay be, tadı altın ceviz gibi! Mükemmel!",
+        "zh": "哇，这个味道跟金核桃一样！太神奇了！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Leo.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Leo.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Leo.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Leo.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Leo.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Leo.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Leo.json",
+          "ko": "data\\game_scripts\\Dialogue\\Leo.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Leo.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Leo.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Leo.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Leo.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)StardropTea' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Leo:AcceptGift_(TR)ParrotEgg",
+      "author_key": "AcceptGift_(TR)ParrotEgg",
+      "character": "Leo",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Dies ist ein kostbares Ei... Ein Baby! Ich bin froh, dass du es zu mir gebracht hast. Ich werde es sicher hüten.",
+        "es": "Este es un huevo precioso... ¡Un bebé! Me alegro de que me lo hayas traído, lo mantendré a salvo.",
+        "fr": "C’est un œuf précieux... Un bébé ! Je suis heureux que tu me le donnes. Je le garderai en sécurité.",
+        "hu": "Ez egy drága tojás... Egy gyermek! Köszönöm, hogy nekem adtad, majd vigyázok rá.",
+        "it": "Questo è un uovo prezioso... Un bambino! Sono contento che me l'hai portato, lo terrò al sicuro.",
+        "ja": "これは大切なタマゴ…赤ちゃんだよ！持ってきてくれてありがとう。ボクがぜったい守るよ。",
+        "en": "This is a precious egg... A baby! I'm glad you brought it to me, I'll keep it safe.",
+        "ko": "귀중한 알이야... 아기야! 나한테 가져다줘서 고마워, 내가 안전하게 지킬게.",
+        "pt": "Isso é um ovo precioso... Um bebê! Ainda bem que você me deu isso, vou manter ele seguro.",
+        "ru": "Это прелестное яйцо... Малыш! Спасибо, я рад, что оно теперь у меня, я буду его беречь.",
+        "tr": "Bu değerli bir yumurta... Bir yavru! Bana getirdiğin için teşekkürler, ona iyi bakacağım.",
+        "zh": "这个蛋很珍贵……里面可是一个小宝宝！谢谢你把它带给我，我会好好照顾的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Leo.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Leo.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Leo.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Leo.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Leo.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Leo.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Leo.json",
+          "ko": "data\\game_scripts\\Dialogue\\Leo.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Leo.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Leo.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Leo.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Leo.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(TR)ParrotEgg' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Leo:Fri",
+      "author_key": "Fri",
+      "character": "Leo",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Einmal... Ich war nachts auf der Spitze des Vulkans, und ich sah Lichter weit, weit weg.#$b#Ich frage mich, ob es da draußen noch andere Vogelfamilien gibt?$3",
+        "es": "Una vez... Estaba en la cima del volcán por la noche, y ví luces muy, muy lejos.#$b#¿Me pregunto si habrá más familias de pájaros ahí fuera?$3",
+        "fr": "Une fois au milieu de la nuit... J’étais au sommet du volcan, et j’ai vu des lumières au loin.#$b#Je me demande s’il y a d’autres familles d’oiseaux là-bas !$3",
+        "hu": "Egyszer... felmásztam este a vulkán tetejére, és fényeket láttam nagyon-nagyon messze.#$b#Vajon vannak odakint más madár családok?$3",
+        "it": "Una volta... ero in cima al vulcano di notte, e ho visto luci lontane lontane.#$b#Chissà se ci sono altre famiglie di uccelli là fuori?$3",
+        "ja": "一度だけ…夜に火山の頂上にいたら、とても遠くに明かりが見えたんだ。#$b#他にも鳥の家族がいるんじゃないかな？$3",
+        "en": "One time... I was at the top of the volcano at night, and I saw lights far, far away.#$b#I wonder if there are other bird families out there?$3",
+        "ko": "한 번은... 내가 밤에 화산 꼭대기에 있었는데, 멀리멀리 있는 불빛을 봤어.#$b#다른 새 가족들도 어딘가 있는 걸까?$3",
+        "pt": "Uma vez... eu estava no topo do vulcão à noite, e eu vi luzes muito, muito longe.#$b#Me pergunto se tem outras famílias de pássaros lá?$3",
+        "ru": "Однажды... Я поднялся на вулкан ночью и увидел огни вдали.#$b#Хотел бы я знать, есть ли где-то еще птичьи семьи?$3",
+        "tr": "Bir keresinde... geceleyin yanardağın ağzına çıkmıştım. Uzakta, ama çok çok uzakta yanan ışıklar görmüştüm.#$b#Acaba oralarda da kuş aileleri var mıdır?$3",
+        "zh": "有一天晚上……我在火山顶端，我看到远处有光亮。#$b#我想知道，那里是不是住着其他的鸟儿家族？$3"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Leo.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Leo.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Leo.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Leo.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Leo.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Leo.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Leo.json",
+          "ko": "data\\game_scripts\\Dialogue\\Leo.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Leo.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Leo.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Leo.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Leo.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Leo:Fri4",
+      "author_key": "Fri4",
+      "character": "Leo",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich frage mich, ob ich wohl dein Zuhause von der Spitze des Vulkans aus sehen könnte?",
+        "es": "¿Me pregunto si podría ver tu casa desde lo alto del volcán?",
+        "fr": "Je me demande si je peux voir ta maison du haut du volcan !",
+        "hu": "Vajon láthatom az otthonodat a vulkán tetejéről?",
+        "it": "Chissà se posso vedere casa tua dalla cima del vulcano?",
+        "ja": "火山の上からキミの家が見えるかな？",
+        "en": "I wonder if I could see your home from the top of the volcano?",
+        "ko": "화산 꼭대기에서 네 집이 보일까?",
+        "pt": "Será que eu consigo ver a sua casa do topo do vulcão?",
+        "ru": "Интересно, смогу ли я увидеть твой дом с вершины вулкана?",
+        "tr": "Acaba yanardağın tepesinden evini görebilir miyim?",
+        "zh": "我在想，站在火山顶上能不能看见你的家？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Leo.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Leo.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Leo.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Leo.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Leo.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Leo.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Leo.json",
+          "ko": "data\\game_scripts\\Dialogue\\Leo.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Leo.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Leo.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Leo.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Leo.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Leo:Mon",
+      "author_key": "Mon",
+      "character": "Leo",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hallo... Alles in Ordnung?",
+        "es": "Hey... ¿Todo bien?",
+        "fr": "Salut... Tout va bien ?",
+        "hu": "Szia... Minden rendben?",
+        "it": "Ciao... Tutto bene?",
+        "ja": "やあ…調子はどう？",
+        "en": "Hi... Everything okay?",
+        "ko": "안녕... 잘 지내?",
+        "pt": "Oi... Tudo certo?",
+        "ru": "Привет... Все в порядке?",
+        "tr": "Merhaba... Her şey yolunda mı?",
+        "zh": "嗨……一切都好吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Leo.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Leo.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Leo.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Leo.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Leo.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Leo.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Leo.json",
+          "ko": "data\\game_scripts\\Dialogue\\Leo.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Leo.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Leo.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Leo.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Leo.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Leo:Mon4",
+      "author_key": "Mon4",
+      "character": "Leo",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe viel von meiner Papageienfamilie gelernt...#$b#Aber ich bin sicher, dass es da draußen noch viel mehr gibt, das ich nicht kenne.$s",
+        "es": "He aprendido mucho de mi familia de loros...#$b#Pero estoy seguro de que hay muchas más cosas que no sé.$s",
+        "fr": "Ma famille de perroquets m’a enseigné beaucoup de choses...#$b#Mais je suis sûr que j’ai encore plein de choses à apprendre.$s",
+        "hu": "Sokat tanultam a papagáj családomtól...#$b#De biztos vagyok abban, hogy sokkal több van odakint, amiről nem tudok.$s",
+        "it": "Ho imparato un sacco di cose dalla mia famiglia di pappagalli...#$b#Ma di sicuro là fuori ci sono un sacco di cose che non so ancora.$s",
+        "ja": "ボクはオウムの家族から色々な事を教わったんだ…#$b#でも、ボクにはまだまだ知らないことがたくさんあると思うんだ。$s",
+        "en": "I've learned a lot from my parrot family...#$b#But I'm sure there's a lot more out there I don't know.$s",
+        "ko": "난 앵무새 가족에게 많은 걸 배웠어...#$b#하지만 분명 세상에는 아직 내가 모르는 것도 많을 거야.$s",
+        "pt": "Eu aprendi muito com a minha família de papagaios...#$b#Mas eu tenho certeza que existe muita coisa que eu não sei.$s",
+        "ru": "Я столькому научился у своей попугайской семьи...#$b#Но я уверен, что еще много чего не знаю.$s",
+        "tr": "Papağan ailemden çok şey öğrendim...#$b#Yine de bilmediğim çok şey olduğuna eminim.$s",
+        "zh": "从我的鹦鹉家族那里，我学到了很多东西……#$b#但我很确定，在外面的世界里还有更多我不知道的东西。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Leo.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Leo.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Leo.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Leo.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Leo.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Leo.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Leo.json",
+          "ko": "data\\game_scripts\\Dialogue\\Leo.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Leo.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Leo.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Leo.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Leo.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Leo:Sat",
+      "author_key": "Sat",
+      "character": "Leo",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "...ich bin heute traurig.$s#$e#Viel Spaß... Lass mich traurig sein.$s",
+        "es": "...Estoy triste hoy.$s#$e#Continúa con lo tuyo... diviértete. Déjame estar triste.$s",
+        "fr": "... Je me sens triste aujourd’hui.$s#$e#Va t’amuser. J’ai besoin d’être seul.$s",
+        "hu": "...Ma szomorú vagyok.$s#$e#Szóval menj csak... Szórakozz. Hadd szomorkodjak.$s",
+        "it": "...Oggi sono triste.$s#$e#Tu va' pure... divertiti. Lasciami essere triste.$s",
+        "ja": "…今日はなんだか悲しいんだ。$s#$e#もう行って…楽しんできてね。今は悲しい気持ちでいさせて。$s",
+        "en": "...I'm sad today.$s#$e#You go on... have fun. Let me be sad.$s",
+        "ko": "...나 오늘은 슬퍼.$s#$e#너는 가... 가서 놀아. 나 슬프게 둬.$s",
+        "pt": "...Estou triste hoje.$s#$e#Vai lá... se divirta. Me deixe ser triste.$s",
+        "ru": "...Сегодня я грустный.$s#$e#Ты иди... веселись. Дай погрустить.$s",
+        "tr": "...Bugün üzgünüm.$s#$e#Sen git... eğlenmene bak. Ben üzgün kalacağım.$s",
+        "zh": "……我今天很伤心。$s#$e#你继续……找乐子吧。让我伤心就好。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Leo.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Leo.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Leo.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Leo.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Leo.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Leo.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Leo.json",
+          "ko": "data\\game_scripts\\Dialogue\\Leo.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Leo.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Leo.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Leo.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Leo.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Leo:Sun",
+      "author_key": "Sun",
+      "character": "Leo",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wenn es regnet, kommen seltsame Vögel zu Besuch.#$b#Ich versuche, mit ihnen zu sprechen... aber sie fliegen weg.$s#$b#Ich glaube, sie wollen keine Freunde sein...$s",
+        "es": "Cuando llueve, pájaros extraños nos visitan.#$b#Intento hablar con ellos... pero se van volando.$s#$b#Supongo que no quieren ser amigos...$s",
+        "fr": "Quand il pleut, d’étranges oiseaux viennent ici.#$b#J’ai essayé de leur parler... mais ils s’envolent.$s#$b#Ils ne doivent pas vouloir devenir amis...$s",
+        "hu": "Mikor esik, akkor fura madarak látogatnak meg.#$b#Próbálok beszélni velük... De elrepülnek.$s#$b#Biztos nem akarnak barátkozni...$s",
+        "it": "Quando piove, arrivano strani uccelli.#$b#Io provo a parlarci... ma loro volano via.$s#$b#Non vogliono essere amici, sembra...$s",
+        "ja": "雨が降ると変わった鳥が現れるんだ。#$b#声をかけようとするんだけど…飛んで行っちゃうんだ。$s#$b#友達になりたくないのかな…$s",
+        "en": "When it rains, strange birds visit.#$b#I try to speak to them... but they fly away.$s#$b#I guess they don't want to be friends...$s",
+        "ko": "비가 오면 이상한 새들이 놀러 와.#$b#내가 말을 걸면... 다들 도망가.$s#$b#친구가 되고 싶지 않은가 봐...$s",
+        "pt": "Quando chove, pássaros estranhos aparecem.#$b#Eu tento falar com eles... mas eles voam pra longe.$s#$b#Eu acho que eles não querem ser amigos...$s",
+        "ru": "Во время дождя прилетают странные птицы.#$b#Я пытаюсь с ними заговорить... но они улетают.$s#$b#Наверное, они не хотят дружить...$s",
+        "tr": "Yağmur yağdığında ilginç kuşlar ziyarete gelir.#$b#Onlarla konuşmaya çalışıyorum... ama hep uçup gidiyorlar.$s#$b#Galiba benimle arkadaş olmak istemiyorlar...$s",
+        "zh": "在下雨的时候，会有陌生的鸟儿来访。#$b#我试着跟它们说话……但它们飞走了。$s#$b#我猜，它们不想交朋友……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Leo.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Leo.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Leo.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Leo.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Leo.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Leo.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Leo.json",
+          "ko": "data\\game_scripts\\Dialogue\\Leo.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Leo.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Leo.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Leo.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Leo.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Leo:Thu",
+      "author_key": "Thu",
+      "character": "Leo",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hast du die anderen wie dich kennengelernt?#$b#Ich rede nicht viel mit ihnen. Ich fühle mich sicherer mit meinesgleichen...$3",
+        "es": "¿Has encontrado a los demás de tu especie?#$b#Yo no hablo mucho con ellos. Me siento más seguro con los de mi especie...$3",
+        "fr": "As-tu rencontré les autres comme toi ?#$b#Je n’aime pas beaucoup leur parler. Je me sens plus en sécurité avec les miens...$3",
+        "hu": "Találkoztál a hozzád hasonlókkal?#$b#Én nem beszélek velük túl sokat. Biztonságban érzem magam a saját fajtámmal...$3",
+        "it": "Ha incontrato gli altri come te?#$b#Io non parla molto con loro. Mi sente più al sicuro con miei simili...$3",
+        "ja": "キミは、キミみたいな人たちと会った？#$b#ボクはあんまり話しかけないんだ。同じ種族の方が安心できるよ…$3",
+        "en": "Have you met the others like you?#$b#I don't talk to them much. I feel safer with my own kind...$3",
+        "ko": "너랑 비슷한 다른 사람들 만나봤어?#$b#나는 그 사람들하고 얘기 많이 안 해. 내 친구들하고 있는 게 안전할 거야...$3",
+        "pt": "Você encontrou os outros como você?#$b#Eu não falo com eles muito. Me sinto mais seguro com o meu povo...$3",
+        "ru": "Ты знаешь других, похожих на тебя?#$b#Я с ними почти не общаюсь. Мне с моими птицами лучше...$3",
+        "tr": "Sana benzeyenleri tanıyor musun?#$b#Onlarla pek konuşmuyorum. Kendi türümleyken daha bir güvende hissediyorum...$3",
+        "zh": "你有见过其他那些和你一样的人吗？#$b#我不怎么跟他们说话，和我自己的同类待在一起，我感觉更安全……$3"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Leo.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Leo.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Leo.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Leo.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Leo.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Leo.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Leo.json",
+          "ko": "data\\game_scripts\\Dialogue\\Leo.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Leo.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Leo.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Leo.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Leo.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Leo:Tue",
+      "author_key": "Tue",
+      "character": "Leo",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wenn Sonne wütend ist, fühlt es sich gut im Dschungel an.#$e#Sonne kann uns unter den Blättern nicht finden. Wir tricksen ihn aus! Haha...$h",
+        "es": "Cuando Sol se enfada, se está bien en la jungla.#$e#Sol no puede encontrarnos bajo las hojas. ¡Le engañamos! Haha...$h",
+        "fr": "Quand M. Soleil est en colère, la jungle est l’endroit idéal.#$e#M. Soleil ne peut pas nous trouver à travers la canopée. On l’a bien eu ! Haha...$h",
+        "hu": "Mikor Nap mérges, akkor jó érzés a dzsungelben lenni.#$e#Nap nem találhat meg minket a levelek alatt. Átverjük őt! Haha...$h",
+        "it": "Quando Sole è arrabbiato, si sta bene nella giungla.#$e#Sole non ci trova sotto le foglie. Noi lo frega! Haha...$h",
+        "ja": "太陽が怒ったら、ジャングルにいると快適なんだ。#$e#葉っぱの下にいるボクらを、太陽は見つけられないからね。騙せばいいだけだよ！ははっ…$h",
+        "en": "When Sun is angry, it feels good in the jungle.#$e#Sun can't find us beneath the leaves. We trick him! Haha...$h",
+        "ko": "해가 화나있을 땐 밀림으로 가는 게 좋아.#$e#잎사귀 밑에 있으면 해가 우리를 못 찾아. 속일 수 있어! 하하...$h",
+        "pt": "Quando o Sol está bravo, é bom ficar na selva.#$e#O Sol não nos acha debaixo das folhas. Nós enganamos ele! Haha...$h",
+        "ru": "Когда Солнце злится, в джунглях приятно.#$e#Солнце не видит нас под кронами. Мы его обманываем. Ха-ха...$h",
+        "tr": "Güneş kızgınken ormana rahatlık gelir.#$e#Güneş bizi yaprakların altında bulamaz. Onu kandırırız! Haha...$h",
+        "zh": "太阳发怒、烈日当头的时候，待在丛林中就很舒服。#$e#躲在叶子下面，太阳就找不到我们了。我们把他给耍了！哈哈……$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Leo.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Leo.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Leo.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Leo.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Leo.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Leo.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Leo.json",
+          "ko": "data\\game_scripts\\Dialogue\\Leo.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Leo.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Leo.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Leo.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Leo.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Leo:Wed",
+      "author_key": "Wed",
+      "character": "Leo",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "...Entschuldigung... Ich bin heute schüchtern. $3",
+        "es": "...Lo siento... Estoy tímido hoy.$3",
+        "fr": "... Désolé... Je suis un peu timide aujourd’hui.$3",
+        "hu": "...Elnézést... Ma szégyenlős vagyok.$3",
+        "it": "...Scusa... Oggi sono timido.$3",
+        "ja": "…ごめん…今日は誰とも話したくないんだ。$3",
+        "en": "...Sorry... I'm shy today.$3",
+        "ko": "...미안... 나 오늘은 수줍어.$3",
+        "pt": "...Desculpa... estou tímido hoje.$3",
+        "ru": "...Извини... Сегодня стесняюсь.$3",
+        "tr": "...Affedersin... Bugün ürkeğim.$3",
+        "zh": "……抱歉……我今天有点不好意思。$3"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Leo.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Leo.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Leo.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Leo.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Leo.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Leo.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Leo.json",
+          "ko": "data\\game_scripts\\Dialogue\\Leo.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Leo.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Leo.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Leo.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Leo.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Leo:Wed2",
+      "author_key": "Wed2",
+      "character": "Leo",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Seien Sie vorsichtig im Vulkan ... die Geister mögen keine Fremden.",
+        "es": "Ten cuidado en el volcán... a los espíritus no les gustan los desconocidos.",
+        "fr": "Fais attention dans le volcan... Les esprits n’aiment pas beaucoup les étrangers.",
+        "hu": "Légy óvatos a vulkánban... a lelkek nem kedvelik a kívülállólkat.",
+        "it": "Fai attenzione nel vulcano... agli spiriti non piace estranei.",
+        "ja": "火山では気を付けてね…精霊たちは部外者を嫌うんだ。",
+        "en": "Be careful in the volcano... the spirits don't like outsiders.",
+        "ko": "화산에 가면 조심해... 정령들은 외부인을 싫어해.",
+        "pt": "Tenha cuidado no vulcão... os espíritos não gostam de forasteiros.",
+        "ru": "У вулкана смотри в оба... Духи не любят чужаков.",
+        "tr": "Yanardağda dikkatli ol... Ruhlar yabancılardan hoşlanmaz.",
+        "zh": "在火山里要小心……精灵不喜欢外来者。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Leo.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Leo.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Leo.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Leo.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Leo.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Leo.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Leo.json",
+          "ko": "data\\game_scripts\\Dialogue\\Leo.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Leo.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Leo.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Leo.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Leo.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3491 @@
+{
+  "dataset_meta": {
+    "schema": "canonical_dialogue_v2",
+    "source_root": "data/game_scripts/Dialogue",
+    "collection": "Dialogue",
+    "character": "Linus",
+    "record_count": 53,
+    "dialogue_type_counts": {
+      "general_dialogue": 53
+    }
+  },
+  "records": [
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:AcceptGift_(O)166",
+      "author_key": "AcceptGift_(O)166",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Nein, danke. Ich habe kein Verlangen nach Geld... Ich glaube sogar, es ist verflucht. [166]",
+        "es": "No, gracias. No deseo dinero... De hecho, creo que está maldito. [166]",
+        "fr": "Non, merci. Je n’ai pas besoin d’argent... Je crois même que c’est maudit. [166]",
+        "hu": "Nem, köszönöm. Nem vágyom pénzre... Sőt, szerintem átkozott. [166]",
+        "it": "No, grazie. Non ho bisogno di denaro... Anzi, penso che sia una maledizione. [166]",
+        "ja": "気を使わないでくれ。お金がほしいとは思わないんだ…お金を持っていてもいいことはないからな。 [166]",
+        "en": "No, thank you. I have no desire for money... In fact, I think it's cursed. [166]",
+        "ko": "고맙지만, 사양하겠네. 내가 돈에 대한 욕심이 없어서 말이지... 사실, 저주받은 물건이라고 생각해. [166]",
+        "pt": "Não, obrigado. Eu não preciso de dinheiro... Pra falar a verdade, eu acho que é uma maldição. [166]",
+        "ru": "Нет, спасибо. Денег мне не нужно... Я вообще считаю, что они прокляты. [166]",
+        "tr": "Hayır, teşekkürler. Parada hiç gözüm yok... Hatta paranın lanetli olduğunu düşünürüm. [166]",
+        "zh": "不用了，我不需要钱……要我说，那可是万恶之源。[166]"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:AcceptGift_(O)774",
+      "author_key": "AcceptGift_(O)774",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Lass mal sehen... das sieht perfekt aus. Du bist ein guter Schüler, @.$h",
+        "es": "Déjame... tiene una pinta perfecta. Eres buen estudiante, @.$h",
+        "fr": "Laisse-moi voir ça... ça a l’air parfait. Tu apprends vite, @.$h",
+        "hu": "Hadd nézzem csak... tökéletesnek tűnik. Jó tanítvány vagy, @.$h",
+        "it": "Vediamo un po'... sembra perfetta. Impari in fretta, @.$h",
+        "ja": "見せておくれ… これはすごい。若いのに大したものだよ、@。$h",
+        "en": "Let me see... it looks perfect. You're a good student, @.$h",
+        "ko": "어디 보자... 완벽해. 자네는 좋은 학생이야, @.$h",
+        "pt": "Deixa eu ver... perfeito. Você é um bom aprendiz, @.$h",
+        "ru": "Посмотрим... Выглядит прекрасно. Ты хорошо учишься, @.$h",
+        "tr": "Bir bakayım... Harika gözüküyor. İyi bir öğrencisin @.$h",
+        "zh": "我看看……这个做得特别好。你学得很快啊，@。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:AcceptGift_(O)Book_Trash",
+      "author_key": "AcceptGift_(O)Book_Trash",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich lese normalerweise keine Bücher... Aber dieses hier ist genau mein Ding... Ich danke dir!$h",
+        "es": "No suelo leer libros... Pero este es justo de mi estilo... ¡Gracias!$h",
+        "fr": "Je n’ai pas l’habitude de lire des livres... Mais celui-ci est fait pour moi... Merci !$h",
+        "hu": "Általában nem olvasok könyveket... Csak amiket a 'sarki boltban' találok... Köszönöm!$h",
+        "it": "Di solito non leggo molti libri... Ma questo qua fa proprio al caso mio... Grazie!$h",
+        "ja": "ふだんは本は読まないんだが…これはオレの好みにぴったりだ…ありがとう！$h",
+        "en": "I don't usually read books... But this one is right up my 'alley'... Thank you!$h",
+        "ko": "평소 독서는 잘 안하지만... 이거라면 딱 내 취향이군... 고맙네!$h",
+        "pt": "Eu geralmente não leio livros... Mas esse é a minha cara... Obrigado!$h",
+        "ru": "Обычно я не читаю книг... Но эта по мне... Спасибо!$h",
+        "tr": "Genelde kitap okumam... Ama bu tam 'benlik' gibi... Sağ ol!$h",
+        "zh": "我不太看书……不过这本正合我“口味”……谢谢你！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)Book_Trash' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:AcceptGift_(O)StardropTea",
+      "author_key": "AcceptGift_(O)StardropTea",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das bedeutet mir sehr viel, @. Ich werde es mir für einen ruhigen Tag im Zelt aufheben. Ich danke dir!",
+        "es": "Significa mucho para mi, @. Lo guardaré para un día tranquilo en la tienda. ¡Gracias!",
+        "fr": "Ce cadeau signifie beaucoup pour moi, @. Je vais le garder de côté pour le savourer lors d’une journée tranquille sous la tente. Merci !",
+        "hu": "Ez sokat jelent nekem, @. A sátramban fogom őrizni egy csendes napig. Köszönöm!",
+        "it": "Significa molto per me, @. Lo conserverò per una giornata tranquilla in tenda. Grazie!",
+        "ja": "感謝するよ、@。これはテントでゆっくり過ごす日まで取っておこう。ありがとう！",
+        "en": "This means a lot to me, @. I'll save it for a quiet day in the tent. Thank you!",
+        "ko": "내게 정말 의미가 큰 선물이라네, @. 텐트가 적적하다 싶은 날을 위해 아껴둬야겠어. 고맙네!",
+        "pt": "Isso significa muito pra mim, @. Vou guardar para um dia mais tranquilo na tenda. Obrigado!",
+        "ru": "Это очень многое для меня значит, @. Сохраню для тихого дня в палатке. Спасибо!",
+        "tr": "Bu benim için çok değerli @. Bunu uzunca bir süre çadırımda saklayacağım. Teşekkür ederim!",
+        "zh": "@，你送我这个我真的很高兴，我会找一天坐在帐篷里安静品尝。谢谢你！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)StardropTea' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:AcceptGift_Positive_category_fish",
+      "author_key": "AcceptGift_Positive_category_fish",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ah, das sieht frisch aus. Ich werde heute Abend gut essen!$h",
+        "es": "Ah, parece fresco. ¡Comeré bien esta noche!$h",
+        "fr": "Ha, ça a l’air encore frais. Je vais bien manger ce soir !$h",
+        "hu": "Áh, ez frissnek tűnik. Ma este jól fogok lakni!$h",
+        "it": "Ah, sembra fresco. Stasera mangio bene!$h",
+        "ja": "ああ、新鮮そのものだ。さっそく今日の夕食でいただくよ！$h",
+        "en": "Ah, that looks fresh. I'll be eating good tonight!$h",
+        "ko": "아, 신선해 보이네. 오늘 저녁은 든든하게 먹겠어!$h",
+        "pt": "Ah, parece bem fresco. Vou comer bem hoje à noite!$h",
+        "ru": "Ага, на вид свежая. Сегодня ужин будет на славу!$h",
+        "tr": "Eh, taze gözüküyor. Bu akşam karnım güzel doyacak!$h",
+        "zh": "啊，看起来很新鲜。今晚能饱餐一顿了！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_Positive_category_fish' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:AcceptGift_Positive_category_greens",
+      "author_key": "AcceptGift_Positive_category_greens",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das ist ein guter Fund! Ich bin immer glücklich, wenn ich wilde Lebensmittel esse. Ich danke dir.",
+        "es": "¡Es un buen descubrimiento! Siempre estoy contento cuando como comida silvestre. Gracias.",
+        "fr": "C’est une belle trouvaille ! J’adore manger de la nourriture trouvée dans la nature. Merci.",
+        "hu": "Az remek zsákmány! Mindig boldog vagyok, ha vadon lévő ételeket ehetek. Köszönöm.",
+        "it": "Ma che bell'esemplare! Sono sempre contento di mangiare cibo selvatico. Grazie.",
+        "ja": "よく見つけたな！野生の食べ物はそれだけで幸せになれる。ありがとう。",
+        "en": "That's a good find! I'm always happy when eating wild food. Thank you.",
+        "ko": "참 멋진 걸 찾았구나! 야생 음식은 언제나 환영이지. 고맙네.",
+        "pt": "Que achado! Fico sempre feliz em comer comida selvagem. Obrigado.",
+        "ru": "Хорошая находка! Я всегда рад дикой пище. Спасибо.",
+        "tr": "İyi buluş! Yabani şeyleri yemeyi severim. Teşekkürler.",
+        "zh": "这个东西真不错！吃野生采集的东西我总是很高兴。谢谢你。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_Positive_category_greens' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:DumpsterDiveComment",
+      "author_key": "DumpsterDiveComment",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hast du etwas Gutes gefunden?$h",
+        "es": "¿Ves algo que te llame la atención?$h",
+        "fr": "Tu trouves quelque chose de bon ?$h",
+        "hu": "Találtál valami jót?$h",
+        "it": "Trovato niente di buono?$h",
+        "ja": "何か 掘り出し物は あった？$h",
+        "en": "Find anything good?$h",
+        "ko": "뭐 괜찮은 거 찾았나?$h",
+        "pt": "Encontrou algo de bom?$h",
+        "ru": "Есть что-нибудь хорошее?$h",
+        "tr": "Güzel bir şey buldun mu bari?$h",
+        "zh": "找什么好东西没？$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'DumpsterDiveComment' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:Fri",
+      "author_key": "Fri",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Bitte reiße nicht mein Zelt ein.#$e#Ist schon einmal vorgekommen.$s",
+        "es": "Por favor, no me destroces la tienda de campaña.#$e#No sería la primera vez que me pasa.$s",
+        "fr": "S’il te plaît, ne détruit pas ma tente.#$e#C’est déjà arrivé.$s",
+        "hu": "Kérlek ne rombold le a sátramat.#$e#Korábban már megtörtént.$s",
+        "it": "Per favore, non distruggere la mia tenda.#$e#È già capitato.$s",
+        "ja": "オレの テントを 倒さないように してくれ。#$e#前に 倒れたことが あったからな。$s",
+        "en": "Please don't destroy my tent.#$e#It's happened before.$s",
+        "ko": "부디 내 텐트는 부수지 말게.#$e#전에 그런 일이 있었어.$s",
+        "pt": "Por favor, não destrua a minha tenda.#$e#Já fizeram isso.$s",
+        "ru": "Пожалуйста, не ломай мою палатку.#$e#Были прецеденты.$s",
+        "tr": "Lütfen çadırımı bozma.#$e#Daha önce bozulmuştu da.$s",
+        "zh": "请不要弄坏我的帐篷。#$e#以前发生过这种事情。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:Fri4",
+      "author_key": "Fri4",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du kannst viel von den Bäumen lernen.#$b#Verbringe Zeit mit ihnen und sie verraten dir vielleicht ihre Geheimnisse.#$e#Gehe in Frieden, Kind.",
+        "es": "Se puede aprender mucho de los árboles.#$b#Pasa tiempo con ellos y te contarán sus secretos.#$e#Ve en paz, joven.",
+        "fr": "Les arbres ont beaucoup à nous apprendre.#$b#Passe du temps avec eux et ils partageront peut-être leurs secrets avec toi.#$e#Va en paix.",
+        "hu": "Sokat tanulhatsz a fáktól.#$b#Ha sok időt töltesz velük, megosztják veled a titkaikat.#$e#Menj békével, fiatal gyermek.",
+        "it": "S'imparano un mucchio di cose dagli alberi.#$b#Passa del tempo con loro e potrebbero svelarti i loro segreti.#$e#Va' in pace, o giovane.",
+        "ja": "木々からは 沢山のことを 学べるぞ。#$b#長い時間 共に やっていけば、 秘密を 知ることが できるだろう。#$e#若者よ、 平穏と ともに 行くんだ。",
+        "en": "You can learn a lot from trees.#$b#Spend time with them and they might tell you their secrets.#$e#Go in peace, young one.",
+        "ko": "나무로부터 많은 것을 배울 수 있지.#$b#시간을 좀 보내면 나무들이 네게 비밀을 알려줄 수도 있어.#$e#평화를 품고 가게나, 젊은이여.",
+        "pt": "Dá para aprender muito com as árvores.#$b#Passe um tempo com elas e talvez elas lhe contem alguns segredos.#$e#Vá em paz, jovem.",
+        "ru": "У деревьев можно многому научиться.#$b#Если провести среди них какое-то время, они могут рассказать тебе свои тайны.#$e#Иди с миром, детеныш.",
+        "tr": "Ağaçlardan çok şey öğreniyorum.#$b#Onlarla zaman geçirdiğinde sırlarını da öğrenebiliyorsun.#$e#Selametle kal, genç adam.",
+        "zh": "你能从树木中学到很多东西。#$b#多和它们相处，它们也许就会告诉你它们的秘密。#$e#安静地去吧，年轻人。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:GreenRain",
+      "author_key": "GreenRain",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "All diese seltsamen Bäume sind morgen schon wieder verschwunden... das ist eines der Geheimnisse der Natur.",
+        "es": "Todos esos árboles extraños ya no estarán mañana... es uno de los misterios de la naturaleza.",
+        "fr": "Tous ces arbres étranges disparaîtront demain... C’est l’un des mystères de la nature.",
+        "hu": "Ez a sok fura fa holnapra eltűnik... ez a természet egyik rejtélye.",
+        "it": "Domani, tutti questi strani alberi saranno scomparsi... È uno dei misteri della natura.",
+        "ja": "この不思議な木々は明日にはすべて消えてしまう… これが自然の神秘だよ。",
+        "en": "All these strange trees will be gone tomorrow... it's one of the mysteries of nature.",
+        "ko": "이런 이상한 나무들은 내일이면 사라지겠지... 자연의 신비야.",
+        "pt": "Todas estas árvores estranhas não vão estar aqui amanhã... é um dos mistérios da natureza.",
+        "ru": "Завтра все эти странные деревья исчезнут... Это одна из загадок природы.",
+        "tr": "Bütün bu garip ağaçlar yarın gitmiş olacak... Bu da doğanın gizemlerinden biri.",
+        "zh": "这些奇怪的树明天就会全部消失……这就是大自然的奥秘。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "weather_green_rain",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:GreenRainFinished",
+      "author_key": "GreenRainFinished",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wie ist die Moosernte gelaufen? Hehe... Mein Bett ist jetzt viel weicher.",
+        "es": "¿Cómo ha ido la cosecha del musgo? Jeje... mi cama es mucho más suave ahora.",
+        "fr": "Comment s’est passée la récolte de mousse verte ? Hé, hé... Mon lit est beaucoup plus moelleux maintenant.",
+        "hu": "Hogy sikerült a mohagyűjtés? Hehe... Az ágyam már sokkal puhább.",
+        "it": "Com'è andata la raccolta del muschio? Hehe... Il mio letto è molto più soffice adesso.",
+        "ja": "コケは集まったかい？ははは…オレのベッドはずいぶんやわらかくなったよ。",
+        "en": "How did the moss harvest go? Hehe... My bed is a lot softer now.",
+        "ko": "이끼는 좀 수확했나? 헤헤... 내 잠자리가 덕분에 많이 부드러워졌다네.",
+        "pt": "Como foi a coleta de musgos? Hehe... Agora a minha cama está muito mais macia.",
+        "ru": "Как там сбор мха? Хе-хе... Моя кровать теперь намного мягче.",
+        "tr": "Yosun hasadı nasıl geçti? Hehe... Şimdi yatağım çok daha yumuşak.",
+        "zh": "你的苔藓采集得怎么样？嘿嘿……拜其所赐，我的床蓬松多了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'GreenRainFinished' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:GreenRain_2",
+      "author_key": "GreenRain_2",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe bereits genug Moos für das ganze Jahr gesammelt. Wie steht es mit dir?",
+        "es": "Ya he recogido suficiente musgo para todo el año. ¿Y tú?",
+        "fr": "J’ai récolté assez de mousse pour une année entière. Et toi ?",
+        "hu": "Én már egész évre elegendő mohát gyűjtöttem. És te hogy állsz?",
+        "it": "Ho già raccolto abbastanza muschio per tutto l'anno. Tu a che punto sei?",
+        "ja": "オレは1年分のコケを集めたよ。きみの方はどうだい？",
+        "en": "I've already gathered enough moss for the entire year. How about you?",
+        "ko": "난 이미 일 년 치 이끼를 모았다네. 자네는 어떤가?",
+        "pt": "Eu já coletei musgos o suficiente para o ano inteiro. Como está indo a sua coleta?",
+        "ru": "Я уже собрал мха на весь год. А ты?",
+        "tr": "Çoktan tüm yıl yetecek kadar yosun topladım. Ya sen?",
+        "zh": "我收集了很多苔藓，够用一年了，你呢？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:Introduction",
+      "author_key": "Introduction",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Jemand Fremdes? Hallo.#$e#Lass dich von mir nicht stören. Ich lebe alleine hier draußen.",
+        "es": "¿Un nuevo vecino...? Hola.^¿Una nueva vecina...? Hola.#$e#No te preocupes por mí. Vivo aquí fuera yo solo.",
+        "fr": "Un étranger ?... Bonjour.^Une étrangère ?... Bonjour.#$e#Ne fais pas attention à moi. Je vis ici tout seul.",
+        "hu": "Egy idegen?... Üdv.#$e#Ne is törődj velem. Egyedül éldegélek idekint.",
+        "it": "Una faccia nuova?... Salve.#$e#Non fare caso a me. Abito qua fuori per conto mio, ecco tutto.",
+        "ja": "おや、初めて見る 顔だな…こんにちは。#$e#オレのことは 気にするな。一人で ここに 暮らしてるだけだ。",
+        "en": "A stranger?... Hello.#$e#Don't mind me. I just live out here alone.",
+        "ko": "처음 보는 사람?... 안녕하신가.#$e#나는 신경 쓰지 말게. 난 그저 여기 혼자 지내는 사람이니.",
+        "pt": "Um estranho?... Oi.#$e# Não se preocupe comigo. Eu moro aqui sozinho.",
+        "ru": "Незнакомец?.. Здравствуйте.#$e#Не обращайте на меня внимания. Я просто живу тут в одиночестве.",
+        "tr": "Yabancı... Merhaba.#$e#Rahatsız olma. Ben burada tek başıma yaşıyorum.",
+        "zh": "陌生人？……你好。#$e#不要在意我。这里就只有我一个人住。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Introduction' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:Mon",
+      "author_key": "Mon",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Die frische Luft der Wildnis ist alles, was mich interessiert.#$e#Ich lebe freiwillig hier draußen.",
+        "es": "El aire fresco de la naturaleza es todo lo que me importa.#$e#Vivo aquí por elección propia.",
+        "fr": "L’air frais de la nature est la seule chose qui m’importe.#$e#Je vis ici par choix.",
+        "hu": "Engem kizárólag az üde, friss levegő illata érdekel.#$e#Saját döntésből élek itt.",
+        "it": "L'aria frizzante della natura selvaggia è tutto ciò che m'importa conoscere.#$e#Vivo qua fuori per scelta.",
+        "ja": "自然の さわやかな 空気さえ あればいい。#$e#自分で ここに 住むと 決めたんだ。",
+        "en": "The crisp air of the wilderness is all I care to know.#$e#I live out here by choice.",
+        "ko": "야생의 상쾌한 공기만이 나의 유일한 관심사야.#$e#난 내 선택으로 여기 나와 사는 거라네.",
+        "pt": "Eu só ligo para o ar frio e seco desta terra selvagem.#$e#Moro aqui por opção.",
+        "ru": "Все, что мне нужно — свежий воздух на природе.#$e#Я живу здесь по своей воле.",
+        "tr": "Umursadığım tek şey buraların ferahlatıcı havası.#$e#Burada yaşamak benim tercihim.",
+        "zh": "我想要的就是野外清新的空气。#$e#我住在这外面是我自己的选择。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:MovieInvitation",
+      "author_key": "MovieInvitation",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh... ich? Normalerweise würde ich das nicht, aber... okay. Es ist nett von dir, dass du an mich denkst.#$b#Ich werde gleich rübergehen.",
+        "es": "Oh... ¿a mi? Normalmente no iría, pero... vale. Muy amable por tu parte que te acuerdes de mí.#$b#Iré para allá en un rato.",
+        "fr": "Qui ? Moi ? Normalement, je dirais non... Mais, OK. C’est vraiment gentil d’avoir pensé à moi.#$b#Je te rejoindrais là-bas plus tard.",
+        "hu": "Óh... velem? Általában nem mennék, de... rendben van. Kedves tőled, hogy gondoltál rám.#$b#Nemsokára odamegyek.",
+        "it": "Oh... io? Di solito rifiuterei, ma... va bene. Sei gentile a pensare a me.#$b#Ci vediamo al cinema più tardi.",
+        "ja": "…オレと？ 普段なら行かないが… まあいい。誘ってくれてありがとう。#$b#しばらくしたら向かうよ。",
+        "en": "Oh... me? I usually wouldn't, but... okay. It's nice of you to think about me.#$b#I'll head over there in a little while.",
+        "ko": "오... 나랑? 이런 건 안 가는 편이지만... 그래. 날 생각해 줘서 고맙네.#$b#조금 있다 거기서 보자고.",
+        "pt": "Oh... eu? Normalmente eu não iria, mas... tudo bem. Obrigado por pensar em mim.#$b#Eu estou indo lá.",
+        "ru": "Ой... я? Обычно я не... но тут ладно. Рад, что вспоминаешь обо мне.#$b#Скоро туда выдвинусь.",
+        "tr": "Ha... ben mi? Normalde hayır derdim de... tamam. Beni düşünmen ne hoş.#$b#Birazdan yola çıkarım.",
+        "zh": "哎……我吗？我一般不会去那边，不过……好吧。你能想着我，真是太贴心了。#$b#我一会儿就过去。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'MovieInvitation' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:Sat",
+      "author_key": "Sat",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Weißt du, ich bin glücklich alleine.#$e#Ich brauche keine neuen Freunde.",
+        "es": "Me gusta estar solo, ¿sabes?#$e#No necesito nuevos amigos.",
+        "fr": "Je suis heureux tout seul, tu sais.#$e#Je n’ai pas besoin de nouveaux amis.",
+        "hu": "Elvagyok én magamban is.#$e#Nincs szükségem új barátokra.",
+        "it": "Sono felice da solo, sai.#$e#Non ho bisogno di amici.",
+        "ja": "オレは 一人でも 十分 幸せだ。#$e#友達なんて いらん。",
+        "en": "I'm happy by myself, you know.#$e#I don't need new friends.",
+        "ko": "나 혼자서도 충분히 행복하네.#$e#새로운 친구는 필요 없어.",
+        "pt": "Sou feliz sozinho, sabe?#$e#Não preciso de novos amigos.",
+        "ru": "Я и в одиночку счастлив.#$e#Новые друзья мне не нужны.",
+        "tr": "Tek başıma mutluyum, biliyor musun?#$e#Arkadaşlıklara ihtiyacım yok.",
+        "zh": "我一个人挺开心的。#$e#我不需要新朋友。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:Sat4",
+      "author_key": "Sat4",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe alles, was ich zum Überleben brauche und mehr. Die Natur spielt eine wundervolle Melodie, wenn du ihr nur zuhörst.",
+        "es": "Tengo todo lo que necesito para sobrevivir, y más. La naturaleza toca una hermosa melodía si sabes escucharla.",
+        "fr": "J’ai tout ce dont j’ai besoin pour survivre, et plus encore. La nature joue une mélodie merveilleuse si tu sais l’écouter.",
+        "hu": "Mindenem megvan, ami a túléléshez kell, sőt. A természet gyönyörű dallamot hallat, ha megtanulod, hogyan lehet meghallgatni.",
+        "it": "Ho tutto ciò che mi serve per sopravvivere, e anche di più. La Natura suona una magnifica melodia, basta imparare ad ascoltarla.",
+        "ja": "生きるのに 必要なものは 十分にある。耳を すませば 自然の 美しい 音色を 聞けるようになるぞ。",
+        "en": "I have everything I need to survive, and more. Nature plays a wonderful tune if you can only learn to listen.",
+        "ko": "난 살아가기 위해 필요한 것들 이상으로 가지고 있지. 듣는 법만 배운다면 대자연은 경이로운 선율을 들려주고 있다네.",
+        "pt": "Tenho tudo o que preciso para sobreviver e um pouco mais. A natureza tem um som muito melodioso quando você aprende a escutar.",
+        "ru": "У меня есть все, что нужно для выживания, и даже больше. Природа напевает чудесную мелодию, нужно только научиться слушать.",
+        "tr": "Hayatta kalmak için her şeye, hatta fazlasına sahibim. Doğayı dinlemeyi öğrenirsen güzelim melodisini duyabilirsin.",
+        "zh": "我具备生存所需的一切能力，甚至更多。如果你能学着去聆听，就能听见大自然发出的美妙旋律。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:Sun",
+      "author_key": "Sun",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "#$1 linusVandal#Letzte Nacht hat jemand Steine auf mein Zelt geworfen... Ich musste abwarten, bis es aufhörte.$s$k#$e#Ich mag es nicht, zu lange an einem Ort zu verharren. Es gibt in der Welt einfach zu viel zu erkunden.",
+        "es": "#$1 linusVandal#Alguien estuvo tirando piedras a mi tienda de campaña anoche... Tuve que esperar a que se cansara.$s$k#$e#No me gusta quedarme demasiado tiempo en un sitio. Hay demasiadas cosas que experimentar en este mundo.",
+        "fr": "#$1 linusVandal#Quelqu’un a jeté des cailloux sur ma tente hier soir... Il a fallu que je prenne mon mal en patience.$s$k#$e#Je n’aime pas rester au même endroit trop longtemps. Il y a tant à voir dans le monde.",
+        "hu": "#$1 linusVandal#Tegnap este valaki kövekkel dobálta meg a sátramat... Csak ki kellett várnom.$s$k#$e#Nem szeretek sokáig egy helyen lenni. Túl sok dolgot lehet tapasztalni a világban.",
+        "it": "#$1 linusVandal#Stanotte qualcuno ha tirato dei sassi contro la mia tenda... Ho solo dovuto aspettare che finissero.$s$k#$e#Non mi piace restare troppo a lungo nello stesso posto. Ci sono troppe cose di cui fare esperienza nel mondo.",
+        "ja": "#$1 linusVandal#昨晩、 誰かが オレの テントに 石を 投げつけやがった…終わるまで 耐えるしか なかったな。$s$k#$e#同じ場所に あまり 長い時間 いるのは 好かん。世界中で 経験できることは 数え切れないほど あるからな。",
+        "en": "#$1 linusVandal#Someone was throwing rocks at my tent last night... I just had to wait it out.$s$k#$e#I don't like to stay in one place for too long. There's just too much to experience in the world.",
+        "ko": "#$1 linusVandal#누군가 어젯밤 내 텐트에 돌을 던지고 있었네... 난 그저 기다리는 수밖에 없었지.$s$k#$e#한 곳에 너무 오래 머무르는 건 싫네. 세상에 경험할 것이 너무 많아.",
+        "pt": "#$1 linusVandal#Alguém estava jogando pedras na minha tenda na noite passada... Tive que esperar.$s$k#$e#Não gosto de ficar num lugar só por muito tempo. O mundo possui tanto a nos mostrar...",
+        "ru": "#$1 linusVandal#Вчера вечером кто-то кидался камнями в мою палатку... Мне пришлось это переждать.$s$k#$e#Не люблю долго оставаться на одном месте. Слишком много всего интересного в мире.",
+        "tr": "#$1 linusVandal#Dün gece birileri çadırıma taş atıyordu... Durmasını beklemek zorundaydım.$s$k#$e#Bir yerde çok kalmayı sevmiyorum, dünyada keşfedilecek çok şey var.",
+        "zh": "#$1 linusVandal#昨天晚上有人朝我的帐篷扔石头……我只能等他们扔完。$s$k#$e#我不喜欢在一个地方呆太长的时间。世界上有太多有意思的事情可以去经历了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:Sun4",
+      "author_key": "Sun4",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wenn mich die Leute nur für das akzeptieren könnten, was ich bin...$s#$b#Ich mag es, hier draußen an der frischen Luft zu leben. Das können sie nicht verstehen.",
+        "es": "Estaría bien que los vecinos me aceptaran por ser quien soy.$s#$b#Me gusta vivir fuera, al aire libre. Eso es lo que no entienden.",
+        "fr": "Ce serait bien si les gens du village pouvaient m’accepter tel que je suis.$s#$b#J’aime vivre ici au grand air. Mais ils n’ont pas l’air de le comprendre ça.",
+        "hu": "Jó lenne, ha a városiak elfogadnának olyannak, amilyen vagyok.$s#$b#Én csak szeretek a friss levegőn élni. És ők ezt nem értik meg.",
+        "it": "Sarebbe bello se i paesani potessero accettarmi per ciò che sono.$s#$b#Mi piace vivere qua fuori all'aria aperta. È questo che non comprendono.",
+        "ja": "町の人が あるがままの オレを 受け入れてくれれば いいんだが。$s#$b#外の空気が 好きだから ここに いるのに。ヤツらは 理解 してくれない。",
+        "en": "It would be nice if the townspeople could accept me for who I am.$s#$b#I like living out here in the open air. That's what they don't understand.",
+        "ko": "마을 주민들이 나를 있는 그대로 받아들였으면 좋을 텐데.$s#$b#난 이렇게 야외에서 지내는 게 좋아. 그들이 그걸 이해하지 못하는 것 같네.",
+        "pt": "Seria legal se os moradores pudessem me aceitar como sou.$s#$b#Gosto de viver aqui, ao ar livre. Mas eles não entendem isso.",
+        "ru": "Было бы здорово, если бы остальные принимали меня таким, какой я есть.$s#$b#Мне нравится жить здесь, под открытым небом. Этого они и не могут понять.",
+        "tr": "Kasaba halkı beni olduğum gibi kabul etseydi harika olurdu.$s#$b#Burada açık havada yaşamayı seviyorum, bunu anlamıyorlar.",
+        "zh": "如果镇子里的人能够接受我的生活方式就好了。$s#$b#我喜欢住在户外。他们就是不懂这点。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:Thu",
+      "author_key": "Thu",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "... Hmm? Brauchst du etwas von mir?",
+        "es": "¿...Hmm? ¿Necesitas algo?",
+        "fr": "Mmm...? Tu as besoin de quelque chose ?",
+        "hu": "...Hmm? Szükséged van valamire?",
+        "it": "...Hmm? Vuoi qualcosa da me?",
+        "ja": "…ん？オレに 何か 用か？",
+        "en": "...Hmm? Do you want something from me?",
+        "ko": "...흠? 내게서 뭔가 원하는 게 있나?",
+        "pt": "... Huum? Quer alguma coisa de mim?",
+        "ru": "... Хм-м? Тебе что-то от меня нужно?",
+        "tr": "...Hım, benden bir şey mi istiyorsun?",
+        "zh": "……嗯？你有什么想要的吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:Thu4",
+      "author_key": "Thu4",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Die Leute hier scheinen nett zu sein, aber sie meiden mich.#$e#Menschen haben Angst vor dem Unbekannten.$u",
+        "es": "Los vecinos del pueblo parecen amables, pero me evitan.#$e#La gente teme a lo desconocido.$u",
+        "fr": "Les gens d’ici ont l’air sympa, mais ils m’évitent.#$e#Les gens ont peur de l’inconnu.$u",
+        "hu": "Az itteni emberek kedvesnek tűnnek, de kerülnek engem.#$e#Az emberek félnek az ismeretlentől.$u",
+        "it": "La gente di qui pare gentile, ma mi evita.#$e#Le persone temono l'ignoto.$u",
+        "ja": "ここの 人々は 悪くないが、 オレを 避けている。#$e#みんな よく知らないものには 恐れるんだ。$u",
+        "en": "The people here seem nice, but they avoid me.#$e#People are afraid of the unknown.$u",
+        "ko": "여기 사람들은 착해 보이지만, 나를 피해 다닌다네.#$e#사람들은 미지의 것들을 두려워하지.$u",
+        "pt": "As pessoas aqui parecem gentis, mas me evitam.#$e#Elas têm medo do desconhecido.$u",
+        "ru": "Люди здесь неплохие, но они меня избегают.#$e#Люди боятся неизвестного.$u",
+        "tr": "Buradaki insanlar iyi gibiler ama benden çekiniyorlar.#$e#İnsan bilinmeyenden korkar.$u",
+        "zh": "这里的人看起来很友善，但是他们躲着我。#$e#人们会对未知的事物感到害怕。$u"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:Tue",
+      "author_key": "Tue",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "... Bist du gekommen, um dich über mich lustig zu machen?#$e#Ich kümmere mich um meinen eigenen Kram.",
+        "es": "¿Has venido a burlarte de mí...?#$e#Aquí no molesto a nadie.",
+        "fr": "... Es-tu venu pour te moquer de moi ? #$e#Je m’occupe uniquement de ce qui me regarde.",
+        "hu": "...Azért jöttél, hogy gúnyolódj rajtam?#$e#Csak teszem a napi dolgaimat.",
+        "it": "...Sei qui per burlarti di me?#$e#Non sto dando fastidio a nessuno.",
+        "ja": "…オレを 笑うために 来たのか？#$e#オレのことは ほっといてくれ。",
+        "en": "...Have you come to ridicule me?#$e#I'm just minding my own business.",
+        "ko": "...나를 조롱하러 온 건가?#$e#난 남에게 폐를 끼치고 있지 않네만.",
+        "pt": "... Você veio zombar de mim?#$e#Estou só cuidando da minha vida.",
+        "ru": "... Будешь надо мной издеваться?#$e#Я никому не мешаю.",
+        "tr": "...Dalga geçmeye mi geldin?#$e#Ben sadece işime bakıyorum.",
+        "zh": "……你是来嘲笑我的吗？#$e#我只是专注于自己的事情而已。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:Tue4",
+      "author_key": "Tue4",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du kannst lernen, wie du in der Wildnis überlebst. Ich habe es getan.#$e#Wir alle haben das versteckte Bedürfnis, zurück in die Natur zu gehen. Es kostet nur Überwindung, den ersten Schritt zu machen.",
+        "es": "Se puede aprender a sobrevivir en la naturaleza salvaje. Yo lo he hecho.#$e#Creo que todos tenemos una necesidad oculta de volver a la naturaleza. Solo que da miedo dar el paso.",
+        "fr": "On peut apprendre à survivre dans la nature. J’y suis arrivé.#$e#Je pense que nous avons tous ce besoin pressant de nous rapprocher de la nature. Mais c’est effrayant de franchir le pas.",
+        "hu": "Megtanulhatod, hogy hogyan élheted túl a vadonban. Mint én.#$e#Úgy hiszem titokban mindannyian vissza akarunk térni a természetbe. Csak kissé ijesztő megtenni az első lépéseket.",
+        "it": "Puoi imparare a sopravvivere allo stato brado. Io ho imparato.#$e#Credo che abbiamo tutti un impulso nascosto a ritornare alla natura. Solo che compiere il balzo fa un po' paura.",
+        "ja": "自然の中で 生きるすべを 学ぶんだ。オレは そうした。#$e#人間はみな、 自然に 帰りたいと 思う時が あるんだろう。ただ その 一歩を 踏み出せないだけでな。",
+        "en": "You can learn to survive in the wild. I have.#$e#I think we all have a hidden urge to return to nature. It's just a little scary to make the leap.",
+        "ko": "야생에선 생존하는 법을 배울 수 있지. 내가 그랬어.#$e#우리 모두 자연으로 돌아가고픈 숨겨진 충동이 있는 것 같네. 단지 이행하는 것이 어려울 뿐이지.",
+        "pt": "Você pode aprender a sobreviver em um ambiente selvagem. Eu aprendi.#$e#Acho que todos temos uma vontade escondida de voltar à natureza. Só é difícil tomar coragem.",
+        "ru": "Научиться выживать в дикой природе вполне возможно. Я же научился.#$e#Думаю, в каждом из нас есть скрытое стремление вернуться в дикую природу. Просто немного страшно пойти на этот шаг.",
+        "tr": "Doğada hayatta kalmayı öğreniyorsun. Ben öğrendim.#$e#Bence hepimizin içinde doğaya dönme isteği var. Sadece o adımı atmak korkutucu geliyor.",
+        "zh": "你可以学着在野外生存。我就是这样。#$e#我想我们心里都藏着一份想要回到大自然里的冲动。只是迈出那一步有点吓人而已。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:Wed",
+      "author_key": "Wed",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich kenne dich nicht gut genug, um dir zu vertrauen. Tut mir leid.",
+        "es": "No te conozco lo suficiente como para confiar en ti. Lo siento.",
+        "fr": "Je ne te connais pas assez pour te faire confiance. Désolé.",
+        "hu": "Nem ismerlek eléggé, hogy megbízzak benned. Sajnálom.",
+        "it": "Non ti conosco abbastanza per potermi fidare. Spiacente.",
+        "ja": "信用しようにも、 君の ことは よく知らないな。ごめんね。",
+        "en": "I don't know you well enough to trust you. Sorry.",
+        "ko": "자네를 믿기엔 내가 자네에 대해 아는 것이 너무 없어. 유감이네.",
+        "pt": "Não o conheço suficiente para confiar em você. Desculpe.^Não a conheço o suficiente para confiar em você. Desculpe.",
+        "ru": "Я не настолько знаю тебя, чтобы доверять тебе. Прости.",
+        "tr": "Sana güvenecek kadar seni tanımıyorum, kusura bakma.",
+        "zh": "我不够了解你，所以没办法信任你。抱歉。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:Wed2",
+      "author_key": "Wed2",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich muss vorsichtig sein, wenn ich mit Fremden rede. Die meisten Leute mögen keinen \"wilden Mann\".",
+        "es": "Debo tener cuidado con los extraños. Los hombres silvestres no suelen gustar a la gente.",
+        "fr": "Je dois me méfier des étrangers. La plupart des gens n’aiment pas les \"sauvages\".",
+        "hu": "Óvakodnom kell az idegenektől. A legtöbben nem szeretik a 'vadembereket'.",
+        "it": "Devo stare attento agli sconosciuti. A molta gente non piace un 'uomo selvatico'.",
+        "ja": "オレは よそ者に 用心してるんだ。「野生の男」を 好まない人は 多い からな。",
+        "en": "I have to be wary of strangers. Most people don't like a 'wild man'.",
+        "ko": "난 낯선 이를 경계해야 하네. 대부분 사람들은 '야생 사람'을 별로 달가워하진 않거든.",
+        "pt": "Eu tenho que ter medo de estranhos. A maioria das pessoas não gosta de um \"homem selvagem\".",
+        "ru": "Я вынужден остерегаться незнакомцев. Немногим нравится \"дикий человек\".",
+        "tr": "Yabancılar konusunda tetikte olmalıyım. Çoğu insan \"yabani adamı\" sevmez.",
+        "zh": "我得对陌生人保持警惕。大部分人不喜欢“野人”。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:Wed6",
+      "author_key": "Wed6",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe viel Zeit mit Denken verbracht.#$e#Wenn du die Gründe hinter deinen Gedanken vollständig verstehst, erreichst du eine neue Stufe des Seins.",
+        "es": "Dedico mucho tiempo a pensar.#$e#Si consigues entender las motivaciones tras tus pensamientos, has alcanzado un nuevo nivel de existencia.",
+        "fr": "Je passe beaucoup de temps à réfléchir.#$e#Quand on comprend les raisons sous-jacentes de ses réflexions, c’est qu’on a atteint un nouveau niveau de développement de son être.",
+        "hu": "Sok időt töltök gondolkodással.#$e#Ha teljesen megértetted a gondolataid mögött rejlő indokokat, akkor a lét egy új szintjére emelkedtél.",
+        "it": "Passo molto tempo a pensare.#$e#Se riesci a capire a pieno le ragioni dietro ai tuoi pensieri, avrai raggiunto un nuovo livello d'esistenza.",
+        "ja": "オレは沢山 考え事を するほうだ。#$e#自分の 考えの 根拠を 理解しきることが できるようになれば、 より 高度な 存在になれる。",
+        "en": "I spend a lot of time thinking.#$e#If you can fully understand the reasons behind your thoughts, you'll have reached a new level of being.",
+        "ko": "난 생각하는 데 시간을 많이 쓰지.#$e#네가 하는 생각의 근거를 완전히 이해할 수 있게 된다면, 새로운 존재의 수준에 도달하게 된걸세.",
+        "pt": "Passei muito tempo pensando.#$e#Se puder entender totalmente as razões de seus pensamentos, sua existência passará para um novo patamar.",
+        "ru": "Я много времени провожу в раздумьях.#$e#Если сможешь полностью познать мотивы своих мыслей, то выйдешь на новый уровень бытия.",
+        "tr": "Çok düşündüm.#$e#Düşüncelerinin arkasındaki nedenleri anladığında yeni bir varlık seviyesine ulaşıyorsun.",
+        "zh": "我大部分时间都在思考。#$e#如果你能完全理解你的想法背后的深层次原因，那么你就会达到一个全新的高度。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:cc_Boulder",
+      "author_key": "cc_Boulder",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Mein alter Freund, der schimmernde Felsen, ist weitergezogen. Das ist zwar an sich nichts Bedeutendes, aber für mich ist es ein großer Einschnitt.#$b#Aber ich bin froh, dass der alte Fels jetzt etwas mehr von der Welt kennenlernt.$h",
+        "es": "Mi viejo amigo, el peñasco brillante, se ha movido. Puede no parecer un evento importante, pero para mí es un gran cambio.#$b#Aunque me alegra que esa vieja roca vea mundo.$h",
+        "fr": "Mon vieil ami, le rocher scintillant, est parti. Ça n’a pas l’air d’être un événement important, mais pour moi, c’est un gros changement.#$b#Cependant, je suis heureux que ce vieux rocher soit parti à la découverte du monde.$h",
+        "hu": "Régi jó barátom, a ragyogó szikla, továbbállt. Lehet ez nem tűnik fontos eseménynek, de számomra ez nagy változás.#$b#De boldog vagyok, hogy a vén kő végre többet láthat a világból.$h",
+        "it": "Il mio vecchio amico, il masso scintillante, è passato a uno stadio successivo. Potrebbe non sembrare un evento importante, ma per me è un grande cambiamento.#$b#Sono felice, però, che quel vecchio sasso vedrà altre zone del mondo.$h",
+        "ja": "オレの 古くからの 友人である 輝く 大岩が いなくなって しまった。たいした 出来事では ないかも しれないが、 オレにとっては 大きな 変化なんだ。#$b#でもあの 古岩が 広い 世界を 見られるなんて オレも なんだか うれしいんだ。$h",
+        "en": "My old friend, the glimmering boulder, has moved on. It may not seem like an important event, but to me it's a big change.#$b#I'm happy for the old rock to see more of the world, though.$h",
+        "ko": "내 옛 친구, 빛나는 바위가 자리를 떠났네. 그렇게 중요한 사건 같지 않을 수 있지만, 내겐 큰 변화야.#$b#바위가 더 넓은 세상을 보러 갔을 테니 기쁘긴 하네.$h",
+        "pt": "Minha velha amiga, a pedra brilhante, foi embora. Pode não parecer um evento importante, mas para mim é uma grande mudança.#$b#Fico feliz em saber que a velha pedra vai ver mais do mundo.$h",
+        "ru": "Мой старый друг, сверкающий булыжник, куда-то делся. Кому-то это может показаться неважным, а для меня большое дело.#$b#Но я рад, что старый каменюка увидит мир.$h",
+        "tr": "Eski dostum parlayan kaya kayıp gitti. Önemli bir olay gibi görünmüyor olabilir. Benim için çok önemli ama.#$b#Gerçi o yaşlı kayanın dünyayı görecek olmasına seviniyorum.$h",
+        "zh": "我的老朋友，闪闪发光的巨石，已翻开新篇章。虽然这可能并不是一件重要的事，但对我来说，这是一个巨大的变化。#$b#不过，我乐意让老石头多看看这个世界。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "community_center_event",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "community_center"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:eventSeen_8357109",
+      "author_key": "eventSeen_8357109",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das Wasser hier kommt von Gletschern hoch oben in den Bergen.#$e#Ich bin einmal zu der Quelle gereist, um dem Wasser meinen Respekt zu erweisen.",
+        "es": "El agua de aquí viene de la cima de las montañas.#$e#Viajé a la fuente una vez, solo para mostrar mis respetos al agua.",
+        "fr": "L’eau ici vient des glaciers situés en haut des montagnes.#$e#Une fois, je suis allé jusqu’à la source, juste pour rendre hommage à cette eau.",
+        "hu": "Az itteni víz a magasból, a hegyi gleccserekből származik.#$e#Egyszer elutaztam a forráshoz, csak azért, hogy lerójam tiszteletemet a víznek.",
+        "it": "Quest'acqua proviene dai ghiacciai in cima alle montagne.#$e#Una volta ho viaggiato fino alla sorgente, solo per rendere omaggio all'acqua.",
+        "ja": "この水は山の上にある氷河からわき出しているんだ。#$e#オレは一度だけ、この水に感謝するためにそこに行ったことがある。",
+        "en": "The water here comes from glaciers high up in the mountains.#$e#I traveled to the source once, just to pay my respects to the water.",
+        "ko": "이곳 물은 높은 산의 빙하에서 흘러내려오지.#$e#직접 그곳까지 올라가 본 적이 있다네, 물에 예를 표하기 위해서.",
+        "pt": "A água daqui vem do gelo bem no topo das montanhas.#$e#Uma vez eu viajei até a nascente, só para agradecer pela água.",
+        "ru": "Вода стекает сюда с ледников высоко в горах.#$e#Однажды я поднялся к источнику, просто чтобы отдать дань уважения воде.",
+        "tr": "Buradaki su, dağın tepesindeki buzullardan geliyor.#$e#Bir keresinde kaynağına kadar gitmiştim, saygılarımı sunmuştum.",
+        "zh": "这里的水来自山顶上的冰川。#$e#我曾经去过一次水源，为了向水表示敬意。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'eventSeen_8357109' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:fall_Mon",
+      "author_key": "fall_Mon",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe die Höhlen weit erkundet.#$e#Sie hüten ein paar Geheimnisse.#$e#Pass nur auf, wenn du sie betrittst.",
+        "es": "He explorado la profundidad de las cuevas.#$e#Contienen algunos secretos ocultos.#$e#Ten cuidado si entras allí.",
+        "fr": "J’ai exploré le fond des grottes.#$e#Elles ont des secrets cachés.#$e#Fais attention si tu y vas.",
+        "hu": "Bejártam a barlangok legmélyét.#$e#Sok rejtett titok lapul bennük.#$e#Csak légy óvatos, ha bemennél egybe.",
+        "it": "Ho esplorato le caverne in profondità.#$e#Esse celano alcuni segreti.#$e#Ma fai attenzione, se vai là dentro.",
+        "ja": "オレは 洞窟の 奥まで 探索した。#$e#そこには 秘密が 隠されているようだ。#$e#君も 洞窟へ 入るなら 気をつけるんだな。",
+        "en": "I've explored deep into the caves.#$e#They hold some hidden secrets.#$e#Just be cautious if you go in there.",
+        "ko": "동굴 깊은 곳을 탐험해봤다네.#$e#숨겨진 비밀을 간직하고 있더군.#$e#다만, 들어갈 생각이라면 조심하게.",
+        "pt": "Explorei as cavernas bem a fundo.#$e#Elas escondem alguns segredos.#$e#Tenha cuidado quando for lá.",
+        "ru": "Я заходил глубоко в пещеры.#$e#В них сокрыты особые тайны.#$e#Только будь осторожен, если спустишься туда.",
+        "tr": "Mağaranın derinliklerine kadar indim.#$e#İçi sır dolu.#$e#Oraya gidersen dikkatli ol.",
+        "zh": "洞穴里很深的地方我都有探索过。#$e#这些山洞有一些隐藏的秘密。#$e#进去那里面的话一定要小心。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:fall_Sun",
+      "author_key": "fall_Sun",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich mag es nicht, zu lange an einem Ort zu verharren.",
+        "es": "No me gusta quedarme demasiado tiempo en un sitio.",
+        "fr": "Je n’aime pas rester au même endroit trop longtemps.",
+        "hu": "Nem szeretek sokáig egy helyen maradni.",
+        "it": "Non mi piace restare troppo a lungo nello stesso posto.",
+        "ja": "同じ場所に あまり 長い時間 いるのは 好かん。",
+        "en": "I don't like to stay in one place for too long.",
+        "ko": "한 곳에 너무 오래 머무르는 건 싫네.",
+        "pt": "Não gosto de ficar em um lugar por muito tempo.",
+        "ru": "Не люблю долго оставаться на одном месте.",
+        "tr": "Bir yerde uzun süre kalmayı sevmiyorum.",
+        "zh": "我不喜欢在一个地方呆太长的时间。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:fall_Sun6",
+      "author_key": "fall_Sun6",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Es geht doch nichts über ein Festmahl aus wilden Pilzen im Herbst.$h",
+        "es": "Nada como un banquete de setas silvestres en otoño.$h",
+        "fr": "Rien de tel qu’un festin de champignons sauvages en automne.$h",
+        "hu": "Nincs is jobb az őszi vad gombákból való belakmározásnál.$h",
+        "it": "In autunno non c'è niente come un piattone di funghi selvatici.$h",
+        "ja": "秋に とれる 野生のキノコは まさに 最高の 食事だな。$h",
+        "en": "There's nothing quite like a feast of wild mushrooms in the fall.$h",
+        "ko": "가을철의 야생 버섯으로 차린 만찬만 한 게 없지.$h",
+        "pt": "Não tem nada como um banquete de cogumelos selvagens no outono.$h",
+        "ru": "Грибной пир осенью — это что-то особенное.$h",
+        "tr": "Güzde yabani mantar ziyafeti vermek gibisi yoktur.$h",
+        "zh": "没有什么比得上秋天里的一场蘑菇宴了。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:fall_Tue4",
+      "author_key": "fall_Tue4",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "#$1 LinusFall1#Irgendein Witzbold hat in der Nacht Farbe über mein ganzes Haus gesprüht... Es hat Stunden gedauert, alles wieder zu entfernen.$k#$e#Es wird Zeit, Holz für den Winter zu sammeln.#$e#Hast du genug Holz, um ordentlich zu heizen?",
+        "es": "#$1 LinusFall1#Algún graciosillo llenó mi hogar de pintadas anoche... Me he pasado toda la mañana limpiando pintura.$k#$e#Tengo que empezar a reunir leña para el invierno.#$e#¿Tienes la suficiente como para que no haga frío en casa?",
+        "fr": "#$1 LinusFall1#Un petit plaisantin s’est amusé à peindre ma tente pendant la nuit... J’ai mis des heures à la nettoyer.$k#$e#Il faut que je commence à rassembler du bois pour l’hiver.#$e#Est-ce que tu as assez de bois pour garder ta maison au chaud ?",
+        "hu": "#$1 LinusFall1#Valami vicces kedvű alak este befújta festékkel az otthonomat... Reggel több órámba telt, mire sikerült lesikálnom.$k#$e#Fát kell gyűjtenem a télre.#$e#Van elég fád, hogy melegen tartson téged télen?",
+        "it": "#$1 LinusFall1#Durante la notte, qualche burlone mi ha spruzzato della vernice su tutta la casa... C'ho messo ore, stamattina, per grattarla via.$k#$e#Devo iniziare a raccogliere legna per l'inverno.#$e#Hai abbastanza legna, tu, per tener calda la tua casa?",
+        "ja": "#$1 LinusFall1#夕べ、 どこかの 誰かが オレの家を ペンキまみれに しやがった…今朝、 数時間かけて 洗い落としたさ。$k#$e#冬に備えて、 マキを 集めなきゃならんな。#$e#暖を取るための マキは 家に 十分 おいてあるか？",
+        "en": "#$1 LinusFall1#Some joker sprayed paint all over my home during the night... It took hours to scrub it off this morning.$k#$e#I need to start gathering lumber for the winter.#$e#Do you have enough lumber to keep your house warm?",
+        "ko": "#$1 LinusFall1#웃기는 녀석이 밤사이 내 집에 페인트를 잔뜩 뿌렸네... 아침에 닦아내느라 몇 시간씩 걸렸어.$k#$e#겨울을 나기 위해 목재를 모아야겠네.#$e#자네는 집을 따뜻하게 데울 만큼 목재가 충분한가?",
+        "pt": "#$1 LinusFall1#Algum idiota pichou toda a minha tenda durante a noite... Levei horas para limpar hoje de manhã.$k#$e#Preciso começar a coletar madeira para o inverno.#$e#Você tem madeira o suficiente para manter sua casa aquecida?",
+        "ru": "#$1 LinusFall1#Какой-то шутник расписал мне ночью весь дом... Пришлось потратить утром несколько часов, чтобы его отмыть.$k#$e#Нужно начинать заготавливать дрова на зиму.#$e#У тебя достаточно дров, чтобы согреть дом зимой?",
+        "tr": "#$1 LinusFall1#Dün gece soytarının teki çadırımı boyamış... Sabah boyayı çıkarmak için saatlerce uğraştım.$k#$e#Kış için odun toplamam gerekiyor.#$e#Evini sıcak tutacak kadar odunun var mı senin?",
+        "zh": "#$1 LinusFall1#有些家伙晚上在我的房子四周到处喷颜料……今天早上我花了好几个小时才擦干净。$k#$e#我得开始为过冬准备木材了。#$e#你有没有为取暖准备足够的木头呢？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:fall_Wed4",
+      "author_key": "fall_Wed4",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe nicht viele Pflichten, also bin ich oft in Gedanken versunken.#$e#Du musst deine eigenen Vorstellungen verstehen, bevor du sie kontrollieren kannst.",
+        "es": "No tengo muchas responsabilidades, así que me dedico a pensar.#$e#Hay que entender los pensamientos antes de poderlos controlar.",
+        "fr": "Je n’ai pas beaucoup de responsabilités, alors je passe la plupart du temps à réfléchir.#$e#Tu dois comprendre tes pensées avant de pouvoir les contrôler.",
+        "hu": "Nincs túl sok felelősségem, szóval az időmet gondolkodással töltöm.#$e#Meg kell értened a gondolataidat, mielőtt irányítanád őket.",
+        "it": "Dato che non ho molte responsabilità, passo il tempo a pensare.#$e#Devi comprendere i tuoi pensieri, prima di poterli controllare.",
+        "ja": "オレは あまり多くの 責任を 持っていないから、 考えることに 時間を 費やせる。#$e#思考を 意のままに 操るには、 まずそれを 理解する 必要があるんだ。",
+        "en": "I don't have many responsibilities, so I spend my time thinking.#$e#You have to understand your thoughts before you can control them.",
+        "ko": "내가 책임져야 할 것이 많지 않아서, 많은 시간을 생각하며 보내네.#$e#우선 자신의 생각을 이해해야 다스릴 수 있는 걸세.",
+        "pt": "Não tenho muitas responsabilidades, então passo um bom tempo pensando.#$e#Você tem que entender seus pensamentos antes de poder controlá-los.",
+        "ru": "Дел у меня немного, так что я много думаю.#$e#Нужно понять свои мысли, прежде чем сможешь ими управлять.",
+        "tr": "Fazla sorumluluğum yok, zamanımı düşünerek geçiriyorum.#$e#Düşüncelerini kontrol etmeye çalışmadan önce onları anlaman gerekiyor.",
+        "zh": "我是无事一身轻，所以我把时间都花在思考上。#$e#你必须在你能控制自己的想法之前弄清楚它们。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:married",
+      "author_key": "married",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich dachte einmal daran, den Bund fürs Leben zu schließen. Aber jetzt bin ich glücklich verheiratet mit dem Wind, der in den Blättern raschelt und den Fröschen, die unter dem Silbermond quaken.",
+        "es": "Pensé en decir el sí quiero, una vez. Pero ahora, estoy felizmente casado con el viento susurrando a las hojas, y a las ranas croando bajo la luna plateada.",
+        "fr": "J’ai pensé à me marier avec quelqu’un, une fois. Mais j’ai décidé de me marier avec le vent qui bruisse dans les feuilles et les grenouilles qui coassent sous la lune argentée.",
+        "hu": "Egyszer gondoltam rá, hogy megházasodom. De most boldog harmóniában élek a levelek között suhogó széllel és az ezüst hold alatt brekegő békákkal.",
+        "it": "Pensavo anch'io di legarmi a qualcuno, un tempo. Ma ora sono felicemente sposato al vento che fa frusciare le foglie, e alle rane che gracidano sotto la luna d'argento.",
+        "ja": "むかし一度だけ結婚を考えたことがあったんだ。だけど今は、月明かりの下で風に揺れる木々やカエルといっしょにしあわせに暮らしているよ。",
+        "en": "I thought about tying the knot, once. But now, I'm happily married to the wind rustling in the leaves, and the frogs croaking under the silver moon.",
+        "ko": "나도 한때 결혼을 생각했었지. 하지만 이젠 내 배우자는 잎사귀를 흔드는 바람과 은빛 달 아래 우는 개구리들이라네.",
+        "pt": "Sabia que eu já pensei em me casar uma vez? Mas agora, eu sou feliz de estar casado com o vento que mexe as folhas, e os sapos que coaxam sob a luz prateada da lua.",
+        "ru": "Однажды я хотел связать себя с кем-то узами брака. Сейчас же я в счастливом союзе с ветром, шуршащим в листьях, и лягушками, квакающими под луной.",
+        "tr": "Bir aralar birisiyle evlenmeyi ben de düşündüm. Ama şimdi, yapraklarda hışıldayan rüzgarla ve gümüş ay altında vırak vırak öten kurbağalarla mutlu bir evliliğim var.",
+        "zh": "我以前考虑过结婚，不过现在有风吹过树叶沙沙作响，皎洁的月光下有青蛙呱呱叫，我也算有伴了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'married' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:mineArea_80",
+      "author_key": "mineArea_80",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Nur sehr wenige Leute haben sich so tief in die Minen begeben wie du.",
+        "es": "Muy poca gente se ha adentrado tanto en las minas como tú.",
+        "fr": "Très peu de gens sont allés aussi loin dans les mines comme toi.",
+        "hu": "Nagyon kevés ember jutott le olyan mélyre a bányákba, mint te.",
+        "it": "In pochissimi si sono avventurati a fondo nelle miniere quanto te.",
+        "ja": "アンタほど鉱山の奥深くまで入った人間はほとんどいない。",
+        "en": "Very few people have gone as deep into the mines as you have.",
+        "ko": "자네만큼 폐광에 깊이 들어간 사람도 드물지.",
+        "pt": "Poucas pessoas se aventuraram tão profundamente como você nessa mina.",
+        "ru": "Мало кто забирался так же глубоко в шахты, как ты.",
+        "tr": "Madende bu kadar ilerleyebilen çok az insan oldu.",
+        "zh": "很少有人能像你这样到达矿井这么深的地方。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'mineArea_80' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:movieTheater",
+      "author_key": "movieTheater",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Kino? Hmm... für mich ist das langsame Voranschreiten der Natur das einzige Drama, das ich brauche.",
+        "es": "¿Cine? Hmm... para mi, el lento ciclo de la naturaleza es todo lo que necesito.",
+        "fr": "Le cinéma ? Hmm... pour moi, la lente procession de la nature est tout le drame dont j’ai besoin.",
+        "hu": "Mozi? Hmm... számomra a természet lassú körforgása az egyetlen dráma amire szükségem van.",
+        "it": "Cinema? Hmm... per me, il lento procedere della natura è l'unico film di cui ho bisogno.",
+        "ja": "映画館？うーん… オレにとっては自然のゆったりとした時間の流れが最高の物語なんだよ。",
+        "en": "Movie theater? Hmm... for me, the slow procession of nature is all the drama I need.",
+        "ko": "영화관? 흠... 나는 느긋한 자연의 흐름만 보아도 충분히 흥미롭다네.",
+        "pt": "Cinema? Hmm... pra mim, ver o fluir da natureza é interessante o suficiente.",
+        "ru": "Кинотеатр? Хм-м... По мне, так плавные процессы природы — вся драма, которая мне нужна.",
+        "tr": "Sinema mı? Hım... Bana tek gereken, hayatın doğal akışı.",
+        "zh": "电影院吗？唔……对我来说，大自然的万物变迁就是最好的演出了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'movieTheater' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:reject_869",
+      "author_key": "reject_869",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Was hast du da? Sieht aus, als würde es sich gut als Köder eignen.$h",
+        "es": "¿Qué tienes ahí? Parece que sería un buen cebo.$h",
+        "fr": "Qu’est-ce que vous avez là ? Ça pourrait servir d’appât.$h",
+        "hu": "Mi az ott nálad? Abból talán jó csalit lehetne készíteni.$h",
+        "it": "Che cos'hai lì? Potrebbe essere una buona esca.$h",
+        "ja": "何かあるのかい？それはいいエサになりそうだ。$h",
+        "en": "What do you have there? Looks like it would make good bait.$h",
+        "ko": "그건 뭔가? 미끼로 쓰면 잘 통할 것 같네.$h",
+        "pt": "O que você tem ai? Parece que daria uma ótima isca.$h",
+        "ru": "Что это у тебя там? Похоже, из этого выйдет хорошая приманка.$h",
+        "tr": "Bu neymiş? Bundan güzel yem olur gibi.$h",
+        "zh": "你拿着的是什么？看起来是不错的鱼饵原料。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'reject_869' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:summer_Fri4",
+      "author_key": "summer_Fri4",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wann immer du einen Fisch fängst, nimm dir einen Moment Zeit, um ihm für sein Opfer zu danken.#$b#Selbst wenn du nicht an die Seele des Fischs glaubst, ist es eine gute mentale Übung. Wir müssen uns über unsere Auswirkungen auf die Umwelt im Klaren sein.",
+        "es": "Cuando pesques, dedica un momento a agradecer al pez su sacrificio.#$b#Aunque no creas en el espíritu de los peces, es un buen ejercicio mental. Tenemos que ser conscientes de nuestro efecto en el entorno.",
+        "fr": "Chaque fois que tu attrapes un poisson, prends le temps pour le remercier de son sacrifice.#$b#Même si tu ne crois pas en l’esprit du poisson, c’est un bon exercice mental. Nous devons être conscients de notre impact sur l’environnement.",
+        "hu": "Amikor kifogsz egy halat, egy pillanatra állj meg, és köszönd meg az áldozatát.#$b#Még ha nem is hiszel a hal lelkében, ez egy remek mentális gyakorlat. Tisztában kell lennünk a környezetre mért hatásunkkal.",
+        "it": "Quando ti abbocca un pesce, prenditi un attimo per ringraziarlo del suo sacrificio.#$b#Anche se non credi nello spirito del pesce, è un buon esercizio mentale. Bisogna esser consci del proprio effetto sull'ambiente.",
+        "ja": "魚を 捕まえたら、 その 命に 感謝する 時間を とるんだ。#$b#たとえ 魚に 魂が あるという ことを 信じていなくても、 良い 精神鍛錬に なる。自分が 環境に どんな 影響を 与えているか、 考えないとな。",
+        "en": "Whenever you catch a fish, take a moment to thank it for its sacrifice.#$b#Even if you don't believe in the spirit of the fish, it's a good mental exercise. We need to be aware of our effect on the environment.",
+        "ko": "생선을 잡는다면, 그 희생을 고마워할 시간을 잠시 가지게나.#$b#생선의 혼이 존재하지 않는다 믿어도, 좋은 정신적 훈련일세. 우리는 우리가 환경에 끼치는 영향에 대해 자각하고 있어야 해.",
+        "pt": "Sempre que se pega um peixe, deve-se agradecer por seu sacrifício.#$b#Mesmo que você não acredite no espírito do peixe, é um bom exercício mental. Precisamos nos conscientizar do nosso impacto no meio ambiente.",
+        "ru": "Когда ловишь рыбу, остановись на мгновение и поблагодари рыбу за ее жертву.#$b#Даже если ты не веришь, что у рыбы есть душа, это будет полезной духовной практикой. Нужно понимать, какое влияние мы оказываем на окружающий мир.",
+        "tr": "Balık yakaladığında ona fedakarlığı için teşekkür et...#$b#Balığın ruhuna inanmasan bile akıl egzersizi yapmış olursun. Çevre üzerindeki etkimizi fark etmemiz gerekiyor.",
+        "zh": "当你抓到一条鱼的时候，要花一秒钟去感谢它所做出的牺牲。#$b#即使你不相信鱼有灵魂，这也是很好的精神锻炼。我们需要了解我们对环境的影响。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:summer_Mon",
+      "author_key": "summer_Mon",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "#$1 LinusHeron#Ich habe einen Reiher grazil durch den Morgennebel stolzieren sehen. Das sind die Schätze eines stillen Lebens.$k#$e#Es ist so einfach, vom Lärm des modernen Lebens mitgerissen zu werden. Deine besten Jahre ziehen vage an dir vorbei... Deswegen musst du lernen, langsamer zu werden.",
+        "es": "#$1 LinusHeron#He visto una garza planeando elegantemente por la niebla matinal. Es un ejemplo de los tesoros de una vida tranquila.$k#$e#Es muy fácil quedar atrapado en el ajetreo de la vida moderna. Tus mejores años pasarán de largo en forma de borrón. Por eso tienes que aprender a ir más despacio.",
+        "fr": "#$1 LinusHeron#J’ai vu un héron qui pataugeait gracieusement dans la brume matinale. Cela fait partie des merveilles d’une vie tranquille.$k#$e#Il est si facile de se laisser submerger par le tumulte de la vie moderne. Nos meilleures années y passent en coup de vent. C’est pour ça que j’ai appris à ralentir un peu.",
+        "hu": "#$1 LinusHeron#Egy kócsagot láttam kecsesen gázolni a reggeli ködben. Ilyenek a csendes élet kincsei.$k#$e#Olyan könnyű belegabalyodni a modern élet zajába. A legjobb éveid pazarlódnak el egy nagy homályos katyvaszban. Ezért kell megtanulnod, hogy hogyan lassíts le.",
+        "it": "#$1 LinusHeron#Ho visto un airone che attraversava con grazia la bruma mattutina. Tali sono i tesori di una vita quieta.$k#$e#È così facile lasciarsi invischiare nei rumori della vita moderna. Gli anni migliori ti passeranno accanto informi e sfocati. Per questo bisogna imparare a rallentare.",
+        "ja": "#$1 LinusHeron#朝霧の中を 優雅に 飛ぶ アオサギを 見た。静かな 生活だからこそ 得られる 宝物さ。$k#$e#都会だったら 騒音に かき消されてしまう だろうな。ぼやけた 世界の 中では 最高の 日々など すぐに 過ぎ去ってしまう。だから ペースを 落とすことは 大切なんだ。",
+        "en": "#$1 LinusHeron#I saw a heron wading gracefully through the morning mist. Such are the treasures of a quiet life.$k#$e#It's so easy to get caught up in the noise of modern life. Your best years will pass you by in a formless blur. That's why you've got to learn to slow down.",
+        "ko": "#$1 LinusHeron#황새가 우아하게 아침 안개를 헤치고 나아가는 것을 보았네. 조용한 삶의 보물들이란 이런 거지.$k#$e#현대적인 삶의 소음에 휩싸이기는 참 쉬워. 최고의 시간을 뚜렷한 형체 없이 흐릿하게 보내버리는 수가 있어. 그래서 느긋해지는 법을 배워야 하는 걸세.",
+        "pt": "#$1 LinusHeron#Vi uma garça passando graciosamente pela neblina da manhã. Estes são os tesouros de uma vida tranquila.$k#$e#É tão fácil se distrair com o barulho da vida moderna. Os melhores anos da sua vida vão passar como um borrão. É por isso que é importante aprender a relaxar.",
+        "ru": "#$1 LinusHeron#Сквозь утреннюю дымку я видел, как цапля грациозно вышагивала по воде. Таковы сокровища тихой жизни.$k#$e#Слишком уж легко затеряться в шуме современной жизни. Лучшие твои годы пройдут бесформенным пятном. Поэтому нужно научиться притормозить.",
+        "tr": "#$1 LinusHeron#Sabahın sisinde zarafetle inen bir balıkçıl gördüm. Böyleleri sakin hayatın hazineleri işte.$k#$e#Modern hayatın gürültüsüne kendini kaptırmak çok kolay, hayatının en güzel yılları bulanıklık içinde geçiveriyor. İşte bu yüzden sakinleşmeyi öğrenmelisin.",
+        "zh": "#$1 LinusHeron#今早有些起雾，我看见一只鹭鸟优雅地踏着雾气飞去。这大概就是小镇生活的好处之一吧。$k#$e#人们总是十分容易地被城市的喧嚣影响。匆匆忙忙地过了不知所以的几十年。所以说，还是慢一点，悠然一点生活更好。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:summer_Mon4",
+      "author_key": "summer_Mon4",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "In all diesen Jahren habe ich einige Geheimnisse über das Leben herausgefunden.#$e#Du wirst schon selbst darauf kommen müssen.",
+        "es": "En todos estos años he descubierto algunos secretos sobre la vida.#$e#Tendrás que descubrirlos por tu cuenta.",
+        "fr": "Pendant toutes ces années, j’ai découvert quelques-uns des secrets de la vie.#$e#Tu devras les découvrir à ton tour.",
+        "hu": "Oly sok év alatt rengeteg titkot fedeztem fel az élettel kapcsolatban..#$e#Ezekre mindre magadtól kell rájönnöd.",
+        "it": "Nel corso di questi anni ho scoperto un po' di segreti sulla vita.#$e#Dovrai capirli da te.",
+        "ja": "最近になって、 人生の 秘密を いくつか 発見したんだ。#$e#それが 何かは 自分で 探すんだな。",
+        "en": "During all these years I've discovered a few secrets about life.#$e#You'll have to find out for yourself.",
+        "ko": "여러 해 살아가며 인생의 몇몇 비밀들을 발견했네.#$e#자네도 직접 알아내봐야 할 거야.",
+        "pt": "Durante todos esses anos, descobri alguns segredos sobre a vida.#$e#Você terá que descobri-los por si mesmo.",
+        "ru": "За все эти годы я узнал пару секретов жизни.#$e#Не могу тебе сказать, их придется узнавать самому.",
+        "tr": "Bunca yıl hayat hakkında birkaç sır öğrendim.#$e#Tabii bunları kendin keşfetmelisin.",
+        "zh": "这么多年来，我发现了一些生命的奥秘。#$e#你得自己去寻找。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:summer_Sat4",
+      "author_key": "summer_Sat4",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du kannst in den Flüssen momentan Regenbogenforellen finden.",
+        "es": "Ahora puedes encontrar truchas arcoíris en los ríos.",
+        "fr": "Tu peux trouver la truite arc-en-ciel dans les rivières en ce moment.",
+        "hu": "A folyóban most szivárványos pisztrángot találhatsz.",
+        "it": "In questo periodo nel fiume si trovano le trote arcobaleno.",
+        "ja": "今なら 沢で ニジマスが つれるだろう。",
+        "en": "You can find rainbow trout in streams right now.",
+        "ko": "지금 개울에서 무지개 송어를 찾을 수 있다네.",
+        "pt": "Você pode encontrar trutas arco-íris nas correntes agora.",
+        "ru": "Сейчас в реках можно поймать радужную форель.",
+        "tr": "Şu an akıntıda renkli alabalık yakalayabilirsin.",
+        "zh": "你现在能在河里找到虹鳟鱼。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:summer_Sun",
+      "author_key": "summer_Sun",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das ist eine einfachere Jahreszeit für mich. Ich muss mir keine Gedanken darüber machen, warm zu bleiben.#$e#Außerdem wachsen überall wilde Früchte.",
+        "es": "Es la época del año más cómoda para mí. No tengo que preocuparme por el frío.#$e#Además, hay frutos silvestres por todas partes.",
+        "fr": "C’est une période de l’année plus facile pour moi. Je n’ai pas à m’inquiéter du froid.#$e#Et on trouve des fruits sauvages un peu partout.",
+        "hu": "Ez számomra az év könnyebbik időszaka. Nem kell aggódnom, hogy esténként fázni fogok.#$e#Plusz a vadon gyümölcsei mindenütt megteremnek.",
+        "it": "Questa non è una stagione dura per me. Non devo preoccuparmi di tenermi caldo.#$e#E poi, dovunque crescono frutti selvatici.",
+        "ja": "夏は オレにとって 住みやすい 季節だ。暖を取る 必要が ないからな。#$e#それに、 野生のくだものも そこらじゅうで 見つかる。",
+        "en": "This is an easier time of year for me. I don't have to worry about staying warm.#$e#Plus, the fruits of the wild are growing everywhere.",
+        "ko": "일 년 중 요즘이 난 좀 수월하다네. 따뜻하게 지내는 데 걱정이 없으니.#$e#추가로, 야생의 과일들이 여기저기 자라고 있다네.",
+        "pt": "Esta época do ano é mais tranquila para mim. Não tenho que me preocupar em me aquecer.#$e#Além disso, as frutas silvestres crescem em todo lugar.",
+        "ru": "Это время года для меня попроще. Не нужно думать, как обогреть себя.#$e#Да и дикие плоды растут повсюду.",
+        "tr": "Şu zamanlar, benim açımdan yılın kolay geçen zamanları. Isınma derdim yok.#$e#Ayrıca, her yerde yetişen yabani meyveler var.",
+        "zh": "这个季节我还算能够过得舒服点。我不用担心取暖的事情。#$e#并且，野外到处都长着果子。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:summer_Thu4",
+      "author_key": "summer_Thu4",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe meine eigenen Gründe dafür, so alleine zu leben.#$e#Manche Dinge werden besser nicht ausgesprochen...#$e#Ich sollte ein wenig sammeln gehen.",
+        "es": "Tengo mis motivos para vivir aquí solo.#$e#Hay cosas que es mejor no decir...#$e#Debería ir a recolectar algo de comida.",
+        "fr": "J’ai mes raisons pour vivre ainsi.#$e#Il vaut mieux ne pas raconter certaines choses...#$e#Je devrais aller faire de la cueillette.",
+        "hu": "Megvan a saját okom arra, hogy ilyen magányosan éljek.#$e#Vannak dolgok, amiket nem szabad kimondani...#$e#Gyűjtögetnem kéne.",
+        "it": "Ho le mie ragioni per vivere da solo a questo modo.#$e#Ci sono cose che è meglio non dire...#$e#Dovrei raccogliere un po' di piante.",
+        "ja": "こんな 生活をするには オレなりの 理由が ある。#$e#秘密のままに したほうが いいだろう…#$e#そろそろ 採集しに 行くか。",
+        "en": "I have my own reasons for living alone like this.#$e#Some things are best left unsaid...#$e#I should do some foraging.",
+        "ko": "내가 이렇게 혼자 사는 데는 나만의 이유가 있다네.#$e#몇몇 사실은 얘기하지 않는 편이 나아...#$e#난 채집 좀 하러 가야겠네.",
+        "pt": "Tenho minhas razões para viver sozinho assim.#$e#É melhor não falar sobre certas coisas...#$e#Preciso coletar recursos.",
+        "ru": "У меня есть свои причины жить вот так, в одиночестве.#$e#О некоторых вещах лучше не говорить...#$e#Нужно заготовить еды.",
+        "tr": "Bu şekilde yaşamak için nedenlerim var.#$e#Bazı şeyler söylenmese daha iyi...#$e#Bir şeyler toplamalıyım.",
+        "zh": "我像这样一个人住，是有自己的原因的。#$e#有些事情还是不说为好……#$e#我应该找点东西吃了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:summer_Tue4",
+      "author_key": "summer_Tue4",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wie geht es dir, mein Kind?",
+        "es": "¿Cómo has estado?",
+        "fr": "Comment vas-tu ?",
+        "hu": "Hogy vagy, fiatal barátom?",
+        "it": "Come te la passi, giovane anima affine?",
+        "ja": "若き友人よ、 どこへ 行ってたんだ？",
+        "en": "How have you been, my young friend?",
+        "ko": "잘 지냈는가, 내 젊은 친구?",
+        "pt": "Como você está, meu jovem amigo?^Como você está, minha jovem amiga?",
+        "ru": "Как твои дела, мой юный друг?",
+        "tr": "Nasılsın genç dostum?",
+        "zh": "你最近怎么样啊，年轻的朋友？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:summer_Wed6",
+      "author_key": "summer_Wed6",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ah... Der Sommer. Die warme Sonne wärmt diese Dosen für mich auf.#$b#Am Abend kann ich mich dann auf eine warme Mahlzeit freuen.",
+        "es": "Ah... El verano. Los rayos del sol me ayudan a calentar las latas.#$b#Así por la noche me espera una cena caliente.",
+        "fr": "Ah... l’été. La chaleur du soleil réchauffe mes boîtes de conserve pour moi.#$b#Comme ça, j’ai un repas chaud qui m’attend le soir.",
+        "hu": "Ah... nyár. A meleg Nap felhevíti a konzervjeimet.#$b#Aztán este meleg étel vár rám.",
+        "it": "Ah... l'estate. Il sole radioso mi fa il favore di scaldarmi i barattoli.#$b#Così di sera ho già pronto un pasto caldo.",
+        "ja": "ああ…夏か。夏の 日差しは 缶を 暖めてくれる。#$b#そのおかげで、 夜は 暖かい 食事が 食べられそうだ。",
+        "en": "Ah... summer. The warm sun heats up the cans for me.#$b#Then at night I've got a warm meal to look forward to.",
+        "ko": "아... 여름. 태양의 열기가 통조림을 데워주지.#$b#그럼 밤에도 따끈한 식사를 기대할 수 있네.",
+        "pt": "Ah... o verão. O sol quente aquece as latinhas para mim.#$b#Então, à noite, tenho uma refeição quente para comer.",
+        "ru": "Ах... Лето. теплое солнце нагревает мне жестянки.#$b#Тогда вечером у меня будет теплая пища.",
+        "tr": "Ah... yaz. Güneş, tenekeleri benim için ısıtıyor.#$b#Gece geldiğindeyse sıcacık yemekleri götürmek için can atıyor oluyorum.",
+        "zh": "啊……夏天。温暖的阳光能帮我加热这些罐头。#$b#然后晚上的时候，我就可以有热乎饭吃了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:winter_Fri4",
+      "author_key": "winter_Fri4",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Die Bäume gehen im Winter schlafen. Das macht das Leben hier draußen etwas einsam.#$e#Aber ich will ihnen nicht ihren Schönheitsschlaf verwehren.$h",
+        "es": "Los árboles se van a dormir durante el invierno. Hace que me sienta un poco solo.#$e#Pero no les negaría su sueño reparador.$h",
+        "fr": "Les arbres dorment en hiver. Ça rend cet endroit trop silencieux.#$e#Mais je ne veux pas les empêcher de dormir.$h",
+        "hu": "A fák aludni térnek a télen. Így egy kissé magányos vagyok.#$e#De nem szeretném felzavarni őket szép álmukból.$h",
+        "it": "D'inverno gli alberi vanno a dormire. Il che mi fa sentire un po' solo, qua fuori.#$e#Ma non voglio certo negar loro il sonnellino di bellezza.$h",
+        "ja": "冬の間は 木々も 静かに 眠る。そのせいで 少し さびしく感じるんだ。#$e#その眠りを 妨げるつもりは ないがな。$h",
+        "en": "The trees go to sleep during the winter. It makes it a bit lonely out here.#$e#But I wouldn't deny them their beauty sleep.$h",
+        "ko": "겨울에는 나무들이 잠잔다네. 그래서 이곳도 좀 외로워지지.#$e#그래도 그들도 충분히 수면을 취해야 하니 어쩌겠나.$h",
+        "pt": "As árvores vão dormir durante o inverno. Minha vida acaba ficando um pouco solitária.#$e#Mas não posso atrapalhar o sono de beleza delas.$h",
+        "ru": "Зимой деревья засыпают. Без них становится немного одиноко.#$e#Но я не могу отказать им в хорошем сне.$h",
+        "tr": "Ağaçlar kışın uykuya dalıyor. Buralar ıssız kalıyor.#$e#Onları güzellik uykularından alıkoyamam.$h",
+        "zh": "树会在冬天的时候休眠，这会让我感觉有些寂寞。#$e#但是我不会否认它们睡觉时的美丽。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:winter_Mon",
+      "author_key": "winter_Mon",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Es kann wirklich kalt werden, wenn du in einem Zelt lebst.$s",
+        "es": "Puede llegar a hacer mucho frío cuando duermes en una tienda de campaña.$s",
+        "fr": "Il peut faire très froid quand on vit sous une tente.$s",
+        "hu": "Ha egy sátorban laksz, akkor nagyon hideg lehet az idő.$s",
+        "it": "Rischi davvero di patire il freddo, quando vivi in una tenda.$s",
+        "ja": "テント生活をすると いかに 寒くなるか わかるぞ。$s",
+        "en": "It can get really cold if you live in a tent.$s",
+        "ko": "텐트에서 지내보면 정말 추워지는 경우도 있네.$s",
+        "pt": "Pode ficar muito frio se você mora em uma tenda.$s",
+        "ru": "Когда живешь в палатке, иногда бывает очень холодно.$s",
+        "tr": "Bir çadırda yaşıyorsan çok soğuk olabiliyor.$s",
+        "zh": "住在帐篷里真的非常冷。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:winter_Mon4",
+      "author_key": "winter_Mon4",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wenn du dich wirklich von der modernen Lebensweise gelöst hast, wirst du anfangen, die einfachen Dinge zu genießen... wie die Sonne, eine reife Frucht oder einen Stock, der genau die Form hat, die du gesucht hast.",
+        "es": "Cuando te hayas desconectado de la manera moderna de vivir, empezarás a disfrutar de las cosas simples... como el sol, la fruta madura, o encontrar un palo con la forma exacta que estabas buscando.",
+        "fr": "Une fois que tu auras renoncé au mode de vie moderne, c’est là que tu pourras vraiment commencer à apprécier les choses simples... comme la chaleur du soleil, un fruit mûr, ou trouver un bâton avec la forme exacte que tu avais en tête.",
+        "hu": "Miután teljesen elszakadtál a modern élettől, akkor kezded igazán élvezni az apróbb dolgokat... mint például a Napot, az érett gyümölcsöket, vagy azt, hogy pont olyan alakú botot találsz amit kerestél.",
+        "it": "Quando ti distacchi completamente dal moderno modo di vivere, cominci ad apprezzare a fondo le piccole cose... come il sole, un frutto maturo, o trovare un rametto che ha esattamente la forma che cercavi.",
+        "ja": "現代的な暮らしから離れると、なんでもないようなことを心から楽しめるようになる… たとえば、太陽、熟した果物、形がいい木の棒を見つけることだ。",
+        "en": "After you've truly unplugged from the modern way of life, you'll start to really enjoy the simple things... like the sun, a ripe fruit, or finding a stick with the exact shape you were looking for.",
+        "ko": "현대인의 삶에서 완전히 벗어난다면 작은 일에도 큰 기쁨을 느낄 수 있을 걸세... 햇빛, 잘 익은 과일 하나, 혹은 딱 필요하던 모양의 나뭇가지를 찾는 일이라던가.",
+        "pt": "Você consegue aproveitar muito melhor as coisas simples quando começa a se desconectar do modelo de vida moderno... como o sol, uma fruta madura, ou encontrar um graveto com o formato exato que estava procurando.",
+        "ru": "После того, как полностью отдалишься от современного образа жизни, начинаешь по-настоящему ценить простые вещи... Солнце, спелые фрукты, найти палку той формы, которую искал.",
+        "tr": "Modern hayattan tamamen uzaklaştığında, basit şeylerden keyif almaya başlıyorsun... Güneş, olgunlaşmış bir meyve veya tam istediğin şekilde bir dal bulmak gibi.",
+        "zh": "真正脱离现代的生活方式之后，你会开始喜欢上朴素的东西……比如阳光、熟透了的水果，有时还能正好找到一根形状奇特的木棍。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:winter_Sat4",
+      "author_key": "winter_Sat4",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Danke für's Vorbeischauen. Ich habe mich diesen Morgen ein wenig einsam gefühlt.#$e#Also, hast du irgendetwas Interessantes in den Minen entdeckt?",
+        "es": "Gracias por pasarte. Me sentía un poco solo esta mañana.#$e#¿Has descubierto algo interesante en las minas?",
+        "fr": "Merci d’être passé me voir. Je me sentais un peu seul ce matin.#$e#Alors, as-tu découvert quelque chose d’intéressant dans les mines ?",
+        "hu": "Köszönöm, hogy benéztél. Már reggel óta kezdtem kissé magányos lenni.#$e#Szóval találtál valami érdekeset a bányákban?",
+        "it": "Grazie per avermi fatto visita. Effettivamente stamattina mi sentivo un po' solo.#$e#Allora, hai scoperto niente d'interessante nelle miniere?",
+        "ja": "来てくれてありがとう。今朝、 少し さびしく 感じていたんだ。#$e#それで、 鉱山の中で 何か 興味深いものは 見つかったか？",
+        "en": "Thanks for stopping by. I was actually feeling a little lonely this morning.#$e#So, have you discovered anything interesting in the mines?",
+        "ko": "들러줘서 고맙네. 사실 오늘 아침 좀 외로운 느낌이 들었었네.#$e#그래, 광산에서 흥미로운 건 좀 발견했나?",
+        "pt": "Obrigado por passar aqui. Estava me sentindo um pouco solitário hoje de manhã.#$e#Então, descobriu algo interessante nas minas?",
+        "ru": "Спасибо, что заглядываешь. Мне как раз было немного одиноко этим утром.#$e#Ну что, нашлось в шахте что-нибудь интересного?",
+        "tr": "Bu sabah yalnız hissediyordum, geldiğin için teşekkürler.#$e#Peki, madenlerde hiç ilginç bir şey bulabildin mi?",
+        "zh": "谢谢你来看我。我今天早上还真感觉有些寂寞呢。#$e#你有在矿洞里面找到什么有趣的东西吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:winter_Sun",
+      "author_key": "winter_Sun",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Am Boden zu schlafen ist gut für meinen Rücken.#$e#Es ist wichtig, sich auf die positiven Dinge im Leben zu konzentrieren.$h",
+        "es": "Dormir en el suelo es bueno para mi espalda.#$e#Es mejor ver el lado positivo de las cosas.$h",
+        "fr": "Dormir par terre est bon pour mon dos.#$e#Il vaut mieux regarder l’aspect positif des choses.$h",
+        "hu": "A földön alvás jót tesz a hátamnak.#$e#Mindig a dolgok pozitív oldalát kell figyelembe venni.$h",
+        "it": "Dormire per terra mi fa bene alla schiena.#$e#Meglio guardare sempre il lato positivo.$h",
+        "ja": "地面の上で 眠ると 背中に いいんだ。#$e#どんなことでも ポジティブな 側面で 見たほうが良いだろう。$h",
+        "en": "Sleeping on the ground is good for my back.#$e#It's best to look at the positive side of things.$h",
+        "ko": "바닥에서 자는 게 내 허리에 아주 좋다네.#$e#항상 긍정적인 측면을 보는 게 좋아.$h",
+        "pt": "Dormir no chão faz bem para as minhas costas.#$e#É melhor pensar no lado positivo das coisas.$h",
+        "ru": "Спать на земле полезно для спины.#$e#Нужно смотреть на мир с оптимизмом.$h",
+        "tr": "Yerde yatmak sırtıma iyi geliyor.#$e#Her şeye olumlu bakmak en iyisi.$h",
+        "zh": "在地板上睡觉对我的背有好处。#$e#看待事情还是积极点好啊。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:winter_Thu4",
+      "author_key": "winter_Thu4",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Der Winter ist hart, aber du kannst immer noch fischen und sammeln, um über die Runden zu kommen.#$e#Wenn du Tiere hast, solltest du sie drinnen lassen.",
+        "es": "El invierno es duro, pero se puede pescar y también recolectar alimentos.#$e#Si tienes animales, deberías mantenerlos a resguardo.",
+        "fr": "L’hiver est rude mais on peut encore pêcher et trouver de quoi manger.#$e#Si tu as des animaux, je te conseille de les mettre à l’abri.",
+        "hu": "A tél kemény, de attól még lehet horgászni és gyűjtögetni.#$e#Ha vannak állataid, jobb, ha bent tartod őket.",
+        "it": "È dura d'inverno, ma puoi comunque cavartela con piante e pesci.#$e#Se hai degli animali, dovresti tenerli al chiuso.",
+        "ja": "冬は 厳しい 季節だが、 釣りと採集は まだ できるだろう。#$e#もし 動物を 飼っているなら 屋内に 入れてやるんだ。",
+        "en": "Winter is tough, but you can still fish and forage to get by.#$e#If you have any animals you should keep them inside.",
+        "ko": "겨울은 힘든 시기지만, 살아남기 위해 낚시와 채집을 하면 되네.#$e#혹시 동물을 기르고 있다면 실내에 두게나.",
+        "pt": "O inverno é duro, mas você ainda pode pescar e coletar recursos para viver.#$e#Se tiver animais, é melhor não deixá-los do lado de fora.",
+        "ru": "Зимой бывает непросто, но все равно можно прожить рыбалкой и собирательством.#$e#Если ты содержишь животных, держи их под крышей.",
+        "tr": "Kış zor olabiliyor. Yine de toplayıcılık yaparak ve balık tutarak geçimimi sağlıyorum.#$e#Eğer hayvanların varsa onları içeride tutmalısın.",
+        "zh": "冬天很难熬，但是依然能够通过钓鱼和采集凑合着过。#$e#如果你有养动物的话，你应该把它们关在屋子里。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:winter_Tue4",
+      "author_key": "winter_Tue4",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Danke, dass du mir nicht aus dem Weg gehst, @. Es kostet eine Menge Weisheit, deine Grundinstinkte zu überwinden.#$e#Ich bin ein Mensch wie jeder andere. Ich habe nur einen anderen Lebensstil.",
+        "es": "Gracias por no evitarme, @. Hace falta mucha sabiduría para desactivar tus instintos básicos.#$e#Soy humano, como todos los demás. Simplemente, tengo un estilo de vida diferente.",
+        "fr": "Merci @ de ne pas me traiter différemment. Il faut beaucoup de sagesse pour passer outre ses instincts primaires.#$e#Je suis humain comme tout le monde. J’ai juste un style de vie différent.",
+        "hu": "Köszönöm, hogy nem menekülsz előlem, @. Nagy bölcsesség kell ahhoz, hogy felülírd az alap ösztöneidet.#$e#Én is ember vagyok, akárcsak bárki más. Csak más az életstílusom.",
+        "it": "Grazie per non avermi evitato, @. Serve molta saggezza per passare sopra ai propri istinti di base.#$e#Io sono un uomo come chiunque altro. Solo che ho un diverso stile di vita.",
+        "ja": "@、 オレを 避けずにいてくれて ありがとな。本能を 押さえ込むには、 相当な 意志の力が 必要になる。#$e#オレだって、 他の みんなと 同じ 人間さ。ただ 生き様が 違うだけだ。",
+        "en": "Thanks for not shunning me, @. It takes a lot of wisdom to override your base instincts.#$e#I'm a human like everyone else. I just have a different lifestyle.",
+        "ko": "날 피하지 않아서 고맙네, @. 기본적인 본능을 극복하려면 많은 지혜가 필요하지.#$e#나도 남들과 같은 사람일세. 그냥 삶의 방식이 다를 뿐이지.",
+        "pt": "Obrigado por não me excluir, @. Superar seus instintos requer muita sabedoria.#$e#Sou um ser humano como qualquer outro. Só levo um estilo de vida diferente.",
+        "ru": "Спасибо, что не чураешься меня, @. Нужно быть очень мудрым, чтобы подавить свои базовые инстинкты.#$e#Я ведь такой же человек, как и все остальные. Просто у меня другой образ жизни.",
+        "tr": "Benden uzak durmadığın için teşekkürler, @. Temel içgüdülerini bastırmak, bilgelik gerektiriyor.#$e#Ben de herkes gibi insanım. Sadece yaşam biçimim farklı.",
+        "zh": "谢谢你没有回避我，@。忽略自己的本能是需要很多智慧的。#$e#我和其他人一样。我只是有着不同的生活方式罢了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Linus:winter_Wed4",
+      "author_key": "winter_Wed4",
+      "character": "Linus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich bin mir sicher, dass du verstehst, warum ich Fremden gegenüber skeptisch bin.#$e#Aber lassen wir das hinter uns, okay? Du und ich sind jetzt Freunde, denke ich.",
+        "es": "Seguro que entiendes por qué tengo cuidado con los extraños.#$e#Pero dejemos eso en el pasado, ¿vale? Ahora somos buenos amigos, creo.",
+        "fr": "Je suis sûr que tu comprends pourquoi je me méfie des étrangers.#$e#Mais oublions ça, d’accord ? Toi et moi sommes amis maintenant.",
+        "hu": "Bizonyára megérted, miért óvakodok az idegenektől.#$e#Azt hiszem te és én már barátok vagyunk.",
+        "it": "Di certo comprendi la mia diffidenza per gli estranei.#$e#Ma lasciamocela alle spalle, va bene? Io e te siamo amici ora, credo.",
+        "ja": "どうしてオレが よそ者に 警戒しているか、 君なら わかるだろう。#$e#まあ、 過去のことは 水に流そう。君とは 友人になれたと 思っているぞ。",
+        "en": "I'm sure you understand why I'm cautious of strangers.#$e#But let's put that in the past, okay? You and I are friends now, I think.",
+        "ko": "내가 왜 낯선 사람을 경계하는지 자네도 분명 이해할 거라 믿네.#$e#하지만 그건 과거에 묻어두자고, 알겠나? 자네와 난 이제 친구일세, 내가 생각하기론.",
+        "pt": "Tenho certeza que você entende por que tomo cuidado com estranhos.#$e#Mas isso são coisas do passado, certo? Você e eu somos amigos agora, acho.",
+        "ru": "Я уверен, что ты понимаешь, почему я опасаюсь незнакомцев.#$e#Но давай забудем об этом, хорошо? Думаю, мы с тобой теперь друзья.",
+        "tr": "Yabancılardan neden çekindiğimi anlıyorsundur.#$e#Ama bunu geçmişte bırakalım, tamam mı? Sen ve ben arkadaşız, sanırım yani.",
+        "zh": "我相信你一定知道我为什么对陌生人保持警惕。#$e#不过这事就翻篇吧，好吗？我想我们现在是朋友了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Linus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Linus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Linus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Linus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Linus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Linus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Linus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Linus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Linus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Linus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Linus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Linus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    }
+  ]
+}

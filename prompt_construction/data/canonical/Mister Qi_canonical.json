@@ -1,0 +1,1005 @@
+{
+  "dataset_meta": {
+    "schema": "canonical_dialogue_v2",
+    "source_root": "data/game_scripts/Dialogue",
+    "collection": "Dialogue",
+    "character": "Mister Qi",
+    "record_count": 15,
+    "dialogue_type_counts": {
+      "general_dialogue": 15
+    }
+  },
+  "records": [
+    {
+      "canonical_id": "Dialogue/general_dialogue/Mister Qi:Fri",
+      "author_key": "Fri",
+      "character": "Mister Qi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hör niemals auf, nach Perfektion zu streben.#$e#Gib dich mit nichts weniger als Exzellenz zufrieden, egal was du machst.",
+        "es": "Nunca dejes de medrar para alcanzar la perfección.#$e#No te conformes con menos de la excelencia en todo lo que hagas.",
+        "fr": "Ne renonce jamais à atteindre la perfection.#$e#Ne cherche rien de moins que l’excellence dans tout ce que tu fais.",
+        "hu": "Sose hagyd abba a tökéletességért való küzdelmet.#$e#Bármit is csinálsz, ne érd be a tökéletesnél egy picit kevesebbel.",
+        "it": "Non smettere mai di lottare per conquistare la perfezione.#$e#Non accontentarti di niente che non sia l'eccellenza in ogni cosa che fai.",
+        "ja": "完璧を目指す努力を 怠たるでない。#$e#君の 成すこと 全てに 満足 いくまで、 がんばるのだ。",
+        "en": "Never stop striving to achieve perfection.#$e#Settle for nothing less than excellence in everything you do.",
+        "ko": "완벽함을 이루려면 멈추지 않고 분투해야 해.#$e#네가 하는 모든 일을 최고의 수준으로만 하겠다고 다짐해야 해.",
+        "pt": "Nunca deixe de buscar a perfeição.#$e#Não se contente com nada menos que a excelência em tudo o que faz.",
+        "ru": "Никогда не останавливайся в стремлении к совершенству.#$e#Не довольствуйся меньшим, чем совершенством во всем, что ты делаешь.",
+        "tr": "Mükemmelliğe ulaşmayı istemekten vazgeçme.#$e#Yaptığın her şeyde mükemmelliği hedefle.",
+        "zh": "永远不要放弃努力。#$e#做什么事情都要做到尽善尽美。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Mister Qi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Mister Qi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Mister Qi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Mister Qi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Mister Qi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Mister Qi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Mister Qi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Mister Qi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Mister Qi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Mister Qi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Mister Qi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Mister Qi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Mister Qi:Mon",
+      "author_key": "Mon",
+      "character": "Mister Qi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Mach weiter so, Kind. Du wirst noch ein Star.#$e#Frag mich einfach, falls du irgendwas brauchst.",
+        "es": "Sigue trabajando duro. Creo que vas a ser una estrella.#$e#Si necesitas algo, pídemelo.",
+        "fr": "Continue comme ça. Je pense que tu deviendras une star.#$e#Demande-moi si tu as besoin de quoi que ce soit.",
+        "hu": "Csak így tovább, kölyök. Azt hiszem sztár lesz belőled.#$e#Csak szólj, ha szükséged lenne valamire.",
+        "it": "Continua così, giovane. Penso proprio che sarai una stella.#$e#Chiedimi pure se ti serve qualcosa.",
+        "ja": "その調子で がんばりたまえ。君なら スターに なれるだろう。#$e#何か いるなら 私に 言ってくれ。",
+        "en": "Keep it up, kid. I think you're gonna be a star.#$e#Just ask me if you need anything.",
+        "ko": "잘하고 있어, 꼬마야. 내 생각엔 넌 언젠가 스타가 될 거야.#$e#필요한 게 있으면 언제든 나한테 물어봐.",
+        "pt": "Continue assim. Acho que você vai ser uma estrela.#$e#Se precisar de algo, basta me perguntar.",
+        "ru": "Так держать, ${малец^барышня}$! Мне кажется, ты станешь звездой.#$e#Спрашивай меня, если тебе что-нибудь нужно.",
+        "tr": "Çalışmaya devam et evlat. İleride yıldız olacaksın.#$e#Bir şeye ihtiyacın olursa bana gel.",
+        "zh": "继续努力，孩子。你一定会功成名就的。#$e#需要什么东西的话，只管告诉我就是了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Mister Qi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Mister Qi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Mister Qi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Mister Qi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Mister Qi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Mister Qi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Mister Qi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Mister Qi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Mister Qi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Mister Qi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Mister Qi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Mister Qi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Mister Qi:QiNutRoom_Fri",
+      "author_key": "QiNutRoom_Fri",
+      "character": "Mister Qi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Richte deinen Blick auf den fernsten Stern, und lass das dein Ziel sein.#$b#Es liegt immer in deiner Macht, einen Schritt weiter zu gehen, als Du früher geglaubt hast.",
+        "es": "Pon tus ojos en la estrella más lejana, y que ese sea tu objetivo.#$b#Siempre está en tus manos el ir más allá de lo que pensabas.",
+        "fr": "Que tes objectifs soient fixés sur l’étoile la plus éloignée de cette planète.#$b#C’est toujours en ton pouvoir d’aller plus loin que tu le croies possible.",
+        "hu": "Kémleld szemeiddel a legmesszebbi csillagot, és hagyd, hogy az legyen a célod.#$b#Hatalmadban áll egy szinttel továbblépni, mint amit eddig hittél.",
+        "it": "Punta gli occhi sulla stella più remota, e fa' che quella sia il tuo obiettivo.#$b#Fare un passo in più rispetto a quello che credevi è sempre in tuo potere.",
+        "ja": "一番遠い星を見据えて、それを目標にしなさい。#$b#それが一歩先に踏み出すための原動力なのだ。",
+        "en": "Set your eyes on the furthest star, and let that be your goal.#$b#It's always within your power to go one step further than you used to believe.",
+        "ko": "가장 먼 별을 바라보고, 거기를 목표로 삼아.#$b#네가 생각한 한계보다 한걸음 더 나아갈 힘이 항상 있지.",
+        "pt": "Olhe para a estrela mais distante, e deixe que isso seja seu objetivo.#$b#Está sempre dentro do seu poder ir um passo a mais do que você acreditava.",
+        "ru": "Найди на небе самую дальнюю звезду и сделай ее своей целью.#$b#В твоих силах всегда сделать на шаг больше, чем даже ты от себя ждешь.",
+        "tr": "Gözlerini en uzak yıldıza dik ve onu hedefin yap.#$b#Sahip olduğun kudret düşündüğünün bir adım ötesine ulaşmanı sağlar.",
+        "zh": "将你的目光落在最遥远的星星上，然后把它当作你的目标。#$b#你总是能够百尺竿头更进一步，超出你原本以为的极限。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Mister Qi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Mister Qi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Mister Qi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Mister Qi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Mister Qi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Mister Qi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Mister Qi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Mister Qi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Mister Qi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Mister Qi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Mister Qi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Mister Qi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'QiNutRoom_Fri' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Mister Qi:QiNutRoom_Mon",
+      "author_key": "QiNutRoom_Mon",
+      "character": "Mister Qi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Diese Welt hat mehr zu bieten, als man auf den ersten Blick sieht. Eines Tages wirst du es vielleicht verstehen.#$b#Strebe fürs Erste einfach weiter nach Exzellenz in allem, was du tust.",
+        "es": "Hay más en este mundo de lo que puedes ver, joven. Algún día, puede que lo entiendas.#$b#Por ahora, intenta apuntar a la excelencia en todo lo que hagas.",
+        "fr": "Il y a tellement de choses à découvrir et à comprendre dans ce mon monde. Un jour, tu comprendras peut-être.#$b#Pour l’instant, continue de te surpasser dans tout ce que tu fais.",
+        "hu": "Sokkal több van ebben a világban, mint hinnéd, kölyök. Egy napon talán majd meg fogod érteni.#$b#Addig is próbálj meg tökéletességre törekedni mindenben amit teszel.",
+        "it": "A questo mondo c'è più di quanto risulti alla vista, giovane. Un giorno forse capirai.#$b#Per il momento, continua a tendere verso l'eccellenza in tutto ciò che fai.",
+        "ja": "この世界には、目に見えないものがあるの。いつか君にも分かる時が来るだろう。#$b#今は、自分の行動が最高の結果を生むように努力しなさい。",
+        "en": "There's more to this world than meets the eye, kid. Some day, you might understand.#$b#For now, just keep striving for excellence in everything you do.",
+        "ko": "이 세상은 보기와 다른 부분들이 많아, 꼬마야. 언젠간 내 말을 이해하게 될 거야.#$b#일단 지금은 네가 하는 모든 일을 최고로 해내려고 노력해야 해.",
+        "pt": "Há mais neste mundo do que parece, criança. Algum dia, talvez você entenda.#$b#Por agora, só tente ser o melhor em tudo que faz.",
+        "ru": "В этом мире столько всего, что глазами не объять, ${малец^барышня}$. Однажды ты поймешь.#$b#А пока — продолжай стремиться к совершенству во всем, что ты делаешь!",
+        "tr": "Evlat, bu dünyada gözünün görebildiğinden çok daha fazlası var. Bir gün ne demek istediğimi anlayacaksın.#$b#Şu an için her şeyi en iyi şekilde yapmaya bak.",
+        "zh": "孩子，世界并不只有视力所及的范围。总有一天，你会明白的。#$b#现在，你只要在做每一件事情时精益求精就好。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Mister Qi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Mister Qi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Mister Qi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Mister Qi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Mister Qi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Mister Qi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Mister Qi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Mister Qi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Mister Qi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Mister Qi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Mister Qi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Mister Qi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'QiNutRoom_Mon' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Mister Qi:QiNutRoom_Sat",
+      "author_key": "QiNutRoom_Sat",
+      "character": "Mister Qi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Manche Dinge gehen über Zeit und Raum hinaus. Es ist ein einzigartiges Gefühl im Herzen... ein Flüstern der Dinge jenseits davon.",
+        "es": "Algunas cosas trascienden el tiempo y el espacio, joven. Es un sentimiento único en el corazón... un susurro de cosas más allá.",
+        "fr": "Certaines choses transcendent le temps et l’espace. C’est une sensation unique dans le coeur... Comme le chuchotement de l’univers qui nous entoure.",
+        "hu": "Bizonyos dolgok felülmúlják az időt és a teret, kölyök. Ez a szív egyedi érzése... a túloldalról érkező suttogások.",
+        "it": "Alcune cose trascendono il tempo e lo spazio, giovane. È una sensazione unica nel cuore... un sussurro di ciò che c'è oltre.",
+        "ja": "時空を超えるものもある。それは心の中にある独特の感覚…その先にある、ささやきだ。",
+        "en": "Some things transcend time and space, kid. It's a unique feeling in the heart... a whisper of things beyond.",
+        "ko": "시간과 공간을 초월하는 것들도 있어, 꼬마야. 마음속에 특유의 기분이 들지... 저 너머에서 들려오는 속삭임.",
+        "pt": "Algumas coisas transcendem o espaço-tempo, criança. É um sentimento único no coração... um sussurro das coisas além.",
+        "ru": "Есть вещи, выходящие за пределы времени и пространства, ${малец^барышня}$. Это неповторимое чувство в глубине сердца... шепот того, что находится за границей нашего восприятия.",
+        "tr": "Evlat, kimi şeyler zamanı ve yerin ötesindedir. Kalbinde eşsiz bir his uyandırırlar... ötedeki şeylerin fısıltısını taşırlar.",
+        "zh": "有些东西超越了时间与空间，孩子。这是内心深处的一种独特感受……是来自遥远之物的低语。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Mister Qi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Mister Qi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Mister Qi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Mister Qi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Mister Qi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Mister Qi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Mister Qi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Mister Qi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Mister Qi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Mister Qi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Mister Qi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Mister Qi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'QiNutRoom_Sat' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Mister Qi:QiNutRoom_Sun",
+      "author_key": "QiNutRoom_Sun",
+      "character": "Mister Qi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Auf der linken Seite finden Sie ein Brett mit meinen besonderen Herausforderungen... maßgeschneidert für Sie.#$b#Auf der rechten Seite, eine Reihe fantastischer Preise für diejenigen, die sich meiner Herausforderung stellen... #$b#Viel Glück.",
+        "es": "A la izquierda, encontrarás un tablón con mis retos especiales... creados específicamente para ti, joven.#$b#A la derecha, un conjunto de fantásticos premios para los que cumplan mi desafío...#$b#Buena suerte, joven.",
+        "fr": "Sur la gauche, tu trouveras un panneau avec mes défis spéciaux... Ils sont faits spécialement pour toi.#$b#À droite, une série de prix fantastique pour ceux à la hauteur de mes défis...#$b#Bonne chance à toi.",
+        "hu": "Balra egy táblát láthatsz, rajta a különleges kihívásaimmal... rád testreszabva, kölyök.#$b#Jobb oldalt egy halom fantasztikus jutalom azoknak, akik teljesítik kihívásaimat...#$b#Sok szerencsét, kölyök.",
+        "it": "Sulla sinistra, troverai una bacheca con le mie sfide speciali... ideate su misura per te, giovane.#$b#Sulla destra, una serie di fantastiche ricompense per coloro che superano le mie sfide...#$b#In bocca al lupo, giovane.",
+        "ja": "左には、特別な挑戦が貼られた掲示板…君のための特別な物だ。#$b#右は、私の挑戦を乗り越えた者に与えられる報酬だ…#$b#健闘を祈る。",
+        "en": "On the left, you'll find a board with my special challenges... custom-tailored for you, kid.#$b#On the right, a set of fantastic prizes for those who meet my challenge...#$b#Good luck, kid.",
+        "ko": "왼쪽에는 내 특별한 도전들이 적힌 게시판이 있지... 너를 위해 맞춤 제작되었어, 꼬마야.#$b#오른쪽에는 내 도전을 성공한 자들을 위한 환상적인 보상들이 있고...#$b#행운을 빈다, 꼬마야.",
+        "pt": "Na esquerda, você achará uma placa com meus desafios especiais... feitos só para você, criança.#$b#Na direita, uma coleção de recompensas fantásticas para quem conquistar meus desafios...#$b#Boa sorte, criança.",
+        "ru": "Слева ты найдешь доску с очень интересными особыми испытаниями... Я разработал эти испытания специально для тебя, ${малец^барышня}$.#$b#Справа же находятся фантастические награды для тех, кто справился с моими испытаниями...#$b#Удачи тебе.",
+        "tr": "Sol tarafta özel mücadelelerin olduğu bir pano göreceksin... Bunlar sana özel hazırlandı.#$b#Sağ tarafta ise mücadelelerimi tamamladıkça erişeceğin bir dizi fantastik ödül var...#$b#Bol şans evlat.",
+        "zh": "在左边，你能找到一块板子，上面有我的特殊挑战……是专门为你量身订制的，孩子。#$b#在右边，有很多奖赏，专门留给那些完成挑战的人……#$b#祝你好运，孩子。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Mister Qi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Mister Qi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Mister Qi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Mister Qi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Mister Qi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Mister Qi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Mister Qi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Mister Qi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Mister Qi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Mister Qi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Mister Qi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Mister Qi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'QiNutRoom_Sun' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Mister Qi:QiNutRoom_Thu",
+      "author_key": "QiNutRoom_Thu",
+      "character": "Mister Qi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wohin du auch gehst... Ich bin immer hinter dem Vorhang und sorge dafür, dass die Show interessant ist. Hahaha... #$b#Oder... bin ich das?",
+        "es": "Donde quiera que vayas... Siempre estaré tras el telón, asegurándome de que la función es interesante. Jajaja...#$b#¿O... no?",
+        "fr": "Où que tu ailles... Je suis toujours dans les coulisses pour m’assurer que le spectacle est intéressant. Hahaha...#$b#Ou peut-être pas... Qui peut savoir !",
+        "hu": "Bárhová is mégy... mindig ott leszek a színfalak mögött, biztosítva, hogy a műsor érdekes legyen. Hahaha...#$b#Vagy... tán mégsem?",
+        "it": "Dovunque tu vada... io sono sempre dietro le quinte, per assicurarmi che lo spettacolo sia interessante. Hahaha...#$b#O... forse no?",
+        "ja": "君がどこに行こうとも…私はいつもカーテンの後ろで、そのショーが面白いものかどうか見定めている。ハハハ…#$b#もしくは私が、かな？",
+        "en": "Wherever you go... I'm always behind the curtain, making sure the show is interesting. Hahaha...#$b#Or... am I?",
+        "ko": "그 어디를 가든... 항상 내 영향이 닿지, 흥미진진한 쇼를 만들어주고 있어. 하하하...#$b#과연... 그럴까?",
+        "pt": "Onde quer que você vá... estarei sempre atrás das cortinas, garantindo que o show está interessante. Hahaha...#$b#Ou... será que estou?",
+        "ru": "Куда бы ни завела тебя дорога жизни... Я всегда буду стоять за кулисами и делать так, чтобы это шоу было интересным. Ха-ха-ха...#$b#Или... не буду?",
+        "tr": "Nereye gidersen git... ben her zaman perdenin arkasında durup gösterinin ilgi çekici olmasını sağlayacağım. Hehehe...#$b#Yoksa... sağlamayacak mıyım?",
+        "zh": "无论你走到哪……我总会在帷幕之后，确保好戏在上演。哈哈哈……#$b#不过……是这样吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Mister Qi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Mister Qi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Mister Qi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Mister Qi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Mister Qi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Mister Qi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Mister Qi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Mister Qi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Mister Qi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Mister Qi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Mister Qi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Mister Qi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'QiNutRoom_Thu' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Mister Qi:QiNutRoom_Tue",
+      "author_key": "QiNutRoom_Tue",
+      "character": "Mister Qi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich kam dorthin, wo ich bin, durch die Kraft der reinen Willenskraft.#$b#Weißt du... Der Verstand ist ein sehr mächtiges Werkzeug.#$b# Tatsächlich ist er das mächtigste Werkzeug unserer ganzen Realität... und darüber hinaus.",
+        "es": "Llegué a un punto en el que me mantengo por pura voluntad, joven.#$b#Verás... La mente es una herramienta muy poderosa.#$b#De hecho, es la herramienta más poderosa en esta realidad... y más allá.",
+        "fr": "Je suis arrivé là où j’en suis grâce à la force de ma volonté.#$b#Comprends-moi bien... L’esprit est un outil très puissant.#$b#En fait, c’est l’outil le plus puissant dans ce monde... et au-delà.",
+        "hu": "Tiszta akaraterőből jutottam el odáig, ahol most vagyok, kölyök.#$b#Tudod... Az elme egy nagyon erős eszköz.#$b#Sőt, ez a lehető legerősebb eszköz a való világban... és azon túl is.",
+        "it": "Sono arrivato dove sono con la pura forza di volontà, giovane.#$b#Vedi... La mente è uno strumento molto potente.#$b#In effetti, è lo strumento più potente che ci sia in tutto il creato... e oltre.",
+        "ja": "私は、純粋な意志の力でここにいる。#$b#そうだな…心はとても強力な道具だ。#$b#それは実際、現実世界における最も強力な道具だ...そして、その先の世界でも。",
+        "en": "I got to where I am through the force of pure willpower, kid.#$b#You see... The mind is a very powerful tool.#$b#In fact, it's the most powerful tool in all of reality... and beyond.",
+        "ko": "난 의지력 하나로 여기까지 왔어, 꼬마야.#$b#있지... 마음이란 정말 강력한 도구야.#$b#사실, 가장 강력한 도구이지... 현실에서, 그리고 그 너머에서도.",
+        "pt": "Eu cheguei onde estou por pura força de vontade, criança.#$b#Sabe... A mente é uma ferramenta muito poderosa.#$b#Na verdade, é a ferramenta mais poderosa de toda a realidade... e além.",
+        "ru": "Я достиг этих вершин только благодаря своей силе воли, ${малец^барышня}$.#$b#Видишь ли... Разум — крайне мощный инструмент.#$b#А если серьезно — то самый мощный инструмент в нашей реальности... и за ее пределами.",
+        "tr": "Evlat, şu anda bulunduğum yere saf iradenin gücüyle geldim.#$b#Görebildiğin üzere... Zihin çok güçlü bir araçtır.#$b#Hatta, gerçeklik ve ötesindeki en güçlü araçtır.",
+        "zh": "孩子，我是通过纯粹的意志力来到我所处的位置的。#$b#你看……头脑是一件十分强大的工具。#$b#事实上，它是整个现实世界中最为强大的工具……甚至不仅仅止于现实世界。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Mister Qi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Mister Qi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Mister Qi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Mister Qi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Mister Qi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Mister Qi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Mister Qi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Mister Qi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Mister Qi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Mister Qi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Mister Qi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Mister Qi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'QiNutRoom_Tue' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Mister Qi:QiNutRoom_Wed",
+      "author_key": "QiNutRoom_Wed",
+      "character": "Mister Qi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich bin von deiner Hartnäckigkeit beeindruckt... es brauchte eine Menge Walnüsse, um so weit zu kommen.",
+        "es": "Me impresiona tu tenacidad, joven... Te ha costado muchas nueces llegar tan lejos.",
+        "fr": "Je suis impressionné par ta ténacité... Il faut beaucoup de noix pour en arriver là.",
+        "hu": "Lenyűgöz a kitartásod, kölyök... rengeteg dióba került, hogy idáig juss.",
+        "it": "La tua tenacia mi colpisce, giovane... Sono servite parecchie noci per arrivare fin qui.",
+        "ja": "君の粘り強さには感心させられる…ここまで来るには沢山のクルミが必要だったはずだ。",
+        "en": "I'm impressed with your tenacity, kid... it took a lot of walnuts to get this far.",
+        "ko": "네 끈기가 참 인상 깊어, 꼬마야... 여기까지 오는데 호두가 많이 들었을 텐데.",
+        "pt": "Estou impressionado com a sua tenacidade, criança... você precisou de muitas nozes para chegar tão longe.",
+        "ru": "Я поражен твоим упорством, ${малец^барышня}$... Для этого пришлось собрать целую кучу грецких орехов.",
+        "tr": "Azmine hayran kaldım, evlat... Buraya gelebilmek için çok ceviz aştın.",
+        "zh": "我惊讶于你的顽强，孩子……想要到这里可是需要很多核桃的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Mister Qi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Mister Qi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Mister Qi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Mister Qi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Mister Qi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Mister Qi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Mister Qi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Mister Qi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Mister Qi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Mister Qi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Mister Qi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Mister Qi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'QiNutRoom_Wed' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Mister Qi:Sat",
+      "author_key": "Sat",
+      "character": "Mister Qi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Komm vorbei, wenn dir nach Entspannung ist.",
+        "es": "Pásate cuando quieras descansar un poco.",
+        "fr": "Tu peux venir ici chaque fois que tu as envie de te détendre un peu.",
+        "hu": "Jöjj bármikor, ha pihenni akarsz.",
+        "it": "Fermati pure qui tutte le volte che vuoi rilassarti.",
+        "ja": "リラックスしたければ いつでも 来るといい。",
+        "en": "Stop by whenever you wanna relax.",
+        "ko": "쉬고 싶을 땐 언제든지 방문해.",
+        "pt": "Venha aqui sempre que quiser relaxar.",
+        "ru": "Заходи сюда, если захочешь расслабиться.",
+        "tr": "Ne zaman rahatlamak istersen uğra.",
+        "zh": "想要放松的时候，就来这里吧。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Mister Qi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Mister Qi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Mister Qi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Mister Qi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Mister Qi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Mister Qi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Mister Qi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Mister Qi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Mister Qi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Mister Qi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Mister Qi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Mister Qi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Mister Qi:Sun",
+      "author_key": "Sun",
+      "character": "Mister Qi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Arbeite immer hart und vielleicht wirst du eines Tages so wie ich sein.",
+        "es": "Sigue trabajando duro y quizá algún día llegues a ser como yo.",
+        "fr": "Continue à travailler dur et tu finiras peut-être comme moi un jour.",
+        "hu": "Dolgozz keményen, és egy napon talán olyan leszel, mint én.",
+        "it": "Continua a lavorare sodo e forse un giorno diventerai come me.",
+        "ja": "努力し続ければ いずれ 君も 私みたいに なれるだろう。",
+        "en": "Keep working hard and maybe you'll end up like me someday.",
+        "ko": "계속 열심히 노력하면 언젠간 나처럼 될 수 있을지도 몰라.",
+        "pt": "Continue trabalhando duro e você terminará como eu um dia.",
+        "ru": "Трудись усердно, и когда-нибудь ты станешь прямо как я.",
+        "tr": "Sıkı çalışmaya devam edersen belki bir gün benim gibi olabilirsin.",
+        "zh": "继续努力，总有一天你也会像我一样。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Mister Qi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Mister Qi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Mister Qi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Mister Qi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Mister Qi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Mister Qi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Mister Qi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Mister Qi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Mister Qi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Mister Qi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Mister Qi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Mister Qi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Mister Qi:Thu",
+      "author_key": "Thu",
+      "character": "Mister Qi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey. Erzähl niemandem von diesem Ort, okay? Ich will ihn exklusiv halten.#$e#Du würdest für deinen Freund Mr. Qi doch ein Geheimnis wahren, nicht?",
+        "es": "Buenas. No le hables a nadie de este sitio, ¿vale? Quiero que siga siendo... exclusivo.#$e#Guardarás el secreto a tu amigo el Sr. Qi, ¿verdad?",
+        "fr": "Hé. Ne parle à personne de cet endroit, d’accord ? Je veux que ça reste un endroit... unique.#$e#Tu saurais garder un secret pour ton ami M. Qi, n’est-ce pas ?",
+        "hu": "Hé. Ne beszélj senkinek se erről a helyről, oké? Ezt... exkluzívnak akarom tartani.#$e#Megtartanád ezt a titkot a barátodért, Mr. Qiért, ugye?",
+        "it": "Ehi. Non parlare a nessuno di questo posto, va bene? Voglio che rimanga... esclusivo.#$e#Lo puoi mantenere un segreto per il tuo vecchio amico Mr. Qi, non è vero?",
+        "ja": "ねぇ、誰にも この場所のことを 言わないで くれたまえ。私は ここを… 排他的な場所に したい。#$e#君なら、 友人の 秘密を 守ってくれるだろう？",
+        "en": "Hey. Don't tell anyone about this place, okay? I want to keep it... exclusive.#$e#You'd keep a secret for your friend Mr. Qi, wouldn't you?",
+        "ko": "야. 아무한테도 이곳에 대해 얘기하지 마, 알았지? 여길... 특별한 곳으로 남겨두고 싶어.#$e#네 친구 미스터 치를 위해 비밀 하나는 지켜줄 수 있지, 안 그래?",
+        "pt": "Ei, . Não conte a ninguém sobre este lugar, certo? Eu quero que ele continue... exclusivo.#$e#Você guardaria segredo para seu amigo, o sr. Qi, não guardaria?",
+        "ru": "Привет. Никому не говори об этом месте, хорошо? Хочу, чтобы оно оставалось... эксклюзивным.#$e#Ты ведь сохранишь этот секрет ради своего друга мистера Ки, правда?",
+        "tr": "Hey, buradan kimseye bahsetme, tamam mı? Bana özel olmasını istiyorum.#$e#Dostun Bay Qi'nin sırrını tutarsın, değil mi?",
+        "zh": "嘿。你可不要到处跑来跑去，宣扬这个地方，知道吗？这里可是我的……秘密基地呢。#$e#就请你为了我，保守这个秘密吧？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Mister Qi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Mister Qi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Mister Qi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Mister Qi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Mister Qi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Mister Qi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Mister Qi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Mister Qi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Mister Qi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Mister Qi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Mister Qi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Mister Qi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Mister Qi:Tue",
+      "author_key": "Tue",
+      "character": "Mister Qi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich wusste, du würdest hier irgendwann enden. Natürlich musste ich es ein wenig komplizierter gestalten, um dir einen Anreiz dafür zu geben, nach Exzellenz zu streben.",
+        "es": "Sabía que acabarías aquí algún día. Por supuesto, te lo he tenido que poner difícil para que tuvieras un incentivo para alcanzar la excelencia.",
+        "fr": "Je savais que tu finirais par venir ici un jour. Bien sûr, j’ai rendu les choses un peu difficiles pour t’inciter à atteindre l’excellence.",
+        "hu": "Tudtam, hogy egy napon ide fogsz kerülni. Persze egy kicsit nehezítenem kellett, hogy legyen mivel buzdítanom téged a tökéletességért való megküzdéshez.",
+        "it": "Sapevo che prima o poi ce l'avresti fatta, a finire qui. Naturalmente, ho dovuto rendere le cose un po' difficili per darti un incentivo a raggiungere l'eccellenza.",
+        "ja": "いつか 君が ここに 来ると 思っていたよ。もちろん、 それまでの 過程を 少々 難しくしたが、 君の 優越感を 満たすための ことさ。",
+        "en": "I knew you'd end up here someday. Of course, I had to make it a little difficult so you'd have an incentive to achieve excellence.",
+        "ko": "네가 언젠간 여기 올 거란 걸 알고 있었어. 물론, 내가 좀 어렵게 만들어야 엄청난 걸 이루고 싶은 동기부여가 되었겠지.",
+        "pt": "Sabia que você chegaria aqui um dia. Claro, tive que dificultar as coisas um pouquinho para que você tivesse um incentivo para alcançar a excelência.",
+        "ru": "Я знал, что ты когда-нибудь окажешься здесь. Конечно, мне пришлось устроить тебе пару испытаний, чтобы у тебя был повод стремиться к совершенству.",
+        "tr": "Bir gün buraya geleceğini biliyordum. Elbette işini zorlaştırdım. Yapmak için motive olmanı istedim.",
+        "zh": "我就知道你总有一天会到这里。当然，为了能让你更加努力，我稍微提升了一点难度。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Mister Qi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Mister Qi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Mister Qi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Mister Qi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Mister Qi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Mister Qi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Mister Qi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Mister Qi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Mister Qi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Mister Qi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Mister Qi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Mister Qi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Mister Qi:Wed",
+      "author_key": "Wed",
+      "character": "Mister Qi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich wurde als ein gewöhnlicher Junge geboren, aber ich habe früh in meinem Leben die Entscheidung getroffen, dass ich außergewöhnlich werden würde.",
+        "es": "Yo nací siendo un niño normal, pero pronto decidí que me iba a convertir en alguien extraordinario.",
+        "fr": "Je suis né tout à fait ordinaire, mais j’ai pris très tôt la décision de rendre ma vie extraordinaire.",
+        "hu": "Átlagos fiúnak születtem, de egészen fiatal koromban határoztam el, hogy rendkívüli fogok lenni.",
+        "it": "Sono nato ed ero un bambino ordinario, ma ho deciso molto presto che sarei diventato straordinario.",
+        "ja": "私は 生まれつき ただの 少年だったが、 早いうちに とある 選択をした おかげで 特別な 存在に なれた。",
+        "en": "I was born an ordinary boy, but I made a decision early in life that I would become extraordinary.",
+        "ko": "난 평범한 아이로 태어났지만, 일찍이 비범한 사람이 되겠다고 결정했지.",
+        "pt": "Eu era um garoto como qualquer outro, mas bem cedo na vida, decidi me tornar extraordinário.",
+        "ru": "Я родился обычным мальчиком, но я очень рано принял решение, что стану необычным.",
+        "tr": "Sıradan bir çocukluk geçirirken, verdiğim bir karar beni sıra dışı yaptı.",
+        "zh": "我出生时也只是个普通的男孩子。但我从小就下定主意，要变得更加出色。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Mister Qi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Mister Qi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Mister Qi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Mister Qi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Mister Qi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Mister Qi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Mister Qi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Mister Qi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Mister Qi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Mister Qi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Mister Qi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Mister Qi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Mister Qi:married",
+      "author_key": "married",
+      "character": "Mister Qi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "*seufz*... Ich hoffe, ich kann eines Tages heiraten. Das war eine sehr verheißungsvolle Hochzeitszeremonie, @.#$b#... Was? Du hast mich dort nicht gesehen? #$b#Hahaha... Du kannst kein Geheimnis vor Herrn Qi bewahren.",
+        "es": "Eso fue una ceremonia de bodas muy propicia, @.#$b#...¿Qué? ¿No me viste ahí?#$b#Jajaja... Joven... No puedes ocultarle nada al Señor Qi.",
+        "fr": "C’était une cérémonie de mariage très prometteuse, @.#$b#... Quoi ? Tu ne m’as pas vu ? #$b#Hahaha... Tu ne peux rien cacher à M. Qi.",
+        "hu": "Az egy elég sikeres esküvői szertartás volt, @.#$b#...Tessék? Nem láttál ott engem?#$b#Hahaha... Kölyök... Mr. Qi elől semmit sem lehet titokban tartani.",
+        "it": "La cerimonia nuziale è stata magnifica, @.#$b#...Come? Non mi hai visto tra gli invitati?#$b#Hahaha... Giovane... A Mr. Qi non sfugge mai nulla.",
+        "ja": "とてもよい結婚式だったね、@。#$b#…ん？私を見かけなかったって？#$b#ハハハ…知っているだろう…ミスターQiに秘密は通じないんだよ。",
+        "en": "That was a very auspicious wedding ceremony, @.#$b#...What? You didn't see me there?#$b#Hahaha... Kid... You can't keep a secret from Mr. Qi.",
+        "ko": "상서로운 결혼식이었어, @.#$b#...뭐라고? 거기서 난 못 봤다고?#$b#하하하... 꼬마야... 미스터 치가 모르는 비밀은 없어.",
+        "pt": "Aquela foi uma cerimônia de casamento muito auspiciosa, @.#$b#...O quê? Você não me viu lá?#$b#Hahaha... Jovem... Nenhum segredo escapa do Sr. Qi.",
+        "ru": "Славная у вас была церемония, @.#$b#...Что? Не ${видел^видела}$ меня на ней?#$b#Ха-ха-ха... ${Малец^Барышня}$... От мистера Ки ничего не утаишь.",
+        "tr": "Çok özel bir düğün töreniydi @.#$b#...Ne? Orada olduğumu görmedin mi?#$b#Hahaha... Evlat... Bay Qi'den sır saklayamazsın.",
+        "zh": "@，你的婚礼办得非常吉利。#$b#……你说什么？没看到我？#$b#哈哈哈……年轻人……齐先生可是无所不知、无所不晓。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Mister Qi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Mister Qi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Mister Qi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Mister Qi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Mister Qi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Mister Qi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Mister Qi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Mister Qi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Mister Qi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Mister Qi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Mister Qi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Mister Qi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'married' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    }
+  ]
+}

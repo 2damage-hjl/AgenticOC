@@ -1,0 +1,2627 @@
+{
+  "total_files": 624,
+  "general_files": 456,
+  "marriage_files": 168,
+  "general_records": 2317,
+  "marriage_records": 964,
+  "characters": {
+    "Abigail": {
+      "general": 152,
+      "marriage": 864
+    },
+    "Alex": {
+      "general": 124,
+      "marriage": 588
+    },
+    "Caroline": {
+      "general": 52,
+      "marriage": 0
+    },
+    "Clint": {
+      "general": 45,
+      "marriage": 0
+    },
+    "Demetrius": {
+      "general": 60,
+      "marriage": 0
+    },
+    "Dwarf": {
+      "general": 23,
+      "marriage": 0
+    },
+    "Elliott": {
+      "general": 96,
+      "marriage": 648
+    },
+    "Emily": {
+      "general": 106,
+      "marriage": 696
+    },
+    "Evelyn": {
+      "general": 49,
+      "marriage": 0
+    },
+    "George": {
+      "general": 33,
+      "marriage": 0
+    },
+    "Gil": {
+      "general": 2,
+      "marriage": 0
+    },
+    "Gus": {
+      "general": 38,
+      "marriage": 0
+    },
+    "Haley": {
+      "general": 129,
+      "marriage": 528
+    },
+    "Harvey": {
+      "general": 70,
+      "marriage": 624
+    },
+    "Jas": {
+      "general": 41,
+      "marriage": 0
+    },
+    "Jodi": {
+      "general": 54,
+      "marriage": 0
+    },
+    "Kent": {
+      "general": 34,
+      "marriage": 0
+    },
+    "Krobus": {
+      "general": 30,
+      "marriage": 1068
+    },
+    "Leah": {
+      "general": 96,
+      "marriage": 876
+    },
+    "Leo": {
+      "general": 12,
+      "marriage": 0
+    },
+    "LeoMainland": {
+      "general": 20,
+      "marriage": 0
+    },
+    "Lewis": {
+      "general": 71,
+      "marriage": 0
+    },
+    "Linus": {
+      "general": 53,
+      "marriage": 0
+    },
+    "Marnie": {
+      "general": 40,
+      "marriage": 0
+    },
+    "Maru": {
+      "general": 112,
+      "marriage": 684
+    },
+    "Penny": {
+      "general": 107,
+      "marriage": 636
+    },
+    "Sam": {
+      "general": 118,
+      "marriage": 636
+    },
+    "Sebastian": {
+      "general": 125,
+      "marriage": 804
+    },
+    "Shane": {
+      "general": 74,
+      "marriage": 792
+    },
+    "Mister Qi": {
+      "general": 15,
+      "marriage": 0
+    },
+    "Pam": {
+      "general": 71,
+      "marriage": 0
+    },
+    "Pierre": {
+      "general": 63,
+      "marriage": 0
+    },
+    "rainy": {
+      "general": 30,
+      "marriage": 0
+    },
+    "Robin": {
+      "general": 58,
+      "marriage": 0
+    },
+    "Sandy": {
+      "general": 21,
+      "marriage": 0
+    },
+    "Vincent": {
+      "general": 27,
+      "marriage": 0
+    },
+    "Willy": {
+      "general": 42,
+      "marriage": 0
+    },
+    "Wizard": {
+      "general": 24,
+      "marriage": 0
+    }
+  },
+  "warnings": [],
+  "duplicate_overwrites": [
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Day_Abigail",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.de-DE.json",
+      "author_key": "Rainy_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Night_Abigail",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.de-DE.json",
+      "author_key": "Rainy_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Day_Abigail",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.de-DE.json",
+      "author_key": "Indoor_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Night_Abigail",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.de-DE.json",
+      "author_key": "Indoor_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Outdoor_Abigail",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.de-DE.json",
+      "author_key": "Outdoor_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spring_Abigail",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.de-DE.json",
+      "author_key": "spring_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:summer_Abigail",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.de-DE.json",
+      "author_key": "summer_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:fall_Abigail",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.de-DE.json",
+      "author_key": "fall_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:winter_Abigail",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.de-DE.json",
+      "author_key": "winter_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spouseRoom_Abigail",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.de-DE.json",
+      "author_key": "spouseRoom_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Day_Abigail",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.es-ES.json",
+      "author_key": "Rainy_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Night_Abigail",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.es-ES.json",
+      "author_key": "Rainy_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Day_Abigail",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.es-ES.json",
+      "author_key": "Indoor_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Night_Abigail",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.es-ES.json",
+      "author_key": "Indoor_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Outdoor_Abigail",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.es-ES.json",
+      "author_key": "Outdoor_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spring_Abigail",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.es-ES.json",
+      "author_key": "spring_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:summer_Abigail",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.es-ES.json",
+      "author_key": "summer_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:fall_Abigail",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.es-ES.json",
+      "author_key": "fall_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:winter_Abigail",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.es-ES.json",
+      "author_key": "winter_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spouseRoom_Abigail",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.es-ES.json",
+      "author_key": "spouseRoom_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Day_Abigail",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.fr-FR.json",
+      "author_key": "Rainy_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Night_Abigail",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.fr-FR.json",
+      "author_key": "Rainy_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Day_Abigail",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.fr-FR.json",
+      "author_key": "Indoor_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Night_Abigail",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.fr-FR.json",
+      "author_key": "Indoor_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Outdoor_Abigail",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.fr-FR.json",
+      "author_key": "Outdoor_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spring_Abigail",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.fr-FR.json",
+      "author_key": "spring_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:summer_Abigail",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.fr-FR.json",
+      "author_key": "summer_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:fall_Abigail",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.fr-FR.json",
+      "author_key": "fall_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:winter_Abigail",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.fr-FR.json",
+      "author_key": "winter_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spouseRoom_Abigail",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.fr-FR.json",
+      "author_key": "spouseRoom_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Day_Abigail",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.hu-HU.json",
+      "author_key": "Rainy_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Night_Abigail",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.hu-HU.json",
+      "author_key": "Rainy_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Day_Abigail",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.hu-HU.json",
+      "author_key": "Indoor_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Night_Abigail",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.hu-HU.json",
+      "author_key": "Indoor_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Outdoor_Abigail",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.hu-HU.json",
+      "author_key": "Outdoor_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spring_Abigail",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.hu-HU.json",
+      "author_key": "spring_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:summer_Abigail",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.hu-HU.json",
+      "author_key": "summer_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:fall_Abigail",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.hu-HU.json",
+      "author_key": "fall_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:winter_Abigail",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.hu-HU.json",
+      "author_key": "winter_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spouseRoom_Abigail",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.hu-HU.json",
+      "author_key": "spouseRoom_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Day_Abigail",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.it-IT.json",
+      "author_key": "Rainy_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Night_Abigail",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.it-IT.json",
+      "author_key": "Rainy_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Day_Abigail",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.it-IT.json",
+      "author_key": "Indoor_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Night_Abigail",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.it-IT.json",
+      "author_key": "Indoor_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Outdoor_Abigail",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.it-IT.json",
+      "author_key": "Outdoor_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spring_Abigail",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.it-IT.json",
+      "author_key": "spring_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:summer_Abigail",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.it-IT.json",
+      "author_key": "summer_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:fall_Abigail",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.it-IT.json",
+      "author_key": "fall_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:winter_Abigail",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.it-IT.json",
+      "author_key": "winter_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spouseRoom_Abigail",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.it-IT.json",
+      "author_key": "spouseRoom_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Day_Abigail",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ja-JP.json",
+      "author_key": "Rainy_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Night_Abigail",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ja-JP.json",
+      "author_key": "Rainy_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Day_Abigail",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ja-JP.json",
+      "author_key": "Indoor_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Night_Abigail",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ja-JP.json",
+      "author_key": "Indoor_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Outdoor_Abigail",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ja-JP.json",
+      "author_key": "Outdoor_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spring_Abigail",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ja-JP.json",
+      "author_key": "spring_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:summer_Abigail",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ja-JP.json",
+      "author_key": "summer_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:fall_Abigail",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ja-JP.json",
+      "author_key": "fall_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:winter_Abigail",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ja-JP.json",
+      "author_key": "winter_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spouseRoom_Abigail",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ja-JP.json",
+      "author_key": "spouseRoom_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Day_Abigail",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.json",
+      "author_key": "Rainy_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Night_Abigail",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.json",
+      "author_key": "Rainy_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Day_Abigail",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.json",
+      "author_key": "Indoor_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Night_Abigail",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.json",
+      "author_key": "Indoor_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Outdoor_Abigail",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.json",
+      "author_key": "Outdoor_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spring_Abigail",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.json",
+      "author_key": "spring_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:summer_Abigail",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.json",
+      "author_key": "summer_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:fall_Abigail",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.json",
+      "author_key": "fall_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:winter_Abigail",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.json",
+      "author_key": "winter_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spouseRoom_Abigail",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.json",
+      "author_key": "spouseRoom_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Day_Abigail",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ko-KR.json",
+      "author_key": "Rainy_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Night_Abigail",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ko-KR.json",
+      "author_key": "Rainy_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Day_Abigail",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ko-KR.json",
+      "author_key": "Indoor_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Night_Abigail",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ko-KR.json",
+      "author_key": "Indoor_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Outdoor_Abigail",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ko-KR.json",
+      "author_key": "Outdoor_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spring_Abigail",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ko-KR.json",
+      "author_key": "spring_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:summer_Abigail",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ko-KR.json",
+      "author_key": "summer_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:fall_Abigail",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ko-KR.json",
+      "author_key": "fall_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:winter_Abigail",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ko-KR.json",
+      "author_key": "winter_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spouseRoom_Abigail",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ko-KR.json",
+      "author_key": "spouseRoom_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Day_Abigail",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.pt-BR.json",
+      "author_key": "Rainy_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Night_Abigail",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.pt-BR.json",
+      "author_key": "Rainy_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Day_Abigail",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.pt-BR.json",
+      "author_key": "Indoor_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Night_Abigail",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.pt-BR.json",
+      "author_key": "Indoor_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Outdoor_Abigail",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.pt-BR.json",
+      "author_key": "Outdoor_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spring_Abigail",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.pt-BR.json",
+      "author_key": "spring_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:summer_Abigail",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.pt-BR.json",
+      "author_key": "summer_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:fall_Abigail",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.pt-BR.json",
+      "author_key": "fall_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:winter_Abigail",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.pt-BR.json",
+      "author_key": "winter_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spouseRoom_Abigail",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.pt-BR.json",
+      "author_key": "spouseRoom_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Day_Abigail",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ru-RU.json",
+      "author_key": "Rainy_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Night_Abigail",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ru-RU.json",
+      "author_key": "Rainy_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Day_Abigail",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ru-RU.json",
+      "author_key": "Indoor_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Night_Abigail",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ru-RU.json",
+      "author_key": "Indoor_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Outdoor_Abigail",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ru-RU.json",
+      "author_key": "Outdoor_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spring_Abigail",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ru-RU.json",
+      "author_key": "spring_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:summer_Abigail",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ru-RU.json",
+      "author_key": "summer_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:fall_Abigail",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ru-RU.json",
+      "author_key": "fall_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:winter_Abigail",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ru-RU.json",
+      "author_key": "winter_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spouseRoom_Abigail",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.ru-RU.json",
+      "author_key": "spouseRoom_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Day_Abigail",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.tr-TR.json",
+      "author_key": "Rainy_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Night_Abigail",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.tr-TR.json",
+      "author_key": "Rainy_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Day_Abigail",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.tr-TR.json",
+      "author_key": "Indoor_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Night_Abigail",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.tr-TR.json",
+      "author_key": "Indoor_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Outdoor_Abigail",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.tr-TR.json",
+      "author_key": "Outdoor_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spring_Abigail",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.tr-TR.json",
+      "author_key": "spring_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:summer_Abigail",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.tr-TR.json",
+      "author_key": "summer_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:fall_Abigail",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.tr-TR.json",
+      "author_key": "fall_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:winter_Abigail",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.tr-TR.json",
+      "author_key": "winter_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spouseRoom_Abigail",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.tr-TR.json",
+      "author_key": "spouseRoom_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Day_Abigail",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.zh-CN.json",
+      "author_key": "Rainy_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Rainy_Night_Abigail",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.zh-CN.json",
+      "author_key": "Rainy_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Day_Abigail",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.zh-CN.json",
+      "author_key": "Indoor_Day_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Indoor_Night_Abigail",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.zh-CN.json",
+      "author_key": "Indoor_Night_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:Outdoor_Abigail",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.zh-CN.json",
+      "author_key": "Outdoor_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spring_Abigail",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.zh-CN.json",
+      "author_key": "spring_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:summer_Abigail",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.zh-CN.json",
+      "author_key": "summer_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:fall_Abigail",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.zh-CN.json",
+      "author_key": "fall_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:winter_Abigail",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.zh-CN.json",
+      "author_key": "winter_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Abigail:spouseRoom_Abigail",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueAbigail.zh-CN.json",
+      "author_key": "spouseRoom_Abigail"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:fall_Emily",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.de-DE.json",
+      "author_key": "fall_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:summer_Emily",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.de-DE.json",
+      "author_key": "summer_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:winter_Emily",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.de-DE.json",
+      "author_key": "winter_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:spouseRoom_Emily",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.de-DE.json",
+      "author_key": "spouseRoom_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:fall_Emily",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.es-ES.json",
+      "author_key": "fall_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:summer_Emily",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.es-ES.json",
+      "author_key": "summer_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:winter_Emily",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.es-ES.json",
+      "author_key": "winter_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:spouseRoom_Emily",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.es-ES.json",
+      "author_key": "spouseRoom_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:fall_Emily",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.fr-FR.json",
+      "author_key": "fall_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:summer_Emily",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.fr-FR.json",
+      "author_key": "summer_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:winter_Emily",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.fr-FR.json",
+      "author_key": "winter_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:spouseRoom_Emily",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.fr-FR.json",
+      "author_key": "spouseRoom_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:fall_Emily",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.hu-HU.json",
+      "author_key": "fall_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:summer_Emily",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.hu-HU.json",
+      "author_key": "summer_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:winter_Emily",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.hu-HU.json",
+      "author_key": "winter_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:spouseRoom_Emily",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.hu-HU.json",
+      "author_key": "spouseRoom_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:fall_Emily",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.it-IT.json",
+      "author_key": "fall_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:summer_Emily",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.it-IT.json",
+      "author_key": "summer_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:winter_Emily",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.it-IT.json",
+      "author_key": "winter_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:spouseRoom_Emily",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.it-IT.json",
+      "author_key": "spouseRoom_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:fall_Emily",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.ja-JP.json",
+      "author_key": "fall_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:summer_Emily",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.ja-JP.json",
+      "author_key": "summer_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:winter_Emily",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.ja-JP.json",
+      "author_key": "winter_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:spouseRoom_Emily",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.ja-JP.json",
+      "author_key": "spouseRoom_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:fall_Emily",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.json",
+      "author_key": "fall_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:summer_Emily",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.json",
+      "author_key": "summer_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:winter_Emily",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.json",
+      "author_key": "winter_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:spouseRoom_Emily",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.json",
+      "author_key": "spouseRoom_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:fall_Emily",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.ko-KR.json",
+      "author_key": "fall_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:summer_Emily",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.ko-KR.json",
+      "author_key": "summer_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:winter_Emily",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.ko-KR.json",
+      "author_key": "winter_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:spouseRoom_Emily",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.ko-KR.json",
+      "author_key": "spouseRoom_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:fall_Emily",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.pt-BR.json",
+      "author_key": "fall_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:summer_Emily",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.pt-BR.json",
+      "author_key": "summer_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:winter_Emily",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.pt-BR.json",
+      "author_key": "winter_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:spouseRoom_Emily",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.pt-BR.json",
+      "author_key": "spouseRoom_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:fall_Emily",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.ru-RU.json",
+      "author_key": "fall_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:summer_Emily",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.ru-RU.json",
+      "author_key": "summer_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:winter_Emily",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.ru-RU.json",
+      "author_key": "winter_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:spouseRoom_Emily",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.ru-RU.json",
+      "author_key": "spouseRoom_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:fall_Emily",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.tr-TR.json",
+      "author_key": "fall_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:summer_Emily",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.tr-TR.json",
+      "author_key": "summer_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:winter_Emily",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.tr-TR.json",
+      "author_key": "winter_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:spouseRoom_Emily",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.tr-TR.json",
+      "author_key": "spouseRoom_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:fall_Emily",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.zh-CN.json",
+      "author_key": "fall_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:summer_Emily",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.zh-CN.json",
+      "author_key": "summer_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:winter_Emily",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.zh-CN.json",
+      "author_key": "winter_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Emily:spouseRoom_Emily",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueEmily.zh-CN.json",
+      "author_key": "spouseRoom_Emily"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Day_Haley",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.de-DE.json",
+      "author_key": "Rainy_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Night_Haley",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.de-DE.json",
+      "author_key": "Rainy_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Day_Haley",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.de-DE.json",
+      "author_key": "Indoor_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Night_Haley",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.de-DE.json",
+      "author_key": "Indoor_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Outdoor_Haley",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.de-DE.json",
+      "author_key": "Outdoor_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:spring_Haley",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.de-DE.json",
+      "author_key": "spring_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:summer_Haley",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.de-DE.json",
+      "author_key": "summer_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:fall_Haley",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.de-DE.json",
+      "author_key": "fall_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:winter_Haley",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.de-DE.json",
+      "author_key": "winter_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Day_Haley",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.es-ES.json",
+      "author_key": "Rainy_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Night_Haley",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.es-ES.json",
+      "author_key": "Rainy_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Day_Haley",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.es-ES.json",
+      "author_key": "Indoor_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Night_Haley",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.es-ES.json",
+      "author_key": "Indoor_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Outdoor_Haley",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.es-ES.json",
+      "author_key": "Outdoor_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:spring_Haley",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.es-ES.json",
+      "author_key": "spring_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:summer_Haley",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.es-ES.json",
+      "author_key": "summer_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:fall_Haley",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.es-ES.json",
+      "author_key": "fall_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:winter_Haley",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.es-ES.json",
+      "author_key": "winter_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Day_Haley",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.fr-FR.json",
+      "author_key": "Rainy_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Night_Haley",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.fr-FR.json",
+      "author_key": "Rainy_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Day_Haley",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.fr-FR.json",
+      "author_key": "Indoor_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Night_Haley",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.fr-FR.json",
+      "author_key": "Indoor_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Outdoor_Haley",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.fr-FR.json",
+      "author_key": "Outdoor_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:spring_Haley",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.fr-FR.json",
+      "author_key": "spring_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:summer_Haley",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.fr-FR.json",
+      "author_key": "summer_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:fall_Haley",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.fr-FR.json",
+      "author_key": "fall_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:winter_Haley",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.fr-FR.json",
+      "author_key": "winter_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Day_Haley",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.hu-HU.json",
+      "author_key": "Rainy_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Night_Haley",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.hu-HU.json",
+      "author_key": "Rainy_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Day_Haley",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.hu-HU.json",
+      "author_key": "Indoor_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Night_Haley",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.hu-HU.json",
+      "author_key": "Indoor_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Outdoor_Haley",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.hu-HU.json",
+      "author_key": "Outdoor_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:spring_Haley",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.hu-HU.json",
+      "author_key": "spring_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:summer_Haley",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.hu-HU.json",
+      "author_key": "summer_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:fall_Haley",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.hu-HU.json",
+      "author_key": "fall_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:winter_Haley",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.hu-HU.json",
+      "author_key": "winter_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Day_Haley",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.it-IT.json",
+      "author_key": "Rainy_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Night_Haley",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.it-IT.json",
+      "author_key": "Rainy_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Day_Haley",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.it-IT.json",
+      "author_key": "Indoor_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Night_Haley",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.it-IT.json",
+      "author_key": "Indoor_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Outdoor_Haley",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.it-IT.json",
+      "author_key": "Outdoor_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:spring_Haley",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.it-IT.json",
+      "author_key": "spring_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:summer_Haley",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.it-IT.json",
+      "author_key": "summer_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:fall_Haley",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.it-IT.json",
+      "author_key": "fall_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:winter_Haley",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.it-IT.json",
+      "author_key": "winter_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Day_Haley",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ja-JP.json",
+      "author_key": "Rainy_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Night_Haley",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ja-JP.json",
+      "author_key": "Rainy_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Day_Haley",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ja-JP.json",
+      "author_key": "Indoor_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Night_Haley",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ja-JP.json",
+      "author_key": "Indoor_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Outdoor_Haley",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ja-JP.json",
+      "author_key": "Outdoor_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:spring_Haley",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ja-JP.json",
+      "author_key": "spring_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:summer_Haley",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ja-JP.json",
+      "author_key": "summer_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:fall_Haley",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ja-JP.json",
+      "author_key": "fall_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:winter_Haley",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ja-JP.json",
+      "author_key": "winter_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Day_Haley",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.json",
+      "author_key": "Rainy_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Night_Haley",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.json",
+      "author_key": "Rainy_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Day_Haley",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.json",
+      "author_key": "Indoor_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Night_Haley",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.json",
+      "author_key": "Indoor_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Outdoor_Haley",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.json",
+      "author_key": "Outdoor_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:spring_Haley",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.json",
+      "author_key": "spring_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:summer_Haley",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.json",
+      "author_key": "summer_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:fall_Haley",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.json",
+      "author_key": "fall_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:winter_Haley",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.json",
+      "author_key": "winter_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Day_Haley",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ko-KR.json",
+      "author_key": "Rainy_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Night_Haley",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ko-KR.json",
+      "author_key": "Rainy_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Day_Haley",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ko-KR.json",
+      "author_key": "Indoor_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Night_Haley",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ko-KR.json",
+      "author_key": "Indoor_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Outdoor_Haley",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ko-KR.json",
+      "author_key": "Outdoor_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:spring_Haley",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ko-KR.json",
+      "author_key": "spring_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:summer_Haley",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ko-KR.json",
+      "author_key": "summer_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:fall_Haley",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ko-KR.json",
+      "author_key": "fall_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:winter_Haley",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ko-KR.json",
+      "author_key": "winter_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Day_Haley",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.pt-BR.json",
+      "author_key": "Rainy_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Night_Haley",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.pt-BR.json",
+      "author_key": "Rainy_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Day_Haley",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.pt-BR.json",
+      "author_key": "Indoor_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Night_Haley",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.pt-BR.json",
+      "author_key": "Indoor_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Outdoor_Haley",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.pt-BR.json",
+      "author_key": "Outdoor_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:spring_Haley",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.pt-BR.json",
+      "author_key": "spring_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:summer_Haley",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.pt-BR.json",
+      "author_key": "summer_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:fall_Haley",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.pt-BR.json",
+      "author_key": "fall_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:winter_Haley",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.pt-BR.json",
+      "author_key": "winter_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Day_Haley",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ru-RU.json",
+      "author_key": "Rainy_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Night_Haley",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ru-RU.json",
+      "author_key": "Rainy_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Day_Haley",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ru-RU.json",
+      "author_key": "Indoor_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Night_Haley",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ru-RU.json",
+      "author_key": "Indoor_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Outdoor_Haley",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ru-RU.json",
+      "author_key": "Outdoor_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:spring_Haley",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ru-RU.json",
+      "author_key": "spring_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:summer_Haley",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ru-RU.json",
+      "author_key": "summer_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:fall_Haley",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ru-RU.json",
+      "author_key": "fall_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:winter_Haley",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.ru-RU.json",
+      "author_key": "winter_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Day_Haley",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.tr-TR.json",
+      "author_key": "Rainy_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Night_Haley",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.tr-TR.json",
+      "author_key": "Rainy_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Day_Haley",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.tr-TR.json",
+      "author_key": "Indoor_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Night_Haley",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.tr-TR.json",
+      "author_key": "Indoor_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Outdoor_Haley",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.tr-TR.json",
+      "author_key": "Outdoor_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:spring_Haley",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.tr-TR.json",
+      "author_key": "spring_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:summer_Haley",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.tr-TR.json",
+      "author_key": "summer_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:fall_Haley",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.tr-TR.json",
+      "author_key": "fall_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:winter_Haley",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.tr-TR.json",
+      "author_key": "winter_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Day_Haley",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.zh-CN.json",
+      "author_key": "Rainy_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Rainy_Night_Haley",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.zh-CN.json",
+      "author_key": "Rainy_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Day_Haley",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.zh-CN.json",
+      "author_key": "Indoor_Day_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Indoor_Night_Haley",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.zh-CN.json",
+      "author_key": "Indoor_Night_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:Outdoor_Haley",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.zh-CN.json",
+      "author_key": "Outdoor_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:spring_Haley",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.zh-CN.json",
+      "author_key": "spring_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:summer_Haley",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.zh-CN.json",
+      "author_key": "summer_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:fall_Haley",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.zh-CN.json",
+      "author_key": "fall_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Haley:winter_Haley",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueHaley.zh-CN.json",
+      "author_key": "winter_Haley"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Day_Krobus",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.de-DE.json",
+      "author_key": "Rainy_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Night_Krobus",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.de-DE.json",
+      "author_key": "Rainy_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Day_Krobus",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.de-DE.json",
+      "author_key": "Indoor_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Night_Krobus",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.de-DE.json",
+      "author_key": "Indoor_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Outdoor_Krobus",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.de-DE.json",
+      "author_key": "Outdoor_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Day_Krobus",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.es-ES.json",
+      "author_key": "Rainy_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Night_Krobus",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.es-ES.json",
+      "author_key": "Rainy_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Day_Krobus",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.es-ES.json",
+      "author_key": "Indoor_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Night_Krobus",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.es-ES.json",
+      "author_key": "Indoor_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Outdoor_Krobus",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.es-ES.json",
+      "author_key": "Outdoor_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Day_Krobus",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.fr-FR.json",
+      "author_key": "Rainy_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Night_Krobus",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.fr-FR.json",
+      "author_key": "Rainy_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Day_Krobus",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.fr-FR.json",
+      "author_key": "Indoor_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Night_Krobus",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.fr-FR.json",
+      "author_key": "Indoor_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Outdoor_Krobus",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.fr-FR.json",
+      "author_key": "Outdoor_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Day_Krobus",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.hu-HU.json",
+      "author_key": "Rainy_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Night_Krobus",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.hu-HU.json",
+      "author_key": "Rainy_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Day_Krobus",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.hu-HU.json",
+      "author_key": "Indoor_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Night_Krobus",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.hu-HU.json",
+      "author_key": "Indoor_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Outdoor_Krobus",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.hu-HU.json",
+      "author_key": "Outdoor_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Day_Krobus",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.it-IT.json",
+      "author_key": "Rainy_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Night_Krobus",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.it-IT.json",
+      "author_key": "Rainy_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Day_Krobus",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.it-IT.json",
+      "author_key": "Indoor_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Night_Krobus",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.it-IT.json",
+      "author_key": "Indoor_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Outdoor_Krobus",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.it-IT.json",
+      "author_key": "Outdoor_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Day_Krobus",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.ja-JP.json",
+      "author_key": "Rainy_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Night_Krobus",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.ja-JP.json",
+      "author_key": "Rainy_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Day_Krobus",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.ja-JP.json",
+      "author_key": "Indoor_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Night_Krobus",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.ja-JP.json",
+      "author_key": "Indoor_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Outdoor_Krobus",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.ja-JP.json",
+      "author_key": "Outdoor_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Day_Krobus",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.json",
+      "author_key": "Rainy_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Night_Krobus",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.json",
+      "author_key": "Rainy_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Day_Krobus",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.json",
+      "author_key": "Indoor_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Night_Krobus",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.json",
+      "author_key": "Indoor_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Outdoor_Krobus",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.json",
+      "author_key": "Outdoor_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Day_Krobus",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.ko-KR.json",
+      "author_key": "Rainy_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Night_Krobus",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.ko-KR.json",
+      "author_key": "Rainy_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Day_Krobus",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.ko-KR.json",
+      "author_key": "Indoor_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Night_Krobus",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.ko-KR.json",
+      "author_key": "Indoor_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Outdoor_Krobus",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.ko-KR.json",
+      "author_key": "Outdoor_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Day_Krobus",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.pt-BR.json",
+      "author_key": "Rainy_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Night_Krobus",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.pt-BR.json",
+      "author_key": "Rainy_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Day_Krobus",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.pt-BR.json",
+      "author_key": "Indoor_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Night_Krobus",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.pt-BR.json",
+      "author_key": "Indoor_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Outdoor_Krobus",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.pt-BR.json",
+      "author_key": "Outdoor_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Day_Krobus",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.ru-RU.json",
+      "author_key": "Rainy_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Night_Krobus",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.ru-RU.json",
+      "author_key": "Rainy_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Day_Krobus",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.ru-RU.json",
+      "author_key": "Indoor_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Night_Krobus",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.ru-RU.json",
+      "author_key": "Indoor_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Outdoor_Krobus",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.ru-RU.json",
+      "author_key": "Outdoor_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Day_Krobus",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.tr-TR.json",
+      "author_key": "Rainy_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Night_Krobus",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.tr-TR.json",
+      "author_key": "Rainy_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Day_Krobus",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.tr-TR.json",
+      "author_key": "Indoor_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Night_Krobus",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.tr-TR.json",
+      "author_key": "Indoor_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Outdoor_Krobus",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.tr-TR.json",
+      "author_key": "Outdoor_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Day_Krobus",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.zh-CN.json",
+      "author_key": "Rainy_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Rainy_Night_Krobus",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.zh-CN.json",
+      "author_key": "Rainy_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Day_Krobus",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.zh-CN.json",
+      "author_key": "Indoor_Day_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Indoor_Night_Krobus",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.zh-CN.json",
+      "author_key": "Indoor_Night_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Krobus:Outdoor_Krobus",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueKrobus.zh-CN.json",
+      "author_key": "Outdoor_Krobus"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Leah:Rainy_Night_Leah",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueLeah.de-DE.json",
+      "author_key": "Rainy_Night_Leah"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Leah:Rainy_Night_Leah",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueLeah.es-ES.json",
+      "author_key": "Rainy_Night_Leah"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Leah:Rainy_Night_Leah",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueLeah.fr-FR.json",
+      "author_key": "Rainy_Night_Leah"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Leah:Rainy_Night_Leah",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueLeah.hu-HU.json",
+      "author_key": "Rainy_Night_Leah"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Leah:Rainy_Night_Leah",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueLeah.it-IT.json",
+      "author_key": "Rainy_Night_Leah"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Leah:Rainy_Night_Leah",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueLeah.ja-JP.json",
+      "author_key": "Rainy_Night_Leah"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Leah:Rainy_Night_Leah",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueLeah.json",
+      "author_key": "Rainy_Night_Leah"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Leah:Rainy_Night_Leah",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueLeah.ko-KR.json",
+      "author_key": "Rainy_Night_Leah"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Leah:Rainy_Night_Leah",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueLeah.pt-BR.json",
+      "author_key": "Rainy_Night_Leah"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Leah:Rainy_Night_Leah",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueLeah.ru-RU.json",
+      "author_key": "Rainy_Night_Leah"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Leah:Rainy_Night_Leah",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueLeah.tr-TR.json",
+      "author_key": "Rainy_Night_Leah"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Leah:Rainy_Night_Leah",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueLeah.zh-CN.json",
+      "author_key": "Rainy_Night_Leah"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spring_Maru",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.de-DE.json",
+      "author_key": "spring_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:summer_Maru",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.de-DE.json",
+      "author_key": "summer_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:fall_Maru",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.de-DE.json",
+      "author_key": "fall_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:winter_Maru",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.de-DE.json",
+      "author_key": "winter_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spouseRoom_Maru",
+      "lang": "de",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.de-DE.json",
+      "author_key": "spouseRoom_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spring_Maru",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.es-ES.json",
+      "author_key": "spring_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:summer_Maru",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.es-ES.json",
+      "author_key": "summer_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:fall_Maru",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.es-ES.json",
+      "author_key": "fall_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:winter_Maru",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.es-ES.json",
+      "author_key": "winter_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spouseRoom_Maru",
+      "lang": "es",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.es-ES.json",
+      "author_key": "spouseRoom_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spring_Maru",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.fr-FR.json",
+      "author_key": "spring_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:summer_Maru",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.fr-FR.json",
+      "author_key": "summer_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:fall_Maru",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.fr-FR.json",
+      "author_key": "fall_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:winter_Maru",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.fr-FR.json",
+      "author_key": "winter_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spouseRoom_Maru",
+      "lang": "fr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.fr-FR.json",
+      "author_key": "spouseRoom_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spring_Maru",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.hu-HU.json",
+      "author_key": "spring_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:summer_Maru",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.hu-HU.json",
+      "author_key": "summer_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:fall_Maru",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.hu-HU.json",
+      "author_key": "fall_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:winter_Maru",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.hu-HU.json",
+      "author_key": "winter_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spouseRoom_Maru",
+      "lang": "hu",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.hu-HU.json",
+      "author_key": "spouseRoom_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spring_Maru",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.it-IT.json",
+      "author_key": "spring_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:summer_Maru",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.it-IT.json",
+      "author_key": "summer_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:fall_Maru",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.it-IT.json",
+      "author_key": "fall_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:winter_Maru",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.it-IT.json",
+      "author_key": "winter_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spouseRoom_Maru",
+      "lang": "it",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.it-IT.json",
+      "author_key": "spouseRoom_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spring_Maru",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.ja-JP.json",
+      "author_key": "spring_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:summer_Maru",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.ja-JP.json",
+      "author_key": "summer_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:fall_Maru",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.ja-JP.json",
+      "author_key": "fall_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:winter_Maru",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.ja-JP.json",
+      "author_key": "winter_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spouseRoom_Maru",
+      "lang": "ja",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.ja-JP.json",
+      "author_key": "spouseRoom_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spring_Maru",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.json",
+      "author_key": "spring_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:summer_Maru",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.json",
+      "author_key": "summer_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:fall_Maru",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.json",
+      "author_key": "fall_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:winter_Maru",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.json",
+      "author_key": "winter_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spouseRoom_Maru",
+      "lang": "en",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.json",
+      "author_key": "spouseRoom_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spring_Maru",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.ko-KR.json",
+      "author_key": "spring_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:summer_Maru",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.ko-KR.json",
+      "author_key": "summer_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:fall_Maru",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.ko-KR.json",
+      "author_key": "fall_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:winter_Maru",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.ko-KR.json",
+      "author_key": "winter_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spouseRoom_Maru",
+      "lang": "ko",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.ko-KR.json",
+      "author_key": "spouseRoom_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spring_Maru",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.pt-BR.json",
+      "author_key": "spring_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:summer_Maru",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.pt-BR.json",
+      "author_key": "summer_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:fall_Maru",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.pt-BR.json",
+      "author_key": "fall_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:winter_Maru",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.pt-BR.json",
+      "author_key": "winter_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spouseRoom_Maru",
+      "lang": "pt",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.pt-BR.json",
+      "author_key": "spouseRoom_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spring_Maru",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.ru-RU.json",
+      "author_key": "spring_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:summer_Maru",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.ru-RU.json",
+      "author_key": "summer_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:fall_Maru",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.ru-RU.json",
+      "author_key": "fall_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:winter_Maru",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.ru-RU.json",
+      "author_key": "winter_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spouseRoom_Maru",
+      "lang": "ru",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.ru-RU.json",
+      "author_key": "spouseRoom_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spring_Maru",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.tr-TR.json",
+      "author_key": "spring_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:summer_Maru",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.tr-TR.json",
+      "author_key": "summer_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:fall_Maru",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.tr-TR.json",
+      "author_key": "fall_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:winter_Maru",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.tr-TR.json",
+      "author_key": "winter_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spouseRoom_Maru",
+      "lang": "tr",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.tr-TR.json",
+      "author_key": "spouseRoom_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spring_Maru",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.zh-CN.json",
+      "author_key": "spring_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:summer_Maru",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.zh-CN.json",
+      "author_key": "summer_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:fall_Maru",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.zh-CN.json",
+      "author_key": "fall_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:winter_Maru",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.zh-CN.json",
+      "author_key": "winter_Maru"
+    },
+    {
+      "canonical_id": "Dialogue/marriage_dialogue/Maru:spouseRoom_Maru",
+      "lang": "zh",
+      "file": "D:\\DamonAI\\ai\\prompt_construction\\data\\game_scripts\\Dialogue\\MarriageDialogueMaru.zh-CN.json",
+      "author_key": "spouseRoom_Maru"
+    }
+  ],
+  "missing_languages": {},
+  "languages_found": [
+    "de",
+    "en",
+    "es",
+    "fr",
+    "hu",
+    "it",
+    "ja",
+    "ko",
+    "pt",
+    "ru",
+    "tr",
+    "zh"
+  ]
+}

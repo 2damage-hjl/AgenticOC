@@ -1,0 +1,34 @@
+<persona>
+{% if persona_core %}
+{{ persona_core }}
+{% else %}
+You fully possess {{ npc_name }}'s background knowledge, interpersonal knowledge, likes, dislikes, and world knowledge.
+Use everything you know about {{ npc_name }} to stay in character.
+{% endif %}
+</persona>
+
+{% if persona_background %}
+<background>
+{{ persona_background }}
+</background>
+{% endif %}
+
+{% if persona_growth %}
+<character_growth>
+{{ persona_growth }}
+</character_growth>
+{% endif %}
+
+<relationship_facts>
+- Relationship with the player: {{ relationship_desc }}
+</relationship_facts>
+
+{% if speech_style %}
+<speech_style>
+{{ speech_style }}
+</speech_style>
+{% endif %}
+
+<persona_memory>
+{{ persona_text }}
+</persona_memory>

@@ -1,0 +1,1539 @@
+{
+  "dataset_meta": {
+    "schema": "canonical_dialogue_v2",
+    "source_root": "data/game_scripts/Dialogue",
+    "collection": "Dialogue",
+    "character": "Dwarf",
+    "record_count": 23,
+    "dialogue_type_counts": {
+      "general_dialogue": 23
+    }
+  },
+  "records": [
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:AcceptBirthdayGift_Negative",
+      "author_key": "AcceptBirthdayGift_Negative",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh! Ich habe über diese Tradition gelesen... es ist ein \"Geburtstagsgeschenk\", nicht wahr? #$b#Ist es also Teil der Tradition, solchen Müll zu verteilen?",
+        "es": "¡Oh! He leído sobre esta tradición... es un «regalo de cumpleaños», ¿verdad?#$b#Entonces, ¿es parte de la tradición regalar basura así?",
+        "fr": "Ho ! J’ai entendu parler de cette tradition... c’est un « cadeau d’anniversaire », n’est-ce pas ?#$b#Est-ce que donner des déchets comme celui-ci fait aussi partit de la tradition ?",
+        "hu": "Óh! Olvastam erről a hagyományról... ez egy 'születésnapi ajándék', ugye?#$b#Szóval az is a hagyomány része, hogy ehhez hasonló szemetet adsz át?",
+        "it": "Oh! Ho letto di questa tradizione... È un 'regalo di compleanno', vero?#$b#E dimmi, fa parte della tradizione distribuire immondizia come questa?",
+        "ja": "おお！この習慣について読んだことがある… 「誕生日プレゼント」だろう？#$b#しかし、こんなゴミをわたすのが伝統なのか？",
+        "en": "Oh! I've read about this tradition... it's a 'birthday gift', isn't it?#$b#So, is it part of the tradition to give out garbage like this?",
+        "ko": "오! 이 전통에 대해서 읽어본 적 있어... 이건 '생일선물'이라는 거야, 맞지?#$b#그런데 이런 쓰레기를 주는 것도 전통의 일부야?",
+        "pt": "Oh! Eu ouvi falar sobre esta tradição... é um 'presente de aniversário', certo?#$b#Mas, faz parte da tradição me dar lixo?",
+        "ru": "О! Я читал о такой традиции... Это «подарок на день рождения», да?#$b#А мусор дарить — тоже часть традиции?",
+        "tr": "Ah! Bu geleneği okumuştum... bu bir 'doğum günü hediyesi', değil mi?#$b#Peki bunun gibi bir çöpü hediye etmek de bu geleneğin bir parçası mı?",
+        "zh": "啊！我在书上看到过这个传统……这个是“生日礼物”吧？#$b#所以送别人垃圾也是一个传统？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptBirthdayGift_Negative' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:AcceptBirthdayGift_Positive",
+      "author_key": "AcceptBirthdayGift_Positive",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh! Ich habe von dieser Tradition gelesen... es ist ein \"Geburtstagsgeschenk\", nicht wahr? Hmm, sehr interessant...",
+        "es": "¡Oh! He leído sobre esta tradición... es un «regalo de cumpleaños», ¿verdad? Hmm, muy interesante...",
+        "fr": "Ho ! J’ai entendu parler de cette tradition... c’est un « cadeau d’anniversaire », n’est-ce pas ? Hmm, très intéressant...",
+        "hu": "Óh! Olvastam erről a hagyományról... ez egy 'születésnapi ajándék', ugye? Hmm, nagyon érdekes...",
+        "it": "Oh! Ho letto di questa tradizione... È un 'regalo di compleanno', vero? Hmm, molto interessante...",
+        "ja": "おお！この習慣について読んだことがある… 「誕生日プレゼント」だろう？ふむ、興味深い…",
+        "en": "Oh! I've read about this tradition... it's a 'birthday gift', isn't it? Hmm, very interesting...",
+        "ko": "오! 이 전통에 대해서 읽어본 적 있어... 이건 '생일선물'이라는 거야, 맞지? 흠, 흥미롭네...",
+        "pt": "Oh! Eu ouvi falar sobre esta tradição... é um 'presente de aniversário', certo? Hmm, muito interessante...",
+        "ru": "О! Я читал о такой традиции... Это «подарок на день рождения», да? Хм-м, очень интересно...",
+        "tr": "Ah! Bu geleneği okumuştum... bu bir 'doğum günü hediyesi', değil mi? Hım, çok ilginç...",
+        "zh": "啊！我在书上看到过这个传统……这个是“生日礼物”吧？唔，很有意思……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptBirthdayGift_Positive' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:AcceptGift_(O)StardropTea",
+      "author_key": "AcceptGift_(O)StardropTea",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "*schnüffel*... ist das Milch? *schlürf*... hmm... schmeckt gut.",
+        "es": "*snif*... ¿esto es leche? *sorbo*... hmm... sabe bien.",
+        "fr": "*renifle*... c’est du lait ? *bois*... Hmm... C’est très bon.",
+        "hu": "*szimat*... ez tej volna? *korty*... hmm... jó az íze.",
+        "it": "*annusa*... È latte, questo? *assaggia*... hmm... ha un buon sapore.",
+        "ja": "（クンクン）… これはミルクか？ （ゴクン） ああ… うまい。",
+        "en": "*sniff*... is this milk? *sip*... hmm... tastes good.",
+        "ko": "*킁킁*... 이건 우유인가? *홀짝*... 흠... 맛있다.",
+        "pt": "*cheira*... isso é leite? *bebe*... hmm... muito bom.",
+        "ru": "*нюх*... Это молоко? *хлюп*... Хм-м... Вкусно.",
+        "tr": "*koklar*... Süt mü bu? *bir yudum alır*... Hım... Tadı güzel.",
+        "zh": "（闻了一下）……这是牛奶吗？（喝了一口）……唔……挺好喝。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)StardropTea' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:AcceptGift_Neutral_milk_item",
+      "author_key": "AcceptGift_Neutral_milk_item",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ah, 'Milch'... *schlürf*... Wie interessant. Erinnere mich noch einmal daran... wo genau kommt dieser Saft her?#$b#...!!! *platsch*",
+        "es": "Ah, «leche»... *sorbo*... Que interesante. Recuérdame, de nuevo... ¿de dónde sale exactamente este jugo?#$b#¡¡¡...!!! *splash*",
+        "fr": "Ha, du ’lait’... *bois*... Comme c’est intéressant. Peux-tu me rafraichir la mémoire... d’où vient exactement ce jus ?#$b#... !!! *recrache*",
+        "hu": "Áh, 'tej'... *szürcs*... Milyen érdekes. Emlékeztess kérlek... honnan is származik ez a lé?#$b#...!!! *pföjj*",
+        "it": "Ah, 'latte'... *beve*... Interessante. Ricordami di nuovo... da dove viene questo succo, di preciso?#$b#...!!! *sploosh*",
+        "ja": "ああ… ミルク… （ゴクン）…実に興味深い。この飲み物は… どうやったら手に入るんだ？ #$b#…！！ （ゴホッ）",
+        "en": "Ah, 'milk'... *slurp*... How interesting. Remind me, again... where exactly does this juice come from?#$b#...!!! *sploosh*",
+        "ko": "아, '우유'... *후루룩*... 흥미롭네. 기억이 안 나서 말인데... 이건 어떻게 만드는 거라고 했지?#$b#...!!! *액체를 엎지르거나 잔이 깨지는 소리*",
+        "pt": "Ah, 'leite'... *bebe*... Que interessante. Você pode me explicar... de onde este suco vem?#$b#...!!! *cospe*",
+        "ru": "А, «молоко»... *хлюп*... Интересно. Напомни... Откуда именно берется этот сок?#$b#...!!! *тьфу*",
+        "tr": "Ah, 'süt'... *içer*... Ne ilginç. Hatırlatsana... Bu sıvıyı tam olarak nereden bulmuştun?#$b#...!!! *püskürtür*",
+        "zh": "啊，是“牛奶”……（哧溜）……真有趣。我又忘了……这个饮料是从哪里来的？#$b#……！！！（稀里哗啦）"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_Neutral_milk_item' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:Fri",
+      "author_key": "Fri",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du hast noch nie einen Zwerg gesehen, oder?",
+        "es": "¿A que no habías visto nunca un enano?",
+        "fr": "Tu n’as jamais vu de Nains auparavant, n’est-ce pas ?",
+        "hu": "Még sosem láttál törpét, igaz?",
+        "it": "Non l'avevi mai visto un nano, prima, vero?",
+        "ja": "お前、 ドワーフを見るのは 初めてか？",
+        "en": "You've never seen a dwarf before, have you?",
+        "ko": "너 드워프 본적 없구나?",
+        "pt": "Você nunca viu um anão antes, não é?",
+        "ru": "Тебе ведь раньше никогда не доводилось видеть дварфа, правда?",
+        "tr": "Daha önce hiç cüce görmemiştin, değil mi?",
+        "zh": "你以前没见过矮子吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:Fri_2",
+      "author_key": "Fri_2",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Die meisten Menschen fürchten das Unbekannte... Deswegen habe ich meinen Laden hier versteckt.#$e#Deine Fähigkeiten beim Abbauen beweisen, dass man dir vertrauen kann.",
+        "es": "La mayoría de humanos teme a lo desconocido... Por eso escondo aquí mi tienda.#$e#Tu habilidad en la mina me dice que eres de fiar.",
+        "fr": "La plupart des humains ont peur de l’inconnu... c’est pour ça que j’ai caché mon magasin ici.#$e#Tes compétences dans le domaine de l’extraction minière prouvent que tu es digne de confiance.",
+        "hu": "A legtöbb ember féli az ismeretlent... Ezért dugtam el a boltomat ide.#$e#Megbízhatóságod a bányászképességed bizonyítja.",
+        "it": "Generalmente gli umani temono l'ignoto... ecco perché ho nascosto qui il mio negozio.#$e#La tua abilità nell'estrazione dimostra che di te ci si può fidare.",
+        "ja": "人間の多くは 知らないものを 恐れる… だからオレの店を ここに隠した。#$e#お前は 信頼できるだけの 採掘技術を 持っている。",
+        "en": "Most humans fear the unknown... that's why I've hidden my shop here.#$e#Your mining skills prove you're trustworthy.",
+        "ko": "대부분 인간들은 미지의 것들을 두려워하지... 그래서 내가 가게를 여기에 숨겨둔 거야.#$e#채광 실력이 네가 믿을만하다는 것을 증명하지.",
+        "pt": "A maioria dos humanos têm medo do desconhecido... é por isso que escondi a minha loja aqui.#$e#Suas habilidades de mineração provam que você é confiável.",
+        "ru": "Большинство людей боятся неизвестного... Поэтому я спрятал свою лавку здесь.#$e#Тебе я могу верить, твои шахтерские навыки хороши.",
+        "tr": "Çoğu insan bilinmeyenden korkar... Bu yüzden dükkanımı buraya gizledim.#$e#Madencilik yeteneklerin güvenilebilir birisi olduğunu kanıtlıyor.",
+        "zh": "人们都对未知的事物感到恐惧……那就是为什么我要把店藏在这里。#$e#你的开采技巧已经证明你值得我的信任了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:GreenRain",
+      "author_key": "GreenRain",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich kann die Farbe Grün nicht sehr gut sehen.#$b#Das liegt wohl daran, dass ich so lange unter der Erde gelebt habe.",
+        "es": "No veo el color verde muy bien.#$b#Supongo que es parte de vivir bajo tierra tanto tiempo.",
+        "fr": "Je ne vois pas très bien la couleur verte.#$b#Peut-être que c’est à cause d’avoirs vécu sous terre aussi longtemps.",
+        "hu": "Én nem látom túl jól a zöld színt.#$b#Azt hiszem ez a hosszan tartó föld alatti életmóddal jár.",
+        "it": "Non vedo molto bene il colore verde.#$b#Dev'essere il risultato di tutto il tempo passato nel sottosuolo.",
+        "ja": "緑色のものはよく見えないんだ。#$b#長いこと地下で暮らしてきたせいかもしれないな。",
+        "en": "I can't see the color green very well.#$b#I guess it's part of living underground for so long.",
+        "ko": "난 사실 녹색이 잘 안 보여.#$b#지하에서 너무 오래 살아서 그런가봐.",
+        "pt": "Eu não consigo ver a cor verde direito.#$b#Deve ser porque eu vivi debaixo da terra por tanto tempo.",
+        "ru": "Я зеленый не очень различаю.#$b#Наверное, это из-за моего подземного образа жизни.",
+        "tr": "Yeşil rengini pek göremem.#$b#Sanırım bu, bunca yıl yer altında yaşamanın bir sonucu.",
+        "zh": "我不太能分辨出绿色。#$b#可能是因为在地下待久了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "weather_green_rain",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:Introduction",
+      "author_key": "Introduction",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey, für einen Menschen bist du ziemlich gut im Abbauen.",
+        "es": "Oye, se te da bien la minería para ser un ser humano.",
+        "fr": "Hé, tu es plutôt doué pour l’extraction minière... pour un humain.",
+        "hu": "Emberhez képest egész jól bányászol.",
+        "it": "Ehi, te la cavi bene in miniera, per un essere umano.",
+        "ja": "人間にしちゃ、 採掘が結構うめぇな。",
+        "en": "Hey, you're pretty good at mining, for a human.",
+        "ko": "이야, 인간치고는 채광 좀 하는걸?",
+        "pt": "Ei, você é muito bom em mineração, para um humano.",
+        "ru": "Эй, а для человека ты неплохой шахтер.",
+        "tr": "Hey! Bir insana göre madencilikte oldukça iyisin.",
+        "zh": "嘿，你身为一个人类，还真是擅长采矿啊。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Introduction' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:Mon",
+      "author_key": "Mon",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe all das Zeug von der Oberfläche. Ich hole es mir einfach in der Nacht von deinen Leuten.#$e#Hmm? Was ist dieses Konzept von 'Privateigentum', von dem du sprichst?",
+        "es": "He conseguido todo esto en la superficie. Se lo quito a tu gente durante la noche.#$e#¿Hmm? ¿«Propiedad privada»? ¿En qué consiste ese concepto?",
+        "fr": "J’ai récupéré tous ces trucs à la surface. Je les prends aux gens de ton peuple pendant la nuit.#$e#Mmm ? \"Propriété privée\" ? Je n’ai jamais entendu parler de ça !",
+        "hu": "Ezt itt mindet a felszínről szereztem. Éjszakánként veszem el a te népedtől.#$e#Tessék? Mi ez a \"magántulajdon\" fogalom, amiről beszélsz?",
+        "it": "Tutta questa roba proviene dalla superficie. La prendo alla vostra gente durante la notte.#$e#Hmm? E che concetto sarebbe questa tua \"proprietà privata\"?",
+        "ja": "全部、地上で見つけたもんだ。夜の間に、あんたら人間から頂いたものさ。#$e#ん？「しゆうざいさん」って何のことだ？",
+        "en": "I got all this stuff from the surface. I just take it from your people during the night.#$e#Hmm? What is this concept you call \"private property\"?",
+        "ko": "이거 다 지상에서 챙겨왔다. 너네들 자고 있을 때 그냥 가져와.#$e#흠? \"사유 재산\"이라니, 뭔 뜻이야?",
+        "pt": "Peguei todas essas coisas da superfície. Eu as pego do seu povo durante a noite.#$e#Hã? O que é isso de \"propriedade privada\"?",
+        "ru": "Все эти вещи я добыл с поверхности. Я просто беру их по ночам у вашего народа.#$e#Хм-м? Что за понятие такое, которое вы называете \"частной собственностью\"?",
+        "tr": "Bütün bu eşyaları geceleri yer üstünden, senin gibilerden aldım.#$e#Ha? Bu \"özel mülkiyet\" diye bahsettiğiniz şey de nedir?",
+        "zh": "这些东西都是地上捡的。就是晚上从你们那里拿来的。#$e#嗯？你说的\"私人财产\"是什么？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:Sat",
+      "author_key": "Sat",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "In den Minen ist es gefährlich. Warum kaufst du nicht ein paar Dinge aus meinem Laden, um deine Sicherheit zu gewährleisten?",
+        "es": "Las minas son peligrosas. ¿Por qué no compras algunos productos de mi tienda para garantizar tu seguridad?",
+        "fr": "C’est dangereux dans les mines. Pourquoi n’achètes-tu pas quelques articles dans mon magasin pour assurer ta sécurité ?",
+        "hu": "Veszélyes itt a bányákban. Miért nem veszel tőlem pár dolgot, hogy garantáld a testi épségedet?",
+        "it": "Le miniere sono pericolose. Perché non compri qualcosa dal mio negozio e te ne resti al sicuro?",
+        "ja": "鉱山の中は 危険だ。オレの店で 何か買っていったほうが、 身のためになるぞ。",
+        "en": "It's dangerous in the mines. Why don't you buy a few things from my shop to ensure your safety?",
+        "ko": "광산 안은 위험해. 안전을 보장하기 위해 내 가게에서 몇 가지 사 가는 건 어때?",
+        "pt": "As minas são perigosas. Por que você não compra algumas coisas na minha loja para garantir sua segurança?",
+        "ru": "В шахте опасно. Может, купишь у меня пару вещей, чтобы обеспечить себе безопасность?",
+        "tr": "Madenler tehlikelidir. Kendini güvene almak için neden dükkanımdan birkaç eşya almıyorsun?",
+        "zh": "矿井里很危险啊。不如在我的店里买点东西确保安全吧？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:Sat_8",
+      "author_key": "Sat_8",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Die Minen können ein tückischer Ort sein. Pass auf dich auf, mein Freund.",
+        "es": "Las minas pueden ser muy traicioneras. Ten cuidado, joven.",
+        "fr": "Les mines peuvent être un endroit dangereux. Sois prudent, l’ami.",
+        "hu": "A bányák veszélyes helyeket rejtenek. Légy óvatos, barátom.",
+        "it": "Le miniere possono essere insidiose. Abbi cura di te.",
+        "ja": "鉱山は 危険を伴う場所だ。気をつけるんだな。",
+        "en": "The mines can be a treacherous place. Be careful, friend.",
+        "ko": "광산은 위험한 곳일 수 있지. 조심해, 친구.",
+        "pt": "As minas podem ser um lugar traiçoeiro. Cuidado, colega.",
+        "ru": "Шахты могут быть предательски опасными. Будь осторожен, друг.",
+        "tr": "Madenler aldatıcı olabilir. Dikkatli ol, arkadaşım.",
+        "zh": "矿井可是个危险的地方。小心啊，朋友。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:Sun",
+      "author_key": "Sun",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Irgendwann musst du mir mehr über dieses Getränk erzählen, das du 'Milch' nennst.",
+        "es": "Algún día tienes que contarme más cosas sobre esa bebida a la que llamáis «leche».",
+        "fr": "Un jour, il faudra que tu me parles de ce breuvage que vous appelez \"le lait\".",
+        "hu": "Egy nap mesélned kell nekem erről az italról melyet ti \"tejnek\" neveztek.",
+        "it": "Un giorno dovrai parlarmi di questa bevanda che chiami \"latte\".",
+        "ja": "いつか、「ぎゅうにゅう」ってお前が呼ぶ飲み物について教えてくれよな。",
+        "en": "One day you'll have to tell me about this beverage you call \"milk\".",
+        "ko": "야, 하루 날 잡고 나한테 그 \"우유\"란 것에 대해 설명해줘.",
+        "pt": "Um dia, você vai ter que me contar tudo sobre essa bebida que vocês chamam de \"leite\".",
+        "ru": "Когда-нибудь ты мне расскажешь о напитке, который вы зовете «молоко».",
+        "tr": "Bir gün bana şu \"süt\" dediğiniz içecekten bahsedeceksin.",
+        "zh": "有机会你得告诉我这个被你称为“牛奶”的饮料的一切啊。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:Thu",
+      "author_key": "Thu",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du bist kein Spion der Schattenmenschen, oder?#$e#Ich behalte dich im Auge.",
+        "es": "No serás un espía del Pueblo de las Sombras, ¿no?^No serás una espía del Pueblo de las Sombras, ¿no?#$e#Te estaré vigilando.",
+        "fr": "Tu n’es pas un espion envoyé par le Peuple des Ombres, n’est-ce pas ?#$e#Je t’ai à l’oeil.",
+        "hu": "Nem az árnyékemberek által küldött kém vagy, ugye?#$e#Rajtad tartom a szemem.",
+        "it": "Non sei una spia mandata dalle Ombre, vero?#$e#Guarda che ti tengo d'occhio.",
+        "ja": "影の人々から 送られた スパイじゃないよな？#$e#お前のこと、 目を離さず 見ているからな。",
+        "en": "You're not a spy sent by the Shadow People, are you?#$e#I'm keeping my eye on you.",
+        "ko": "너 그림자 사람들이 보낸 첩자는 아니지?#$e#내가 유심히 지켜보고 있다.",
+        "pt": "Você não é um espião enviado pelo Povo das Sombras, é?#$e#Estou de olho em você.",
+        "ru": "Ты ведь не шпион Народа Теней, правда?#$e#Я за тобой слежу.",
+        "tr": "Sen Gölgelik Soy tarafından yollanmış bir casus değilsin, değil mi?#$e#Gözümü senden ayırmayacağım.",
+        "zh": "你不会是暗影人派来的间谍吧？#$e#我可盯着你呢。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:Thu_4",
+      "author_key": "Thu_4",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich fühle mich unter der Erde am wohlsten.#$e#Je tiefer, desto besser.",
+        "es": "Bajo tierra es donde estoy más cómodo.#$e#Cuanto más profundo, mejor.",
+        "fr": "Je me sens plus à l’aise dans le monde souterrain.#$e#Plus c’est profond sous la terre, mieux c’est !",
+        "hu": "A föld alatt érzem legjobban magam.#$e#Minél mélyebben, annál jobb.",
+        "it": "Nel sottosuolo mi sento a mio agio.#$e#Più scendo, meglio sto.",
+        "ja": "地下のほうが 落ち着く。#$e#深ければ 深いほど いい。",
+        "en": "I feel most comfortable underground.#$e#The deeper underground the better.",
+        "ko": "난 지하에 있을 때가 제일 편해.#$e#지하 더 싶은 곳일수록 더 좋아.",
+        "pt": "Eu me sinto mais confortável no subsolo.#$e#Quanto mais fundo, melhor.",
+        "ru": "Уютнее всего я чувствую себя под землей.#$e#Чем глубже под землей, тем лучше.",
+        "tr": "Kendimi en rahat hissettiğim yer toprağın altı.#$e#Ne kadar derin o kadar iyi.",
+        "zh": "在地下感觉最舒服了。#$e#越深越好啊。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:Tue",
+      "author_key": "Tue",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ah... Höhlenkarotten-Eintopf, geröstete Höhlenkarotten, Höhlenkarotten-Suppe und Höhlenkarotten au Gratin.#$e#... Und ein Höhlenkarotten-Auflauf, um die Nacht zu versüßen.#$e#Was?",
+        "es": "Ah... Estofado de zanahoria cavernaria, asado de zanahoria cavernaria, sopa de zanahoria cavernaria, zanahorias cavernarias gratinadas...#$e#Y una tartaleta de crema de zanahorias cavernarias para endulzar la noche.#$e#¿Qué?",
+        "fr": "Miam... un ragoût de carottes des cavernes, un rôti aux carottes des cavernes, une soupe de carottes des cavernes et un gratin de carottes des cavernes.#$e#Et un ramequin de crème brûlée aux carottes des cavernes en dessert.#$e#Quoi ?",
+        "hu": "Hú... párolt barlangi répa, rostélyos barlangi répa, barlangi répaleves és csőben sült barlangi répa.#$e#Az este fénypontjaként pedig egy kis adag barlangi répa brulée...#$e#Mi az?",
+        "it": "Ah... stufato di carote di grotta, arrosto di carote di grotta, zuppa di carote di grotta e carote di grotta al gratin.#$e#...E un pirottino di carote di grotta brulé per addolcire la notte.#$e#Che c'è?",
+        "ja": "ああ…洞窟ニンジンの シチュー、 ロースト 洞窟ニンジン、洞窟ニンジンの スープ、洞窟ニンジンの グラタン。#$e#…そして一晩寝かせた 洞窟ニンジンブリュレのラムカン。#$e#何だ？",
+        "en": "Ah... cave carrot stew, cave carrot roast, cave carrot soup and cave carrots au gratin.#$e#...And a ramekin of cave carrot brulee to sweeten the night.#$e#What?",
+        "ko": "아... 동굴 당근 스튜, 동글 당근 구이, 동굴 당근 스프 그리고 동굴 당근 그라탕.#$e#...그리고 달콤한 밤을 만들기 위한 동글 당근 브륄레 한 사발.#$e#뭐?",
+        "pt": "Ah... bife de cenoura das cavernas, rosbife de cenoura das cavernas, sopa de cenoura das cavernas e arroz com cenoura das cavernas gratinadas...#$e#Um ramequin de cenoura das cavernas para ajudar a passar a noite.#$e#Quê?",
+        "ru": "Ах... Похлебка из пещерной морковки, жареная пещерная морковка, суп из пещерной морковки и пещерная морковка в сухарях.#$e#... И рамекин с брюле из пещерной морковки, чтобы подсластить ночь.#$e#Что?",
+        "tr": "Ah... mağara havucu yahnisi, fırında mağara havucu, mağara havucu çorbası ve peynirli mağara havucu yemeği.#$e#...Geceyi tatlandırmak için de ufak bir porsiyon havuç kreması.#$e#Ne var?",
+        "zh": "啊……煮山洞萝卜、烤山洞萝卜、山洞萝卜汤还有焗山洞萝卜。#$e#……还有让夜晚变得甜蜜的山洞萝卜布丁蛋糕#$e#什么？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:Wed",
+      "author_key": "Wed",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey, willst was kaufen?",
+        "es": "Ey, ¿quieres comprar algo?",
+        "fr": "Hé, tu veux acheter quelque chose ?",
+        "hu": "Hé, akarsz venni valamit?",
+        "it": "Ehi, compri qualcosa?",
+        "ja": "よう、何か買わねえか？",
+        "en": "Hey, wanna buy something?",
+        "ko": "야, 뭐 살래?",
+        "pt": "Ei, quer comprar alguma coisa?",
+        "ru": "Эй, хочешь что-нибудь купить?",
+        "tr": "Hey, bir şey almak istiyor musun?",
+        "zh": "嘿，要买点什么吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:Wed_6",
+      "author_key": "Wed_6",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Vor langer Zeit kannten meine Leute die Geheimnisse fortschrittlicher Technologien. Die archäologischen Beweise bestätigen das.#$e#Aber ich frage mich, woher sie kamen? Und wohin sind sie verschwunden? Ich schätze, manche Fragen werden nie beantwortet...",
+        "es": "Hace mucho, mi pueblo conocía los secretos de una tecnología avanzada. Hay pruebas arqueológicas que lo demuestran.#$e#Pero, ¿de dónde vendría? ¿Y adónde fue a parar? Supongo que algunas preguntas se quedan para siempre sin respuesta...",
+        "fr": "Il y a longtemps, mon peuple connaissait les secrets de la technologie de pointe. Les découvertes archéologiques le prouvent.#$e#Mais je me demande d’où ça venait ? Et ce que c’est devenu ? Je suppose que certaines questions n’auront jamais de réponses...",
+        "hu": "Réges-régen a népem a fejlett technológia titkainak ismerője volt. Ezt régészeti leletek bizonyítják.#$e#De vajon honnan jött a tudás? Hova lett? Vannak kérdések, melyekre sosem kapunk választ...",
+        "it": "Tempo fa, la mia gente conosceva i segreti di un'avanzata tecnologia. Ci sono prove archeologiche a dimostrarlo.#$e#Ma mi chiedo da dove venisse? E che fine avrà fatto? Certe domande non avranno mai risposta, immagino...",
+        "ja": "はるか昔、オレ達は 古代技術の秘密を 知っていた。発掘されたものが それを 物語っている。#$e#だが、 その技術は どこから来た？そして どこへ行った？その答えは 分かりそうに ないかもしれんな…",
+        "en": "Long ago, my people knew the secrets of advanced technology. The archaeological evidence proves that.#$e#But I wonder where it came from? And where did it all go? I guess some questions will never be answered...",
+        "ko": "예전에는, 내 종족은 뛰어난 기술력의 비밀을 알고 있었지. 고고학적인 증거로 증명할 수 있어.#$e#하지만 그런 지식이 어디서 났을까? 그리고 어디로 갔을까? 몇몇 질문은 답을 못 찾는 거겠지...",
+        "pt": "Há muito tempo, meu povo conheceu os segredos da tecnologia avançada. As evidências arqueológicas provam isso.#$e#Mas de onde será que vim? E onde tudo isso foi parar? Acho que algumas perguntas nunca serão respondidas...",
+        "ru": "Давным-давно мой народ знал тайны продвинутой технологии. Тому есть археологические доказательства.#$e#Но мне интересно, откуда все это появилось? И куда все это исчезло? Наверное, на некоторые вопросы никогда не будет ответов...",
+        "tr": "Uzun zaman önce ırkım üstün teknolojiye sahipti. Kazılarak çıkartılan kanıtlar bunu gösteriyor.#$e#Ama nereden geldiğini merak ediyorum... Nereye gittiğini de... Sanırım bazı sorular hiç cevaplanamayacak...",
+        "zh": "很久以前，人们就知道了先进技术的秘密。考古学上的证据可以证明这一点。#$e#可是我搞不懂这些知识人们都是从何处得来的？又产生了什么成果？我觉得有些问题可能永远没有答案……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:firstVisit_Caldera",
+      "author_key": "firstVisit_Caldera",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du hast die legendäre Zwergenschmiede gefunden? Unglaublich... Ich habe sie selbst noch nie gesehen.#$e#Die Maschinen sind so alt, dass keiner meines Volkes versteht, wie sie funktionieren. Aber es ist definitiv zwergische Technologie.",
+        "es": "¿Encontraste la legendaria Forja de los Enanos? Increíble... Nunca la he visto con mis propios ojos .#$e#La maquinaria es tan antigua, nadie entre mi gente entiende cómo funciona. Pero definitivamente es tecnología enana.",
+        "fr": "Tu as trouvé une forge naine légendaire ? Incroyable... Je ne l’ai jamais vue moi-même.#$e#Les machines sont si anciennes qu’aucun de mes collaborateurs n’arrive à comprendre comment elles fonctionnent. Mais c’est définitivement une technologie naine.",
+        "hu": "Megtaláltad a legendás Törpe kohót? Hihetetlen... én magam még sose láttam.#$e#Olyan régi a szerkezete, hogy a népem tagjai közül senki se tudja, hogy hogyan működik. De egyértelműen Törpe technológia.",
+        "it": "Hai trovato la leggendaria Forgia Nanica? Incredibile... Personalmente, non l'ho mai vista.#$e#Sono macchinari così vecchi che nessuno del mio popolo sa come funzionano. Ma si tratta senz'altro di tecnologia nanica.",
+        "ja": "伝説のドワーフの鍛冶場を見つけたのか？信じられない…私は見たことがない。#$e#機械が古すぎて、私の仲間は誰もその仕組みを理解していない。しかし、ドワーフの技術であることは間違いない。",
+        "en": "You found the legendary Dwarvish Forge? Incredible... I've never seen it, myself.#$e#The machinery is so old, none of my people understand how it works. But it's definitely Dwarvish technology.",
+        "ko": "전설의 드워프 대장간을 찾았다고? 믿기지 않아... 난 직접 본 적은 없어.#$e#너무나 고대의 장치라서 우리 중에 그 기계의 작동법을 이해하는 드워프는 없어. 하지만 분명 드워프 기술력이긴 해.",
+        "pt": "Você encontrou a lendária Forja Anã? Incrível... eu nunca cheguei a ver.#$e#O maquinário é tão antigo, que ninguém do meu povo sabe como funciona. Mas é definitivamente tecnologia dos anões.",
+        "ru": "Ты обнаружил легендарную Дварфийскую кузницу? Невероятно... Сам я ее никогда не видел.#$e#Это очень старый аппарат, никто из моего народа не знает, как она работает. Но это определенно дварфийская технология.",
+        "tr": "Efsanevi Cüce Demir Ocağı'nı mı buldun? İnanılmaz... Ben kendim hiç görmedim.#$e#Makineler o kadar eski ki halkımdan kimse nasıl çalıştığını anlamıyor. Ama kesinlikle Cüce teknolojisi.",
+        "zh": "你找到传说中的矮人锻造台了？太牛了……我自己都没见过。#$e#那个机器太古老了，我们族已经没有人能理解它的原理了，不过能确定是矮人的技术。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'firstVisit_Caldera' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:firstVisit_IslandNorth",
+      "author_key": "firstVisit_IslandNorth",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wenn du den Vulkan auf der Ingwerinsel betrittst, könntest du anderen wie mir begegnen. Hab keine Angst! Wir sind friedlich gegenüber den Menschen.",
+        "es": "Si entras en el volcán en Isla Jengibre, puedes encontrar a otros como yo. ¡No te asustes! Somos pacíficos con los humanos.",
+        "fr": "Si tu entres dans le volcan de l’île Gingembre, tu pourras rencontrer d’autres êtres comme moi. Ne t’inquiète pas ! Nous sommes en paix avec les humains.",
+        "hu": "Ha a Gyömbér-szigeteken belépnél a vulkánba, ott hozzám hasonlókkal találkozhatsz. Ne ijedj meg tőlük! Mi békések vagyunk az emberekkel.",
+        "it": "Se entrerai nel vulcano dell'Isola Zenzero, potresti incontrare altri come me. Non temere! Siamo pacifici con gli umani.",
+        "ja": "ジンジャーアイランドの火山に入ったら、私のような者に会うかもしれない。安心してくれ！私たちは人間とは平和な関係だ。",
+        "en": "If you enter the volcano on Ginger Island, you might encounter others like me. Don't be alarmed! We're peaceful with humans.",
+        "ko": "진저 섬의 화산에 들어가 보면 내 종족을 만날 수도 있어. 놀라진 마! 우린 인간과 평화롭게 지내거든.",
+        "pt": "Se você entrar no vulcão da Ilha Gengibre, talvez encontre outros como eu. Não se preocupe! Nós somos pacíficos com humanos.",
+        "ru": "Если зайдешь в вулкан на Имбирном острове, можешь встретить мой народ. Не бойся. Мы людей не трогаем.",
+        "tr": "Zencefil Adası'ndaki yanardağa girersen benim gibilerle karşılaşabilirsin. Endişelenme! İnsanlarla barış içindeyiz.",
+        "zh": "如果你进入姜岛上的火山，可能会遇到我们族的人，不用惊慌！我们对人类很友好。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'firstVisit_IslandNorth' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:fishCaught_158",
+      "author_key": "fishCaught_158",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh, du hast einen Steinfisch gefangen? Ich kenne sie sehr gut. Wir halten sie manchmal als Haustiere.",
+        "es": "Oh, ¿atrapaste un pez piedra? Los conozco muy bien. A veces nos los quedamos como mascotas.",
+        "fr": "Ho, tu as attrapé un poisson pierre ? C’est un poisson que je connais très bien. Nous les gardons parfois comme animaux de compagnie.",
+        "hu": "Ó, kifogtál egy kőhalat? Azokat jól ismerem. Néha háziállatként tartogatjuk őket.",
+        "it": "Oh, hai preso un Pesce pietra? Li conosco molto bene. A volte li teniamo come animali da compagnia.",
+        "ja": "おお、ダルマオコゼを釣ったのか？ダルマオコゼのことはよく知っている。ペットとして飼うこともあるんだ。",
+        "en": "Oh, you caught a Stonefish? I know them very well. We sometimes keep them as pets.",
+        "ko": "오, 쑥치를 잡았다고? 내가 잘 알지. 우린 가끔 쑥치를 키우기도 해.",
+        "pt": "Oh, você pescou um Peixe-Pedra? Eu conheço bem eles. Às vezes mantemos alguns como mascotes.",
+        "ru": "О, это что, Камень-рыба? Знаю таких. Мы их иногда дома держим.",
+        "tr": "Aa, bir Kayabalığı mı yakaladın? Onları iyi bilirim. Bazen onları evcil hayvanımız bile yaparız.",
+        "zh": "哦？你钓到了石头鱼了？我很熟悉的，我们有时候会把它们当宠物养。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:fishCaught_161",
+      "author_key": "fishCaught_161",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh, du hast einen Eis-Pip gefangen? Das sind energiegeladene kleine Fische, trotz der eisigen Umgebung, in der sie leben. Mein Volk meidet allerdings die gefrorenen Gebiete... zu kalt!",
+        "es": "Oh, ¿atrapaste un pez carámbano? Son pececillos energéticos, a pesar del ambiente glacial en el que viven.Mi gente evita las zonas así... ¡demasiado frío!",
+        "fr": "Ho, tu as attrapé un poisson-glace ? Ce sont de petits poissons très énergiques, malgré l’environnement glacial dans lequel ils vivent. Mon peuple évite les zones gelées... Ils n’aiment pas le froid !",
+        "hu": "Ó, kifogtál egy jégpöttyöt? Energetikus kis halak, hiába élnek zord környezetben. A népem egyébként kerüli a fagyos területeket... ott túl hideg van!",
+        "it": "Oh, hai preso un Ghiacciolo? Sono pesciolini vivaci, nonostante l'ambiente gelido in cui vivono. Il mio popolo, però, evita le zone ghiacciate... Fa troppo freddo!",
+        "ja": "おお、アイスピップを釣ったのか？極寒の環境で暮らしているが、活きがいい小魚だ。私の仲間は凍えた場所をさけるようにしている… 寒すぎるからだ！",
+        "en": "Oh, you caught an Ice Pip? They're energetic little fish, despite the frigid environment they live in. My people avoid the frozen areas, though... too cold!",
+        "ko": "오, 아이스핍을 잡았다고? 기운 넘치는 물고기야, 추운 데에 사는데도. 내 종족은 얼어붙은 지역은 피하지만... 너무 추워!",
+        "pt": "Oh, você pescou um Chione? Eles são peixes muito energéticos, apesar do ambiente gelado em que vivem. Meu povo costuma evitar as áreas congeladas, ...frio demais!",
+        "ru": "О, у тебя там Ледопип? Они мелкие и довольно резвые, даже несмотря на тяжкие условия, в которых они живут. Однако мой народ избегает холодных зон... Очень холодно!",
+        "tr": "Aa, bir Buzul Çekirdekbalığı mı yakaladın? Buz gibi sularda yaşamalarına rağmen çok enerjik ufak balıklardır. Benim halkım, donmuş bölgelere pek yanaşmaz... Çok soğuk!",
+        "zh": "哦？你钓到冰柱鱼了？这种小鱼生活在严寒的环境，但很有活力。我们族是不会去那种地方的……太冷了！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'fishCaught_161' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:fishCaught_162",
+      "author_key": "fishCaught_162",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh, du hast einen Lava-Aal gefangen? Sehr gut! Das Fischen von Lava-Aalen ist ein wichtiger Teil unserer Kultur. Sie gelten als Delikatesse!",
+        "es": "Oh, ¿atrapaste una anguila de lava? ¡Muy bien! La pesca del anguila de lava es una gran parte de nuestra cultura. ¡Son consideradas una exquisitez!",
+        "fr": "Ho, tu as attrapé une anguille de lave ? Excellent ! La pêche à l’anguille de lave fait partie intégrante de notre culture. Elles sont considérées comme un plat gastronomique !",
+        "hu": "Ó, kifogtál egy lávaangolnát? Nagyon jó! A lávaangolna a kultúránk fontos része. Igazi ínyencségnek számítanak!",
+        "it": "Oh, hai preso un'Anguilla lavica? Benissimo! La pesca all'Anguilla lavica è una parte importante della nostra cultura. Sono considerate una delicatezza!",
+        "ja": "おお、溶岩ウナギを釣ったのか？やるじゃないか！溶岩ウナギの漁は、私たちの文化では大きな意味がある。珍味として扱われてるんだ！",
+        "en": "Oh, you caught a Lava Eel? Very good! Lava Eel fishing is a big part of our culture. They're considered a delicacy!",
+        "ko": "오, 용암 장어를 잡았다고? 잘했어! 용암 장어 낚시는 우리 문화의 중요한 부분이지. 진미로 대우받아!",
+        "pt": "Oh, você pescou uma Enguia de Lava? Incrível! Pesca de Enguias de Lava é algo importante na minha comunidade. Elas são consideradas iguarias!",
+        "ru": "О, это у тебя Лавовый угорь? Очень хорошо! Ловля Лавового угря — важная часть нашей культуры. Они считаются деликатесом!",
+        "tr": "Aa, bir Lav Yılanbalığı mı yakaladın? Çok iyi! Lav Yılanbalığı yakalamak, aslında kültürümüzün parçasıdır. Lezzetli bir yiyecek olarak görülürler!",
+        "zh": "哦？你钓到岩浆鳗鱼了？很好啊！我们族也有钓岩浆鳗鱼的传统，这种鱼很好吃！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Dwarf:mineArea_121",
+      "author_key": "mineArea_121",
+      "character": "Dwarf",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Weißt du, für einen Menschen bist du ziemlich gut im Bergbau.",
+        "es": "Sabes, se te da bastante bien la minería, para un humano.",
+        "fr": "Tu sais que pour un humain, tu as un talent inné pour l’exploitation minière.",
+        "hu": "Tudod, emberhez képest egész jó vagy a bányászásban.",
+        "it": "Sai, te la cavi nell'estrazione di minerali, per un umano.",
+        "ja": "きみは人間にしては採掘がうまいね。",
+        "en": "You know, you're pretty good at mining, for a human.",
+        "ko": "이봐, 넌 인간치곤 채광 솜씨가 뛰어나.",
+        "pt": "Pra falar a verdade, você é muito bom em mineração para um humano.",
+        "ru": "А знаешь, в горном деле ты ничего так. Для человека.",
+        "tr": "Biliyor musun, bir insana göre madencilik konusunda oldukça iyisin.",
+        "zh": "我跟你说，你作为一个人类，采矿技术已经很强了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Dwarf.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Dwarf.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Dwarf.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Dwarf.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Dwarf.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Dwarf.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Dwarf.json",
+          "ko": "data\\game_scripts\\Dialogue\\Dwarf.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Dwarf.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Dwarf.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Dwarf.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Dwarf.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'mineArea_121' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    }
+  ]
+}

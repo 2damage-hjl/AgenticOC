@@ -1,0 +1,1588 @@
+{
+  "dataset_meta": {
+    "schema": "canonical_dialogue_v2",
+    "source_root": "data/game_scripts/Dialogue",
+    "collection": "Dialogue",
+    "character": "Wizard",
+    "record_count": 24,
+    "dialogue_type_counts": {
+      "general_dialogue": 24
+    }
+  },
+  "records": [
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:AcceptGift_(O)StardropTea",
+      "author_key": "AcceptGift_(O)StardropTea",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ah, was haben wir denn da? Ein seltenes und starkes Elixier, wie es scheint. Ja, das wird meine Reagenzienkammer gut ergänzen.",
+        "es": "Oh, ¿qué tenemos aquí? Un raro y potente elixir, parece. Sí, esto será un gran añadido para mi cofre reactivo.",
+        "fr": "Ha, qu’avons-nous là ? Un élixir rare et puissant, semble-t-il. Ho que oui, ce sera un excellent complément dans mon coffre de réactif.",
+        "hu": "Áh, ez meg micsoda? Úgy tűnik egy ritka és hatásos elixír. Igen, ez remekül ki fogja egészíteni a reagenses ládámat.",
+        "it": "Ah, che cos'abbiamo qui? Un elisir raro e potente, direi. Sì, starà benissimo nel mio baule dei reagenti.",
+        "ja": "これはなにかね？希少で強力なエリクサーのようだ。よし、吾輩の試薬棚に加えることにしよう。",
+        "en": "Ah, what do we have here? A rare and potent elixir, it seems. Yes, this will make a fine addition to my reagent chest.",
+        "ko": "아, 이건 뭐지? 희귀하고 강력한 영약인듯하군. 그래, 내 시약 상자에 잘 보관하겠네.",
+        "pt": "Ah, o que temos aqui? Um elixir raro e potente, ao que parece. Ótimo, isto vai ser uma bela adição ao meu baú de reagentes.",
+        "ru": "Так, что это тут у нас? Кажется, редкий сильный эликсир. Да, будет прекрасным дополнением к моей коллекции реагентов.",
+        "tr": "Ah, neler görüyorum? Nadide ve güçlü bir iksire benziyor. Evet. Bu, iksir sandığıma mükemmel bir ilave olacak.",
+        "zh": "啊，这是什么好东西？好像是一种罕见的强力药水。很好，我的试剂箱里又新添一个宝贝。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)StardropTea' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:Fri",
+      "author_key": "Fri",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich glaube, die Leute hier haben Angst vor mir.#$e#Es ist schade, aber ich schätze es ist menschlich, Angst vor dem Unbekannten zu haben.",
+        "es": "Creo que la gente del pueblo me teme.#$e#Es una lástima, pero supongo que es humano temer a lo desconocido.",
+        "fr": "Je pense que les gens du village ont peur de moi.#$e#C’est dommage, mais je suppose que c’est dans la nature des humains d’avoir peur de l’inconnu.",
+        "hu": "Úgy hiszem a városiak félnek tőlem.#$e#Ez sajnálatos dolog, de ugyanakkor úgy hiszem eléggé emberi viselkedés félni az ismeretlentől.",
+        "it": "Credo che i paesani abbiano paura di me.#$e#È un peccato, ma suppongo che sia umano temere l'ignoto.",
+        "ja": "おそらく、町の住民は我輩を恐れておる。#$e#残念ではあるが、俗人は未知なるものに恐怖をいだくものだからな。",
+        "en": "I believe the townsfolk are afraid of me.#$e#It is unfortunate, but I suppose it is human to be afraid of the unknown.",
+        "ko": "주민들이 나를 두려워하는 것 같네.#$e#안타깝지만, 미지의 것을 두려워하는 것이 인간다운 것이지.",
+        "pt": "Acho que os moradores têm medo de mim.#$e#É uma pena, mas acho que é humano ter medo do desconhecido.",
+        "ru": "Я думаю, местные жители боятся меня.#$e#Прискорбно... Но, полагаю, это в человеческой природе — бояться неизвестного.",
+        "tr": "Kasabalılar benden korkuyor.#$e#Şanssızlık. Sanırım insan bilinmeyenden korkmalı.",
+        "zh": "我觉得镇上的人都怕我。#$e#虽然很不幸，不过人类惧怕未知也是正常的吧。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:Fri6",
+      "author_key": "Fri6",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich war vor langer Zeit verheiratet. Nachdem meine Frau und ich uns getrennt hatten, begann sie damit, durch die Gegend zu fliegen und jeden zu verfluchen den sie gesehen hat.#$e#Keine sehr erwachsene Art, um ihrer Wut Ausdruck zu verleihen.",
+        "es": "Hace mucho estuve casado. Cuando mi mujer y yo nos separamos, empezó a volar por el campo y a lanzar hechizos a todo lo que veía.#$e#No es una forma muy madura de expresar la rabia.",
+        "fr": "J’ai été marié il y a longtemps. Après notre séparation, ma femme a commencé à voler au-dessus de la vallée, maudissant tout ce qu’elle voyait.#$e#Ce n’est pas une manière très mature d’exprimer sa colère.",
+        "hu": "Réges-régen volt egy feleségem. Miután szétváltunk, körberepülte a vidéket, és mindent megátkozott.#$e#Nem túl felnőttes viselkedésre vall így kifejezni a haragodat.",
+        "it": "Tempo fa, ero sposato. Dopo che io e mia moglie ci separammo, ella cominciò a volare per la campagna, maledicendo tutto ciò che vedeva.#$e#Ci sono modi più maturi per esprimere la propria rabbia.",
+        "ja": "かつて、我輩には妻がいた。お互い別れを告げたあと、彼女はあたりを飛び回り、目に入るものすべてを呪うようになってしまった。#$e#怒りを発散するにしても、まったく分別に欠けておる。",
+        "en": "I was married, long ago. After my wife and I split, she began flying around the countryside, cursing everything she saw.#$e#It's not a very mature way to express one's anger.",
+        "ko": "나도 오래전에 결혼이란 걸 했었다네. 아내와 내가 갈라진 뒤로, 그녀는 시골 상공을 날아다니며 보이는 모든 것을 저주했지.#$e#분노를 표하는 방법치곤 어른스러운 행동은 아니지.",
+        "pt": "Há muito tempo, eu fui casado. Quando nos divorciamos, a minha esposa fugiu para o campo e começou a amaldiçoar tudo o que via.#$e#Não é um jeito muito maduro de expressar a própria raiva.",
+        "ru": "Когда-то давно я был женат. После того, как я расстался с женой, она начала летать вокруг города и накладывать проклятия на все подряд.#$e#Не самый зрелый способ совладать с гневом.",
+        "tr": "Çok uzun zaman önce evliydim. Ayrıldıktan sonra karım etrafta uçup ne gördüyse lanetledi..#$e#Bu kızgınlığını ifade etmek için çok da olgunca bir yol değil.",
+        "zh": "我很久以前结过婚。后来我们分开了，她就在城镇周围四处乱飞，对所见之物下诅咒。#$e#用这方法来发泄自己的愤怒，真是孩子气。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:GreenRain",
+      "author_key": "GreenRain",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Auch wenn die ungewöhnlichen Regenfälle beunruhigend sein mögen, gibt es an diesem Tag nichts zu befürchten.#$e#Es ist sogar ein Tag großer Freude für viele Lebewesen.",
+        "es": "Aunque las lluvias inusuales puedan ser alarmantes, no hay nada que temer hoy.#$e#De hecho, es un día muy jubiloso para muchas criaturas vivientes.",
+        "fr": "Bien que les pluies inhabituelles puissent être alarmantes, il n’y a rien à craindre en ce jour.#$e#En réalité, c’est un jour très joyeux pour beaucoup d’êtres vivants.",
+        "hu": "Bár a szokatlan esők ijesztőek lehetnek, a mai napon nincs mitől tartani.#$e#Valójában ez a nap sok élőlénynek okoz hatalmas örömöt.",
+        "it": "Anche se le piogge insolite possono allarmare, oggi non vi è nulla da temere.#$e#È anzi un giorno di grande gioia per molti esseri viventi.",
+        "ja": "この雨を異常だと感じるかもしれないが、なにも恐れることはない。#$e#実際は多くの生き物にとって大きなよろこびの日なのだ。",
+        "en": "Though the unusual rains may be alarming, there is nothing to fear on this day.#$e#In fact, it is a day of great joy for many living things.",
+        "ko": "특이한 비가 두려울 수도 있지만, 오늘 걱정할 것은 없다네.#$e#사실은 많은 생명체에겐 기쁜 날이지.",
+        "pt": "Mesmo que esta chuva incomum possa ser assustadora, não há o que temer no dia de hoje.#$e#Na verdade, hoje é um dia de grande felicidade para muitas coisas vivas.",
+        "ru": "Конечно, необычные дожди могут вызывать опасения, но в этот день совершенно нечего бояться.#$e#На самом деле сегодня все живое радуется и празднует.",
+        "tr": "Bu yağmurlar her ne kadar bir uyarı gibi olsa da şimdilik korkacak bir şey yok.#$e#Hatta bugün birçok canlının neşesi yerindedir.",
+        "zh": "今天反常的雨水可能会令人恐慌，不过其实没什么好怕的。#$e#很多生物反而高兴还来不及呢。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "weather_green_rain",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:GreenRain_2",
+      "author_key": "GreenRain_2",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Die Natur ist eine mächtige Kraft, mit der man nicht spaßen sollte.#$e#Entschuldige mich, aber es gibt besondere Angelegenheiten, die ich nur an diesem Tag erledigen kann.",
+        "es": "La naturaleza es una fuerza poderosa, que no se debe tratar a la ligera.#$e#Disculpa, pero hay asuntos especiales de los que solo puedo ocuparme el día de hoy.",
+        "fr": "La nature est une force puissante, avec laquelle il ne faut pas s’amuser...#$e#Si tu veux bien m’excuser, il y a certaines choses dont je ne peux m’occuper que durant ce jour précis.",
+        "hu": "A természet olyan hatalmas erővel rendelkezik, amivel nem szabad tréfálkozni.#$e#Elnézést, de vannak olyan különleges teendők, amiket kizárólag a mai napon tehetek meg.",
+        "it": "La natura è una forza potente, con cui non bisogna scherzare.#$e#Perdonami, ma oggi ci sono questioni speciali di cui solo io posso occuparmi.",
+        "ja": "自然は強大な力を持っている。 決してあなどってはならない。#$e#失礼するよ。 この日にしかできない特別な用事があるのだ。",
+        "en": "Nature is a powerful force, not to be trifled with.#$e#Excuse me, but there are special matters I can only attend to on this day.",
+        "ko": "자연의 강력한 힘을 업신여기면 안 된다네.#$e#실례하겠네, 내겐 오늘만 할 수 있는 일이 있어서.",
+        "pt": "A natureza é uma força poderosa, que não pode ser menosprezada.#$e#Com licença, eu tenho afazeres especiais que só podem ser feitos no dia de hoje.",
+        "ru": "Природа — великая сила, с которой лучше не заигрывать.#$e#Извини, но у меня есть важные дела, которыми можно заняться только сегодня.",
+        "tr": "Doğa kuvvetli bir güçtür, hafife alınamaz.#$e#Affedersin ama bugün ilgilenmem gereken bazı özel meseleler var.",
+        "zh": "自然的力量极为强大，不容小觑。#$e#不好意思，有些特殊的事情我得在今天处理掉。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:Introduction",
+      "author_key": "Introduction",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ah, ja. Ich habe deine Ankunft schon vor langer Zeit vorhergesehen, @.#$e#Allerdings liegt dein Schicksal ultimativ in deinen Händen.",
+        "es": "Ah, sí. Había predicho tu llegada hace mucho, joven @.#$e#Sin embargo, tu destino yace en tus manos.",
+        "fr": "Ah oui. J’avais prédit ton arrivée depuis longtemps, jeune @.#$e#Cependant, ton destin est entre tes mains.",
+        "hu": "Áh, igen. Már régen megjövendöltem eljöttedet, fiatal @.#$e#De a legvégén a sorsod a saját kezedben van.",
+        "it": "Ah, sì. Avevo predetto il tuo arrivo tempo fa, giovane @.#$e#E tuttavia, in definitiva, il tuo destino è nelle tue mani.",
+        "ja": "おお。若き @よ、 貴殿が ここへ 来ることは はるか 昔から 予見しておった。#$e#じゃが、 運命は 自分自身で 決めるのじゃ。",
+        "en": "Ah, yes. I have predicted your arrival a long time ago, young @.#$e#However, your fate is ultimately in your own hands.",
+        "ko": "아, 그래. 어린 @(이)여, 자네가 도착할 거라고 오래전에 예측했네.#$e#하지만, 궁극적으로 자네 운명은 자네 손에 달렸네.",
+        "pt": "Ah, sim. Eu previ a sua chegada há muito tempo, jovem @.#$e#Entretanto, o seu destino, em última análise, está em suas mãos.",
+        "ru": "Ах, да. Я давно предвидел твое появление, @.#$e#Однако, твоя судьба безраздельно в твоих руках.",
+        "tr": "Ah, evet. Senin geleceğini çok önceden görmüştüm, @.#$e#Ancak, kaderini şekillendirmek senin ellerinde.",
+        "zh": "啊，没错。我很久前就预见到你的到来了，年轻的@。#$e#不过，你的命运最终还是掌握在你自己手中。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Introduction' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:Mon",
+      "author_key": "Mon",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe viele Dinge über deine Zukunft gesehen, @.#$e#Wenn ich sie dir sagen würde, könnte das ernste Konsequenzen nach sich ziehen.",
+        "es": "He visto muchas cosas sobre tu futuro, joven @.#$e#Decírtelas acarrearía graves consecuencias.",
+        "fr": "Ah oui. J’ai vu beaucoup de choses sur ton avenir, jeune @.#$e#Si je te révélais ce que j’ai vu, les conséquences pourraient être désastreuses.",
+        "hu": "Áh, igen. Sok dolgot láttam a jövődből, fiatal @.#$e#Ha elmondanám neked, akkor annak súlyos következményei lennének.",
+        "it": "Ah, sì. Ho visto molte cose sul tuo futuro, giovane @.#$e#Se dovessi rivelartele, le conseguenze potrebbero essere atroci.",
+        "ja": "若き @よ、我輩は 貴殿の 未来の 多くを 見た。#$e#恐るべき 事態に なりうるがため、 子細を 伝えることは できぬ。",
+        "en": "Ah, yes. I have seen many things about your future, young @.#$e#If I were to tell you, there could be grave consequences.",
+        "ko": "아, 그래. 어린 @(이)여, 자네 미래에 대한 많은 것을 보았네.#$e#하지만 말했다간, 재앙 같은 결과를 초래할 수도 있네.",
+        "pt": "Vi muitas coisas sobre seu futuro, jovem @.#$e#Mas se eu contasse, haveria graves consequências.",
+        "ru": "О, да. Я увидел многое из твоего будущего, ${юный^юная}$ @.#$e#Но если я тебе об этом расскажу, последствия будут самыми серьезными.",
+        "tr": "Ah, evet. Senin geleceğin hakkında birçok şey gördüm, genç @.#$e#Eğer sana söyleseydim, bunun çok ağır sonuçları olurdu.",
+        "zh": "关于你的未来，我看到了很多事啊，年轻的@。#$e#如果我告诉了你，可能会产生很严重的报应啊。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:Mon4",
+      "author_key": "Mon4",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Außerhalb des Bereichs der menschlichen Zivilisation offenbart die Natur ihre wahren Geheimnisse.",
+        "es": "Fuera del dominio de la civilización humana es donde la naturaleza revela sus secretos verdaderamente.",
+        "fr": "C’est au-delà du domaine de la civilisation humaine que la nature révèle ses secrets.",
+        "hu": "A természet az emberi civilizáció birodalmán túl fedi fel valójában a titkait.",
+        "it": "Fuori del dominio della civiltà umana, la natura disvela i suoi segreti più profondi.",
+        "ja": "人類の文明から離れた場所でこそ、自然はその真の秘密を明らかにするのだ。",
+        "en": "Outside the domain of human civilization is where nature truly reveals its secrets.",
+        "ko": "인간 문명의 영역 밖에서야 자연이 진실로 자신의 비밀을 드러내지.",
+        "pt": "Os verdadeiros segredos da natureza só são revelados fora dos domínios da civilização humana.",
+        "ru": "Природа открывает свои секреты только за пределами владений человека.",
+        "tr": "İnsan uygarlığının alanının dışında doğa, gerçek sırlarını açığa çıkarır.",
+        "zh": "在远离人类文明的地方，大自然才会展现其奥秘。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:Mon8",
+      "author_key": "Mon8",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Es gibt Gegenden in der Welt, die noch nicht von den Zwängen des modernen Denkens befleckt sind und in denen die Magie noch sehr lebendig ist...",
+        "es": "Hay zonas del mundo, que aún no han sido manchadas por las ataduras del pensar moderno, donde la magia sigue aún muy viva...",
+        "fr": "Il existe des régions du monde, encore épargnées par le mode de vie moderne, où la magie est encore bien vivante...",
+        "hu": "Vannak olyan területek a világban, amit még nem mocskoltak be a modern gondolkodás korlátai, ahol a mágia nagyon is életben van...",
+        "it": "Vi sono zone del mondo, non ancora intaccate dalle costrizioni del pensiero moderno, dove la magia è tuttora viva e vivace...",
+        "ja": "世界には、現代的な思考にとらわれず、魔法を使い続けている場所もあるのだ…",
+        "en": "There are areas of the world, yet unsullied by the constraints of modern thinking, where magic is still very much alive...",
+        "ko": "세상엔 아직도 그런 구역이 존재해, 아직 현대적 사고방식에 더럽혀지지 않은, 여전히 마법이 살아 숨 쉬는 그런 곳이...",
+        "pt": "Existem áreas no mundo que não foram manchadas pelas amarras do pensamento moderno, lugares onde a magia ainda perdura...",
+        "ru": "В мире все еще есть места, незапятнанные концептом современного мышления, где волшебство все еще живее всех живых...",
+        "tr": "Dünyada hâlâ modern düşüncenin kısıtlamalarından arınmış bölgeler var, oralarda sihir hâlâ fazlasıyla canlıdır...",
+        "zh": "世界上还有些地方尚未受到现代思维的桎梏，魔法在那里欣欣向荣……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:MovieInvitation",
+      "author_key": "MovieInvitation",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hmm... Ich nehme an, ich könnte dich begleiten... ja. Sobald du angekommen bist, werde ich erscheinen. Leb wohl.",
+        "es": "Hmm... Supongo que te podría acompañar... Sí. Cuando hayas llegado allí, yo he de aparecer. Buen viaje.",
+        "fr": "Hmm... Ça pourrait être une bonne idée de t’accompagner... Une fois que tu seras devant le cinéma, je ferais mon apparition. Au revoir.",
+        "hu": "Hmm... Úgy vélem elkísérhetlek... igen. Amint megérkezel, én is ott termek. Viszlát.",
+        "it": "Hmm... Immagino che potrei accompagnarti... Sì. Comparirò quando sarai lì. A più tardi.",
+        "ja": "ふむ… では、貴殿に同行するとしよう。貴殿が着いたころには吾輩も現れるだろう。それではまた。",
+        "en": "Hmm... I suppose I could accompany you... yes. Once you've arrived, I shall appear. Farewell.",
+        "ko": "흠... 자네와 동행해도 괜찮을지도... 그래. 자네가 장소에 도착하면 나 또한 등장하겠네. 잘 가게.",
+        "pt": "Hmm... Creio que eu possa te acompanhar... sim. Quando você chegar, eu aparecerei. Adeus.",
+        "ru": "Хм... Возможно, я смогу составить тебе компанию... да. Я появлюсь, когда ты прибудешь туда. До встречи.",
+        "tr": "Hım... Sana eşlik edebilirim sanıyorum... evet. Sinemaya ulaştığında ben de gelirim. Görüşürüz.",
+        "zh": "唔……我想我应该能与你作伴……行。等你到了，我便会现身。再会。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'MovieInvitation' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:Sat",
+      "author_key": "Sat",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Pass auf, du stehst auf einem sehr mächtigen magischen Feld.#$e#Ich habe meine Hütte hier aus einem bestimmten Grund aufgebaut, weißt du.",
+        "es": "Ten cuidado, te encuentras sobre un campo magnético muy potente.#$e#Por eso construí aquí mi hogar.",
+        "fr": "Attention, tu te tiens juste au-dessus d’un puissant champ magique.#$e#J’ai construit ma cabane ici exprès.",
+        "hu": "Vigyázz, egy hatalmas mágikus mező felett álldogálsz.#$e#Tudod, jó okkal építettem ide a házamat.",
+        "it": "Bada, ti trovi sopra un potente campo di magia.#$e#Ho costruito qui la mia dimora di proposito, sai.",
+        "ja": "気をつけることだ。貴殿は、強力な魔術力場の上に立っているのだからな。#$e#この力場があるゆえ、我輩はここに居をかまえているのだ。",
+        "en": "Beware, you are standing above a potent magical field.#$e#I built my hut right here on purpose, you know.",
+        "ko": "주의하게, 자넨 지금 강력한 마법장 위에 서있네.#$e#그래서 내가 여기에 내 오두막을 지었지.",
+        "pt": "Cuidado! Você está em um campo mágico potente.#$e#Construí a minha cabana aqui de propósito, sabe?",
+        "ru": "Осторожно. Сейчас ты стоишь над могущественным магическим полем.#$e#Я ведь не просто так построил здесь свое жилище, знаешь ли.",
+        "tr": "Dikkatli ol, kuvvetli bir büyü alanının üstünde duruyorsun. #$e#Anladığın üzere evimi bir nedenden ötürü buraya kurdum.",
+        "zh": "小心啊，你现在站的地方拥有浓厚的魔力。#$e#我把我的屋子建在这里可是有原因的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:Sat2",
+      "author_key": "Sat2",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hast du irgendwelche Fortschritte mit den Waldgeistern gemacht?",
+        "es": "¿Has hecho algún progreso con los espíritus del bosque?",
+        "fr": "As-tu fait quelques progrès avec les esprits de la forêt ?",
+        "hu": "Jutottál valamire az erdei lelkekkel?",
+        "it": "Hai fatto qualche progresso con gli spiriti della foresta?",
+        "ja": "森の 精霊とは 何らかの 進展が あったかね？",
+        "en": "Have you made any headway with the forest spirits?",
+        "ko": "자네, 숲의 영령들과 진척은 좀 있었나?",
+        "pt": "Você conseguiu fazer algum contato com os espíritos da floresta?",
+        "ru": "Есть какой-нибудь прогресс с лесными духами?",
+        "tr": "Orman ruhlarıyla aran nasıl?",
+        "zh": "你和森林里的精灵取得什么进展了吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:Sat6",
+      "author_key": "Sat6",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Die wissenschaftliche Praxis mag zwar die Materie unserer Welt genau beschreiben, aber sie wird niemals die tiefsten Geheimnisse lüften...",
+        "es": "Aunque la práctica científica pueda describir con exactitud lo material de nuestro mundo, nunca dará explicación a sus misterior más profundos...",
+        "fr": "Si la science peut décrire avec précision de quoi est fait notre monde, elle ne pourra jamais expliquer les mystères les plus profonds de l’univers...",
+        "hu": "Bár a tudományos gyakorlatok pontosan leírhatják a világunk anyagait, soha nem fogják elmagyarázni a legmélyebb rejtélyeit...",
+        "it": "Sebbene le pratiche scientifiche possano descrivere accuratamente il materiale del nostro mondo, non spiegheranno mai i suoi misteri più reconditi...",
+        "ja": "科学的実践は、私たちの世界の物質を正確に記述することはできても、最も深い謎を説明することはできない…",
+        "en": "While the scientific practice may accurately describe the material of our world, it will never explain the deepest mysteries...",
+        "ko": "과학이 우리 세상의 물질은 정확하게 설명할 수 있겠지만, 가장 깊은 미스테리는 풀 수 없지...",
+        "pt": "Enquanto as práticas científicas podem descrever precisamente o plano material do nosso mundo, elas nunca explicarão os mistérios mais profundos...",
+        "ru": "Научные изыскания, конечно, могут довольно точно описать нынешнюю картину мира, но древние тайны ей не описать никогда...",
+        "tr": "Bilim, dünyamızın maddesini doğru bir şekilde tanımlayabilir ama en derin sırları asla açıklayamaz...",
+        "zh": "虽然科学实践可以精确刻画世界上的物质，但是它永远无法解释最深层的奥秘……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:Sun",
+      "author_key": "Sun",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Manchmal beobachte ich insgeheim die Stadtbewohner.#$e#Ich würde gerne einen Lehrling finden. Irgendwann werde ich diese sterbliche Ebene verlassen, aber meine arkanen Nachforschungen müssen fortgesetzt werden.",
+        "es": "A veces observo a los vecinos en secreto.#$e#Confío en encontrar un aprendiz. Algún día dejaré este plano mortal, pero mi búsqueda arcana debe continuar.",
+        "fr": "J’observe parfois en secret les villageois de la région.#$e#J’espère trouver un apprenti. Un jour, je quitterai le plan des mortels, mais mes recherches arcaniques doivent continuer.",
+        "hu": "Néha titokban megfigyelem a helybélieket.#$e#Abban reménykedek, hogy találok egy tanoncot. Egy nap én is el fogom hagyni ezt a halandó síkot, de misztikus tudományaimnak folytatódnia kell.",
+        "it": "Certe volte osservo di nascosto la gente del paese.#$e#Sto sperando di trovare un apprendista. Un giorno abbandonerò questo piano mortale, ma le mie ricerche arcane devono proseguire.",
+        "ja": "時々、 町の 人々を ひそかに 観察しておる。#$e#弟子に なりうる者を 探すためにな。いつの日か、 我輩はこの 命ある世界から 離れることに なるが、 秘術の 研究を 引き継がねば ならん。",
+        "en": "I sometimes observe the local villagers in secret.#$e#I am hoping to find an apprentice. Some day I will leave this mortal plane, but my arcane pursuits must continue.",
+        "ko": "가끔 비밀리에 주민들을 관찰한다네.#$e#견습생을 찾으려 하고 있어. 언젠가 나는 이승을 떠날 것이지만, 내 신비의 추구는 계속되어야 해.",
+        "pt": "Às vezes observo os moradores locais em segredo.#$e#Espero encontrar um aprendiz. Um dia, deixarei este plano mortal. Mas meus estudos sobre o Oculto continuarão.",
+        "ru": "Иногда я тайно наблюдаю за местными жителями.#$e#Я надеюсь найти себе ученика. Когда-нибудь я покину мир смертных, но мои магические изыскания должны продолжаться.",
+        "tr": "Bazen gizlice kasabalıları gözlemliyorum.#$e#Çırak bulmayı umuyorum. Bir gün bu fâni dünyadan ayrılacağım. Büyü çalışmalarım ise kalıp devam etmeli.",
+        "zh": "有时我会偷偷观察村民们。#$e#我想找一个人来当我的学徒。终有一天我会离开这具躯壳，但我对于奥术的研究一定要传承下去。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:Thu",
+      "author_key": "Thu",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Es ranken sich viele Mysterien um uns. Du musst geduldig sein, wenn du wünschst, sie alle zu entdecken.",
+        "es": "Hay muchos misterios a nuestro alrededor. Debes ser paciente si quieres descubrirlos.",
+        "fr": "Il y a beaucoup de mystères qui nous entourent. Il faut être patient si tu veux les découvrir.",
+        "hu": "Rengeteg rejtély vesz minket körbe. Türelmesnek kell lenned, ha mindet fel akarod fedezni.",
+        "it": "Molti misteri ci avvolgono. Devi portare pazienza, se desideri disvelarli.",
+        "ja": "身の 周りには 謎が 沢山 存在する。解き明かす つもりで あれば、 忍耐強くなければ ならん。",
+        "en": "There are many mysteries around us. You must be patient if you wish to discover them.",
+        "ko": "우리 주변에는 많은 신비한 것들이 있지. 발견하고 싶다면 끈기가 필요하다네.",
+        "pt": "Muitos mistérios nos cercam. Você deve ser paciente se quiser descobri-los.",
+        "ru": "Многие тайны окружают нас. Если желаешь их познать, нужно терпение.",
+        "tr": "Etrafımızda birçok gizem var. Onları keşfetmek için sabırlı olmalısın.",
+        "zh": "我们周遭有无数神秘的存在。想要发现它们就必须要有足够的耐心……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:Thu10",
+      "author_key": "Thu10",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du darfst es niemandem sagen... Aber ich habe den Grund zur Annahme, dass einer der Bewohner hier meine Tochter ist...#$e#Ich könnte mich irren... Es ist selten, passiert aber doch.",
+        "es": "No debes decírselo a nadie... pero tengo motivos para creer que una de las vecinas del pueblo es hija mía...#$e#Tal vez me equivoque... No suele ocurrir, pero podría ser.",
+        "fr": "Tu ne dois en parler à personne... mais j’ai des raisons de croire que l’une des filles du coin est en réalité ma fille...#$e#Je peux me tromper... C’est rare, mais ça m’arrive parfois.",
+        "hu": "Senkinek se szabad elmondanod... de van rá okom, hogy azt higyjem az egyik helybéli az én lányom...#$e#Lehet, hogy tévedek... Ritka dolog, de előfordulhat.",
+        "it": "Non farne parola con nessuno... ma ho ragione di credere che una delle persone del luogo sia, in realtà, mia figlia...#$e#Potrei sbagliarmi... È raro, ma capita.",
+        "ja": "これは 絶対に 他言しては いかんぞ… 町の 住人の うちの 一人が、 我輩の 娘だと 思うんじゃ…#$e#断言は できぬがな…珍しくは あるが、 実際に 起こりうる。",
+        "en": "You musn't tell anyone... but I have reason to believe that one of the locals is actually my daughter...#$e#I could be mistaken... It's rare, but it does happen.",
+        "ko": "그 누구에게도 말하지 말게... 하지만 이 지역 주민 중 한 명이 내 딸이라 생각되네...#$e#내가 잘못 생각한 걸 수도 있네만... 드물지만, 가끔 그런 일도 있지.",
+        "pt": "Você não deve contar a ninguém... mas tenho motivos para acreditar que um dos moradores na verdade é minha filha...#$e#Eu poderia estar errado. É raro, mas acontece.",
+        "ru": "Об этом никому нельзя рассказывать... У меня есть причины полагать, что одна из местных жительниц — моя дочь...#$e#Я могу ошибаться... Такое случается, пускай и редко.",
+        "tr": "Kimseye söyleme... Kasabadan birinin kızım olduğuna inanmak için epey sebebim var...#$e#Yanılıyor da olabilirim. Çok nadir olur ama, ben de yanılırım.",
+        "zh": "不要告诉别人……但我发现，本地居民中似乎有个人是我的女儿……#$e#也许是我搞错了……虽说这不寻常，却也不是全无可能。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:Tue",
+      "author_key": "Tue",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wenn du nichts Wichtiges zu sagen hast, lass mich in Frieden. Ich habe viel Arbeit vor mir.",
+        "es": "Si no tienes nada importante que decirme, déjame tranquilo. Tengo mucho trabajo que hacer.",
+        "fr": "Si tu n’as rien d’important à me dire, laissez-moi tranquille. J’ai beaucoup de travail à faire.",
+        "hu": "Ha nincs számomra fontos információd, hagyj magamra. Sokat kell dolgoznom.",
+        "it": "Se non hai niente d'importante da dirmi, lasciami in pace. Ho molto lavoro da fare.",
+        "ja": "我輩に 伝えたいことが ないならば、 かまうでない。成すべきことが 沢山 あるのじゃ。",
+        "en": "If you have nothing important to tell me, leave me be. I have much work to do.",
+        "ko": "내게 말할 중요한 사실이 없다면, 떠나라. 난 해야 할 일이 많네.",
+        "pt": "Se não tiver algo importante a me dizer, deixe-me só. Tenho muito trabalho a fazer.",
+        "ru": "Если тебе нечего сказать важного, прошу — оставь меня. У меня много работы.",
+        "tr": "Eğer bana söyleyeceğin önemli bir şey yoksa beni yalnız bırak. Çok işim var.",
+        "zh": "如果没有重要的事，请不要打搅我。我还有好多活要干呢。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:Tue10",
+      "author_key": "Tue10",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wenn die Realität durch den Verstand konstruiert wird, dann könnte man, wenn man die Macht des Verstandes beherrscht, die Realität kontrollieren....",
+        "es": "Si la realidad está construida por la mente, entonces si uno consigue perfeccionar su poder, podría controlar la realidad...",
+        "fr": "Si la réalité est construite par l’esprit, quelqu’un qui maîtriserait le pouvoir de l’esprit pourrait contrôler la réalité...",
+        "hu": "Ha a valóságot az elme építi fel, akkor ha valaki az elme mesterévé válna, az irányíthatná a valóságot...",
+        "it": "Se la realtà è costruita dalla mente, allora controllando il potere della mente si potrebbe controllare la realtà...",
+        "ja": "現実が精神で構築されているのなら、精神の力を高めれば現実をコントロールできるはずだ…",
+        "en": "If reality is constructed by the mind, then if one were to master the power of mind, they could control reality...",
+        "ko": "현실이 마음을 통해 구축된 것이라면, 마음을 다스릴 줄 알면 현실을 다스릴 줄 알게 되지...",
+        "pt": "Se a realidade for realmente contruída pela mente, e alguém tivesse maestria completa dos poderes da mente... Ele poderia controlar a realidade...",
+        "ru": "Если реальность — продукт разума, получается, тот, кто овладеет силой разума, сможет контролировать и реальность...",
+        "tr": "Eğer gerçeklik, zihin tarafından inşa ediliyorsa birisi zihnin gücünde ustalaştığında gerçekliği kontrol edebilir...",
+        "zh": "假如现实是由意识产生的，那么一个人若是掌握了精神的力量，就可以支配现实……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:Tue4",
+      "author_key": "Tue4",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich vertraue dir genug, um mich in meinen Keller zu lassen. Behandle das, was du dort findest, mit Respekt.",
+        "es": "Confío en ti lo suficiente para dejarte pasar a mi sótano. Trata lo que encuentres ahí con respeto.",
+        "fr": "Je te fais suffisamment confiance pour te laisser entrer dans mon sous-sol. Traite tout ce que tu y trouveras avec respect.",
+        "hu": "Megbízok benned annyira, hogy lemehess az alagsorba. Tisztelettel bánj mindazzal, ami odalent van.",
+        "it": "Mi fido abbastanza di te da lasciarti entrare nel mio scantinato. Ma tratta ciò che vi troverai con rispetto.",
+        "ja": "地下室へ 入れても 良いくらいには 貴殿を 信用 しておる。地下室に あるものは 大切に 扱うのじゃよ。",
+        "en": "I trust you enough to allow you in my basement. Treat what you find there with respect.",
+        "ko": "자네에게 지하실을 허락할 만큼 믿네. 거기서 찾는 것들은 존경으로 대하게.",
+        "pt": "Confio em você o suficiente para permitir que você entre em meu porão. Trate o que encontrar lá com respeito.",
+        "ru": "Я доверяю тебе достаточно, чтобы впустить в свой подвал. Обращайся бережно с тем, что там увидишь.",
+        "tr": "Seni alt katıma alacak kadar güveniyorum. Göreceğin şeylere saygıyla yaklaş.",
+        "zh": "我对你的信任足够我放你进地下室了。不过你在下面可不要乱动东西。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:Tue8",
+      "author_key": "Tue8",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Grüße, @. Ich gehe davon aus, dass du dich nicht in den dunklen Künsten versucht hast?",
+        "es": "Saludos, @. ¿Confío en que no hayas estado aventurándote en el mundo de las artes oscuras?",
+        "fr": "Salutations, @. J’espère que tu n’as pas essayé d’apprendre les arts obscurs ?",
+        "hu": "Üdvözöllek, @. Ugye bízhatok abban, hogy nem fogsz a sötét művészetekhez folyamodni?",
+        "it": "Saluti, @. Confido che tu non ti stia cimentando nelle arti oscure?",
+        "ja": "ごきげんよう、 @。そなたは闇の呪術に手を出していないだろうね？",
+        "en": "Greetings, @. I trust you haven't been dabbling in the dark arts?",
+        "ko": "안녕한가, @. 어둠의 마법에 손을 대진 않았겠지?",
+        "pt": "Olá, @. Confio que você não esteja se envolvendo nas artes das sombras?",
+        "ru": "Приветствую, @. Надеюсь, ты не практикуешься в темных искусствах?",
+        "tr": "Selamlar @. Umarım karanlık sanatlarla oyalanmıyorsundur?",
+        "zh": "@，你好。我相信你还没有涉足黑魔法吧？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:Wed",
+      "author_key": "Wed",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Es benötigt viele Jahre intensiven Studiums, um die Sprache der Elementare zu verstehen.#$e#Um sie tatsächlich zu sprechen, musst du dich ihr dein Leben lang widmen.#$e#Wenn du mich jetzt entschuldigen würdest...",
+        "es": "Cuesta años de estudio comprender el lenguaje de los elementales.#$e#Llegar a hablar su idioma requiere toda una vida de dedicado esfuerzo.#$e#Ahora, si me disculpas...",
+        "fr": "Il faut des années d’études pour comprendre la langue des Élémentaires.#$e#Pour parler leur langue, il faut une vie entière d’efforts acharnés.#$e#Maintenant, si tu veux bien m’excuser...",
+        "hu": "Több évnyi tanulásba telik megérteni az elementálok nyelvét.#$e#Ahhoz, hogy az ő nyelvükön beszéljünk, életreszóló munkát kell befektetnünk.#$e#És ha most megbocsátasz...",
+        "it": "Servono anni di studio per comprendere il linguaggio degli elementi.#$e#Parlare la loro lingua, poi, richiede una vita di sforzi e dedizione.#$e#Ora, se vuoi scusarmi...",
+        "ja": "精霊の 言葉を 理解するに 数年の 研究が 必要と なる。#$e#実際に 精霊の 言葉を 話すと なれば、 生涯をかけて 研究せねば ならん。#$e#それでは、 失礼…",
+        "en": "It takes years of study to understand the language of the elementals.#$e#To actually speak their language requires a lifetime of devoted effort.#$e#Now, if you'll excuse me...",
+        "ko": "원소들의 언어를 이해하려면 수년간의 공부가 필요하지.#$e#실제로 그 언어를 사용하려면 한평생 헌신적인 노력을 들여야 하네.#$e#그럼, 난 다시 가보겠네...",
+        "pt": "São necessários anos de estudo para entender o idioma dos elementais.#$e#Falar a língua deles requer uma vida de dedicação.#$e#Agora, se me der licença...",
+        "ru": "Язык стихий можно понять только спустя годы его изучения.#$e#А чтобы заговорить на их языке, потребуется посвятить учению целую жизнь.#$e#А теперь прошу меня извинить...",
+        "tr": "Doğa güçlerinin dilini anlamak, yıllar süren bir çalışma gerektirir.#$e#Onların dilini konuşmak bir ömrümü aldı.#$e#Şimdi, eğer izin verirsen..",
+        "zh": "要研究许多年才能理解元素的语言。#$e#要想用他们的语言讲话则需要认真研究一辈子才行。#$e#那么，抱歉，我要开工了……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:accept_868",
+      "author_key": "accept_868",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ah... ein arktischer Splitter.#$b#Eine in der Tat äußerst kraftvolle Substanz und stark mit dem Element Eis durchdrungen.#$b#Ich nehme es, wenn es dir nichts ausmacht.#$b#...#$b#...Ähm...Du bist immer noch hier. Oh. Willst du etwas?#$b#...Nimm dies.",
+        "es": "Ah... un fragmento ártico.#$b#Una sustancia muy poderosa, desde luego, y potentemente infundida con el elemento del hielo.#$b#Me lo llevaré, si no te importa.#$b#...#$b#...Erm...Sigues aquí. Oh. ¿Quieres algo?#$b#... Toma esto.",
+        "fr": "Ah... Un éclat glacial.#$b#Une substance des plus puissantes, en effet, et infusée de l’élément de glace.#$b#Si cela ne vous dérange pas, je vous en débarrasse.#$b#...#$b#... Heu... Vous êtes toujours là. Oh. Vous voulez quelque chose ?#$b#... Tenez.",
+        "hu": "Áh... egy sarki töredék.#$b#Ez valóban egy erős anyag és hatásosan beolvadt a jég elemébe.#$b#Elveszem, ha nem bánod.#$b#...#$b#...Öhm... Még mindig itt vagy. Ó. Szeretnél valamit?#$b#...Tessék.",
+        "it": "Ah... una scheggia artica.#$b#Una sostanza estremamente potente, e potentemente infusa dell'elemento del ghiaccio.#$b#La prendo io, se non ti spiace.#$b#...#$b#...Erm...Sei ancora qui. Oh. Vuoi qualcosa?#$b#...Ecco a te.",
+        "ja": "ああ…北極のかけら。#$b#とても力強いもの、氷の力がギュッとつまったもの。#$b#もらっていくよ、もし貴殿がよければ。#$b#…#$b#…えーと…まだ何かあるの？ああ。何かが欲しいんだね？#$b#…これを持って行って。",
+        "en": "Ah... an arctic shard.#$b#A most powerful substance, indeed, and potently infused with the element of ice.#$b#I'll take it, if you don't mind.#$b#...#$b#...Erm...You're still here. Oh. You want something?#$b#...Take this.",
+        "ko": "아... 북극 파편.#$b#정말 강력한 물질이지, 그래, 얼음의 속성이 진하게 스며들어 있어.#$b#내가 가져가겠네.#$b#...#$b#...음...자네 아직도 있었어? 아. 뭔가 원하는 게 있는가?#$b#...이거 받게.",
+        "pt": "Ah... um estilhaço ártico.#$b#Uma substância incrívelmente poderosa, de fato, e potentemente infundida com o elemento de gelo.#$b#Vou ficar com ele, se não se importa.#$b#...#$b#...Erm...Você ainda está aqui. Oh. Você quer alguma coisa?#$b#...Pegue isto.",
+        "ru": "А... Арктический осколок.#$b#Довольно мощное вещество, и к тому же прочно связано с элементом льда.#$b#Я бы взял его себе, если ты не против.#$b#...#$b#...Эм...Ты все еще здесь. А. Ты хочешь чего-то взамен?#$b#...Вот, возьми.",
+        "tr": "Ah... bir buzul parçacığı.#$b#İçine buz konulmuş çok çok güçlü ve yoğun bir maddedir.#$b#Senin için sakıncası yoksa almak istiyorum.#$b#...#$b#...Hıh... Hâlâ buradasın. Ah, bir şey mi istiyorsun?#$b#...Bunu alabilirsin.",
+        "zh": "啊……是极寒碎片。#$b#确实，这是最为强大的一种物质，含有强力的冰元素。#$b#如果你不介意的话，我就收下了。#$b#……#$b#……呃……你还没走啊。哦。你是想要点什么吗？#$b#……给你这个。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:married",
+      "author_key": "married",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ehe... hmm? Ich bete, dass du mehr Glück hast als ich...",
+        "es": "Matrimonio... ¿hmm? Rezo por que tengas mejor suerte de la que yo tuve...",
+        "fr": "Le mariage... Je prie pour que tu aies plus de chance que moi...",
+        "hu": "Házasság... hmm? Imádkozom, hogy több szerencséd legyen mint nekem volt...",
+        "it": "Il matrimonio... hmm? Prego che tu abbia più fortuna di me...",
+        "ja": "結婚か… うーむ…そなたが吾輩よりも幸運に恵まれることを祈ろう…",
+        "en": "Marriage... hmm? I pray that you have better luck than I did...",
+        "ko": "결혼이라... 흠? 자네는 나보다 운이 좋길 빌겠네...",
+        "pt": "Casamento... hmm? Eu rezo para que você tenha mais sorte do que eu...",
+        "ru": "Свадьба... да? Молюсь, чтобы тебя не постигла моя участь...",
+        "tr": "Evlenmek mi... Ya? Umarım şansın benimkinden daha yaver gider...",
+        "zh": "唔……结婚？我祈祷你运气会比我当初好吧……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'married' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Wizard:roommates_Krobus",
+      "author_key": "roommates_Krobus",
+      "character": "Wizard",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Es wird eine Herausforderung sein, mit einem wie Krobus zusammenzuleben. Aber ich bin sicher, dass es sich für beide Seiten lohnen wird.#$e#Ich gebe zu, dass ich sehr gespannt bin, wie sich diese ungewöhnliche Freundschaft entwickeln wird.",
+        "es": "Va a ser un reto, el vivir con uno como Krobus. Pero grandiosamente enriquecedor para ambas partes, estoy seguro.#$e#Admito, que tengo gran interés en ver el resultado de una amistad tan inusual.",
+        "fr": "Ce sera un véritable défi de vivre avec quelqu’un comme Krobus. Mais je suis certain que les deux parties en tireront une grande satisfaction.#$e#J’avoue que je suis très intéressé par le résultat d’une amitié aussi inhabituelle.",
+        "hu": "Kihívás lesz olyasvalakivel élni, mint Krobus. De biztos mindkettőtöknek hasznára válik majd.#$e#Be kell vallanom, hogy nagyon érdekel, hogy mi lesz a vége ennek a szokatlan barátságnak.",
+        "it": "Sarà una sfida convivere con qualcuno come Krobus. Ma sono certo che ci sarà molto da guadagnare per entrambi.#$e#Ammetto che m'interessa molto vedere l'esito di un'amicizia tanto insolita.",
+        "ja": "クロバスのような者と一緒に暮らすのは大変なことだ。しかし、お互いに大きな利益があるのは確かだ。#$e#吾輩にとって一番の関心事は、このような一風変わった友情の結末がどうなるかだ。",
+        "en": "It will be a challenge, to live with one such as Krobus. But richly rewarding to both parties, I'm sure.#$e#I admit, I am most interested to see the outcome of such an unusual friendship.",
+        "ko": "크로버스 같은 자와 지내는 건 어려운 일일 걸세. 하지만 분명 자네와 크로버스는 서로 많은 걸 배우겠지.#$e#인정하겠네, 이런 특이한 우정의 결과가 궁금하다네.",
+        "pt": "Vai ser um belo desafio, morar com alguém como o Krobus. Mas com toda a certeza, uma experiência muito recompensadora para ambas as partes.#$e#Eu tenho que admitir, estou muito interessado para ver como essa amizade incomum se desdobrará.",
+        "ru": "Будет сложно жить с таким соседом, как Кробус. Но уверен, что вам обоим это пойдет на пользу.#$e#Признаю, мне ужасно интересно, какие плоды сможет принести эта дружба.",
+        "tr": "Krobus gibi biriyle yaşamak zorlayıcı olacak. Ancak iki taraf için de oldukça faydalı olacağına eminim.#$e#İtiraf etmeliyim ki böyle sıra dışı bir arkadaşlığın sonucunu görmeyi çok merak ediyorum.",
+        "zh": "和科罗布斯这类生物一起生活是一种考验，不过肯定对双方都很有价值。#$e#这种不寻常的友谊最终结果会如何，我承认我很感兴趣。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Wizard.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Wizard.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Wizard.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Wizard.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Wizard.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Wizard.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Wizard.json",
+          "ko": "data\\game_scripts\\Dialogue\\Wizard.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Wizard.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Wizard.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Wizard.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Wizard.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'roommates_Krobus' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    }
+  ]
+}

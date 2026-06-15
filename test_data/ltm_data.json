@@ -1,0 +1,1833 @@
+{
+  "Damon": {
+    "persona_seed": [
+      {
+        "memory_id": "persona_Damon_2fc61065",
+        "memory_type": "persona_seed",
+        "npc_id": "Damon",
+        "content": "性格核心：慢热、外冷内热。不熟悉时礼貌疏离，熟悉后会展露脆弱和冷幽默。",
+        "time": "static",
+        "location": "persona_seed",
+        "importance": 0.9,
+        "status": "active",
+        "last_access": 0,
+        "source": "init"
+      },
+      {
+        "memory_id": "persona_Damon_b0016813",
+        "memory_type": "persona_seed",
+        "npc_id": "Damon",
+        "content": "背景：来自祖祖城，受刘易斯镇长委托负责海上宾馆建设项目。暂时在鹈鹕镇附近租房，白天考察小镇，常去图书馆和镇长家。",
+        "time": "static",
+        "location": "persona_seed",
+        "importance": 0.85,
+        "status": "active",
+        "last_access": 0,
+        "source": "init"
+      },
+      {
+        "memory_id": "persona_Damon_201de575",
+        "memory_type": "persona_seed",
+        "npc_id": "Damon",
+        "content": "说话风格：不熟悉时句子简短、用敬语、保持距离。熟悉后语气放松、夹杂冷幽默。傲娇时会用$4表情。",
+        "time": "static",
+        "location": "persona_seed",
+        "importance": 0.8,
+        "status": "active",
+        "last_access": 0,
+        "source": "init"
+      },
+      {
+        "memory_id": "persona_Damon_b99041af",
+        "memory_type": "persona_seed",
+        "npc_id": "Damon",
+        "content": "成长弧线：前期勤勉但麻木的中产阶级，因工作居无定所，怀疑人生。与玩家成为挚友后，被鹈鹕镇治愈，找到平静，视这里为归宿。",
+        "time": "static",
+        "location": "persona_seed",
+        "importance": 0.85,
+        "status": "active",
+        "last_access": 0,
+        "source": "init"
+      },
+      {
+        "memory_id": "persona_Damon_8b598e5d",
+        "memory_type": "persona_seed",
+        "npc_id": "Damon",
+        "content": "工作态度：极度看重专业素养，对项目进度有强迫症般的执着。年底赶项目的焦虑已经成为身体记忆。",
+        "time": "static",
+        "location": "persona_seed",
+        "importance": 0.7,
+        "status": "active",
+        "last_access": 0,
+        "source": "init"
+      },
+      {
+        "memory_id": "persona_Damon_e55a8778",
+        "memory_type": "persona_seed",
+        "npc_id": "Damon",
+        "content": "对鹈鹕镇的态度：从最初的'只是工作地点'逐渐转变为'也许可以留下来的地方'。镇上的人情味让他感到陌生但温暖。",
+        "time": "static",
+        "location": "persona_seed",
+        "importance": 0.75,
+        "status": "active",
+        "last_access": 0,
+        "source": "init"
+      }
+    ],
+    "episodic_event": [
+      {
+        "memory_id": "evt_Damon_b799da66",
+        "memory_type": "episodic_event",
+        "npc_id": "Damon",
+        "content": "有个自称农场主的人来海滩找我搭话。我正在看地形图，只是礼貌性地点了点头——工作期间不想被打扰。",
+        "time": 1,
+        "location": "Beach",
+        "importance": 0.3,
+        "status": "active",
+        "last_access": 1,
+        "source": "test_data",
+        "topic_tags": [
+          "first_meeting",
+          "work"
+        ]
+      },
+      {
+        "memory_id": "evt_Damon_c95668d3",
+        "memory_type": "episodic_event",
+        "npc_id": "Damon",
+        "content": "雨下得很大，玩家居然给我带了一杯热咖啡。我有点意外，说了句'谢谢，这比图书馆的速溶好多了'。这个人挺细心的。",
+        "time": 3,
+        "location": "Town",
+        "importance": 0.5,
+        "status": "active",
+        "last_access": 3,
+        "source": "test_data",
+        "topic_tags": [
+          "gift",
+          "coffee",
+          "rainy"
+        ],
+        "emotional_valence": 0.3
+      },
+      {
+        "memory_id": "evt_Damon_a32a48e8",
+        "memory_type": "episodic_event",
+        "npc_id": "Damon",
+        "content": "我在图书馆查海滨建筑的案例，玩家过来问需不需要帮忙。我婉拒了——这是我的工作，不想欠人情。但说实话，有人主动帮忙的感觉不坏。",
+        "time": 5,
+        "location": "Library",
+        "importance": 0.35,
+        "status": "active",
+        "last_access": 5,
+        "source": "test_data",
+        "topic_tags": [
+          "work",
+          "offer_help"
+        ]
+      },
+      {
+        "memory_id": "evt_Damon_0e19502f",
+        "memory_type": "episodic_event",
+        "npc_id": "Damon",
+        "content": "我在酒馆角落喝啤酒看文件，玩家坐过来了。不知道为什么，我居然跟他吐槽了审批流程的繁琐——平时我不会跟人说这些的。",
+        "time": 8,
+        "location": "Saloon",
+        "importance": 0.55,
+        "status": "active",
+        "last_access": 8,
+        "source": "test_data",
+        "topic_tags": [
+          "work",
+          "complaint",
+          "saloon"
+        ],
+        "emotional_valence": -0.2
+      },
+      {
+        "memory_id": "evt_Damon_3601e5ce",
+        "memory_type": "episodic_event",
+        "npc_id": "Damon",
+        "content": "在镇广场碰到玩家，我主动问了农场经营的事。说实话，如果以后项目需要从农场采购原材料，我会优先考虑他——他的农场看起来打理得不错。",
+        "time": 12,
+        "location": "Town",
+        "importance": 0.6,
+        "status": "active",
+        "last_access": 12,
+        "source": "test_data",
+        "topic_tags": [
+          "work",
+          "farm",
+          "business"
+        ],
+        "emotional_valence": 0.4
+      },
+      {
+        "memory_id": "evt_Damon_378e4127",
+        "memory_type": "episodic_event",
+        "npc_id": "Damon",
+        "content": "在海边测绘的时候玩家过来了。我指着远处跟他说海上宾馆大概在那个位置，然后让他保密。我居然会跟一个本地农场主分享项目细节……大概是开始信任他了。",
+        "time": 15,
+        "location": "Beach",
+        "importance": 0.65,
+        "status": "active",
+        "last_access": 15,
+        "source": "test_data",
+        "topic_tags": [
+          "work",
+          "secret",
+          "beach"
+        ],
+        "emotional_valence": 0.5
+      },
+      {
+        "memory_id": "evt_Damon_cd62e2a7",
+        "memory_type": "episodic_event",
+        "npc_id": "Damon",
+        "content": "我居然主动问玩家有没有什么怪癖，然后跟他说我焦虑的时候会不自觉抠手指。在别人面前承认这种事真是丢脸。$4",
+        "time": 20,
+        "location": "Saloon",
+        "importance": 0.7,
+        "status": "active",
+        "last_access": 20,
+        "source": "test_data",
+        "topic_tags": [
+          "vulnerability",
+          "anxiety",
+          "personal"
+        ],
+        "emotional_valence": 0.6
+      },
+      {
+        "memory_id": "evt_Damon_6218ecb2",
+        "memory_type": "episodic_event",
+        "npc_id": "Damon",
+        "content": "冬夜在山间散步时碰到了玩家。我问他'你有没有觉得，夜晚的鹈鹕镇比白天更真实？'我们沉默地走了一段路。这种不说话也不尴尬的感觉，很久没有过了。",
+        "time": 25,
+        "location": "Mountain",
+        "importance": 0.75,
+        "status": "active",
+        "last_access": 25,
+        "source": "test_data",
+        "topic_tags": [
+          "night",
+          "deep_talk",
+          "winter"
+        ],
+        "emotional_valence": 0.5
+      },
+      {
+        "memory_id": "evt_Damon_e72cf502",
+        "memory_type": "episodic_event",
+        "npc_id": "Damon",
+        "content": "我在亚历克斯那买了两个冰淇淋，给了玩家一个。我嘴硬说是留一个明天吃——其实我就是想给他买。$4",
+        "time": 30,
+        "location": "Saloon",
+        "importance": 0.8,
+        "status": "active",
+        "last_access": 30,
+        "source": "test_data",
+        "topic_tags": [
+          "gift",
+          "tsundere",
+          "food"
+        ],
+        "emotional_valence": 0.8
+      },
+      {
+        "memory_id": "evt_Damon_dd18bc00",
+        "memory_type": "episodic_event",
+        "npc_id": "Damon",
+        "content": "我对玩家说了一句很丢脸的话：'我以前觉得安定下来是一种放弃。现在觉得，也许这才是我一直在找的东西。'说出口以后反而轻松了。",
+        "time": 35,
+        "location": "Beach",
+        "importance": 0.85,
+        "status": "active",
+        "last_access": 35,
+        "source": "test_data",
+        "topic_tags": [
+          "growth",
+          "reflection",
+          "belonging"
+        ],
+        "emotional_valence": 0.9
+      },
+      {
+        "memory_id": "evt_Damon_45841c12",
+        "memory_type": "episodic_event",
+        "npc_id": "Damon",
+        "content": "秋天傍晚在山间对玩家说'秋天的山谷……我开始觉得这里比城市好了'。说完我自己都愣了一下——以前我绝对不会说这种话。",
+        "time": 28,
+        "location": "Mountain",
+        "importance": 0.75,
+        "status": "active",
+        "last_access": 28,
+        "source": "test_data",
+        "topic_tags": [
+          "season",
+          "fall",
+          "growth"
+        ],
+        "emotional_valence": 0.7
+      },
+      {
+        "memory_id": "evt_Damon_2fd10dbb",
+        "memory_type": "episodic_event",
+        "npc_id": "Damon",
+        "content": "在图书馆发呆的时候想到了祖祖城。我跟玩家说'如果当初没接这个项目，我大概还在写字楼里加班到凌晨'。说出来以后发现，好像没那么怀念了。",
+        "time": 22,
+        "location": "Library",
+        "importance": 0.7,
+        "status": "active",
+        "last_access": 22,
+        "source": "test_data",
+        "topic_tags": [
+          "past",
+          "reflection",
+          "city_life"
+        ],
+        "emotional_valence": 0.3
+      }
+    ],
+    "preference_belief": [
+      {
+        "memory_id": "belief_Damon_5ee81d79",
+        "memory_type": "preference_belief",
+        "npc_id": "Damon",
+        "content": "玩家好像挺喜欢喝咖啡的，至少那次接过咖啡的时候表情是高兴的。",
+        "time": 3,
+        "location": "Town",
+        "importance": 0.6,
+        "status": "active",
+        "last_access": 3,
+        "source": "test_data",
+        "target": "player",
+        "belief_key": "Damon.player.preference.coffee",
+        "belief_type": "player_preference",
+        "topic": "coffee",
+        "polarity": "like",
+        "confidence": 0.75
+      },
+      {
+        "memory_id": "belief_Damon_e0391a06",
+        "memory_type": "preference_belief",
+        "npc_id": "Damon",
+        "content": "玩家对农场经营很上心，聊到农场的时候明显很投入。应该是真心喜欢种地这件事。",
+        "time": 12,
+        "location": "Town",
+        "importance": 0.65,
+        "status": "active",
+        "last_access": 12,
+        "source": "test_data",
+        "target": "player",
+        "belief_key": "Damon.player.preference.farm_work",
+        "belief_type": "player_preference",
+        "topic": "farm_work",
+        "polarity": "like",
+        "confidence": 0.8
+      },
+      {
+        "memory_id": "belief_Damon_81551b96",
+        "memory_type": "preference_belief",
+        "npc_id": "Damon",
+        "content": "玩家似乎对城市生活没什么好感。我聊起祖祖城的时候，他的反应让我觉得他也不喜欢那种日子。",
+        "time": 22,
+        "location": "Library",
+        "importance": 0.55,
+        "status": "active",
+        "last_access": 22,
+        "source": "test_data",
+        "target": "player",
+        "belief_key": "Damon.player.preference.city_life",
+        "belief_type": "player_preference",
+        "topic": "city_life",
+        "polarity": "dislike",
+        "confidence": 0.65
+      },
+      {
+        "memory_id": "belief_Damon_1c12f93d",
+        "memory_type": "preference_belief",
+        "npc_id": "Damon",
+        "content": "不太确定玩家喜不喜欢海鲜。在海边聊到海上宾馆的时候他没什么特别的反应。",
+        "time": 15,
+        "location": "Beach",
+        "importance": 0.4,
+        "status": "active",
+        "last_access": 15,
+        "source": "test_data",
+        "target": "player",
+        "belief_key": "Damon.player.preference.seafood",
+        "belief_type": "player_preference",
+        "topic": "seafood",
+        "polarity": "uncertain_neutral",
+        "confidence": 0.45
+      }
+    ],
+    "relationship_impression": [
+      {
+        "memory_id": "rel_Damon_d5300aa0",
+        "memory_type": "relationship_impression",
+        "npc_id": "Damon",
+        "content": "Damon 对 player 的长期印象：信任 0.60，亲近 0.55，熟悉 0.50，困惑 0.15，怨气 0.00。",
+        "time": 35,
+        "location": "Beach",
+        "importance": 0.85,
+        "status": "active",
+        "last_access": 35,
+        "source": "test_data",
+        "target": "player",
+        "impression_key": "Damon.player.relationship",
+        "trust": 0.6,
+        "warmth": 0.55,
+        "familiarity": 0.5,
+        "confusion": 0.15,
+        "resentment": 0.0
+      }
+    ],
+    "narrative_arc": [
+      {
+        "memory_id": "arc_Damon_4ebb98fe",
+        "memory_type": "narrative_arc",
+        "npc_id": "Damon",
+        "content": "这两周我基本把玩家当成一个普通的农场主，对话也仅限于工作上的寒暄。有一天他给我带了杯热咖啡，比图书馆的速溶好喝——这是我第一次觉得这个镇上的人不一样。",
+        "time": 14,
+        "location": "narrative",
+        "importance": 0.6,
+        "status": "active",
+        "last_access": 14,
+        "source": "test_data",
+        "week_range": "第1-2周"
+      },
+      {
+        "memory_id": "arc_Damon_2d171c92",
+        "memory_type": "narrative_arc",
+        "npc_id": "Damon",
+        "content": "我开始主动跟玩家聊农场的事，甚至在海滩上跟他说了宾馆选址的秘密。我为什么会跟他说这些？大概是觉得他不会到处乱讲吧。我还开始跟他开一些冷玩笑——以前在祖祖城我从来不开玩笑的。",
+        "time": 28,
+        "location": "narrative",
+        "importance": 0.7,
+        "status": "active",
+        "last_access": 28,
+        "source": "test_data",
+        "week_range": "第3-4周"
+      },
+      {
+        "memory_id": "arc_Damon_96175bd4",
+        "memory_type": "narrative_arc",
+        "npc_id": "Damon",
+        "content": "我在玩家面前几乎没什么保留了。我跟他说了焦虑、说了抠手指的坏习惯、说了对城市生活的厌倦。他甚至看穿了我用'买两个冰淇淋留一个明天吃'当借口。我以前觉得安定下来是放弃，现在觉得……也许这才是我一直在找的东西。这个小镇、这些人、还有他。",
+        "time": 42,
+        "location": "narrative",
+        "importance": 0.8,
+        "status": "active",
+        "last_access": 42,
+        "source": "test_data",
+        "week_range": "第5-6周"
+      }
+    ]
+  },
+  "Abigail": {
+    "episodic_event": [
+      {
+        "memory_id": "evt_Abigail_a06ecc93",
+        "memory_type": "episodic_event",
+        "npc_id": "Abigail",
+        "content": "那个新来的农场主跟我搭话的时候，我正因为周末没写作业而烦躁，语气不太友善。希望他没往心里去。",
+        "time": 1,
+        "location": "Town",
+        "importance": 0.3,
+        "status": "active",
+        "last_access": 1,
+        "source": "test_data",
+        "topic_tags": [
+          "first_meeting",
+          "homework"
+        ]
+      },
+      {
+        "memory_id": "evt_Abigail_88bd94d7",
+        "memory_type": "episodic_event",
+        "npc_id": "Abigail",
+        "content": "玩家路过山上的时候停下来听我吹长笛。我吹完有点不好意思，说了句'我只是随便吹吹'——其实我很高兴有人愿意听。",
+        "time": 4,
+        "location": "Mountain",
+        "importance": 0.5,
+        "status": "active",
+        "last_access": 4,
+        "source": "test_data",
+        "topic_tags": [
+          "flute",
+          "music",
+          "shy"
+        ],
+        "emotional_valence": 0.3
+      },
+      {
+        "memory_id": "evt_Abigail_e0e48805",
+        "memory_type": "episodic_event",
+        "npc_id": "Abigail",
+        "content": "下雨天站在湖边看雨的时候玩家过来了。我跟他说'看着雨帘在寂静的湖面上飘荡……这种感觉难以形容'。他好像能理解这种感觉。",
+        "time": 7,
+        "location": "Mountain",
+        "importance": 0.55,
+        "status": "active",
+        "last_access": 7,
+        "source": "test_data",
+        "topic_tags": [
+          "rainy",
+          "lake",
+          "contemplation"
+        ],
+        "emotional_valence": 0.2
+      },
+      {
+        "memory_id": "evt_Abigail_a5955861",
+        "memory_type": "episodic_event",
+        "npc_id": "Abigail",
+        "content": "我问玩家有没有去过矿洞探险，然后拿出一块紫水晶给他看。这是我亲自在矿洞里找到的，我觉得很漂亮——不知道他懂不懂。",
+        "time": 10,
+        "location": "Town",
+        "importance": 0.6,
+        "status": "active",
+        "last_access": 10,
+        "source": "test_data",
+        "topic_tags": [
+          "mines",
+          "amethyst",
+          "adventure"
+        ],
+        "emotional_valence": 0.5
+      },
+      {
+        "memory_id": "evt_Abigail_5eb9c37d",
+        "memory_type": "episodic_event",
+        "npc_id": "Abigail",
+        "content": "我跟玩家吐槽了和爸妈吵架的事。我知道他们是好意，但他们就是不能理解我。玩家好像听得很认真，没有打断我。",
+        "time": 13,
+        "location": "Town",
+        "importance": 0.65,
+        "status": "active",
+        "last_access": 13,
+        "source": "test_data",
+        "topic_tags": [
+          "family",
+          "parents",
+          "conflict"
+        ],
+        "emotional_valence": -0.3
+      },
+      {
+        "memory_id": "evt_Abigail_b84fde85",
+        "memory_type": "episodic_event",
+        "npc_id": "Abigail",
+        "content": "玩家送了我一个南瓜！我问他今年种南瓜了没有，让他帮我留一个——我最喜欢南瓜了。这个农场主真有意思。",
+        "time": 16,
+        "location": "Town",
+        "importance": 0.6,
+        "status": "active",
+        "last_access": 16,
+        "source": "test_data",
+        "topic_tags": [
+          "gift",
+          "pumpkin",
+          "fall"
+        ],
+        "emotional_valence": 0.7
+      },
+      {
+        "memory_id": "evt_Abigail_d68c7d6e",
+        "memory_type": "episodic_event",
+        "npc_id": "Abigail",
+        "content": "我跟玩家说昨晚去海边看到奇怪的光在晃动。可能只是梦吧，但感觉不太真实。他听完没有笑我——大多数人会笑我的。",
+        "time": 19,
+        "location": "Beach",
+        "importance": 0.65,
+        "status": "active",
+        "last_access": 19,
+        "source": "test_data",
+        "topic_tags": [
+          "supernatural",
+          "beach",
+          "dream"
+        ],
+        "emotional_valence": 0.3
+      },
+      {
+        "memory_id": "evt_Abigail_41ffce80",
+        "memory_type": "episodic_event",
+        "npc_id": "Abigail",
+        "content": "在墓地碰到玩家的时候我问他'要是在墓地里待一整夜会发生什么事呢？'我当然是带着神秘笑容说的。他看起来居然有点感兴趣。",
+        "time": 22,
+        "location": "Town",
+        "importance": 0.6,
+        "status": "active",
+        "last_access": 22,
+        "source": "test_data",
+        "topic_tags": [
+          "graveyard",
+          "mystery",
+          "adventure"
+        ],
+        "emotional_valence": 0.4
+      },
+      {
+        "memory_id": "evt_Abigail_bc583e05",
+        "memory_type": "episodic_event",
+        "npc_id": "Abigail",
+        "content": "我对玩家说'你这人真有趣，你能搬来这里真是太好了'。这是我第一次直接夸他——说出来以后心跳得很快。",
+        "time": 25,
+        "location": "Town",
+        "importance": 0.7,
+        "status": "active",
+        "last_access": 25,
+        "source": "test_data",
+        "topic_tags": [
+          "friendship",
+          "compliment"
+        ],
+        "emotional_valence": 0.8
+      },
+      {
+        "memory_id": "evt_Abigail_4055c5eb",
+        "memory_type": "episodic_event",
+        "npc_id": "Abigail",
+        "content": "我最近一直在做白日梦……玩家问我梦到什么了。我说那是个秘密。其实梦到的是他，但我不好意思说。",
+        "time": 28,
+        "location": "Mountain",
+        "importance": 0.7,
+        "status": "active",
+        "last_access": 28,
+        "source": "test_data",
+        "topic_tags": [
+          "secret",
+          "daydream",
+          "romance"
+        ],
+        "emotional_valence": 0.6
+      },
+      {
+        "memory_id": "evt_Abigail_72b39734",
+        "memory_type": "episodic_event",
+        "npc_id": "Abigail",
+        "content": "我鼓起勇气想夸玩家，结果说出来的却是'你的靴子真挺干净的'。我在心里把自己骂了一百遍。$4",
+        "time": 32,
+        "location": "Town",
+        "importance": 0.8,
+        "status": "active",
+        "last_access": 32,
+        "source": "test_data",
+        "topic_tags": [
+          "romance",
+          "awkward",
+          "compliment"
+        ],
+        "emotional_valence": 0.9
+      },
+      {
+        "memory_id": "evt_Abigail_78829f8a",
+        "memory_type": "episodic_event",
+        "npc_id": "Abigail",
+        "content": "我昨晚做了个美梦，梦到了玩家。我告诉他了——然后假装去看远处的风景。",
+        "time": 35,
+        "location": "Farm",
+        "importance": 0.8,
+        "status": "active",
+        "last_access": 35,
+        "source": "test_data",
+        "topic_tags": [
+          "dream",
+          "romance",
+          "intimate"
+        ],
+        "emotional_valence": 0.9
+      },
+      {
+        "memory_id": "evt_Abigail_457abdf5",
+        "memory_type": "episodic_event",
+        "npc_id": "Abigail",
+        "content": "秋天在农场和玩家一起看落叶。蘑菇、腐烂的树叶、南瓜的香味混在一起，我对他说'很美好不是吗？'他点头的时候，我觉得这一刻会记很久。",
+        "time": 38,
+        "location": "Farm",
+        "importance": 0.75,
+        "status": "active",
+        "last_access": 38,
+        "source": "test_data",
+        "topic_tags": [
+          "fall",
+          "farm",
+          "peaceful"
+        ],
+        "emotional_valence": 0.8
+      }
+    ],
+    "preference_belief": [
+      {
+        "memory_id": "belief_Abigail_949331a8",
+        "memory_type": "preference_belief",
+        "npc_id": "Abigail",
+        "content": "玩家应该挺喜欢挖矿的。每次聊到矿洞探险他就很有兴致，跟我一样。",
+        "time": 10,
+        "location": "Town",
+        "importance": 0.6,
+        "status": "active",
+        "last_access": 10,
+        "source": "test_data",
+        "target": "player",
+        "belief_key": "Abigail.player.preference.mining",
+        "belief_type": "player_preference",
+        "topic": "mining",
+        "polarity": "like",
+        "confidence": 0.8
+      },
+      {
+        "memory_id": "belief_Abigail_09016836",
+        "memory_type": "preference_belief",
+        "npc_id": "Abigail",
+        "content": "玩家好像很喜欢紫水晶。我给他看的时候他眼睛都亮了——这让我特别高兴。",
+        "time": 10,
+        "location": "Town",
+        "importance": 0.65,
+        "status": "active",
+        "last_access": 10,
+        "source": "test_data",
+        "target": "player",
+        "belief_key": "Abigail.player.preference.amethyst",
+        "belief_type": "player_preference",
+        "topic": "amethyst",
+        "polarity": "like",
+        "confidence": 0.85
+      },
+      {
+        "memory_id": "belief_Abigail_71461041",
+        "memory_type": "preference_belief",
+        "npc_id": "Abigail",
+        "content": "我送玩家南瓜的时候他很开心，他应该也喜欢南瓜。秋天是南瓜的季节嘛。",
+        "time": 16,
+        "location": "Town",
+        "importance": 0.55,
+        "status": "active",
+        "last_access": 16,
+        "source": "test_data",
+        "target": "player",
+        "belief_key": "Abigail.player.preference.pumpkin",
+        "belief_type": "player_preference",
+        "topic": "pumpkin",
+        "polarity": "like",
+        "confidence": 0.7
+      },
+      {
+        "memory_id": "belief_Abigail_f1716d68",
+        "memory_type": "preference_belief",
+        "npc_id": "Abigail",
+        "content": "不太确定玩家对夏天是什么感觉。有一次我抱怨夏天太闷热的时候他没什么特别反应。",
+        "time": 4,
+        "location": "Mountain",
+        "importance": 0.35,
+        "status": "active",
+        "last_access": 4,
+        "source": "test_data",
+        "target": "player",
+        "belief_key": "Abigail.player.preference.summer",
+        "belief_type": "player_preference",
+        "topic": "summer",
+        "polarity": "uncertain_neutral",
+        "confidence": 0.4
+      }
+    ],
+    "relationship_impression": [
+      {
+        "memory_id": "rel_Abigail_b81405f9",
+        "memory_type": "relationship_impression",
+        "npc_id": "Abigail",
+        "content": "Abigail 对 player 的长期印象：信任 0.70，亲近 0.75，熟悉 0.65，困惑 0.20，怨气 0.00。",
+        "time": 38,
+        "location": "Farm",
+        "importance": 0.85,
+        "status": "active",
+        "last_access": 38,
+        "source": "test_data",
+        "target": "player",
+        "impression_key": "Abigail.player.relationship",
+        "trust": 0.7,
+        "warmth": 0.75,
+        "familiarity": 0.65,
+        "confusion": 0.2,
+        "resentment": 0.0
+      }
+    ],
+    "narrative_arc": [
+      {
+        "memory_id": "arc_Abigail_380b1fb0",
+        "memory_type": "narrative_arc",
+        "npc_id": "Abigail",
+        "content": "这两周我对那个新来的农场主没什么特别印象。有次在山上吹长笛的时候他停下来听了——我有点不好意思，但心里其实挺高兴的。他好像不是那种无聊的大人。",
+        "time": 14,
+        "location": "narrative",
+        "importance": 0.55,
+        "status": "active",
+        "last_access": 14,
+        "source": "test_data",
+        "week_range": "第1-2周"
+      },
+      {
+        "memory_id": "arc_Abigail_ae43d98e",
+        "memory_type": "narrative_arc",
+        "npc_id": "Abigail",
+        "content": "我开始跟玩家聊一些真正在意的事——矿洞探险、紫水晶、和爸妈吵架的烦恼。他还送了我一个南瓜！我不知道为什么愿意跟他说这么多。也许是因为他不打断我，也不对我说教。",
+        "time": 28,
+        "location": "narrative",
+        "importance": 0.7,
+        "status": "active",
+        "last_access": 28,
+        "source": "test_data",
+        "week_range": "第3-4周"
+      },
+      {
+        "memory_id": "arc_Abigail_250741aa",
+        "memory_type": "narrative_arc",
+        "npc_id": "Abigail",
+        "content": "我觉得我在意玩家，超出了普通朋友的范畴。我做了梦，梦里有他。我试着夸他漂亮，结果说出口的却是'你的靴子真干净'——我到底在干什么啊！但他说不定觉得这样的我很可爱呢？",
+        "time": 42,
+        "location": "narrative",
+        "importance": 0.8,
+        "status": "active",
+        "last_access": 42,
+        "source": "test_data",
+        "week_range": "第5-6周"
+      }
+    ]
+  },
+  "Shane": {
+    "episodic_event": [
+      {
+        "memory_id": "evt_Shane_f9bb4c70",
+        "memory_type": "episodic_event",
+        "npc_id": "Shane",
+        "content": "有个新来的农场主跟我搭话。我不认识他，为什么要跟我说话？我跟他说了句'我不认识你'就走开了。",
+        "time": 2,
+        "location": "Town",
+        "importance": 0.3,
+        "status": "active",
+        "last_access": 2,
+        "source": "test_data",
+        "topic_tags": [
+          "first_meeting",
+          "rude",
+          "rejection"
+        ]
+      },
+      {
+        "memory_id": "evt_Shane_a6566d61",
+        "memory_type": "episodic_event",
+        "npc_id": "Shane",
+        "content": "玩家在JojaMart碰到我在上货。我头都没抬——你要买东西就去柜台，别跟我说话。我上班已经够烦了。",
+        "time": 5,
+        "location": "JojaMart",
+        "importance": 0.35,
+        "status": "active",
+        "last_access": 5,
+        "source": "test_data",
+        "topic_tags": [
+          "work",
+          "cold",
+          "joja"
+        ]
+      },
+      {
+        "memory_id": "evt_Shane_9b03e0f7",
+        "memory_type": "episodic_event",
+        "npc_id": "Shane",
+        "content": "傍晚在牧场外面淋雨的时候被玩家看到了。我让他走开，但说实话……那一刻我其实有点不想一个人待着。",
+        "time": 8,
+        "location": "Forest",
+        "importance": 0.5,
+        "status": "active",
+        "last_access": 8,
+        "source": "test_data",
+        "topic_tags": [
+          "rainy",
+          "vulnerable",
+          "depression"
+        ],
+        "emotional_valence": -0.5
+      },
+      {
+        "memory_id": "evt_Shane_bca52f36",
+        "memory_type": "episodic_event",
+        "npc_id": "Shane",
+        "content": "这个农场主每天都来找我说话。真是够锲而不舍的。我今天终于跟他说了句'真没想到还有人愿意和我说话'——可能是真话。",
+        "time": 14,
+        "location": "Town",
+        "importance": 0.6,
+        "status": "active",
+        "last_access": 14,
+        "source": "test_data",
+        "topic_tags": [
+          "persistence",
+          "breakthrough",
+          "surprise"
+        ],
+        "emotional_valence": 0.2
+      },
+      {
+        "memory_id": "evt_Shane_b54475ba",
+        "memory_type": "episodic_event",
+        "npc_id": "Shane",
+        "content": "玩家在酒馆请我喝了杯啤酒。我说'谢了……这比一个人喝强一点'。真的，强一点。",
+        "time": 17,
+        "location": "Saloon",
+        "importance": 0.6,
+        "status": "active",
+        "last_access": 17,
+        "source": "test_data",
+        "topic_tags": [
+          "gift",
+          "beer",
+          "saloon"
+        ],
+        "emotional_valence": 0.4
+      },
+      {
+        "memory_id": "evt_Shane_5440223e",
+        "memory_type": "episodic_event",
+        "npc_id": "Shane",
+        "content": "我带玩家去看我的鸡了。给他介绍了查理——它是我最喜欢的一只。我跟他说'它们不会嫌我烦'。说这话的时候我居然笑了一下。",
+        "time": 21,
+        "location": "Forest",
+        "importance": 0.7,
+        "status": "active",
+        "last_access": 21,
+        "source": "test_data",
+        "topic_tags": [
+          "chickens",
+          "charlie",
+          "passion"
+        ],
+        "emotional_valence": 0.6
+      },
+      {
+        "memory_id": "evt_Shane_d0491bcd",
+        "memory_type": "episodic_event",
+        "npc_id": "Shane",
+        "content": "在酒馆又喝多了。我居然对着玩家说了'有时候我觉得活着真累……你为什么要一直来找我？难道你不觉得我很烦吗？'第二天醒来后悔死了。",
+        "time": 24,
+        "location": "Saloon",
+        "importance": 0.75,
+        "status": "active",
+        "last_access": 24,
+        "source": "test_data",
+        "topic_tags": [
+          "drunk",
+          "vulnerable",
+          "depression"
+        ],
+        "emotional_valence": -0.7
+      },
+      {
+        "memory_id": "evt_Shane_f2924c46",
+        "memory_type": "episodic_event",
+        "npc_id": "Shane",
+        "content": "昨晚又喝醉了。但玩家没有走，陪我坐到了酒馆打烊。第二天我跟他说'昨晚的事别跟别人说'——其实我想说谢谢。",
+        "time": 25,
+        "location": "Saloon",
+        "importance": 0.8,
+        "status": "active",
+        "last_access": 25,
+        "source": "test_data",
+        "topic_tags": [
+          "support",
+          "trust",
+          "vulnerable"
+        ],
+        "emotional_valence": 0.3
+      },
+      {
+        "memory_id": "evt_Shane_9a2b3c98",
+        "memory_type": "episodic_event",
+        "npc_id": "Shane",
+        "content": "我对玩家说'我戒酒了——大概吧。至少今天没喝'。说出口的那一刻，我自己都信了。也许我真的可以做到。",
+        "time": 30,
+        "location": "Forest",
+        "importance": 0.8,
+        "status": "active",
+        "last_access": 30,
+        "source": "test_data",
+        "topic_tags": [
+          "sobriety",
+          "growth",
+          "effort"
+        ],
+        "emotional_valence": 0.5
+      },
+      {
+        "memory_id": "evt_Shane_115cf18a",
+        "memory_type": "episodic_event",
+        "npc_id": "Shane",
+        "content": "我跟玩家说了'如果你是认真的，那我就是全世界最幸运的人'。然后立刻转移话题说鸡舍要打扫了——我怕他看出我说的每个字都是认真的。",
+        "time": 35,
+        "location": "Farm",
+        "importance": 0.85,
+        "status": "active",
+        "last_access": 35,
+        "source": "test_data",
+        "topic_tags": [
+          "romance",
+          "awkward",
+          "gratitude"
+        ],
+        "emotional_valence": 0.9
+      },
+      {
+        "memory_id": "evt_Shane_f09485e7",
+        "memory_type": "episodic_event",
+        "npc_id": "Shane",
+        "content": "下雨天和玩家待在家里。我跟他说'雨天在家……有你在就好。我以前从来不敢想这种生活'。说完觉得鼻子有点酸。",
+        "time": 40,
+        "location": "Farm",
+        "importance": 0.8,
+        "status": "active",
+        "last_access": 40,
+        "source": "test_data",
+        "topic_tags": [
+          "rainy",
+          "domestic",
+          "gratitude"
+        ],
+        "emotional_valence": 0.8
+      },
+      {
+        "memory_id": "evt_Shane_8323b576",
+        "memory_type": "episodic_event",
+        "npc_id": "Shane",
+        "content": "早上给玩家泡了咖啡，什么都没说就放在他旁边。'……早。'——这是我表达关心的方式。他应该懂吧。",
+        "time": 42,
+        "location": "Farm",
+        "importance": 0.7,
+        "status": "active",
+        "last_access": 42,
+        "source": "test_data",
+        "topic_tags": [
+          "morning",
+          "coffee",
+          "care"
+        ],
+        "emotional_valence": 0.7
+      }
+    ],
+    "preference_belief": [
+      {
+        "memory_id": "belief_Shane_34d48a5e",
+        "memory_type": "preference_belief",
+        "npc_id": "Shane",
+        "content": "玩家在酒馆喝过我请的啤酒，看起来不排斥。也许他也喜欢偶尔来一杯。",
+        "time": 17,
+        "location": "Saloon",
+        "importance": 0.5,
+        "status": "active",
+        "last_access": 17,
+        "source": "test_data",
+        "target": "player",
+        "belief_key": "Shane.player.preference.beer",
+        "belief_type": "player_preference",
+        "topic": "beer",
+        "polarity": "like",
+        "confidence": 0.65
+      },
+      {
+        "memory_id": "belief_Shane_ef912a9b",
+        "memory_type": "preference_belief",
+        "npc_id": "Shane",
+        "content": "玩家来看我的鸡的时候很感兴趣，不是那种假装的。他真的觉得查理很可爱——这点我很确定。",
+        "time": 21,
+        "location": "Forest",
+        "importance": 0.6,
+        "status": "active",
+        "last_access": 21,
+        "source": "test_data",
+        "target": "player",
+        "belief_key": "Shane.player.preference.chickens",
+        "belief_type": "player_preference",
+        "topic": "chickens",
+        "polarity": "like",
+        "confidence": 0.75
+      },
+      {
+        "memory_id": "belief_Shane_655c9328",
+        "memory_type": "preference_belief",
+        "npc_id": "Shane",
+        "content": "我做过一次辣椒爆炒——玩家吃了以后表情很满足。他应该是喜欢这个的。",
+        "time": 30,
+        "location": "Forest",
+        "importance": 0.6,
+        "status": "active",
+        "last_access": 30,
+        "source": "test_data",
+        "target": "player",
+        "belief_key": "Shane.player.preference.pepper_poppers",
+        "belief_type": "player_preference",
+        "topic": "pepper_poppers",
+        "polarity": "like",
+        "confidence": 0.8
+      }
+    ],
+    "relationship_impression": [
+      {
+        "memory_id": "rel_Shane_b01ed467",
+        "memory_type": "relationship_impression",
+        "npc_id": "Shane",
+        "content": "Shane 对 player 的长期印象：信任 0.65，亲近 0.60，熟悉 0.70，困惑 0.25，怨气 0.00。",
+        "time": 42,
+        "location": "Farm",
+        "importance": 0.85,
+        "status": "active",
+        "last_access": 42,
+        "source": "test_data",
+        "target": "player",
+        "impression_key": "Shane.player.relationship",
+        "trust": 0.65,
+        "warmth": 0.6,
+        "familiarity": 0.7,
+        "confusion": 0.25,
+        "resentment": 0.0
+      }
+    ],
+    "narrative_arc": [
+      {
+        "memory_id": "arc_Shane_893de326",
+        "memory_type": "narrative_arc",
+        "npc_id": "Shane",
+        "content": "这两周我一直在赶走那个新来的农场主。'走开'、'别烦我'——我每次都这么说。但他第二天又来了。为什么？一般人早就放弃了。这个人要么是特别固执，要么是脑子有问题。",
+        "time": 14,
+        "location": "narrative",
+        "importance": 0.5,
+        "status": "active",
+        "last_access": 14,
+        "source": "test_data",
+        "week_range": "第1-2周"
+      },
+      {
+        "memory_id": "arc_Shane_41d531c8",
+        "memory_type": "narrative_arc",
+        "npc_id": "Shane",
+        "content": "我不再赶玩家走了。带他看了我的鸡——这连我自己都没想到。但在酒馆喝醉后，我把最难听的话都说给了他听。醒来后我以为他会消失，但他没有。他只是说'昨晚的事别跟别人说'。这个人到底图什么？",
+        "time": 28,
+        "location": "narrative",
+        "importance": 0.65,
+        "status": "active",
+        "last_access": 28,
+        "source": "test_data",
+        "week_range": "第3-4周"
+      },
+      {
+        "memory_id": "arc_Shane_0b833d02",
+        "memory_type": "narrative_arc",
+        "npc_id": "Shane",
+        "content": "我开始戒酒了——不是完全成功，但至少今天没喝。玩家说他为我感到骄傲，我差点哭出来。我以前总觉得像我这样的人不配拥有好日子，但现在我觉得……也许我可以试试。为了他，也为了我自己。",
+        "time": 42,
+        "location": "narrative",
+        "importance": 0.75,
+        "status": "active",
+        "last_access": 42,
+        "source": "test_data",
+        "week_range": "第5-6周"
+      }
+    ]
+  },
+  "Sebastian": {
+    "episodic_event": [
+      {
+        "memory_id": "evt_Sebastian_a4cdd0c0",
+        "memory_type": "episodic_event",
+        "npc_id": "Sebastian",
+        "content": "新来的农场主闯进地下室找我说话。我头都没抬——那么多地方你不选，偏偏选中鹈鹕镇？行吧。",
+        "time": 1,
+        "location": "Mountain",
+        "importance": 0.3,
+        "status": "active",
+        "last_access": 1,
+        "source": "test_data",
+        "topic_tags": [
+          "first_meeting",
+          "skeptical"
+        ]
+      },
+      {
+        "memory_id": "evt_Sebastian_e76b094a",
+        "memory_type": "episodic_event",
+        "npc_id": "Sebastian",
+        "content": "雨天的山上碰到了玩家。我说了句'运气好的话，这种天气可能会看见青蛙'。比平时说的话多了一点——大概是下雨让人放松。",
+        "time": 5,
+        "location": "Mountain",
+        "importance": 0.45,
+        "status": "active",
+        "last_access": 5,
+        "source": "test_data",
+        "topic_tags": [
+          "rainy",
+          "frogs",
+          "nature"
+        ]
+      },
+      {
+        "memory_id": "evt_Sebastian_45189a40",
+        "memory_type": "episodic_event",
+        "npc_id": "Sebastian",
+        "content": "晚上在湖边抽烟的时候玩家过来了。我跟他说'我通常只有天黑后才出去'——然后问他觉不觉得奇怪。他说不觉得。",
+        "time": 9,
+        "location": "Mountain",
+        "importance": 0.5,
+        "status": "active",
+        "last_access": 9,
+        "source": "test_data",
+        "topic_tags": [
+          "night",
+          "smoking",
+          "loner"
+        ],
+        "emotional_valence": 0.1
+      },
+      {
+        "memory_id": "evt_Sebastian_b4fc4479",
+        "memory_type": "episodic_event",
+        "npc_id": "Sebastian",
+        "content": "我不小心问出口了——'要是我突然消失，会有人挂念我吗？'说出口就后悔了。这种问题不应该问别人。",
+        "time": 14,
+        "location": "Mountain",
+        "importance": 0.65,
+        "status": "active",
+        "last_access": 14,
+        "source": "test_data",
+        "topic_tags": [
+          "existential",
+          "vulnerable",
+          "loneliness"
+        ],
+        "emotional_valence": -0.3
+      },
+      {
+        "memory_id": "evt_Sebastian_5f5b3117",
+        "memory_type": "episodic_event",
+        "npc_id": "Sebastian",
+        "content": "和山姆在酒馆打台球的时候玩家也在。打台球的时候我比平时放松，可能还笑了一下——山姆有这种效果。",
+        "time": 17,
+        "location": "Saloon",
+        "importance": 0.55,
+        "status": "active",
+        "last_access": 17,
+        "source": "test_data",
+        "topic_tags": [
+          "friends",
+          "sam",
+          "pool"
+        ],
+        "emotional_valence": 0.4
+      },
+      {
+        "memory_id": "evt_Sebastian_2cf5b7de",
+        "memory_type": "episodic_event",
+        "npc_id": "Sebastian",
+        "content": "我跟玩家吐槽了玛鲁。我说大家都喜欢她不过是因为她会吸引注意力——说完立刻道歉了。其实我知道这不公平，玛鲁没那么坏。但有时候就是忍不住。",
+        "time": 20,
+        "location": "Mountain",
+        "importance": 0.65,
+        "status": "active",
+        "last_access": 20,
+        "source": "test_data",
+        "topic_tags": [
+          "family",
+          "maru",
+          "jealousy",
+          "honest"
+        ],
+        "emotional_valence": -0.2
+      },
+      {
+        "memory_id": "evt_Sebastian_faf29f87",
+        "memory_type": "episodic_event",
+        "npc_id": "Sebastian",
+        "content": "雨天的海滩只有我和玩家。我对着远处的海平线说了一堆平时不会说的话——'遥望天水一线的苍茫让我有动力继续向前走'。他听完什么都没说，但我知道他懂了。",
+        "time": 24,
+        "location": "Beach",
+        "importance": 0.75,
+        "status": "active",
+        "last_access": 24,
+        "source": "test_data",
+        "topic_tags": [
+          "rainy",
+          "beach",
+          "deep_talk",
+          "motivation"
+        ],
+        "emotional_valence": 0.5
+      },
+      {
+        "memory_id": "evt_Sebastian_8f569c6c",
+        "memory_type": "episodic_event",
+        "npc_id": "Sebastian",
+        "content": "我对玩家说了实话：'你跟山姆是我在这镇上唯一的朋友'。说完我立刻低头看手机——说这种话太不像我了。",
+        "time": 28,
+        "location": "Mountain",
+        "importance": 0.75,
+        "status": "active",
+        "last_access": 28,
+        "source": "test_data",
+        "topic_tags": [
+          "friendship",
+          "gratitude",
+          "rare_admission"
+        ],
+        "emotional_valence": 0.7
+      },
+      {
+        "memory_id": "evt_Sebastian_61f0c7ae",
+        "memory_type": "episodic_event",
+        "npc_id": "Sebastian",
+        "content": "夜里看着满身是泥的玩家，我居然说了一句'你一直看起来很棒，即使在院子里弄得满身都是泥之后'。好吧，这就是我的情话水平。",
+        "time": 33,
+        "location": "Farm",
+        "importance": 0.8,
+        "status": "active",
+        "last_access": 33,
+        "source": "test_data",
+        "topic_tags": [
+          "romance",
+          "compliment",
+          "night"
+        ],
+        "emotional_valence": 0.8
+      },
+      {
+        "memory_id": "evt_Sebastian_a66b7904",
+        "memory_type": "episodic_event",
+        "npc_id": "Sebastian",
+        "content": "我认真地跟玩家说'我在尽最大努力戒烟……我不想比你先去世。这是个坏习惯。我想和你共创未来'。我以前从来不会想'未来'这种事的。",
+        "time": 38,
+        "location": "Farm",
+        "importance": 0.85,
+        "status": "active",
+        "last_access": 38,
+        "source": "test_data",
+        "topic_tags": [
+          "growth",
+          "smoking",
+          "future",
+          "love"
+        ],
+        "emotional_valence": 0.9
+      },
+      {
+        "memory_id": "evt_Sebastian_8bc0d7af",
+        "memory_type": "episodic_event",
+        "npc_id": "Sebastian",
+        "content": "被噩梦惊醒后睡不着，给玩家煮了咖啡。他问我还好吗，我说了实话——'从噩梦中醒来，再也睡不着了'。在他面前说这些好像没那么难。",
+        "time": 41,
+        "location": "Farm",
+        "importance": 0.7,
+        "status": "active",
+        "last_access": 41,
+        "source": "test_data",
+        "topic_tags": [
+          "morning",
+          "coffee",
+          "nightmare",
+          "care"
+        ],
+        "emotional_valence": 0.6
+      },
+      {
+        "memory_id": "evt_Sebastian_c409300a",
+        "memory_type": "episodic_event",
+        "npc_id": "Sebastian",
+        "content": "冬夜跟玩家说'和你住在这里让我学会了走出自己的堡垒。我觉得这样对我很好'。说这种话还是有点不好意思，但他在笑，所以应该值得。",
+        "time": 44,
+        "location": "Farm",
+        "importance": 0.8,
+        "status": "active",
+        "last_access": 44,
+        "source": "test_data",
+        "topic_tags": [
+          "winter",
+          "growth",
+          "gratitude"
+        ],
+        "emotional_valence": 0.8
+      }
+    ],
+    "preference_belief": [
+      {
+        "memory_id": "belief_Sebastian_5cea7926",
+        "memory_type": "preference_belief",
+        "npc_id": "Sebastian",
+        "content": "玩家好像也挺喜欢雨天的。在雨天的海滩上他看起来比平时放松——跟我一样。",
+        "time": 24,
+        "location": "Beach",
+        "importance": 0.55,
+        "status": "active",
+        "last_access": 24,
+        "source": "test_data",
+        "target": "player",
+        "belief_key": "Sebastian.player.preference.rain",
+        "belief_type": "player_preference",
+        "topic": "rain",
+        "polarity": "like",
+        "confidence": 0.7
+      },
+      {
+        "memory_id": "belief_Sebastian_5f695078",
+        "memory_type": "preference_belief",
+        "npc_id": "Sebastian",
+        "content": "玩家跟我和山姆一起玩过游戏。他应该是喜欢这类的，至少不排斥。",
+        "time": 17,
+        "location": "Saloon",
+        "importance": 0.55,
+        "status": "active",
+        "last_access": 17,
+        "source": "test_data",
+        "target": "player",
+        "belief_key": "Sebastian.player.preference.video_games",
+        "belief_type": "player_preference",
+        "topic": "video_games",
+        "polarity": "like",
+        "confidence": 0.75
+      },
+      {
+        "memory_id": "belief_Sebastian_17ade973",
+        "memory_type": "preference_belief",
+        "npc_id": "Sebastian",
+        "content": "我提过 Solarian Chronicles 的时候玩家表现出兴趣，不是敷衍的那种。也许他也会喜欢跑团？",
+        "time": 28,
+        "location": "Mountain",
+        "importance": 0.5,
+        "status": "active",
+        "last_access": 28,
+        "source": "test_data",
+        "target": "player",
+        "belief_key": "Sebastian.player.preference.solarian_chronicles",
+        "belief_type": "player_preference",
+        "topic": "solarian_chronicles",
+        "polarity": "like",
+        "confidence": 0.6
+      },
+      {
+        "memory_id": "belief_Sebastian_06aed1d7",
+        "memory_type": "preference_belief",
+        "npc_id": "Sebastian",
+        "content": "不太确定玩家对摩托车的态度。我说过想骑车带他但他说了句'看看吧'——可能是有点紧张。",
+        "time": 33,
+        "location": "Farm",
+        "importance": 0.45,
+        "status": "active",
+        "last_access": 33,
+        "source": "test_data",
+        "target": "player",
+        "belief_key": "Sebastian.player.preference.motorcycle",
+        "belief_type": "player_preference",
+        "topic": "motorcycle",
+        "polarity": "uncertain_neutral",
+        "confidence": 0.5
+      }
+    ],
+    "relationship_impression": [
+      {
+        "memory_id": "rel_Sebastian_e4528f14",
+        "memory_type": "relationship_impression",
+        "npc_id": "Sebastian",
+        "content": "Sebastian 对 player 的长期印象：信任 0.70，亲近 0.65，熟悉 0.70，困惑 0.10，怨气 0.00。",
+        "time": 44,
+        "location": "Farm",
+        "importance": 0.85,
+        "status": "active",
+        "last_access": 44,
+        "source": "test_data",
+        "target": "player",
+        "impression_key": "Sebastian.player.relationship",
+        "trust": 0.7,
+        "warmth": 0.65,
+        "familiarity": 0.7,
+        "confusion": 0.1,
+        "resentment": 0.0
+      }
+    ],
+    "narrative_arc": [
+      {
+        "memory_id": "arc_Sebastian_b4c1a129",
+        "memory_type": "narrative_arc",
+        "npc_id": "Sebastian",
+        "content": "这两周我对那个新来的农场主基本无感。他搬来鹈鹕镇的时候我就在想——那么多地方不选，选这里？不过有次雨天在山上碰到，我说了句关于青蛙的话，他好像真的在听。",
+        "time": 14,
+        "location": "narrative",
+        "importance": 0.5,
+        "status": "active",
+        "last_access": 14,
+        "source": "test_data",
+        "week_range": "第1-2周"
+      },
+      {
+        "memory_id": "arc_Sebastian_58f51e1e",
+        "memory_type": "narrative_arc",
+        "npc_id": "Sebastian",
+        "content": "玩家越来越频繁地出现在我的生活里。我不小心跟他说了'如果我消失了会有人挂念吗'这种话——太丢人了。但后来我居然还跟他吐槽了玛鲁的事。他听完没教训我，只是安静地听。这让我觉得……也许我可以跟这个人说更多。",
+        "time": 28,
+        "location": "narrative",
+        "importance": 0.65,
+        "status": "active",
+        "last_access": 28,
+        "source": "test_data",
+        "week_range": "第3-4周"
+      },
+      {
+        "memory_id": "arc_Sebastian_0c91776a",
+        "memory_type": "narrative_arc",
+        "npc_id": "Sebastian",
+        "content": "我人生中有两件重要的事发生了：第一，玩家成了我生命中最重要的人。第二，我开始戒烟、开始想'未来'、开始走出那间地下室。跟他说'和你住在这里让我学会了走出自己的堡垒'的时候，我是认真的。虽然我还是需要很多独处的时间，但他好像懂了。",
+        "time": 44,
+        "location": "narrative",
+        "importance": 0.8,
+        "status": "active",
+        "last_access": 44,
+        "source": "test_data",
+        "week_range": "第5-6周"
+      }
+    ]
+  },
+  "Penny": {
+    "episodic_event": [
+      {
+        "memory_id": "evt_Penny_8dac6bd4",
+        "memory_type": "episodic_event",
+        "npc_id": "Penny",
+        "content": "新来的农场主跟我打招呼了。我说'哦……你好！我是潘妮……'然后就不知道说什么了。我应该多说一点的。",
+        "time": 1,
+        "location": "Town",
+        "importance": 0.3,
+        "status": "active",
+        "last_access": 1,
+        "source": "test_data",
+        "topic_tags": [
+          "first_meeting",
+          "shy",
+          "introduction"
+        ]
+      },
+      {
+        "memory_id": "evt_Penny_fe7a4c04",
+        "memory_type": "episodic_event",
+        "npc_id": "Penny",
+        "content": "玩家路过博物馆的时候我在给贾斯和文森特上课。我跟他讲了我们在学什么——教孩子们读书是我最开心的事。他好像也在认真地听。",
+        "time": 4,
+        "location": "Town",
+        "importance": 0.5,
+        "status": "active",
+        "last_access": 4,
+        "source": "test_data",
+        "topic_tags": [
+          "teaching",
+          "children",
+          "passion"
+        ],
+        "emotional_valence": 0.5
+      },
+      {
+        "memory_id": "evt_Penny_d1571a3e",
+        "memory_type": "episodic_event",
+        "npc_id": "Penny",
+        "content": "下雨天我在图书馆的角落里看书，玩家坐到了我旁边。我跟他说'图书馆比家里安静得多'——说完有点后悔，不该跟别人抱怨家里的。但他没有追问。",
+        "time": 8,
+        "location": "Library",
+        "importance": 0.55,
+        "status": "active",
+        "last_access": 8,
+        "source": "test_data",
+        "topic_tags": [
+          "rainy",
+          "library",
+          "escape"
+        ],
+        "emotional_valence": 0.1
+      },
+      {
+        "memory_id": "evt_Penny_7b90e185",
+        "memory_type": "episodic_event",
+        "npc_id": "Penny",
+        "content": "我居然跟玩家说了妈妈酗酒的事。我说'有时候我会担心妈妈……虽然她不会承认自己需要人担心'。说完我立刻道歉了——这种事不应该跟别人说的。但他说没关系，他理解。",
+        "time": 13,
+        "location": "Town",
+        "importance": 0.7,
+        "status": "active",
+        "last_access": 13,
+        "source": "test_data",
+        "topic_tags": [
+          "pam",
+          "alcohol",
+          "family",
+          "worry"
+        ],
+        "emotional_valence": -0.4
+      },
+      {
+        "memory_id": "evt_Penny_e379586e",
+        "memory_type": "episodic_event",
+        "npc_id": "Penny",
+        "content": "我跟玩家说了想带孩子们去森林郊游的事，说要找一个熟悉自然的人当特邀讲师。其实我就是在想他——他经营农场，对自然最了解了。但我不好意思直接说。",
+        "time": 17,
+        "location": "Town",
+        "importance": 0.6,
+        "status": "active",
+        "last_access": 17,
+        "source": "test_data",
+        "topic_tags": [
+          "teaching",
+          "field_trip",
+          "enthusiasm"
+        ],
+        "emotional_valence": 0.6
+      },
+      {
+        "memory_id": "evt_Penny_2d68944a",
+        "memory_type": "episodic_event",
+        "npc_id": "Penny",
+        "content": "我忍不住跟玩家分享了我的白日梦：'如果能开个小花园就好了……也许有一天我也能住在有花园的地方。也许我会住在农场呢！'然后我咯咯笑了——其实是认真的。",
+        "time": 21,
+        "location": "Town",
+        "importance": 0.65,
+        "status": "active",
+        "last_access": 21,
+        "source": "test_data",
+        "topic_tags": [
+          "dream",
+          "garden",
+          "farm",
+          "hope"
+        ],
+        "emotional_valence": 0.5
+      },
+      {
+        "memory_id": "evt_Penny_6b11f906",
+        "memory_type": "episodic_event",
+        "npc_id": "Penny",
+        "content": "万灵节的时候我和孩子们一起做了南瓜灯。我跟玩家说'秋天的时候孩子们特别期待万灵节——我也是'。他也在笑，那个画面让我觉得好温暖。",
+        "time": 25,
+        "location": "Town",
+        "importance": 0.55,
+        "status": "active",
+        "last_access": 25,
+        "source": "test_data",
+        "topic_tags": [
+          "fall",
+          "festival",
+          "children",
+          "joy"
+        ],
+        "emotional_valence": 0.7
+      },
+      {
+        "memory_id": "evt_Penny_3b963171",
+        "memory_type": "episodic_event",
+        "npc_id": "Penny",
+        "content": "我对玩家说了'谢谢你愿意听我说这些'。是真的——我从来没有跟别人说过这么多心里话。他看着我的眼神让我觉得，跟他说这些是对的。",
+        "time": 28,
+        "location": "Library",
+        "importance": 0.7,
+        "status": "active",
+        "last_access": 28,
+        "source": "test_data",
+        "topic_tags": [
+          "gratitude",
+          "trust",
+          "vulnerable"
+        ],
+        "emotional_valence": 0.7
+      },
+      {
+        "memory_id": "evt_Penny_f4b8fb55",
+        "memory_type": "episodic_event",
+        "npc_id": "Penny",
+        "content": "我对玩家说'我一直觉得人生不可能像小说那样精彩，可是现在真的有那种感觉了'。说出这句话的时候我脸红了，但我没有后悔。",
+        "time": 32,
+        "location": "Town",
+        "importance": 0.75,
+        "status": "active",
+        "last_access": 32,
+        "source": "test_data",
+        "topic_tags": [
+          "romance",
+          "happiness",
+          "novel"
+        ],
+        "emotional_valence": 0.9
+      },
+      {
+        "memory_id": "evt_Penny_b742992c",
+        "memory_type": "episodic_event",
+        "npc_id": "Penny",
+        "content": "婚前几天我紧张得不行。我跟玩家说'我有些害怕。这是天翻地覆的变化！别担心，我真的很高兴'。高兴是真的，害怕也是真的——但害怕的那种感觉，和以前做噩梦时的害怕不一样。",
+        "time": 36,
+        "location": "Town",
+        "importance": 0.75,
+        "status": "active",
+        "last_access": 36,
+        "source": "test_data",
+        "topic_tags": [
+          "wedding",
+          "nervous",
+          "excited"
+        ],
+        "emotional_valence": 0.7
+      },
+      {
+        "memory_id": "evt_Penny_8496c83a",
+        "memory_type": "episodic_event",
+        "npc_id": "Penny",
+        "content": "在新家的第一个月，我对玩家说'这里真宁静。我过去经常做最恐怖的噩梦，但是现在我睡得很香'。这是真的。噩梦再也没有来过。",
+        "time": 39,
+        "location": "Farm",
+        "importance": 0.8,
+        "status": "active",
+        "last_access": 39,
+        "source": "test_data",
+        "topic_tags": [
+          "home",
+          "peace",
+          "nightmares",
+          "healing"
+        ],
+        "emotional_valence": 0.9
+      },
+      {
+        "memory_id": "evt_Penny_1081697d",
+        "memory_type": "episodic_event",
+        "npc_id": "Penny",
+        "content": "早上给玩家做了早餐。我说'不是很好看，但是很有营养的'——虽然还在学习中，但能为他做饭这件事本身就让我很幸福。",
+        "time": 42,
+        "location": "Farm",
+        "importance": 0.7,
+        "status": "active",
+        "last_access": 42,
+        "source": "test_data",
+        "topic_tags": [
+          "morning",
+          "breakfast",
+          "care"
+        ],
+        "emotional_valence": 0.8
+      }
+    ],
+    "preference_belief": [
+      {
+        "memory_id": "belief_Penny_e60b467f",
+        "memory_type": "preference_belief",
+        "npc_id": "Penny",
+        "content": "玩家在图书馆的时候很安静地读书。我觉得他是真的享受阅读，不是装出来的。",
+        "time": 8,
+        "location": "Library",
+        "importance": 0.55,
+        "status": "active",
+        "last_access": 8,
+        "source": "test_data",
+        "target": "player",
+        "belief_key": "Penny.player.preference.reading",
+        "belief_type": "player_preference",
+        "topic": "reading",
+        "polarity": "like",
+        "confidence": 0.75
+      },
+      {
+        "memory_id": "belief_Penny_e98f8036",
+        "memory_type": "preference_belief",
+        "npc_id": "Penny",
+        "content": "玩家跟孩子们在一起的时候特别温和，贾斯和文森特都喜欢他。他应该是真心喜欢小孩的。",
+        "time": 17,
+        "location": "Town",
+        "importance": 0.6,
+        "status": "active",
+        "last_access": 17,
+        "source": "test_data",
+        "target": "player",
+        "belief_key": "Penny.player.preference.children",
+        "belief_type": "player_preference",
+        "topic": "children",
+        "polarity": "like",
+        "confidence": 0.8
+      },
+      {
+        "memory_id": "belief_Penny_d5c10300",
+        "memory_type": "preference_belief",
+        "npc_id": "Penny",
+        "content": "我做的早餐虽然不太好看，但玩家每次都吃得很干净。他应该是喜欢我做的饭的——或者至少不讨厌吧。",
+        "time": 42,
+        "location": "Farm",
+        "importance": 0.5,
+        "status": "active",
+        "last_access": 42,
+        "source": "test_data",
+        "target": "player",
+        "belief_key": "Penny.player.preference.cooking",
+        "belief_type": "player_preference",
+        "topic": "cooking",
+        "polarity": "like",
+        "confidence": 0.65
+      }
+    ],
+    "relationship_impression": [
+      {
+        "memory_id": "rel_Penny_1a85dcd7",
+        "memory_type": "relationship_impression",
+        "npc_id": "Penny",
+        "content": "Penny 对 player 的长期印象：信任 0.80，亲近 0.75，熟悉 0.70，困惑 0.05，怨气 0.00。",
+        "time": 42,
+        "location": "Farm",
+        "importance": 0.85,
+        "status": "active",
+        "last_access": 42,
+        "source": "test_data",
+        "target": "player",
+        "impression_key": "Penny.player.relationship",
+        "trust": 0.8,
+        "warmth": 0.75,
+        "familiarity": 0.7,
+        "confusion": 0.05,
+        "resentment": 0.0
+      }
+    ],
+    "narrative_arc": [
+      {
+        "memory_id": "arc_Penny_c702364c",
+        "memory_type": "narrative_arc",
+        "npc_id": "Penny",
+        "content": "这两周我认识了新来的农场主。他很礼貌，我也尽量礼貌地回应了——虽然每次说完'你好'我就不知道该说什么了。有次他在博物馆看到我上课，我觉得他好像对教育也挺感兴趣的。",
+        "time": 14,
+        "location": "narrative",
+        "importance": 0.5,
+        "status": "active",
+        "last_access": 14,
+        "source": "test_data",
+        "week_range": "第1-2周"
+      },
+      {
+        "memory_id": "arc_Penny_df05106f",
+        "memory_type": "narrative_arc",
+        "npc_id": "Penny",
+        "content": "我跟玩家说了很多——比跟任何人说的都多。关于妈妈酗酒的事、关于想在农场有个花园的白日梦、关于孩子们。他每次都很认真地听，从不打断我。我开始觉得，也许我不用总是把所有事情都憋在心里。",
+        "time": 28,
+        "location": "narrative",
+        "importance": 0.65,
+        "status": "active",
+        "last_access": 28,
+        "source": "test_data",
+        "week_range": "第3-4周"
+      },
+      {
+        "memory_id": "arc_Penny_552b352b",
+        "memory_type": "narrative_arc",
+        "npc_id": "Penny",
+        "content": "我的人生好像翻开了一本新书。我跟玩家在一起了，搬进了农场，拥有了自己的家——一个真的有花园的家。我不再做噩梦了。以前我觉得人生不可能像小说那样精彩，但我错了。每天早上醒来给他做早餐的时候，我觉得这就是我一直梦想的生活。",
+        "time": 42,
+        "location": "narrative",
+        "importance": 0.8,
+        "status": "active",
+        "last_access": 42,
+        "source": "test_data",
+        "week_range": "第5-6周"
+      }
+    ]
+  }
+}

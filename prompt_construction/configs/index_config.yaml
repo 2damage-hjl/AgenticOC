@@ -1,0 +1,17 @@
+processed_dir: data/processed
+
+vector_db_path: data/indexes/lancedb
+table_name: stardew_dialogues
+
+embedding:
+  model_name: BAAI/bge-m3
+  # local_path: ""  # Optional: absolute path to local model dir (skips HF hub entirely).
+  #                   If empty/absent, auto-resolves from HF cache, then falls back to hub.
+  #                   Can also be set via env var BGE_M3_LOCAL_PATH.
+  batch_size: 16
+  normalize_embeddings: true
+
+defaults:
+  any_value: any
+  search_k: 40
+  top_k: 10

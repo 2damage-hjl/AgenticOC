@@ -1,0 +1,4088 @@
+{
+  "dataset_meta": {
+    "schema": "processed_dialogue_v1",
+    "source_root": "data/game_scripts",
+    "collection": "Dialogue",
+    "character": "Damon",
+    "record_count": 78,
+    "dialogue_type_counts": {
+      "general_dialogue": 78
+    },
+    "processed_from": "D:\\DamonAI\\ai\\prompt_construction\\data\\canonical\\Damon_canonical.json",
+    "languages": [
+      "zh"
+    ]
+  },
+  "records": [
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:AcceptBirthdayGift_Negative:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:AcceptBirthdayGift_Negative",
+      "author_key": "AcceptBirthdayGift_Negative",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "谢谢你记得我的生日。",
+        "display": "谢谢你记得我的生日。",
+        "embedding": "谢谢你记得我的生日。"
+      },
+      "context": {
+        "source_key": "AcceptBirthdayGift_Negative",
+        "key_type": "general_dialogue",
+        "special_key_type": "gift_response",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "birthday",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "1e8ea5ee6d15de66f868bec2ad0a5e5a196e98f8024e4439ab27eae6929740d2",
+        "retrieval_text_hash": "4710a3afc06eba647ff0d1aa00e667dd2f01aba6deecf52425f0510612465ba2",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:AcceptBirthdayGift_Negative:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: birthday\nRelationship: any\nSeason: any\nWeather: any\nDialogue: 谢谢你记得我的生日。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:AcceptBirthdayGift_Positive:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:AcceptBirthdayGift_Positive",
+      "author_key": "AcceptBirthdayGift_Positive",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "不知道我的表情看起来如何，但我真的很高兴，谢谢你。$h",
+        "display": "不知道我的表情看起来如何，但我真的很高兴，谢谢你。",
+        "embedding": "不知道我的表情看起来如何，但我真的很高兴，谢谢你。"
+      },
+      "context": {
+        "source_key": "AcceptBirthdayGift_Positive",
+        "key_type": "general_dialogue",
+        "special_key_type": "gift_response",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "birthday",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "fde80bd7e9a480687cf43b76e783f551f8316ff7a3d15c3815c2142abf0cc978",
+        "retrieval_text_hash": "0790f4d2c490203d49564080ad58a47691e8532c42b11cc039b38b399ddfa2d0",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:AcceptBirthdayGift_Positive:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: birthday\nRelationship: any\nSeason: any\nWeather: any\nDialogue: 不知道我的表情看起来如何，但我真的很高兴，谢谢你。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:ArchaeologyHouse:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:ArchaeologyHouse",
+      "author_key": "ArchaeologyHouse",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "%戴蒙在专心地看书，没有理你",
+        "display": "%戴蒙在专心地看书，没有理你",
+        "embedding": "%戴蒙在专心地看书，没有理你"
+      },
+      "context": {
+        "source_key": "ArchaeologyHouse",
+        "key_type": "general_dialogue",
+        "special_key_type": "location_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "ArchaeologyHouse",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "dfe7b9a69a7383c2ca5c001f5e48a04246d48c273935512bc89213a1970febfc",
+        "retrieval_text_hash": "64ad40255b4c7da31793dd68f74c8ff48ef2b24c2c9fdc3710b9af922ba7a437",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:ArchaeologyHouse:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nScene: ArchaeologyHouse\nDialogue: %戴蒙在专心地看书，没有理你"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:ArchaeologyHouse10:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:ArchaeologyHouse10",
+      "author_key": "ArchaeologyHouse10",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "你来啦，要不要和我一起看看书。",
+        "display": "你来啦，要不要和我一起看看书。",
+        "embedding": "你来啦，要不要和我一起看看书。"
+      },
+      "context": {
+        "source_key": "ArchaeologyHouse10",
+        "key_type": "general_dialogue",
+        "special_key_type": "location_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "ArchaeologyHouse",
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "b400bd8d98a6bee3d59b3aab411671b364dc7aa8c119beefb3022db8581dd2ed",
+        "retrieval_text_hash": "ce328a93783310853a7c59211750bbf3c4fdf786e56cf9d2a8ff8e8aeeefab99",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:ArchaeologyHouse10:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_10\nSeason: any\nWeather: any\nScene: ArchaeologyHouse\nDialogue: 你来啦，要不要和我一起看看书。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:ArchaeologyHouse6:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:ArchaeologyHouse6",
+      "author_key": "ArchaeologyHouse6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "在这里要尽量保持安静，等会我们出去说。",
+        "display": "在这里要尽量保持安静，等会我们出去说。",
+        "embedding": "在这里要尽量保持安静，等会我们出去说。"
+      },
+      "context": {
+        "source_key": "ArchaeologyHouse6",
+        "key_type": "general_dialogue",
+        "special_key_type": "location_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "ArchaeologyHouse",
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "6e8034b0cac115698a244f3f73b944143e750a7d48d1f7f1cf0c992b9fdbbc66",
+        "retrieval_text_hash": "4cfa1f48d19d5ff50377a7b41aad916f185fcf40c3df36560cb3e60a3502c26e",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:ArchaeologyHouse6:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_6\nSeason: any\nWeather: any\nScene: ArchaeologyHouse\nDialogue: 在这里要尽量保持安静，等会我们出去说。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Beach8:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Beach8",
+      "author_key": "Beach8",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "怎么样的设计才能配得上鹈鹕镇海滩变换多姿的四季呢。",
+        "display": "怎么样的设计才能配得上鹈鹕镇海滩变换多姿的四季呢。",
+        "embedding": "怎么样的设计才能配得上鹈鹕镇海滩变换多姿的四季呢。"
+      },
+      "context": {
+        "source_key": "Beach8",
+        "key_type": "general_dialogue",
+        "special_key_type": "location_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "Beach",
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "f05d963661632ed34d237cc37354cfb6d926dd72aa0d57df500a38b219724430",
+        "retrieval_text_hash": "a012a897e54ddbe3465f92990e619cfd11cc6f03848c3acab810e1e94c467540",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Beach8:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_8\nSeason: any\nWeather: any\nScene: Beach\nDialogue: 怎么样的设计才能配得上鹈鹕镇海滩变换多姿的四季呢。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:DumpsterDiveComment:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:DumpsterDiveComment",
+      "author_key": "DumpsterDiveComment",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "呃...?",
+        "display": "呃...?",
+        "embedding": "呃...?"
+      },
+      "context": {
+        "source_key": "DumpsterDiveComment",
+        "key_type": "general_dialogue",
+        "special_key_type": "reaction_event",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "cdcdd86eada63c252731dc69acdc91c83567b07a03452995beba84769879287f",
+        "retrieval_text_hash": "ea7a590c0ab7fbbd22bbd870dd47c4b55f8705881695b7d42bb4231b59f7b8d6",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:DumpsterDiveComment:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: 呃...?"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Fair_Judged_PlayerLost:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Fair_Judged_PlayerLost",
+      "author_key": "Fair_Judged_PlayerLost",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "别灰心，镇长的评分多少有些主观。",
+        "display": "别灰心，镇长的评分多少有些主观。",
+        "embedding": "别灰心，镇长的评分多少有些主观。"
+      },
+      "context": {
+        "source_key": "Fair_Judged_PlayerLost",
+        "key_type": "general_dialogue",
+        "special_key_type": "festival_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [
+          "event.fair"
+        ],
+        "route": "any"
+      },
+      "scene_type": "festival",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "c5fdaf78819e731d24826438cdb3db79f7ec03a3ee5f98811535a80efa60de5e",
+        "retrieval_text_hash": "e1eda5e7985265bf58f4441c371d0917fa5817de52a66348c6b4080eac182326",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Fair_Judged_PlayerLost:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: festival\nRelationship: any\nSeason: any\nWeather: any\nDialogue: 别灰心，镇长的评分多少有些主观。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Fair_Judged_PlayerLost_Skipped:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Fair_Judged_PlayerLost_Skipped",
+      "author_key": "Fair_Judged_PlayerLost_Skipped",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "有点可惜没看到你的展品，我很期待来着。",
+        "display": "有点可惜没看到你的展品，我很期待来着。",
+        "embedding": "有点可惜没看到你的展品，我很期待来着。"
+      },
+      "context": {
+        "source_key": "Fair_Judged_PlayerLost_Skipped",
+        "key_type": "general_dialogue",
+        "special_key_type": "festival_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [
+          "event.fair"
+        ],
+        "route": "any"
+      },
+      "scene_type": "festival",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "d253a04dc04da47b9a214b7f5cd8e5a60d54de451261d9ad1702c4aeccc54b20",
+        "retrieval_text_hash": "c29ac1ea20cb8c05a9b6fc6c5f1b33fce02dfc2c34cbc74336a4d6bea193ba45",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Fair_Judged_PlayerLost_Skipped:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: festival\nRelationship: any\nSeason: any\nWeather: any\nDialogue: 有点可惜没看到你的展品，我很期待来着。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Fair_Judged_PlayerWon:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Fair_Judged_PlayerWon",
+      "author_key": "Fair_Judged_PlayerWon",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "你的展品真是太精彩了。或许我该和刘易斯商量一下让你也加入海边宾馆的建设规划。",
+        "display": "你的展品真是太精彩了。或许我该和刘易斯商量一下让你也加入海边宾馆的建设规划。",
+        "embedding": "你的展品真是太精彩了。或许我该和刘易斯商量一下让你也加入海边宾馆的建设规划。"
+      },
+      "context": {
+        "source_key": "Fair_Judged_PlayerWon",
+        "key_type": "general_dialogue",
+        "special_key_type": "festival_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [
+          "event.fair"
+        ],
+        "route": "any"
+      },
+      "scene_type": "festival",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "b79cbe56183aef9271917334018069d1adf139d1da968e0b3f56887a4d81305d",
+        "retrieval_text_hash": "f74a773375bac191e668c21cf5b67015ec0d5879fc70248c8eb547d06a81a843",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Fair_Judged_PlayerWon:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: festival\nRelationship: any\nSeason: any\nWeather: any\nDialogue: 你的展品真是太精彩了。或许我该和刘易斯商量一下让你也加入海边宾馆的建设规划。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Fair_Judging:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Fair_Judging",
+      "author_key": "Fair_Judging",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "我很期待大家的展出，都是鹈鹕镇的精华，或许能带给我一些灵感。",
+        "display": "我很期待大家的展出，都是鹈鹕镇的精华，或许能带给我一些灵感。",
+        "embedding": "我很期待大家的展出，都是鹈鹕镇的精华，或许能带给我一些灵感。"
+      },
+      "context": {
+        "source_key": "Fair_Judging",
+        "key_type": "general_dialogue",
+        "special_key_type": "festival_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [
+          "event.fair"
+        ],
+        "route": "any"
+      },
+      "scene_type": "festival",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "4e7d82ab08a31cff364ea9c125a14c2c14de5ddee225c2e80ff5c0da52e50218",
+        "retrieval_text_hash": "2ef3ce984e312b31f992a96ff9c7c6ca419476ed27f6327cd89229989b164623",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Fair_Judging:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: festival\nRelationship: any\nSeason: any\nWeather: any\nDialogue: 我很期待大家的展出，都是鹈鹕镇的精华，或许能带给我一些灵感。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Fri:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Fri",
+      "author_key": "Fri",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "嗯...？",
+        "display": "嗯...？",
+        "embedding": "嗯...？"
+      },
+      "context": {
+        "source_key": "Fri",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "7645acde8d5f5efff626d40ab6504ead611743cb81a933e15f237d371275065d",
+        "retrieval_text_hash": "6995cef6e710328527cf3a6937fc1c94bb9248154fa5eea29773d22f54f3f189",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Fri:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: 嗯...？"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Fri10:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Fri10",
+      "author_key": "Fri10",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "嘿，今天计划去做什么，农场主？",
+        "display": "嘿，今天计划去做什么，农场主？",
+        "embedding": "嘿，今天计划去做什么，农场主？"
+      },
+      "context": {
+        "source_key": "Fri10",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "d93c9dd70651e4725c437f702736db4e253fe81893351efbcffe3ff7011bddaa",
+        "retrieval_text_hash": "b49b6252bb230473e7e46497f166374751ba440d2ec7fa47d02104ee0df6c41e",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Fri10:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_10\nSeason: any\nWeather: any\nDialogue: 嘿，今天计划去做什么，农场主？"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Fri2:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Fri2",
+      "author_key": "Fri2",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "有点想Mika。哦，Mika是我的猫。",
+        "display": "有点想Mika。哦，Mika是我的猫。",
+        "embedding": "有点想Mika。哦，Mika是我的猫。"
+      },
+      "context": {
+        "source_key": "Fri2",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "dbc8f382788d0d0858083f8390a56d07d86e209c0e34c198f64e31cbe94b79a1",
+        "retrieval_text_hash": "357550daf64de2a7bd41484d69d0d82dc6c6cfdd6888d86a662b18b5eca87062",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Fri2:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_2\nSeason: any\nWeather: any\nDialogue: 有点想Mika。哦，Mika是我的猫。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Fri4:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Fri4",
+      "author_key": "Fri4",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "你好啊，@。本来想奉上金句，但我还没想出来。",
+        "display": "你好啊，{player_name}。本来想奉上金句，但我还没想出来。",
+        "embedding": "你好啊，player。本来想奉上金句，但我还没想出来。"
+      },
+      "context": {
+        "source_key": "Fri4",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "b4b705624d67959d3f3048e01283623ff3badab02ba053208f5b18fb0b49f9a6",
+        "retrieval_text_hash": "7ab053488bd1bbc97974a4ce9d499ad6704ea6880d70369e2c613adc43dd8eaf",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Fri4:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_4\nSeason: any\nWeather: any\nDialogue: 你好啊，player。本来想奉上金句，但我还没想出来。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Fri6:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Fri6",
+      "author_key": "Fri6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "@，你有没有什么怪癖呢。我焦虑的时候会不自觉抠手指。#$b#在别人面前承认这个真是不好意思啊。$4",
+        "display": "{player_name}，你有没有什么怪癖呢。我焦虑的时候会不自觉抠手指。\n在别人面前承认这个真是不好意思啊。$4",
+        "embedding": "player，你有没有什么怪癖呢。我焦虑的时候会不自觉抠手指。 在别人面前承认这个真是不好意思啊。$4"
+      },
+      "context": {
+        "source_key": "Fri6",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "eec84a6185641de962bbc70a6a8b1596aa9681fb411bd24eb0c6aabb2187a6ad",
+        "retrieval_text_hash": "cb782786fb07cca7b3367541334d27e07d6bc7bf64cdf910b6f43f33cf7393d2",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Fri6:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_6\nSeason: any\nWeather: any\nDialogue: player，你有没有什么怪癖呢。我焦虑的时候会不自觉抠手指。 在别人面前承认这个真是不好意思啊。$4"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Fri8:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Fri8",
+      "author_key": "Fri8",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "别急着跑，@。我昨天做了最爱吃的炒鳗鱼。给你也尝一点。[225]",
+        "display": "别急着跑，{player_name}。我昨天做了最爱吃的炒鳗鱼。给你也尝一点。[225]",
+        "embedding": "别急着跑，player。我昨天做了最爱吃的炒鳗鱼。给你也尝一点。[225]"
+      },
+      "context": {
+        "source_key": "Fri8",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "8ad678f3739fc389f2898be0870ae57d4cb65b256024b3de30a92630ee4734a5",
+        "retrieval_text_hash": "d8c78b5418851c77847938d17d3853b304d61947c8a1b8914c5171a09f7a52b6",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Fri8:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_8\nSeason: any\nWeather: any\nDialogue: 别急着跑，player。我昨天做了最爱吃的炒鳗鱼。给你也尝一点。[225]"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:GreenRain:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:GreenRain",
+      "author_key": "GreenRain",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "这个天气是什么情况，外面好像长了不少没见过的作物。",
+        "display": "这个天气是什么情况，外面好像长了不少没见过的作物。",
+        "embedding": "这个天气是什么情况，外面好像长了不少没见过的作物。"
+      },
+      "context": {
+        "source_key": "GreenRain",
+        "key_type": "general_dialogue",
+        "special_key_type": "weather_green_rain",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "green_rain"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "weather",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "41d311688b78a094aceb6ef998a38e6d07846be3e54af912a76f12b20eccda6f",
+        "retrieval_text_hash": "2a2e1faade75a03714360e1a67dc50d744f67e9b0ca5521401b6eefc23854d2b",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:GreenRain:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: weather\nRelationship: any\nSeason: any\nWeather: green_rain\nDialogue: 这个天气是什么情况，外面好像长了不少没见过的作物。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:GreenRain_2:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:GreenRain_2",
+      "author_key": "GreenRain_2",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "你没去格斯那避避吗？",
+        "display": "你没去格斯那避避吗？",
+        "embedding": "你没去格斯那避避吗？"
+      },
+      "context": {
+        "source_key": "GreenRain_2",
+        "key_type": "general_dialogue",
+        "special_key_type": "weather_green_rain",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "green_rain"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "weather",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "924c0b4f2d3713ea9e6a583c9d046a4e79f584d3331514c49faeb879b4e0b20a",
+        "retrieval_text_hash": "0c17f7531ed9896d9c94ba0a22d16b19951f965ef6fc9c930dcaaae301d79bff",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:GreenRain_2:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: weather\nRelationship: any\nSeason: any\nWeather: green_rain\nDialogue: 你没去格斯那避避吗？"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:HitBySlingshot:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:HitBySlingshot",
+      "author_key": "HitBySlingshot",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "我想你不是三岁小孩吧？$5",
+        "display": "我想你不是三岁小孩吧？$5",
+        "embedding": "我想你不是三岁小孩吧？$5"
+      },
+      "context": {
+        "source_key": "HitBySlingshot",
+        "key_type": "general_dialogue",
+        "special_key_type": "reaction_event",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "6b551be322a5af9fd22deaefba8c9eb85317c9f5e8fc2b92abfa6942b39cacfb",
+        "retrieval_text_hash": "21f0e02a3b84223c0847f7be0f86dbbe4f2db45c931d1847d8e3eb44b6a542f7",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:HitBySlingshot:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: 我想你不是三岁小孩吧？$5"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Introduction:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Introduction",
+      "author_key": "Introduction",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "你好，我是来自祖祖城的设计师戴蒙，受刘镇长之邀对小镇做进一步的建设。",
+        "display": "你好，我是来自祖祖城的设计师戴蒙，受刘镇长之邀对小镇做进一步的建设。",
+        "embedding": "你好，我是来自祖祖城的设计师戴蒙，受刘镇长之邀对小镇做进一步的建设。"
+      },
+      "context": {
+        "source_key": "Introduction",
+        "key_type": "general_dialogue",
+        "special_key_type": "introduction",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "0e227d4242c19528e76106824e2953d58c73259f1a1c11c6518dc2895c06326c",
+        "retrieval_text_hash": "ce46b3f77e32343e6f0902770795ed12e81500154067d65c5af605093df7f00e",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Introduction:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: 你好，我是来自祖祖城的设计师戴蒙，受刘镇长之邀对小镇做进一步的建设。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:ManorHouse:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:ManorHouse",
+      "author_key": "ManorHouse",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "%戴蒙正在处理工作，没有理你",
+        "display": "%戴蒙正在处理工作，没有理你",
+        "embedding": "%戴蒙正在处理工作，没有理你"
+      },
+      "context": {
+        "source_key": "ManorHouse",
+        "key_type": "general_dialogue",
+        "special_key_type": "location_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "ManorHouse",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "d0c2b1227b70f78ce4c4fd040d85ed29bd3633ce1dbfd068b0fd320961162c8d",
+        "retrieval_text_hash": "75d6c9c857ee1f38e565b15e0c71c79603e545ea3f99c84c572df050a3bf368a",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:ManorHouse:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nScene: ManorHouse\nDialogue: %戴蒙正在处理工作，没有理你"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:ManorHouse4:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:ManorHouse4",
+      "author_key": "ManorHouse4",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "你是来找镇长的吗，有什么事也可以找我传达。",
+        "display": "你是来找镇长的吗，有什么事也可以找我传达。",
+        "embedding": "你是来找镇长的吗，有什么事也可以找我传达。"
+      },
+      "context": {
+        "source_key": "ManorHouse4",
+        "key_type": "general_dialogue",
+        "special_key_type": "location_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "ManorHouse",
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "3f7984f066a124c4379268cd74bfe5e7287b3a2f18b216b1baf9cd997a2e1556",
+        "retrieval_text_hash": "b4830696c881b18f7ae02c0f51004c662c83ba343e9535af8219abe28ec25d06",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:ManorHouse4:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_4\nSeason: any\nWeather: any\nScene: ManorHouse\nDialogue: 你是来找镇长的吗，有什么事也可以找我传达。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:ManorHouse6:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:ManorHouse6",
+      "author_key": "ManorHouse6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "哦，差点没注意到你，我正在整理文件呢。",
+        "display": "哦，差点没注意到你，我正在整理文件呢。",
+        "embedding": "哦，差点没注意到你，我正在整理文件呢。"
+      },
+      "context": {
+        "source_key": "ManorHouse6",
+        "key_type": "general_dialogue",
+        "special_key_type": "location_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "ManorHouse",
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "677f85e2f257a6ef5ff5b094eb03710c25c53f5da9c899ac779e2554cdfe171c",
+        "retrieval_text_hash": "6ce22f5cdbce56ad1d627b7735a52ad18ceb9af1ccb3d502dc6ab40883a45cec",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:ManorHouse6:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_6\nSeason: any\nWeather: any\nScene: ManorHouse\nDialogue: 哦，差点没注意到你，我正在整理文件呢。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Mon:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Mon",
+      "author_key": "Mon",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "%戴蒙似乎在打瞌睡，没有理你。",
+        "display": "%戴蒙似乎在打瞌睡，没有理你。",
+        "embedding": "%戴蒙似乎在打瞌睡，没有理你。"
+      },
+      "context": {
+        "source_key": "Mon",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "b9912a5cda14ce3a3da2a82b04724abfc23e7483f6ef15a02665fb28bc338b11",
+        "retrieval_text_hash": "519133656445eaf269ef0aa9d6e8a0b8112b71a32e679e6aea9f7a31b5f53be0",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Mon:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: %戴蒙似乎在打瞌睡，没有理你。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Mon10:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Mon10",
+      "author_key": "Mon10",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "鹈鹕镇真是好地方，将来我也许会舍不得离开这里。",
+        "display": "鹈鹕镇真是好地方，将来我也许会舍不得离开这里。",
+        "embedding": "鹈鹕镇真是好地方，将来我也许会舍不得离开这里。"
+      },
+      "context": {
+        "source_key": "Mon10",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "282b5aa69a5a1d1697d659a46790407386ca82c4efd492d92bd31f518d5f2113",
+        "retrieval_text_hash": "ac9940cbc2ae8313c8bbcfa1fb74b8a2b2690cfd27a4b8ddec8af69f2ea4db77",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Mon10:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_10\nSeason: any\nWeather: any\nDialogue: 鹈鹕镇真是好地方，将来我也许会舍不得离开这里。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Mon2:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Mon2",
+      "author_key": "Mon2",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "@...我叫对了吗，前两天从皮埃尔那知道了你的名字。",
+        "display": "{player_name}...我叫对了吗，前两天从皮埃尔那知道了你的名字。",
+        "embedding": "player...我叫对了吗，前两天从皮埃尔那知道了你的名字。"
+      },
+      "context": {
+        "source_key": "Mon2",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "0adfc561a663e034c0cdd165ed9c747609a55a337e79410806513a36b20c06f7",
+        "retrieval_text_hash": "7522cc0a09a0c4b50ef0c3835bd85adee5f5363d84360eca4d805ba7a580444f",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Mon2:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_2\nSeason: any\nWeather: any\nDialogue: player...我叫对了吗，前两天从皮埃尔那知道了你的名字。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Mon4:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Mon4",
+      "author_key": "Mon4",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "咖啡和茶真是好东西。不一定提神，但至少也算名正言顺奖励辛苦上班的自己一杯饮料。",
+        "display": "咖啡和茶真是好东西。不一定提神，但至少也算名正言顺奖励辛苦上班的自己一杯饮料。",
+        "embedding": "咖啡和茶真是好东西。不一定提神，但至少也算名正言顺奖励辛苦上班的自己一杯饮料。"
+      },
+      "context": {
+        "source_key": "Mon4",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "2960556423bc4421b538af03158220ccedcdce6a50aae7c84119589b9a50fb20",
+        "retrieval_text_hash": "075096e79b1aeefd32869d2c6dca83d514f14a03c8445e40dd6ce9f197d7d42b",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Mon4:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_4\nSeason: any\nWeather: any\nDialogue: 咖啡和茶真是好东西。不一定提神，但至少也算名正言顺奖励辛苦上班的自己一杯饮料。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Mon6:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Mon6",
+      "author_key": "Mon6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "你好啊，@。今天我多带了一杯咖啡。[253]",
+        "display": "你好啊，{player_name}。今天我多带了一杯咖啡。[253]",
+        "embedding": "你好啊，player。今天我多带了一杯咖啡。[253]"
+      },
+      "context": {
+        "source_key": "Mon6",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "7b955907e6ce96f61b91fa87fbe8c7e57d5c25c4dd2acc40c1ff24a9ffd83337",
+        "retrieval_text_hash": "00c35560c484050737549d2601fbfe579562ad8ea65c713588095ff760814fe1",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Mon6:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_6\nSeason: any\nWeather: any\nDialogue: 你好啊，player。今天我多带了一杯咖啡。[253]"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Mon8:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Mon8",
+      "author_key": "Mon8",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "*好像透露出一些苦涩*遵从内心应该是一件幸福的事情吧。$h",
+        "display": "*好像透露出一些苦涩*遵从内心应该是一件幸福的事情吧。",
+        "embedding": "*好像透露出一些苦涩*遵从内心应该是一件幸福的事情吧。"
+      },
+      "context": {
+        "source_key": "Mon8",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "5640a3cb9dfa8b0bf56f4137714b773d52e9f7ca947624b606ff0910c561784c",
+        "retrieval_text_hash": "24b029c463336623fef883fdc01dd5960a60215d6bc65872893b8e2b8f1c9889",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Mon8:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_8\nSeason: any\nWeather: any\nDialogue: *好像透露出一些苦涩*遵从内心应该是一件幸福的事情吧。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:RejectBouquet_NotDatable:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:RejectBouquet_NotDatable",
+      "author_key": "RejectBouquet_NotDatable",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "我想你知道的，等这里的工作结束了我就会离开。",
+        "display": "我想你知道的，等这里的工作结束了我就会离开。",
+        "embedding": "我想你知道的，等这里的工作结束了我就会离开。"
+      },
+      "context": {
+        "source_key": "RejectBouquet_NotDatable",
+        "key_type": "general_dialogue",
+        "special_key_type": "gift_response",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "not_datable"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "special",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "1ef261fb976bcde7dba8e40aebb99223fa628b15d9764839037bd93cbecbf0e6",
+        "retrieval_text_hash": "c2f7df7931212d32965cea89679a04467a2ec6ed522aa6b2b77f86078670e291",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:RejectBouquet_NotDatable:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: special\nRelationship: not_datable\nSeason: any\nWeather: any\nDialogue: 我想你知道的，等这里的工作结束了我就会离开。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Saloon:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Saloon",
+      "author_key": "Saloon",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "%戴蒙正在吃饭",
+        "display": "%戴蒙正在吃饭",
+        "embedding": "%戴蒙正在吃饭"
+      },
+      "context": {
+        "source_key": "Saloon",
+        "key_type": "general_dialogue",
+        "special_key_type": "location_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "Saloon",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "8ad9a629263754ae78d7085b8b333b42616d1e03238d7264075228cd816725cc",
+        "retrieval_text_hash": "e075db3dd2cb74963fb783b666c06a64890635634eb23bfe95ca7615c8ed9062",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Saloon:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nScene: Saloon\nDialogue: %戴蒙正在吃饭"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Saloon6:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Saloon6",
+      "author_key": "Saloon6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "坐下来吃点吗，格斯这的食物真的很不错。或许我该带爸爸来尝尝。",
+        "display": "坐下来吃点吗，格斯这的食物真的很不错。或许我该带爸爸来尝尝。",
+        "embedding": "坐下来吃点吗，格斯这的食物真的很不错。或许我该带爸爸来尝尝。"
+      },
+      "context": {
+        "source_key": "Saloon6",
+        "key_type": "general_dialogue",
+        "special_key_type": "location_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "Saloon",
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "10b01217a10b387259d5f103313373228f1d489662fd008383252cd568478ba5",
+        "retrieval_text_hash": "01362bcadc2e5c7a93a0633a6ff95241af25210db5fb4c3354e836edc0624974",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Saloon6:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_6\nSeason: any\nWeather: any\nScene: Saloon\nDialogue: 坐下来吃点吗，格斯这的食物真的很不错。或许我该带爸爸来尝尝。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Sat:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sat",
+      "author_key": "Sat",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "对于海上宾馆的设计我已经有初步的想法了。#$b#哦...星露谷的游客和外宾不少，我和镇长商议要在海上建一个宾馆。景观美丽且尽量少打扰居民的生活。",
+        "display": "对于海上宾馆的设计我已经有初步的想法了。\n哦...星露谷的游客和外宾不少，我和镇长商议要在海上建一个宾馆。景观美丽且尽量少打扰居民的生活。",
+        "embedding": "对于海上宾馆的设计我已经有初步的想法了。 哦...星露谷的游客和外宾不少，我和镇长商议要在海上建一个宾馆。景观美丽且尽量少打扰居民的生活。"
+      },
+      "context": {
+        "source_key": "Sat",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "fc064beb08d6cea9385672064861c270f014862548eb5811e5c52bfdff5645e8",
+        "retrieval_text_hash": "7d220bb063a35f66a05efff62717e138c03e4a78f5d3b7474b897067cf7d12c4",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Sat:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: 对于海上宾馆的设计我已经有初步的想法了。 哦...星露谷的游客和外宾不少，我和镇长商议要在海上建一个宾馆。景观美丽且尽量少打扰居民的生活。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Sat10:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sat10",
+      "author_key": "Sat10",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "已经习惯了早睡早起的生活，感觉身体都变健康了，要不去找哈维评估一下。",
+        "display": "已经习惯了早睡早起的生活，感觉身体都变健康了，要不去找哈维评估一下。",
+        "embedding": "已经习惯了早睡早起的生活，感觉身体都变健康了，要不去找哈维评估一下。"
+      },
+      "context": {
+        "source_key": "Sat10",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "88b582acd67806a591af6229593abf4852a16a9f0cb251237da64cd762adf19d",
+        "retrieval_text_hash": "d1bfda025b36bf64c5809b01e98fa30176d2ca64a1bac9249684a56ef1171044",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Sat10:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_10\nSeason: any\nWeather: any\nDialogue: 已经习惯了早睡早起的生活，感觉身体都变健康了，要不去找哈维评估一下。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Sat2:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sat2",
+      "author_key": "Sat2",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "明天终于放假了。$h#$b#嗯...别误会我，我觉得这里很好，但我还是比较想睡个懒觉然后无所事事一天。",
+        "display": "明天终于放假了。\n嗯...别误会我，我觉得这里很好，但我还是比较想睡个懒觉然后无所事事一天。",
+        "embedding": "明天终于放假了。 嗯...别误会我，我觉得这里很好，但我还是比较想睡个懒觉然后无所事事一天。"
+      },
+      "context": {
+        "source_key": "Sat2",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "2c03dc2604480ffcd923efc4ce431b1532fe0ca60d41d98b871b792746045418",
+        "retrieval_text_hash": "a47502e27eb81639cbfef2619b7f69b9c9117a01bf920b68c871141133fcbedf",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Sat2:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_2\nSeason: any\nWeather: any\nDialogue: 明天终于放假了。 嗯...别误会我，我觉得这里很好，但我还是比较想睡个懒觉然后无所事事一天。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Sat4:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sat4",
+      "author_key": "Sat4",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "@，你有对自己的生活感觉到迷茫吗？",
+        "display": "{player_name}，你有对自己的生活感觉到迷茫吗？",
+        "embedding": "player，你有对自己的生活感觉到迷茫吗？"
+      },
+      "context": {
+        "source_key": "Sat4",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "32e53648b7f175f01f514da11d0183e39a8cff648072102db76df16536ca8439",
+        "retrieval_text_hash": "22278736f8f11ebaab236a353de1a1698de3a5581af54f6c7d4a8155a5f0c153",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Sat4:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_4\nSeason: any\nWeather: any\nDialogue: player，你有对自己的生活感觉到迷茫吗？"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Sat6:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sat6",
+      "author_key": "Sat6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "你有养宠物吗，它们有时候真的很抚慰心灵。",
+        "display": "你有养宠物吗，它们有时候真的很抚慰心灵。",
+        "embedding": "你有养宠物吗，它们有时候真的很抚慰心灵。"
+      },
+      "context": {
+        "source_key": "Sat6",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "8b581475fa1a2bf023348970e30373cea91cf36793445f5e6852ca47036f3ac0",
+        "retrieval_text_hash": "0ff86cf709398bbf256eeb120a1217ea9879a7b1d7e998008b6ac0265768621b",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Sat6:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_6\nSeason: any\nWeather: any\nDialogue: 你有养宠物吗，它们有时候真的很抚慰心灵。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Sat8:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sat8",
+      "author_key": "Sat8",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "在鹈鹕镇的这段时间你开心吗，反正我觉得很快乐。",
+        "display": "在鹈鹕镇的这段时间你开心吗，反正我觉得很快乐。",
+        "embedding": "在鹈鹕镇的这段时间你开心吗，反正我觉得很快乐。"
+      },
+      "context": {
+        "source_key": "Sat8",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "bc046617c627dd36c9184f41bd820873d4e4e7144240aa81a349d4f3ba6e4e17",
+        "retrieval_text_hash": "22b68f44942d97554cc6475d496b217dfedbe757f343a2993d0de8dc0ee8bd01",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Sat8:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_8\nSeason: any\nWeather: any\nDialogue: 在鹈鹕镇的这段时间你开心吗，反正我觉得很快乐。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Sun:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sun",
+      "author_key": "Sun",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "今天我就来随便逛逛。",
+        "display": "今天我就来随便逛逛。",
+        "embedding": "今天我就来随便逛逛。"
+      },
+      "context": {
+        "source_key": "Sun",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "8cb55eb5ab956d33bb72b97ff1cc283ccc9c8f8c4826e5e8cf670b31ba0e75e2",
+        "retrieval_text_hash": "28c7a58a15c65133724b10cbc7b1d7a9f185fd4bffdcfd224eaa06cb0f3524c6",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Sun:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: 今天我就来随便逛逛。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Sun10:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sun10",
+      "author_key": "Sun10",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "我和你说过吗，其实我的妈妈是物理老师，在学业上她帮助了我很多。",
+        "display": "我和你说过吗，其实我的妈妈是物理老师，在学业上她帮助了我很多。",
+        "embedding": "我和你说过吗，其实我的妈妈是物理老师，在学业上她帮助了我很多。"
+      },
+      "context": {
+        "source_key": "Sun10",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "e5cc8a0980bff148f1369351d45e3e4324f42472f4e38344bff24c7efd36ef06",
+        "retrieval_text_hash": "10e5074885786135a62efd3424cf659aa50256c6f085106a5828686be676d84f",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Sun10:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_10\nSeason: any\nWeather: any\nDialogue: 我和你说过吗，其实我的妈妈是物理老师，在学业上她帮助了我很多。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Sun2:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sun2",
+      "author_key": "Sun2",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "你周日也要工作么？",
+        "display": "你周日也要工作么？",
+        "embedding": "你周日也要工作么？"
+      },
+      "context": {
+        "source_key": "Sun2",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "c9cdeb14892837896584ff7a828e81179ce00172b4e8ca649190db431f905598",
+        "retrieval_text_hash": "7e1cf7999976f5bdb150a207dab8939fbbcad9bbe7e2e41053f440c6262ce149",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Sun2:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_2\nSeason: any\nWeather: any\nDialogue: 你周日也要工作么？"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Sun4:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sun4",
+      "author_key": "Sun4",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "待在家里觉得无聊，出来又想回去，人怎么这么矛盾。",
+        "display": "待在家里觉得无聊，出来又想回去，人怎么这么矛盾。",
+        "embedding": "待在家里觉得无聊，出来又想回去，人怎么这么矛盾。"
+      },
+      "context": {
+        "source_key": "Sun4",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "7b7b114f05db6bb0cf56a30dc1709b15b39b5278492086610bdd941afd9872e2",
+        "retrieval_text_hash": "92502f1c3969eb097f3c05b5b17248c67b9cf672c784acd17d147b0085437fa5",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Sun4:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_4\nSeason: any\nWeather: any\nDialogue: 待在家里觉得无聊，出来又想回去，人怎么这么矛盾。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Sun6:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sun6",
+      "author_key": "Sun6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "其实我不是真心想成为一名建筑师的，也是误打误撞吧。",
+        "display": "其实我不是真心想成为一名建筑师的，也是误打误撞吧。",
+        "embedding": "其实我不是真心想成为一名建筑师的，也是误打误撞吧。"
+      },
+      "context": {
+        "source_key": "Sun6",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "89ed5cdaa5eac3d587f0937e731524f29f259463ae936cb13742f25de3c6bf5f",
+        "retrieval_text_hash": "3062ee0fca9e68997d8ae0027291f36554794d031b1ff2d5d6ac7060a9f6b5ad",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Sun6:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_6\nSeason: any\nWeather: any\nDialogue: 其实我不是真心想成为一名建筑师的，也是误打误撞吧。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Sun8:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sun8",
+      "author_key": "Sun8",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "一周工作七天的看来不止镇长一人。$u",
+        "display": "一周工作七天的看来不止镇长一人。",
+        "embedding": "一周工作七天的看来不止镇长一人。"
+      },
+      "context": {
+        "source_key": "Sun8",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "4a31c38682dd8a6f20723f3be149d0aef62f1be6e4c8f891edc02d45820134e7",
+        "retrieval_text_hash": "b653648b486e525bc833f0d1e53a78afe24a1d7a4c0c6138664d4a387d0d0243",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Sun8:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_8\nSeason: any\nWeather: any\nDialogue: 一周工作七天的看来不止镇长一人。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Thu:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Thu",
+      "author_key": "Thu",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "有什么事吗？",
+        "display": "有什么事吗？",
+        "embedding": "有什么事吗？"
+      },
+      "context": {
+        "source_key": "Thu",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "9ebdb338769f6fb4b16ecba0c50ef1ada64a2e7021459c1a9cf3347542a97568",
+        "retrieval_text_hash": "7871f6bacf7a002a1082702b20eca07319f6609780caca1e077652e583d8e66d",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Thu:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: 有什么事吗？"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Thu10:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Thu10",
+      "author_key": "Thu10",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "我有时候在想，大学学建筑是不是就是为了来这里，为了遇到一些珍贵的人呢。#$b#突然说这个有点奇怪，你不必在意。$h",
+        "display": "我有时候在想，大学学建筑是不是就是为了来这里，为了遇到一些珍贵的人呢。\n突然说这个有点奇怪，你不必在意。",
+        "embedding": "我有时候在想，大学学建筑是不是就是为了来这里，为了遇到一些珍贵的人呢。 突然说这个有点奇怪，你不必在意。"
+      },
+      "context": {
+        "source_key": "Thu10",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "279dc72c5fdac467a1b9dcd8910dcd3ca3693a66b88259cfce78bc67c2cbe060",
+        "retrieval_text_hash": "300fcf8970001bb95f342b2af7c0b61b55a0169f91215fc17708128c986b3c04",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Thu10:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_10\nSeason: any\nWeather: any\nDialogue: 我有时候在想，大学学建筑是不是就是为了来这里，为了遇到一些珍贵的人呢。 突然说这个有点奇怪，你不必在意。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Thu2:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Thu2",
+      "author_key": "Thu2",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "雨天的时候我会稍微改变一下行程，减少在户外的时间。",
+        "display": "雨天的时候我会稍微改变一下行程，减少在户外的时间。",
+        "embedding": "雨天的时候我会稍微改变一下行程，减少在户外的时间。"
+      },
+      "context": {
+        "source_key": "Thu2",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "3488f1effc85f40109eb8f46c1c93360b6925c2cd73cf5638ff100dac6f6549b",
+        "retrieval_text_hash": "8af6fd06adb1b3717b80991ec630dc0ba925efc66641294228eee294304ba472",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Thu2:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_2\nSeason: any\nWeather: any\nDialogue: 雨天的时候我会稍微改变一下行程，减少在户外的时间。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Thu4:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Thu4",
+      "author_key": "Thu4",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "通勤时长实在让人难以忍耐，大部分时候我都借助在附近的朋友家。",
+        "display": "通勤时长实在让人难以忍耐，大部分时候我都借助在附近的朋友家。",
+        "embedding": "通勤时长实在让人难以忍耐，大部分时候我都借助在附近的朋友家。"
+      },
+      "context": {
+        "source_key": "Thu4",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "cabb3bb58fba2796e7f5062ee7e7be122d2be3a58e2c31d0193256062b341a68",
+        "retrieval_text_hash": "08db5db066e3e43942cf09144f86b1e491f77d42702e943ec6d210a685354b76",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Thu4:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_4\nSeason: any\nWeather: any\nDialogue: 通勤时长实在让人难以忍耐，大部分时候我都借助在附近的朋友家。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Thu6:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Thu6",
+      "author_key": "Thu6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "你看我在哈维那弄到了什么？你肯定用的上。[351]",
+        "display": "你看我在哈维那弄到了什么？你肯定用的上。[351]",
+        "embedding": "你看我在哈维那弄到了什么？你肯定用的上。[351]"
+      },
+      "context": {
+        "source_key": "Thu6",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "c700b37c3aed36f7a35e019920842e6dfa3840d544191953d05761d7450d7ced",
+        "retrieval_text_hash": "55e6861934a2204b8b834133e612172fed5fdeee2dda52bbfca1a9b3bf53425b",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Thu6:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_6\nSeason: any\nWeather: any\nDialogue: 你看我在哈维那弄到了什么？你肯定用的上。[351]"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Thu8:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Thu8",
+      "author_key": "Thu8",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "@，你是怎么找到自己想要的生活呢？",
+        "display": "{player_name}，你是怎么找到自己想要的生活呢？",
+        "embedding": "player，你是怎么找到自己想要的生活呢？"
+      },
+      "context": {
+        "source_key": "Thu8",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "b0d0d8048510f4fd3af30aa55a89ec0c1b47b58af022c542fbffcc55bf112688",
+        "retrieval_text_hash": "460226042265308114bbac89b4dd451ebecac34592d11725d4cfdcb9ee3efe67",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Thu8:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_8\nSeason: any\nWeather: any\nDialogue: player，你是怎么找到自己想要的生活呢？"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Tue:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Tue",
+      "author_key": "Tue",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "不好意思，挡着你路了吗？",
+        "display": "不好意思，挡着你路了吗？",
+        "embedding": "不好意思，挡着你路了吗？"
+      },
+      "context": {
+        "source_key": "Tue",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "ac7722d85fd56f90557245ab056311b53164b17724071f9201889025f230f60f",
+        "retrieval_text_hash": "3280b99ebbe966bbafbb6e9ce61c7f61a8eb356019479c7f2224f968b46d3619",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Tue:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: 不好意思，挡着你路了吗？"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Tue10:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Tue10",
+      "author_key": "Tue10",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "如果你之后会再去祖祖城，记得告诉我，我会来找你。",
+        "display": "如果你之后会再去祖祖城，记得告诉我，我会来找你。",
+        "embedding": "如果你之后会再去祖祖城，记得告诉我，我会来找你。"
+      },
+      "context": {
+        "source_key": "Tue10",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "171f4320576e7ef02817418107c289c7349a426ea695f17f565b166c89f88e48",
+        "retrieval_text_hash": "8aeec6ab8a46594c4b6942883db30f319fe3a9c52bb568f352b2d48929c968e3",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Tue10:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_10\nSeason: any\nWeather: any\nDialogue: 如果你之后会再去祖祖城，记得告诉我，我会来找你。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Tue2:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Tue2",
+      "author_key": "Tue2",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "虽然到这就意味着工作，我也不得不承认这里很美。",
+        "display": "虽然到这就意味着工作，我也不得不承认这里很美。",
+        "embedding": "虽然到这就意味着工作，我也不得不承认这里很美。"
+      },
+      "context": {
+        "source_key": "Tue2",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "543f0e0e553b64bffd649ed4ff00f41d07e5b92533b04e92892771b76165e5ae",
+        "retrieval_text_hash": "d3dcaa73346b3a293a3d5979b59fc75c40dd10f515046d2736e7465a90c7d39b",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Tue2:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_2\nSeason: any\nWeather: any\nDialogue: 虽然到这就意味着工作，我也不得不承认这里很美。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Tue4:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Tue4",
+      "author_key": "Tue4",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "有时候我觉得这里是个很奇幻的地方。#$b#有次夜里我好像遇见外星人了...#$b#可能是压力大导致的幻觉吧。",
+        "display": "有时候我觉得这里是个很奇幻的地方。\n有次夜里我好像遇见外星人了...\n可能是压力大导致的幻觉吧。",
+        "embedding": "有时候我觉得这里是个很奇幻的地方。 有次夜里我好像遇见外星人了... 可能是压力大导致的幻觉吧。"
+      },
+      "context": {
+        "source_key": "Tue4",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "d9a3bd3499f23453c4e97c84bc48a73a90ee9a876e697be1a37c57864631c547",
+        "retrieval_text_hash": "c3e65fb76562c22f1d7cc1984665995b00fcf8bcd33bd170103c7ba1e9777f2e",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Tue4:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_4\nSeason: any\nWeather: any\nDialogue: 有时候我觉得这里是个很奇幻的地方。 有次夜里我好像遇见外星人了... 可能是压力大导致的幻觉吧。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Tue6:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Tue6",
+      "author_key": "Tue6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "真是活力满满啊，@。有没有考虑去参加马拉松呢，我可以帮你报名。$u",
+        "display": "真是活力满满啊，{player_name}。有没有考虑去参加马拉松呢，我可以帮你报名。",
+        "embedding": "真是活力满满啊，player。有没有考虑去参加马拉松呢，我可以帮你报名。"
+      },
+      "context": {
+        "source_key": "Tue6",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "bc5a068173276f25954606506cb6887c7d33f1d66001dd96a73d5de11782a906",
+        "retrieval_text_hash": "3c3e5ab4e12b8aa765a083fb029c51698656b41ca6be7ebdb800993e5e566e9a",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Tue6:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_6\nSeason: any\nWeather: any\nDialogue: 真是活力满满啊，player。有没有考虑去参加马拉松呢，我可以帮你报名。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Tue8:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Tue8",
+      "author_key": "Tue8",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "不知道Mika一个人在家会不会无聊，我已经想回去了。",
+        "display": "不知道Mika一个人在家会不会无聊，我已经想回去了。",
+        "embedding": "不知道Mika一个人在家会不会无聊，我已经想回去了。"
+      },
+      "context": {
+        "source_key": "Tue8",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "74ff8d51553d2fa0812c36732409a4c8749eed0ec97b399e9cdb8f5b1be4b634",
+        "retrieval_text_hash": "d5a66d1cc5d12b443cdbc99b3fd5770675f3e59f9fb7cfeaf8f527f9f968d93b",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Tue8:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_8\nSeason: any\nWeather: any\nDialogue: 不知道Mika一个人在家会不会无聊，我已经想回去了。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Wed:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Wed",
+      "author_key": "Wed",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "哦...你好。",
+        "display": "哦...你好。",
+        "embedding": "哦...你好。"
+      },
+      "context": {
+        "source_key": "Wed",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "3e80f38a798fc71065667e4be52a62f2e630909fdff2fa4d463430176c20b815",
+        "retrieval_text_hash": "56ed6973faecdb0d5a51676543cd3a1b9c55aeb6266f227dfaf5b7a49e360318",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Wed:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: 哦...你好。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Wed10:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Wed10",
+      "author_key": "Wed10",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "我想Mika可能会喜欢你。",
+        "display": "我想Mika可能会喜欢你。",
+        "embedding": "我想Mika可能会喜欢你。"
+      },
+      "context": {
+        "source_key": "Wed10",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "0a202b3ea0069a90e9260d4921e3e79ba4195df2399db3e49c69df10f3fe3fa4",
+        "retrieval_text_hash": "5a62b877be80c5d0d469e79aa52be795d782e4a5891c4dc3e5a28180833378ca",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Wed10:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_10\nSeason: any\nWeather: any\nDialogue: 我想Mika可能会喜欢你。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Wed2:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Wed2",
+      "author_key": "Wed2",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "刘镇长说你有很厉害的农场，也许以后有机会可以合作。我可能会需要从你那进货一些原材料。",
+        "display": "刘镇长说你有很厉害的农场，也许以后有机会可以合作。我可能会需要从你那进货一些原材料。",
+        "embedding": "刘镇长说你有很厉害的农场，也许以后有机会可以合作。我可能会需要从你那进货一些原材料。"
+      },
+      "context": {
+        "source_key": "Wed2",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "ff6516815d45095e0023ae0869b10c9b9522178e37d5f2d9add42775f61946be",
+        "retrieval_text_hash": "966f44382135e657f68fcb25dcbb422ff0ccea67c7dc0c33fa796e82e0ba4be8",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Wed2:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_2\nSeason: any\nWeather: any\nDialogue: 刘镇长说你有很厉害的农场，也许以后有机会可以合作。我可能会需要从你那进货一些原材料。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Wed4:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Wed4",
+      "author_key": "Wed4",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "@，希望我们见面时你多说说话，你太惜字如金了。$u",
+        "display": "{player_name}，希望我们见面时你多说说话，你太惜字如金了。",
+        "embedding": "player，希望我们见面时你多说说话，你太惜字如金了。"
+      },
+      "context": {
+        "source_key": "Wed4",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "d8e10abaa4496d92fa2351ec111e09e2b7bde104632796011f1a3b786a637d16",
+        "retrieval_text_hash": "b466a945554b3441c9afffc390b0b8aacf63bfbecedd1ac1370870ccdffd1e21",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Wed4:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_4\nSeason: any\nWeather: any\nDialogue: player，希望我们见面时你多说说话，你太惜字如金了。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Wed6:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Wed6",
+      "author_key": "Wed6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "@，可以不用跑那么急，你已经是这里的步数第一了。$u",
+        "display": "{player_name}，可以不用跑那么急，你已经是这里的步数第一了。",
+        "embedding": "player，可以不用跑那么急，你已经是这里的步数第一了。"
+      },
+      "context": {
+        "source_key": "Wed6",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "1682f00a1971bd3f29781c7b9d9d6ee8f9330079dd5d4eed8bcc6df395dcdd85",
+        "retrieval_text_hash": "39e0b15296ceb647520161f2b665acdd5f28d10f0cd3eebfee6a0ef89ed17acd",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Wed6:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_6\nSeason: any\nWeather: any\nDialogue: player，可以不用跑那么急，你已经是这里的步数第一了。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:Wed8:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:Wed8",
+      "author_key": "Wed8",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "又在辛勤地工作吗，@？吃点零食补充能量吧。[223]",
+        "display": "又在辛勤地工作吗，{player_name}？吃点零食补充能量吧。[223]",
+        "embedding": "又在辛勤地工作吗，player？吃点零食补充能量吧。[223]"
+      },
+      "context": {
+        "source_key": "Wed8",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "543248f44045555349031dcfd2715bc7b8951eb9e00c7ca6ec8744138dfbf3db",
+        "retrieval_text_hash": "8bd9692f596a7009d094a5f80280b2a2fd982eac08302f087318cb88ae1f3b3b",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:Wed8:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: heart_min_8\nSeason: any\nWeather: any\nDialogue: 又在辛勤地工作吗，player？吃点零食补充能量吧。[223]"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:WinterStar_GiveGift_After:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:WinterStar_GiveGift_After",
+      "author_key": "WinterStar_GiveGift_After",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "嗯...不知道你喜不喜欢。$4",
+        "display": "嗯...不知道你喜不喜欢。$4",
+        "embedding": "嗯...不知道你喜不喜欢。$4"
+      },
+      "context": {
+        "source_key": "WinterStar_GiveGift_After",
+        "key_type": "general_dialogue",
+        "special_key_type": "festival_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [
+          "event.winter_star"
+        ],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "33173f1177cdf4c636bc7fe17d52ff21a6bf223aca6c7e194511f9763bf9db6a",
+        "retrieval_text_hash": "717219b5c32e459147fa59066d1df00f744a3e7c0021e342a97eeb822a6b84e4",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:WinterStar_GiveGift_After:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: 嗯...不知道你喜不喜欢。$4"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:WinterStar_GiveGift_Before:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:WinterStar_GiveGift_Before",
+      "author_key": "WinterStar_GiveGift_Before",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "没想到我也可以来参加冬日星盛宴。",
+        "display": "没想到我也可以来参加冬日星盛宴。",
+        "embedding": "没想到我也可以来参加冬日星盛宴。"
+      },
+      "context": {
+        "source_key": "WinterStar_GiveGift_Before",
+        "key_type": "general_dialogue",
+        "special_key_type": "festival_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [
+          "event.winter_star"
+        ],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "9b9857f279ea0532b8f0ce0abca6da6783bb9cb3c83c2578eda975ce47d5ed35",
+        "retrieval_text_hash": "c932ac95b021deed7c84b916b6dfe57ad5d7fb92a073736b5e1fdf6bd90ba172",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:WinterStar_GiveGift_Before:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: 没想到我也可以来参加冬日星盛宴。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:WinterStar_ReceiveGift:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:WinterStar_ReceiveGift",
+      "author_key": "WinterStar_ReceiveGift",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "很高兴收到你的礼物。",
+        "display": "很高兴收到你的礼物。",
+        "embedding": "很高兴收到你的礼物。"
+      },
+      "context": {
+        "source_key": "WinterStar_ReceiveGift",
+        "key_type": "general_dialogue",
+        "special_key_type": "festival_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [
+          "event.winter_star"
+        ],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "cf066d0ea6f3dd2a6cc0bf2b16b80deb3aa56fe066ddf46264f498761b078464",
+        "retrieval_text_hash": "a1d4a114f7a6505c47395ec0b1a19b1b346c4fa4744ba137591b71195d40740c",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:WinterStar_ReceiveGift:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: 很高兴收到你的礼物。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:WipedMemory:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:WipedMemory",
+      "author_key": "WipedMemory",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "奇怪，小镇里还有我不认识的人吗，你是新来的？",
+        "display": "奇怪，小镇里还有我不认识的人吗，你是新来的？",
+        "embedding": "奇怪，小镇里还有我不认识的人吗，你是新来的？"
+      },
+      "context": {
+        "source_key": "WipedMemory",
+        "key_type": "general_dialogue",
+        "special_key_type": "special_event",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "special",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "b2b9f123da4ab5f51490a82daa065d46d3ec67ef210059399af24d2946606a75",
+        "retrieval_text_hash": "d8948d61afe5c2ae9a9784fb08723db16e4000d9703299dcbd0738c603b558df",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:WipedMemory:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: special\nRelationship: any\nSeason: any\nWeather: any\nDialogue: 奇怪，小镇里还有我不认识的人吗，你是新来的？"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:danceRejection:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:danceRejection",
+      "author_key": "danceRejection",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "谢谢你邀请我，不过我穿成这样大概不适合跳舞。你去找别人吧，真不好意思。",
+        "display": "谢谢你邀请我，不过我穿成这样大概不适合跳舞。你去找别人吧，真不好意思。",
+        "embedding": "谢谢你邀请我，不过我穿成这样大概不适合跳舞。你去找别人吧，真不好意思。"
+      },
+      "context": {
+        "source_key": "danceRejection",
+        "key_type": "general_dialogue",
+        "special_key_type": "festival_rejection",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "6e0b071ce5e9ec4c09e76e1519c344de0cf987f9ddbf4dd9484c5f11367f8301",
+        "retrieval_text_hash": "192b57701df86a9720e25577e7f289cdabfa4adf5496a9587089310c9ae1784d",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:danceRejection:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: 谢谢你邀请我，不过我穿成这样大概不适合跳舞。你去找别人吧，真不好意思。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:fall_3:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:fall_3",
+      "author_key": "fall_3",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "请你收下。[732]",
+        "display": "请你收下。[732]",
+        "embedding": "请你收下。[732]"
+      },
+      "context": {
+        "source_key": "fall_3",
+        "key_type": "general_dialogue",
+        "special_key_type": "date_specific_dialogue",
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "3"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "seasonal",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "9f056c74c73087eed999f55eed686d271ecdb15d32e5f10565174c74209fcf1c",
+        "retrieval_text_hash": "1abf9c73f2431d155a596a3a24df9f7d9b11427ab8c77d690d858f2ca4936ac1",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:fall_3:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: seasonal\nRelationship: any\nSeason: fall\nWeather: any\nDialogue: 请你收下。[732]"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:fall_Mon6:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:fall_Mon6",
+      "author_key": "fall_Mon6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "秋天怎么能不吃这个呢[235]$h",
+        "display": "秋天怎么能不吃这个呢[235]",
+        "embedding": "秋天怎么能不吃这个呢[235]"
+      },
+      "context": {
+        "source_key": "fall_Mon6",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "seasonal",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "d89b7fa1a6481a2dd61943a9dc72ad257bcc8ee849d75c19ec5ea20414ff7d45",
+        "retrieval_text_hash": "c686d97fb2e799990a86344b71bc44ca6ef8cdb1ace3298cdb2df71d67d6e599",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:fall_Mon6:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: seasonal\nRelationship: heart_min_6\nSeason: fall\nWeather: any\nDialogue: 秋天怎么能不吃这个呢[235]"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:spring_26:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:spring_26",
+      "author_key": "spring_26",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "天气好像已经热起来了。",
+        "display": "天气好像已经热起来了。",
+        "embedding": "天气好像已经热起来了。"
+      },
+      "context": {
+        "source_key": "spring_26",
+        "key_type": "general_dialogue",
+        "special_key_type": "date_specific_dialogue",
+        "season": [
+          "spring"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "26"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "seasonal",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "935e7a6866fcb81dafb09ce7215b514c697821ac1393f352cf6ef07320e9259e",
+        "retrieval_text_hash": "fde51e1cbf14a01fe788d91a62b9c535be8ed8be2626c11dff060f26717faf64",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:spring_26:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: seasonal\nRelationship: any\nSeason: spring\nWeather: any\nDialogue: 天气好像已经热起来了。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:spring_5:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:spring_5",
+      "author_key": "spring_5",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "意外发现了这个？也许是什么的种子，你兴许知道。[485]",
+        "display": "意外发现了这个？也许是什么的种子，你兴许知道。[485]",
+        "embedding": "意外发现了这个？也许是什么的种子，你兴许知道。[485]"
+      },
+      "context": {
+        "source_key": "spring_5",
+        "key_type": "general_dialogue",
+        "special_key_type": "date_specific_dialogue",
+        "season": [
+          "spring"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "5"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "seasonal",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "7d2d34943f96aadfa504e4a2345c8695175df90427e5c82440ff9707c9fe3e2d",
+        "retrieval_text_hash": "15386592e74f41afcbaf8ac4e6f9bf9314efc1580de65468c612d108fb0cf9db",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:spring_5:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: seasonal\nRelationship: any\nSeason: spring\nWeather: any\nDialogue: 意外发现了这个？也许是什么的种子，你兴许知道。[485]"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:spring_Thu6:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:spring_Thu6",
+      "author_key": "spring_Thu6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "下矿时要保护好自己。[772][773]",
+        "display": "下矿时要保护好自己。[772][773]",
+        "embedding": "下矿时要保护好自己。[772][773]"
+      },
+      "context": {
+        "source_key": "spring_Thu6",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "spring"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "seasonal",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "4ff6ab6a03ee53646265f6dce95472240ce956d3678d725de1706652331e80e8",
+        "retrieval_text_hash": "6a362f3e5ccaf4dc614de1e7d0f561b3561444a4a49578197cce6ef764414783",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:spring_Thu6:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: seasonal\nRelationship: heart_min_6\nSeason: spring\nWeather: any\nDialogue: 下矿时要保护好自己。[772][773]"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:summer_27:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:summer_27",
+      "author_key": "summer_27",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "夏天终于要结束了，我还是更喜欢凉爽的季节。",
+        "display": "夏天终于要结束了，我还是更喜欢凉爽的季节。",
+        "embedding": "夏天终于要结束了，我还是更喜欢凉爽的季节。"
+      },
+      "context": {
+        "source_key": "summer_27",
+        "key_type": "general_dialogue",
+        "special_key_type": "date_specific_dialogue",
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "27"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "seasonal",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "e947826e1c17a7e1df0f8ae9d7151ec09ab8c3107c9e998a5226560af20cafd6",
+        "retrieval_text_hash": "a21b4b2e4bcdd2b6158426ec11a55ca7c51c6026d3ce7fab4cd9035f81b75018",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:summer_27:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: seasonal\nRelationship: any\nSeason: summer\nWeather: any\nDialogue: 夏天终于要结束了，我还是更喜欢凉爽的季节。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:summer_9:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:summer_9",
+      "author_key": "summer_9",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "你看起来快要中暑了，喝杯果汁吧。[350]",
+        "display": "你看起来快要中暑了，喝杯果汁吧。[350]",
+        "embedding": "你看起来快要中暑了，喝杯果汁吧。[350]"
+      },
+      "context": {
+        "source_key": "summer_9",
+        "key_type": "general_dialogue",
+        "special_key_type": "date_specific_dialogue",
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "9"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "seasonal",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "2bc775cdc32fac05c02683208f71e17478bc1c39060d596b8588bf6a015f5a33",
+        "retrieval_text_hash": "fd7fd84ade509317269bb3329e35b21983815e1bc7dbb9a62164b7b65bfeeb93",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:summer_9:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: seasonal\nRelationship: any\nSeason: summer\nWeather: any\nDialogue: 你看起来快要中暑了，喝杯果汁吧。[350]"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:summer_Fri8:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:summer_Fri8",
+      "author_key": "summer_Fri8",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "你也是运气很好，我刚在亚历克斯那买了冰淇淋。[233]#$b#你别这样看着我，我买两个是为了留一个明天吃。$4",
+        "display": "你也是运气很好，我刚在亚历克斯那买了冰淇淋。[233]\n你别这样看着我，我买两个是为了留一个明天吃。$4",
+        "embedding": "你也是运气很好，我刚在亚历克斯那买了冰淇淋。[233] 你别这样看着我，我买两个是为了留一个明天吃。$4"
+      },
+      "context": {
+        "source_key": "summer_Fri8",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "seasonal",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "e90bf2a109052e89c2b4201efc3ce557ed930d6052d17588904b8ad99ca14ecb",
+        "retrieval_text_hash": "261c99ac52e88390cb2dfc89f501f4e7f97fd28bc9637500ef588106daa70f7b",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:summer_Fri8:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: seasonal\nRelationship: heart_min_8\nSeason: summer\nWeather: any\nDialogue: 你也是运气很好，我刚在亚历克斯那买了冰淇淋。[233] 你别这样看着我，我买两个是为了留一个明天吃。$4"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:winter_2:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:winter_2",
+      "author_key": "winter_2",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "白茫茫的雪地让人感觉很平静。",
+        "display": "白茫茫的雪地让人感觉很平静。",
+        "embedding": "白茫茫的雪地让人感觉很平静。"
+      },
+      "context": {
+        "source_key": "winter_2",
+        "key_type": "general_dialogue",
+        "special_key_type": "date_specific_dialogue",
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "2"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "seasonal",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "287826a4a6a4c161fe9878e8d94068e76643c0e3ad99ab77e189e7a01ffbca3a",
+        "retrieval_text_hash": "ca5c21f8432fe7db5541d2053926c8b73902b7b3a4d8b96dd78cdea9a39cb042",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:winter_2:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: seasonal\nRelationship: any\nSeason: winter\nWeather: any\nDialogue: 白茫茫的雪地让人感觉很平静。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Damon:winter_Mon10:zh",
+      "canonical_id": "Dialogue/general_dialogue/Damon:winter_Mon10",
+      "author_key": "winter_Mon10",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "这个天气想要起床真的很困难，但是想到早点出门就可以增加碰到你的概率，我还是哄自己起来了。功夫不负有心人啊，看看我碰见谁了。$u",
+        "display": "这个天气想要起床真的很困难，但是想到早点出门就可以增加碰到你的概率，我还是哄自己起来了。功夫不负有心人啊，看看我碰见谁了。",
+        "embedding": "这个天气想要起床真的很困难，但是想到早点出门就可以增加碰到你的概率，我还是哄自己起来了。功夫不负有心人啊，看看我碰见谁了。"
+      },
+      "context": {
+        "source_key": "winter_Mon10",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "seasonal",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      },
+      "indexing": {
+        "text_hash": "d5ddcffa9b690b694735faa0533fdd475ac8d2b34e42851d00b4b9cd6ce32d85",
+        "retrieval_text_hash": "d1f4e560daee2284b1858cf10d3dec3c208c71810160ad82a258f9da8bcb6220",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Damon:winter_Mon10:zh:text",
+        "_embedding_text": "Character: Damon\nDialogue type: general_dialogue\nScene type: seasonal\nRelationship: heart_min_10\nSeason: winter\nWeather: any\nDialogue: 这个天气想要起床真的很困难，但是想到早点出门就可以增加碰到你的概率，我还是哄自己起来了。功夫不负有心人啊，看看我碰见谁了。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3231 @@
+{
+  "dataset_meta": {
+    "schema": "canonical_dialogue_v2",
+    "source_root": "data/game_scripts/Dialogue",
+    "collection": "Dialogue",
+    "character": "Evelyn",
+    "record_count": 49,
+    "dialogue_type_counts": {
+      "general_dialogue": 49
+    }
+  },
+  "records": [
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:AcceptGift_(O)170",
+      "author_key": "AcceptGift_(O)170",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Danke, ${mein Lieber^meine Liebe}$. Ich habe überall nach meiner Lesebrille gesucht...#$b#Meine Güte! Sie ist schmutzig geworden...",
+        "es": "Gracias, cariño. He estado buscando por todas partes mis gafas de leer...#$b#¡Vaya, vaya! Se han ensuciado...",
+        "fr": "Merci beaucoup. J’ai cherché partout mes lunettes de lecture...#$b#Ça alors ! Elles sont si sales...",
+        "hu": "Köszönöm, kedveském. Már mindenhol kerestem az olvasószemüvegemet...#$b#Nocsak, nocsak! Kissé koszosak lettek...",
+        "it": "Grazie, tesoro. Li ho cercati dappertutto, questi occhiali per leggere...#$b#Oh cielo! Quanto sono sporchi...",
+        "ja": "ありがとうね。老眼鏡を探していたところなの….#$b#あらあら！よごれてしまったわ…",
+        "en": "Thank you, dear. I've been looking everywhere for my reading glasses...#$b#My, my! They've become filthy...",
+        "ko": "고맙다, 아가야. 내 돋보기가 어디 갔나 종일 찾고 있었단다...#$b#세상에! 너무 더러워졌구나...",
+        "pt": "Obrigada, jovem. Eu tenho procurando pela casa inteira pelos meu óculos de leitura...#$b#Meu Deus! Eles estão tão sujos...",
+        "ru": "Спасибо, золотко. Я везде искала свои очки...#$b#Ой-ой! Какие они грязные...",
+        "tr": "Sağ ol tatlım. Her yerde okuma gözlüklerimi arıyordum...#$b#Ay! Pislenmişler...",
+        "zh": "亲爱的，谢谢你，我找了半天都没找到我的老花镜……#$b#哎呦喂！怎么弄这么脏……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)170' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:AcceptGift_(O)StardropTea",
+      "author_key": "AcceptGift_(O)StardropTea",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh, das schenkst du mir? Vielen Dank, mein Lieber. Das ist ein ganz besonderes Geschenk!^Oh, das schenkst du mir? Vielen Dank, meine Liebe. Das ist ein ganz besonderes Geschenk!",
+        "es": "Oh, ¿me das esto? Muchas gracias, cariño. ¡Es un regalo muy especial!",
+        "fr": "Ho, c’est pour moi ? Merci beaucoup. C’est un cadeau vraiment spécial !",
+        "hu": "Ó, ezt nekem adod? Köszönöm, kedveském. Ez egy nagyon különleges ajándék!",
+        "it": "Oh, vuoi darlo a me? Grazie infinite, tesoro. Questo è un dono davvero speciale!",
+        "ja": "あら、それを私に？本当にありがとう。なんてすばらしい贈り物なのかしら！",
+        "en": "Oh, you're giving this to me? Thank you so much, dear. This is a really special gift!",
+        "ko": "오, 나한테 주려는 거니? 너무 고맙다, 아가야. 정말 특별한 선물이구나!",
+        "pt": "Oh, você está dando isto para mim? Muito obrigada, jovem. Esse é um presente muito especial!",
+        "ru": "О, это мне? Большое спасибо. Это и правда особый подарок!",
+        "tr": "Aa, bunu bana mı veriyorsun? Çok teşekkür ederim tatlım. Gerçekten özel bir hediye!",
+        "zh": "啊，这个是送给我的吗？亲爱的，谢谢你啊，这个礼物很特别！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)StardropTea' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:AcceptGift_Positive_forage_item_beach",
+      "author_key": "AcceptGift_Positive_forage_item_beach",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Danke, mein Lieber. Das bringt so schöne Erinnerungen zurück...^Danke, meine Liebe. Das bringt so schöne Erinnerungen zurück...",
+        "es": "Gracias, cariño. Esto me trae tan buenos recuerdos...",
+        "fr": "Merci beaucoup ! Ça me rappelle de si bons souvenirs...",
+        "hu": "Köszönöm, kedveském. Ez olyan kedves emlékeket idéz bennem...",
+        "it": "Grazie, tesoro. Mi fa tornare in mente ricordi così dolci...",
+        "ja": "ありがとう。あの頃を思い出すわ…",
+        "en": "Thank you, dear. This brings back such sweet memories...",
+        "ko": "고맙다, 아가야. 달콤한 추억이 떠오르는구나...",
+        "pt": "Obrigada, jovem. Isto me traz tantas memórias boas...",
+        "ru": "Спасибо, золотко. Навевает воспоминания давно минувших дней...",
+        "tr": "Teşekkürler tatlım. Bu bana birçok güzel anıyı hatırlatıyor...",
+        "zh": "亲爱的，谢谢你。这让我想起了美好的时光……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_Positive_forage_item_beach' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:Event_cookies1",
+      "author_key": "Event_cookies1",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Danke dir!$h",
+        "es": "¡Gracias!$h",
+        "fr": "Je te remercie !$h",
+        "hu": "Köszönöm!$h",
+        "it": "Grazie!$h",
+        "ja": "ありがとう！$h",
+        "en": "Thank you!$h",
+        "ko": "고마워라!$h",
+        "pt": "Obrigada!$h",
+        "ru": "Спасибо!$h",
+        "tr": "Teşekkürler!$h",
+        "zh": "非常感谢！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Event_cookies1' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:Event_cookies2",
+      "author_key": "Event_cookies2",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Was war das, mein Kind? Ich könnte schwören, dass du 'Pappe' gesagt hast. *seufz* Meine Ohren sind nicht mehr, was sie mal waren.$s",
+        "es": "¿Qué has dicho, cielo? Juraría que has dicho «disco de hockey». *suspiro* Mis oídos ya no son lo que eran.$s",
+        "fr": "Pardon ? J’aurais juré avoir entendu \"palet de hockey\". *Soupir* Mes oreilles ne sont plus ce qu’elles étaient.$s",
+        "hu": "Mit mondtál, kedveském? Megesküdnék, hogy jégkorongot mondtál. *sóhaj* A füleim már nem a régiek.$s",
+        "it": "Come, tesoro? Giurerei di averti sentito dire 'disco da hockey'. *sospira* Le mie orecchie non sono più quelle di prima.$s",
+        "ja": "おや、何だって？「ホッケーの パック」と 聞こえたような。 はぁ… 耳も遠くなってしまったのね。$s",
+        "en": "What was that, dear? I could've sworn you said 'hockey puck'. *sigh* My ears aren't what they used to be.$s",
+        "ko": "뭐라고 했니, 아가야? 분명 '하키 퍽'이라고 한 것 같은데. *한숨* 귀가 예전 같지 않구나.$s",
+        "pt": "O que foi, ${querido^querida}$? Eu poderia jurar que você tinha dito \"disco de hóquei.\" Ah... meus ouvidos não são mais como antigamente.$s",
+        "ru": "Что говоришь, душечка? Клянусь, мне будто послышалось «хоккейная шайба». Ох... Слух у меня не тот, что прежде.$s",
+        "tr": "Ne dedin balım? Hokey topu dediğini duyduğuma yemin edebilirim. Kulaklarım eskisi gibi duymuyor artık.$s",
+        "zh": "亲爱的，你说什么？我听到你说的是“冰球”。*唉* 我的耳朵不像以前那么好使了。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:Fri",
+      "author_key": "Fri",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "George verbringt den ganzen Tag vor diesem verdammten Fernseher.#$e#Ich wünschte, er würde mehr nach draußen gehen. Ein wenig frische Luft würde ihm gut tun.",
+        "es": "George se pasa todo el día delante del dichoso televisor.#$e#Me gustaría que saliera más. Le iría bien un poco de aire fresco.",
+        "fr": "George passe ses journées devant ce maudit poste de télévision.#$e#J’aimerais qu’il sorte plus souvent. Un peu d’air frais lui ferait le plus grand bien.",
+        "hu": "George egész napját az előtt a fene tévé előtt tölti.#$e#Szeretném, ha többet mozdulna ki. Jót tenne neki egy kis friss levegő.",
+        "it": "George passa tutto il giorno davanti a quella dannata televisione.#$e#Vorrei che uscisse di più. Gli farebbe bene prendere un po' d'aria.",
+        "ja": "ジョージは いつも あのテレビの前で 一日を 過ごすのよ。#$e#もう少し 外へ 出てくれればいいのに。新鮮な 空気のほうが 彼のためになるわ。",
+        "en": "George spends the whole day in front of that darned television set.#$e#I wish he'd go outside more. Some fresh air would do him good.",
+        "ko": "조지는 하루 종일 저 망할 테레비 앞에만 앉아있지.#$e#좀 더 자주 외출했으면 좋으련만. 상쾌한 공기가 참 사람한테 좋은 건데 말이야.",
+        "pt": "George passa o dia todo na frente daquela maldita televisão.#$e#Eu gostaria que ele saísse mais. Um pouco de ar fresco faria muito bem.",
+        "ru": "Джордж целыми днями сидит перед проклятым телевизором.#$e#Вот бы он выходил на улицу почаще. Свежий воздух пошел бы ему на пользу.",
+        "tr": "George tüm gününü televizyonun önünde geçiriyor.#$e#Keşke daha çok dışarı çıksa. Temiz hava ona iyi gelirdi.",
+        "zh": "乔治一整天都坐在那该死的电视前。#$e#我希望他能多出去走走。呼吸点新鲜空气对他有好处。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:GreenRain",
+      "author_key": "GreenRain",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "George, mein Lieber... Ist das das Ende? Es war ein gutes Leben, aber ich würde gerne sehen, wie Alex seinen Weg findet, bevor er abreist...$s%noturn",
+        "es": "George, cariño... ¿es este el fin? Ha sido una buena vida, pero me gustaría ver a Alex encontrar su camino antes de partir...$s%noturn",
+        "fr": "George... Est-ce la fin ? Nous avons vécu une belle vie ensemble, mais j’aurais aimé qu’Alex trouve sa voie avant de quitter ce monde...$s%noturn",
+        "hu": "George, drágám... Ez itt a vég? Jó életet éltünk, de mielőtt eltávoznék még szeretném látni, hogy Alex magára talál...$s%noturn",
+        "it": "George, tesoro... Siamo alla fine? È stata una bella vita, ma mi sarebbe piaciuto vedere Alex prendere il volo, prima di andarmene...$s%noturn",
+        "ja": "ああ、ジョージ…これで終わりなのかしら？いい人生だったけれど、旅立つ前にアレックスが自分の道を歩む姿が見たかったわ…$s%noturn",
+        "en": "George, dear... Is this the end? It's been a good life, but I'd like to see Alex find his way before departing...$s%noturn",
+        "ko": "조지, 내 사랑... 이게 끝인 걸까요? 좋은 삶이었어, 하지만 가기 전에 마지막으로 알렉스를 한 번 더 보고 싶구나...$s%noturn",
+        "pt": "George, querido... Esse é o fim? Foi uma boa vida, mas eu só queria ver o Alex achar um rumo antes de partir...$s%noturn",
+        "ru": "Джордж, дорогой... Это конец? У нас была хорошая жизнь, но я бы хотела, чтобы Алекс нашел себя до того, как я уйду...$s%noturn",
+        "tr": "George, hayatım... Bu sonumuz mu? Güzel bir hayat oldu, ayrılmadan Alex'in yolunu çizdiğini görmek isterdim...$s%noturn",
+        "zh": "乔治，老头子……末日来了吗？我一生过得挺好的，假如能看到亚历克斯出息的那一天，我就死而无憾了……$s%noturn"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "weather_green_rain",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:GreenRainFinished",
+      "author_key": "GreenRainFinished",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh, mein Lieber... Ich bin so froh, dass alles gut ausgegangen ist. Und meine Blumen sehen gesünder aus als je zuvor!^Oh, meine Liebe... Ich bin so froh, dass alles gut ausgegangen ist. Und meine Blumen sehen gesünder aus als je zuvor!",
+        "es": "Ay, cielo... Me alegro de que todo terminase bien. ¡Y mis flores parecen más sanas que nunca!",
+        "fr": "Ho... Je suis si heureuse que tout se soit bien terminé. Et mes fleurs n’ont jamais été en si bonne santé !",
+        "hu": "Óh, egek... Annyira örülök, hogy minden rendben van. És a virágaim egészségesebbnek tűnnek, mint valaha!",
+        "it": "Oh, cielo... Sono così felice che tutto si sia risolto per il meglio. E i miei fiori sono più in forma che mai!",
+        "ja": "ああ…何事もなくて本当によかったわ。どうしてかしら、私の花たちがいつもより元気そうなの！",
+        "en": "Oh, my dear... I'm so glad everything ended up okay. And my flowers look healthier than ever!",
+        "ko": "오, 이런... 모든 게 큰일 없이 마무리되어서 기쁘단다. 심지어 내 꽃들은 그 어느 때보다 건강해 보이는구나!",
+        "pt": "Oh, ufa... Estou feliz que todos ficaram bem. E as minhas flores parecem mais saudáveis do que nunca!",
+        "ru": "О боже... Я так рада, что все обошлось. А мои цветы теперь выглядят лучше прежнего!",
+        "tr": "Canım... Her şeyin iyi sonuçlanmış olmasına çok sevindim. Üstelik çiçeklerim her zamankinden daha sağlıklı görünüyor!",
+        "zh": "我的天哪……大家没事真的太好了。我的花好像还长得更好了！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'GreenRainFinished' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:GreenRain_2",
+      "author_key": "GreenRain_2",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Den Blumen scheint dieser Regen zu gefallen...",
+        "es": "Las flores parece que adoran esta lluvia...",
+        "fr": "Les fleurs semblent aimer cette pluie...",
+        "hu": "Úgy tűnik a virágok szeretik ezt az esőt...",
+        "it": "Sembra che i fiori adorino questa pioggia...",
+        "ja": "花たちはこの雨が好きみたいね…",
+        "en": "The flowers seem to love this rain...",
+        "ko": "꽃들이 이 비를 정말 좋아하는구나...",
+        "pt": "As flores parecem amar esta chuva...",
+        "ru": "Кажется, цветам этот дождь нравится...",
+        "tr": "Çiçekler bu yağmuru seviyor gibi...",
+        "zh": "这场雨下来，花应该会长得更好……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:Introduction",
+      "author_key": "Introduction",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ah, hallo und willkommen in unserer kleinen Gemeinde, mein Kind!#$b#Du kannst mich 'Oma' nennen, wenn du willst.$h",
+        "es": "¡Oh, hola! ¡Te damos la bienvenida a nuestra comunidad, cielo!#$b#Me puedes llamar «abuelita» si quieres.$h",
+        "fr": "Bonjour et bienvenue dans notre petite communauté !#$b#Tu peux m’appeler \"Mamie\" si tu veux.$h",
+        "hu": "Üdvözöllek a kis közösségünkben, kedves! #$b#Szólíts nyugodtan 'Nagyinak', ha szeretnél.$h",
+        "it": "Ma salve! Ti do il benvenuto nella nostra piccola comunità, tesoro! #$b#Puoi chiamarmi 'nonna', se ti va.$h",
+        "ja": "あら、こんにちは。この小さな町に よく来てくれたわね！#$b#良かったら 「おばあちゃん」って 呼んでね。$h",
+        "en": "Why, hello and welcome to our little community, dear! #$b#You can call me 'Granny' if you like.$h",
+        "ko": "어머, 안녕 얘야, 우리 주민 중 하나가 된 걸 환영한다! #$b#원한다면 나를 '할매'라고 불러도 괜찮단다.$h",
+        "pt": "Ora, ora... oi, e bem-vindo à nossa comunidade, querido!^Ora, ora... oi, e bem-vinda à nossa comunidade, querida!#$b#Você pode me chamar de \"vovó\", se quiser.$h",
+        "ru": "Здравствуй! Добро пожаловать к нам, душечка.#$b#Если хочешь, можешь называть меня просто бабушкой.$h",
+        "tr": "Küçük topluluğumuza hoş geldin canım! #$b#İstersen bana nine diyebilirsin.$h",
+        "zh": "啊，欢迎你来我们的小家园啊，亲爱的！#$b#如果乐意的话，就叫我“奶奶”吧。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Introduction' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:Mon",
+      "author_key": "Mon",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh! Was für ein schöner Tag.$u",
+        "es": "¡Oh, cielos! ¡Qué día tan hermoso!$u",
+        "fr": "Oh, mon Dieu ! Quelle belle journée.$u",
+        "hu": "Ó! Milyen pompás nap.$u",
+        "it": "Oh cielo! Che giornata piacevole.$u",
+        "ja": "おや、なんてステキな一日かしら。$u",
+        "en": "Oh my! What a lovely day.$u",
+        "ko": "어머나! 참 사랑스러운 날이구나.$u",
+        "pt": "Minha nossa! Que dia maravilhoso.$u",
+        "ru": "Боже мой! Какой милый денек.$u",
+        "tr": "Amanın! Ne güzel bir gün.$u",
+        "zh": "哎呀！天气真好啊。$u"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:MovieInvitation",
+      "author_key": "MovieInvitation",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oje! Das ist so nett von dir. Aber ja ... Ich würde gerne ins Kino gehen!$h#$b#Geh schon mal vor, ich treffe dich dann im Kino.",
+        "es": "¡Oh vaya! Eso muy amable de tu parte, cariño. Claro que sí... ¡Me encantaría ir a ver una película!$h#$b#Ve tú primero, nos vemos en el cine.",
+        "fr": "Ho ! C’est si gentil de ta part. Je serais ravie d’aller au cinéma avec toi !$h#$b#Je te rejoins au cinéma.",
+        "hu": "Óh, egek! Ez olyan kedves tőled, kedveském. Nos, igen... szívesen elmennék a moziba!$h#$b#Nyugodtan menj előre, majd a mozinál találkozunk.",
+        "it": "Oh cielo! È molto gentile da parte tua, tesoro. Ma certo... mi farebbe molto piacere vedere un film!$h#$b#Tu vai pure, ci vediamo al cinema.",
+        "ja": "あらまあ! そんなこと言われると嬉しいわ。ええ… 喜んで映画に行きますよ!$h#$b#あなたは先に行っててちょうだい。映画館で会いましょう。",
+        "en": "Oh my! That's so kind of you, dear. Why yes... I'd love to go to the movies!$h#$b#You go on ahead, and I'll meet you at the theater.",
+        "ko": "어머! 정말 멋진 제안이구나, 얘야. 그래... 같이 영화를 보면 정말 좋겠구나!$h#$b#먼저 가 있으렴, 극장에서 만나자꾸나.",
+        "pt": "Nossa! Que gentileza sua, jovem. Claro... eu adoraria assistir a um filme!$h#$b#Pode ir à frente, e eu te encontro no cinema.",
+        "ru": "Ух ты! Так мило с твоей стороны. Почему бы и нет... Я бы сходила в кино!$h#$b#Ты иди, встретимся у кинотеатра.",
+        "tr": "Ay! Çok naziksin canım. Evet... Sinemaya gitmeyi çok isterim!$h#$b#Sen önden git. Sinemada buluşuruz.",
+        "zh": "哎呀！你真好，亲爱的。当然了……我很愿意去看电影！$h#$b#你先去吧，我们电影院见。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'MovieInvitation' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:Sat",
+      "author_key": "Sat",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich mochte es immer sehr, die Wolken zu betrachten, aber heutzutage habe ich Probleme, sie zu sehen.#$e#Meine Augen funktionieren einfach nicht mehr so gut wie früher.$s",
+        "es": "Antes me encantaba mirar las nubes, pero últimamente me cuesta verlas.#$e# Mis ojos ya no funcionan tan bien como antes.$s",
+        "fr": "J’adorais regarder les nuages, mais j’ai du mal à les voir maintenant.#$e#Mes yeux ne sont plus aussi bons qu’avant.$s",
+        "hu": "Régen szerettem a felhőket nézni, de manapság már alig látom őket.#$e#Nem olyanok már a szemeim mint régen.$s",
+        "it": "Adoravo osservare le nuvole, prima, ma ultimamente faccio fatica a vederle.#$e# I miei occhi non sono più quelli di un tempo.$s",
+        "ja": "空を見上げて 雲を眺めるのが 好きだったけど、 最近は目がよく見えなくてね。#$e#昔と比べて 視力が 落ちてきたのかしら。$s",
+        "en": "I used to love looking at the clouds, but I have trouble seeing them these days.#$e# My eyes just don't work as well as they used to.$s",
+        "ko": "구름 구경을 참 좋아했었는데, 요즘은 눈에 잘 보이지 않더구나.#$e# 눈이 예전 같지 않은 게야.$s",
+        "pt": "Eu adorava olhar para as nuvens, mas tenho dificuldade em vê-las hoje.#$e# Meus olhos já não funcionam tão bem quanto antes.$s",
+        "ru": "Раньше я любила смотреть на облака, но теперь я с трудом их различаю.#$e# Глаза у меня уже не те, что прежде.$s",
+        "tr": "Eskiden bulutlara bakmayı severdim, şimdilerde ise onlara bakmakta zorlanıyorum.#$e# Gözlerim eskisi kadar iyi değil.$s",
+        "zh": "我喜欢看云彩，不过现在是看不到了。#$e#我的眼睛不像以前那么好使了。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:Sun",
+      "author_key": "Sun",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Es ist so schön, in der Nähe des Meers zu leben. Das Geräusch der Wellen wiegt mich immer in den Schlaf.#$e#Als Kinder haben wir nach Muscheln gesucht, sobald es Ebbe war. Das waren noch Tage...",
+        "es": "Es agradable estar tan cerca del océano. El sonido del mar me ayuda a dormirme antes.#$e#Cuando éramos niños, buscábamos conchas cuando bajaba la marea. Qué tiempos aquellos...",
+        "fr": "J’aime être proche de la mer. Le bruit des vagues m’aide à m’endormir.#$e#Quand j’étais enfant, nous cherchions les coquillages à la marée basse. C’était le bon vieux temps...",
+        "hu": "Jó, hogy ilyen közel vagyunk a tengerhez. A hangja megkönnyíti az elalvást.#$e#Gyerekként mindig kagylóhéjra vadásztunk ahogy visszavonult az ár. Szép napok voltak...",
+        "it": "È bello essere così vicini all'oceano. Il rumore del mare facilita molto il sonno.#$e#Da bambini, passata l'alta marea, andavamo a caccia di conchiglie. Bei tempi...",
+        "ja": "海の近くに 住むのって ステキね。波打つ音で、 心地よく 眠れるのよ。#$e#子どもの 頃は、 潮が引いた時に 貝殻を 探しに行ってたわ。あの頃はよかった…",
+        "en": "It's nice to be so close to the ocean. The sound of the sea makes going to sleep a lot easier.#$e#As kids we hunted for seashells after the tide went out. Those were the days...",
+        "ko": "바다 근처에 있어서 참 좋은 일이야. 바다 소리 덕분에 잠에 푹 든단다.#$e#어렸을 땐 썰물이 빠지면 조가비를 찾으러 다니곤 했지. 그리운 추억이야...",
+        "pt": "É bom estar tão perto do oceano. O som do mar torna dormir muito mais fácil.#$e#Quando éramos crianças, caçávamos conchas quando a maré baixava. Ah, tempo bom...",
+        "ru": "Хорошо жить рядом с океаном. Шум моря так хорошо убаюкивает.#$e#Когда мы были детьми, мы ходили собирать ракушки после прилива. Вот были времена...",
+        "tr": "Denize bu kadar yakın olmamız çok iyi. Denizin sesi uykuya dalmamı kolaylaştırıyor.#$e#Çocukken gelgit bittiğinde deniz kabukları toplardık, ah eski günler...",
+        "zh": "离大海这么近真好。海的声音让我安然入睡。#$e#小时候我们总在退潮后去找贝壳。那些日子真是……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:Thu",
+      "author_key": "Thu",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich backe heute Kekse. Ich mag es, im Frühling Blumenformen zu benutzen.$h#$e#Vielleicht verrate ich dir eines Tages mein Rezept.",
+        "es": "Hoy voy a hacer galletas. Me gusta hacerlas con forma de flor cuando es primavera.$h#$e#A lo mejor uno de estos días te doy mi receta.",
+        "fr": "Je vais faire des biscuits aujourd’hui. J’aime les faire en forme de fleurs du printemps.$h#$e#Je te révélerai peut-être ma recette un de ces jours.",
+        "hu": "Ma sütit fogok sütni. Tavasszal szeretek virágformákat készíteni.$h#$e#Talán egy napon majd elmondom a receptet is.",
+        "it": "Oggi preparo i biscotti. Mi piace farli a forma di fiore, in primavera.$h#$e#Magari uno di questi giorni ti spiegherò la ricetta.",
+        "ja": "今日は クッキーを 焼こうと 思ってるの。春だから、 花の形がいいかなって。$h#$e#近いうちに、 作り方を 教えてあげるわね。",
+        "en": "I'll be baking cookies today. I like to make flower shapes in the spring.$h#$e#Maybe I'll tell you my recipe one of these days.",
+        "ko": "오늘은 쿠키를 구울 거란다. 봄에는 꽃 모양으로 만들면 재미있더구나.$h#$e#어쩌면 언젠가 내 레시피를 알려줄 수도 있겠다.",
+        "pt": "Vou assar biscoitos hoje. Gosto de fazê-los em forma de flor na primavera.$h#$e#Talvez eu conte a receita um dia desses.",
+        "ru": "Сегодня я буду печь печенье. Весной я люблю печь печеньки в виде цветочков.$h#$e#Может, я как-нибудь и поделюсь с тобой рецептом.",
+        "tr": "Bugün kurabiye pişireceğim. Baharda onları çiçek şeklinde yapmayı seviyorum.$h#$e#Belki bir gün sana tarifimi veririm.",
+        "zh": "今天我要烤点曲奇。春天的时候，我喜欢把曲奇做成花瓣形状的。$h#$e#以后我没准会把做法告诉你哦。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:Tue",
+      "author_key": "Tue",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Lass dich nicht von meinem Mann George stören. Er ist nicht sonderlich freundlich zu Fremden.#$e#Wenn du ihn besser kennenlernst, wird er sich dir öffnen.#$e#Ich bin mir sicher, dass ihr beiden eines Tages gute Freunde sein werdet!$h#$e#Weil du so interessiert an meinem Mann bist, erzähle ich dir ein kleines Geheimnis: Er liebt Lauch! Du kannst ihn zu dieser Jahreszeit in den Bergen finden.",
+        "es": "No hagas caso a mi marido, George. No es muy simpático con los desconocidos.#$e#Cuando os conozcáis mejor será más amable.#$e#¡Seguro que podéis llegar a ser grandes amigos algún día!$h#$e#Ya que te interesa tanto mi marido, te contaré un secreto. ¡Le encantan los puerros! En esta época los puedes encontrar en las montañas.",
+        "fr": "Ne fais pas attention à mon mari, George. Il n’est pas très aimable avec les étrangers.#$e#Si tu apprends à le connaître un peu, il sera moins froid avec toi.#$e#Je suis sûre que vous pourriez devenir de bons amis un jour !$h#$e#Puisque tu t’intéresses tant à mon mari, je vais te confier un petit secret : il adore les poireaux ! On en trouve dans la montagne à cette époque de l’année.",
+        "hu": "Ne törödj a férjemmel, Georgedzsal. Idegenekkel elég barátságtalan.#$e#Ha megismered, majd hozzádszokik.#$e#Egy nap még jó barátok lehettek, tudom!$h#$e#Mivel ennyire érdekel a férjem, elmondok egy kis titkot: nagyon szereti a póréhagymát! Ebben az időszakban ilyesmit a hegyekben találhatsz.",
+        "it": "Non fare caso a mio marito George. Non è molto accogliente con gli estranei.#$e#Se imparerai a conoscerlo meglio, vedrai che si scioglierà.#$e#Sono certa che voi due potreste essere buoni amici, un giorno!$h#$e#Visto che mio marito t'interessa tanto, ti svelerò un piccolo segreto: va matto per i porri! In questo periodo dell'anno puoi trovarli in montagna.",
+        "ja": "夫のジョージのこと、 あまり気にしないでちょうだい。見知らぬ人に 好意をもてないタイプなのよ。#$e#でも知り合ったら 打ち解けてくれるはず。#$e#きっと あなた達二人は いい お友達に なれるわ！$h#$e#夫に 興味を 持ってくれる あなたには 秘密を 教えてあげる。 あの人、ポロねぎが 大好きなの！ポロねぎは、 この季節に山へ行けば 見つかるはずよ。",
+        "en": "Don't mind my husband, George. He isn't very friendly to strangers.#$e#If you get to know him better he'll warm up to you.#$e#I'm sure you two could become good friends one day!$h#$e#Since you're so interested in my husband I'll let you in on a little secret: he really likes leeks! You can find them in the mountains this time of year.",
+        "ko": "내 남편 조지는 너무 신경 쓰지 말거라. 처음 보는 사람한테 그렇게 친절하진 않아서.#$e#더 잘 알게 되면 분명 마음을 열 거야.#$e#분명 언젠가는 둘이 좋은 친구가 될 수 있을 거야!$h#$e#남편에 대해 궁금한 게 많아 보여서 한가지 비밀을 알려주마: 리크를 정말 좋아한단다! 이맘때 산에 난단다.",
+        "pt": "Não ligue para o meu marido, o George. Ele não é muito legal com estranhos.#$e#Quando você o conhece melhor, ele se abre com você.#$e#Tenho certeza que vocês dois vão ser ótimos amigos um dia!$h#$e#Já que você tem interesse em meu marido, vou contar um segredinho: ele ama alho-poró! Você pode encontrar alho-poró nas montanhas nesta época do ano.",
+        "ru": "Не обращай внимания на моего муженька Джорджа. Он не жалует незнакомцев.#$e#Если ты узнаешь его поближе, он и оттает.#$e#Я уверена, когда-нибудь вы станете добрыми друзьями!$h#$e#Раз уж тебе так интересен мой муж, открою тебе один секретик: он очень любит лук-порей! Порей как раз растет в это время года в горах.",
+        "tr": "Kocam George'a takılma, yabancılara karşı pek iyi değildir.#$e#Eğer onu tanımaya devam edersen iyi geçinebilirsiniz.#$e#Bir gün iyi arkadaşlık kuracağınıza eminim!$h#$e#Madem kocamla bu kadar ilgilisin, sana birkaç tüyo vereyim. Pırasayı çok sever. Yılın bu zamanlarında pırasayı dağlarda bulabilirsin.",
+        "zh": "不要在意我的丈夫，乔治。他对陌生人不太友好。#$e#要是你和他熟了以后他会对你很热情的。#$e#我相信你们有一天会成为好朋友的！$h#$e#既然你对他很感兴趣，我可以告诉你一个小秘密：他很喜欢韭菜！在这个时节，你可以到山里摘一些给他。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:Tue6",
+      "author_key": "Tue6",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Es ist nett von dir, George und mich zu besuchen.#$e#Ohne junge Leute um uns herum würden wir viel schneller altern.$h",
+        "es": "Qué amable por tu parte venir a visitarnos.#$e#Sin gente joven alrededor, envejeceríamos mucho más rápido.$h",
+        "fr": "C’est gentil de ta part de prendre le temps de venir nous voir, George et moi.#$e#Si nous n’avions pas de jeunes autour de nous, nous vieillirions bien plus vite.$h",
+        "hu": "Kedves tőled, hogy meglátogatsz minket Georgedzsal.#$e#A fiatalok közelsége nélkül sokkal gyorsabban öregednénk.$h",
+        "it": "È gentile da parte tua trovare il tempo per fare visita a me e a George.#$e#Senza il contatto coi giovani, invecchieremmo assai più in fretta.$h",
+        "ja": "わざわざ 私とジョージに 会いに きてくれるなんて うれしいわ。#$e#若い子が そばに いないと、年を取るのが 早く感じるのよ。$h",
+        "en": "It's nice of you to take the time to visit George and I.#$e#Without young people around, we'd age much faster.$h",
+        "ko": "시간을 내서 나와 조지를 방문해줘서 너무 좋구나.#$e#주변에 젊은 사람이 없다면, 우리도 더 빨리 늙을 거야.$h",
+        "pt": "É muito gentil de sua parte tirar um tempo para visitar George e eu.#$e#Sem jovens por perto, envelheceríamos muito mais rápido.$h",
+        "ru": "Очень мило, что ты заходишь к нам с Джорджем в гости.#$e#Мы бы состарились куда быстрее, если бы вокруг не было молодежи.$h",
+        "tr": "George ve beni ziyaret etmek için zaman ayırman çok ince bir hareket.#$e#Etrafımızdaki gençler olmasaydı, daha çabuk yaşlanırdık.$h",
+        "zh": "谢谢你来看我和乔治。#$e#没有年轻人陪着我们的话，我们可能就老得更快了。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:Wed",
+      "author_key": "Wed",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "#$1 evelynGarden1#Ich habe gestern die schönste Schmetterlingsfamilie gesehen, wie sie sich im Stadtgarten gesonnt hat.$k#$e#Der gute Bürgermeister hat mich für die städtischen öffentlichen Gärten verantwortlich gemacht.#$e#Ich habe wochenlang an den Blumenbeeten gearbeitet, bitte tritt nicht in sie rein!",
+        "es": "#$1 evelynGarden1#Ayer vi a una hermosa familia de mariposas tomar el sol en los jardines del pueblo.$k#$e#El bueno del alcalde me ha puesto a cargo de los jardines del pueblo.#$e#Llevo trabajando en los planteles durante semanas, ¡así que no me los pises!",
+        "fr": "#$1 evelynGarden1#J’ai vu les plus beaux papillons faire bronzette dans les jardins publics hier.$k#$e#Notre bon maire m’a confié la responsabilité des jardins publics de la ville.#$e#Je m’occupe des parterres de fleurs depuis des semaines, alors ne marche pas dessus !",
+        "hu": "#$1 evelynGarden1#Olyan gyönyörű pillangócsaládot láttam tegnap sütkérezni a városi kertben.$k#$e#Az a kedves polgármesterünk kinevezett a város közös kertjeinek gondnokává.#$e#Hetekig dolgoztam a városi virágágyásokon, szóval kérlek ne lépj rájuk!",
+        "it": "#$1 evelynGarden1#Ieri ho visto uno splendido sciame di farfalle che prendevano il sole nel giardino del paese.$k#$e#Il buon sindaco ha affidato a me la cura dei giardini pubblici del paese.#$e#Sono settimane che lavoro alle aiuole del paese, quindi non calpestarle!",
+        "ja": "#$1 evelynGarden1#昨日、 町の公園で とても美しい 蝶の つがいが 日向ぼっこを しているのを 見たわ。$k#$e#町長さんが、 この公園を 私に 任せてくださっているの。#$e#何週間もかけて、 花壇のお手入れをしているから、 踏まないようにしてちょうだい！",
+        "en": "#$1 evelynGarden1#I saw the most beautiful family of butterflies sunning themselves in the town garden yesterday.$k#$e#The good Mayor put me in charge of the town's public gardens.#$e#I've been working on the town flower beds for weeks, so don't step on them!",
+        "ko": "#$1 evelynGarden1#어제 마을 정원에서 너무나 아름다운 나비 한 가족이 햇볕을 쬐는 것을 봤단다.$k#$e#시장님께서 나를 마을 공공농원 책임자로 두었지.#$e#몇 주째 가꾼 화단이니, 밟지 않도록 조심하렴!",
+        "pt": "#$1 evelynGarden1#Vi a família de borboletas mais linda pegando sol no jardim da cidade ontem.$k#$e#O bom prefeito me encarregou de tomar conta dos jardins públicos da cidade.#$e#Estive trabalhando nos canteiros há semanas, então não pise neles!",
+        "ru": "#$1 evelynGarden1#Вчера я видела, как премилая семейка бабочек грелась на солнышке в городском саду.$k#$e#Наш добрый мэр отдал городской сад мне на попечение.#$e#Я много недель работала над клумбами, так что не ходи по ним!",
+        "tr": "#$1 evelynGarden1#Dün kasaba bahçesinde şimdiye kadar gördüğüm en güzel kelebek ailesi güneşleniyordu.$k#$e#Başkan beni kasabanın bahçelerinden sorumlu tuttu.#$e#Aylardır çiçek yatakları için uğraşıyorum, sakın onlara basma!",
+        "zh": "#$1 evelynGarden1#我昨天在花园里看见了一群蝴蝶，真是美丽至极。$k#$e#镇长人不错，他让我负责全镇的公共花园。#$e#这个园圃，我已经护理数周了，可不要随意踩踏啊！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:cc_Complete",
+      "author_key": "cc_Complete",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Es ist schön, das alte Gemeindezentrum wieder zu haben. Wir haben so viele Erinnerungen an die alten Zeiten... Es ist ein besonderer Ort.",
+        "es": "Es maravilloso tener el viejo centro cívico de vuelta. Tenemos tantos recuerdos de los viejos tiempos... Es un lugar especial.",
+        "fr": "C’est vraiment bien d’avoir à nouveau notre ancien centre communautaire. Nous avons tant de souvenirs de cette époque... C’est un endroit très spécial.",
+        "hu": "Nagy öröm visszakapni a régi közösségi központot. Olyan sok emlékünk van a régi időkből... Az egy különleges hely.",
+        "it": "È un piacere avere di nuovo il vecchio centro sociale. Abbiamo così tanti ricordi dei vecchi tempi... È un posto speciale.",
+        "ja": "公民館が元通りになってとってもうれしいわ。あそこにはたくさんの思い出がつまっているの…特別な場所なのよ。",
+        "en": "It's lovely to have the old community center back. We have so many memories from the old days... It's a special place.",
+        "ko": "마을 회관이 다시 고쳐지다니, 사랑스럽구나. 옛날 추억이 너무나도 많은 특별한 곳이지.",
+        "pt": "É ótimo ver o velho centro comunitário reformado. Nós temos tantas memórias dos velhos tempos... É um lugar muito especial.",
+        "ru": "Хорошо, что старый клуб восстановили. С ним связано столько воспоминаний... Особое место.",
+        "tr": "Eski halkevinin açılması güzel. Orada ne anılarım var... Benim için özel bir yer.",
+        "zh": "社区中心能恢复真是太好了，以前可喜欢待在那里了……对我们来说意义非凡。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "community_center_event",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "community_center"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:cropMatured_591",
+      "author_key": "cropMatured_591",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Selbstgezogene Tulpen sind ein schönes Frühlingsgeschenk.",
+        "es": "Los tulipanes de cosecha propia son un lindo regalo primaveral.",
+        "fr": "Les tulipes cultivées à la maison constituent un beau cadeau de printemps.",
+        "hu": "Az otthon növesztett tulipánok remek tavaszi ajándékok.",
+        "it": "I tulipani coltivati in casa possono essere un regalo primaverile delizioso.",
+        "ja": "自分で育てたチューリップは春の素敵な贈り物になるのよ。",
+        "en": "Home-grown tulips make for a lovely springtime gift.",
+        "ko": "직접 기른 튤립은 정말 사랑스러운 봄철 선물이지.",
+        "pt": "Tulipas caseiras são um ótimo presente de primavera.",
+        "ru": "Домашние тюльпаны — прекрасный весенний подарок.",
+        "tr": "Evde yetiştirilen laleler, bahar için harika bir hediye olur.",
+        "zh": "春天送别人一枝自家种的郁金香，那是极好的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'cropMatured_591' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:divorce",
+      "author_key": "divorce",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wenn du das nächste Mal heiratest, achte darauf, dass es die richtige Entscheidung ist...$s",
+        "es": "La próxima vez que te cases, asegúrate que es la persona indicada...$s",
+        "fr": "La prochaine fois que tu te marieras, assure-toi que ce soit la bonne personne...$s",
+        "hu": "Ha legközelebb megházasodsz, győződj meg arról, hogy ő lesz az igazi...$s",
+        "it": "La prossima volta che ti sposi, assicurati che sia con la persona giusta...$s",
+        "ja": "こんど結婚するときは、ちゃんと考えてから相手を決めてちょうだいね…$s",
+        "en": "Next time you marry, make sure it's the right one...$s",
+        "ko": "다음에 결혼할 때는 꼭 잘 맞는 상대와 하거라...$s",
+        "pt": "Da próxima vez que você se casar, tenha certeza que é a pessoa certa...$s",
+        "ru": "В следующий раз выбирай для брака подходящего человека...$s",
+        "tr": "Bir daha evleneceğinde doğru kişi ile olduğundan emin ol...$s",
+        "zh": "下次结婚的时候，你一定要找到真爱啊……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'divorce' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:fall_Mon",
+      "author_key": "fall_Mon",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Mit jedem Jahr schätze ich die Jahreszeiten mehr und mehr. Für junge Leute ist es einfach, sie einfach vergehen zu lassen.",
+        "es": "Cada año que pasa valoro más las estaciones. Para los jóvenes es fácil dejarlas pasar sin más.",
+        "fr": "Chaque année, j’apprécie de plus en plus les saisons. Quand on est jeune, on n’y prête pas vraiment attention.",
+        "hu": "Minden évben egyre jobban és jobban tisztelem az évszakokat. A fiatalok még könnyen elszaladnak mellettük.",
+        "it": "Ogni anno che passa, apprezzo sempre di più le stagioni. Per i giovani è facile lasciarle scorrere via.",
+        "ja": "年が過ぎるにつれて、 季節を前よりも 楽しむように しているの。若い人にとって、 年月は あっという間 でしょうけど。",
+        "en": "With every year I appreciate the seasons more and more. For young people it's easy to let them slip by.",
+        "ko": "해가 지날수록 계절의 진가를 점점 알게 되는 것 같구나. 젊었을 때는 쉽게 놓치던 것들이지.",
+        "pt": "Todos os anos, aprecio mais e mais as estações. Os jovens deixam tudo passar tão fácil!",
+        "ru": "С каждым годом я все больше ценю каждое время года. Для молодежи год легко может пролететь незаметно.",
+        "tr": "Yıllar geçtikçe mevsimleri daha çok beğenir oldum. Gençler için onların geçtiğini fark etmemek çok kolay.",
+        "zh": "随着时间流逝，我越来越喜欢各个季节。对于年轻人来说，总是让这些美好的时光悄悄流逝呢。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:fall_Sat",
+      "author_key": "fall_Sat",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Bist du näher mit Alex befreundet?#$e#Manchmal mache ich mir wirklich Sorgen um ihn.",
+        "es": "¿Te llevas bien con Alex?#$e#A veces me preocupa muchísimo.",
+        "fr": "Es-tu ami avec Alex ?#$e#Il m’inquiète parfois.",
+        "hu": "Barátok vagytok Alexszel?#$e#Néha betegre aggódom magam érte.",
+        "it": "Tu e Alex siete amici?#$e#A volte mi fa preoccupare a morte.",
+        "ja": "アレックスとは お友達？ #$e#時々、 あの子の ことで 心配になるのよ。",
+        "en": "Are you friends with Alex?#$e#Sometime he worries me sick.",
+        "ko": "알렉스랑 친하니?#$e#가끔 그 아이 때문에 걱정이 태산이란다.",
+        "pt": "Você é amigo do Alex?#$e#Às vezes, ele me mata de preocupação.",
+        "ru": "Вы с Алексом дружите?#$e#Иногда я за него так волнуюсь.",
+        "tr": "Alex ile arkadaş mısın?#$e#Bazen beni çok endişelendiriyor.",
+        "zh": "你们是亚历克斯的朋友吗？#$e#他有时候总担心我生病。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:fall_Sat_inlaw_Alex",
+      "author_key": "fall_Sat_inlaw_Alex",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh, hallo ${Jungchen^Kleine}$. Ich sehe dich inzwischen schon wie ${meinen eigenen Enkel^meine eigene Enkelin}$.$h",
+        "es": "Oh, hola, cielo. Para mí ya eres como ${un nieto más^una nieta}$.$h",
+        "fr": "Oh, bonjour. Je te considère comme ${mon petit-fils^ma petite-fille}$ à présent.$h",
+        "hu": "Ó, szerbusz kis drágám. Most már úgy gondolok rád mint a saját kisunokámra.$h",
+        "it": "Oh, salve, ${tesoro mio^mia cara}$. Ormai sei come ${un altro^un'altra}$ nipote, per me.$h",
+        "ja": "あら、よくきてくれたわね。今じゃ、あなたのことを${孫^孫娘}$だと思ってるわ。$h",
+        "en": "Oh, hello my dear. I think of you as my own ${grandson^grand-daughter}$ now.$h",
+        "ko": "오, 안녕 내 아가야. 이젠 너도 내 ${손주^손녀}$ 같단다.$h",
+        "pt": "Ah... oi, ${querido^querida}$. Agora, ${você é como um neto para mim^considero você minha neta}$.$h",
+        "ru": "Ой, здравствуй, ${мой хороший^моя хорошая}$. Ты мне теперь как ${внук^внучка}$.$h",
+        "tr": "Merhaba canım! Seni torunum olarak görüyorum artık!$h",
+        "zh": "哦，你好啊，亲爱的。我现在把你当做我的亲孙${子^女}$。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:fall_Sun",
+      "author_key": "fall_Sun",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Meine Sicht mag schwach sein, aber meine Nase hat mich noch nicht im Stich gelassen!#$e#Ich kann die Herbstblätter und Pilze riechen. Es erinnert mich an den Wald, in dem ich als Kind immer gespielt habe.",
+        "es": "Mi vista no es muy buena, ¡pero la nariz aún no me falla!#$e#Huele a hojas caídas y setas. Me recuerda a los bosques en los que jugaba de niña.",
+        "fr": "Ma vue est peut-être mauvaise, mais mon nez ne m’a jamais failli jusqu’à présent !#$e#Je sens les feuilles mortes et les champignons. Ça me rappelle les forêts dans lesquelles j’avais l’habitude de jouer quand j’étais petite.",
+        "hu": "A látásom megcsalhat, de az orrom még sosem hagyott cserben!#$e#Hulló faleveleket és gombát érzek. Arra az erdőre emlékeztet, melyben kislánykoromban játszadoztam.",
+        "it": "La mia vista sarà da buttare, ma il mio naso funziona ancora benone!#$e#Sento l'odore dei funghi e delle foglie cadute. Mi ricorda le foreste dove giocavo da bambina.",
+        "ja": "私の視力は 落ちてるでしょうけど、 鼻はまだまだ しっかりしてるわ！#$e#落ち葉と キノコの 匂いを嗅ぐと、若い頃に 遊んだ 森のことを 思い出すわ。",
+        "en": "My eyesight may be poor, but my nose hasn't failed me yet!#$e#I can smell fallen leaves and mushrooms. It reminds me of the forests I used to play in as a girl.",
+        "ko": "내 시력이 예전 같진 않지만, 후각은 아직 뛰어나단다!#$e#낙엽과 버섯 향기를 맡으면, 내가 소녀 때 놀던 숲이 기억나.",
+        "pt": "Meus olhos podem não estar bons, mas meu nariz funciona muito bem!#$e#Sinto o cheiro de folhas caídas e cogumelos. Fico lembrando da floresta na qual brincava quando era menina.",
+        "ru": "Может, глаза у меня и отказывают, но нос пока еще не подводил!#$e#Я чую опавшую листву и грибочки. Эти запахи напоминают мне о лесах, в которых я играла маленькой девочкой.",
+        "tr": "Görüşüm kötü olabilir ama burnum hâlâ sapasağlam!#$e#Mantar ve çürük yaprakların kokusunu alabiliyorum. Bana küçük bir kızken oynadığım ormanları hatırlatıyor.",
+        "zh": "我视力可能不太好，但是鼻子很灵！#$e#我能闻到落叶和蘑菇的味道。这使我想起了我还是小女孩的时候去玩耍的森林。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:fall_Thu",
+      "author_key": "fall_Thu",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Heute backe ich Kekse. Sie sind wie kleine Kürbisse geformt.$h#$e#Vielleicht verrate ich dir später mal das Rezept.",
+        "es": "Hoy voy a hacer galletas. Tienen forma de calabazas diminutas.$h#$e#A lo mejor un día de estos te doy la receta.",
+        "fr": "Je vais faire des cookies aujourd’hui. Ils sont en forme de petites citrouilles.$h#$e#Je te révélerai peut-être ma recette un de ces jours.",
+        "hu": "Ma sütit fogok sütni. Pici tökalakú sütemények lesznek.$h#$e#Talán egy napon majd elmondom a receptet is.",
+        "it": "Oggi preparo i biscotti. Li faccio a forma di zucchette.$h#$e#Magari uno di questi giorni ti spiegherò la ricetta..",
+        "ja": "今日は クッキーを 焼いてるの。今回は 小さな カボチャの形に したわ。$h#$e#近いうちに、 作り方を 教えてあげるわね。",
+        "en": "Today I'm baking cookies. They're shaped like little pumpkins.$h#$e#Maybe I'll tell you my recipe one of these days.",
+        "ko": "오늘은 쿠키를 구울 거란다. 자그마한 호박 모양으로 만들었지.$h#$e#어쩌면 언젠가 내 레시피를 알려줄 수도 있겠다.",
+        "pt": "Hoje, vou assar biscoitos. Eles possuem formato de abóbora.$h#$e#Quem sabe eu não conte minha receita um dia desses.",
+        "ru": "Сегодня я пеку печенье. Оно будет в форме тыковок.$h#$e#Может, я как-нибудь и поделюсь с тобой рецептом.",
+        "tr": "Bugün kurabiye pişiriyorum. Şekilleri ufak bal kabakları gibi.$h#$e#Belki bir gün tarifimi sana veririm.",
+        "zh": "我今天要烤些饼干。是小南瓜形状的哦。$h#$e#以后我没准会把做法告诉你哦。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:fall_Tue",
+      "author_key": "fall_Tue",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe Rosinen in Georges Haferflocken gemischt... Aber er hat kein Wort gesagt. Ich frage mich, ob er so etwas überhaupt bemerkt?",
+        "es": "Últimamente añado pasas a las gachas de George... Pero no ha dicho ni una palabra. ¿Es que no se da cuenta de estos pequeños detalles?",
+        "fr": "J’ai mis des raisins dans les flocons d’avoine de George... mais il n’a pas dit un mot. Je me demande s’il a remarqué quelque chose de différent !",
+        "hu": "Újabban mazsolát is teszek George zabkásájába... de egy szót sem szólt. Észreveszi-e egyáltalán ezeket a dolgokat?",
+        "it": "Ho iniziato a mettere l'uvetta nei fiocchi d'avena di George... ma non ha detto una parola. Le noterà queste cose?",
+        "ja": "ジョージの オートミールに レーズンを 入れてるんだけど… 彼は 何も言わなかったわ。レーズンが 入ってるのに 気づいてないのかしら？",
+        "en": "I've been putting raisins in George's oatmeal... but he hasn't said a word. I wonder if he even notices these things?",
+        "ko": "조지의 오트밀에 건포도를 넣기 시작했는데... 전혀 언급이 없더구나. 이런 걸 눈치채긴 하는 걸까?",
+        "pt": "Ando colocando uva-passas na aveia do George... mas ele não diz nada. Será que ele percebe essas coisas?",
+        "ru": "Я кладу Джорджу в овсянку изюм... Но он еще ни словом об этом не обмолвился. Интересно, он вообще замечает такие вещи?",
+        "tr": "George'nin yulaf lapasının içine kuru üzüm koymaya başladım... ama bir şey demedi. Merak ediyorum acaba hiç böyle şeyleri fark ediyor mu?",
+        "zh": "我在乔治的燕麦里面放了葡萄干……但他一句话都没说。我在想他到底注意到没有？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:fall_Wed",
+      "author_key": "fall_Wed",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Der gute Bürgermeister hat mich für die städtischen öffentlichen Gärten verantwortlich gemacht.#$e#Die Herbstblumen sind empfindlich, stampfe also bitte nicht auf ihnen herum! Ich weiß, wie gerne ihr Kinder das macht.",
+        "es": "El bueno del alcalde me ha puesto a cargo de los jardines del pueblo.#$e#Las flores otoñales son delicadas, ¡así que no me las pises! Sé que a los jóvenes os encanta.",
+        "fr": "Notre bon maire m’a confié la responsabilité des jardins publics du village.#$e#Les fleurs d’automne sont délicates, alors ne va pas les piétiner !Je sais bien comment sont les jeunes.",
+        "hu": "Az a kedves polgármesterünk kinevezett a város közös kertjeinek gondnokává.#$e#Az őszi virágok nagyon érzékenyek, szóval ne taposd le őket! Tudom, hogy ti fiatalok milyenek vagytok...",
+        "it": "Il buon sindaco ha affidato a me la cura dei giardini pubblici del paese.#$e#I fiori d'autunno sono delicati, quindi vedi di non acciaccarli! So bene come vi divertite, voi giovani.",
+        "ja": "町長さんが、 この公園を 私に 任せてくださっているの。#$e#秋の花は デリケートだから、 踏まないようにしてちょうだい！子ども達が どうしたいかは お見通しよ。",
+        "en": "The good Mayor put me in charge of the town's public gardens.#$e#The fall flowers are delicate, so don't go stomping on them! I know how you kids like to do.",
+        "ko": "시장님께서 나를 마을 공공농원 책임자로 두었단다.#$e#가을꽃은 연약하니, 막 밟고 다니진 말렴! 아이들이 어떤지는 잘 알고 있단다.",
+        "pt": "O bom prefeito me encarregou dos jardins públicos da cidade.#$e#As flores do outono são muito delicadas, então não pise nelas! Eu sei que vocês crianças fazem isso.",
+        "ru": "Наш добрый мэр отдал городской сад мне на попечение.#$e#Осенние цветы очень нежные, так что не топчись по ним! Я же знаю, что вы, детки, любите так делать.",
+        "tr": "Başkan beni kasabanın bahçelerinden sorumlu tuttu.#$e#Güz çiçekleri narinlerdir, sakın onların üstünden geçme! Bazı çocukların bunu yapmayı sevdiğini biliyorum.",
+        "zh": "镇长人不错，他让我负责全镇的公共花园。#$e#秋天的花很娇贵，所以别进去踩！我知道你们这些孩子就喜欢这样干。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:married",
+      "author_key": "married",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich freue mich sehr für dich.$h#$e#Junge verliebte Menschen zu sehen, ist für alte Omas wie mich herzerwärmend.",
+        "es": "Estoy muy feliz por ti, cariño.$h#$e#Ver a los jóvenes enamorados es enternecedor para las abuelitas como yo.",
+        "fr": "Je suis très heureuse pour toi.$h#$e#Voir de jeunes gens amoureux fait chaud au cœur aux vieilles mamies comme moi.",
+        "hu": "Nagyon örülök nektek, kedveském.$h#$e#Az ilyen öreg nagyiknak szívmelengető érzés fiatal szerelmespárokat látni.",
+        "it": "Sono davvero felice per te, tesoro.$h#$e#Vedere i giovani innamorati scalda il cuore alle nonne anziane come me.",
+        "ja": "私もとってもうれしいわ。$h#$e#私みたいなおばあちゃんは、恋をしている若い子たちを見ると心が温かくなるのよ。",
+        "en": "I'm very happy for you, dear.$h#$e#Seeing young people in love is heartwarming for old grannies like me.",
+        "ko": "결혼했다니, 경사구나 아가야.$h#$e#젊은 사람들이 사랑하는 모습을 보면 나 같은 할머니는 마음이 따뜻해진단다.",
+        "pt": "Estou muito feliz por você, jovem.$h#$e#Ver jovens apaixonados é emocionante para velhinhas como eu.",
+        "ru": "Очень за тебя рада.$h#$e#Старушкам вроде меня очень радостно наблюдать за чувствами молодежи.",
+        "tr": "Senin için çok sevindim tatlım.$h#$e#Senin gibi gençlerin evlenmesi, benim gibi ninelerin yüreğini ısıtıyor.",
+        "zh": "亲爱的，我真为你高兴。$h#$e#看到年轻人相爱，我这个老婆婆心里暖洋洋的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'married' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:pamHouseUpgrade",
+      "author_key": "pamHouseUpgrade",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ach, Schatz ... es war wirklich lieb von dir, Pam so ein wunderschönes, neues Heim zu geben!$h#$e#Mein Herz wird ganz warm, wenn Leute sich so um einander kümmern ...",
+        "es": "Ay, cielo... ¡Has sido muy amable al darle a Pam una casa nueva y muy bonita!$h#$e#Me enternece ver a gente cuidando así de los demás...",
+        "fr": "Oh ! C’était si gentil de ta part d’installer Pam dans cette magnifique nouvelle maison !$h#$e#Ça me fait chaud au coeur quand les gens prennent soin des autres comme ça...",
+        "hu": "Ó, kedveském... olyan kedves volt tőled, hogy Pamnek felépítetted azt a gyönyörű új házat!$h#$e#Melegséggel tölti el a szívemet, mikor az emberek ennyire törődnek egymással...",
+        "it": "Oh, tesorino... che gentile da parte tua fornire a Pam una bella casa nuova!$h#$e#Mi scalda il cuore vedere persone che si prendono cura l'una dell'altra...",
+        "ja": "ああもう…パムに あんな 素敵な家を プレゼント するなんて 本当に すばらしいわ！$h#$e#人が人を お互いに 思いやる、心がほんわか してくるねえ…",
+        "en": "Oh, sweetie... that was so nice of you to put Pam up in a beautiful new house!$h#$e#It warms my heart when people take care of each other like that...",
+        "ko": "오, 아가야... 팸에게 아름다운 새 집을 선물해주다니, 상냥하구나!$h#$e#사람들이 서로서로 도와주는 것을 보면 마음이 참 따뜻해지는구나...",
+        "pt": "Ah, docinho... foi muita gentileza sua dar uma bela casa nova para a Pam!$h#$e#Fico muito feliz quando vejo pessoas ajudando umas às outras assim...",
+        "ru": "Ох, душечка... Так мило, что ты ${купил^купила}$ Пэм красивый новый дом!$h#$e#Сердце радуется, когда люди заботятся друг о друге...",
+        "tr": "Ah, tatlım... Pam'e yeni ev vermen çok kibarcaydı!$h#$e#İnsanlar birbirleriyle bu şekilde ilgilenince kalbim eriyor...",
+        "zh": "哦，甜心……你真好，让潘姆住进一间美丽的新房子！$h#$e#当人们像这样照顾彼此时，我的心暖暖的……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'pamHouseUpgrade' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:pamHouseUpgradeAnonymous",
+      "author_key": "pamHouseUpgradeAnonymous",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich bin zwar nur ein alter Narr ... aber ich habe eine Vorstellung, wer für Pams neues Haus bezahlt haben könnte ... *zwinker*",
+        "es": "Llámame vieja majadera... pero creo que tengo una idea de quién pagó la casa nueva de Pam... *Guiño*",
+        "fr": "Je suis peut-être une vieille folle... mais je crois savoir qui a payé la nouvelle maison de Pam... *Clin d’oeil*",
+        "hu": "Nevezz vén bolondnak... de van egy sejtésem, hogy ki fizetett Pam új házáért... *kacsint*",
+        "it": "Dammi pure della vecchia sciocca... ma penso di sapere chi ha pagato per la casa nuova di Pam... *ammicca*",
+        "ja": "老婆心とは こういうことかしら… パムの 家の お金を 払ったのは 誰か、 私には 検討がついてるのよ… (ウィンク)",
+        "en": "Call me a silly old fool... but I think I have an idea who paid for Pam's new house... *wink*",
+        "ko": "내가 그냥 어리석은 바보 늙은이인 걸 수도 있지만... 누가 팸에게 집을 마련해주었는지 알 것 같구나... *윙크*",
+        "pt": "Posso até soar como um idiota... mas eu acho que sei quem pagou pela casa da Pam... *piscadela*",
+        "ru": "Пусть я и глупая старуха... Но мне кажется, я знаю, кто заплатил за новый дом Пэм... *подмигивает*",
+        "tr": "İstersen bana yaşlı bunak de... ama sanırım Pam'in evini kimin yaptırdığını biliyorum... *göz kırpar*",
+        "zh": "虽然你可以叫我蠢蠢的老傻瓜……但我想我知道，谁为潘姆买了新房子……*眨眼*"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'pamHouseUpgradeAnonymous' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:reject_866",
+      "author_key": "reject_866",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das ist eine sehr hübsche Rose. Hast du sie Emily gezeigt? Sie erinnert mich an sie.",
+        "es": "Es una rosa muy bonita, joven. ¿Se la has enseñado a Emily? Me hace pensar en ella.",
+        "fr": "C’est une très jolie rose, dis donc. Tu l’as montrée à Emily ? Ça me fait penser à elle.",
+        "hu": "Az egy nagyon szép rózsa, édeském. Megmutattad már Emilynek? Rá emlékeztet.",
+        "it": "È una rosa bellissima, tesoro. L'hai mostrata ad Emily? Mi fa pensare a lei.",
+        "ja": "なんて可愛らしいバラだこと。エミリーにもこれを見せた？なんだか彼女を思わせるわ。",
+        "en": "That's a very pretty rose, dear. Have you shown it to Emily? It makes me think of her.",
+        "ko": "정말 예쁜 장미구나, 얘야. 에밀리에게 보여줘 보았니? 그 아이 생각이 나는구나.",
+        "pt": "Essa é uma rosa muito bonita, jovem. Você já mostrou ela para a Emily? Me faz lembrar dela.",
+        "ru": "Какая красивая роза, дорогуша. А Эмили уже ее видела? Она напоминает мне о ней.",
+        "tr": "Canım, bu gül ne de güzelmiş. Emily'e gösterdin mi? Bana onu anımsattı.",
+        "zh": "亲爱的，这朵玫瑰花真漂亮。你给艾米丽看过了吗？这让我想起了她。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:reject_867",
+      "author_key": "reject_867",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh, ich bin sicher, George wäre daran interessiert!",
+        "es": "Oh, ¡seguro que a George le interesa!",
+        "fr": "Oh, je suis sûre que ça intéresserait George !",
+        "hu": "Óh, ez biztos, hogy Georgeot érdekelni fogja!",
+        "it": "Oh, sono certa che a George interesserebbe molto!",
+        "ja": "まあ、ジョージもきっと興味を持つはずよ！",
+        "en": "Oh, I'm sure George would be interested in that!",
+        "ko": "오, 분명 조지가 흥미로워할 물건이구나!",
+        "pt": "Oh, tenho certeza que o George tem interesse nisso!",
+        "ru": "Ой, уверена, Джорджа это заинтересует!",
+        "tr": "Ah, eminim bu George'un ilgisini çekecektir!",
+        "zh": "啊，乔治肯定会很感兴趣！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'reject_867' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:summer_Mon",
+      "author_key": "summer_Mon",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich fühle mich bei diesem Wetter viel lebendiger.$u",
+        "es": "Me siento con más energía con este clima tan maravilloso.$u",
+        "fr": "Je sens un regain d’énergie par ce temps magnifique.$u",
+        "hu": "Ebben a csodálatos időben sokkal erősebbnek érzem magam.$u",
+        "it": "Con questo tempo magnifico mi sento molto più energica.$u",
+        "ja": "こんな良い天気だと 活き活きした 気分に なるわ。$u",
+        "en": "I feel more energetic in this wonderful weather.$u",
+        "ko": "멋진 날씨 덕에 기운이 나는구나.$u",
+        "pt": "Sinto-me com mais energia neste clima maravilhoso.$u",
+        "ru": "В такую чудесную погоду я чувствую себя бодрее.$u",
+        "tr": "Bu harika mevsimde kendimi daha enerjik hissediyorum.$u",
+        "zh": "在这种好天气里我感觉更有活力了。$u"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:summer_Mon_inlaw_Alex",
+      "author_key": "summer_Mon_inlaw_Alex",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wie geht es meinem Enkel so? Ich kann mir vorstellen, dass er auf dem Hof ziemlich glücklich ist.#$e#Er verdient es, glücklich zu sein... Er ist ein guter Junge.",
+        "es": "¿Cómo está mi nieto? Imagino que está contento viviendo en la granja.#$e#Se merece ser feliz... Es un buen chico.",
+        "fr": "Comment va mon petit-fils ? J’imagine qu’il est très heureux de vivre à la ferme.#$e#Il mérite d’être heureux... c’est un bon garçon.",
+        "hu": "Hogy van a kisunokám? Remélem nagyon boldog, hogy a farmon él.#$e#Megérdemli, hogy boldog legyen... ő jó fiú.",
+        "it": "Come sta mio nipote? Immagino sia felice di vivere alla fattoria.#$e#Si merita la felicità... è un bravo ragazzo.",
+        "ja": "孫とは うまく やっていけてるかしら？牧場で 幸せに 暮らしている姿を 想像できるわ。#$e#彼は いい子だから… 幸せで いてほしいのよ。",
+        "en": "How's my grandson doing? I imagine he's quite happy living on the farm.#$e#He deserves to be happy... he's a good boy.",
+        "ko": "내 손주는 요즘 어떻게 지내니? 농장에서 지내는 것을 마음에 들어 할 것 같구나.#$e#행복할 자격이 있는 아이야... 착한 아이지.",
+        "pt": "Como está o meu netinho? Imagino que ele esteja muito feliz morando na fazenda.#$e#Ele merece ser feliz... é um bom garoto.",
+        "ru": "Как там мой внучок? Поди, счастлив жить на ферме.#$e#Он заслужил быть счастливым... Он славный мальчик.",
+        "tr": "Torunum nasıl? Çitflikte yaşamaktan memnundur umarım.#$e#Mutlu olmayı hakediyor...O iyi bir çocuk.",
+        "zh": "我的孙子怎么样了？我想他住在农场里应该很开心。#$e#他应该得到幸福……他是个好孩子。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:summer_Sat",
+      "author_key": "summer_Sat",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Pass da draußen auf dich auf, mein Kind. Du könntest dir einen Sonnenbrand holen!",
+        "es": "Ten cuidado, cielo. ¡Te podrías quemar con el sol!",
+        "fr": "Fais attention à toi. Tu pourrais prendre un coup de soleil !",
+        "hu": "Vigyázz odakint, kedvesem. Még a végén leégsz!",
+        "it": "Fai attenzione là fuori, tesoro. Potresti scottarti!",
+        "ja": "外では 気をつけるのよ。日焼けしちゃうから。",
+        "en": "Be careful out there, dear. You could get sunburnt!",
+        "ko": "조심하거라, 얘야. 햇볕에 탈 수도 있어!",
+        "pt": "Cuidado lá fora, querido. Você pode se queimar!^Cuidado lá fora, querida. Você pode se queimar!",
+        "ru": "Осторожней на улице, душечка. Так можно и обгореть!",
+        "tr": "Dışarıda dikkatli ol canım! Güneş derini yakabilir.",
+        "zh": "在外面注意点。你可能会被晒伤的！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:summer_Sun",
+      "author_key": "summer_Sun",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Edelwicken sind momentan in voller Blüte.#$e#Sie haben so einen wundervollen Geruch, nicht?",
+        "es": "Los guisantes dulces están en flor ahora mismo.#$e#Dejan una fragancia maravillosa, ¿no te parece?",
+        "fr": "Les pois de senteur sont en pleine floraison en ce moment.#$e#Ils ont une odeur merveilleuse, n’est-ce pas ?",
+        "hu": "Ilyenkor virágzik a szagos bükköny.#$e#Olyan mámorító illatuk van, nem gondolod?",
+        "it": "I piselli odorosi sono in fiore.#$e#Che profumo magnifico hanno, vero?",
+        "ja": "スイートピーが咲く季節ね。#$e#すばらしい 香りだと 思わない？",
+        "en": "Sweet peas are in bloom right now.#$e#They've got such a wonderful fragrance, haven't they?",
+        "ko": "스위트피 철이란다.#$e#참 좋은 향이 나지 않니?",
+        "pt": "É época de ervilha-de-cheiro.#$e#Elas possuem um cheiro maravilhoso, não?",
+        "ru": "Сейчас цветет душистый горошек.#$e#Он так чудесно пахнет, не правда ли?",
+        "tr": "Şu sıralar bezelyeler açıyor.#$e#Harika bir kokuları var, değil mi?",
+        "zh": "甜豌豆花正开着呢。#$e#真好闻啊，不是吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:summer_Thu",
+      "author_key": "summer_Thu",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich werde heute Kekse backen. Ich nenne sie Kokosnuss-Wunder, in der Form von kleinen Palmen! Heehee.$h#$e#Vielleicht verrate ich dir eines Tages das Rezept.",
+        "es": "Hoy voy a hacer galletas. ¡Son delicias de coco con forma de palmeritas! Je, je.$h#$e#A lo mejor un día de estos te doy la receta.",
+        "fr": "Je vais faire des cookies aujourd’hui. Ce sont de petites merveilles à la noix de coco en forme de petits palmiers !$h#$e#Je te révélerai peut-être ma recette un de ces jours.",
+        "hu": "Ma sütit fogok sütni. Kókuszos csodákat készítek pálmafa alakban! Hihi.$h#$e#Talán egy napon majd elmondom a receptet is.",
+        "it": "Oggi preparo i biscotti. Sono delizie al cocco dalla forma di piccole palme! Heehee.$h#$e#Magari uno di questi giorni ti spiegherò la ricetta.",
+        "ja": "今日は クッキーを 焼こうと 思ってるの。小さな ヤシの木みたいな 形の ココナッツクッキーよ！ふふふ。$h#$e#近いうちに、 作り方を 教えてあげるわね。",
+        "en": "I'm going to bake cookies today. They're coconut wonders shaped like little palm trees! Heehee.$h#$e#Maybe I'll tell you my recipe one of these days.",
+        "ko": "오늘은 쿠키를 구울 거란다. 야자수 모양의 코코넛 쿠키란다!$h#$e#어쩌면 언젠가 내 레시피를 알려줄 수도 있겠구나.",
+        "pt": "Vou assar uns biscoitos hoje. São umas delícias de coco em formato de palmeira! He, he...$h#$e#Talvez eu passe a receita para você um dia desses.",
+        "ru": "Сегодня я буду печь печенье. На этот раз — кокосовое, в виде пальмочек! Хи-хи.$h#$e#Может, я как-нибудь и поделюсь с тобой рецептом.",
+        "tr": "Bugün kurabiye pişireceğim. Onları palmiye şeklinde yapmayı seviyorum! Hehe.$h#$e#Belki bir gün sana tarifimi veririm.",
+        "zh": "我今天要烤些饼干。好吃的椰子味哦，连形状也是椰树形的！嘻嘻。$h#$e#以后我没准会把做法告诉你哦。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:summer_Thu4",
+      "author_key": "summer_Thu4",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wir bekommen irgendwie immer mehr Besucher, wenn ich Kekse backe.#$e#Meine Mutter hat mir das Rezept beigebracht.",
+        "es": "Parece que siempre tenemos más visitas cuando me pongo a hacer galletas.#$e#Mi madre me enseñó la receta.",
+        "fr": "On dirait que j’ai toujours plus de visiteurs quand je commence à faire des cookies.#$e#C’est ma mère qui m’a appris la recette.",
+        "hu": "Nekem úgy tűnik mintha mindig több látogatónk lenne, amikor sütni kezdek.#$e#Még édesanyámtól tanultam a receptet.",
+        "it": "Sembra che abbiamo molte più visite ogni volta che faccio i biscotti.#$e#È una ricetta che mi ha insegnato mia madre.",
+        "ja": "クッキーを 焼き始めると、 いつも お客様が 増えるような 気がするわね。#$e#母から 作り方を 教わったのよ。",
+        "en": "It seems like we always have more visitors when I start baking cookies.#$e#My mother taught me the recipe.",
+        "ko": "내가 쿠키를 굽기 시작하면 꼭 손님이 더 많이 오는 것 같구나.#$e#내 어머니께서 레시피를 알려주셨단다.",
+        "pt": "Parece que sempre temos mais visitantes quando asso biscoitos.#$e#Minha mãe me ensinou a receita.",
+        "ru": "К нам, похоже, всегда приходит больше гостей, когда я начинаю печь печенье.#$e#Этот рецепт мне достался от матери.",
+        "tr": "Görünüşe göre ne zaman kurabiye pişirsem misafirim çoğalıyor.#$e#Tarifi annem öğretti bana.",
+        "zh": "好像我一烤饼干就总有很多客人来。#$e#配方是我妈妈教我的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:summer_Tue",
+      "author_key": "summer_Tue",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "George ist im Sommer immer ein bisschen weniger griesgrämig. Das warme Wetter macht ihn etwas sanftmütiger.#$e#Du kannst es ihm vermutlich nicht ansehen, aber ich kann es. Ich kenne ihn schon seit sechzig Jahren!",
+        "es": "George siempre refunfuña un poco menos en verano. El clima cálido le ablanda los huesos.#$e#A lo mejor tú no lo notas, pero yo sí. ¡Hace sesenta años que lo conozco!",
+        "fr": "George est toujours un peu moins grincheux en été. Le soleil réchauffe ses vieux os.#$e#Tu ne le vois peut-être pas, mais moi oui. Je le connais depuis soixante ans !",
+        "hu": "Georgenak nyáron mindig kicsit jobb a kedve. A meleg idő felpuhítja a csontjait.#$e#Lehet, hogy neked nem tűnik fel, de nekem igen. Hiszen már hatvan éve ismerem!",
+        "it": "George è sempre un po' meno scontroso, d'estate. Il tempo caldo gli addolcisce le ossa.#$e#Forse tu non vedi la differenza, ma io sì. Lo conosco da sessant'anni!",
+        "ja": "夏はいつも、 ジョージの 機嫌が 少し 良くなるのよ。夏の暑さで 気が 緩むのでしょうね。#$e#あなたには 分からないでしょうけど、 私には分かる。あの人とは 60年も 付き合ってるからね！",
+        "en": "George is always a little less grumpy in the summer. The warm weather softens his bones.#$e#You might not be able to tell, but I can. I've known him for sixty years!",
+        "ko": "조지는 여름에는 좀 덜 툴툴댄단다. 날씨가 따뜻해지면 뼈가 부드러워지는 건지.#$e#너는 모를 수도 있지만, 난 알지. 60년을 같이 지냈으니!",
+        "pt": "George sempre fica um pouco menos mal humorado no verão. O tempo quente amacia os ossos dele.#$e#Você pode não perceber, mas eu percebo. Eu o conheço há sessenta anos!",
+        "ru": "Джордж летом всегда менее сварлив. Теплая погода делает его мягче.#$e#Ты, может, и не заметишь разницы, но я-то вижу. Я вот уже шестьдесят лет с ним знакома!",
+        "tr": "George yazları daha az huysuz oluyor. Sıcak hava kemiklerini yumuşatıyor.#$e#Sen fark etmemiş olabilirsin ama ben farkediyorum, onu altmış yıldır tanıyorum!",
+        "zh": "乔治夏天的时候脾气没那么暴躁……温暖的天气让他的骨头发软。#$e#你可能看不出来，但是我能。我认识他六十年了！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:summer_Wed",
+      "author_key": "summer_Wed",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Der gute Bürgermeister hat mich für die städtischen öffentlichen Gärten verantwortlich gemacht.#$e#Ich habe monatelang an den Blumenbeeten gearbeitet, bitte tritt nicht in sie rein!",
+        "es": "El bueno del alcalde me ha puesto a cargo de los jardines del pueblo.#$e#Llevo trabajando en los planteles durante semanas, ¡así que no me los pises!",
+        "fr": "Notre bon maire m’a confié la responsabilité des jardins publics du village.#$e# Je travaille sur les parterres de fleurs depuis des semaines, alors ne marche pas dessus !",
+        "hu": "Az a kedves polgármesterünk kinevezett a város közös kertjeinek gondnokává.#$e#Hónapokig dolgoztam a városi virágágyásokon, szóval kérlek ne lépj rájuk!",
+        "it": "Il buon sindaco ha affidato a me la cura dei giardini pubblici del paese.#$e#Sono mesi che lavoro alle aiuole del paese, quindi non calpestarle!",
+        "ja": "町長さんが、 この公園を 私に 任せてくださっているの。#$e#何ヶ月もかけて、 花壇のお手入れをしているから、 踏まないようにしてちょうだい！",
+        "en": "The good Mayor put me in charge of the town's public gardens.#$e#I've been working on the town flower beds for months, so don't step on them!",
+        "ko": "시장님께서 나를 마을 공공농원 책임자로 두었단다.#$e#몇 달째 가꾼 화단이니, 밟지 않도록 조심하렴!",
+        "pt": "O bom prefeito me encarregou dos jardins públicos da cidade.#$e#Estou trabalhando nos canteiros há meses, então não pise neles!",
+        "ru": "Наш добрый мэр отдал городской сад мне на попечение.#$e#Я месяцами работала над клумбами, так что не ходи по ним!",
+        "tr": "Başkan beni kasabanın bahçelerinden sorumlu tuttu.#$e#Aylardır çiçek yataklarıyla ilgileniyorum, yani sakın onlara basma!",
+        "zh": "镇长人不错，他让我负责全镇的公共花园。#$e#这个园圃我已经护理数周了，可不要随意踩踏啊！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:winter_Mon",
+      "author_key": "winter_Mon",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Pass auf, dass du nicht auf dem Eis ausrutschst, Kind.",
+        "es": "Cuidado no te resbales en el hielo, cielo.",
+        "fr": "Fais attention de ne pas glisser sur la glace.",
+        "hu": "Nagyon vigyázz, nehogy elcsússz a jégen, kedveském.",
+        "it": "Bada a non scivolare sul ghiaccio, tesoro.",
+        "ja": "氷で滑らないよう、 気をつけるのよ。",
+        "en": "Be careful you don't slip on the ice, dear.",
+        "ko": "얼음에 미끄러지지 않도록 조심하려무나, 아가야.",
+        "pt": "Cuidado para não escorregar no gelo.",
+        "ru": "Осторожнее, душечка, не поскользнись на льду.",
+        "tr": "Buzda kayıp düşme sakın canım.",
+        "zh": "小心别在冰上滑倒了哦。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:winter_Sat",
+      "author_key": "winter_Sat",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wir leben hier schon seit über 30 Jahren.#$e#Wir haben viele Leute kommen und gehen gesehen. Dein Großvater war einer davon. Gott hab ihn selig... *seufz*",
+        "es": "Hemos vivido aquí durante más de 30 años.#$e#Hemos visto llegar e irse a muchos. A tu abuelo, por ejemplo. Que en paz descanse... *suspiro*",
+        "fr": "Nous vivons ici depuis plus de 30 ans.#$e#Nous avons vu beaucoup de gens arriver et repartir. Comme ton grand-père, par exemple. Béni soit-il... *Soupir*",
+        "hu": "Több mint harminc éve élünk itt.#$e#Sok embert láttunk jönni-menni. Például a nagyapádat is, nyugodjék békében... *sóhaj*",
+        "it": "Viviamo qui da più di 30 anni.#$e#Abbiamo visto un sacco di gente andare e venire. Tuo nonno, ad esempio. Sia benedetto... *sospira*",
+        "ja": "私達は 30年以上 ここに 住んでるの。#$e#いろんな人との 出会いと 別れを 見てきたわ。あなたの おじいさんもね。あの頃が懐かしいわ… ふぅ…",
+        "en": "We've lived here for over 30 years.#$e#We've seen a lot of people come and go. Your grandfather, for one. Bless him... *sigh*",
+        "ko": "우린 여기 30년 넘게 살았단다.#$e#그동안 많은 사람들이 오갔지. 네 할아버지도. 참 좋은 분이야... *한숨*",
+        "pt": "Moramos aqui há 30 anos.#$e#Vimos muitas pessoas chegarem e partirem. Por exemplo, o seu avô. Que Deus o tenha...",
+        "ru": "Мы живем здесь уже больше 30-ти лет.#$e#Много народу приходило и уходило. Дедушка твой, например. Царство ему небесное... Эх.",
+        "tr": "Burada 30 yıldır yaşıyoruz.#$e#Birçok insanın gelip gittiğini gördük, büyükbaban da bunlardan birisiydi... *iç çeker*",
+        "zh": "我们在这里已经住了 30 多年了。#$e#我们见惯了人来人往。比如你的爷爷。上帝保佑……*唉*"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:winter_Sat6",
+      "author_key": "winter_Sat6",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh... mein Kind. Du hast die Augen deines Großvaters...$s#$e#Ja... ja... Ich kannte ihn sehr gut.",
+        "es": "Oh... cielo. Tienes los ojos de tu abuelo...$s#$e#Sí... Sí... Lo conocía muy bien.",
+        "fr": "Oh ! Tu as les yeux de ton grand-père...$s#$e#Oui... oui... je l’ai très bien connu.",
+        "hu": "Ó... kedveském. Nagyapád szemeit örökölted...$s#$e#Igen... igen... Nagyon jól ismertem.",
+        "it": "Oh... tesoro mio. Hai gli occhi di tuo nonno...$s#$e#Sì... sì... lo conoscevo molto bene.",
+        "ja": "あら、よくきてくれたわね。あなた、おじいさんと 同じ目を してるのね…$s#$e#ええ…あの人のことは よく知ってたわ。",
+        "en": "Oh... my dear. You have your grandfather's eyes...$s#$e#Yes... yes... I knew him very well.",
+        "ko": "오... 내 아가야. 할아버지 눈을 쏙 빼닮았구나...$s#$e#그래... 그래... 아주 잘 알던 사이지.",
+        "pt": "Oh... ${meu querido^minha querida}$. Você tem os olhos do seu avô...$s#$e#Sim... sim... Eu o conhecia muito bem.",
+        "ru": "Ой... Душечка. У тебя глаза твоего дедушки.$s#$e#Да... Да... Я очень хорошо его знала.",
+        "tr": "Ah... canım. Gözlerini büyükbabandan almışsın...$s#$e#Evet... Evet... Onu iyi tanırdım.",
+        "zh": "哦……亲爱的！你的眼睛跟你爷爷的一样……$s#$e#对……对……我跟他很熟。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:winter_Sat8",
+      "author_key": "winter_Sat8",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "@, habe ich dir erzählt, dass George und ich schon seit 30 Jahren in unserem Haus leben?#$e#Ich hoffe, du bleibst eine Weile.$h",
+        "es": "@, ¿te había dicho que George y yo llevamos 30 años en esta casa?#$e#Espero que te quedes aquí bastante tiempo.$h",
+        "fr": "@, est-ce que je t’ai dit que George et moi habitons dans cette maison depuis 30 ans ?#$e#J’espère que tu vas rester ici longtemps.$h",
+        "hu": "@, meséltem már, hogy George és én már több mint 30 éve ebben a házban lakunk?#$e#Remélem te sokáig itt maradsz.$h",
+        "it": "@, te l'ho detto che io e George viviamo in questa casa da 30 anni?#$e#Spero che tu rimanga per un po'.$h",
+        "ja": "@、ジョージと一緒にここで30年暮らしたことは 話したかしら？#$e#あなたも、 この町に 長居してくれると いいわね。$h",
+        "en": "@, have I told you that George and I have lived in our house for 30 years?#$e#I hope you stay here for a while.$h",
+        "ko": "@, 조지와 내가 이 집에서 30년간 지냈다고 얘기해준 적 있니?#$e#너도 오래도록 여기서 지냈으면 좋겠단다.$h",
+        "pt": "@, já contei para você que George e eu moramos nesta casa por 30 anos?#$e#Gostaria que você ficasse aqui um pouco.$h",
+        "ru": "@, я тебе рассказывала, что мы с Джорджем живем в этом доме уже 30 лет?#$e#Надеюсь, ты здесь останешься надолго.$h",
+        "tr": "@, sana George ile beraber burada 30 yıldır yaşadığımızı anlatmış mıydım?#$e#Umarım burada bir süre kalırsın.$h",
+        "zh": "@，我跟你说过我和乔治在我们的房子里已经住了 30 年了吗？#$e#我希望你再多留一阵子。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:winter_Sun",
+      "author_key": "winter_Sun",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du solltest etwas heiße Suppe machen, um dich zu wärmen.#$e#Und denk daran, dass du eine Jacke anziehst!",
+        "es": "Deberías prepararte una sopita caliente para entrar en calor.#$e#¡Y no te olvides la chaqueta!",
+        "fr": "Tu devrais faire une bonne soupe pour te réchauffer.#$e#Et n’oublie pas de porter un manteau !",
+        "hu": "Forró levest kéne készítened, hogy melegen tartson.#$e#És hordj vastag kabátot!",
+        "it": "Dovresti preparare un bel minestrone per scaldarti.#$e#E vedi d'indossare la giacca!",
+        "ja": "体を 冷やさないよう、 スープを 作ったほうが いいわよ。#$e#あと、 ジャケットも 忘れないでね！",
+        "en": "You should make some hot soup to stay warm.#$e#And make sure you wear a jacket!",
+        "ko": "따뜻하게 지낼 수 있게 뜨거운 스프를 만들어두렴.#$e#외투 꼭 챙겨 입고!",
+        "pt": "Você deveria tomar um pouco de sopa quente para se aquecer.#$e#E coloque uma jaqueta!",
+        "ru": "Свари горячего супу, чтобы не замерзать.#$e#И не забывай надевать куртку!",
+        "tr": "Üşümemek için çorba yapmalısın.#$e#Bir de mont giydiğinden emin olmalısın!",
+        "zh": "你应该煲点热汤暖暖身子。#$e#别忘了穿上夹克！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:winter_Thu",
+      "author_key": "winter_Thu",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Heute backe ich Plätzchen. Sie haben die Form von kleinen Wintersternen.$h#$e#Vielleicht verrate ich dir irgendwann mal mein Rezept.",
+        "es": "Hoy estoy haciendo galletas. Tienen forma de estrellitas invernales.$h#$e#Quizás te diga mi receta un día de estos.",
+        "fr": "Aujourd’hui, je prépare des biscuits. Ils ont la forme de petites étoiles d’hiver.$h#$e#Peut-être que je te donnerai ma recette un de ces jours.",
+        "hu": "Ma sütiket készítek. Kicsi téli csillagokat formálok belőlük.$h#$e#Talán egy napon megosztom veled a receptet.",
+        "it": "Oggi faccio i biscotti. Hanno la forma di piccole stelle d'inverno.$h#$e#Uno di questi giorni magari ti darò la ricetta.",
+        "ja": "今日はクッキーを焼いているのよ。小さな冬星の形なのよ。$h#$e#いつかレシピを教えてあげるわね。",
+        "en": "Today I'm baking cookies. They're shaped like little winter stars.$h#$e#Maybe I'll tell you my recipe one of these days.",
+        "ko": "오늘 쿠키를 구울 계획이란다. 작은 겨울 별 모양으로.$h#$e#언젠가 내 레시피를 알려주는 날이 올 수도 있겠지.",
+        "pt": "Hoje eu estou fazendo biscoitos. Eles têm o formato de pequenas estrelas invernais.$h#$e#Talvez eu te conte a minha receita qualquer dia desses.",
+        "ru": "Сегодня я пеку печенье. Сделала его в форме зимней звезды.$h#$e#Возможно, когда-нибудь я поведаю тебе свой рецепт.",
+        "tr": "Bugün yıldız şeklinde küçük kış kurabiyeleri yapıyorum.$h#$e#Belki bir gün sana tarifimi veririm.",
+        "zh": "今天我要烤饼干，形状像是小小的冬日之星。$h#$e#之后有机会我可以把做法告诉你。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:winter_Tue",
+      "author_key": "winter_Tue",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ist dir nicht kalt? Du solltest eine dickere Jacke anziehen, Kind!#$e#Dieses Wetter ist nicht gut für meine Gelenke...$s",
+        "es": "¿No tienes frío? ¡Deberías llevar una chaqueta más gruesa, cielo!#$e#Este clima no es bueno para mis articulaciones...$s",
+        "fr": "Tu n’as pas froid ? Tu devrais porter une veste plus épaisse !#$e#Ce temps est mauvais pour mes articulations...$s",
+        "hu": "Nem fázol? Vastagabb kabátot kéne hordanod, kedveském!#$e#Ez az időjárás nem használ az izületeimnek...$s",
+        "it": "Non hai freddo? Dovresti metterti una giacca più pesante, tesoro!#$e#Questo tempo non fa bene alle mie articolazioni...$s",
+        "ja": "寒くない？もっと 厚手の ジャケットを 着たほうがいいわよ！#$e#この寒さは 私の 体にも 良くないわ…$s",
+        "en": "Aren't you cold? You should wear a thicker jacket, my dear!#$e#This weather isn't good for my joints...$s",
+        "ko": "춥지 않니? 옷 좀 더 두껍게 입어야지, 아가야!#$e#이런 날씨는 영 내 관절에 좋지 않아서...$s",
+        "pt": "E você, não está com frio? Você deveria usar uma jaqueta mais grossa!#$e#Este tempo não é bom para minhas articulações...$s",
+        "ru": "Тебе не холодно? Нужно носить курточку потолще!#$e#От этой погоды у меня кости ломит...$s",
+        "tr": "Üşümüyor musun? Daha kalın bir mont giymelisin canım!#$e#Bu hava eklemlerime iyi gelmiyor...$s",
+        "zh": "你不冷吗？亲爱的，你应该穿件更厚的外套。#$e#这天气对我的关节不好……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Evelyn:winter_Wed",
+      "author_key": "winter_Wed",
+      "character": "Evelyn",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Normalerweise würde ich mich um die Gärten kümmern, aber sie sind vom Schnee bedeckt.#$e#Ich schaue gern trotzdem hin und wieder vorbei.",
+        "es": "Suelo cuidar de los jardines, pero están cubiertos de nieve.#$e#Aun así, me gusta echarles un vistazo de vez en cuando.",
+        "fr": "En général, je m’occupe des jardins, mais ils sont recouverts de neige.#$e#Mais j’aime bien aller les voir de temps à autre.",
+        "hu": "Én szoktam gondozni a kerteket, de most beborította őket a hó.#$e#Azért néha még ilyenkor is szeretek rájuk nézni.",
+        "it": "Di solito mi prendo cura dei giardini, ma sono tutti innevati adesso.#$e#Ma preferisco comunque controllarli, di tanto in tanto.",
+        "ja": "いつも 花壇の世話を してるけど、 今は 雪で 覆われてしまってるわ。#$e#でも、 様子を見に行くのは 好きよ。",
+        "en": "I usually tend to the gardens, but they're covered in snow.#$e#I still like to check up on them now and then.",
+        "ko": "정원을 자주 가꾸러 가지만, 지금은 눈으로 뒤덮여있더구나.#$e#그래도 가끔 확인하러 가보는 편이란다.",
+        "pt": "Costumo cuidar dos jardins, mas eles estão cobertos de neve.#$e#Mas, ainda gosto de dar uma olhadinha neles de vez em quando.",
+        "ru": "Обычно я хлопочу в саду, но сейчас он весь под снегом.#$e#Но я все равно время от времени проверяю, как он там.",
+        "tr": "Genellikle bahçeler ile ben ilgilenirim. Şu an hepsi kar kaplı.#$e#Yine de ara sıra kontrol etmeyi seviyorum.",
+        "zh": "我经常去花园，但是它们现在被雪盖住了。#$e#如今我仍然喜欢时不时去看看。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Evelyn.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Evelyn.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Evelyn.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Evelyn.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Evelyn.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Evelyn.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Evelyn.json",
+          "ko": "data\\game_scripts\\Dialogue\\Evelyn.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Evelyn.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Evelyn.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Evelyn.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Evelyn.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    }
+  ]
+}

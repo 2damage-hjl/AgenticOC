@@ -1,0 +1,1797 @@
+{
+  "dataset_meta": {
+    "schema": "canonical_dialogue_v2",
+    "source_root": "data/game_scripts/Dialogue",
+    "collection": "Dialogue",
+    "character": "Vincent",
+    "record_count": 27,
+    "dialogue_type_counts": {
+      "general_dialogue": 27
+    }
+  },
+  "records": [
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:AcceptBirthdayGift_Negative",
+      "author_key": "AcceptBirthdayGift_Negative",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ein Geburtstagsgeschenk? Oh... das ist nicht sehr amüsant.$s",
+        "es": "¿Un regalo de cumpleaños? Oh... no es divertido.$s",
+        "fr": "Un cadeau d’anniversaire ? Ho... ce n’est pas très amusant.$s",
+        "hu": "Egy szülinapi ajándék? Ó... ez nem olyan vicces.$s",
+        "it": "Un regalo di compleanno? Oh... non è molto divertente.$s",
+        "ja": "誕生日プレゼント？なーんだ… あまりうれしくないや$s",
+        "en": "A birthday present? Oh... this isn't very fun.$s",
+        "ko": "생일선물이에요? 오... 이건 재밌는 게 아니네요.$s",
+        "pt": "Um presente de aniversário? Oh... isso não é legal.$s",
+        "ru": "Подарок на день рождения? Ой... Как-то не очень.$s",
+        "tr": "Hediye mi? Ya... Bu pek de güzel değilmiş.$s",
+        "zh": "是生日礼物吗？啊……好像没什么意思。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptBirthdayGift_Negative' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:AcceptBirthdayGift_Positive",
+      "author_key": "AcceptBirthdayGift_Positive",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ist das ein Geburtstagsgeschenk? Kann ich es jetzt aufmachen?#$b#Oh, wow! Das ist genau das, was ich wollte! Jajajaja!$h",
+        "es": "¿Es un regalo de cumpleaños? ¿Lo puedo abrir ahora?#$b#Oh, ¡guau! ¡Es justo lo que quería! ¡Sísísísí!$h",
+        "fr": "C’est un cadeau d’anniversaire ? Je peux l’ouvrir tout de suite ?#$b#Ho, wouah ! C’est exactement ce que je voulais ! Yayayaya !$h",
+        "hu": "Az egy szülinapi ajándék? Kinyithatom?#$b#Ó, váó! Pont erre vágytam! Yayayaya!$h",
+        "it": "È un regalo di compleanno? Posso aprirlo subito?#$b#Oh, wow! Proprio quello che volevo! Yayayaya!$h",
+        "ja": "誕生日プレゼント？ぼくに？#$b#うわぁ！すっごく欲しかったんだ！やったー！$h",
+        "en": "Is that a birthday present? Can I open it now?#$b#Oh, wow! This is exactly what I wanted! Yayayaya!$h",
+        "ko": "생일선물이에요? 지금 열어도 돼요?#$b#오 우와! 딱 가지고 싶던 거예요! 오예오예오예!$h",
+        "pt": "Isso é um presente de aniversário? Posso abrir agora?#$b#Oh, uau! Isto é exatamente o que eu queria! Iaiaiaia!$h",
+        "ru": "Это что, подарок на день рождения? Уже можно открывать?#$b#Ух ты! Я именно это и хотел! Ура-ура-ура!$h",
+        "tr": "Bu doğum günü hediyesi mi? Şimdi açabilir miyim?#$b#Vay canına! Bu tam da istediğim şey! Yaşasın!$h",
+        "zh": "是给我的生日礼物吗？我能现在就拆开吗？#$b#哇！我正好想要这个！好耶！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptBirthdayGift_Positive' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:AcceptGift_(O)StardropTea",
+      "author_key": "AcceptGift_(O)StardropTea",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wow! Das ist so süß! Mmmmm...",
+        "es": "¡Guau! ¡Es tan dulce! Mmmmm....",
+        "fr": "Wouah ! C’est trop gentil ! Hmmmm....",
+        "hu": "Váó! Annyira édes! Mmmmm....",
+        "it": "Wow! Com'è dolce! Mmmmm....",
+        "ja": "わぁ！とっても甘いね！うん… おいしいよ！",
+        "en": "Wow! It's so sweet! Mmmmm....",
+        "ko": "우와! 달콤해요! 으음....",
+        "pt": "Uau! É tão doce! Hmmmm....",
+        "ru": "Ух ты! Вкуснота. М-м-м....",
+        "tr": "Vay be! Bu çok lezzetli! Of...",
+        "zh": "哇！好甜！唔……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)StardropTea' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:AcceptGift_(TR)FrogEgg",
+      "author_key": "AcceptGift_(TR)FrogEgg",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "*Quietsch* *quietsch* ... Igitt! Darf ich es haben? Darf ich es haben? Jaaaa!$h",
+        "es": "*Squish* *squish* ... ¡Ewww! ¿Me lo puedo quedar? ¿Me lo puedo quedar? ¡Bieeen!$h",
+        "fr": "*squish* *squish* ... Beurk ! Je peux l’avoir ? Je peux l’avoir ? Génial !$h",
+        "hu": "*Placcs* *placcs* ... Fúúúj! Megkaphatom? Megkaphatom? Hurrááá!$h",
+        "it": "*squish* *squish* ... Bleeeaah! Me lo dai? Me lo dai? Evvaaaiii!$h",
+        "ja": "（つるん つるん）…えーっ！これをくれるの？もらっていいの？やったー！$h",
+        "en": "*Squish* *squish* ... Ewww! Can I have it? Can I have it? Yaaay!$h",
+        "ko": "*철벅* *철벅* ... 으으! 나 이거 가져도 돼요? 가져도 되는 거죠? 이예!$h",
+        "pt": "*Aperta* *aperta* ... Que nojo! Posso ficar com isso? Posso ficar? Ebaaa!$h",
+        "ru": "*хлюп* *хлюп* ... Фу-у-у! Можно мне? Можно мне? Ура!$h",
+        "tr": "*vıcıklar* *vıcıklar* Ya! Benim olsun mu? Benim olsun mu? Oleeey!$h",
+        "zh": "（捏了两下）……好恶心！能给我吗？快给我吧？好耶！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(TR)FrogEgg' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:AcceptGift_Negative_alcohol_item",
+      "author_key": "AcceptGift_Negative_alcohol_item",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "*schnüffel*... was ist das? Es riecht furchtbar... Mamaaa!!!$s",
+        "es": "*snif*... ¿Qué es esto? Huele fatal... ¡¡¡Mamáaaaa!!!$s",
+        "fr": "*renifle*... Qu’est-ce que c’est ? Ça sent très mauvais... Mamaaaaaaan !!!$s",
+        "hu": "*szimat*... ez meg micsoda? Borzasztó a szaga... Anyaaaaaa!!!$s",
+        "it": "*annusa*... che roba è? Puzza tantissimo... Mammaaaaa!!!$s",
+        "ja": "（クンクン）… これはなに？変なにおい…ねえ、お母さーん！$s",
+        "en": "*sniff*... what is this? It smells awful... Mommmm!!!$s",
+        "ko": "*킁킁*... 이게 뭐예요? 냄새가 끔찍해... 엄마아아!!!$s",
+        "pt": "*cheira*... o que é isso? O cheiro é horrível... Mãeee!!!$s",
+        "ru": "*нюх*... Это что такое? Пахнет ужасно... Ма-а-ам!$s",
+        "tr": "*koklar*... Bu da ne? Çok kötü kokuyor... Annneeeeee!$s",
+        "zh": "（闻了一下）……这是什么？好难闻……妈妈！！！$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_Negative_alcohol_item' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:Fri",
+      "author_key": "Fri",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "#$c .3#Pfui, es ist wieder gekochte Beete-Abend...$s#$e#Oh nein... Mama macht heute Nacht Linsensuppe.$s",
+        "es": "#$c .3#Puaj, otra vez remolacha hervida para cenar...$s#$e#Oh, no... Mamá está preparando sopa de lentejas.$s",
+        "fr": "#$c .3#Beurk, on mange encore des betteraves ce soir...$s#$e#Oh non... Maman fait de la soupe de lentilles pour dîner.$s",
+        "hu": "#$c .3#Fúj, már megint főtt cékla van...$s#$e#Jaj ne... anyu estére lencselevest készít.$s",
+        "it": "#$c .3#Bleah, stasera ci sono di nuovo le barbabietole bollite...$s#$e#Oh no... mamma stasera fa la zuppa di lenticchie.$s",
+        "ja": "#$c .3#うわっ、 また テンサイの煮込み…$s#$e#サイアクだよ…今夜は おかあさんが レンズマメの スープを 作るんだって。$s",
+        "en": "#$c .3#Ew, it's boiled beet night again...$s#$e#Oh no... Mom's making lentil soup tonight.$s",
+        "ko": "#$c .3#으웩, 끓인 사탕무 먹는 날이야 또...$s#$e#어 안돼... 엄마가 밤에 렌틸콩 스프를 만든대요.$s",
+        "pt": "#$c .3#Eca! É Noite de beterraba hoje...$s#$e#Ah, não! Mamãe vai fazer sopa de lentilhas hoje.$s",
+        "ru": "#$c .3#Фу, вечером опять вареная свекла...$s#$e#О нет... Мама сегодня варит чечевичную похлебку.$s",
+        "tr": "#$c .3#Öf, bu akşam yine kaynamış pancar var...$s#$e#Ah, aslında hayır, annem bu akşam mercimek çorbası yapacaktı.$s",
+        "zh": "#$c .3#呃，又是煮甜菜……$s#$e#糟了……我妈今晚会做扁豆汤。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:GreenRain",
+      "author_key": "GreenRain",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Mama! Ich will rausgehen und spielen!%noturn",
+        "es": "¡Mamá! ¡Quiero salir a jugar!%noturn",
+        "fr": "Maman ! Je veux aller jouer dehors !%noturn",
+        "hu": "Anya! Ki akarok menni játszani!%noturn",
+        "it": "Mamma! Voglio uscire a giocare!%noturn",
+        "ja": "お母さん！外に出て遊びたいよ！%noturn",
+        "en": "Mom! I wanna go outside and play!%noturn",
+        "ko": "엄마! 나 나가서 놀래요!%noturn",
+        "pt": "Mãe! Eu quero ir lá fora para brincar!%noturn",
+        "ru": "Мам! Хочу на улицу поиграть!%noturn",
+        "tr": "Anne! Dışarı çıkıp oynamak istiyorum!%noturn",
+        "zh": "妈妈！我想出去玩！%noturn"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "weather_green_rain",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:GreenRain_2",
+      "author_key": "GreenRain_2",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "%Vincent ist mit Moos bedeckt.",
+        "es": "%Vincent está cubierto en musgo.",
+        "fr": "%Vincent est couvert de mousse verte.",
+        "hu": "%Vincentet teljesen beborította a moha.",
+        "it": "%Vincent è coperto di muschio.",
+        "ja": "%ヴィンセントはコケにおおわれている。",
+        "en": "%Vincent is covered in moss.",
+        "ko": "%빈센트가 이끼로 뒤덮여있습니다.",
+        "pt": "%Vincent está coberto de musgos.",
+        "ru": "%Винсент весь покрыт мхом.",
+        "tr": "%Vincent yosun ile kaplı.",
+        "zh": "%文森特全身都是苔藓。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:Introduction",
+      "author_key": "Introduction",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh, jemand Fremdes! Mein Name ist Vincent.#$b#Mama sagt, ich soll nicht mit Fremden reden... Aber du siehst in Ordnung aus.",
+        "es": "¡Oh, un desconocido! Me llamo Vincent.^¡Oh, una desconocida! Me llamo Vincent.#$b#Mamá dice que no hable con desconocidos... Pero tú pareces bueno.^Mamá dice que no hable con desconocidos... Pero tú pareces buena.",
+        "fr": "Oh, un étranger ! Je m’appelle Vincent.^Oh, une étrangère ! Je m’appelle Vincent.#$b#Maman dit qu’il ne faut pas parler aux inconnus... mais tu n’as pas l’air de quelqu’un de méchant.",
+        "hu": "Ó, egy idegen! A nevem Vincent.#$b#Anyukám azt mondta, hogy ne álljak szóba idegenekkel... De te jónak tűnsz.",
+        "it": "Oh, tu non sei di qui! Mi chiamo Vincent.#$b#Mamma dice di non parlare con gli estranei... Ma tu sembri a posto.",
+        "ja": "はじめまして！ボクはヴィンセント。#$b#おかあさんが 知らない人と 話しちゃ ダメだって 言ってるけど…あなたなら 大丈夫そう。",
+        "en": "Oh, a stranger! My name's Vincent.#$b#Momma says not to talk to strangers... But you seem okay.",
+        "ko": "앗, 처음 보는 사람! 내 이름은 빈센트예요.#$b#엄마가 낯선 사람한테는 말하지 말라고 했지만... 괜찮은 사람인 거 같아요.",
+        "pt": "Ah, um estranho! Meu nome é Vincent.#$b#Mamãe me disse para nunca falar com estranhos... Mas você parece legal.",
+        "ru": "Ой, незнакомец! Меня зовут Винсент.#$b#Мама велела не разговаривать с незнакомыми... Но вы вроде ничего.",
+        "tr": "Ah, tanımadığım biri. Ben Vincent.#$b#Annem yabancılarla konuşma dedi... ama sen iyi birine benziyorsun.",
+        "zh": "哦，陌生人啊！我叫文森特。#$b#妈妈跟我说不要和陌生人说话……但你看来是个好人。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Introduction' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:Mon",
+      "author_key": "Mon",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich will genau wie mein großer Bruder sein, wenn ich groß bin!$h#$e#Okay! Bye!",
+        "es": "¡Cuando sea mayor quiero ser igual que mi hermano!$h#$e#¡Bueno! ¡Adiós!",
+        "fr": "Je veux être comme mon grand frère quand je serai grand !$h#$e#OK ! Au revoir !",
+        "hu": "Ha felnövök, olyan akarok lenni, mint a bátyám!$h#$e#Oké! Szia!",
+        "it": "Da grande voglio essere proprio come il mio fratellone!$h#$e#Ok! Ciao!",
+        "ja": "大きくなったら、 お兄ちゃん みたいに なりたいな！$h#$e#うん！じゃあね！",
+        "en": "I wanna be just like my big brother when I grow up!$h#$e#Okay! Bye!",
+        "ko": "나 크면 내 형처럼 되고 싶어요!$h#$e#그럼 안녕히계세요!",
+        "pt": "Só quero ser como meu irmãozão quando eu crescer!$h#$e#Tá?! Tchau!",
+        "ru": "Я хочу вырасти и стать как мой старший братик!$h#$e#Ладно! Пока!",
+        "tr": "Büyüdüğümde abim gibi olmak istiyorum!$h#$e#Oldu, sonra görüşürüz!",
+        "zh": "等我长大了，我也要像哥哥一样！$h#$e#好的！再见。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:Mon4",
+      "author_key": "Mon4",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "$d kent#Ich bin froh, dass Papa wieder da ist... aber er ist anders als früher...$s|Papa ist nicht oft da... Ich vermisse es, mit ihm zu spielen.$s",
+        "es": "$d kent#Me alegra que papá esté de vuelta... pero ya no es como lo recordaba...$s|Papá no pasa mucho tiempo en casa... Echo de menos jugar con él.$s",
+        "fr": "$d kent#C’est génial que papa soit de retour... mais il est différent de ce dont je me souviens...$s|Papa n’est pas souvent là... Ça me manque de jouer avec lui.$s",
+        "hu": "$d kent#Örülök, hogy apu visszatért... de más, mint amilyenre emlékszem...$s|Apu nincs olyan sokat itt... Hiányzik a vele való játszás.$s",
+        "it": "$d kent#Sono contento che papà sia tornato... ma è diverso da come lo ricordavo...$s|Papà sta sempre in giro... Mi manca giocare con lui.$s",
+        "ja": "$d kent#おとうさんが戻ってうれしいけどさ、前とは様子が違うんだ。$s|おとうさんとはあんまり会えないんだ…一緒に遊びたいよ。$s",
+        "en": "$d kent#I'm glad Dad's back... but he's different than I remember...$s|Dad's not around much... I miss playing with him.$s",
+        "ko": "$d kent#아빠가 집에 와서 좋지만... 기억하던 거랑 좀 달라요...$s|아빠는 집에 없어요... 아빠랑 놀고 싶어요.$s",
+        "pt": "$d kent#Ainda bem que o pai voltou... mas ele está diferente do que eu lembrava...$s|Papai nunca fica muito em casa... Sinto falta de brincar com ele.$s",
+        "ru": "$d kent#Я рад, что папа вернулся... Но он не такой, каким я его помню...$s|Папа редко бывает дома... Я скучаю по нашим играм.$s",
+        "tr": "$d kent#Babamın dönmesine sevindim... artık hatırladığımdan çok daha farklı...$s|Babam hiç buralarda olmuyor... onunla oynamayı özledim.$s",
+        "zh": "$d kent#我很高兴爸爸回来了……但已经和我记忆中不同了……$s|爸爸总是不在家……好想和他一起玩。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:Resort",
+      "author_key": "Resort",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wenn man genau hinsieht, sieht man kleine Käfer aus dem Sand springen.$h",
+        "es": "Si miras de cerca, puedes ver pequeños insectos saltando en la arena.$h",
+        "fr": "Si tu fais bien attention, tu peux voir de petits insectes sauter en dehors du sable.$h",
+        "hu": "Ha jól megfigyeled, láthatod, ahogy kis bogarak ugranak ki a homokból.$h",
+        "it": "Se guardi bene, si vedono degli insettini che saltano fuori dalla sabbia.$h",
+        "ja": "近くで見ると、小さな虫が砂の中から飛び出しているのが見えるんだ。$h",
+        "en": "If you look close, you can see little bugs jumping out of the sand.$h",
+        "ko": "잘 보면 모래 속에서 작은 벌레들이 뛰어오르는 게 보여요.$h",
+        "pt": "Se você olhar de perto, consegue ver pequenos bichinhos pulando da areia.$h",
+        "ru": "Если присмотреться, то можно увидеть, как из песка выпрыгивают жучки.$h",
+        "tr": "Yakından bakarsan kumdan küçük böceklerin çıktığını görebilirsin.$h",
+        "zh": "如果凑近了看，你就能看到沙子里有小虫子跳出来。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:Resort_Entering",
+      "author_key": "Resort_Entering",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das hat Spaß gemacht! Ich will eines Tages Bootskapitän werden!",
+        "es": "¡Ha sido divertido! ¡Quiero ser capitán de barco algún día!",
+        "fr": "C’était tellement amusant ! Un jour, je serais le capitaine d’un bateau !",
+        "hu": "Ez jó móka volt! Egy napon én is hajóskapitány akarok lenni!",
+        "it": "È stato divertente! Da grande farò il capitano di una barca!",
+        "ja": "とても楽しかったよ！いつかボートの船長になりたいな！",
+        "en": "That was fun! I wanna be a boat captain some day!",
+        "ko": "재밌었다! 나도 커서 선장 될래!",
+        "pt": "Isso foi divertido! Eu quero ser um capitão de barco algum dia!",
+        "ru": "Это было весело! Я бы хотел однажды стать капитаном!",
+        "tr": "Yolculuk eğlenceliydi! Ben de bir gün kayıkçı olmak istiyorum!",
+        "zh": "真好玩！以后我想当个船长！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:Resort_Leaving",
+      "author_key": "Resort_Leaving",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich möchte bald wiederkommen!",
+        "es": "¡Quiero volver pronto!",
+        "fr": "Je veux revenir bientôt !",
+        "hu": "Hamarosan vissza akarok térni!",
+        "it": "Voglio ritornare presto!",
+        "ja": "すぐに戻って来たいよ！",
+        "en": "I wanna come back soon!",
+        "ko": "얼른 다시 돌아오고 싶어!",
+        "pt": "Eu quero voltar logo!",
+        "ru": "Я хочу поскорее сюда вернуться!",
+        "tr": "Buraya yeniden gelmek istiyorum!",
+        "zh": "真想早点再来玩！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:Resort_Shore",
+      "author_key": "Resort_Shore",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich will einen Hai sehen!$h",
+        "es": "¡Quiero ver un tiburón!$h",
+        "fr": "Je veux voir un requin !$h",
+        "hu": "Akarok látni egy cápát!$h",
+        "it": "Voglio vedere uno squalo!$h",
+        "ja": "サメを見てみたいな！$h",
+        "en": "I wanna see a shark!$h",
+        "ko": "나 상어 보고 싶어!$h",
+        "pt": "Eu quero ver um tubarão!$h",
+        "ru": "Я хочу увидеть акулу!$h",
+        "tr": "Köpek balığı görmek istiyorum!$h",
+        "zh": "我想看鲨鱼！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:Sat",
+      "author_key": "Sat",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Frau Penny möchte, dass ich jede Woche ein Buch lese.$s#$b#Wenigstens lässt sie mich manchmal eins aussuchen!",
+        "es": "La señorita Penny me hace leer un libro nuevo cada semana.$s#$b#¡Por lo menos a veces me deja elegirlos!",
+        "fr": "Mademoiselle Penny me fait lire un nouveau livre chaque semaine.$s#$b#Au moins, elle me laisse les choisir de temps en temps !",
+        "hu": "Penny néni minden héten új könyvet olvastat velem.$s#$b#Legalább néha hagyja, hogy én válasszak!",
+        "it": "La signorina Penny mi fa leggere un libro nuovo alla settimana.$s#$b#Almeno li lascia scegliere a me, certe volte!",
+        "ja": "ペニーさんは 毎週 新しい 本を 読ませてくれるんだ。$s#$b#時々、 本を 選ばせてくれることも あるんだよ！",
+        "en": "Miss Penny makes me read a new book every week.$s#$b#At least she lets me pick them, sometimes!",
+        "ko": "페니 선생님은 매주 새 책을 읽게 시켜요.$s#$b#그래도 가끔 내가 고를 수 있게 해줘요!",
+        "pt": "A tia Penny me faz ler um livro novo toda semana.$s#$b#E ela me deixa escolhê-los às vezes!",
+        "ru": "Мисс Пенни заставляет меня читать новую книжку каждую неделю.$s#$b#Но книжку я могу выбирать сам! Иногда.",
+        "tr": "Bayan Penny her hafta bana yeni kitaplar okutuyor.$s#$b#Bazen de kitabı benim seçmeme izin veriyor!",
+        "zh": "潘妮小姐每周都要求我读一本新书。$s#$b#至少有时候她还会让我来选书！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:Sat8",
+      "author_key": "Sat8",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "$d kent#Papa ist irgendwie merkwürdig, seit er zurück ist. Ich frage mich, was mit ihm passiert ist?$s#$b#Er spielt nicht mehr mit mir.$s| Ich frage mich, ob Papa je wieder nachhause kommt...$s",
+        "es": "$d kent#Papá está raro desde que volvió. ¿Qué le habrá pasado?$s#$b#Ya no juega conmigo.$s|Me pregunto si papá volverá algún día a casa...$s",
+        "fr": "$d kent#Papa est bizarre depuis qu’il est rentré. Je me demande ce qui lui est arrivé ?$s#$b#Il ne joue plus avec moi.$s|Je me demande si papa reviendra un jour à la maison...$s",
+        "hu": "$d kent#Apu elég fura, mióta hazatért. Vajon mi történhetett vele?$s#$b#Többé már nem játszik velem.$s|Vajon apu haza fog jönni valaha...$s",
+        "it": "$d kent#Papà sembra strano da quando è tornato. Cosa gli sarà successo?$s#$b#Adesso non gioca più con me.$s|Chissà se papà tornerà mai a casa...$s",
+        "ja": "$d kent#おとうさんが帰ってきたけど、何か変。いったいどうしたんだろう？$s#$b#ボクと一緒に遊んでくれないんだ。$s|ちゃんと帰ってくるかなぁって思ってしまう。$s",
+        "en": "$d kent#Dad seems weird since he came back. I wonder what happened to him?$s#$b#He doesn't play with me anymore.$s|I wonder if Dad will ever come home...$s",
+        "ko": "$d kent#돌아온 뒤로 아빠 좀 이상해 보여요. 아빠한테 무슨 일이 있었던 걸까?$s#$b#나랑 이제 안 놀아줘요.$s|아빠가 집에 오긴 할까요...$s",
+        "pt": "$d kent#Papai está meio estranho desde que voltou. O que será que aconteceu com ele?$s#$b#Ele não brinca mais comigo.$s|Meu pergunto se meu pai vai voltar um dia...$s",
+        "ru": "$d kent#Папа вернулся, и он такой странный. Интересно, что с ним случилось?$s#$b#Он больше со мной не играет.$s|Интересно, придет ли папа домой...$s",
+        "tr": "$d kent#Babam döndüğünden beri çok garip davranıyor. Ona ne oldu acaba?$s#$b#Artık benimle oynamak istemiyor.$s|Acaba babam eve dönecek mi...$s",
+        "zh": "$d kent#爸爸回来之后似乎变了很多。不知出了什么事呢？$s#$b#他都不和我玩了。$s|我想知道爸爸是否还会回家……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:Sat_1",
+      "author_key": "Sat_1",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Papa kommt bald zurück!#$b#Ich hoffe, er bringt mir ein Spielzeug mit.$u",
+        "es": "¡Papá vuelve pronto!#$b#Espero que me traiga juguetes.$u",
+        "fr": "Papa revient bientôt !#$b#J’espère qu’il me rapportera des jouets.$u",
+        "hu": "Apu hamarosan hazatér!#$b#Remélem hoz nekem valamilyen játékot.$u",
+        "it": "Presto tornerà papà!#$b#Spero che mi porti dei giocattoli.$u",
+        "ja": "もうすぐ おとうさんが 帰ってくるんだって！#$b#お土産の オモチャは ないかな。$u",
+        "en": "Dad's coming back soon!#$b#I hope he brings me some toys.$u",
+        "ko": "아빠가 곧 돌아와요!#$b#장난감 사 왔으면 좋겠다.$u",
+        "pt": "Papai vai voltar em breve!#$b#Espero que ele me traga brinquedos.$u",
+        "ru": "Папа скоро вернется!#$b#Надеюсь, он привезет мне игрушек.$u",
+        "tr": "Babam yakında dönecekmiş!#$b#Umarım bana oyuncak getirir.$u",
+        "zh": "爸爸就要回来啦！#$b#不知他有没有给我买玩具回来呢。$u"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Sat_1' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:Sun",
+      "author_key": "Sun",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hi, du!",
+        "es": "¡Hola!",
+        "fr": "Bonjour, Monsieur !^Bonjour, Mademoiselle.",
+        "hu": "Szia bácsi!^Szia néni!",
+        "it": "Ehi ciao, signore!^Ehi ciao, signorina.",
+        "ja": "こんにちは、 お兄さん！^こんにちは、 お姉さん！",
+        "en": "Hi there, mister!^Hi there, miss.",
+        "ko": "안녕하세요 아저씨!^안녕하세요 아줌마.",
+        "pt": "Oi, moço!^Oi, moça!",
+        "ru": "Здрасте, мистер!^Здрасте, мисс",
+        "tr": "Merhaba, bayım!^Merhaba, hanımefendi!",
+        "zh": "你好啊，先生！^你好啊，女士。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:Sun10",
+      "author_key": "Sun10",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hi Onkel @!^Hi Tante @!#$e#Erzähl's nicht Mama... aber du bist mein Lieblingserwachsener.$h",
+        "es": "¡Hola, tío @!^Hola, tía @!#$e#No se lo digas a mamá... Pero eres mi persona mayor preferida.$h",
+        "fr": "Bonjour, Tonton @ !^Bonjour Tata @ !#$e#Ne le dis pas à maman... mais tu es l’adulte que je préfère.$h",
+        "hu": "Üdv @ bácsi!^Üdv @ néni!#$e#Ne mondd el anyunak... de te vagy a kedvenc felnőttem.$h",
+        "it": "Ciao, zio @!^Ciao, zia @!#$e#Non dirlo a mamma... ma di tutti i grandi, preferisco te.$h",
+        "ja": "こんにちは、@おじさん！^こんにちは、@おばさん！#$e#大人では あなたが 好きだって… おかあさんには 言わないでね。$h",
+        "en": "Hi Uncle @!^Hi Auntie @!#$e#Don't tell Mom... but you're my favorite grown-up.$h",
+        "ko": "@ 삼촌 안녕!^@ 이모 안녕!#$e#내가 제일 좋아하는 어른이에요... 엄마한테는 말하지 마요.$h",
+        "pt": "Oi, tio @!^Oi, tia@!#$e#Não diga à mamãe... mas você é meu adulto favorito.$h",
+        "ru": "Привет, дядя @!^Привет, тетя @!#$e#Вы не говорите только маме... Вы мой любимый взрослый.$h",
+        "tr": "Merhaba @ Amca!^Merhaba @ Teyze!#$e#En sevdiğim büyük sensin... Anneme söyleme ama.$h",
+        "zh": "你好啊，@叔叔！^嗨，@姑妈！#$e#别告诉我妈……不过大人里面我最喜欢你了。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:Thu",
+      "author_key": "Thu",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich bin hungrig... Wo ist Mama?$s",
+        "es": "Tengo hambre... ¿Dónde está mamá?$s",
+        "fr": "J’ai faim... où est maman ?$s",
+        "hu": "Éhes vagyok... hol van anyu?$s",
+        "it": "Ho fame... Dov'è mamma?$s",
+        "ja": "おなかすいた… おかあさんは どこ？$s",
+        "en": "I'm hungry... where's Mom?$s",
+        "ko": "배고파... 엄마 어딨어?$s",
+        "pt": "Estou com fome! Cadê a minha mãe?$s",
+        "ru": "Я голодный... Где мама?$s",
+        "tr": "Acıktım... Annem nerde?$s",
+        "zh": "好饿啊……妈妈呢？$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:Thu2",
+      "author_key": "Thu2",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du bist nicht so langweilig wie die meisten Erwachsenen!",
+        "es": "¡No eres tan aburrido como la mayoría de los mayores!^¡No eres tan aburrida como la mayoría de los mayores!",
+        "fr": "Tu ne m’ennuies pas autant que la plupart des adultes !",
+        "hu": "Te nem vagy olyan uncsi, mint a többi felnőtt!",
+        "it": "Non sei una noia come gli altri grandi!",
+        "ja": "あなたって、 他の 大人と 違って 面白いんだね！",
+        "en": "You're not as boring as most grown-ups!",
+        "ko": "다른 어른들처럼 지루하지 않네요!",
+        "pt": "Você não é chato como a maioria dos adultos!",
+        "ru": "А с тобой не так скучно, как с остальными взрослыми!",
+        "tr": "Çoğu yetişkin kadar sıkıcı değilsin!",
+        "zh": "你不像大多数大人们那么无聊呢！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:Tue",
+      "author_key": "Tue",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "*schnüff* Mama lässt mich heute nichts Süßes mehr essen.$s",
+        "es": "*Sigh...* Mamá no me deja comer más gominolas hoy.$s",
+        "fr": "*Soupir*... Maman ne veut pas que je mange de bonbons aujourd’hui.$s",
+        "hu": "*sóhaj*... Anyu nem hagyja, hogy ma több gumicukrot egyek.$s",
+        "it": "*sospira*... Mamma mi ha proibito di mangiare altre caramelle gommose, oggi.$s",
+        "ja": "はぁ… 今日は これ以上 おかあさんから グミが もらえないんだ。$s",
+        "en": "*sigh*... Mom won't let me have any more gummies today.$s",
+        "ko": "*한숨*... 엄마가 오늘은 젤리 더 먹으면 안 된대요.$s",
+        "pt": "*Aaah*... Mamãe não quer deixar eu comer mais bala de goma hoje.$s",
+        "ru": "Эх... Мама говорит, мне нельзя сегодня больше мармеладок.$s",
+        "tr": "*iç çeker*... Annem bugün şeker almama izin vermedi...$s",
+        "zh": "*唉*……妈妈今天不让我再多吃软糖了。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:Tue6",
+      "author_key": "Tue6",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Kannst du ein Geheimnis für dich behalten?$u#$b#Ich will Frau Penny heiraten, wenn ich groß bin.#$e#Sag's ihr aber nicht, okay?$u",
+        "es": "¿Sabes guardar un secreto?$u#$b#Cuando sea mayor me casaré con la señorita Penny.#$e#Pero no se lo digas, ¿eh?$u",
+        "fr": "Tu peux garder un secret, Monsieur ?^Tu peux garder un secret, Mademoiselle ?$u#$b#Je veux épouser Mademoiselle Penny quand je serai grand.#$e#Ne lui dis pas, d’accord ?$u",
+        "hu": "Bácsi, tudsz titkot tartani?^Néni, tudsz titkot tartani?$u#$b#Feleségül akarom venni Penny nénit, ha felnövök.#$e#De ezt senkinek se mondd el, oké?$u",
+        "it": "Lo sai tenere un segreto, signore?^Lo sai tenere un segreto, signorina?$u#$b#Da grande voglio sposare la signorina Penny.#$e#Però non dirlo a lei, va bene?$u",
+        "ja": "お兄さん、 秘密だよ？^お姉さん、 秘密だよ？$u#$b#大きくなったら、 ペニーさんと 結婚したいんだ。#$e#ペニーさんには 言わないでね。$u",
+        "en": "Can you keep a secret, mister?^Can you keep a secret, miss?$u#$b#I wanna marry Miss Penny when I grow up.#$e#Just don't tell her, okay?$u",
+        "ko": "아저씨, 비밀 하나 알려줄까요?^아줌마, 비밀 하나 알려줄까요?$u#$b#난 커서 페니 선생님이랑 결혼할 거예요.#$e#선생님한테는 얘기하지 마요, 알았죠?$u",
+        "pt": "Você guarda segredo, moço?^Você guarda segredo, moça?$u#$b#Eu quero casar com a tia Penny quando crescer.#$e#Mas não diz para ela, tá?$u",
+        "ru": "А вы умеете хранить секреты, мистер?^А вы умеете хранить секреты, мисс?$u#$b#Я хочу жениться на мисс Пенни, когда вырасту.#$e#Вы только ей не говорите, ладно?$u",
+        "tr": "Bir sır tutabilir misiniz bayım?^Bir sır tutabilir misiniz, hanımefendi?$u#$b#Büyüdüğümde Bayan Penny ile evlenmek istiyorum.#$e#Ona söylemeyin, tamam mı?$u",
+        "zh": "你能为我保守个秘密吗，先生？^你能为我保守个秘密吗，女士？$u#$b#我长大后想娶潘妮小姐为妻。#$e#不要告诉她，好吗？$u"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:Wed",
+      "author_key": "Wed",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich will nach Käfern suchen, aber Mama wird böse, wenn ich mich schmutzig mache.$u#$b#Was soll ich nur tun...",
+        "es": "Quiero ir a buscar bichos, pero mi madre se enfada cuando llego sucio.$u#$b#Qué decisión tan difícil.",
+        "fr": "Je veux aller faire la chasse aux insectes, mais ma mère se met en colère quand je rentre tout sale.$u#$b#Je ne sais pas quoi faire.",
+        "hu": "Bogarakat akarok keresni, de anyu mérges lesz rám, ha piszkos leszek.$u#$b#Nehéz választás.",
+        "it": "Voglio andare a caccia d'insetti, ma mamma s'arrabbia quando mi sporco tutto.$u#$b#Che scelta dura.",
+        "ja": "虫を 探したいけど、 泥まみれになると おかあさんに しかられるんだ。$u#$b#難しいよね。",
+        "en": "I wanna look for bugs, but Mom gets mad when I'm all dirty.$u#$b#It's a tough choice.",
+        "ko": "벌레 찾으러 가고 싶은데, 내가 지저분해지면 엄마가 화내요.$u#$b#어려운 결정이죠.",
+        "pt": "Eu quero caçar insetos, mas mamãe fica muito zangada quando me sujo.$u#$b#É uma escolha difícil.",
+        "ru": "Я хочу поискать жучков, но мама сердится, когда я весь грязный.$u#$b#Сложный выбор.",
+        "tr": "Böcek aramaya çıkmak istiyorum ama üstümü kirletince de annem kızıyor.$u#$b#Arada kaldım...",
+        "zh": "我想去捉虫子，但每次搞得脏兮兮又会被妈妈骂。$u#$b#真是艰难的抉择啊。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:married_Sam",
+      "author_key": "married_Sam",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Nimm mir mein Sammy nicht weg!$s",
+        "es": "¡No te lleves a mi Sammy!$s",
+        "fr": "Ne prends pas mon Sammy !$s",
+        "hu": "Ne vidd el az én Sammymet!$s",
+        "it": "Non portarmi via il mio Sammy!$s",
+        "ja": "ボクのお兄ちゃんをつれていかないで！$s",
+        "en": "Don't take my Sammy away!$s",
+        "ko": "형 데리고 가지 마요!$s",
+        "pt": "Não leve o meu Sammy embora!$s",
+        "ru": "Не забирай моего Сэмми!$s",
+        "tr": "Sammy'mi benden alma!$s",
+        "zh": "不许抢走我的山姆哥哥！$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'married_Sam' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Vincent:reject_869",
+      "author_key": "reject_869",
+      "character": "Vincent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oooh! Netter Fund!#$b#Mama würde es mir allerdings nicht erlauben ihn zu behalten...$s",
+        "es": "¡Oooh! ¡Qué buen descubrimiento!#$b#Aunque mamá nunca me dejará quedármelo...$s",
+        "fr": "Oh ! Belle trouvaille !#$b#Cependant, ma mère ne me laissera pas le garder...$s",
+        "hu": "Óóó! Remek lelet!#$b#Bár anya nem hagyná, hogy megtartsam...$s",
+        "it": "Oooh! Che forte!#$b#Mamma non me lo lascerebbe tenere, però...$s",
+        "ja": "おおー！よく見つけたね！#$b#お母さんは飼っちゃダメって言ってるけど…$s",
+        "en": "Oooh! Nice find!#$b#Mom wouldn't let me keep him, though...$s",
+        "ko": "오! 멋져요!#$b#엄마가 나 이거 가지고 있으면 안 된다고 할 거예요, 근데...$s",
+        "pt": "Oooh! Belo achado!#$b#Mas a minha mãe não vai deixar eu ficar com ele...$s",
+        "ru": "Ооо! Хорошая находка!#$b#Но мама не разрешит мне оставить это у себя...$s",
+        "tr": "Ah! Ne güzel bir şey bulmuşsun!#$b#Annem bunu almama izin vermez...$s",
+        "zh": "噢噢噢！不错的发现！#$b#但是，妈妈不会让我留下他的……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Vincent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Vincent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Vincent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Vincent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Vincent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Vincent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Vincent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Vincent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Vincent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Vincent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Vincent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Vincent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'reject_869' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    }
+  ]
+}

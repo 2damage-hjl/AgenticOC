@@ -1,0 +1,1277 @@
+{
+  "dataset_meta": {
+    "schema": "processed_dialogue_v1",
+    "source_root": "data/game_scripts/Dialogue",
+    "collection": "Dialogue",
+    "character": "Gil",
+    "record_count": 24,
+    "dialogue_type_counts": {
+      "general_dialogue": 2
+    },
+    "processed_from": "D:\\DamonAI\\ai\\prompt_construction\\data\\canonical\\Gil_canonical.json",
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hu",
+      "it",
+      "ja",
+      "ko",
+      "pt",
+      "ru",
+      "tr",
+      "zh"
+    ]
+  },
+  "records": [
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:ComeBackLater:de",
+      "canonical_id": "Dialogue/general_dialogue/Gil:ComeBackLater",
+      "author_key": "ComeBackLater",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "de",
+      "text": {
+        "raw": "... Komm wieder, wenn du mir was zu zeigen hast, Kind.",
+        "display": "... Komm wieder, wenn du mir was zu zeigen hast, Kind.",
+        "embedding": "... Komm wieder, wenn du mir was zu zeigen hast, Kind."
+      },
+      "context": {
+        "source_key": "ComeBackLater",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "1730d4dbb927c2143b3e9815d3b295d6b33d84be95352a6a583210082ce6cec6",
+        "retrieval_text_hash": "867705d53aaf161559b703913d54e3f5d572afcfeb233b9c9714b5ca0c67c384",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:ComeBackLater:de:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: ... Komm wieder, wenn du mir was zu zeigen hast, Kind."
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:ComeBackLater:en",
+      "canonical_id": "Dialogue/general_dialogue/Gil:ComeBackLater",
+      "author_key": "ComeBackLater",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "en",
+      "text": {
+        "raw": "...Come back when you've got something to show me, kid.",
+        "display": "...Come back when you've got something to show me, kid.",
+        "embedding": "...Come back when you've got something to show me, kid."
+      },
+      "context": {
+        "source_key": "ComeBackLater",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "65d915803dff3915715f3ea64686513816015aa399877b9201d201a5e77eb5e1",
+        "retrieval_text_hash": "8bf62f23a7cf3e68ae9757e4f51f925f0528fbd26a2628b4db8402175b3813d0",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:ComeBackLater:en:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: ...Come back when you've got something to show me, kid."
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:ComeBackLater:es",
+      "canonical_id": "Dialogue/general_dialogue/Gil:ComeBackLater",
+      "author_key": "ComeBackLater",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "es",
+      "text": {
+        "raw": "...Vuelve cuando tengas algo que enseñarme, anda.",
+        "display": "...Vuelve cuando tengas algo que enseñarme, anda.",
+        "embedding": "...Vuelve cuando tengas algo que enseñarme, anda."
+      },
+      "context": {
+        "source_key": "ComeBackLater",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "99b9b4ece4b436099c756e090d207db8e969c9cb1334386c21411ee7e9b28f0d",
+        "retrieval_text_hash": "8a19fe0cba5266deefbad3987a1e53dbae11dc8ff7d9311650d816914e8c0869",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:ComeBackLater:es:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: ...Vuelve cuando tengas algo que enseñarme, anda."
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:ComeBackLater:fr",
+      "canonical_id": "Dialogue/general_dialogue/Gil:ComeBackLater",
+      "author_key": "ComeBackLater",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "fr",
+      "text": {
+        "raw": "... Reviens me voir quand tu auras quelque chose à me montrer.",
+        "display": "... Reviens me voir quand tu auras quelque chose à me montrer.",
+        "embedding": "... Reviens me voir quand tu auras quelque chose à me montrer."
+      },
+      "context": {
+        "source_key": "ComeBackLater",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "709b881b98dd2d26c81f328391907ba305640ec64e11cb1f52cc71d0c13f2e26",
+        "retrieval_text_hash": "c809e322fb714fba4f517124319f5682db8b0d840d66a7de37d2229ed0c1c932",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:ComeBackLater:fr:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: ... Reviens me voir quand tu auras quelque chose à me montrer."
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:ComeBackLater:hu",
+      "canonical_id": "Dialogue/general_dialogue/Gil:ComeBackLater",
+      "author_key": "ComeBackLater",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "hu",
+      "text": {
+        "raw": "...Jöjj vissza, ha van számomra valamid, kölyök.",
+        "display": "...Jöjj vissza, ha van számomra valamid, kölyök.",
+        "embedding": "...Jöjj vissza, ha van számomra valamid, kölyök."
+      },
+      "context": {
+        "source_key": "ComeBackLater",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "99b26e485330a9f45805f8818456d6655ffff5d9bdcb9b9c7b4c06fbf0ac6ca4",
+        "retrieval_text_hash": "7cffce4308754853838319d1f916466707487329b6c471c9770835ebf20f29a2",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:ComeBackLater:hu:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: ...Jöjj vissza, ha van számomra valamid, kölyök."
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:ComeBackLater:it",
+      "canonical_id": "Dialogue/general_dialogue/Gil:ComeBackLater",
+      "author_key": "ComeBackLater",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "it",
+      "text": {
+        "raw": "...Torna quando hai qualcosa da mostrarmi, giovane.",
+        "display": "...Torna quando hai qualcosa da mostrarmi, giovane.",
+        "embedding": "...Torna quando hai qualcosa da mostrarmi, giovane."
+      },
+      "context": {
+        "source_key": "ComeBackLater",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "b57c2b9bfeafcc2ba2a14200fa93bb57164439dd50042d45b128751fc2c66706",
+        "retrieval_text_hash": "b0e6480d24be1ced161450cd986654aac9c9b7adba05f8e7bfd8e24020aca996",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:ComeBackLater:it:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: ...Torna quando hai qualcosa da mostrarmi, giovane."
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:ComeBackLater:ja",
+      "canonical_id": "Dialogue/general_dialogue/Gil:ComeBackLater",
+      "author_key": "ComeBackLater",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "ja",
+      "text": {
+        "raw": "…何か 見せたいものが ある時に 戻ってきなされ。",
+        "display": "…何か 見せたいものが ある時に 戻ってきなされ。",
+        "embedding": "…何か 見せたいものが ある時に 戻ってきなされ。"
+      },
+      "context": {
+        "source_key": "ComeBackLater",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "3d746baffd77e623ab2d03b20e54af3766e2bb89ae74a7d45125ea9740580c02",
+        "retrieval_text_hash": "c41c3f83b2df47b4803e61c19ba8fee6f1b408813028af7ad0ec2361a0835a28",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:ComeBackLater:ja:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: …何か 見せたいものが ある時に 戻ってきなされ。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:ComeBackLater:ko",
+      "canonical_id": "Dialogue/general_dialogue/Gil:ComeBackLater",
+      "author_key": "ComeBackLater",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "ko",
+      "text": {
+        "raw": "...보여줄 만한 게 있을 때 돌아와라, 꼬마야.",
+        "display": "...보여줄 만한 게 있을 때 돌아와라, 꼬마야.",
+        "embedding": "...보여줄 만한 게 있을 때 돌아와라, 꼬마야."
+      },
+      "context": {
+        "source_key": "ComeBackLater",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "9e6929f8fcfe91741474763eed04da586758ae693bc8b774b092c7042c02957f",
+        "retrieval_text_hash": "6d4271375fa351d4c23483edb6af1b4443172860ee7ed76ae509b3cf13563455",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:ComeBackLater:ko:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: ...보여줄 만한 게 있을 때 돌아와라, 꼬마야."
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:ComeBackLater:pt",
+      "canonical_id": "Dialogue/general_dialogue/Gil:ComeBackLater",
+      "author_key": "ComeBackLater",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "pt",
+      "text": {
+        "raw": "... Volte quando tiver algo para me mostrar, criança",
+        "display": "... Volte quando tiver algo para me mostrar, criança",
+        "embedding": "... Volte quando tiver algo para me mostrar, criança"
+      },
+      "context": {
+        "source_key": "ComeBackLater",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "abe25aca9fc70690b6820d4952760b52964a0d8b518e09f61c40e0b39136cd56",
+        "retrieval_text_hash": "7781674cb6150fbd5bb917e76b03dc7692e1a2df5c5c65b1ce852cc5d69bb6de",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:ComeBackLater:pt:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: ... Volte quando tiver algo para me mostrar, criança"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:ComeBackLater:ru",
+      "canonical_id": "Dialogue/general_dialogue/Gil:ComeBackLater",
+      "author_key": "ComeBackLater",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "ru",
+      "text": {
+        "raw": "... Возвращайся, когда у тебя будет, что мне показать, молодежь.",
+        "display": "... Возвращайся, когда у тебя будет, что мне показать, молодежь.",
+        "embedding": "... Возвращайся, когда у тебя будет, что мне показать, молодежь."
+      },
+      "context": {
+        "source_key": "ComeBackLater",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "d82b0f3a3196938e7820e19d1281b0132aae623bb318963819526bb70c37c3b7",
+        "retrieval_text_hash": "432b41b5ae425989596adfab851d97d7286182ec9ca76d0ef20e41b8b222409b",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:ComeBackLater:ru:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: ... Возвращайся, когда у тебя будет, что мне показать, молодежь."
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:ComeBackLater:tr",
+      "canonical_id": "Dialogue/general_dialogue/Gil:ComeBackLater",
+      "author_key": "ComeBackLater",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "tr",
+      "text": {
+        "raw": "...Bana gösterecek bir şeyin olduğunda gel evlat.",
+        "display": "...Bana gösterecek bir şeyin olduğunda gel evlat.",
+        "embedding": "...Bana gösterecek bir şeyin olduğunda gel evlat."
+      },
+      "context": {
+        "source_key": "ComeBackLater",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "5583931deba1126e838a21130033314ea417212724bb2b1ebc8f335d46e05afe",
+        "retrieval_text_hash": "b81c07d2e26fb4263236c317c13170eebcadba72dd0f2f26dda58f2dba958533",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:ComeBackLater:tr:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: ...Bana gösterecek bir şeyin olduğunda gel evlat."
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:ComeBackLater:zh",
+      "canonical_id": "Dialogue/general_dialogue/Gil:ComeBackLater",
+      "author_key": "ComeBackLater",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "……孩子，等你有了能让我刮目相看的东西，再来找我吧。",
+        "display": "……孩子，等你有了能让我刮目相看的东西，再来找我吧。",
+        "embedding": "……孩子，等你有了能让我刮目相看的东西，再来找我吧。"
+      },
+      "context": {
+        "source_key": "ComeBackLater",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "eceb6fd53f7db95b4bfe4dabfe8f2c5e775987b41369e551edf8e8012cba09ed",
+        "retrieval_text_hash": "d8548a10146a71d90df9f5fb0718071bc99d1976ab6ab1679cf5dae0bb80cb13",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:ComeBackLater:zh:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: ……孩子，等你有了能让我刮目相看的东西，再来找我吧。"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:Snoring:de",
+      "canonical_id": "Dialogue/general_dialogue/Gil:Snoring",
+      "author_key": "Snoring",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "de",
+      "text": {
+        "raw": "...*schnarch*...",
+        "display": "...*schnarch*...",
+        "embedding": "...*schnarch*..."
+      },
+      "context": {
+        "source_key": "Snoring",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "bdc3440b6402dd01a1073e00f9fde5196b882d66598577e9d278c7d4a79960f1",
+        "retrieval_text_hash": "04637753a8eb6ba6c981e16da0b3ab83fccdd8a0b418c140f8d8a6b11a23981a",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:Snoring:de:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: ...*schnarch*..."
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:Snoring:en",
+      "canonical_id": "Dialogue/general_dialogue/Gil:Snoring",
+      "author_key": "Snoring",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "en",
+      "text": {
+        "raw": "...*snore*...",
+        "display": "...*snore*...",
+        "embedding": "...*snore*..."
+      },
+      "context": {
+        "source_key": "Snoring",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "98cfc1f274f1233fb0ed527e6dd29fd567f9fdc9f42364449c7122186b613e7e",
+        "retrieval_text_hash": "fe85c363d4e4e53c9be5843c22ee56806e9d0c4fc11134d2acd1adb239d32691",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:Snoring:en:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: ...*snore*..."
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:Snoring:es",
+      "canonical_id": "Dialogue/general_dialogue/Gil:Snoring",
+      "author_key": "Snoring",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "es",
+      "text": {
+        "raw": "*Ngh...*",
+        "display": "*Ngh...*",
+        "embedding": "*Ngh...*"
+      },
+      "context": {
+        "source_key": "Snoring",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "555b927bcdf49250f081cf8ae2ef6d524f01b50ce5725a31b0bbd145895847c0",
+        "retrieval_text_hash": "3342772af2c1911b7fd370cd945d7e7ca1544195e9905e41897fcc3642992037",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:Snoring:es:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: *Ngh...*"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:Snoring:fr",
+      "canonical_id": "Dialogue/general_dialogue/Gil:Snoring",
+      "author_key": "Snoring",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "fr",
+      "text": {
+        "raw": "...*Ronflement*...",
+        "display": "...*Ronflement*...",
+        "embedding": "...*Ronflement*..."
+      },
+      "context": {
+        "source_key": "Snoring",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "fe0fdbfcb4d5b5bf3034e5c27c1a4ee7103ed03eff341fc60c91c86528b13c45",
+        "retrieval_text_hash": "a9ff7a855dccdf25e0a57d04481487b7eb732199f721ce4d463f976d5199eb37",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:Snoring:fr:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: ...*Ronflement*..."
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:Snoring:hu",
+      "canonical_id": "Dialogue/general_dialogue/Gil:Snoring",
+      "author_key": "Snoring",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "hu",
+      "text": {
+        "raw": "...*horkol*...",
+        "display": "...*horkol*...",
+        "embedding": "...*horkol*..."
+      },
+      "context": {
+        "source_key": "Snoring",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "cdc7873a2822fc07f810dc143f03a7e12fd4692fca28e4578e248794bf95148c",
+        "retrieval_text_hash": "98b00ac982d2d94456412ba263b524a4073d8333cd31ddce5a1d27df4f25f1cc",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:Snoring:hu:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: ...*horkol*..."
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:Snoring:it",
+      "canonical_id": "Dialogue/general_dialogue/Gil:Snoring",
+      "author_key": "Snoring",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "it",
+      "text": {
+        "raw": "...*russa*...",
+        "display": "...*russa*...",
+        "embedding": "...*russa*..."
+      },
+      "context": {
+        "source_key": "Snoring",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "2bc01e0664ac0d6af3671c936e0e100dbedf96d6f64af0ab31f3b27424ff8d8f",
+        "retrieval_text_hash": "c5075366c8df2e5350486a575ceca33d7d25f67308830d7b6c4b542791542d74",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:Snoring:it:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: ...*russa*..."
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:Snoring:ja",
+      "canonical_id": "Dialogue/general_dialogue/Gil:Snoring",
+      "author_key": "Snoring",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "ja",
+      "text": {
+        "raw": "…グーッ…",
+        "display": "…グーッ…",
+        "embedding": "…グーッ…"
+      },
+      "context": {
+        "source_key": "Snoring",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "c3818034e8751a236633f463e147ff70c935d6294fe14bdb9b9dfbfb2454c9fa",
+        "retrieval_text_hash": "67aec5a094d98c34dfa00a2824e114fee8e59c6faed4dc64f3a45179bb577378",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:Snoring:ja:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: …グーッ…"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:Snoring:ko",
+      "canonical_id": "Dialogue/general_dialogue/Gil:Snoring",
+      "author_key": "Snoring",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "ko",
+      "text": {
+        "raw": "...*쿨쿨*...",
+        "display": "...*쿨쿨*...",
+        "embedding": "...*쿨쿨*..."
+      },
+      "context": {
+        "source_key": "Snoring",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "21ed5c558cb173055ff92124186ffff8135a8e8800334b9d5f391dbec4ee2717",
+        "retrieval_text_hash": "db4a01cd9cbfc2727845104ef6232332a7a8c43bed2267f9416860f4c00e3af6",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:Snoring:ko:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: ...*쿨쿨*..."
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:Snoring:pt",
+      "canonical_id": "Dialogue/general_dialogue/Gil:Snoring",
+      "author_key": "Snoring",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "pt",
+      "text": {
+        "raw": "*Ronc...*",
+        "display": "*Ronc...*",
+        "embedding": "*Ronc...*"
+      },
+      "context": {
+        "source_key": "Snoring",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "ec1f5d034fac4f55c61dd055ff1dbfa05f9530c71032d4fdf4266a495327b991",
+        "retrieval_text_hash": "a6df71539f8cda5f8792facc1e26b9bbfe36a75708b2cacbf26b86e00da0a2f0",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:Snoring:pt:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: *Ronc...*"
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:Snoring:ru",
+      "canonical_id": "Dialogue/general_dialogue/Gil:Snoring",
+      "author_key": "Snoring",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "ru",
+      "text": {
+        "raw": "...*Храпит*...",
+        "display": "...*Храпит*...",
+        "embedding": "...*Храпит*..."
+      },
+      "context": {
+        "source_key": "Snoring",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "11712a12c3ac141ee7c5f8dc788a3699aed0d506e4f6ec88b7c0522a7604f955",
+        "retrieval_text_hash": "b5a69fa174740999a8fd22bb047426df232c5ac06897415f89fb0f01aec01a59",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:Snoring:ru:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: ...*Храпит*..."
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:Snoring:tr",
+      "canonical_id": "Dialogue/general_dialogue/Gil:Snoring",
+      "author_key": "Snoring",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "tr",
+      "text": {
+        "raw": "...*horuldar*...",
+        "display": "...*horuldar*...",
+        "embedding": "...*horuldar*..."
+      },
+      "context": {
+        "source_key": "Snoring",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "9942aa4e7bfcdabb23a113699ba152c7d7b0331b60245cb558220a74d5e3e7bd",
+        "retrieval_text_hash": "c999e819a684f207faec836d8e0112660bbd64da2f7a01f9fe0026d108aae194",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:Snoring:tr:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: ...*horuldar*..."
+      }
+    },
+    {
+      "processed_id": "Dialogue/general_dialogue/Gil:Snoring:zh",
+      "canonical_id": "Dialogue/general_dialogue/Gil:Snoring",
+      "author_key": "Snoring",
+      "character": "Gil",
+      "dialogue_type": "general_dialogue",
+      "lang": "zh",
+      "text": {
+        "raw": "……*打鼾*……",
+        "display": "……*打鼾*……",
+        "embedding": "……*打鼾*……"
+      },
+      "context": {
+        "source_key": "Snoring",
+        "key_type": "general_dialogue",
+        "special_key_type": "generic_dialogue",
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "weather": [
+          "any"
+        ],
+        "time_period": [
+          "any"
+        ],
+        "scene": "any",
+        "heart_min": null,
+        "relationship_gate": "any"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "scene_type": "daily",
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      },
+      "indexing": {
+        "text_hash": "b1c69a58855e8f15b9c1988be53980c72986ef001a12a48eb317cdc1ce0514eb",
+        "retrieval_text_hash": "5208d1bf5372198d2c5ec3b1479ef1ae5c71cf6a6dfa85cd881daff9f35fdcd7",
+        "embedding_model": "BAAI/bge-m3",
+        "vector_ref": "Dialogue/general_dialogue/Gil:Snoring:zh:text",
+        "_embedding_text": "Character: Gil\nDialogue type: general_dialogue\nScene type: daily\nRelationship: any\nSeason: any\nWeather: any\nDialogue: ……*打鼾*……"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2993 @@
+{
+  "dataset_meta": {
+    "schema": "canonical_dialogue_v2",
+    "source_root": "data/game_scripts/Dialogue",
+    "collection": "Dialogue",
+    "character": "Clint",
+    "record_count": 45,
+    "dialogue_type_counts": {
+      "general_dialogue": 45
+    }
+  },
+  "records": [
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:AcceptBirthdayGift_Negative",
+      "author_key": "AcceptBirthdayGift_Negative",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ist das ein Geburtstagsgeschenk? Das ist, äh... eine interessante Wahl. Nun, ich weiß es jedenfalls zu schätzen, dass du an mich gedacht hast.",
+        "es": "¿Esto es un regalo de cumpleaños? Es, ehm... una elección interesante. Bueno, aun así aprecio que te hayas acordado de mí.",
+        "fr": "C’est un cadeau d’anniversaire ? C’est, euh... un choix intéressant. Je suis reconnaissant que tu te sois souvenu de moi, en tout cas.",
+        "hu": "Ez egy születésnapi ajándék? Ez, öhm... érdekes választás. Nos, a lényeg, hogy értékelem, hogy legalább gondoltál rám.",
+        "it": "È un regalo di compleanno, questo? È, ehm... una scelta interessante. Beh, apprezzo comunque che qualcuno si sia ricordato di me.",
+        "ja": "これが誕生日プレゼントだって？これは、うーん… どうしてこんなものを…とにかく、誕生日を覚えといてくれたことには感謝するよ。",
+        "en": "Is this a birthday gift? It's, uh... an interesting choice. Well I appreciate that you remembered me, anyway.",
+        "ko": "이게 생일선물이라고? 이건, 어... 흥미로운 선택이네. 아무튼 날 기억해 줬다는 사실은 고마워.",
+        "pt": "Isso é um presente de aniversário? É, uh... uma escolha interessante. De qualquer jeito, eu agradeço por ter se lembrado.",
+        "ru": "Это что, подарок на день рождения? Какой... Интересный выбор. Что ж, спасибо, что не забываешь.",
+        "tr": "Bu bir doğum günü hediyesi mi? Eh... ilginç bir tercih. Yine de beni unutmadığın için teşekkür ederim.",
+        "zh": "是给我的生日礼物吗？这个，呃……很耐人寻味，不过你能记得，我还是很感激。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptBirthdayGift_Negative' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:AcceptBirthdayGift_Positive",
+      "author_key": "AcceptBirthdayGift_Positive",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich bekomme normalerweise keine Geburtstagsgeschenke. Das bedeutet mir wirklich sehr viel, @. Ich danke dir.",
+        "es": "No me suelen dar regalos de cumpleaños. Esto significa mucho para mi, @. Gracias.",
+        "fr": "Je n’ai pas l’habitude de recevoir des cadeaux d’anniversaire. Ça compte beaucoup pour moi, @. Je te remercie.",
+        "hu": "Általában nem kapok születésnapi ajándékokat. Ez nagyon sokat jelent nekem, @. Köszönöm.",
+        "it": "Normalmente non ricevo regali di compleanno. Significa davvero tanto per me, @. Grazie.",
+        "ja": "おれはめったに誕生日プレゼントなんてもらえない。@、感謝するよ。ありがとう。",
+        "en": "I don't usually get birthday gifts. This actually means a lot, @. Thank you.",
+        "ko": "난 생일선물은 보통 못 받는데. 나한테 정말 의미 깊은 일이야, @. 고마워.",
+        "pt": "Eu geralmente não ganho presentes de aniversário. Isso significa muito para mim, @. Obrigado.",
+        "ru": "Мне нечасто дарят подарки на день рождения. Мне очень приятно, @. Спасибо.",
+        "tr": "Genellikle doğum günü hediyesi almam. Bu, gerçekten benim için çok anlamlı @. Teşekkür ederim.",
+        "zh": "一般不会有人送我生日礼物。@，我很感动，谢谢你。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptBirthdayGift_Positive' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:AcceptGift_(O)SkillBook_3",
+      "author_key": "AcceptGift_(O)SkillBook_3",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh, interessant... Diese Bücher sind hier im Tal nicht so leicht zu bekommen.#$b#Sieht aus, als gäbe es eine Menge guter Tipps. Danke, @.",
+        "es": "Oh, interesante... No es fácil encontrar esos libros en el valle.#$b#Parece que hay muchos buenos consejos ahí dentro. Gracias, @.",
+        "fr": "Ho, intéressant... Ces livres ne sont pas très faciles à trouver dans la vallée.#$b#On dirait qu’il y a beaucoup de bons conseils là-dedans. Merci, @.",
+        "hu": "Óh, érdekes... Nem könnyű ezeket a könyveket beszerezni itt a völgyben.#$b#Úgy tűnik sok hasznos tipp van benne. Köszönöm, @!",
+        "it": "Oh, interessante... Questi libri non sono facili da trovare nella valle.#$b#Sembra che ci siano un sacco di buoni consigli qui dentro. Grazie, @.",
+        "ja": "これはおもしろそうだ…谷ではこういう本がなかなか手に入らないからな。#$b#いいアイディアがたくさん載っていそうだ。ありがとう、@。",
+        "en": "Oh, interesting... These books aren't very easy to come by in the valley.#$b#Looks like there's a lot of good tips in here. Thanks, @.",
+        "ko": "오, 흥미롭네... 여기 계곡에선 보기 힘든 책인데.#$b#도움 되는 얘기가 많이 들었네. 고마워, @.",
+        "pt": "Oh, que interessante... Esses livros são muito raros aqui no vale.#$b#Parece que tem umas dicas boas aqui. Obrigado, @.",
+        "ru": "О, любопытно... В долине такие книги не так-то просто достать.#$b#Похоже, в ней есть куча полезных советов. Спасибо, @.",
+        "tr": "Ah, ilginç... Vadide bu tür kitaplara kolay rastlanmaz.#$b#Tüyo doluymuş bu. Teşekkürler @.",
+        "zh": "嗯，很有意思……这书在星露谷可不容易弄到。#$b#里面好像有很多实用的建议，谢谢你，@。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)SkillBook_3' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:AcceptGift_(O)StardropTea",
+      "author_key": "AcceptGift_(O)StardropTea",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du gibst das... mir? Ich glaube nicht, dass ich es verdiene, aber danke.",
+        "es": "Me estás dando esto... ¿a mí? Creo que no me lo merezco, pero... gracias.",
+        "fr": "C’est pour... moi ? Je ne pense pas le mériter. Merci quand même...",
+        "hu": "Ezt... nekem adod? Nem hiszem, hogy megérdemelném, de... köszönöm.",
+        "it": "Vuoi regalare questo... a me? Non credo di meritarlo, ma.. grazie.",
+        "ja": "それを… おれに？おれにはもったいないものだが… ありがとう。",
+        "en": "You're giving this... to me? I don't think I deserve it, but.. thank you.",
+        "ko": "이걸 나한테... 주겠다고? 내가 이걸 받을 자격이 있는 것 같진 않지만... 고마워.",
+        "pt": "Você vai dar isso... para mim? Eu não acho que mereço, mas.. obrigado.",
+        "ru": "Ты даришь это... мне? Не думаю, что я этого заслуживаю... но спасибо.",
+        "tr": "Bunu bana mı veriyorsun? Hak ettiğimi sanmıyorum ama.. Teşekkürler.",
+        "zh": "这个是……要送给我的？实在是太贵重了……谢谢你。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)StardropTea' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Fri",
+      "author_key": "Fri",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das Wetter macht für mich keinen Unterschied. Ich bleibe normalerweise das ganze Jahr über in der Nähe von meinem Laden.#$e#Deprimierend, was?",
+        "es": "El tiempo que haga me da un poco igual. Suelo estar aquí en la tienda todo el año.#$e#Qué deprimente, ¿no?",
+        "fr": "Je ne me soucie pas trop de la météo. Je reste dans ma boutique toute l’année en général.#$e# C’est déprimant, non ?",
+        "hu": "Nekem nem igazán számít az időjárás. Úgyis egész évben a műhelyem körül maradok.#$e#Nyomasztó, igaz?",
+        "it": "Il tempo non ha molta importanza, per me. Tanto passo tutto l'anno in bottega.#$e#Deprimente, eh?",
+        "ja": "外の天気なんて、 おれにはあまり 関係のないことだ。一年中、 店から離れないからね。#$e#気がめいるだろう？",
+        "en": "The weather doesn't really matter to me. I typically stay near my shop year-round.#$e#Depressing, huh?",
+        "ko": "날씨는 나랑 큰 상관이 없어. 일 년 내내 주로 가게 근처에만 있거든.#$e#좀 우울하지, 그치?",
+        "pt": "O clima não importa muito para mim. Costumo ficar perto da minha oficina o ano todo.#$e#Deprimente, né?",
+        "ru": "Погода для меня не очень-то важна. Обычно я целый год торчу у себя в кузнице.#$e#Тоскливо, правда?",
+        "tr": "Hava beni pek ilgilendirmiyor, yıl boyu dükkanın içindeyim.#$e#Çok sıkıcı, değil mi?",
+        "zh": "这天气对我来说倒不是什么大问题。通常来说我一整年都在店附近转悠。#$e#听起来有点憋屈吧？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Fri8",
+      "author_key": "Fri8",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich sollte sparen und mir einen Computer kaufen...#$e#Vielleicht kann ich im 'Internet' eine Freundin finden...$s#$e#Was? Verurteile mich nicht! Nicht jeder ist ein cooler, attraktiver, gesellschaftsfähiger Bauer, weißt du!$u#$e#Was soll ein Typ wie ich tun? *stöhn*$s",
+        "es": "Debería ahorrar y comprar un ordenador...#$e#Quizás pueda encontrar una novia en el « internet »...$s#$e#¿Qué? ¡No me juzgues! No todo el mundo puede ser guay, de buen ver, sociable y granjero, ¡sabes!$u#$e#¿Qué se supone que haga un tipo como yo? *Ugh*$s",
+        "fr": "Je devrais économiser et m’acheter un ordinateur...#$e#Peut-être que je pourrais trouver une petite amie sur Internet...$s#$e#Quoi ? Ne me juge pas ! Tout le monde n’est pas un agriculteur cool, et doué pour les relations sociales, tu sais !$u#$e#Qu’est-ce qu’un gars comme moi est censé faire ? *marmonne*$s",
+        "hu": "Spórolnom kellene és venni magamnak egy számítógépet...#$e#Talán az 'interneten' találhatnék magamnak barátnőt...$s#$e#Mi az? Ne ítélkezz! Tudod nem mindenki lehet menő, jó vágású, mindenkivel barátkozó gazda!$u#$e#Mégis mihez kezdhet egy magamféle fickó? *morog*$s",
+        "it": "Dovrei mettere da parte dei soldi per comprare un computer...#$e#Magari mi trovo una ragazza su 'internet'...$s#$e#Che c'è? Non mi giudicare! Non siamo tutti agricoltori attraenti, simpatici e socialmente capaci, sai!$u#$e#Cosa dovrebbe fare uno come me? *geme*$s",
+        "ja": "お金をためてパソコンを買わないと…#$e#インターネットで恋人を見つけられるかも知れない…$s#$e#なんだって？別におかしいことじゃないだろ！みんながみんな、カッコよくて社交的な牧場主ってわけじゃないんだ！$u#$e#おれみたいな男はいったいどうしたらいいんだ？ うーん…$s",
+        "en": "I should save up and buy a computer...#$e#Maybe I can find a girlfriend on the 'internet'...$s#$e#What? Don't judge me! Not everyone is a cool, attractive, socially-adept farmer, you know!$u#$e#What's a guy like me supposed to do? *Groan*$s",
+        "ko": "돈을 모아서 컴퓨터를 사야겠어...#$e#그 '인터넷'에서 여자친구를 찾을 수 있을지도...$s#$e#왜? 날 그런 눈으로 보지 마! 모두가 멋지고 매력적이고 사교성 넘치는 농부인 게 아니라고!$u#$e#나 같은 사람은 어떻게 해야 하는데? *끙*$s",
+        "pt": "Eu devia guardar dinheiro e comprar um computador...#$e#Talvez eu consiga achar uma namorada na 'internet'...$s#$e#O quê? Não me julgue! Nem todo mundo é legal, atraente, e bom de conversa, sabia?!$u#$e#O que um cara como eu precisa fazer? *Suspira*$s",
+        "ru": "Нужно накопить и купить компьютер...#$e#Может, я смогу найти себе девушку в этом вашем «интернете»...$s#$e#Что? Не надо на меня так смотреть! Не все тут крутые, привлекательные и социально активные фермеры, знаешь ли!$u#$e#Что ж таким, как я, делать? *стонет*$s",
+        "tr": "Para biriktirip bilgisayar almalıyım...#$e#Belki 'internetten' kız arkadaş bulabilirim...$s#$e#Ne? Beni yargılama! Herkes havalı, çekici ve sosyal bir çiftçi olamayabiliyor!$u#$e#Benim gibileri ne yapacak? *iç çeker*$s",
+        "zh": "我应该攒钱买台电脑……#$e#在“互联网”上说不定能找到女朋友……$s#$e#什么？你别看不起我！又不是所有人都长得帅，有魅力，善于社交，还有自己的农场的！$u#$e#我这种人到底要咋办啊？哎哟……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:GreenRain",
+      "author_key": "GreenRain",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Es sind Situationen wie diese, in denen der wahre Charakter eines Menschen auf die Probe gestellt wird...#$e#Ich werde jeden vor dem giftigen Regen beschützen!",
+        "es": "Es en estas situaciones cuando el carácter de una persona se pone a prueba.#$e#Los mantendré... Quiero decir, ¡los mantendré a salvo de la lluvia tóxica!",
+        "fr": "C’est dans ce genre de situation que la véritable nature d’une personne est mise à l’épreuve.#$e#Je garderai Em... Je veux dire, je garderai tout le monde à l’abri de la pluie toxique !",
+        "hu": "Az ilyen helyzetekben tesztelhető le egy ember valódi személyisége.#$e#Majd én megvédem Em... Úgy értem, majd én mindenkit megvédek a mérgező esőtől!",
+        "it": "È in situazioni come questa che viene messa alla prova la vera tempra di una persona.#$e#Proteggerò Em... cioè, proteggerò tutti dalla pioggia tossica!",
+        "ja": "こういう時は、人間の本当の性格が試されるんだ。#$e#おれはエミ…いや、この毒の雨からみんなを守るぞ！",
+        "en": "It's situations like this where a person's true character is put to the test.#$e#I'll keep Em... I mean, I'll keep everyone safe from the toxic rain!",
+        "ko": "이런 상황에서 사람의 본질이 드러나는 거지.#$e#내가 에밀... 아니, 내가 모두를 이 비로부터 지킬게!",
+        "pt": "É em situações como esta que o verdadeiro caráter de uma pessoa é revelado.#$e#Eu vou proteger a Em... quer dizer, eu vou proteger todos da chuva tóxica!",
+        "ru": "В таких ситуациях люди показывают свою истинную природу.#$e#Я защищу Эм... То есть я защищу всех от этой токсичной напасти!",
+        "tr": "Bu, insanların gerçek karakterini gösterdiği anlardan birisi.#$e#Ben... Şey, herkesi asit yağmurundan koruyacağım!",
+        "zh": "这种情况才是真正考验一个人有没有勇气。#$e#我会保护艾……那什么，我会保护大家不要淋到有毒的雨水！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "weather_green_rain",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:GreenRainFinished",
+      "author_key": "GreenRainFinished",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Naja, das war ein Reinfall. Und ich dachte, es wäre endlich meine Chance, ein Held zu sein. Tja... Zurück an den Schleifstein.",
+        "es": "Bueno eso ha sido inútil. Y yo que creía que por fin era mi oportunidad de convertirme en un héroe. Oh bueno... De vuelta a la piedra de amolar.",
+        "fr": "Et bien, c’était un échec. Et moi qui pensais que c’était enfin ma chance de devenir un héros. Tant pis... Retour à la case départ.",
+        "hu": "Na, a végén semmi se történt. Én meg már azt hittem, hogy végre eljött az idő, hogy hősködjek. Na mindegy... Vissza a köszörűkőhöz.",
+        "it": "Beh, falso allarme. E io che pensavo di avere finalmente l'occasione di essere un eroe. Oh beh... Torniamo alla mola.",
+        "ja": "何事もなかったな。やっとヒーローになれるチャンスがきたと思ったのに…まあいいや…仕事にもどるよ。",
+        "en": "Well that was a dud. And here I thought it was finally my chance to be a hero. Oh well... Back to the grindstone.",
+        "ko": "별일 없었네. 드디어 내가 영웅이 될 기회가 왔다고 생각했는데. 어쩔 수 없지... 다시 모루나 때려야겠다.",
+        "pt": "Bem, isso não deu em nada. E eu aqui achando que essa seria a minha oportunidade de ser um herói. Ah, tudo bem... De volta à forja.",
+        "ru": "Вот незадача. А я-то думал, что наконец смогу погеройствовать. Что ж... Вернусь к своему точильному камню.",
+        "tr": "Bir anda kesiliverdi. Tam da kahraman olabileceğimi düşünüyordum. Neyse... İş başına.",
+        "zh": "雷声大雨点小啊，我还以为总算能当一回英雄了。唉……继续干活吧。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'GreenRainFinished' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:GreenRain_2",
+      "author_key": "GreenRain_2",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich fühle mich schlecht, es zuzugeben, aber manchmal wünschte ich, es gäbe eine echte Katastrophe, nicht nur einen dummen grünen Regen.#$b#Etwas, das alles aufrüttelt.#$b#Nicht, dass jemand verletzt wird...#$b#Ich möchte mich nur lebendig fühlen... Das Gefühl haben, einen Sinn zu haben...",
+        "es": "Me siento mal admitiéndolo, pero a veces deseo que haya un desastre de verdad, no una estúpida lluvia verde solamente.#$b#Algo que cambie todo, ¿sabes?#$b#No es que quiera que la gente salga herida...#$b#Solo quiero sentirme vivo... Sentir que tengo un propósito...",
+        "fr": "Ça me gêne de l’admettre, mais parfois j’aimerais qu’il y ait un véritable désastre, pas juste une petite pluie verte.#$b#Quelque chose qui pourrait secouer tout ce petit monde, tu vois ce que je veux dire ?#$b#Non pas que je veuille que les gens soient blessés...#$b#Je veux juste me sentir en vie... Avoir l’impression d’avoir un but dans la vie...",
+        "hu": "Rossz érzés bevallanom, de néha azt kívánom, hogy bárcsak valódi veszély történne, nem csak valami ostoba zöld eső.#$b#Olyasmi, amitől kissé felfordulnának a dolgok, érted?#$b#Nem mintha azt akarnám, hogy mások megsérüljenek...#$b#Csak szeretném azt érezni, hogy életben vagyok... Azt érezni, hogy van célom...",
+        "it": "Mi sento in colpa ad ammetterlo, ma a volte vorrei che capitasse davvero un disastro, e non solo questa stupida pioggia verde.#$b#Un evento che movimentasse un po' le cose, mi spiego?#$b#Per carità, non vorrei che si facesse male nessuno...#$b#È che voglio sentirmi vivo... Sentire di avere uno scopo...",
+        "ja": "縁起でもないことだけど、こんな変な雨じゃなくて本当の災害が起きたらいいのにと思うことがあるよ。#$b#なにもかもを揺さぶるようことが起きたら…#$b#けが人が出たらいいなんて思っちゃいない…#$b#自分が生きていることを感じたいんだ…なにかのために生きていると思いたいんだ…",
+        "en": "I feel bad admitting it, but sometimes I wish there was a real disaster, not just some dumb green rain.#$b#Something to shake everything up, you know?#$b#Not that I want people to get hurt...#$b#I just want to feel alive... To feel like I have a purpose...",
+        "ko": "인정하려니 기분이 별로지만, 가끔은 진짜 재앙이 있었으면 좋겠다 싶어, 이런 멍청한 녹색 비 말고.#$b#세상을 뒤집어놓을만한 그런 거, 알지?#$b#사람들이 다쳤으면 좋겠다는 건 아냐...#$b#그냥 내가 살아있다는 기분이 들었으면 좋겠어... 삶의 목표가 있다는 기분이...",
+        "pt": "Eu me sinto mal falando isso, mas às vezes eu queria que acontecesse um desastre de verdade, não só uma chuva verde inútil.#$b#Algo para dar uma emoção, sabe?#$b#Eu não quero que as pessoas se machuquem...#$b#Eu só quero me sentir vivo... Sentir que eu tenho um propósito...",
+        "ru": "Плохо так говорить, но иногда мне хочется, чтобы случилось настоящее бедствие, а не этот глупый зеленый дождь.#$b#Чтобы все с ног на голову перевернулось, понимаешь?#$b#Я не хочу, чтобы кто-нибудь пострадал...#$b#Просто хочу снова почувствовать себя живым... И полезным...",
+        "tr": "Kabullenmekten nefret ediyorum ama bazen cidden büyük bir felaket olmasını istiyorum, aptal yeşil bir yağmur değil.#$b#Her şeyi sarsacak bir şey, bilirsin ya?#$b#Birileri zarar görsün istediğimden değil...#$b#Sadece yaşadığımı hissetmek istiyorum... Amacım varmış gibi...",
+        "zh": "有时候我真希望来一场货真价实的天灾，而不是这个破绿雨——我知道这想法很糟糕。#$b#得是那种，惊天动地级别的。#$b#我不是想要有人受伤……#$b#我只是想要有活着的感觉……有人生的目标……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Introduction",
+      "author_key": "Introduction",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Äh... hi. Ich bin Clint.#$e#Der Schmied der Stadt. Wenn du jemals deine Werkzeuge verbessern willst, bin ich dein Mann.",
+        "es": "Eh... Hola. Soy Clint. El herrero del pueblo.#$e#Si alguna vez necesitas mejorar tus herramientas, cuenta conmigo.",
+        "fr": "Euh... Bonjour. Je m’appelle Clint.#$e#Je suis le forgeron de la ville. Si tu as besoin d’améliorer tes outils, je suis ton homme.",
+        "hu": "Őő... szia. Clint vagyok.#$e#Én vagyok a város kovácsmestere. Ha fejleszteni kéne a szerszámaidon, engem keress.",
+        "it": "Ehm... ciao. Io sono Clint.#$e#Sono il fabbro del paese. Quando hai bisogno di migliorare i tuoi attrezzi, io faccio al caso tuo.",
+        "ja": "おや…こんにちは。おれはクリント。#$e#この町の 鍛冶屋だ。道具の 性能を 上げたくなったら、 おれに任せてくれ。",
+        "en": "Er... hi. I'm Clint.#$e#I'm the town blacksmith. If you ever need to upgrade your tools, I'm your guy.",
+        "ko": "음... 안녕. 난 클린트라고 해.#$e#내가 마을 대장장이야. 만약 도구를 업그레이드하고 싶다면, 날 찾아오면 돼.",
+        "pt": "Err... oi. Meu nome é Clint#$e#Sou o ferreiro da cidade. Caso precise de alguém para melhorar suas ferramentas, sou o cara certo.",
+        "ru": "Э-э... Привет. Меня зовут Клинт.#$e#Я — местный кузнец. Если нужно улучшить инструменты, это по моей части.",
+        "tr": "Selam, ben Clint.#$e#Kasabanın demircisiyim, ekipmanlarını geliştirmek istersen bana gelebilirsin.",
+        "zh": "呃……嗨。我是克林特。#$e#我是这个小镇的铁匠。要是想升级农具的话，就来找我吧。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Introduction' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Mon",
+      "author_key": "Mon",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Jo. Ich bin ein Schmied.#$e#Mein Vater war auch ein Schmied.#$e#Mein Großvater war übrigens auch ein Schmied.$u#$q 9/9 Mon_old#Ich bin mir sicher, dass du erraten kannst, was mein Urgroßvater war...#$r 9 30 Mon_9#Ein Schmied.#$r 9 50 Mon_clown#Ein alberner Clown.#$r 9 -50 Mon_rude#Ein sarkastischer Trottel.",
+        "es": "Sí. Soy herrero.#$e#Mi padre era herrero.#$e#Mi abuelo también era herrero.$u#$q 9/9 Mon_old#¿A que no adivinas qué era mi bisabuelo...?#$r 9 30 Mon_9#Herrero.#$r 9 50 Mon_clown#Un graciosillo.#$r 9 -50 Mon_rude#Un idiota sarcástico.",
+        "fr": "Oui. Je suis un forgeron.#$e#Mon père aussi était forgeron.#$e#Et mon grand-père avant lui.$u#$q 9/9 Mon_old#Je parie que tu ne devineras jamais ce que faisait mon arrière-grand-père...#$r 9 30 Mon_9#Forgeron.#$r 9 50 Mon_clown#Clown.#$r 9 -50 Mon_rude#C’était un imbécile sarcastique.",
+        "hu": "Bizony. Kovács vagyok.#$e#Apám is kovács volt.#$e#Nagyapám szintén kovács volt.$u#$q 9/9 Mon_old#Fogadjunk nem találod ki dédapámnak mi volt a mestersége...#$r 9 30 Mon_9#Kovács.#$r 9 50 Mon_clown#Buta bohóc.#$r 9 -50 Mon_rude#Egy szarkasztikus gyökér.",
+        "it": "Eh sì. Sono un fabbro.#$e#Anche mio padre era un fabbro.#$e#Mio nonno era un fabbro pure lui.$u#$q 9/9 Mon_old#Scommetto che non indovini cosa faceva il mio bisnonno...#$r 9 30 Mon_9#Il fabbro.#$r 9 50 Mon_clown#Il pagliaccio buffo.#$r 9 -50 Mon_rude#L'idiota sarcastico.",
+        "ja": "ああ。おれは鍛冶屋だ。#$e#父もそうだった。#$e#祖父もまた、 鍛冶を やっていた。$u#$q 9/9 Mon_old#でも曽祖父は 何だったか、 分かるかね…#$r 9 30 Mon_9#鍛冶屋。#$r 9 50 Mon_clown#ひょうきんな 道化師。#$r 9 -50 Mon_rude#イヤミな 皮肉屋。",
+        "en": "Yep. I'm a blacksmith.#$e#My father was also a blacksmith.#$e#My grandfather was a blacksmith as well.$u#$q 9/9 Mon_old#I bet you can't guess what my great-grandfather was...#$r 9 30 Mon_9#A blacksmith.#$r 9 50 Mon_clown#A silly clown.#$r 9 -50 Mon_rude#A sarcastic jerk.",
+        "ko": "그래. 난 대장장이지.#$e#내 아버지도 대장장이셨어.#$e#내 할아버지도 대장장이셨고.$u#$q 9/9 Mon_old#하지만 내 증조할아버지께서 뭘 하셨는지는 못 맞추겠지...#$r 9 30 Mon_9#대장장이.#$r 9 50 Mon_clown#어릿광대.#$r 9 -50 Mon_rude#무례한 얼간이.",
+        "pt": "Sim. Sou um ferreiro.#$e#Meu pai também era.#$e#O meu avô também.$u#$q 9/9 Mon_old#Aposto que você não consegue adivinhar o que o meu bisavô era...#$r 9 30 Mon_9#Ferreiro.#$r 9 50 Mon_clown#Palhaço.#$r 9 -50 Mon_rude#Um babaca sarcástico.",
+        "ru": "Ага. Кузнец я.#$e#И отец мой был кузнецом.#$e#Дед мой тоже кузнецом был.$u#$q 9/9 Mon_old#Спорим, ты не догадаешься, кем был мой прадед...#$r 9 30 Mon_9#Кузнецом.#$r 9 50 Mon_clown#Нелепым клоуном.#$r 9 -50 Mon_rude#Саркастическим придурком.",
+        "tr": "Evet, ben demirciyim.#$e#Babam da demirciydi.#$e#Dedem de demirciydi.$u#$q 9/9 Mon_old#Dedemin babasının mesleğini tahmin et bakalım...#$r 9 30 Mon_9#Demirciydi.#$r 9 50 Mon_clown#Aptal soytarıydı.#$r 9 -50 Mon_rude#Alaycı pislikti.",
+        "zh": "没错。我是个铁匠。#$e#我父亲以前也是一名铁匠。#$e#我的祖父也是一名铁匠。$u#$q 9/9 Mon_old#你一定猜不到我的曾祖父以前是一名……#$r 9 30 Mon_9#铁匠。#$r 9 50 Mon_clown#一个糊涂的小丑#$r 9 -50 Mon_rude#一个尖酸刻薄的混蛋。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Mon4",
+      "author_key": "Mon4",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Sei froh, dass du ein Bauer bist, @. Es ist angenehmer, den ganzen Tag draußen zu arbeiten, als neben einem heißen Schmelzofen zu stehen.#$e#Ich bin nur Schmied geworden, weil mein Vater mich dazu gedrängt hat.",
+        "es": "Alégrate de trabajar en la granja, @. Es mejor trabajar fuera que estar junto a un horno caliente todo el día.#$e#Yo solo soy herrero porque mi padre me obligó a serlo.",
+        "fr": "Réjouis-toi de pouvoir travailler à la ferme, @. C’est plus agréable de travailler à l’extérieur que près d’une fournaise toute la journée.#$e#Je suis forgeron uniquement parce que mon père m’a poussé à faire ce métier.",
+        "hu": "Örülj neki, hogy gazda vagy, @. Sokkal jobb a szabad levegőn dolgozni mint egy forró kemence mellett egész nap.#$e#Csak apám nyomására lettem kovács.",
+        "it": "Rallegrati di lavorare in una fattoria, @. È molto meglio faticare all'aria aperta che presso una fornace rovente per tutto il giorno.#$e#Se faccio il fabbro, è solo perché mi ha costretto mio padre.",
+        "ja": "牧場主で いることを 感謝するんだね、@。いつも高温な かまどのそばに いるより、 外で働くほうが ずっといい。#$e#父のせいで、 おれには 鍛冶屋の道しか なかった。",
+        "en": "Be glad you're a farmer, @. It's nicer to work outdoors than by a hot furnace all day.#$e#I'm only a blacksmith because my father pushed me into it.",
+        "ko": "농부라는 사실에 감사해, @. 뜨거운 용광로 옆에 붙어있는 것보단 야외에서 일하는 게 좋지.#$e#난 아버지께서 자꾸 시켜서 대장장이가 된 것뿐이야.",
+        "pt": "Fique feliz por trabalhar na fazenda, @. É muito melhor trabalhar ao ar livre do que passar o dia todo ao lado da fornalha quente.#$e#Sou um ferreiro apenas porque meu pai me obrigou.",
+        "ru": "Радуйся тому, что ты фермер, @. Лучше работать весь день на свежем воздухе, чем у раскаленной печи.#$e#Я стал кузнецом только потому, что отец меня вынудил.",
+        "tr": "Çiftçi olduğuna sevinmelisin, @. Dışarıda çalışmak tüm gün boyunca sıcak ocağın önünde çalışmaktan daha iyidir.#$e#Babam zorladığı için demirci oldum ben.",
+        "zh": "真羡慕你是个农民啊，@。在户外工作可比整天在热腾腾的大火炉旁边好多了。#$e#我当这个铁匠都是因为我爸爸非要让我当啊。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Mon8",
+      "author_key": "Mon8",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich sage es nur ungern, aber manchmal bin ich froh, dass mein Vater mich gezwungen hat, Schmied zu werden. Wenigstens habe ich einen Beruf.#$e#Wenn ich nicht arbeiten müsste, würde ich wahrscheinlich den ganzen Tag nur rumsitzen und mich selbst bemitleiden.$s",
+        "es": "Odio decirlo, pero a veces me alegro de que mi padre me obligara a ser un herrero . Por lo menos tengo una profesión.#$e#Si no tuviera trabajo que hacer, probablemente pasaría todo el día de brazos cruzados lamentándome por mi mismo.$s",
+        "fr": "Je n’aime pas l’admettre, mais parfois je suis content que mon père m’ait forcé à devenir forgeron. Au moins, j’ai un métier.#$e#Si je n’avais pas un travail, je passerais probablement mes journées à m’apitoyer sur mon sort.$s",
+        "hu": "Nem könnyű kimondanom, de néha örülök, hogy apám rámerőltette a kovácsságot. Legalább van szakmám.#$e#Ha nem lenne mit csinálnom, akkor valószínűleg egész nap csak üldögélnék és sajnáltatnám magamat.$s",
+        "it": "Detesto ammetterlo, ma a volte sono contento che mio padre mi abbia costretto a fare il fabbro. Perlomeno ho una professione.#$e#Se non avessi da lavorare, probabilmente passerei le giornate a piangermi addosso senza combinare niente.$s",
+        "ja": "言いたくはないけど、父親から無理やり鍛冶屋にさせられたことに感謝したくなるときもあるんだ。おれには手に職がある。#$e#もし仕事がなかったら、一日中ただ座って自分をあわれんでいたかもしれない。$s",
+        "en": "I hate to say it, but sometimes I'm glad my father forced me to become a blacksmith. At least I have a profession.#$e#If I didn't have work to do, I'd probably spend all day just sitting around feeling sorry for myself.$s",
+        "ko": "인정하긴 싫지만, 가끔은 아버지께서 내가 대장장이가 되라고 강요하셔서 다행이라고 생각해. 적어도 직업은 생겼으니까.#$e#일을 하고 있지 않았더라면, 하루종일 앉아서 자기 연민에 빠져있었겠지.$s",
+        "pt": "Eu odeio admitir isso, mas às vezes eu fico feliz que o meu pai me obrigou a seguir a carreira de ferreiro. Pelo menos eu tenho uma profissão.#$e#Se eu não tivesse um trabalho, eu provavelmente ficaria o dia inteiro à toa me afundando em tristeza.$s",
+        "ru": "Я не люблю это признавать, но я рад, что папа заставил меня взяться за кузнечное дело. У меня хотя бы профессия есть.#$e#Если бы не это, я бы просто сидел все дни напролет и о своей тяжелой доле вздыхал.$s",
+        "tr": "Bunu kabul etmekten nefret ediyorum fakat bazen babam beni demirci olmaya zorladığı için seviniyorum. En azından bileğimde bir altın bileziğim var.#$e#Eğer zorunda bırakılmış olmasaydım muhtemelen zamanımı bir yerlerde oturup kendime üzülerek geçirirdim.$s",
+        "zh": "我不得不承认，有时候我还挺庆幸我父亲当初逼我当铁匠，现在我至少有一份生计。#$e#假如我连可以干的活都没有，我大概只好整天无所事事，不停地感到后悔。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Mon_9",
+      "author_key": "Mon_9",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Woher wusstest du das?$u",
+        "es": "¿Cómo lo has adivinado?$u",
+        "fr": "Comment as-tu deviné ?$u",
+        "hu": "Honnan tudtad?$u",
+        "it": "Come lo sapevi?$u",
+        "ja": "どうして わかった？$u",
+        "en": "How'd you know?$u",
+        "ko": "어떻게 알았어?$u",
+        "pt": "Como você adivinhou?$u",
+        "ru": "Откуда ты знаешь?$u",
+        "tr": "Nasılsın?$u",
+        "zh": "你怎么知道的？$u"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Mon_9' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Mon_clown",
+      "author_key": "Mon_clown",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hahahaha. Guter Witz.$h",
+        "es": "Ja, ja, ja, ja. Muy buena.$h",
+        "fr": "Ha ha ha. Très drôle.$h",
+        "hu": "Hahahaha. Ez jó volt.$h",
+        "it": "Hahahaha. Buona questa.$h",
+        "ja": "ハハハッ。それは良い。$h",
+        "en": "Hahahaha. Good one.$h",
+        "ko": "하하하하 재밌는 걸.$h",
+        "pt": "Rá, rá, rá. Boa!$h",
+        "ru": "Ха-ха-ха-ха. Шутка что надо.$h",
+        "tr": "Hahahaha. Bu iyiydi.$h",
+        "zh": "哈哈哈。猜得好。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Mon_clown' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Mon_old",
+      "author_key": "Mon_old",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Und ja, mein Urgroßvater war auch ein Schmied.",
+        "es": "Sí, mi bisabuelo también era herrero.",
+        "fr": "Eh oui, mon arrière-grand-père aussi était forgeron.",
+        "hu": "És igen, dédapám szintén kovács volt.",
+        "it": "Eh già, il mio bisnonno era un fabbro a sua volta.",
+        "ja": "そう、 おれの曽祖父も 鍛冶屋だったのさ。",
+        "en": "And yes, my great-grandfather was also a blacksmith.",
+        "ko": "맞아, 증조할아버지도 대장장이셨어.",
+        "pt": "E sim, o meu tataravô também era ferreiro.",
+        "ru": "И да, мой прадед тоже был кузнецом.",
+        "tr": "Evet, dedemin babası da demirciydi.",
+        "zh": "没错。我的曾祖父也是名铁匠。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Mon_old' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Mon_rude",
+      "author_key": "Mon_rude",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wow. Das war sehr unhöflich. Ich wollte nur einen Witz machen und du musst gleich so übertreiben.",
+        "es": "Guau. ¿A qué ha venido eso? Solo intentaba ser gracioso, pero tú te has pasado de la raya.",
+        "fr": "Euh... C’était méchant de dire ça. Je faisais juste un peu d’humour, mais toi tu vas trop loin.",
+        "hu": "Hé. Ez durva volt. Csak viccelni próbáltam egy kicsit, te meg mindjárt gorombáskodsz.",
+        "it": "Wow. Che modi. Stavo solo scherzando, e tu l'hai messa su tutto un altro piano.",
+        "ja": "おやおや。なんてことを 言うんだ。確かにおれも 失礼だったかも しれないが、 あんたほどでは なかったぞ。",
+        "en": "Wow. That was rude. I was just being funny and you took it to a whole new level.",
+        "ko": "와. 무례하네. 난 그냥 농담이나 한 건데 갑자기 왜 그래.",
+        "pt": "Uau. Que grosseria. Eu só estava sendo engraçado e você me tratou supermal.",
+        "ru": "Ого. Как грубо. Я просто хотел пошутить, а ты вот так все накаляешь.",
+        "tr": "Hop, bu kabacaydı. Komikliği abartma.",
+        "zh": "喔。这样可很无礼哦。我不过是想开个玩笑罢了，你却把这件事搞严重了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Mon_rude' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Resort",
+      "author_key": "Resort",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "*Seufz*... Wir sind alle am Strand, aber ich fühle mich immer noch so allein...$s",
+        "es": "*suspiro*... Estamos todos en la playa pero me sigo sintiendo tan solo...$s",
+        "fr": "*Soupir*... Nous sommes tous à la plage, mais je me sens toujours si seul...$s",
+        "hu": "*sóhaj*... Mind a strandon vagyunk, és mégis olyan magányosnak érzem magam...$s",
+        "it": "*sospira*... Siamo tutti in spiaggia, ma mi sento ancora così solo...$s",
+        "ja": "（はぁ）…みんなでビーチにいても、まだ孤独を感じるんだ…$s",
+        "en": "*sigh*... We're all at the beach but I still feel so alone...$s",
+        "ko": "*한숨*... 우리 모두 해변에 같이 왔는데 난 왜 이렇게 외롭지...$s",
+        "pt": "*suspiro*... Todo mundo está na praia mas eu me sinto tão sozinho...$s",
+        "ru": "*вздыхает*... На пляже столько людей, а мне все равно одиноко...$s",
+        "tr": "*iç çeker*... Herkes sahilde ama kendimi çok yalnız hissediyorum...$s",
+        "zh": "唉……大家都来沙滩上了，但我还是感觉很孤独……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Resort_Bar",
+      "author_key": "Resort_Bar",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe hunger...$s",
+        "es": "Tengo hambre...$s",
+        "fr": "J’ai faim...$s",
+        "hu": "Éhes vagyok...$s",
+        "it": "Ho fame...$s",
+        "ja": "腹が減った…$s",
+        "en": "I'm hungry...$s",
+        "ko": "배고파...$s",
+        "pt": "Estou com fome...$s",
+        "ru": "Есть хочу...$s",
+        "tr": "Karnım acıktı...$s",
+        "zh": "我饿了……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Resort_Chair",
+      "author_key": "Resort_Chair",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Au... mein ganzer Oberkörper ist total verbrannt.$s",
+        "es": "Ow... todo mi torso esta quemado del todo.$s",
+        "fr": "Oh... Tout mon torse est brûlé à vif.$s",
+        "hu": "Aú... az egész törzsem ropogósra égett.$s",
+        "it": "Ahia... ho tutto il torso completamente scottato.$s",
+        "ja": "痛い…全身を日焼けした。$s",
+        "en": "Ow... my whole torso is burnt to a crisp.$s",
+        "ko": "아야... 온몸이 햇빛에 탔어.$s",
+        "pt": "Ow... o meu torso inteiro está torrado.$s",
+        "ru": "Уф... Все тело до корочки обгорело.$s",
+        "tr": "Ah... Bedenim çıtır çıtır yanıyor.$s",
+        "zh": "嗷……我感觉我的身体都要被烤酥了。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Resort_Entering",
+      "author_key": "Resort_Entering",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich werde meine besondere, rote Badehose anziehen. Sie soll ein echter Hingucker sein.",
+        "es": "Me voy a poner mi bañador especial rojo. Se supone que llama mucho la atención.",
+        "fr": "Je vais mettre mon short rouge spécial. Il est censé être vraiment tape à l’oeil.",
+        "hu": "Ma a különös, vörös alsómat veszem fel. Állítólag nagyon szemrevaló.",
+        "it": "Mi metterò il mio speciale costume rosso. È fatto per dare molto nell'occhio.",
+        "ja": "特製の赤いトランクスを履いてみるか。すごく注目を集めるはずだ。",
+        "en": "I'm gonna put on my special red trunks. They're supposed to be really eye-catching.",
+        "ko": "내 특별한 빨간 수영복을 입을 거야. 눈길을 끌 수 있겠지.",
+        "pt": "Eu vou colocar minha sunga vermelha. É pra ela ser bem chamativa.",
+        "ru": "Я надену свои особые красные плавки. По идее, они должны привлекать внимание.",
+        "tr": "Özel kırmızı mayomu giyeceğim. Herkesin gözü bir tek beni görecek.",
+        "zh": "我要穿上我的特制红色短裤，应该非常吸引眼球。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Resort_Leaving",
+      "author_key": "Resort_Leaving",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Nun, das ist nicht so gelaufen, wie ich es mir vorgestellt habe...",
+        "es": "Bueno, no acabó como imaginaba...",
+        "fr": "Eh bien, ça ne s’est pas passé comme je l’espérais !",
+        "hu": "Nos, ez nem úgy alakult, mint ahogyan terveztem...",
+        "it": "Beh, non è andata come immaginavo...",
+        "ja": "まあ、想像したようにはいかなかったな…",
+        "en": "Well, that didn't turn out like I was imagining...",
+        "ko": "음, 내가 상상한 대로 풀리진 않았네...",
+        "pt": "Bem, isso não foi como eu esperava...",
+        "ru": "Ну, вышло все немного не так, как я ожидал...",
+        "tr": "Hiç de düşündüğüm gibi olmadı ya...",
+        "zh": "嗯，结果跟我想的不太一样……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Resort_Shore",
+      "author_key": "Resort_Shore",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh nein... Ich habe vergessen, mir die Fußnägel zu schneiden.$s",
+        "es": "Oh no... Se me ha olvidado cortarme las uñas de los pies.$s",
+        "fr": "Oh non... J’ai oublié de me couper les ongles de pied.$s",
+        "hu": "Jaj ne... elfelejtettem levágni a lábujjkörmömet.$s",
+        "it": "Oh no... ho dimenticato di tagliarmi le unghie dei piedi.$s",
+        "ja": "ああ、しまった...足の爪を切るのを忘れていた。$s",
+        "en": "Oh no... I forgot to clip my toenails.$s",
+        "ko": "안돼... 나 발톱을 전혀 안 다듬었네.$s",
+        "pt": "Oh não... eu esqueci de cortar minhas unhas do pé.$s",
+        "ru": "О нет... Я забыл подстричь ногти на ногах.$s",
+        "tr": "Olamaz... Tırnaklarımı kesmeyi unutmuşum.$s",
+        "zh": "哎呀……我忘了剪脚趾甲了。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Resort_Shore_2",
+      "author_key": "Resort_Shore_2",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich dachte, die Arbeit an einem Ofen hätte mich auf diese Hitze vorbereitet, aber ich schwitze an Stellen, von denen ich nicht wusste, dass ich da schwitzen kann.$s#$e#Ich hoffe, niemand hat es bemerkt...#$e#%Clint's Körper glänzt...",
+        "es": "Creí que trabajar en un horno me habría preparado para este calor, pero estoy sudando por lugares que no sabía que podía sudar.$s#$e#Espero que nadie se dé cuenta...#$e#%El cuerpo de Clint brilla...",
+        "fr": "Je pensais que travailler près d’une fournaise m’aurait préparé à cette chaleur, mais je transpire dans des endroits que je ne croyais pas possibles.$s#$e#J’espère que personne n’a remarqué...#$e#%Le corps de Clint scintille...",
+        "hu": "Azt hittem, hogyha egy kemence közelében dolgozok, az felkészít erre a hőségre, de olyan helyeken is izzadok, ahol nem is hittem volna, hogy lehetséges.$s#$e#Remélem senki se veszi észre...#$e#%Clint egész teste fénylik...",
+        "it": "Credevo che lavorare con la fornace mi avesse preparato a questo caldo, ma sto sudando in posti dove non credevo di poter sudare.$s#$e#Spero che non l'abbia notato nessuno...#$e#%Il corpo di Clint sta luccicando...",
+        "ja": "溶鉱炉で仕事をしているから、このくらいの暑さは何ともないと思ってたが、いつの間にか汗だくだ。$s#$e#誰も気づいてないといいんだが…#$e#%クリントの体はテカっている…",
+        "en": "I thought working a furnace would have prepared me for this heat, but I'm sweating in places I didn't know I could.$s#$e#I hope no one noticed...#$e#%Clint's body is glistening...",
+        "ko": "용광로 앞에서 일해서 더운 건 익숙할 줄 알았는데, 생각지도 못한 곳에서 땀이 나.$s#$e#아무도 못 봤어야 하는데...#$e#%클린트의 몸이 반짝이고 있습니다...",
+        "pt": "Eu pensei que trabalhar com uma fornalha ia me preparar pra este calor, mas eu estou suando em lugares que eu nem sabia que era possível.$s#$e#Espero que ninguém tenha notado...#$e#%O corpo do Clint está brilhando...",
+        "ru": "Я думал, что работа в кузнице подготовила меня к любой жаре, но, блин, тут я потею в таких местах, которые и потеть-то не должны\".$s#$e#Надеюсь, этого никто не заметил...#$e#%Тело Клинта блестит....",
+        "tr": "Ocağın başında çalışmak bu sıcakta işimi kolaylaştırır sanmıştım ama daha önce görmediğim bir şekilde terliyorum.$s#$e#Umarım kimse fark etmemiştir...#$e#%Clint'in vücudu yanıyor...",
+        "zh": "我以为跟熔炉打交道会让我适应高温，但现在我身上到处都在流汗。$s#$e#我希望没人注意到……#$e#%克林特的身体正在闪闪发亮……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Sat",
+      "author_key": "Sat",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Gelegentlich frage ich mich, wie ich in diesem Ort gelandet bin.$u",
+        "es": "A veces me pregunto cómo he acabado en este pueblo.$u",
+        "fr": "Parfois, je me demande comment je me suis retrouvé dans cet endroit.$u",
+        "hu": "Néha elgondolkozom azon, hogy mégis hogy kerültem ebbe a városba.$u",
+        "it": "A volte mi chiedo come sono finito in questo paese.$u",
+        "ja": "時々、 どうして この町に 定住することになったか 考えて しまうんだ。$u",
+        "en": "Sometimes I wonder how I ended up in this town.$u",
+        "ko": "가끔 어쩌다 내가 이 마을에 머물게 되었나 싶어.$u",
+        "pt": "Às vezes, me pergunto como vim parar nesta cidade.$u",
+        "ru": "Иногда я думаю о том, как же я оказался в этом городке.$u",
+        "tr": "Bazen bu şehre nasıl geldim merak ediyorum.$u",
+        "zh": "有时候我还会想想我在这个小镇最终会怎么样。$u"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Sat10",
+      "author_key": "Sat10",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wie sieht es mit den Werkzeugen aus?#$b#Wenn sie jemals repariert werden müssen, komm einfach in meine Werkstatt. Ich garantiere für diese Werkzeuge ein Leben lang!",
+        "es": "¿Cómo van aguantando tus herramientas?#$b#Si alguna vez necesitan reparaciones, pásate por mi tienda. ¡Tienen garantía de por vida!",
+        "fr": "Comment tes outils tiennent-ils le coup ?#$b#S’ils ont besoin d’être réparés, passe me voir à mon atelier. Je garantis ces outils à vie !",
+        "hu": "Jól működnek a szerszámaid?#$b#Ha bármikor javításra szorulnának, csak jöjj a boltomba. Én életre szóló garanciát adok rájuk!",
+        "it": "Come va con i tuoi attrezzi?#$b#Se hai bisogno di aggiustarli, passa da me. Ti garantisco che dureranno una vita!",
+        "ja": "どうぐの調子はどうだ？#$b#修理が必要になったらおれの店に来てくれ。おれのどうぐは永久保証つきだ！",
+        "en": "How are your tools holding up?#$b#If they ever need repairs, just come by my shop. I guarantee these tools for life!",
+        "ko": "도구는 튼튼하지?#$b#만약 수리가 필요하면 가게로 찾아와. 평생 쓸 수 있는 도구라고!",
+        "pt": "Como estão as suas ferramentas?#$b#Se elas precisarem de reparos, é só vir à minha loja. Minhas ferramentas duram para sempre!",
+        "ru": "Как там твой инструмент?#$b#Если нужно что починить, приходи ко мне в магазин. Даю пожизненную гарантию!",
+        "tr": "Alet edavatın nasıl?#$b#Eğer tamir gerekirse bana uğra. Bu aletlere ömür boyu garanti veriyorum!",
+        "zh": "你的工具状态怎么样？#$b#如果需要修理的话，直接来我店里，我给你终身保修！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Sat6",
+      "author_key": "Sat6",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Verdammt, ich bin zu alt, um noch irgendetwas Aufregendes zu machen. Alles, was mich erwartet, sind weitere Jahre voll schweißtreibender, heißer Schmelzofenarbeit.",
+        "es": "Maldita sea. Ya soy demasiado viejo para hacer nada emocionante. Todo lo que me queda son años y años de trabajo asfixiante y sudoroso en el horno.",
+        "fr": "Bon sang, je suis trop vieux pour faire des choses qui me passionnent vraiment. Tout ce qui m’attend, ce sont des années de travail à suer près d’une fournaise.",
+        "hu": "A fene egye meg, túl öreg vagyok én már ahhoz, hogy izgalmas dolgokat csináljak. Mindössze éveken keresztüli izzadságos, kemény munkának nézhetek elébe a kemence mellett.",
+        "it": "Diamine, sono troppo vecchio, ormai, per fare qualcosa d'eccitante. L'unica cosa che posso aspettarmi sono anni e anni di sudore e di lavoro alla fornace.",
+        "ja": "何か エキサイティングな ことを やるには 年を取りすぎた。この先待っているのは、 汗が流れるほど 暑いかまどでの 作業だけさ。",
+        "en": "Damn it, I'm too old to do anything exciting anymore. All I have to look forward to is years and years of sweaty, hot furnace-work.",
+        "ko": "젠장, 이제 뭔가 신나는 일을 하기엔 너무 늙었어. 앞으로 기대할 거라곤 수년간 땀 흘리며 더운 용광로에 붙어있는 것뿐이야.",
+        "pt": "Droga! Estou velho demais para tentar algo novo. Tudo que tenho a fazer é esperar por anos e anos de trabalho suado em uma fornalha quente.",
+        "ru": "Черт возьми, я слишком стар, чтобы заняться чем-то интересным. Все, что мне остается — годы и годы потной работы у жаркой печи.",
+        "tr": "Kahretsin. Heyecan verici bir şeyler yapmak için çok yaşlıyım. Yıllar boyunca yapacağım tek şey, sıcak ateşin başında terlemek.",
+        "zh": "该死，我这岁数已经没法再做什么刺激的事情了。我能做的只剩下在这灼热的铁炉边上大汗淋漓地干铁匠活了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Sun",
+      "author_key": "Sun",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hast du keinen Job oder so?",
+        "es": "¿No tienes trabajo que hacer?",
+        "fr": "Tu n’as pas de travail à faire ?",
+        "hu": "Nincs semmi dolgod?",
+        "it": "Non hai del lavoro da fare?",
+        "ja": "あんた、 やることは ないのか？",
+        "en": "Don't you have work to do?",
+        "ko": "일 할 거리는 없어?",
+        "pt": "Você não tem nada para fazer?",
+        "ru": "Разве тебе нечем заняться?",
+        "tr": "İşin yok mu senin?",
+        "zh": "你没活干吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Sun4",
+      "author_key": "Sun4",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Und, wie halten sich deine Werkzeuge so?",
+        "es": "¿Qué tal van tus herramientas?",
+        "fr": "Dans quel état sont tes outils ?",
+        "hu": "Nos, minden rendben van a szerszámaiddal?",
+        "it": "Allora, come si comportano i tuoi attrezzi?",
+        "ja": "道具の 調子は どうだい？",
+        "en": "So how are your tools holding up?",
+        "ko": "도구들은 요즘 튼튼해?",
+        "pt": "E aí, como estão suas ferramentas?",
+        "ru": "Как там твои инструменты?",
+        "tr": "Eşyaların nasıl?",
+        "zh": "你的那些工具现在用得怎么样？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Sun8",
+      "author_key": "Sun8",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich weiß nicht, ob die Leute das wissen oder ob es sie interessiert, aber ich bin sehr stolz auf meine Arbeit...#$e#Als ich ein Junge war, habe ich nicht davon geträumt, Schmied zu werden. Aber das bin ich nun mal. Und ich will der beste Schmied sein, der ich sein kann.",
+        "es": "No sé si la gente se da cuenta de esto, o le importa, pero de verdad que me enorgullezco mucho de mi trabajo.#$e#Quiero decir... Cuando era un chiquillo enrealidad no soñaba con ser un herrero. Pero eso es lo que soy. Y quiero ser el mejor herrero que pueda ser.",
+        "fr": "Je ne sais pas si les gens s’en rendent compte ou s’ils s’en soucient, mais je suis très fier de mon travail.#$e#Quand j’étais petit, je ne rêvais pas vraiment de devenir forgeron. Mais c’est ce que je suis devenu. Et je veux être le meilleur forgeron qu’il soit.",
+        "hu": "Nem tudom, hogy az emberek észrevették-e ezt, vagy érdekli őket egyáltalán, de én nagyon büszke vagyok a munkámra.#$e#Úgy értem... Kisfiú koromban nem arról álmodoztam, hogy kovács leszek. Mégis az vagyok. És én akarok lenni a lehető legjobb kovács.",
+        "it": "Non so se la gente se ne rende conto, o se gliene importa, ma vado enormemente fiero del mio lavoro.#$e#Cioè... Da bambino, in realtà, non mi sognavo di diventare un fabbro. Ma è quello che sono. E voglio essere il fabbro migliore che posso.",
+        "ja": "みんなが知っているか、気にしているかどうかは分からないけど、おれは自分の仕事に誇りを持っているんだ。#$e#つまり…子供の頃は、自分が鍛冶屋になるなんて思ってなかった。でも、今のおれがいる。そして、おれは最高の鍛冶屋になりたいんだ。",
+        "en": "I don't know if people realize this, or care, but I do take a lot of pride in my work.#$e#I mean... When I was a boy I didn't really dream of becoming a blacksmith. But that's what I am. And I want to be the best blacksmith I can be.",
+        "ko": "사람들이 아는지, 또 상관할지도 모르지만, 난 내 일에 많은 자부심을 느껴.#$e#사실... 어렸을 땐 대장장이가 꿈이거나 그러진 않았어. 하지만 이게 나야. 그리고 가능한 한 최고의 대장장이가 되고 싶어.",
+        "pt": "Eu não sei se as pessoas reparam nisso, ou se não se importam, mas eu tenho muito orgulho no meu trabalho.#$e#Quer dizer... Quando eu era pequeno meu sonho não era se tornar um ferreiro. Mas é isso que eu sou hoje. E eu quero ser o melhor ferreiro possível.",
+        "ru": "Не знаю, в курсе ли люди, да и вообще заботит ли это их, но я очень горжусь своей работой.#$e#Я ведь... Когда мелким был — и не думал кузнецом становиться. Но вот он я. И я стараюсь преуспеть в своей профессии.",
+        "tr": "İnsanlar duyuyor veya umursuyor mu bilmiyorum ama yaptığım işle gurur duyuyorum.#$e#Demek istediğim... Çocukken pek de demirci olmak istemiyordum. Ama oldum. Şimdi de olabileceğim en iyi demirci olmak istiyorum.",
+        "zh": "我其实对自己的工作很自豪，不过可能没人意识到，也没人在意。#$e#我跟你说……我小时候的梦想不是当铁匠，可是现在我成为铁匠了，而且我想当最好的铁匠。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Thu",
+      "author_key": "Thu",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das Geschäft läuft in letzter Zeit etwas langsam.#$e#Du solltest deine Werkzeuge verbessern. Ich könnte das Geld gebrauchen.",
+        "es": "El negocio va lento últimamente.#$e#Deberías mejorar tus herramientas. Me vendría bien el dinero.",
+        "fr": "Les affaires tournent au ralenti en ce moment.#$e#Tu devrais penser à améliorer tes outils. L’argent me serait bien utile.",
+        "hu": "Mostanában gyengén megy az üzlet.#$e#Fejleszthetnéd a szerszámaidat. Jól jönne a pénz.",
+        "it": "Gli affari non vanno bene, ultimamente.#$e#Dovresti migliorare i tuoi attrezzi. Avrei bisogno di soldi.",
+        "ja": "最近、 仕事がなかなか来なくてな。#$e# 道具を 強化したほうが いい。おれも儲かるからさ。",
+        "en": "Business has been slow lately.#$e#You should upgrade your tools. I could use the cash.",
+        "ko": "요즘 일거리가 없네.#$e#도구를 업그레이드하는 건 어때? 벌이가 좀 필요해서.",
+        "pt": "Os negócios estão meio devagar ultimamente.#$e#Que tal melhorar suas ferramentas? Um pouco de dinheiro não me faria mal.",
+        "ru": "Дела в последнее время идут медленно.#$e#Тебе бы инструменты улучшить. Деньги мне бы не помешали.",
+        "tr": "İşler kötü gidiyor.#$e#Alet edevatını geliştirmelisin. Hem bana da para lazım.",
+        "zh": "最近生意很冷清啊。#$e#你该升级下你的工具了。这样我也能挣一笔。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Thu8",
+      "author_key": "Thu8",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe gehört, Emily hat eine Freundin, die in der Wüste lebt. Weißt du etwas über sie?#$e#Ich frage mich, ob sie Single ist...$s",
+        "es": "Escuché que Emily tiene una amiga que vive en el desierto. ¿Sabes algo sobre ella?#$e#Me pregunto si está soltera...$s",
+        "fr": "J’ai entendu dire qu’Emily à une amie qui vivait dans le désert. Tu la connais ?#$e#Je me demande si elle est célibataire...$s",
+        "hu": "Úgy hallottam Emilynek van egy barátnője, aki a sivatagban él. Tudsz róla valamit?#$e#Azon gondolkodom, hogy vajon szingli-e...$s",
+        "it": "Ho sentito che Emily ha un'amica che vive nel deserto. Tu per caso la conosci?#$e#Chissà se cerca un compagno...$s",
+        "ja": "エミリーには砂漠に友達がいるらしい。その女性のことをなにか知らないか？#$e#独身なのかな…$s",
+        "en": "I heard Emily has a friend who lives in the desert. Do you know anything about her?#$e#I wonder if she's single...$s",
+        "ko": "에밀리에게 사막에 사는 친구가 있다고 들었어. 혹시 그 친구에 대해서 아는 거 있어?#$e#친구는 싱글이려나...$s",
+        "pt": "Eu ouvi falar que a Emily tem uma amiga que mora no deserto. Você sabe alguma coisa sobre ela?#$e#Será que ela é solteira...$s",
+        "ru": "Слышал, у Эмили подруга в пустные живет. Знаешь что-нибудь о ней?#$e#Интересно, у нее кто-нибудь есть?..$s",
+        "tr": "Emily'nin çölde yaşayan bir arkadaşı olduğunu duydum. Onun hakkında bir şey biliyor musun?#$e#Acaba bekâr mıdır?$s",
+        "zh": "我听说艾米丽有一个朋友住在沙漠，你了解她吗？#$e#不知道她是不是单身呢……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Tue",
+      "author_key": "Tue",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wenn du willst, dass ich deine Werkzeuge verbessere, musst du mir schon das richtige Erz bringen.#$e#Und natürlich eine Gebühr bezahlen.",
+        "es": "Si quieres que mejore tus herramientas, tendrás que darme el mineral correcto.#$e#Y pagarme una cantidad, por supuesto.",
+        "fr": "Si tu veux que j’améliore tes outils, tu devras m’apporter le minerai approprié.#$e#Et tu devras me payer, bien sûr.",
+        "hu": "Ha szeretnéd, hogy fejlesszek a szerszámaidon, megfelelő ércet kell hozzá hoznod.#$e#Emellett természetesen ára is van.",
+        "it": "Se vuoi che migliori i tuoi attrezzi, devi portarmi il minerale appropriato.#$e#E pagarmi il compenso, ovviamente.",
+        "ja": "もし 道具を 強化したいなら、 正しい種類の 原石を 持ってきてくれ。#$e#もちろん、 作業料も 支払う 必要があるぞ。",
+        "en": "If you want me to upgrade your tools you'll have to give me the correct ore.#$e#And you'll have to pay me a fee, of course.",
+        "ko": "도구를 업그레이드하고 싶다면 알맞은 광석이 필요해.#$e#물론, 작업비도 좀 내야하고.",
+        "pt": "Se você quiser melhorar suas ferramentas, vai precisar me fornecer o minério correto.#$e#E pagar uma taxa, claro.",
+        "ru": "Если хочешь улучшить инструменты, то принеси мне соответствующие слитки.#$e#И, конечно, придется оплатить саму работу.",
+        "tr": "Eğer aletlerini geliştirmek istiyorsan bana doğru cevheri vermelisin.#$e#Ücretiyle beraber elbette.",
+        "zh": "如果你想找我升级工具的话，就得给我找来合适的矿石。#$e#当然了，也得付我些钱啊。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Wed",
+      "author_key": "Wed",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey. Was brauchst du?",
+        "es": "Buenas. ¿Qué necesitas?",
+        "fr": "Salut. De quoi as-tu besoin ?",
+        "hu": "Helló. Mit szeretnél?",
+        "it": "Ehi. Di cosa hai bisogno?",
+        "ja": "ねぇ、何か 必要かな？",
+        "en": "Hey. What do you need?",
+        "ko": "안녕. 뭘 도와줄까?",
+        "pt": "Ei, . Do que você precisa?",
+        "ru": "Привет. Что тебе нужно?",
+        "tr": "Selam, ne lazımdı?",
+        "zh": "嘿。要点什么？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:Wed6",
+      "author_key": "Wed6",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh, hi @. Entschuldige, falls ich etwas unordentlich aussehe. Ich habe den ganzen Tag am Schmelzofen gearbeitet.$h#$e#Also, brauchst du irgendetwas, oder wolltest du mich nur besuchen?",
+        "es": "Ah, hola, @. Disculpa que esté hecho un desastre. Llevo trabajando en el horno toda la mañana.$h#$e#¿Querías algo o solo te apetecía una visita?",
+        "fr": "Oh, salut @ ! Je suis désolé si je ne suis pas très présentable. J’ai travaillé à la fournaise toute la matinée.$h#$e#Il te fallait quelque chose, ou tu viens juste me rendre visite ?",
+        "hu": "Ó, szia @. Elnézést ha kicsit koszosan nézek ki. Egész délelőtt a kemence mellett dolgoztam.$h#$e#Nos, szükséged van valamire, vagy csak meglátogattál?",
+        "it": "Oh, ciao @. Scusami se sono un po' in disordine. È tutta la mattina che lavoro alla fornace.$h#$e#Dunque, ti serviva qualcosa, o volevi solo farmi visita?",
+        "ja": "あら、 @さんこんにちは。少し 汚れてるように 見えてたら すまない。今朝から ずっと かまどで 作業していたからな。$h#$e#それで、 何か必要か？ 顔を出しに 来ただけかい？",
+        "en": "Oh, hi @. Sorry If I look a little messy. I've been working at the furnace all morning.$h#$e#So, did you need anything, or do you just want to visit?",
+        "ko": "오, 안녕 @. 좀 지저분해 보여서 미안. 아침 내내 용광로랑 씨름했거든.$h#$e#그럼, 뭔가 필요한 거 있어, 아니면 그냥 놀러 온 거야?",
+        "pt": "Ah, oi @. Desculpe se pareço meio desarrumado. Trabalhei na fornalha o dia todo.$h#$e#Então... você precisa de algo ou só veio me visitar?",
+        "ru": "О, привет, @. Прости, если я немного запачкан. Я все утро работал у печи.$h#$e#Тебе что-то нужно? Или ты просто заглянуть?",
+        "tr": "Ah, merhaba @. Kusura bakma, biraz dağınığım. Sabahtan beri ocağın önündeyim.$h#$e#Bir şey mi lazım yoksa öylesine ziyarete mi geldin?",
+        "zh": "啊，你好，@。真抱歉，我身上有点脏。我一整个早晨都在这个火炉边上工作。$h#$e#话说回来，你有什么需要呢，还是只是来看看？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:cc_Minecart",
+      "author_key": "cc_Minecart",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Irgendwie funktioniert plötzlich das alte Lorensystem wieder. Das macht es viel einfacher, zu den Minen und wieder zurück zu gelangen.#$b#Aber ruh dich nicht zu sehr darauf aus ... wenn es so plötzlich wieder funktioniert, kann es genauso schnell wieder kaputt gehen.",
+        "es": "No sé cómo, el viejo sistema del pueblo ha empezado a funcionar de nuevo. Es muy útil para entrar y salir de las minas.#$b#Pero no te relajes demasiado... si puede volver a funcionar de repente, también podría dejar de funcionar en cualquier momento...",
+        "fr": "Je ne sais pas comment, mais le vieux système de wagonnets de la vieille ville fonctionne à nouveau. C’est très pratique pour aller aux mines et en revenir.#$b#Mais fais attention... S’il s’est remis en route comme ça d’un coup, il peut tout aussi bien s’arrêter soudainement...",
+        "hu": "Valamiért a régi, városi csillerendszer ismét működik. Nagyon hasznos arra, hogy a bányákba be és kijussunk.#$b#De ne kényelmesedj el túlságosan... ha ilyen könnyedén beindul, akkor a végén ilyen könnyedén le is állhat...",
+        "it": "Chissà come, il vecchio sistema di carrelli minerari ha ripreso a funzionare. È molto comodo per andare e venire dalle miniere.#$b#Non adagiarti sugli allori, però... così come si è riavviato di botto, potrebbe ugualmente bloccarsi di nuovo...",
+        "ja": "どういうわけか、 町の古い トロッコが また動き 出したんだ。おかげで 鉱山の行き来が 本当に 楽になってね。#$b#まあでも、 当然と 思っちゃダメだよね…とつぜん動くように なったんだから、またとつぜん 止まるかも しれないわけだし…",
+        "en": "Somehow, the old town minecart system started working again. It's very convenient for getting to and from the mines.#$b#Don't get too cozy, though... if it can start up so suddenly, it could just as well shut down...",
+        "ko": "어떻게 된 건지 모르겠지만, 옛 광차 시스템이 다시 움직이고 있어. 광산에 오갈 때 아주 편하지.#$b#너무 마음 편히 갖진 말고... 갑자기 가동됐으니, 갑자기 고장 날 수도 있어...",
+        "pt": "De alguma maneira, o antigo sistema de vagonetas voltou a funcionar. É muito conveniente na hora de deslocar-se nas minas.#$b#Só não espere que ela vá funcionar para sempre... se ela voltou do nada, pode muito bem parar de uma hora para a outra...",
+        "ru": "Говорят, старая система вагонеток опять заработала. На них теперь очень удобно ездить в шахты и обратно.#$b#Но привыкать к ним не стоит... Как начали работать, так же могут и перестать...",
+        "tr": "Nasıl olduysa eski madenin vagon sistemi çalışmaya başladı. Madenlere gidip gelirken çok kullanışlı oluyor.#$b#Çok alışma ama... Bir anda çalışmaya başladıysa, aynı şekilde durabilir de.",
+        "zh": "不知怎的，旧城的矿车系统又开始运作了。对于往返矿山来说，这十分便利。#$b#但是不是很舒服……如果它可以突然启用，它也会突然关闭……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "community_center_event",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "community_center"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:dating_Emily",
+      "author_key": "dating_Emily",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich... ähm... habe gehört, dass du und Emily zusammen seid. Ich gratuliere.$s",
+        "es": "Yo... ehm... escuché que tú y Emily sois pareja. Enhorabuena.$s",
+        "fr": "J’ai... euh... entendu dire que toi et Emily étiez en couple. Félicitations.$s",
+        "hu": "Én... öhm... hallottam, hogy együtt vagyok Emilyvel. Gratulálok.$s",
+        "it": "Ho... ehm... sentito che stai uscendo con Emily. Congratulazioni.$s",
+        "ja": "あんたが… エミリーといい感じだと聞いたよ。おめでとう。$s",
+        "en": "I... um... heard that you and Emily are together. Congratulations.$s",
+        "ko": "나... 어... 너랑 에밀리가 사귄다고 들었어. 축하해.$s",
+        "pt": "Eu... é... ouvi falar que você e a Emily estão juntos. Parabéns.$s",
+        "ru": "Э... это... слышал, что вы с Эмили теперь вместе. Поздравляю.$s",
+        "tr": "Ben... Şey... Emily ile beraber olduğunuzu duydum. Tebrikler.$s",
+        "zh": "呃……我听说你跟艾米丽在一起了，恭喜你。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'dating_Emily' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:divorced_Emily",
+      "author_key": "divorced_Emily",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich fühle mich in letzter Zeit seltsam hoffnungsvoll.",
+        "es": "He estado sintiéndome inusualmente esperanzado últimamente.",
+        "fr": "Je me sens étrangement plein d’espoir ces derniers temps.",
+        "hu": "Mostanában fura mód reményteljesebb vagyok.",
+        "it": "Ultimamente mi è tornata una strana speranza.",
+        "ja": "このごろ、なんだか希望を感じるんだ。",
+        "en": "I've been feeling strangely hopeful lately.",
+        "ko": "요즘 이상하게 희망찬 기분이 들어.",
+        "pt": "Eu tenho me sentido estranhamente esperançoso ultimamente.",
+        "ru": "В последнее время в меня будто снова вселилась надежда.",
+        "tr": "Son zamanlarda garip bir şekilde umut dolu hissetmeye başladım.",
+        "zh": "最近我莫名感觉自己有点希望。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'divorced_Emily' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:eventSeen_101_memory_oneweek",
+      "author_key": "eventSeen_101_memory_oneweek",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hat Emily etwas über unser Date neulich gesagt?#$b#Warte, sag es mir nicht... Ich bin besser dran, wenn ich es nicht weiß. Vielleicht kann ich meine Würde noch retten.$s",
+        "es": "¿Emily ha dicho algo sobre nuestra cita el otro día?#$b#Espera, no me lo digas... Estoy mejor sin saberlo. Quizás todavía puedo conservar mi dignidad.$s",
+        "fr": "Est-ce qu’Emily a parlé de notre rendez-vous de l’autre jour ?#$b#Non, ne me dis rien... Il vaut mieux que je ne sache pas. Peut-être que je peux encore sauver ma dignité.$s",
+        "hu": "Emily mondott valamit a tegnapi randinkról?#$b#Várj, ne mondj semmit... jobb, ha nem tudok róla. Talán még meg tudom menteni a méltóságomat.$s",
+        "it": "Per caso Emily ti ha detto qualcosa sul nostro appuntamento dell'altro giorno?#$b#Aspetta, non dirmelo... Preferisco non saperlo. Forse riesco ancora a conservare un po' di dignità.$s",
+        "ja": "エミリーはこないだのデートのことを何か言ってたか？#$b#いや、何も言わないでくれ…きっと知らない方がいいんだ。自尊心が傷つかずにすむ。$s",
+        "en": "Did Emily say anything about our date the other day?#$b#Wait, don't tell me... I'm better off not knowing. Maybe I can still salvage my dignity.$s",
+        "ko": "에밀리가 저번에 우리 데이트에 대해서 얘기한 거 있어?#$b#잠깐, 말하지 말아 줘... 모르는 게 나을 거야. 내 자존감이라도 구해야겠어.$s",
+        "pt": "A Emily disse alguma coisa sobre o nosso encontro?#$b#Espera, não fala nada... é melhor eu não saber. Talvez eu ainda consiga salvar minha dignidade.$s",
+        "ru": "Эмили что-нибудь говорила о нашем недавнем свидании?#$b#Стой... не говори. Лучше не знать. Может, я еще смогу вернуть себе достоинство.$s",
+        "tr": "Emily, geçen günkü buluşmamız hakkında bir şey söyledi mi?#$b#Bekle, söyleme... Bilmesem daha iyi. Belki hâlâ itibarımı koruyabilirim.$s",
+        "zh": "艾米丽有提到我们前几天的约会吗？#$b#等等，还是别说了……我还是不要知道了，这样还能挽回一点尊严。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'eventSeen_101_memory_oneweek' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:event_advice1",
+      "author_key": "event_advice1",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Okay... Ich werde daran denken.",
+        "es": "Vale... Lo tendré en cuenta.",
+        "fr": "D’accord... Je m’en souviendrai.",
+        "hu": "Oké... Megpróbálom észben tartani.",
+        "it": "D'accordo... Lo terrò a mente.",
+        "ja": "わかった…覚えておくよ。",
+        "en": "Okay... I'll keep that in mind.",
+        "ko": "알았어... 기억해둘게.",
+        "pt": "Certo... Vou me lembrar disso.",
+        "ru": "Ладно... Буду иметь в виду.",
+        "tr": "Tamam... Bunu aklımda bulunduracağım.",
+        "zh": "好吧……我记着点。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'event_advice1' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:event_advice2",
+      "author_key": "event_advice2",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das ist das Problem... Ich verhalte mich natürlich, aber ich hatte nie Erfolg.$s",
+        "es": "Ese es el problema... Actúo con naturalidad... Pero nunca con éxito.$s",
+        "fr": "C’est le problème... J’agis sans réfléchir... et je n’ai jamais eu de succès.$s",
+        "hu": "Itt a probléma... Természetesen viselkedem... de sosem járok sikerrel.$s",
+        "it": "Qui sta il problema... Io lo faccio, il naturale... ma non ho mai successo.$s",
+        "ja": "それが 問題なんだ…自然体で 振舞ってるが… うまくいった 試しはない。$s",
+        "en": "That's the problem... I do act natural... but I never have any success.$s",
+        "ko": "문제는... 난 자연스럽게 행동하는데... 잘 풀린 적이 없어.$s",
+        "pt": "Esse é o problema... Eu ajo naturalmente... mas não dá certo.$s",
+        "ru": "В этом и проблема... Я веду себя естественно... Но толку от этого никакого.$s",
+        "tr": "Sorun da bu... Hep doğal davranıyorum... ama hiç başarılı olamıyorum.$s",
+        "zh": "问题就在这儿……虽然我表现得很自然……可我从没体验过成功的感觉啊。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:married_Emily",
+      "author_key": "married_Emily",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "%Clint schaut auf den Boden und sagt kein Wort zu dir.",
+        "es": "%Clint está mirando al suelo y no va a decirte nada.",
+        "fr": "%Clint regarde le sol et ne parle plus.",
+        "hu": "%Clint a földet bámulja és nem szól hozzád.",
+        "it": "%Clint guarda a terra senza aprire bocca.",
+        "ja": "%クリントはうつむいて、なにも言おうとしない。",
+        "en": "%Clint is looking at the ground and won't say anything to you.",
+        "ko": "%클린트는 땅만 보며 당신에게 아무 말도 하지 않습니다.",
+        "pt": "%Clint está olhando para o chão sem dizer nada.",
+        "ru": "%Клинт смотрит себе под ноги и молчит.",
+        "tr": "%Clint yere bakıyor ve sana bir şey söylemiyor.",
+        "zh": "%克林特眼睛往下看，不肯跟你说话。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'married_Emily' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:mineArea_121",
+      "author_key": "mineArea_121",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Interessant. An deiner Spitzhacke sind winzige Iridiumplättchen. Warst du in den Wüstenhöhlen?#$e#Ich wollte schon immer mal mit Iridium schmelzen. Es ist nicht leicht zu bekommen.",
+        "es": "Interesante. Hay pequeñas láminas de iridio en tu pico... has estado yendo a las cuevas del desierto, ¿eh?#$e#Siempre he querido trabajar con iridio. No es fácil de encontrar.",
+        "fr": "C’est intéressant. Il y a de minuscules éclats d’iridium sur ta pioche... tu es allé dans les grottes du désert, n’est-ce pas ?#$e#J’ai toujours voulu fondre de l’iridium. Ce n’est pas facile à trouver.",
+        "hu": "Érdekes. Apró irídium maradványok vannak a csákányodon... a sivatagi barlangban jártál, ugye?#$e#Mindig is irídiumot akartam olvasztani. Olyat ritkán találni.",
+        "it": "Interessante. Ci sono piccoli granelli di iridio sul tuo piccone... Hai esplorato le caverne del deserto, eh?#$e#Ho sempre voluto lavorare con l'iridio. Non è facile da trovare.",
+        "ja": "こいつはおどろきだ。ツルハシにイリジウムの小さなかけらがついている… 砂漠の洞窟にもぐったのか？#$e#おれはずっとイリジウムを精錬したいと思っていたんだ。簡単には手に入らないからな。",
+        "en": "Interesting. There's tiny iridium flakes on your pickaxe... you've been going to the desert caves, huh?#$e#I've always wanted to smelt with iridium. It's not easy to come by.",
+        "ko": "흥미롭네. 곡괭이에 작은 이리듐 조각이 묻어있어... 사막 동굴 쪽에 가본 거야?#$e#이리듐을 꼭 제련해 보고 싶었어. 흔치 않은 물건이야.",
+        "pt": "Interessante. Vejo pequenas lascas de irídio na sua picareta... você tem ido à caverna do deserto, é?#$e#Eu sempre quis forjar com irídio. Não é um material fácil de achar.",
+        "ru": "Любопытно. Я вижу мелкие частицы иридия на твоей кирке... Как там в пустынных пещерах, а?#$e#Всегда хотел повыплавлять что-нибудь из иридия. Его не так-то просто достать.",
+        "tr": "İlginç. Kazmanın üzerinde küçük iridyum parçacıkları var... Çöl mağaralarına gidiyorsun demek.#$e#Ben de hep iridyum eritmek istemişimdir. Kolay bulunmuyor.",
+        "zh": "有意思，你的镐头上有铱矿石的碎屑……你是不是去了沙漠的洞穴？#$e#我一直想要用铱来熔炼，可惜不容易弄到。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'mineArea_121' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:mineArea_40",
+      "author_key": "mineArea_40",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ah, ich erkenne an den Kratzspuren auf deiner Spitzhacke, dass du eine tiefere Schicht der Minen erreicht hast.#$e#Wenn es schwierig wird, Steine zu brechen, solltest du deine Spitzhacke aufrüsten. Ich kann dir helfen.",
+        "es": "Ah, veo por las marcas en tu pico que has alcanzado una capa más profunda de las minas.#$e#Si se empieza a volver difícil romper piedras, querrás mejorar tu pico. Puedo ayudar.",
+        "fr": "Ha, d’après les marques de griffes sur ta pioche, je peux dire avec certitude que tu as atteint de nouvelles profondeurs dans les mines.#$e#Si tu commences à avoir du mal à casser des pierres, tu devrais envisager d’améliorer ta pioche. Je peux t’aider.",
+        "hu": "Áh, a csákányodon lévő karcnyomokat látva meg tudom mondani, hogy lejjebb jutottál a bányákban.#$e#Ha kezd nehézkessé válni a kövek széttörése, akkor jobb, ha felfejleszted a csákányodat. Abban segíthetek neked.",
+        "it": "Ah, i graffi sul tuo piccone mi dicono che hai raggiunto un livello più profondo delle miniere.#$e#Se cominci a fare fatica a rompere le pietre, bisogna che potenzi il piccone. Posso aiutarti io.",
+        "ja": "ああ、このツルハシの傷を見れば、鉱山の深くまでもぐってたことがわかるよ。#$e#石を割りづらくなってきたら、ツルハシをアップグレードしたほうがいい。おれが力になるよ。",
+        "en": "Ah, I can tell from the scratch marks on your pickaxe that you've reached a deeper layer of the mines.#$e#If it starts getting difficult to break stones, you'll want to upgrade your pickaxe. I can help.",
+        "ko": "아, 곡괭이 긁힌 자국을 보니까 광산 깊은 곳에 도착했구나.#$e#돌을 깨는 게 힘들다 싶으면 곡괭이를 업그레이드해야 할 거야. 내가 도와줄게.",
+        "pt": "Ah, posso ver pelas marcas na sua picareta que você alcançou uma camada mais profunda da mina.#$e#Se quebrar as pedras começar a ficar difícil, você vai ter que melhorar sua picareta. Eu posso ajudar.",
+        "ru": "А, судя по зарубкам на твоей кирке, глубины шахт уже открыли тебе свои недра.#$e#Если станет трудно разбивать камни, приходи улучшить кирку. Я помогу.",
+        "tr": "Kazmanın üzerindeki çiziklerden madenlerin daha derin katlarına ulaştığını anlayabiliyorum.#$e#Taşları kırmak zorlaşmaya başlarsa kazmanı yükseltmek isteyeceksin. Bu durumda yardımcı olabilirim.",
+        "zh": "啊，看你镐头上的划痕，想必你已经到过矿井深层了。#$e#如果石头越来越难敲碎，建议你升级一下镐头，我可以帮你。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'mineArea_40' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Clint:reject_868",
+      "author_key": "reject_868",
+      "character": "Clint",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hmm... Das ist ein interessanter Stein, wie ich ihn noch nie zuvor gesehen habe.#$b#Ich wüsste allerdings nicht, was ich damit machen sollte. Ich kenne mich eher mit einfachen Dingen wie Eisen oder Kupfer aus.",
+        "es": "Hmm... Es una piedra interesante, no se parece a nada que haya visto antes.#$b#Aunque no sabría que hacer con ella. Estoy más acostumbrado a algo más básico como el hierro o el cobre.",
+        "fr": "Hmm... C’est une pierre intéressante. Je n’en ai jamais vu une comme ça auparavant.#$b#Mais je ne saurais pas quoi en faire. Je m’occupe des choses banales, pas des choses magiques...",
+        "hu": "Hmm... Az egy érdekes kő, ehhez foghatót még nem láttam.#$b#Habár nem tudom, hogy mit lehetne vele kezdeni. Én az evilági dolgokkal foglalkozom, nem holmi mágiával...",
+        "it": "Hmm... È una pietra interessante, non assomiglia a niente che abbia mai visto.#$b#Non saprei cosa farci, però. La magia non è un campo in cui sono ferrato...",
+        "ja": "うーん…今までに見たことのない興味深い石だ。#$b#だが使い道がわからないな。おれが扱うのはありふれたものだ、魔法の類じゃない…。",
+        "en": "Hmm... That's an interesting stone, like nothing I've ever seen before.#$b#I wouldn't know what to do with it, though. I deal in the mundane, not the magical...",
+        "ko": "흠... 흥미로운 돌이네, 그런 건 처음 봐.#$b#그걸로 내가 뭘 할 수 있을지는 모르겠어. 난 평범한 물품을 다루지, 마법적인 건 잘 몰라...",
+        "pt": "Hmm... Que pedra interessante, nunca vi nada parecido.#$b#Mas eu não sei o que fazer com ela. Eu lido com as coisas mundanas, não as mágicas.",
+        "ru": "Хм... Интересный камень, я такого раньше не видел.#$b#Но я все равно не знаю, с какой стороны к нему подступиться. Я больше спец по обычным материалам, а не по волшебным.",
+        "tr": "Hım... İlginç bir taş. Daha önce böylesini görmemiştim.#$b#Tabii bu da bununla ne yapacağımı bilemeyeceğim anlamına geliyor. Ben büyülü taşlardan çok sıradan taşlarla ilgileniyorum.",
+        "zh": "唔……那块石头很有意思，跟我以前见到过的完全不一样。#$b#我不知道该怎么处理，毕竟我做的是平凡生意，不懂这些有魔法的……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Clint.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Clint.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Clint.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Clint.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Clint.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Clint.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Clint.json",
+          "ko": "data\\game_scripts\\Dialogue\\Clint.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Clint.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Clint.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Clint.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Clint.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    }
+  ]
+}

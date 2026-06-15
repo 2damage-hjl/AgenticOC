@@ -1,0 +1,2536 @@
+{
+  "dataset_meta": {
+    "schema": "canonical_dialogue_v2",
+    "source_root": "data/game_scripts/Dialogue",
+    "collection": "Dialogue",
+    "character": "Gus",
+    "record_count": 38,
+    "dialogue_type_counts": {
+      "general_dialogue": 38
+    }
+  },
+  "records": [
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:AcceptGift_(O)StardropTea",
+      "author_key": "AcceptGift_(O)StardropTea",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh, wow, danke! Ich bin in Versuchung, es ganz auszutrinken, aber ich werde etwas für die Kneipe aufheben. Ich wette, ich könnte einen interessanten Cocktail daraus machen!",
+        "es": "Oh guau, ¡gracias! Me tienta el bebérmelo todo, pero voy a guardar un poco para el salón. ¡Apuesto a que podría hacer un cocktail interesante con esto!",
+        "fr": "Ho, wouah, merci ! Je suis tenté de tout boire d’un coup, mais je vais en garder un peu pour le saloon. Je parie que je pourrais faire un cocktail intéressant avec ça !",
+        "hu": "Óh, váó, köszönöm! Nagy a kísértés, hogy az egészet megigyam, de hagyok egy kicsit a szalonnak is. Fogadok, hogy érdekes koktélt tudnék készíteni belőle!",
+        "it": "Oh wow, grazie! Sono tentato di bermelo tutto, ma ne conserverò un po' per il saloon. Scommetto che potrei farci un cocktail interessante!",
+        "ja": "おお、ありがとう！ぜんぶ飲みたいけど、サルーンのために少し取っておくよ。これがあれば味わい深いカクテルが作れるに違いない！",
+        "en": "Oh wow, thank you! I'm tempted to drink all of it, but I'm going to save some for the saloon. I bet I could make an interesting cocktail with this!",
+        "ko": "우와, 고마워! 내가 다 마셔버릴 거 같지만, 그래도 주점에서 쓸 건 좀 남겨야지. 이걸로 재밌는 칵테일을 만들 수 있겠어!",
+        "pt": "Oh uau, muito obrigado! Estou com vontade de beber tudo, mas eu vou guardar um pouco para o saloon. Eu acho que consigo fazer um cocktail interessante com isto!",
+        "ru": "Ой, ух ты, спасибо! Очень хочется выпить его весь, но сберегу для салуна. Уверен, он прекрасно подойдет к коктейлю!",
+        "tr": "Vay, sağ ol! Hepsini içerdim ama birazını da mekâna ayırmam gerek. Bununla sıra dışı bir kokteyl yapabileceğime eminim!",
+        "zh": "哇，谢谢你！我很想一下子喝完，不过还得留一点给酒吧，我肯定能用这个做出一款独特的鸡尾酒！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)StardropTea' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:AcceptGift_Positive_category_cooking",
+      "author_key": "AcceptGift_Positive_category_cooking",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "*schnüffel*... Ah. Exquisite Kochkunst. Du weißt, was ich mag, @.$h",
+        "es": "*sniff*... Ah. Cocina exquisita. Ya sabes lo que me gusta, @.$h",
+        "fr": "*renifle*... Ha. Une cuisine exquise. Tu connais vraiment mes gouts, @.$h",
+        "hu": "*szimat*... Áh. Rendkívüli konyhaművészet. Tudod, hogy mit szeretek, @.$h",
+        "it": "*annusa*... Ah. Squisita gastronomia. Conosci i miei gusti, @.$h",
+        "ja": "（クンクン）…ああ。この料理は絶品だ。私の好みにぴったりだよ、@。$h",
+        "en": "*sniff*... Ah. Exquisite cuisine. You know what I like, @.$h",
+        "ko": "*킁킁*... 아. 절묘한 요리군. 내가 좋아하는 걸 잘 아는구나, @.$h",
+        "pt": "*cheira*... Ah. Culinária extraordinária. Você sabe do que eu gosto, @.$h",
+        "ru": "*нюх*... Ах. Изысканное блюдо. Ты знаешь, что я люблю, @.$h",
+        "tr": "*koklar*... Ah. Mükemmel bir yemek. Neyi seveceğimi gerçekten biliyorsun @.$h",
+        "zh": "（闻了一下）……啊，真是美味佳肴。@，你很懂我喜欢的东西嘛。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_Positive_category_cooking' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:Fri",
+      "author_key": "Fri",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hi, @. Solltest du je durstig werden, ist die Kneipe der Ort an dem du sein willst!",
+        "es": "Hola, @. Si alguna vez tienes sed, el Salón es el lugar adecuado.",
+        "fr": "Salut, @. Si tu as soif, le saloon est l’endroit idéal pour boire un coup.",
+        "hu": "Szerbusz, @. Ha bármikor megszomjaznál, a szalon ajtaja nyitva áll.",
+        "it": "Ehilà, @. Ogni volta che ti viene sete, il Saloon è il posto che fa per te.",
+        "ja": "やぁ、@！今夜 何か飲みたい気分なら、 酒場に 寄ってくれよな。",
+        "en": "Hi there, @. If you're ever thirsty, the Saloon is the place to be.",
+        "ko": "안녕, @. 혹시 목마르다면, 주점만 한 곳이 없지.",
+        "pt": "Olá, @. Sempre que tiver sede, dê uma passada na taverna. É o melhor lugar de todos.",
+        "ru": "Здорово, @. Если захочешь вдруг выпить, то тебе в салун.",
+        "tr": "Merhaba, @. Susarsan salona uğra!",
+        "zh": "你好啊！@。你要是口渴，可以去酒吧。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:Fri4",
+      "author_key": "Fri4",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich trinke selbst eigentlich kaum etwas. Ich mache das hauptsächlich, um mein Brot zu verdienen.#$e#Allerdings genieße ich gelegentlich auch den Geschmack der Traubenlese des Stardew Valleys.",
+        "es": "Yo en realidad no bebo mucho. Hago esto para ganarme la vida.#$e#Aunque me gusta tomar un poco de añejo de Stardew Valley de vez en cuando.",
+        "fr": "En ce qui me concerne, je ne bois pas beaucoup. Je fais principalement ça pour gagner ma vie.#$e#Bien que j’apprécie de temps en temps un bon millésime de Stardew Valley.",
+        "hu": "Jómagam nem sokat iszom. Azért csinálom, hogy legyen miből megélnem.#$e#Bár néhanapján jól esik egy korty a Stardew Valley óborból.",
+        "it": "Io, per me, non bevo molto in realtà. Faccio questo lavoro soprattutto per campare.#$e#Sebbene non mi dispiaccia un sorso dello Stardew Valley d'annata, ogni tanto.",
+        "ja": "私は あんまり 飲む タイプじゃない。生計を立てるために、 この仕事をやってるんだ。#$e#でも、 スターデューバレーの ビンテージ物を 味わうのは 楽しみに してるよ。",
+        "en": "I don't actually drink very much myself. I'm mainly doing this to make a living.#$e#Although I do enjoy a taste of the Stardew Valley vintage from time to time.",
+        "ko": "사실 난 그다지 술을 많이 안 마셔. 생계를 꾸리려고 하는 일이지.#$e#물론 가끔 스타듀 밸리 빈티지의 맛을 즐기기는 하지만.",
+        "pt": "Eu mesmo não sou de beber muito. Faço isso para sobreviver.#$e#Mas gosto de beber um envelhecido do Vale do Orvalho de vez em quando.",
+        "ru": "На самом деле, я не очень-то много пью сам. В основном я занимаюсь этим, чтобы заработать.#$e#Хотя иногда я и не против выдержанного вина долины Стардью.",
+        "tr": "Ben çok içmem. Daha çok bunu geçimimi kazanmak için yapıyorum.#$e#Fakat zaman zaman Yıldızçiyi bağ mahsulünden yapılma içkileri içmeyi seviyorum.",
+        "zh": "我自己平时不太喝酒。我开酒吧只是为了生计。#$e#不过我也确实很享受星露谷陈酿的香醇。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:GreenRain",
+      "author_key": "GreenRain",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe gestern Abend den Wetterbericht gesehen. Das hat mich wirklich erschreckt! $s#$e#Gibt es da draußen Monster? Was ist da los?",
+        "es": "Vi la predicción del tiempo anoche. ¡De verdad me ha dado un susto!$s#$e#¿Hay monstruos ahí fuera? ¿Qué está pasando?",
+        "fr": "J’ai regardé le bulletin météo hier soir. J’ai vraiment eu peur !$s#$e#Y a-t-il des monstres dehors ? Qu’est-ce qui se passe ?",
+        "hu": "Tegnap este néztem az időjárás előrejelzést. Nagyon megrémisztett!$s#$e#Most akkor szörnyek vannak odakint? Mi történik?",
+        "it": "Ho visto le previsioni del tempo, ieri sera. Mi sono preso un bello spavento!$s#$e#Ci sono dei mostri là fuori? Cosa sta succedendo?",
+        "ja": "昨晩の天気予報を見たんだ。心の底からこわくなったよ！$s#$e#モンスターが出たりするのかい？いったいなにがどうなってるんだ？",
+        "en": "I saw the weather report last night. It really gave me a scare!$s#$e#Are there monsters out there? What's happening?",
+        "ko": "어젯밤 일기예보를 봤어. 정말 무서웠다니까!$s#$e#혹시 몬스터가 돌아다니니? 무슨 일이지?",
+        "pt": "Eu vi a previsão do tempo ontem à noite. E me assustou pra caramba!$s#$e#Tem monstros lá fora? O que está acontecendo?",
+        "ru": "Вчера вечером смотрел прогноз погоды. Просто кровь в жилах стынет!$s#$e#Там что, чудовища разгуливают? Что вообще творится?",
+        "tr": "Dün akşam hava durumunu izledim. Cidden korktum!$s#$e#Dışarıda canavarlar mı var? Neler oluyor?",
+        "zh": "我昨晚看了天气预报，给我吓了一跳！$s#$e#外面有怪物吗？发生什么事了？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "weather_green_rain",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:GreenRainFinished",
+      "author_key": "GreenRainFinished",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich bin froh, dass das vorbei ist. Der Betrieb einer Kneipe macht mir schon genug Sorgen, da brauche ich kein exotisches Wetter in meinem Leben!",
+        "es": "Me alegro de que se haya acabado. Llevar el Salón es suficiente preocupación, ¡no necesito un tiempo exótico en mi vida!",
+        "fr": "Je suis content que ce soit fini. M’occuper du saloon me donne suffisamment de soucis. Je n’ai pas besoin d’un climat exotique dans ma vie !",
+        "hu": "Örülök, hogy véget ért. Elég a szalon működtetésén aggódnom, nem hiányzik az életemből az egzotikus időjárás!",
+        "it": "Per fortuna è finita. Ho già abbastanza preoccupazioni con il saloon, non mi serve pure il tempo esotico!",
+        "ja": "終わってくれてよかったよ。サルーン以外のことで悩まされたくないからね。 奇妙な天気はもうこりごりだよ！",
+        "en": "I'm glad that's over. Running the saloon is enough to worry about, I don't need exotic weather in my life!",
+        "ko": "끝나서 다행이네. 주점 운영만으로도 걱정이 한가득인데, 이상기후까지 겪을 필요는 없지!",
+        "pt": "Ainda bem que acabou, gerenciar o saloon já é muita coisa para mim. Eu não preciso de climas exóticos na minha vida!",
+        "ru": "Я рад, что это все закончилось. Салуном управлять и так сложно, только экзотической погоды нам не хватало!",
+        "tr": "Yağışın sona ermesinden mutluyum. Salonu işletmek yeterince stresli, hayatımda bir de egzotik bir hava durumuna gerek yok!",
+        "zh": "幸好都结束了，开酒吧的事情已经很多了，可别给我整什么诡异天气了！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'GreenRainFinished' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:GreenRain_2",
+      "author_key": "GreenRain_2",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "*schnüffel*... Dieser Regen hat einen besonderen Duft. Hast du das bemerkt? Fast wie frisch gehackte Kräuter...",
+        "es": "*olisqueo*... Estas lluvias tienen un olor particular. ¿Te has dado cuenta? Casi como hierbas recién molidas...",
+        "fr": "*renifle*... Ces pluies ont une odeur étrange. Tu as remarqué ? Ça sent presque comme de l’herbe fraîchement coupée...",
+        "hu": "*szimat*... Ezeknek az esőknek fura az illatuk. Észrevetted? Majdnem olyan, mint a frissen darált fűszernövényeké...",
+        "it": "*annusa*... Questa pioggia ha un odore particolare. Ci hai fatto caso? Sembra quello delle erbe appena tritate...",
+        "ja": "（クンクン）…この雨には独特の香りがあるね。感じるかい？まるで、きざんだハーブのような香りだ…",
+        "en": "*sniff*... These rains have a particular smell. Have you noticed? Almost like freshly minced herbs...",
+        "ko": "*킁킁*... 비에서 특이한 향이 나. 자네도 느꼈나? 마치 갓 으깬 허브 같은...",
+        "pt": "*cheira*... Essas chuvas têm um aroma único. Você notou isso? Como se fossem ervas picadas...",
+        "ru": "*принюхивается*... У этого дождя такой специфический запах. Чувствуешь? Как будто свежеизмельченная зелень...",
+        "tr": "*koklar*... Şu yağmurun ilginç bir kokusu var. Fark ettin mi? Sanki taze kesilmiş ot kokuyor...",
+        "zh": "（闻了一下）……这场雨有一股特别的味道，你闻到了吗？像是刚切碎的药草……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:Introduction",
+      "author_key": "Introduction",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh, hallo du! Ich bin Gus, Chef und Besitzer der Kneipe 'Zum Sternenfall'.#$e#Schau vorbei, wenn du eine Erfrischung brauchst. Ich habe immer heißen Kaffee und kaltes Bier bereit.$h",
+        "es": "¡Guau, hola! Soy Gus, chef y propietario del Salón Fruta Estelar.#$e#Pásate si necesitas algún tentempié. Siempre tengo café caliente y cerveza fría a punto.$h",
+        "fr": "Bien le bonjour ! Je m’appelle Gus, chef de cuisine et propriétaire du saloon du Fruit Étoilé.#$e#Passe me voir si tu as besoin d’un bon rafraîchissement. J’ai toujours du café chaud et de la bière fraîche à portée de main.$h",
+        "hu": "Kívánok! Gus vagyok, a Hullócsillag szalon séfje és tulaja.#$e#Ugorj be, ha frissítőre vágysz. Meleg kávé vagy hideg sör, a választás csak rajtad áll.$h",
+        "it": "Ehilà! Sono Gus, chef e proprietario del Saloon Astropomo.#$e#Fermati pure quando hai bisogno di un rinfresco. Ho sempre pronti caffè bollente e birra ghiacciata.$h",
+        "ja": "おや、いらっしゃい！私はガス、酒場「スタードロップ」のシェフ兼オーナーだ。#$e#何かほしかったら 来るといい。温かいコーヒーと 冷たい ビールを 用意して 待ってるよ。$h",
+        "en": "Well hello there! I'm Gus, chef and owner of the Stardrop Saloon.#$e#Stop in if you need any refreshments. I've always got hot coffee and cold beer at the ready.$h",
+        "ko": "안녕하신가! 난 거스라고 하네, 스타드롭 주점의 주방장이자 주인이지.#$e#가벼운 식사나 음료가 필요하면 언제든 들러주게, 뜨거운 커피와 차가운 맥주가 준비되어있다고.$h",
+        "pt": "Ah. Olá! Meu nome é Gus, chefe e dono do Saloon Fruta-estrelar.#$e#Passe lá se precisar comer algo. Sempre tenho café quente e cerveja gelada à disposição.$h",
+        "ru": "Ах, здравствуйте! Я Гас, владелец и повар салуна «Звездная капля».#$e#Заходите, если нужно освежиться. У меня всегда есть горячий кофе и холодное пивко.$h",
+        "tr": "Merhabalar efenim! Ben Gus, Yıldızkaydı Salonu'nun sahibi ve şefiyim.#$e#İçecek isterseniz uğrayın. Hazırda her zaman sıcak kahve ve soğuk bira bulundururum.$h",
+        "zh": "你好！我是格斯，星果酒吧的老板兼主厨。#$e#需要提神的话可以光临我的店。这里有的是热咖啡和冰啤酒。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Introduction' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:IslandSouth_14_21",
+      "author_key": "IslandSouth_14_21",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey, brauchst du einen Drink? Ich habe einige besondere Getränke, die lokale Zutaten von dieser Insel zur Schau stellen.$h",
+        "es": "Hey, ¿necesitas una bebida? Tengo algunos refrescos especiales que incluyen ingredientes locales de la isla.$h",
+        "fr": "Hé, as-tu besoin d’un verre ? J’ai des boissons très spéciales qui mettent en avant le goût des ingrédients locaux de cette île.$h",
+        "hu": "Hé, italra van szükséged? Van pár különleges italom, ami a sziget helyi alapanyagait mutatja be.$h",
+        "it": "Ehi, ti faccio un drink? Ho delle bevande speciali che sfruttano al meglio gli ingredienti tipici di quest'isola.$h",
+        "ja": "やあ、何か飲むかい？この島の食材をアピールできる、特製の飲み物があるんだ。$h",
+        "en": "Hey, need a drink? I've got some special beverages that showcase local ingredients from this island.$h",
+        "ko": "안녕, 마실 건 필요 없어? 이 섬만의 재료를 선보일 특별한 음료를 준비했어.$h",
+        "pt": "Ei, precisa de um drink? Eu tenho umas bebidas especiais com ingredientes locais desta ilha.$h",
+        "ru": "Эй, хочешь выпить? У меня тут в ассортименте напитки из местных ингредиентов.$h",
+        "tr": "İçecek bir şey ister misin? Bu adaya has şeylerden yaptığım sağlam içeceklerim var.$h",
+        "zh": "嘿，来喝一杯吗？我使用岛上的特殊食材做了一些特别的饮料。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'IslandSouth_14_21' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:Mon",
+      "author_key": "Mon",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ja, ich weiß eine Menge über die Leute, die hier leben.#$e#Das ist einer der Vorteile, Barkeeper zu sein.$h#$e#Manchmal höre ich zu viel...",
+        "es": "Sí, sé mucho de los habitantes de por aquí.#$e#Es una de las ventajas de ser camarero.$h#$e#A veces oigo demasiado...",
+        "fr": "Oui, je connais beaucoup de choses sur les gens qui vivent ici.#$e#C’est l’un des avantages de tenir un bar.$h#$e#Parfois, j’en apprends même un peu trop...",
+        "hu": "Hát igen, sokat tudok az itt élőkről.#$e#Ez az egyik előnye, ha az ember pultos.$h#$e#Néha túl sokat is hallok...",
+        "it": "Sì, so parecchie cose della gente di qui.#$e#È uno dei vantaggi di fare il barista.$h#$e#A volte sento anche troppo...",
+        "ja": "ああ、 ここの住人の ことは 色々と 知ってるよ。#$e#バーテンダーの 役得って ところかな。$h#$e#時々、 余計なことまで 耳にしてしまうがね…",
+        "en": "Yeah, I know a lot about the people living here.#$e#That's one of the benefits of being a bartender.$h#$e#Sometimes I hear too much...",
+        "ko": "그래, 이 지역 주민들에 대해선 내가 많이 알고 있지.#$e#바텐더로 일하면 그런 장점이 있지.$h#$e#근데 가끔 너무 많은 걸 듣기도 해...",
+        "pt": "Sim, eu conheço bastante o pessoal daqui.#$e#É um dos benefícios de ter um bar.$h#$e#Às vezes, escuto até demais...",
+        "ru": "Да, я многое знаю о местных жителях.#$e#Это одна из привилегий бармена.$h#$e#Иногда я узнаю слишком много...",
+        "tr": "Selam, burada yaşayan insanlar hakkında çok şey biliyorum.#$e#Barmen olmamın en iyi yanlarından biri de bu.$h#$e#Bazen çok fazla şey duyuyorum...",
+        "zh": "是啊，我对这里的人很熟。#$e#这就是酒保的优势。$h#$e#我听过的故事可多了去了……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:Resort",
+      "author_key": "Resort",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wenn Du ein Getränk brauchst, triff mich an der Bar.",
+        "es": "Me encontrarás en el bar si necesitas un refresco.",
+        "fr": "Retrouve-moi au bar si tu as soif.",
+        "hu": "Csak gyere a pulthoz, ha italra lenne szükséged.",
+        "it": "Vieni a trovarmi al bar se vuoi qualcosa da bere.",
+        "ja": "飲み物が必要ならバーに来てくれ。",
+        "en": "Meet me at the bar if you need a beverage.",
+        "ko": "마실 거 필요하면 바에서 나 찾으면 돼.",
+        "pt": "Me encontre no bar se precisar de uma bebida.",
+        "ru": "Заходи в бар, если захочешь чего-нибудь выпить.",
+        "tr": "Bir şey içmek istersen barda olacağım.",
+        "zh": "如果你想喝饮料的话，可以到酒吧找我。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:Resort_Entering",
+      "author_key": "Resort_Entering",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey, @! Schön, dass du hier bist. Ich werde von hinter der Bar ein paar gute Sachen servieren.",
+        "es": "Hey, ¡@! Me alegro de que estés aquí. Estaré sirviendo algo tras la barra.",
+        "fr": "Hé, @ ! Content que tu sois là. Je vais servir toutes les bonnes choses que j’ai derrière le bar.",
+        "hu": "Hé, @! Örülök, hogy itt vagy. Pár jóságot fogok felszolgálni itt a pult mögül.",
+        "it": "Ehi, @! Sono lieto che tu sia qui. Servirò della roba davvero buona da dietro il bancone.",
+        "ja": "こんにちは、@！ここにいてくれて嬉しいよ。おいしいものをバーでごちそうするつもりなんだ。",
+        "en": "Hey, @! Glad you're here. I'm gonna be serving up some good stuff from behind the bar.",
+        "ko": "안녕, @! 여기서 보니 반갑네. 좋은 것 좀 만들고 있으니 맘껏 먹고 마시게.",
+        "pt": "Ei, @! Que bom que está aqui. Eu vou servir umas coisas boas no bar.",
+        "ru": "Привет, @! Рад, что ты тут. Я буду тут, за барной стойкой, всякое вкусное мешать.",
+        "tr": "Selam @! Burada olmana sevindim. Barda güzel içecekler servis ediyor olacağım.",
+        "zh": "嘿，@！你能来真好。我负责酒吧，会做很多好喝的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:Resort_Leaving",
+      "author_key": "Resort_Leaving",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich sehe dich dann zu Hause, @.",
+        "es": "Te vere de vuelta en casa, @.",
+        "fr": "On se revoit au village, @.",
+        "hu": "Majd otthon találkozunk, @.",
+        "it": "Ci vediamo a casa, @.",
+        "ja": "帰ったらまた会おう、@。",
+        "en": "I'll see you back home, @.",
+        "ko": "마을에 가서 다시 봐, @.",
+        "pt": "Te vejo na vila, @.",
+        "ru": "Увидимся дома, @.",
+        "tr": "Evde görüşürüz @.",
+        "zh": "回星露谷再见，@。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:Saloon",
+      "author_key": "Saloon",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Guten Abend. Kann ich dir etwas bringen?",
+        "es": "Buenas tardes. ¿Qué puedo ofrecerte?",
+        "fr": "Bonsoir. Tu prends quelque chose ?",
+        "hu": "Üdvözöllek a Hullócsillag szalonban! Hozhatok valamit?",
+        "it": "Buonasera. Ti porto qualcosa?",
+        "ja": "こんばんは。何にするかい？",
+        "en": "Welcome to the Stardrop Saloon! Can I get you anything?",
+        "ko": "안녕하신가. 뭘로 갖다줄까?",
+        "pt": "Boa noite. Posso ajudar?",
+        "ru": "Дорбро пожаловать в салун «Звездная капля»! Налить что-нибудь?",
+        "tr": "Yıldızkaydı Salonu'na hoş geldin! Sana ne vereyim?",
+        "zh": "晚上好。需要点什么？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Saloon' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:Saloon4",
+      "author_key": "Saloon4",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Guten Abend. Fühl dich wie Zuhause.",
+        "es": "Buenas tardes. Como si estuvieras en tu casa.",
+        "fr": "Bonsoir. Fais comme chez toi.",
+        "hu": "Üdvözöllek, @. Érezd magad otthon.",
+        "it": "Buonasera. Accomodati pure.",
+        "ja": "こんばんは。ゆっくりしていってくれ。",
+        "en": "Hi there, @. Make yourself at home.",
+        "ko": "좋은 저녁. 편히 쉬다 가.",
+        "pt": "Boa noite. Sinta-se em casa.",
+        "ru": "Привет, @. Чувствуй себя как дома.",
+        "tr": "Merhaba @. Keyfine bak.",
+        "zh": "你好啊，@，请别拘束。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:Saloon8",
+      "author_key": "Saloon8",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hallo, @. Ich bin froh, dich zu sehen! Du bist hier immer willkommen.",
+        "es": "Hola, @. ¡Me alegro de verte! Aquí siempre te recibimos encantados.",
+        "fr": "Salut @. Je suis content de te voir ! Tu es toujours la bienvenue ici.",
+        "hu": "Helló @! Örülök, hogy látlak! Ide bármikor betérhetsz.",
+        "it": "Ehilà @. Felice di vederti! Mi fa sempre piacere esserti d'aiuto.",
+        "ja": "@さんこんにちは。会えてうれしいよ！君ならいつでも大歓迎さ。",
+        "en": "Hi there @. I'm glad to see you! You're always welcome here.",
+        "ko": "안녕 @. 봐서 반갑네! 자넨 언제라도 환영이야.",
+        "pt": "Olá, @. Que bom ver você! Você é sempre bem-vindo aqui.^Você é sempre bem-vinda aqui.",
+        "ru": "Здорово, @. Рад тебя видеть! Ты здесь всегда желанный гость.",
+        "tr": "Selam, @. Seni gördüğüme sevindim! Her gün uğramanı bekliyorum.",
+        "zh": "嗨，@。见到你真高兴！在这儿，你永远是受欢迎的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:Saloon_Fri",
+      "author_key": "Saloon_Fri",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das Geschäft läuft in letzter Zeit echt gut. Ich bin zufrieden.",
+        "es": "El negocio ha ido muy bien esta noche. Me alegro.",
+        "fr": "Les affaires ont été vraiment bonnes ce soir. Je suis très content.",
+        "hu": "Ma este nagyon jól ment az üzlet. Meg vagyok elégedve.",
+        "it": "Gli affari sono andati alla grande stanotte. Sono contento.",
+        "ja": "今夜は 大繁盛さ。とても うれしいね。",
+        "en": "Business has been really good tonight. I'm pleased.",
+        "ko": "오늘 장사 정말 잘 됐어. 기쁘구먼.",
+        "pt": "O movimento está muito bom hoje. Estou muito feliz.",
+        "ru": "Дела сегодня идут бойко. Я доволен.",
+        "tr": "Bu gece işler yolunda. Seviniyorum.",
+        "zh": "今晚的生意很不错。我很高兴。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Saloon_Fri' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:Saloon_Thu",
+      "author_key": "Saloon_Thu",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey, du siehst aus, als könntest du ein Getränk vertragen.",
+        "es": "Ey, tienes pinta de necesitar una bebida.",
+        "fr": "Hé, je pense que tu as besoin de boire quelque chose.",
+        "hu": "Úgy nézel ki mint akire ráfér egy kis innivaló.",
+        "it": "Ehi, secondo me ti serve una bella bibita.",
+        "ja": "やぁ、 飲み物は どうだい？",
+        "en": "Hey, you look like you could use a beverage.",
+        "ko": "이보게, 뭐라도 마셔야 할 표정이구먼.",
+        "pt": "Ei, você está precisando de uma bebida.",
+        "ru": "Эй, похоже, тебе не повредит выпить.",
+        "tr": "Hey, içeceğe hayır demezsin gibi.",
+        "zh": "嘿，来点喝的吧。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Saloon_Thu' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:Saloon_Tue",
+      "author_key": "Saloon_Tue",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hi! Bitte entspanne und amüsiere dich.",
+        "es": "¡Hola, @! Por favor, relájate y disfruta.",
+        "fr": "Salut ! Détends-toi et amuse-toi.",
+        "hu": "Szia! Lazulj el és érezd jól magad!",
+        "it": "Ciao! Rilassati pure e goditela un po'.",
+        "ja": "あら、！リラックスして、 楽しんでいってくれ。",
+        "en": "Hi! Please relax and enjoy yourself.",
+        "ko": "안녕하신가! 느긋하게 좋은 시간 보내.",
+        "pt": "Oi ! Relaxe e se divirta.",
+        "ru": "Привет! Расслабься, отдохни.",
+        "tr": "Merhaba! Rahatla ve ortamın keyfini çıkar lütfen.",
+        "zh": "嗨！在这里不要拘束哦。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Saloon_Tue' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:Sat",
+      "author_key": "Sat",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Kochst du selbst viel,@?#$e#Wenn du eine Küche und ein paar Rezepte hast, kannst du nützliche Gerichte zubereiten.#$e#Selbstgemachte Mahlzeiten sind auch wunderbare Geschenke.",
+        "es": "¿Te gusta cocinar, @?#$e#Con una cocina y recetas puedes cocinar algunos platos muy prácticos.#$e#Y un plato hecho en casa siempre es un buen regalo.",
+        "fr": "Est-ce que tu as l’étoffe d’un chef, @ ?#$e#Si tu as une cuisine et quelques recettes, tu peux préparer de bons petits plats.#$e#Les plats faits maison sont également d’excellents cadeaux.",
+        "hu": "Te milyen séf vagy, @?#$e#Ha van konyhád meg egy pár recepted, hasznos ételeket készíthetsz.#$e#Ajándékként is nagyon jó az otthon készült étel.",
+        "it": "Ti piace cucinare, @?#$e#Se hai una cucina e qualche ricetta, puoi preparare delle pietanze utili.#$e#I piatti fatti in casa possono anche fungere da ottimi regali.",
+        "ja": "@、料理はするほうかい？#$e#もし 家にキッチンが あって、 レシピを知っていたら 何か 料理を 作れるだろう。#$e#手作りの料理は ギフトにも うってつけさ。",
+        "en": "Are you much of a chef, @?#$e#If you have a kitchen and some recipes, you can cook some useful dishes.#$e#Home-cooked meals make great gifts, as well.",
+        "ko": "자넨 요리 좀 하나, @?#$e#주방과 레시피만 있다면, 유용한 요리를 만들 수 있지.#$e#손수 만든 요리는 근사한 선물이기도 하고.",
+        "pt": "Você cozinha bem, @?#$e#Se você tiver uma cozinha e algumas receitas, poderá cozinhar pratos bem úteis.#$e#Comida caseira é um ótimo presente.",
+        "ru": "А ты умеешь готовить, @?#$e#Если у тебя есть кухня и пару рецептов на примете, можно готовить полезные блюда.#$e#Домашняя еда — это еще и отличный подарок.",
+        "tr": "Şef misindir, @?#$e#Eğer mutfağın ve tariflerin varsa bir şeyler pişirebilirsin.#$e#Ev yemeklerinden güzel hediye olur.",
+        "zh": "你厨艺怎么样，@？#$e#如果有厨房和菜谱，你就可以做出美味的料理啦。#$e#亲手烹饪的料理也是很好的礼物哦。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:SeedShop_Entry",
+      "author_key": "SeedShop_Entry",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hi, Pierre!/Also, was brauche ich.../Ah, das sieht gut aus!/Ich mache heute Abend meine spezielle Soße!/Pierre! Was ist frisch?/Pierre! Was hast du für mich?",
+        "es": "¡Hola, Pierre!/Bueno, a ver qué necesito.../¡Ah, eso tiene buena pinta!/¡Esta noche voy a preparar mi salsa especial!/¡Pierre! ¿Qué es lo más fresco que tienes?/¡Pierre! ¿Qué me puedes ofrecer hoy?",
+        "fr": "Salut, Pierre !/Voyons voir, de quoi ai-je besoin.../Ah, ça a l’air pas mal !/Je fais ma sauce spéciale ce soir !/Pierre ! Quoi de neuf ?/Pierre ! T’as quoi pour moi ?",
+        "hu": "Szia Pierre!/Nos, mi is kell nekem.../Ó, ez jól néz ki!/Ma a különleges szószomat csinálom!/Pierre! Mid van ami friss?/Pierre! Mid van számomra?",
+        "it": "Ciao, Pierre!/Ora, cosa devo.../Ah, quello mi piace!/Stanotte faccio il sugo speciale!/Pierre! Che c'è di fresco?/Pierre! Che cos'hai per me?",
+        "ja": "やあ、 ピエール！/えっと、 何を買うん だったか…/ああ、 これは いいな！/今夜は スペシャルソースを 作るぞ！/ピエール！今はどれが 新鮮だい？/ピエール！何かいいもの 置いてるかい？",
+        "en": "Hi, Pierre!/Now, what do I need.../Ah, that looks good!/Makin' my special sauce tonight!/Pierre! What's fresh?/Pierre! Waddya got for me?",
+        "ko": "안녕, 피에르!/자, 뭐가 필요했더라.../아, 저거 괜찮네!/오늘 저녁엔 내 특제 소스를 만들 거야!/피에르! 어떤 게 신선해?/피에르! 오늘은 뭘 가져왔나?",
+        "pt": "Ei, Pierre!/Do que preciso agora.../Ah, isso parece bom!/Vou fazer meu molho especial hoje à noite!/Pierre! Que comida fresca você tem?/Pierre! O que você tem para mim?",
+        "ru": "Привет, Пьер!/Так, что я хотел.../Ага, это подойдет!/Сегодня вечером готовлю свой особый соус!/Пьер! Что у тебя свежего?/Пьер! Что у тебя есть сегодня?",
+        "tr": "Selam, Pierre!/Şimdii, neye ihtiyacım vaar.../Ah, çok güzel görünüyor!/Bu akşam özel sosumu yapıyorum!/Pierre, neler yeni?/Pierre! Benim için nelerin var?",
+        "zh": "嗨，皮埃尔！/嗯，现在需要什么呢……/啊，那个看上去不错！/今晚做我的特制酱汁！/皮埃尔！有什么新产品吗？/皮埃尔！你给我带什么来了？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'SeedShop_Entry' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:Sun",
+      "author_key": "Sun",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das Geschäft läuft ziemlich stabil, dank meiner Stammkunden.",
+        "es": "El negocio va bien gracias a mis clientes habituales.",
+        "fr": "Les affaires ont été assez stables grâce à mes clients réguliers.",
+        "hu": "A szokásos vendégeimnek köszönhetően megbízhatóan megy az üzlet.",
+        "it": "Gli affari sono piuttosto stabili grazie ai miei clienti abituali.",
+        "ja": "常連様の おかげで、 売り上げも だいぶ 安定してきたよ。",
+        "en": "Business has been pretty steady thanks to my regular customers.",
+        "ko": "단골 고객들 덕분에 장사는 꽤 안정적으로 되어가고 있네.",
+        "pt": "Os negócios estão indo muito bem graças aos meus fregueses mais fieis.",
+        "ru": "Дела идут стабильно, спасибо моим постоянным клиентам.",
+        "tr": "Düzenli müşterilerim sayesinde işlerim yolunda gidiyor.",
+        "zh": "最近生意很稳定，真是多亏我的老顾客啊。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:Thu",
+      "author_key": "Thu",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Pam und Clint kommen fast jede Nacht in die Kneipe.#$e#Ich würde wahrscheinlich pleite gehen, wenn die beiden nicht mehr kämen.$h#$e#Also verjage sie bitte nicht!",
+        "es": "Pam y Clint vienen al Salón casi cada noche.#$e#Me arruinaría si dejaran de venir.$h#$e#¡Así que más te vale no alejarlos de aquí!",
+        "fr": "Pam et Clint viennent au saloon presque toutes les soirs.#$e#Je ferais probablement faillite s’ils cessaient de venir.$h#$e#Alors, fais bien attention de ne pas les effrayer !",
+        "hu": "Pam és Clint majd minden este betérnek a szalonba.#$e#Valószínűleg tönkremennék, ha nem jönnének többet.$h#$e#Szóval kérlek ne üldözd el őket!",
+        "it": "Pam e Clint vengono al saloon quasi ogni notte.#$e#Probabilmente andrei in fallimento, se smettessero di venire.$h#$e#Perciò vedi di non farli andar via!",
+        "ja": "パムと クリントは ほぼ毎晩 酒場に 来るんだ。#$e#二人が 来なくなったら 店をたたむハメに なってしまいそうだよ。$h#$e#だから お得意さんを 追い出さないように してくれよな！",
+        "en": "Pam and Clint come into the saloon almost every night.#$e#I'd probably go out of business if they stopped coming.$h#$e#So make sure you don't drive them away!",
+        "ko": "팸과 클린트는 거의 매일 저녁에 주점에 오지.#$e#그 둘이 갑자기 안 온다면 폐업할 수도 있어.$h#$e#그러니까 그들을 쫓아내지 않도록 해!",
+        "pt": "Pam e Clint vêm ao saloon quase toda noite.#$e#Eu provavelmente faliria se eles parassem de vir.$h#$e#Então não os afugente!",
+        "ru": "Пэм и Клинт приходят в салун почти каждый вечер.#$e#Я бы, наверное, разорился, если бы они перестали приходить.$h#$e#Так что смотри мне, не отпугни их!",
+        "tr": "Pam ve Clint her akşam buraya gelir.#$e#Eğer gelmeyi bıraksalardı batardım sanırım.$h#$e#Sakın onları kaçırma!",
+        "zh": "潘姆和克林特几乎每晚都来酒吧。#$e#假如他们不来我就要关门了！$h#$e#所以可千万别把他们赶跑了！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:Thu6",
+      "author_key": "Thu6",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Clint kommt fast jeden Abend in die Kneipe und setzt sich allein an den selben Tisch.#$e#Manchmal wirft er nervöse Blicke in Emilys Richtung. Hmmm.#$e#Vielleicht kommt er deswegen so oft hierher. Was auch immer, das heißt mehr Geschäft für mich.",
+        "es": "Clint viene casi cada noche y se sienta solo en la misma mesa.#$e#De vez en cuando lanza miradas nerviosas a Emily. Hmmm.#$e#Igual por eso viene tan a menudo. Pero bueno, más negocio para mí.",
+        "fr": "Clint vient au saloon presque tous les soirs et il s’assoit toujours à la même table.#$e#Parfois, il jette des regards nerveux à Emily. Mmm.#$e#Peut-être que c’est la raison pour laquelle il vient aussi souvent. Bah, c’est bon pour les affaires !",
+        "hu": "Clint majdnem minden este bejön a szalonba egyedül és leül ugyanahhoz az asztalhoz.#$e#Néha feszült tekintettel pillant rá Emilyre. Hmmm.#$e#Talán ezért jön ilyen gyakran. Na mindegy, így jobban megy az üzlet.",
+        "it": "Clint viene al saloon quasi ogni notte e si siede allo stesso tavolo da solo.#$e#A volte lancia delle occhiate nervose ad Emily. Hmmm.#$e#Forse è per questo che viene così spesso. Oh beh, più affari per me.",
+        "ja": "クリントは ほぼ毎晩 酒場へ来て、 いつも 一人で 決まった テーブルに 座るんだ。#$e#たまに、心配そうな目で エミリーのほうを 見るんだよ。ふむ…#$e#たぶん、 そのために ここに よく来てくれるんだろう。私にとっては、 客が増えるから いいことだけどな。",
+        "en": "Clint comes into the saloon almost every night and sits at the same table by himself.#$e#Sometimes he glances over at Emily with a nervous look. Hmmm.#$e#Maybe that's why he comes in so often. Oh well, that means more business for me.",
+        "ko": "클린트는 거의 매일 저녁 주점에 와서 매번 혼자서 같은 테이블에 앉지.#$e#가끔 불안해하는 눈빛으로 에밀리를 힐끔 보고. 흐음.#$e#그래서 자주 오는 건가 봐. 뭐, 나야 장사할 거리는 늘어나는 거니까.",
+        "pt": "Clint vêm ao saloon quase todas as noites e senta na mesma mesa, sozinho.#$e#Às vezes ele olha para Emily e fica nervoso. Hum...#$e#Deve ser por isso que ele vem com tanta frequência. Ah... mais negócios para mim.",
+        "ru": "Клинт почти каждый вечер приходит в салун и сидит за одним и тем же столом в одиночестве.#$e#Иногда он нервно поглядывает на Эмили. Хм-м-м.#$e#Может, поэтому он так часто и приходит. Ну да ладно, все больше посетителей.",
+        "tr": "Clint buraya her akşam gelir ve bir başına aynı masaya oturur.#$e#Bazen Emily'e gergin bir bakış atar. Hım.#$e#Belki de bu yüzden sürekli geliyordur. Her neyse, bu benim için daha çok iş demek.",
+        "zh": "克林特每晚都来酒吧，自己一个人，坐的也是同一张桌子。#$e#有时会紧张的看向艾米丽的方向。嗯……#$e#这就是他常来的原因吧。哦，这也给我带来了不少生意。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:Thu8",
+      "author_key": "Thu8",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Pam kommt fast jede Nacht hierher und trinkt viel zu viel Bier.#$e#Ah, aber ich sollte nicht über meine Kunden urteilen.",
+        "es": "Pam viene al Salón casi cada noche y bebe demasiada cerveza.#$e#Pero bueno, no debería juzgar a mis clientes.",
+        "fr": "Pam vient au saloon presque tous les soirs et boit beaucoup trop de bière.#$e#Je ne devrais pas porter de jugement sur mes clients.",
+        "hu": "Pam majdnem minden este bejön a szalonba és túl sok sört iszik.#$e#Na mindegy, nem kéne ítélkeznem a vásárlóim felett.",
+        "it": "Pam viene al saloon quasi ogni notte e beve davvero troppa birra.#$e#Oh beh, non dovrei giudicare i clienti.",
+        "ja": "パムは ほぼ毎晩 酒場へ来て、 ビールを ガブ飲み するんだ。#$e#私からすれば、自分の客に 文句は 言ってられないがな。",
+        "en": "Pam comes into the saloon almost every night and drinks way too much beer.#$e#Ah well, I shouldn't pass judgment on my customers.",
+        "ko": "팸은 거의 매일 저녁 주점에 와서 맥주를 좀 과하게 마시지.#$e#뭐, 난 손님을 비판하는 게 일은 아니니까.",
+        "pt": "Pam vem ao saloon quase todas as noites e bebe demais.#$e#Bem, não é bom ficar julgando meus clientes.",
+        "ru": "Пэм почти каждый вечер заявляется в салун и выпивает слишком уж много пива.#$e#А, ладно, не дело мне судить своих клиентов.",
+        "tr": "Pam neredeyse her akşam buraya gelip ve fazlasıyla bira içer.#$e#Her neyse, müşterilerimi yargılamamalıyım.",
+        "zh": "潘姆每晚都来酒吧喝很多啤酒。#$e#哦对了，我不该过多谈论顾客的事。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:Tue",
+      "author_key": "Tue",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich verkaufe jede Woche andere Gerichte, also schau hin und wieder mal vorbei!#$e#Vielleicht kostest du ja etwas Spektakuläres.$h#$e#Lass mich nur wissen, ob du irgendwelche Allergien hast.$s#$e#Okay, man sieht sich.",
+        "es": "Vendo platos diferentes cada semana, ¡así que pásate de vez en cuando!#$e#Podrías probar algo espectacular.$h#$e#Eso sí, dime si tienes alguna alergia.$s#$e#Bueno, ya nos veremos.",
+        "fr": "Je propose des plats différents chaque semaine, alors pense bien à venir vérifier le menu de temps en temps !#$e#Tu goûteras peut-être quelque chose de spectaculaire.$h#$e#Préviens-moi si jamais tu as des allergies.$s#$e#Ok, à bientôt.",
+        "hu": "Minden héten változik az étlap, szóval nézz be gyakran, ha erre jársz!#$e#Csodás dolgokat kóstolhatsz nálam.$h#$e#Csak szólj, ha allergiás vagy valamire.$s#$e#Oké, viszlát.",
+        "it": "Vendo piatti diversi ogni settimana, per cui assicurati di controllare di quando in quando!#$e#Potresti assaggiare qualcosa di spettacolare.$h#$e#Solo, fammi sapere se hai delle allergie.$s#$e#Ok, ci si vede in giro.",
+        "ja": "うちのメニューは 毎週 変わるから、 忘れずに チェックしてくれよな！#$e#君の舌に合う 絶品に 出くわすかも しれないぞ。$h#$e#アレルギーが あるなら、 気兼ねなく 言ってくれ。$s#$e#ああ、またな。",
+        "en": "I sell different dishes each week, so make sure and check in every now and then!#$e#You might taste something spectacular.$h#$e#Just let me know if you have any allergies.$s#$e#Okay, see you around.",
+        "ko": "난 매주 다른 요리를 팔고 있으니, 종종 들러서 확인해보게!#$e#뭔가 엄청난 것을 맛볼 수도 있어.$h#$e#아, 혹시 알러지가 있다면 알려주고.$s#$e#그럼, 종종 보세.",
+        "pt": "Faço pratos diferentes toda semana, então não se esqueça de conferir de vez em quando!#$e#Você pode provar algo espetacular.$h#$e#Só me conte se tem alguma alergia.$s#$e#Certo. Vejo você por aí.",
+        "ru": "Каждую неделю у меня новые блюда, так что заглядывай почаще!#$e#Может, тебе удастся попробовать что-то выдающееся.$h#$e#Только скажи мне, есть ли у тебя на что-нибудь аллергия.$s#$e#Ладно, еще увидимся.",
+        "tr": "Her hafta farklı yiyecekler satıyorum. Arada sırada gelip göz atmayı unutma!#$e#Çok özel bir şey tadabilirsin.$h#$e#Herhangi bir alerjin varsa bana söyle.$s#$e#Oldu o zaman, görüşürüz.",
+        "zh": "我每周都做不一样的菜哦，所以没事就过来看看吧！#$e#没准能吃到极品美食哦。$h#$e#有忌口的话尽管告诉我。$s#$e#好的，回头见。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:Wed",
+      "author_key": "Wed",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Emily arbeitet hier schon seit einer ganzen Weile. Ich wüsste nicht, was ich ohne sie tun würde!#$e#Ich würde es hassen, all diese Töpfe alleine sauber machen zu müssen.$s",
+        "es": "Emily lleva un tiempo trabajando aquí. ¡No sé qué haría sin ella!#$e#No soportaría tener que limpiar todas esas ollas yo solo.$s",
+        "fr": "Emily travaille ici depuis un moment maintenant. Je ne sais pas ce que je ferais sans elle !#$e#Je n’aimerai pas devoir nettoyer toute cette vaisselle moi-même.$s",
+        "hu": "Emily itt dolgozik már egy ideje. Nem is tudom mihez kezdenék nélküle!#$e#Gyűlölném, ha nekem kellene elmosogatni az edényeket.$s",
+        "it": "Emily lavora qui da un po', ormai. Senza di lei sarei spacciato!#$e#Odierei dover pulire tutte quelle pentole da solo.$s",
+        "ja": "エミリーが ここで 働き始めて しばらくたった。彼女が いなければ どうなっていたか！#$e#洗い物を 全部 一人で やるなんて もうゴメンだね。$s",
+        "en": "Emily's been working here for a while now. I don't know what I'd do without her!#$e#I would hate to have to clean all those pots by myself.$s",
+        "ko": "에밀리가 여기서 일한 지도 오래되었지. 그녀가 없이 여길 운영하긴 너무 어려웠을 거야!#$e#난 도저히 혼자서 저 냄비를 전부 설거지할 엄두가 안 나거든.$s",
+        "pt": "A Emily está trabalhando aqui há algum tempo. Não sei o que faria sem ela!#$e#Eu odiaria ter que limpar todas as panelas sozinho.$s",
+        "ru": "Эмили тут уже давно работает. Не знаю, что бы я без нее делал!#$e#Не хотелось бы мне мыть все эти кастрюли самому.$s",
+        "tr": "Emily bir süredir burada çalışıyor. O olmasa ne yapardım bilmiyorum!#$e#Tüm tabakları kendim temizleyecek olsam tiksinirdim.$s",
+        "zh": "艾米丽在这工作一段时间了。没有她我真不知道该怎么办！#$e#我可不想自己去刷锅。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:accept_865",
+      "author_key": "accept_865",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "*schnupper* *schnupper* ... dieser scharfe Geruch!#$b#*schlürfen* *schlürfen* ... dieser pikante Geschmack! Diese körnige Textur!#$b#Es kann nur Gourmet-Tomatensalz sein! Ich möchte darum handeln.",
+        "es": "*olisqueo* *olisqueo* ... ¡Ese olor tan fuerte!#$b#*trago* *trago* ... ¡Ese sabor picante! ¡Esa textura arenosa!#$b#¡Solo puede ser salsa de tomate gourmet! Te la intercambiaré por algo.",
+        "fr": "*Renifle* *Renifle*... Cette forte odeur !#$b#*Avale* *Avale*... Ce goût relevé ! Cette texture granuleuse !#$b#Ça ne peut être que du sel à la tomate gastronomique ! Je vous l’échange contre ce que vous voulez.",
+        "hu": "*szimat* *szimat* ... ez az erős illat!#$b#*szürcsöl* *szürcsöl* ... ez a pikáns íz! Ez a határozott textúra!#$b#Ez csak ínyenc paradicsomos só lehet! Cserélek veled.",
+        "it": "*sniff* sniff* ... quell'odore acre!#$b#*slurp* *slurp* ... quel sapore asprigno! Quella consistenza granulosa!#$b#Non può essere che sale al pomodoro pregiato! Facciamo un piccolo baratto.",
+        "ja": "（クンクン）（クンクン）…刺激的な匂いだ！#$b#（クチャクチャ）（クチャクチャ）…刺激的な味だ！ザラザラした食感！#$b#グルメなトマト塩でしか味わえない！それと交換してあげよう。",
+        "en": "*sniff* sniff* ... that sharp smell!#$b#*slurp* *slurp* ... that zesty taste! That gritty texture!#$b#It can only be gourmet tomato salt! I'll trade you for it.",
+        "ko": "*킁* 킁* ... 그 날카로운 향!#$b#*후룩* *후룩* ... 이 풍미 깊은 맛! 이 거친 감촉!#$b#미식가의 토마토 소금일 수밖에 없어 이건! 보답으로 이걸 주겠네.",
+        "pt": "*cheira* cheira* ... que cheiro forte!#$b#*lambe* *lambe* ... este sabor picante! Essa textura áspera!#$b#Só pode ser sal de tomate gourmet! Vou te dar isso por ele.",
+        "ru": "*нюх* *нюх* ... какой выраженный аромат!#$b#*пробует* ... а какой пряный вкус! Какая зернистая текстура!#$b#Это не что иное, как Изысканная помидорная соль. С удовольствием что-нибудь на нее обменяю!",
+        "tr": "*koklar* *koklar* Bu keskin koku!#$b#*höpürdetir* *höpürdetir* Leziz! Şu pütürlü dokusuna bakar mısın?#$b#Bu olsa olsa domates tuzudur! Takas yapmayı kabul ediyorum.",
+        "zh": "（嗅、嗅）……这刺鼻的气味！#$b#（咕噜咕噜）……这热情的味道！这粗糙的质感！#$b#只能是美食家番茄盐了！我来跟你做个交易吧。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'accept_865' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:cropMatured_256",
+      "author_key": "cropMatured_256",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Lewis sagt mir, dass deine Tomaten reif geworden sind. Das sind tolle Neuigkeiten!#$b#... Stell dir vor, wie die kulinarische Welt ohne Tomaten aussehen würde...",
+        "es": "Lewis me dice que tus tomates han madurado. ¡Eso son buenas noticias!#$b#...solo imagina cómo sería el mundo culinario sin tomates...",
+        "fr": "Lewis m’a dit que tes tomates ont mûri. C’est une excellente nouvelle !#$b#...Imagine ce que serait le monde culinaire sans tomates...",
+        "hu": "Lewis mondta, hogy megérettek a paradicsomjaid. Az remek hír!#$b#...csak képzeld el, hogy milyen lehet a konyhai világ paradicsomok nélkül...",
+        "it": "Lewis mi ha detto che i tuoi pomodori sono maturi. Ottime notizie!#$b#...Immagina cosa sarebbe il mondo culinario senza pomodori...",
+        "ja": "ルイス町長からきみの牧場のトマトが熟したと聞いたよ。うれしいニュースだよ！#$b#トマトは料理に欠かせないからね。",
+        "en": "Lewis tells me your tomatoes have ripened. That's great news!#$b#...Just imagine what the culinary world would be like without tomatoes...",
+        "ko": "자네 토마토가 다 익었다고 루이스가 그러던데. 희소식이구만!#$b#...토마토가 없는 요리의 세상이 어떨지 상상해 보면 정말...",
+        "pt": "Lewis me contou que os seus tomates estão maduros. Que notícia incrível!#$b#...só imagine como seria o mundo culinário sem tomates...",
+        "ru": "Льюис сказал мне, что у тебя помидоры поспели. Отличные новости!#$b#...Просто представь, как бы плохо было жить в мире без помидоров...",
+        "tr": "Lewis, ektiğin domateslerin olgunlaştığını söyledi. Harika!#$b#...Domates olmasa yemekler nasıl olurdu bir düşünsene...",
+        "zh": "刘易斯跟我说你种的番茄已经成熟了，那真是太好了！#$b#……假如美食界没有番茄，那可太惨了……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:dating_Emily_memory_oneweek",
+      "author_key": "dating_Emily_memory_oneweek",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Emily hat in letzter Zeit richtig Elan... Ich frage mich, warum? *zwinker*",
+        "es": "Emily tiene buena energía en sus pasos últimamente... ¿Me pregunto por qué? *guiño*",
+        "fr": "Emily marche beaucoup en sautillant ces derniers temps... Je me demande pourquoi ? *clin d’œil*",
+        "hu": "Emily mostanában lendületesebben lépked... Vajon miért? *kacsint*",
+        "it": "Ultimamente Emily è particolarmente allegra... Chissà perché? *ammicca*",
+        "ja": "最近、エミリーがとても元気なんだ…どうしてだろうね？ （ウィンク）",
+        "en": "Emily has a real pep in her step lately... I wonder why? *wink*",
+        "ko": "에밀리가 요즘 기운이 넘치네... 왜 그럴까? *윙크*",
+        "pt": "A Emily anda bem felizinha ultimamente... Por que será? *pisca*",
+        "ru": "Эмили в последнее время такая бодрая... Интересно, почему? *подмигивает*",
+        "tr": "Emily son zamanlarda oldukça enerjik duruyor... Acaba neden? *göz kırpar*",
+        "zh": "艾米丽最近精神得不得了……你们怎么了？（眨眨眼）"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'dating_Emily_memory_oneweek' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:divorced_once",
+      "author_key": "divorced_once",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey, tut mir leid, von der Trennung zu hören...$s#$e#Wenn du Gesellschaft brauchst, bist du in der Kneipe immer willkommen.",
+        "es": "Hey, lo siento por lo de tu ruptura...$s#$e#Si necesitas compañía, siempre te daremos la bienvenida en el salón.",
+        "fr": "Hé, je suis navré d’apprendre la nouvelle pour ta rupture..$s#$e#Si tu as besoin de compagnie, les portes du Saloon te sont toujours ouvertes !",
+        "hu": "Hé, sajnálom, hogy szakítottatok...$s#$e#Ha társaságra van szükséged, bármikor betérhetsz a szalonba.",
+        "it": "Ehi, mi dispiace per la separazione...$s#$e#Se cerchi un po' di compagnia, il Saloon ti accoglie sempre a braccia aperte.",
+        "ja": "別れはとても残念だけど…$s#$e#仲間が必要ならいつでもサルーンにおいで。歓迎するよ。",
+        "en": "Hey, I'm sorry to hear about the break-up...$s#$e#If you need company, you're always welcome at the Saloon.",
+        "ko": "이봐, 이혼 얘기는 정말 유감일세...$s#$e#혼자있기 싫다면, 언제든 주점에 들러줘.",
+        "pt": "Ei, sinto muito pela separação...$s#$e#Se precisar de companhia, fique à vontade no Saloon.",
+        "ru": "Эх, жаль, что вы расстались...$s#$e#Если что, заходи в Салун — тут для тебя всегда найдется компания.",
+        "tr": "Ayrılığı duyduğuma üzüldüm...$s#$e#Eğer desteğe ihtiyacın olursa her zaman Salon'a beklerim.",
+        "zh": "哎，听说你离婚了，我很遗憾……$s#$e#欢迎多来酒吧，这里有人陪你。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "divorced",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "divorced",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:divorced_twice",
+      "author_key": "divorced_twice",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Eine weitere gescheiterte Ehe? Nun, das kommt vor. Ich schätze, ich werde dich öfters in der Kneipe sehen...$s",
+        "es": "¿Otro matrimonio fallido? Bueno, a veces pasa. Supongo que te veré en el salón más a menudo...$s",
+        "fr": "Un autre mariage raté ? Eh bien, ce sont des choses qui arrivent parfois. J’imagine que je vais te voir plus souvent au saloon...$s",
+        "hu": "Egy újabb sikertelen házasság? Nos, van ez így. Azt hiszem gyakrabban foglak a szalonban látni...$s",
+        "it": "Un altro matrimonio fallito? Beh, succede. Immagino che ti vedrò più spesso al Saloon...$s",
+        "ja": "また離婚したのかい？まあ、そういうこともあるよ。どうやらきみとサルーンで会うことが増えそうだね…$s",
+        "en": "Another failed marriage? Well, it happens. Guess I'll be seeing you at the Saloon more often...$s",
+        "ko": "또 결혼이 그렇게 되었다고? 뭐, 그럴 때도 있지. 주점에서 자주 보겠네...$s",
+        "pt": "Outro casamento que não deu certo? Bem, acontece. Acho que vou te ver pelo Saloon com mais frequência...$s",
+        "ru": "Еще один развод? Что ж, бывает. Теперь, наверное, чаще будешь в Салун заходить...$s",
+        "tr": "Yine mi boşandın? Eh, olur öyle. Sanırım seni salonda daha sık görmeye başlayacağım...$s",
+        "zh": "又经历了一次失败的婚姻吗？唉，有些事情确实无法避免。感觉之后会经常在酒吧见到你了……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'divorced_twice' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:eventSeen_3206194",
+      "author_key": "eventSeen_3206194",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey, du hast dich mit diesen Eiern wirklich gut geschlagen. Das Omelett ist toll geworden, dank dir!",
+        "es": "Hey, realmente has salido adelante con esos huevos. La tortilla ha salido genial, ¡gracias a ti!",
+        "fr": "Hé, tu as fait du bon travail avec ces œufs. L’omelette était excellente, grâce à toi !",
+        "hu": "Hé, sokat megtettél azokért a tojásokért. Az omlett nagyon jó lett, hála neked!",
+        "it": "Ehi, quelle uova erano davvero buone. La frittata è stata un successone, grazie a te!",
+        "ja": "やあ、あのタマゴは本当にすばらしかったよ。おかげで最高においしいオムレツができたんだ！ ありがとう！",
+        "en": "Hey, you really pulled through with those eggs. The omelet turned out great, thanks to you!",
+        "ko": "이봐, 그때 달걀은 정말 도움이 많이 됐어. 네 덕분에 멋진 오믈렛이 완성되었지!",
+        "pt": "Ei, você realmente me ajudou com aqueles ovos. O omelete ficou incrível graças à você!",
+        "ru": "Эй, яиц нормально так набралось. Омлет получился просто шикарный, спасибо!",
+        "tr": "Yumurtalarla gerçekten harikalar yaratmışsın. Sayende omlet harika oldu!",
+        "zh": "哎，你送来的蛋真是帮了大忙，能做出完美的煎蛋卷，你是大功臣！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:eventSeen_502969",
+      "author_key": "eventSeen_502969",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Es ist mir wichtig, dass sich die Menschen gesund und lecker ernähren können. Leider ist das in der heutigen Welt nicht für jeden so einfach.",
+        "es": "Es importante para mi que la gente pueda consumir comida sana y deliciosa. Desafortunadamente, hoy en día, no es tan fácil para todos.",
+        "fr": "C’est important pour moi que les gens puissent manger des repas sains et délicieux. Malheureusement, dans le monde d’aujourd’hui, ce n’est pas facile pour tout le monde.",
+        "hu": "Számomra fontos, hogy az emberek egészséges, ízletes ételeket fogyasszanak. Sajnálatosan a mai világban ez nem mindenkinek olyan könnyű.",
+        "it": "Per me è importante che le persone mangino piatti buoni e salutari. Purtroppo, al giorno d'oggi, non tutti possono permetterselo.",
+        "ja": "みんながおいしくて健康にいい食事をとれるかどうかが私にとっては重要なことなんだ。残念だけど、今の世の中ではそう簡単なことじゃないからね。",
+        "en": "It's important to me that people can eat healthy, delicious meals. Unfortunately, in today's world, that's not so easy for everyone.",
+        "ko": "사람들이 건강하고 맛있는 식사를 하는 건 정말 중요하다고 생각해. 안타깝게도 요즘 세상에선 쉬운 일이 아니지.",
+        "pt": "É muito importante para mim que as pessoas consigam comer comidas deliciosas e saudáveis. Infelizmente, no mundo de hoje, isso não é fácil para todos.",
+        "ru": "Мне важно, чтобы люди ели полезную и вкусную еду. К сожалению, в современном мире это не так просто.",
+        "tr": "Benim için insanların sağlıklı ve lezzetli yiyecekler yiyebilmesi önemli. Fakat maalesef günümüzde bu herkes için kolay değil.",
+        "zh": "大家能吃上健康美味的饭菜，这是我重要的心愿，很遗憾这对一些人来说还是一件奢侈的事情。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'eventSeen_502969' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:married",
+      "author_key": "married",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey @, ich wollte nur sagen, dass ich mich für dich und %spouse freue.",
+        "es": "Hey @, solo quería decir que estoy feliz por ti y %spouse.",
+        "fr": "Hé @, je voulais juste te dire que je suis heureux pour toi et %spouse.",
+        "hu": "Hé @, csak azt szeretném mondani, hogy boldog vagyok miattad és %spouse miatt.",
+        "it": "Ehi @, volevo solo dirti che sono felice per te e %spouse.",
+        "ja": "@。きみと%spouseのしあわせを心から願ってるよ。",
+        "en": "Hey @, just want to say that I'm happy for you and %spouse.",
+        "ko": "@, 너와 %spouse 모두 행복하길 진심으로 바란다.",
+        "pt": "Ei, @, só quero dizer que estou feliz por você e %spouse.",
+        "ru": "Эй, @, просто хочу сказать, я рад, что %spouse и ты счастливы.",
+        "tr": "@, sen ve %spouse adına çok mutlu olduğumu söylemek istedim.",
+        "zh": "你好啊，@，希望你和%spouse能过得开心。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'married' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:pamHouseUpgrade",
+      "author_key": "pamHouseUpgrade",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey. Ich habe gehört, was du für Pam getan hast. Das war wirklich nett von dir!$h#$e#Leider glaube ich nicht, dass sie deswegen weniger 'Getränke' trinkt ...",
+        "es": "Hola. Me han dicho lo que has hecho por Pam. ¡Ha sido muy amable por tu parte!$h#$e#Por desgracia, no creo que esto la anime a dejar el bebercio...",
+        "fr": "Hé. J’ai entendu parler ce que tu as fait pour Pam. C’était vraiment très gentil de ta part !$h#$e#Malheureusement, je ne pense pas que cela va l’aider à réduire la boisson...",
+        "hu": "Hé. Hallottam, hogy mit tettél Pamért. Ez valóban nagyon kedves volt tőled!$h#$e#Kissé szomorú, de nem hiszem, hogy ettől le fog majd szokni az 'üdítőkről'...",
+        "it": "Ehi. Ho sentito cosa hai fatto per Pam. Molto gentile da parte tua!$h#$e#Purtroppo, non penso che la convincerà a smetterla con le 'bibite'...",
+        "ja": "やあ！パムから 君の親切の ことを 聞いたよ。本当に ありがとう！$h#$e#まさか、 彼女が 「飲料費」まで 切り詰めてた だなんて 思ってなかったんだ…",
+        "en": "Hey. I heard what you did for Pam. That was really really nice of you!$h#$e#Sadly, I don't think it will get her to cut back on the 'beverages'...",
+        "ko": "야. 팸을 위해서 해준 일은 얘기 들었어. 정말 정말 좋은 일 했네!$h#$e#슬프게도, 그런다고 그녀가 '음료'를 덜 마실 것 같진 않아...",
+        "pt": "Ei. Fiquei sabendo do que você fez para a Pam. Foi muito legal da sua parte!$h#$e#Infelizmente, eu não acho que isso a convencerá a diminuir seu consumo de 'bebidas'...",
+        "ru": "Привет! Я слышал, вы помогли Пэм. Очень мило с вашей стороны!$h#$e#Правда, боюсь, выпивать она меньше не станет...",
+        "tr": "Merhaba. Pam için ne yaptığını duydum. Harikasın!$h#$e#Ne yazık ki yaptığın şey içmesini azaltmayacak...",
+        "zh": "嘿。我听说了你为潘姆做的事情。你真是大……大的好人！$h#$e#可悲的是，我认为这不会让她少喝“饮料”……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'pamHouseUpgrade' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:pamHouseUpgradeAnonymous",
+      "author_key": "pamHouseUpgradeAnonymous",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe Pam vorhin gesehen ... Sie hat bis über beide Ohren gestrahlt! Sie meinte, jemand habe ihr ein neues Haus gekauft!#$e#Wer auch immer es war, hat einen Orden verdient!$h",
+        "es": "Me he encontrado con Pam antes... ¡no veas qué sonrisa tenía de oreja a oreja! ¡Dice que alguien le compró una casa nueva!#$e#No sé quién sería, ¡pero se merece lo mejor del mundo!$h",
+        "fr": "J’ai vu Pam tout à l’heure... elle affichait un sourire radieux ! Elle a dit que quelqu’un lui avait acheté une nouvelle maison !#$e#Qui que ce soit, cette généreuse personne mérite les honneurs !$h",
+        "hu": "Ma korábban láttam Pamet... fültől-fülig tartott a vigyora! Mondta, hogy valaki új házat vett neki!#$e#Bárki is volt az, cserébe minden jót megérdemel!$h",
+        "it": "Ho visto Pam, oggi... aveva un sorriso che le andava da un orecchio all'altro! Ha detto che qualcuno le ha comprato una casa nuova!#$e#Chiunque sia stato, si merita la migliore delle fortune!$h",
+        "ja": "さっき パムに 会ってね…笑顔が こぼれん ばかりだったよ！誰かが 家を 買ってくれたと 言っていたよ。#$e#誰だか わからないんだけど、心の 広い人が いるものだね！$h",
+        "en": "I saw Pam earlier today... she was grinning from ear to ear! She said someone bought her a new house!#$e#Whoever it was, they truly deserve the best!$h",
+        "ko": "오늘 아까 팸을 봤는데... 입이 귀에 걸려있더라고! 누군가 새 집을 사줬다던데!#$e#누군지는 몰라도, 진심으로 복받을 사람이야!$h",
+        "pt": "Eu vi a Pam hoje mais cedo... ela estava com um sorriso do tamanho do mundo! Ela disse que alguém comprou uma casa para ela!#$e#Seja quem for, essa pessoa merece tudo de bom!$h",
+        "ru": "Видел Пэм сегодня утром... Улыбалась просто до ушей! Сказала, кто-то купил ей новый дом!#$e#Кто бы это ни был, здоровья ему и удачи!$h",
+        "tr": "Bugün Pam'i gördüm... ağzı kulaklarına varıyordu! Birisinin ona yeni bir ev aldığını söyledi!#$e#O kişi her kimse en iyisini hakediyor!$h",
+        "zh": "我今天早些时候遇见了潘姆……她正咧豁了嘴大笑！她说有人给她买了一间新房子！#$e#不管是谁，他们真的值得最美的赞扬！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'pamHouseUpgradeAnonymous' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Gus:willyCrabs",
+      "author_key": "willyCrabs",
+      "character": "Gus",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das sind vermutlich die besten Krabbenkuchen, die ich je gemacht habe ...",
+        "es": "Creo que son las mejores tartas de cangrejo que he hecho en mi vida...",
+        "fr": "C’est certainement les meilleurs beignets au crabe que j’ai jamais faits...",
+        "hu": "Ezek talán a legjobb ráktorták amiket valaha is készítettem...",
+        "it": "Questi potrebbero essere i tortini di granchio migliori che ho mai fatto...",
+        "ja": "これは 今まででも 一番の 出来の クラブケーキかも…",
+        "en": "These might be the best crab cakes I've ever made...",
+        "ko": "이건 내가 만든 최고의 게살 케이크야...",
+        "pt": "Acho que estes são os melhores bolinhos de caranguejo que já fiz...",
+        "ru": "Крабовых котлеток лучше этих у меня еще не получалось...",
+        "tr": "Bu yaptığım en iyi yengeçli kek olabilir...",
+        "zh": "这些可能是我烹的最好的蟹肉饼了……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Gus.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Gus.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Gus.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Gus.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Gus.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Gus.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Gus.json",
+          "ko": "data\\game_scripts\\Dialogue\\Gus.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Gus.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Gus.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Gus.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Gus.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'willyCrabs' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    }
+  ]
+}

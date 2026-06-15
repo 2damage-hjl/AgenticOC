@@ -1,0 +1,2260 @@
+{
+  "dataset_meta": {
+    "schema": "canonical_dialogue_v2",
+    "source_root": "data/game_scripts/Dialogue",
+    "collection": "Dialogue",
+    "character": "Kent",
+    "record_count": 34,
+    "dialogue_type_counts": {
+      "general_dialogue": 34
+    }
+  },
+  "records": [
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:AcceptGift_(O)Book_Bombs",
+      "author_key": "AcceptGift_(O)Book_Bombs",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Nun, ich kann kein Zwergisch lesen, aber es ist ein interessantes Sammlerstück. Ich danke dir.",
+        "es": "Bueno, no puedo leer Enano, pero es un objeto de coleccionista interesante. Gracias.",
+        "fr": "Je ne sais pas lire la langue des nains, mais c’est un objet de collection intéressant. Je te remercie beaucoup.",
+        "hu": "Nos, én nem tudok Törpéül olvasni, de attól még értékes gyűjtemény lehet. Köszönöm.",
+        "it": "Beh, non conosco il nanico, ma è un oggetto da collezione interessante. Grazie.",
+        "ja": "ドワーフ語は読めないが、コレクションにするにはおもしろい。ありがとう。",
+        "en": "Well, I can't read Dwarvish, but it's an interesting collector's item. Thank you.",
+        "ko": "뭐, 난 드워프어는 못 읽지만 수집하는 의미가 있겠지. 고마워.",
+        "pt": "Bem, eu não sei ler a língua dos Anões, mas é um item de colecionador interessante. Obrigado.",
+        "ru": "Ну, на дварфийском я не читаю, но для коллекции прекрасно пойдет. Спасибо.",
+        "tr": "Eh, Cüce Dili bilmiyorum fakat ilginç bir koleksiyon eşyası bu. Teşekkürler.",
+        "zh": "哎，我看不懂矮人语，不过拿来收藏也挺有意思，谢谢你。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)Book_Bombs' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:AcceptGift_(O)StardropTea",
+      "author_key": "AcceptGift_(O)StardropTea",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Für mich? Nun, das ist unerwartet... Aber ich werde nicht nein sagen. Vielen Dank!",
+        "es": "¿Para mí? Bueno, eso fue inesperado..., pero no diré que no. ¡Gracias!",
+        "fr": "C’est pour moi ? Eh bien, c’est inattendu... Mais je ne dis pas non. Merci.",
+        "hu": "Ez az enyém? Nos, erre nem számítottam... De nem utasítom el. Köszönöm!",
+        "it": "Per me? Beh, non me lo sarei mai aspettato... Ma non lo rifiuterò. Grazie!",
+        "ja": "オレのために？予想外だな…だが決して悪い気はしない。ありがとう！",
+        "en": "For me? Well, that's unexpected... But I won't say no. Thanks!",
+        "ko": "나 주겠다고? 이건 예상 밖인데... 사양하진 않을게. 고마워!",
+        "pt": "Para mim? Bem, isso foi inesperado... Mas não vou recusar. Obrigado!",
+        "ru": "Это мне? Неожиданно... Но не откажусь. Спасибо!",
+        "tr": "Benim için mi? Eh, bu pek beklediğim bir şey değildi... Fakat hediyeye hayır demem. Teşekkürler!",
+        "zh": "这是送我的吗？呃，有点意外……不过给我吧，谢谢你！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)StardropTea' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Fri",
+      "author_key": "Fri",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Sieht nach einem guten Tag zum Fischen aus, nicht?",
+        "es": "Parece un buen día para pescar, ¿no?",
+        "fr": "C’est une belle journée pour aller pêcher, n’est-ce pas ?",
+        "hu": "Úgy tűnik ma remek napunk van a horgászatra, nemde?",
+        "it": "Non sembra una brutta giornata per pescare, vero?",
+        "ja": "今日は 釣りに うってつけの 日だな。",
+        "en": "It looks like a decent day for fishing, doesn't it?",
+        "ko": "낚시하기 좋은 날 같네, 안 그래?",
+        "pt": "Parece um bom dia para pescar, não acha?",
+        "ru": "Неплохой сегодня денек для рыбалки, правда?",
+        "tr": "Balıkçılığa çıkmak için güzel bir gün, öyle değil mi?",
+        "zh": "今天真是个钓鱼的好日子，不是吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Fri4",
+      "author_key": "Fri4",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich sollte mit dem Angeln anfangen. Dann hätte ich etwas zu tun und könnte meine Hände beschäftigen.",
+        "es": "Debería empezar a pescar. Me daría algo que hacer, mantendría mis manos ocupadas.",
+        "fr": "Je devrais me mettre à la pêche. Ça me donnerait quelque chose à faire et ça m’occuperait les mains.",
+        "hu": "Elkezdhetnék horgászni. Úgy lenne mit csinálnom és lefoglalhatnám magamat.",
+        "it": "Dovrei darmi alla pesca. Così avrei qualcosa da fare, mi terrei occupato.",
+        "ja": "オレも釣りを始めるかな。ひまを持て余すぐらいなら、手を動かした方がいいだろう。",
+        "en": "I oughta take up fishing. It would give me something to do, keep my hands busy.",
+        "ko": "낚시를 시작해야겠어. 뭐라도 해야지, 한가하지 않게.",
+        "pt": "Eu tenho que começar a pescar. Pelo menos eu teria algo para fazer, para manter as mãos ocupadas.",
+        "ru": "Надо бы заняться рыбалкой. Так хотя бы руки будут чем-то заняты.",
+        "tr": "Balık tutmaya gideceğim. Kendimi meşgul ederim, yapacak bir şeyim olmuş olur.",
+        "zh": "我得学学钓鱼了，这样能有事可做，不至于闲着。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:GreenRain_2",
+      "author_key": "GreenRain_2",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Heh... Der Regen ist ein Segen. Eine Erinnerung daran, dass es immer Mächte geben wird, die größer sind als alles, was der Mensch sich ausdenkt.#$e#Das ist eigentlich ein Trost, @.",
+        "es": "Je... La lluvia es una bendición. Un recordatorio de que siempre habrá fuerzas por encima de cualquier cosa concebida por el hombre.#$e#Eso es un consuelo, enrealidad, @.",
+        "fr": "Hé... La pluie est une bénédiction. Ça nous rappelle qu’il y aura toujours des forces plus grandes que tout ce qui a été conçu par l’homme.#$e#C’est en fait un réconfort, @.",
+        "hu": "Heh... Az eső egy áldás. Emlékeztet arra, hogy mindig is lesznek hatalmasabb erők annál, mint amit bármilyen ember is készíthet.#$e#Ez valójában megnyugtató, @.",
+        "it": "Heh... La pioggia è una benedizione. Ci ricorda che esisteranno sempre delle forze più grandi di tutto ciò che l'uomo può inventarsi.#$e#E questo è una consolazione, @.",
+        "ja": "そうだな…雨は天の恵みだ。人間の想像をこえる大きな力が世界には存在するのだと教えてくれる。#$e#人はそれに感謝すべきなんだよ、@。",
+        "en": "Heh... The rain is a blessing. A reminder that there will always be forces greater than anything conceived of by man.#$e#That's actually a comfort, @.",
+        "ko": "헤헤... 이 비는 축복이야. 인간이 넘을 수 없는 힘이 있다는 걸 상기시켜주지.#$e#위안이 되는 일이야, @.",
+        "pt": "Heh... A chuva é uma bênção. Um lembrete que sempre vão existir forças muito maiores que qualquer coisa concebida pelos humanos.#$e#E isso é reconfortante, @.",
+        "ru": "Хе-хе... Это благодатный дождь. Напоминание о том, что есть силы намного сильнее, чем все, что сделал человек.#$e#Думать об этом как-то приятно, @.",
+        "tr": "Heh... Yağmur nimettir. İnsanın hayal edebileceği her şeyden daha büyük güçlerin her zaman var olacağının hatırlatıcısıdır.#$e#Teselli işte @.",
+        "zh": "哎呀……下这场雨是一件好事，能提醒我们山外有山，天外有天。#$e#@啊，这反而能让人放心下来。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Mon",
+      "author_key": "Mon",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hallo.#$e#Ich war so lange weg... Ich fühle mich wie ein Fremder.",
+        "es": "Hola.#$e#He estado tanto tiempo fuera que... Me siento como un extraño.",
+        "fr": "Bonjour.#$e#Je suis parti depuis si longtemps... j’ai l’impression d’être un étranger.",
+        "hu": "Üdv, gazda.#$e#Oly sokáig voltam távol... Idegennek érzem magam.",
+        "it": "Ehilà.#$e#Manco da così tanto tempo... che mi sento un estraneo.",
+        "ja": "やあ、牧場主さん。#$e#長いこと 留守にしてたおかげで…オレも よそ者みたいな 気分だ。",
+        "en": "Hello, farmer.#$e#I've been gone so long... I feel like a stranger.",
+        "ko": "안녕, 농부.#$e#너무 오래 떠나있었어... 내가 낯선 사람이 된 것 같아.",
+        "pt": "Olá.#$e#Estive ausente por muito tempo... Sinto-me um estranho.",
+        "ru": "Привет, фермер.#$e#Меня так долго здесь не было... Чувствую себя чужим.",
+        "tr": "Merhaba, çiftçi.#$e#Uzun zamandır uzaklardaydım... Buralara yabancıymış gibi hissediyorum.",
+        "zh": "你好啊。#$e#我离开好久了啊……觉得自己就是个异乡客。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Mon4",
+      "author_key": "Mon4",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich weiß nicht, ob ich mich je wieder daran gewöhnen kann, zurück zu sein.#$e#Die friedliche Atmosphäre der Stadt fühlt sich an wie eine Maske. Dabei geht es aber vermutlich nur mir so.",
+        "es": "No sé si conseguiré acostumbrarme a estar en casa.#$e#La tranquilidad del pueblo me parece una pantomima. Aunque probablemente solo sean cosas mías.",
+        "fr": "Je ne sais pas si je m’habituerai un jour à être de retour à la maison.#$e#Le calme de la campagne paraît si étrange. Mais ça doit venir de moi",
+        "hu": "Nem tudom, hogy valaha is meg fogom szokni azt, hogy hazatértem.#$e#A város békessége maszknak tűnik. Aztán lehet, hogy csak én gondolom így.",
+        "it": "Non so se m'abituerò mai ad essere di nuovo a casa.#$e#La pace del paese mi sembra una maschera. Ma probabilmente sono solo io.",
+        "ja": "ようやく 家に 帰ってきたが、 馴染めるか 不安だな。#$e#この町の 平和は 仮初めみたいな 感じがする。オレの 思い違いかも 知れないが。",
+        "en": "I don't know if I'll ever get used to being back home.#$e#The peacefulness of the town feels like a mask. That's probably just me though.",
+        "ko": "집에 왔다는 사실에 영영 적응 못할 것 같아.#$e#마을의 평화로움이 가면 같아. 그냥 나만 그렇게 느끼는 거겠지.",
+        "pt": "Não sei se vou me acostumar a ficar em casa de novo.#$e#A tranquilidade da cidade parece uma máscara. Mas deve ser só impressão minha.",
+        "ru": "Не знаю, привыкну ли я снова к домашней жизни.#$e#Покой этого городка — будто маска. Это, наверное, только мои заморочки.",
+        "tr": "Evde olmaya alışabilecek miyim emin değilim.#$e#Kasabadaki huzur bana maske gibi geliyor. Muhtemelen sadece bana...",
+        "zh": "我不知道我还能不能适应家里的生活。#$e#镇子里的平静祥和像是一种掩饰。可能只有我觉得这样吧。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:MovieInvitation",
+      "author_key": "MovieInvitation",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ähm... okay. Ich danke dir. Ich werde dich dort treffen.$h",
+        "es": "Erm... vale. Gracias. Nos vemos allí.$h",
+        "fr": "Euh... OK. Merci pour l’invitation. Je te rejoins au cinéma.$h",
+        "hu": "Öhm... oké. Köszönöm. Ott találkozunk.$h",
+        "it": "Ehm... ok. Grazie. Ci vediamo al cinema.$h",
+        "ja": "ああ… わかったよ。ありがとう。映画館で会おう。$h",
+        "en": "Erm... okay. Thank you. I'll meet you there.$h",
+        "ko": "어... 그래. 고마워. 거기서 볼게.$h",
+        "pt": "É... certo. Obrigado. Eu te encontro lá.$h",
+        "ru": "Эм... Ладно. Спасибо. Встретимся на месте.$h",
+        "tr": "Şey... olur. Teşekkür ederim. Orada buluşuruz.$h",
+        "zh": "嗯……好的。谢谢。我们到时候见。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'MovieInvitation' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Resort",
+      "author_key": "Resort",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Die Bootsfahrt hat Spaß gemacht. Ich durfte sogar einen Teil meiner nautischen Ausbildung nutzen, um beim Navigieren zu helfen.$h",
+        "es": "El paseo en barco ha sido divertido. He llegado incluso a utilizar mis conocimientos naúticos para ayudar con la navegación.$h",
+        "fr": "L’escapade en bateau était amusante. J’ai même pu utiliser ma formation nautique pour aider à naviguer$h",
+        "hu": "Jó móka volt a hajóút. Még a tengerészeti kiképzésemet is fel tudtam használni, hogy segítsek a navigálásban.$h",
+        "it": "La gita in barca è stata divertente. Ho anche potuto usare il mio addestramento da marinaio per aiutare nella navigazione.$h",
+        "ja": "ボートに乗るのは楽しかった。航海訓練は、船の操縦を手伝うのには役に立ったよ。$h",
+        "en": "The boat ride was fun. I even got to use some of my nautical training to help navigate.$h",
+        "ko": "뱃놀이 재밌었어. 항해 훈련받은걸 유용하게 쓸 수 있었고 말이야.$h",
+        "pt": "A viagem de barco foi legal. Eu até consegui usar um pouco do meu conhecimento náutico para ajudar na navegação.$h",
+        "ru": "Кататься на лодке было весело. Мне даже пригодились мои навигационные навыки, чтобы помочь в ее управлении.$h",
+        "tr": "Tekne yolculuğu eğlenceliydi. Rotayı belirlemeye yardımcı olmak adına denizcilik eğitiminde öğrendiklerimi sergileme fırsatım da oldu.$h",
+        "zh": "这段航程挺有趣的，在导航的时候，我所接受的航海训练居然派上了一点用场。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Resort_Bar",
+      "author_key": "Resort_Bar",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich hole nur etwas Wasser.",
+        "es": "Solo quiero un poco de agua.",
+        "fr": "Juste de l’eau.",
+        "hu": "Csak szerzek egy kis vizet.",
+        "it": "Sto solo prendendo un po' d'acqua.",
+        "ja": "水を飲んでいるだけだよ。",
+        "en": "Just getting some water.",
+        "ko": "물 좀 마시려고.",
+        "pt": "Só pegando um pouco de água.",
+        "ru": "Мне просто нужно немного воды.",
+        "tr": "Su alacağım.",
+        "zh": "来点水就好。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Resort_Chair",
+      "author_key": "Resort_Chair",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Dies ist ein großartiger Ort, um Zeit mit der Familie zu verbringen und sich näher zu kommen. Ich weiß es wirklich zu schätzen, dass Du es hergerichtet hast.",
+        "es": "Este es un muy buen lugar para crear lazos familiares. Te agradezco mucho que lo restaurases.",
+        "fr": "C’est un endroit idéal pour créer des liens avec le reste de la famille. C’est très gentil à toi de faire les réparations.",
+        "hu": "Ez remek hely ahhoz, hogy összejöjjek a családdal. Nagyra értékelem, hogy feljavítottad.",
+        "it": "Questo posto è perfetto per legare con la famiglia. Sono davvero felice che tu l'abbia sistemato.",
+        "ja": "家族の絆を深めるにはもってこいの場所だ。あれを修理してくれて本当にありがとう。",
+        "en": "This is a great place to bond with the family. I really appreciate you fixing it up.",
+        "ko": "가족과 시간을 보내기 너무 좋은 장소야. 고쳐줘서 정말 고마워.",
+        "pt": "Este é um lugar ótimo para se passar com a família. Agradeço por tê-lo consertado.",
+        "ru": "Прекрасное место, чтобы побыть с семьей. Большое спасибо за починку!",
+        "tr": "Bu harika yerde ailemle güzel vakit geçirebiliyorum. Burayı onardığın için sana müteşekkirim.",
+        "zh": "这个地方非常适合家庭成员加深感情。我真的很高兴你把这里修好了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Resort_Entering",
+      "author_key": "Resort_Entering",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hallo, @. Schön, dich zu sehen.",
+        "es": "Hola, @. Me alegro de verte.",
+        "fr": "Salut, @. Ravi de te voir.",
+        "hu": "Hé, @. Örülök, hogy látlak.",
+        "it": "Ehi, @. Che piacere vederti.",
+        "ja": "やあ、@。会えてうれしいよ。",
+        "en": "Hey, @. Nice to see you.",
+        "ko": "안녕, @. 반가워.",
+        "pt": "Olá, @. Bom te ver.",
+        "ru": "Привет, @. Рад, что ты здесь.",
+        "tr": "Selam @. Seni burada görmek ne güzel.",
+        "zh": "嗨，@。见到你真好。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Resort_Leaving",
+      "author_key": "Resort_Leaving",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Zeit, nach Hause zu gehen.",
+        "es": "Hora de volver a casa.",
+        "fr": "Il est temps de rentrer à la maison.",
+        "hu": "Ideje hazamenni.",
+        "it": "È ora di tornare a casa.",
+        "ja": "家に帰る時間だ。",
+        "en": "Time to head home.",
+        "ko": "집에 갈 시간이다.",
+        "pt": "Hora de ir para casa.",
+        "ru": "Пора возвращаться домой.",
+        "tr": "Yola koyulma zamanı geldi.",
+        "zh": "是时候回家了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Resort_Shore",
+      "author_key": "Resort_Shore",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "An diesem Strand... fühle ich ein seltenes Gefühl von Frieden.$h#$e#Der Ozean ist etwas ganz Besonderes.",
+        "es": "Permaneciendo en esta playa... Noto una rara sensación de paz.$h#$e#El océano es algo muy especial.",
+        "fr": "En étant sur cette plage... Je ressens une rare sensation de paix.$h#$e#L’océan est une chose très spéciale.",
+        "hu": "Ezen a strandon álldogálva... ritka békés érzéssel tölt el.$h#$e#Az óceán egy nagyon különös dolog.",
+        "it": "Stare su questa spiaggia... mi fa sentire uno strano senso di pace.$h#$e#L'oceano è davvero una cosa unica.",
+        "ja": "この浜辺に立って...めずらしく安らぎを感じてる。$h#$e#海は特別なものなんだ。",
+        "en": "Standing on this beach... I feel a rare sense of peace.$h#$e#The ocean is a very special thing.",
+        "ko": "해변에 서있으면... 특히 마음이 편안해져.$h#$e#바다는 정말 특별한 장소야.",
+        "pt": "Estando nesta praia... eu sinto uma sensação rara de paz.$h#$e#O oceano é uma coisa muito especial.",
+        "ru": "Вот стою я на этом пляже... И на душе так спокойно, как никогда раньше.$h#$e#Да, океан — это поистине что-то особенное.",
+        "tr": "Bu kumsalda bulunduğumda... daha önce deneyimlemediğim bir huzur hissine kapılıyorum.$h#$e#Okyanus olağanüstü.",
+        "zh": "站在这片沙滩上……我感受到难得的平静。$h#$e#这片海相当特别。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Sat",
+      "author_key": "Sat",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Jodi sagt mir, dass du wirklich ein Teil dieser Gemeinde geworden bist. Ich bin froh, das zu hören.",
+        "es": "Jodi me ha dicho que ya formas parte de la comunidad. Me alegra saberlo.",
+        "fr": "Jodi me dit que tu t’es bien intégré à cette communauté. Je suis heureux de l’apprendre.",
+        "hu": "Jodi mondta, hogy valóban a közösség részévé váltál. Ezt örömmel hallom.",
+        "it": "Jodi mi dice che ormai sei una parte importante della comunità. Mi fa piacere sentirlo.",
+        "ja": "あんたが この町に 馴染めていると ジョディから 聞いたぞ。とても良いことだ。",
+        "en": "Jodi tells me you've really become a part of this community. I'm glad to hear it.",
+        "ko": "조디에게 듣기론 네가 정말 이 공동체의 중요한 일원이 되었다던데. 듣기 반가운 소식이야.",
+        "pt": "Jodi me disse que você se integrou bastante nesta comunidade. Fico feliz em saber.",
+        "ru": "Джоди мне сказала, что ты теперь часть нашего сообщества. Рад слышать.",
+        "tr": "Jodi bana buraya alıştığını ve buranın bir parçası olduğunu söyledi. Buna çok sevindim.",
+        "zh": "乔迪跟我说你已经完全融入到这个集体当中了。我很高兴。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Sat8",
+      "author_key": "Sat8",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe Schlafprobleme, also entschuldige bitte, wenn ich müde aussehe.#$e#Ich bin mir sicher, dass du das verstehst.",
+        "es": "Me cuesta dormir, así que disculpa mi aspecto cansado.#$e#Seguro que lo comprendes.",
+        "fr": "J’ai du mal à dormir, alors je te prie de bien vouloir m’excuser si j’ai l’air fatigué.#$e#Je suis sûr que tu comprends.",
+        "hu": "Manapság nem megy olyan jól az alvás, szóval elnézést, ha fáradtnak tűnnék.#$e#Biztos vagyok benne, hogy megérted.",
+        "it": "Faccio fatica a dormire, quindi scusami se ho l'aria stanca.#$e#Sono certo che mi capisci.",
+        "ja": "なかなか寝付けなくてな、 疲れているように 見えていたらすまない。#$e#あんたなら 分かってくれるだろう。",
+        "en": "I have trouble sleeping, so please excuse me if I seem tired.#$e#I'm sure you can understand.",
+        "ko": "내가 잠을 푹 자는 게 어려워서, 좀 지쳐 보이더라도 이해해줘.#$e#너라면 충분히 이해할 수 있을 거라 생각해.",
+        "pt": "Tenho dificuldades para dormir. Então me perdoe se pareço cansado.#$e#Tenho certeza que você entende.",
+        "ru": "Я плохо сплю, так что прости, если я выгляжу усталым.#$e#Уверен, ты можешь меня понять.",
+        "tr": "Yorgun görünüyorsam kusuruma bakma, geceleri uyuyamıyorum.#$e#Eminim beni anlıyorsundur.",
+        "zh": "我有失眠的毛病，所以如果我看起来很疲惫的话，请你不要介意。#$e#我知道你可以理解的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Sun",
+      "author_key": "Sun",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich weiß nicht, was ich mit mir anfangen soll, seit ich zurück bin.#$e#Ich bin an mehr Struktur in meinem Alltag gewöhnt.",
+        "es": "No sé qué hacer con mi vida ahora que he vuelto.#$e#Estoy acostumbrado a tener días más estructurados.",
+        "fr": "Je ne sais pas comment me rendre utile depuis mon retour.#$e#J’ai l’habitude d’avoir des journées extrêmement structurées.",
+        "hu": "Nem tudok mihez kezdeni magammal most, hogy hazatértem.#$e#Megszoktam, hogy egy napirendhez vagyok kötve.",
+        "it": "Non so cosa fare di me stesso ora che sono tornato.#$e#Sono abituato ad avere giornate più programmate.",
+        "ja": "うちに 戻ってきたのは いいが、 何を すべきか…#$e#今まで、 決められたことを する生活を 送ってたからな。",
+        "en": "I don't know what to do with myself now that I'm back.#$e#I'm used to having more structure in my day.",
+        "ko": "막상 돌아오고 나니까 뭘 해야 할지 잘 모르겠어.#$e#하루 일과가 좀 더 확실한 게 익숙했는데.",
+        "pt": "Não sei o que fazer agora que voltei.#$e#Estou acostumado com um dia mais regrado.",
+        "ru": "Вот я вернулся и не знаю теперь, куда себя деть.#$e#Я привык, чтобы день был организованным.",
+        "tr": "Geri döndüğümden beri ne yapacağımı bilemiyorum.#$e#Gün içinde düzenimin olmasına çok alıştım.",
+        "zh": "虽然我回来了，但是我却不知道自己该做些什么。#$e#我已经习惯了更有组织，有纪律的生活了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Sun4",
+      "author_key": "Sun4",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du hast eine Routine, die dich auf Trab hält, was? Das ist eine gute Sache.#$e#Zu viel Freiheit kann erdrückend sein. Wir alle profitieren davon, etwas Struktur in unser Leben zu bringen.",
+        "es": "Tienes una rutina para estar ocupado, ¿eh? Eso es bueno.#$e#Demasiada libertad puede ser agobiante. Todos nos beneficiamos de tener algo de estructura en nuestras vidas.",
+        "fr": "Tu as une routine qui t’occupe beaucoup, n’est-ce pas ? C’est très bien ça.#$e#Trop de liberté peut être étouffante. Nous avons tous besoin d’une certaine structure dans nos vies.",
+        "hu": "Neked van egy rutinod, amivel lefoglalhatod magadat, ugye? Az jó dolog.#$e#A túl sok szabadság fullasztó lehet. Mindenkinek hasznos, ha az életének van némi felépítése.",
+        "it": "Tu hai una routine da seguire ogni giorno, eh? È una buona cosa.#$e#Troppa libertà può essere soffocante. Avere una struttura di fondo nella vita fa bene a tutti.",
+        "ja": "あんたにはいそがしい日課があるんだろう？それはいいことだ。#$e#自由すぎると息苦しくなる。オレたちはみんな、人生に何らかの構造を築きながら前に進んでいるんだ。",
+        "en": "You've got a routine to keep you busy, huh? That's a good thing.#$e#Too much freedom can be stifling. We all benefit from having some structure in our lives.",
+        "ko": "바쁘게 지낼 일상이 있구나? 좋은 일이야.#$e#너무 시간이 많은 것도 숨 막힐 수 있어. 인생에 틀이 있는 것도 이점이 있지.",
+        "pt": "Você tem uma rotina para manter sua agenda cheia, certo? Isso é bom.#$e#Liberdade de mais pode ser sufocante. Nós nos beneficiamos por ter um pouco de estrutura nas nossas vidas.",
+        "ru": "У тебя есть чем себя занять, да? Это хорошо.#$e#Слишком много свободы может навалиться так, что не продохнешь. В нашей жизни главное — иметь четкий план.",
+        "tr": "Seni meşgul tutacak bir rutinin var, ha? Bu iyi bir şey.#$e#Fazla özgürlük boğucu olabilir. Hepimizin hayatında biraz yapılanma olması faydalıdır.",
+        "zh": "你有一套固定的劳作流程是吧？那挺好的。#$e#太自由了反而会很压抑，每天按部就班是有好处的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Thu",
+      "author_key": "Thu",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du bist mit meinem Sohn befreundet?#$e#Du kennst ihn vermutlich besser als ich...$s",
+        "es": "¿Te llevas bien con mi hijo?#$e#Seguramente lo conoces mejor que yo...$s",
+        "fr": "Tu es ami avec mon fils ?#$e#Tu le connais probablement mieux que moi...$s",
+        "hu": "Te a fiam barátja vagy?#$e#Te talán jobban ismered őt, mint én...$s",
+        "it": "Tu e mio figlio siete amici?#$e#Probabilmente lo conosci meglio di me...$s",
+        "ja": "息子とは 友達か？#$e#もしかしたら、 オレより多く あいつのことを 知っていそうだな…$s",
+        "en": "Are you friends with my son?#$e#You probably know him better than I do...$s",
+        "ko": "내 아들과 친해?#$e#아마 나보다 더 잘 알 거야...$s",
+        "pt": "Você tem amizade com o meu filho?#$e#Deve conhecê-lo melhor que eu...$s",
+        "ru": "Ты дружишь с моим сыном?#$e#Наверное, ты знаешь его лучше, чем я...$s",
+        "tr": "Oğlumla arkadaş mısınız?#$e#Onu benden daha iyi tanıyor olabilirsin...$s",
+        "zh": "你们是我儿子的朋友吗？#$e#你们大概比我还了解他……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Thu6",
+      "author_key": "Thu6",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "#$1 Kent1#Ich bin schon seit 4 Uhr wach... Manchmal frage ich mich, ob ich jemals wieder einen normalen Schlafrhythmus haben werde.$k#$e#Sam ist in meiner Abwesenheit wirklich groß geworden. Er ist jetzt erwachsen.#$e#Ich wünschte, ich hätte für ihn da sein können.$s",
+        "es": "#$1 Kent1#Llevo despierto desde las 04:00... A veces me pregunto si volveré a tener una rutina normal.$k#$e#Sam ha crecido mucho desde que me fui. Ahora es todo un hombre.#$e#Me hubiera gustado poder estar a su lado.$s",
+        "fr": "#$1 Kent1#Je suis debout depuis 4 heures du matin... Parfois, je me demande parfois si j’arriverai à reprendre une vie normale.$k#$e#Sam a beaucoup grandi depuis mon départ. C’est un homme maintenant.#$e#J’aurais aimé être là pour lui.$s",
+        "hu": "#$1 Kent1#Hajnal 4 óta ébren vagyok... néha azon tűnődöm, hogy vajon vissza fogok térni valaha a normális rutinhoz.$k#$e#Sam tényleg nagyot nőtt, mióta elmentem. Most már igazi férfi.#$e#Bárcsak itt lehettem volna neki.$s",
+        "it": "#$1 Kent1#Sono in piedi dalle 4... a volte mi chiedo se recupererò mai dei ritmi normali.$k#$e#Sam è cresciuto davvero tanto dalla mia partenza. Ormai è un uomo.#$e#Vorrei esserci stato per lui.$s",
+        "ja": "#$1 Kent1#朝4時に 目を覚ますんだが… 日常生活に 戻れるか 時々 不安に 思える時がある。$k#$e#見ない間に、 サムは ずいぶん 成長したな。今では立派な 男だ。#$e#あいつの そばに いてやれれば 良かったな。$s",
+        "en": "#$1 Kent1#I've been up since 4 o'clock... sometimes I wonder if I'll ever get back into a normal routine.$k#$e#Sam has really grown up since I left. He's a man now.#$e#I wish I could've been there for him.$s",
+        "ko": "#$1 Kent1#4시부터 깨어있었어... 가끔 내가 정상적인 생활이 다시 가능할까 싶어.$k#$e#내가 떠나있는 동안 샘이 정말 많이 컸어. 이젠 남자더라고.#$e#샘을 위해 내가 있어 주지 못했어.$s",
+        "pt": "#$1 Kent1#Estou acordado desde as 4 da manhã... às vezes me pergunto se voltarei a uma rotina normal.$k#$e#O Sam cresceu muito desde que parti. Ele já é um homem.#$e#Gostaria de tê-lo ajudado quando ele precisou.$s",
+        "ru": "#$1 Kent1#Я проснулся в 4 утра... Мне бывает интересно, смогу ли я вообще вернуться к обычному распорядку дня.$k#$e#Сэм так вырос в мое отсутствие. Он теперь мужчина.#$e#Хотел бы я быть с ним рядом все то время, что он рос.$s",
+        "tr": "#$1 Kent1#Gece 4'ten beri ayaktayım... Bazen rutin hayatıma dönecek miyim diye meraklanıyorum.$k#$e#Sam gittiğimden beri çok büyümüş. Kocaman adam oldu.#$e#Keşke yanında olabilseydim.$s",
+        "zh": "#$1 Kent1#我 4 点钟就起来了……有时候我会怀疑自己能不能回到正常的生活作息上来。$k#$e#在我离开之后，山姆真的长大了。他现在是个真正的男人了。#$e#我真希望能一直陪着他。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Thu_inlaw_Sam",
+      "author_key": "Thu_inlaw_Sam",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey, @. Genießt du dein Eheleben?",
+        "es": "Ey, @. ¿Disfrutando de tu matrimonio?",
+        "fr": "Salut, @. Tu apprécies ta vie de couple ?",
+        "hu": "Hé, @. Élvezed a házaséletet?",
+        "it": "Ehi, @. Ti stai godendo la vita coniugale?",
+        "ja": "よう、 @。結婚生活は 楽しめているか？",
+        "en": "Hey, @. Are you enjoying the married lifestyle?",
+        "ko": "이봐, @. 결혼 생활은 즐거워?",
+        "pt": "Ei, @. Está curtindo o casamento?",
+        "ru": "Привет, @. Тебе нравится брачная жизнь?",
+        "tr": "Hey, @. Evlilik hayatını sevdin mi?",
+        "zh": "嘿，@。结婚了开心吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Thu_inlaw_Sam' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Tue",
+      "author_key": "Tue",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Die Dinge haben sich nicht wirklich verändert, seit ich weg war.#$e#Außer der Tatsache, dass du hier bist.",
+        "es": "Las cosas no han cambiado mucho desde que me fui.#$e#Bueno, excepto que tú has venido.",
+        "fr": "À part ton arrivée au village...#$e#Les choses n’ont pas beaucoup changé depuis mon départ.",
+        "hu": "A dolgok nem változtak túl sokat, amíg távol voltam.#$e#Nos, kivéve azt, hogy te itt vagy.",
+        "it": "Le cose non sono cambiate molto da quando sono partito.#$e#Beh, a parte il fatto che ora ci sei tu.",
+        "ja": "オレが 出てから、 ここは たいして 変わっていないな。#$e#あんたが 来たこと 以外は。",
+        "en": "Things haven't changed much since I've been gone.#$e#Well, except that you're here.",
+        "ko": "내가 떠난 후로 별로 달라진 건 없구나.#$e#뭐, 네가 왔다는 사실 말고는.",
+        "pt": "As coisas não mudaram muito desde que parti.#$e#Bem, exceto que você está aqui.",
+        "ru": "Тут все не слишком изменилось с моего отъезда.#$e#Ну, разве что ты теперь здесь.",
+        "tr": "Ayrıldığımdan bu yana bir şey değişmemiş.#$e#Senin burada olman dışında.",
+        "zh": "我离开了之后，这里好像也没什么变化。#$e#好吧，只不过多了个你。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Tue2",
+      "author_key": "Tue2",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Die Dinge haben sich nicht wirklich verändert, seit ich weg war.#$e#Außer, dass wir einen neuen Bauern im Ort haben.$h",
+        "es": "Las cosas no han cambiado mucho desde que me fui.#$e#Bueno, excepto que la granja vuelve a estar habitada.$h",
+        "fr": "À part ton arrivée au village...#$e#Les choses n’ont pas beaucoup changé depuis mon départ.$h",
+        "hu": "A dolgok nem változtak túl sokat, amíg távol voltam.#$e#Kivéve azt, hogy egy új gazda van a városban.$h",
+        "it": "Le cose non sono cambiate molto da quando sono partito.#$e#Con l'eccezione che la vecchia fattoria è tornata in funzione.$h",
+        "ja": "オレが 出てから、 ここは たいして 変わっていないな。#$e#新しい 農場主が 来たこと 以外は。$h",
+        "en": "Things haven't changed much since I've been gone.#$e#Except that we have a new farmer in town.$h",
+        "ko": "내가 떠난 후로 별로 달라진 건 없구나.#$e#새로운 농부님이 오시긴 했지.$h",
+        "pt": "As coisas não mudaram muito desde que parti.#$e#Bem, exceto que agora temos alguém novo na cidade.$h",
+        "ru": "Тут все не слишком изменилось с моего отъезда.#$e#Разве что теперь в городе есть новый фермер.$h",
+        "tr": "Ayrıldığımdan bu yana bir şey değişmemiş.#$e#Kasabada yeni bir çiftçimiz olması dışında.$h",
+        "zh": "我离开了之后，这里好像也没什么变化。#$e#只不过镇子里多了一个新的农夫啦。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Tue6",
+      "author_key": "Tue6",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe das Gefühl, dass ich mich wieder ganz gut eingelebt habe. Es ist schön, einen Freund in der Stadt zu haben.$h",
+        "es": "Creo que me estoy reintegrando bastante bien. Es genial tener un amigo en el pueblo.$h",
+        "fr": "J’ai l’impression de m’adapter assez bien. C’est une bonne chose d’avoir une bonne connaissance en ville.$h",
+        "hu": "Úgy érzem, hogy egész jól visszarázódom. Jó, hogy van egy barát a városban.$h",
+        "it": "Sento che mi sto reinserendo abbastanza bene. È bello avere una persona amica in paese.$h",
+        "ja": "ずいぶん落ち着きを取り戻したと思っている。町に友人がいることはいいことだ。$h",
+        "en": "I feel like I'm settling back in pretty well. It's nice to have a friend in town.$h",
+        "ko": "슬슬 적응하고 있는 기분이야. 동네에 친구가 있으니 좋네.$h",
+        "pt": "Eu sinto que estou me acomodando bem. É bacana ter amigos na vila.$h",
+        "ru": "Мне кажется, я довольно неплохо обживаюсь. Друг в городе очень помогает.$h",
+        "tr": "Kendimi iyice yerleşmiş hissediyorum. Kasabada bir arkadaşım olması güzel.$h",
+        "zh": "我觉得我适应得挺好的，有朋友在镇上我很开心。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Wed",
+      "author_key": "Wed",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du bist schon eine ganze Weile hier, nicht? Dein Hof läuft wohl gut.",
+        "es": "Ya llevas aquí un tiempo, ¿no? Tu granja debe de estar prosperando.",
+        "fr": "Tu es ici depuis un moment maintenant, n’est-ce pas ? Ta ferme doit bien prospérer.",
+        "hu": "Egy ideje már itt vagy, ugye? A farmod biztosan jól fejlődik.",
+        "it": "Sei qui da un po' ormai, vero? La tua fattoria andrà a pieno regime.",
+        "ja": "あんたが ここに きて 結構な 時間が たったか？牧場は かなり 賑わってるだろうな。",
+        "en": "You've been here a while now, haven't you? Your farm must be thriving.",
+        "ko": "여기 온 지도 꽤 되었구나, 그치? 농장이 아주 번성하고 있겠어.",
+        "pt": "Você já está aqui a um tempo, não é? Sua fazenda deve estar prosperando.",
+        "ru": "Ты здесь уже давно, да? Твоя ферма, должно быть, процветает.",
+        "tr": "Bir süredir buralardasın, değil mi? Çiftliğin oldukça gelişiyor olmalı.",
+        "zh": "你已经在这儿呆了一段时间了，不是吗？你的农场现在一定是蒸蒸日上。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Wed10",
+      "author_key": "Wed10",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Am Leben zu sein ist ein besonderes Geschenk, und es kommt und geht in einem Augenblick... verliere das nie aus den Augen.",
+        "es": "Estar vivo es un regalo único, viene y se va en un abrir y cerrar de ojos... nunca lo olvides.",
+        "fr": "Être en vie est un cadeau très spécial, qui va et vient en un clin d’œil... n’oublie jamais ça.",
+        "hu": "Az, hogy életben vagyunk egy egészen különleges ajándék, ami szempillantás alatt jön-megy... ezt soha ne téveszd szem elől.",
+        "it": "Essere vivi è un regalo speciale, che arriva e se ne va in un batter d'occhio... Non dimenticarlo mai.",
+        "ja": "生きるということは特別な贈り物だ。だがそれは、またたく間に過ぎ去っていく… それを忘れてはいけない。",
+        "en": "To be alive is a special gift, and it comes and goes in the blink of an eye... never lose sight of that.",
+        "ko": "살아있다는 건 아주 특별한 선물이야, 눈 깜빡하는 사이에 지나가는 거니까... 이 사실을 절대로 잊지 마.",
+        "pt": "A vida é um presente especial, ela vem e vai num piscar de olhos... nunca se esqueça disso.",
+        "ru": "Жизнь — особый дар, и она может закончиться в мгновение ока... так что смотри, не проморгай.",
+        "tr": "Yaşam, özel bir hediye ve bir göz açıp kapayıncaya kadar gelip geçiyor... Bunu asla unutma.",
+        "zh": "生命本身就是特别的礼物，它说来就来，说走就走……永远不要忘记这一点。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:Wed6",
+      "author_key": "Wed6",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "... Ich habe viele Freunde im Kampf verloren.$s#$e#Das Traurige ist, dass ich mich nicht mal an ihre Gesichter erinnern kann.#$e#...",
+        "es": "... He perdido a muchos amigos en el frente.$s#$e#Lo triste es que ya ni siquiera recuerdo sus caras.#$e#...",
+        "fr": "... J’ai perdu beaucoup d’amis au combat.$s#$e#Le plus triste, c’est que je n’arrive même plus à me souvenir de leurs visages.#$e#...",
+        "hu": "...Rengeteg barátomat vesztettem el harc közben.$s#$e#A legszomorúbb az, hogy nem emlékszek az arcukra.#$e#...",
+        "it": "...Ho perduto molti amici in battaglia.$s#$e#La cosa triste è che non mi ricordo nemmeno i loro volti.#$e#...",
+        "ja": "…戦地で 多くの 友を 失った。$s#$e#あいつらの 顔を 思い出せないから 尚更 辛いもんだ。#$e#…",
+        "en": "...I lost a lot of friends in battle.$s#$e#What's sad is that I can't even remember their faces.#$e#...",
+        "ko": "...전장에서 많은 친구를 잃었어.$s#$e#제일 슬픈 건 얼굴도 잘 기억이 안 난다는 거야.#$e#...",
+        "pt": "Perdi muitos amigos em batalha.$s#$e#O que é triste é que nem consigo lembrar de seus rostos.#$e#...",
+        "ru": "... Я потерял многих друзей на поле боя.$s#$e#Что самое грустное — я даже не помню их лиц.#$e#...",
+        "tr": "...Tüm arkadaşlarımı cephede kaybettim.$s#$e#Üzücü olan ise onların yüzlerini bile hatırlayamamam.#$e#...",
+        "zh": "……我在战争中失去了好多朋友。$s#$e#最可悲的是我居然连他们的面孔都想不起来了。#$e#……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:accept_864",
+      "author_key": "accept_864",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "...!$4#$b#...Wo hast du das gefunden?$4#$b#...$5#$b#Dieser Mann... Wir waren gemeinsam im Krieg, @. Er war wie ein Bruder. #$b#Aber... nur einer von uns schaffte es zurück.$5#$b#Er verlor jedoch nie den Mut. Selbst im Angesicht des Todes. Ein wahrer Held... Ich werde ihn nie vergessen.#$b#Danke, dass Du mir das gebracht hast... Es bedeutet mir sehr viel.#$b#Hier, nimm das. Es steht seit Jahren hinten in unserem Schrank, und wir haben es nie benutzt.",
+        "es": "...!$4#$b#...¿Dónde has encontrado esto?$4#$b#...$5#$b#Este hombre... Combatimos juntos en la guerra, @. Era como un hermano para mí. #$b#Pero... solo uno de los dos regresó.$5#$b#Sin embargo él nunca perdió su coraje. Incluso cuando estuvo cara a cara con la muerte. Un verdadero héroe... Nunca le olvidaré.#$b#Gracias por traérmelo... Significa mucho para mí.#$b#Toma, llévate esto. Ha estado cogiendo polvo en la alacena durante años, y nunca lo hemos utilizado.",
+        "fr": "...!$4#$b#... Où as-tu trouvé ça ?$4#$b#...$5#$b#Cet homme... Nous avons combattu ensemble pendant la guerre, @. Il était comme un frère pour moi.#$b#Mais... un seul d’entre nous est revenu.$5#$b#Cependant, il n’a jamais perdu son courage. Même face à la mort. Il était un vrai héros... Je ne l’oublierai jamais.#$b#Merci de m’avoir rapporté ça... ça compte beaucoup pour moi.#$b#Tiens, c’est pour toi. C’était au fond de notre armoire depuis des années et nous ne l’avons jamais utilisé.",
+        "hu": "...!$4#$b#...Ezt mégis hol találtad?$4#$b#...$5#$b#Ez a férfi... Együtt harcoltunk a háborúban, @. Mintha csak a testvérem lett volna. #$b#De... csak az egyikünk jutott vissza.$5#$b#Soha nem vesztette el a bátorságát. Még a halál torkában sem. Egy igazi hős... sose fogom elfelejteni őt.#$b#Köszönöm, hogy ezt elhoztad nekem... Sokat jelent számomra.#$b#Tessék, ez a tiéd. Évek óta az egyik fiókunk legmélyén őriztük, de sose használtuk.",
+        "it": "...!$4#$b#...Dove l'hai trovata, questa?$4#$b#...$5#$b#Quest'uomo... Abbiamo combattuto insieme durante la guerra, @. Era come un fratello per me. #$b#Ma... solo uno di noi due è tornato.$5#$b#Non ha mai perso il suo coraggio, però. Nemmeno di fronte alla morte. Un vero eroe... Non lo dimenticherò mai.#$b#Grazie per avermela portata... Significa molto per me.#$b#Ecco, prendi questo. Sono anni che lo teniamo in fondo alla credenza, e non l'abbiamo mai usato.",
+        "ja": "…！$4#$b#…どこで見つけたんだい？$4#$b#…$5#$b#コイツは…オレ達はあの戦争で一緒に戦ったんだ、@。オレにとって、アイツは兄弟みたいなものだったよ。#$b#でも…帰ってきたのはオレだけだった。$5#$b#アイツは勇気を失わなかったよ。たとえ死に直面しても。本当の英雄さ…オレはアイツの事を決して忘れない。#$b#これを持ってきてくれてありがとう…オレにとっては大きな意味を持つものなんだ。#$b#これを持って行ってくれ。食器棚の奥に何年も前からあったんだが、誰も使ったことがないんだ。",
+        "en": "...!$4#$b#...Where did you find this?$4#$b#...$5#$b#This man... We fought together in the war, @. He was like a brother to me. #$b#But... only one of us made it back.$5#$b#He never lost his courage, though. Even in the face of death. A true hero... I'll never forget him.#$b#Thanks for bringing me this... It means a lot to me.#$b#Here, take this. It's been sitting in the back of our cupboard for years, and we've never used it.",
+        "ko": "...!$4#$b#...이건 어디서 찾은 거야?$4#$b#...$5#$b#이 사람... 우린 전우였어, @. 내게 형제 같은 사람이었지. #$b#하지만... 우리 둘 중 하나만 돌아왔지.$5#$b#그의 용기는 결코 흔들리는 일이 없었어. 죽음을 마주한 상태에서도. 진정한 영웅이야... 평생 그를 잊지 못할 거야.#$b#이걸 가져다줘서 고마워... 의미가 커.#$b#여기, 이거 받아. 우리 찬장에 몇 년째 먼지만 쌓이고 있었어.",
+        "pt": "...!$4#$b#...Onde você encontrou isso?$4#$b#...$5#$b#Este homem... Nós lutamos juntos na guerra, @. Ele era como um irmão para mim. #$b#Porém... só um de nós voltou.$5#$b#Ele nunca perdeu a coragem. Até diante da morte. Um verdadeiro herói... nunca vou esquecer dele.#$b#Obrigado por me trazer isto... significa muito para mim.#$b#Aqui, tome isto. Esteve no fundo do nosso armário por anos, e nunca chegamos a usar.",
+        "ru": "...!$4#$b#...Откуда это у тебя?$4#$b#...$5#$b#Этот человек... Мы вместе войну прошли, @. Он был мне как брат. #$b#Но... только мне удалось вернуться.$5#$b#Но он не сдавался до последнего. Даже глядя смерти в глаза. Настоящий герой... Я его никогда не забуду.#$b#Спасибо за эту вещь... Она очень много для меня значит.#$b#Вот, возьми. Эта штука лежала в нашем кухонном шкафу много лет: так никому и не пригодилась.",
+        "tr": "...!$4#$b#...Bunun nereden buldun?$4#$b#...$5#$b#Bu adamla... Biz birlikte savaşmıştık be @. Kardeşim gibiydi. #$b#Ama... sadece birimiz eve dönebildi.$5#$b#Ölümle yüz yüze geldiğinde dahi cesaretini hiç yitirmedi. Gerçek bir kahramandı... Onu asla unutmayacağım.#$b#Bunu bana getirdiğin için teşekkür ederim... Benim için anlamı çok büyük.#$b#Bunu almanı istiyorum. Yıllardır dolap rafında duruyor. Hiç kullanma fırsatımız olmadı.",
+        "zh": "……！$4#$b#……你是在哪找到这个的？$4#$b#……$5#$b#……这个人……我们曾在战争中并肩作战，@。对我来说，他就像是兄弟一样。#$b#可是……只有我活着回来了。$5#$b#尽管如此，他从未丧失过勇气，即便面临死亡也是如此。他是真正的英雄……我永远不会忘记他。#$b#谢谢你把这个带给我……这对我来说很重要。#$b#来，拿着这个。这东西放在我家橱柜深处已经很多年了，我们从来没用过。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:eventSeen_100_memory_oneday",
+      "author_key": "eventSeen_100_memory_oneday",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich entschuldige mich für neulich.#$e#Ich will keine Sonderbehandlung. Ich möchte einfach ein normaler Mensch sein, wie jeder andere auch.",
+        "es": "Mis disculpas por lo del otro día.#$e#No quiero ningún trato especial. Solo quiero ser una persona normal,como todo el mundo.",
+        "fr": "Toutes mes excuses pour l’autre jour.#$e#Je ne veux pas de traitement de faveur. Je veux juste être une personne normale, comme tout le monde.",
+        "hu": "Elnézést kérek a tegnapi miatt.#$e#Nincs szükségem különleges bánásmódra. Csak normális ember szeretnék lenni, mint bárki más.",
+        "it": "Ti chiedo scusa per l'altro giorno.#$e#Non voglio trattamenti di favore. Voglio solo essere una persona normale, come tutti gli altri.",
+        "ja": "この間はすまなかった。#$e#オレは特別扱いを望んでいない。他のみんなと同じように普通の人間になりたいだけなんだ。",
+        "en": "My apologies for the other day.#$e#I don't want any special treatment. I just want to be a normal person, like everyone else.",
+        "ko": "저번 일은 사과할게.#$e#특별한 대우를 원하진 않아. 그냥 평범한 사람이고 싶어, 다른 사람들과 마찬가지로.",
+        "pt": "Peço perdão pelo outro dia.#$e#Eu não quero um tratamento especial. Eu só quero ser tratado como uma pessoal normal, como todo mundo.",
+        "ru": "Извини за тот раз.#$e#Я не желаю к себе особого отношения. Просто хочу быть как все.",
+        "tr": "Geçen gün için üzgünüm.#$e#Herhangi özel bir ilgi istemiyorum. Sadece sıradan biri olmak istiyorum, diğer herkes gibi.",
+        "zh": "那天的事情非常抱歉。#$e#我不想被特殊对待，我只是想当一个普通人，跟大家一样。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'eventSeen_100_memory_oneday' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:event_popcorn1",
+      "author_key": "event_popcorn1",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du bleibst ruhig! Hör auf, mich gegen meine Frau auszuspielen.$u",
+        "es": "¡Tú cierra el pico! Deja de ponerme en contra de mi mujer.$u",
+        "fr": "Tais-toi ! Arrête d’essayer de me monter contre ma femme.$u",
+        "hu": "Te maradj csöndben! Ne akarj a feleségem ellen fordítani engem.$u",
+        "it": "Taci! Smettila di provare a farmi litigare con mia moglie.$u",
+        "ja": "黙ってろ！そうやって、 妻に オレを 責めさせるな。$u",
+        "en": "You keep quiet! Stop trying to turn me against my wife.$u",
+        "ko": "넌 조용히 해! 나랑 내 아내 사이를 갈라놓으려 하지 마.$u",
+        "pt": "Cale-se! Pare de me jogar contra a minha esposa.$u",
+        "ru": "Молчать! Не пытайся стравить меня с женой.$u",
+        "tr": "Kapa çeneni, beni karıma karşı doldurmayı bırak.$u",
+        "zh": "别再说了！不要让我们夫妻俩发生矛盾了。$u"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'event_popcorn1' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:event_popcorn2",
+      "author_key": "event_popcorn2",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "...$s#$b#Du hast absolut Recht, @.$s",
+        "es": "...$s#$b#Tienes toda la razón, @.$s",
+        "fr": "...$s#$b#Tu as absolument raison, @.$s",
+        "hu": "...$s#$b#Teljesen igazad van, @.$s",
+        "it": "...$s#$b#Hai assolutamente ragione, @.$s",
+        "ja": "…$s#$b#まったく あんたの 言うとおりだな、@。$s",
+        "en": "...$s#$b#You're absolutely right, @.$s",
+        "ko": "...$s#$b#네 말이 맞아, @.$s",
+        "pt": "...$s#$b#Você está absolutamente ${certo^certa}$, @.$s",
+        "ru": "...$s#$b#Твоя правда, @.$s",
+        "tr": "...$s#$b#Çok haklısın, @.$s",
+        "zh": "……$s#$b#你说的完全正确，@。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:event_popcorn3",
+      "author_key": "event_popcorn3",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Lüg mich nicht an! Ich hasse Lügen mehr als alles andere!$u",
+        "es": "¡No me mientas! ¡Odio las mentiras más que nada en el mundo!$u",
+        "fr": "Ne me mens pas ! Je déteste les mensonges plus que tout !$u",
+        "hu": "Ne hazudj nekem! A hazugságokat mindennél jobban utálom!$u",
+        "it": "Non mentirmi! Le menzogne sono la cosa che odio di più!$u",
+        "ja": "ウソをつくな！オレは 何よりも ウソが 嫌いだ！$u",
+        "en": "Don't lie to me! I hate lies more than anything!$u",
+        "ko": "나한테 거짓말하지 마! 거짓말만큼 내가 싫어하는 게 없어!$u",
+        "pt": "Não minta para mim! O que mais detesto são mentiras!$u",
+        "ru": "Не ври мне! Больше всего я ненавижу ложь!$u",
+        "tr": "Bana yalan söyleme, en nefret ettiğim yalandır!$u",
+        "zh": "别在我面前撒谎！我最讨厌的就是撒谎！$u"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'event_popcorn3' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:married_Sam",
+      "author_key": "married_Sam",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Es macht einen Vater stolz, wenn er sieht, wie aus seinem Jungen ein Mann wird. Ihr habt meinen herzlichen Segen.$h",
+        "es": "Ver a su muchacho convertirse en hombre hace a un padre sentirse orgulloso. Tienes mi sincera bendición.$h",
+        "fr": "Un père est fier de voir son fils devenir un homme. Tu as ma bénédiction la plus sincère.$h",
+        "hu": "Egy apát büszkévé teszi, ha azt látja, hogy a fiából férfi lett. Szívből jövő áldásomat adom rátok!$h",
+        "it": "Un padre è orgoglioso quando suo figlio diventa un uomo. Avete la mia più sincera benedizione.$h",
+        "ja": "息子が一人前になるのを見るのは父親の誇りだ。心から祝福するよ。$h",
+        "en": "It makes a father proud to see his boy become a man. You have my heartfelt blessing.$h",
+        "ko": "아들이 소년에서 남자로 자라는걸 볼 수 있어서 자랑스럽다. 진심으로 축복한단다.$h",
+        "pt": "É o orgulho de todo pai ver o seu menino se tornar um homem. Você tem a minha bênção.$h",
+        "ru": "Это гордость для отца — видеть, как его сын становится мужчиной. Благословляю тебя от всей души.$h",
+        "tr": "Küçük oğlunun artık koca adam olduğunu görmek, bir babayı gururlandırır. En içten dileklerim sizinle.$h",
+        "zh": "能看到儿子成长为一个男人，作为父亲我很自豪。希望你们以后能越过越好。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'married_Sam' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Kent:reject_865",
+      "author_key": "reject_865",
+      "character": "Kent",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ja... Es wurde fest verschlossen, also sollte der Geschmack immer noch sehr stark sein.",
+        "es": "Síp... Ha sido fuertemente sellado, por lo que el sabor debería ser aún muy potente.",
+        "fr": "En effet... Ça a été hermétiquement scellé, donc la saveur devrait toujours être très forte.",
+        "hu": "Igen... Alaposan le van zárva, így még erős lehet az íze.",
+        "it": "Sì... È stato saldamente sigillato, il sapore dovrebbe essere ancora molto forte.",
+        "ja": "ああ…密閉されているから、味はしっかりしているはずだ。",
+        "en": "Yep... It's been tightly sealed, so the flavor should still be really potent.",
+        "ko": "그래... 단단히 닫혀있네, 아직 향이 그대로 남아있을 거야.",
+        "pt": "É... foi fortemente selado, então o sabor ainda deve ser bem forte.",
+        "ru": "Да... Закрыто было крепко, так что вкус должен быть до сих пор очень яркий.",
+        "tr": "Evet... Sıkı kapatılmış. Bu yüzden tadını koruyor olmalı..",
+        "zh": "嗯……封得很紧，这样一来味道应该还是很足的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Kent.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Kent.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Kent.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Kent.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Kent.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Kent.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Kent.json",
+          "ko": "data\\game_scripts\\Dialogue\\Kent.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Kent.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Kent.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Kent.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Kent.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'reject_865' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    }
+  ]
+}

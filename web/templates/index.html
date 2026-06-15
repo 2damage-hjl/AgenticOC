@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NPC Persona Compiler</title>
+</head>
+<body>
+
+<h2>NPC Persona Compiler</h2>
+
+API Key: <input id="api_key"><br>
+Model: <input id="model" value="gpt-4o-mini"><br>
+Mods Path: <input id="mod_path"><br><br>
+
+NPC Name: <input id="npc_name"><br><br>
+
+<h3>Description</h3>
+<textarea id="description" rows="4" cols="60"></textarea>
+
+<h3>Relations</h3>
+<textarea id="relations" rows="3" cols="60"></textarea>
+
+<h3>Dialogue</h3>
+<textarea id="dialogue" rows="6" cols="60"></textarea>
+
+<br><br>
+<button onclick="generate()">Generate</button>
+
+<h3>Result</h3>
+<div id="result"></div>
+
+<br>
+<button onclick="exportData()">Export .py</button>
+
+<script>
+let personaData = null;
+
+function generate() {
+    fetch("/generate", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({
+            api_key: document.getElementById("api_key").value,
+            model: document.getElementById("model").value,
+            mod_path: document.getElementById("mod_path").value,
+            description: document.getElementById("description").value,
+            relations: document.getElementById("relations").value,
+            dialogue: document.getElementById("dialogue").value
+        })
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.success) {
+            personaData = data.data;
+            render();
+        } else {
+            alert("Error: " + data.error);
+        }
+    });
+}
+
+function render() {
+    let html = "";
+
+    ["traits", "facts", "style_samples"].forEach(type => {
+        html += `<h4>${type}</h4>`;
+        personaData[type].forEach((item, i) => {
+            html += `
+                <div>
+                    <input value="${item.content}" 
+                        onchange="update('${type}', ${i}, this.value)">
+                    <input type="number" step="0.01" value="${item.importance}"
+                        onchange="updateImportance('${type}', ${i}, this.value)">
+                    <button onclick="removeItem('${type}', ${i})">Delete</button>
+                </div>
+            `;
+        });
+    });
+
+    document.getElementById("result").innerHTML = html;
+}
+
+function update(type, index, value) {
+    personaData[type][index].content = value;
+}
+
+function updateImportance(type, index, value) {
+    personaData[type][index].importance = parseFloat(value);
+}
+
+function removeItem(type, index) {
+    personaData[type].splice(index, 1);
+    render();
+}
+
+function exportData() {
+    fetch("/export", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({
+            npc_name: document.getElementById("npc_name").value,
+            mod_path: document.getElementById("mod_path").value,
+            persona: personaData
+        })
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.success) {
+            alert("Saved to: " + data.path);
+        } else {
+            alert("Error: " + data.error);
+        }
+    });
+}
+</script>
+
+</body>
+</html>

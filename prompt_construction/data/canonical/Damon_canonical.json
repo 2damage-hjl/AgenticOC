@@ -1,0 +1,3391 @@
+{
+  "dataset_meta": {
+    "schema": "canonical_dialogue_v2",
+    "source_root": "data/game_scripts",
+    "collection": "Dialogue",
+    "character": "Damon",
+    "record_count": 78,
+    "dialogue_type_counts": {
+      "general_dialogue": 78
+    }
+  },
+  "records": [
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:AcceptBirthdayGift_Negative",
+      "author_key": "AcceptBirthdayGift_Negative",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "谢谢你记得我的生日。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "gift_response",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:AcceptBirthdayGift_Positive",
+      "author_key": "AcceptBirthdayGift_Positive",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "不知道我的表情看起来如何，但我真的很高兴，谢谢你。$h"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "gift_response",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:ArchaeologyHouse",
+      "author_key": "ArchaeologyHouse",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "%戴蒙在专心地看书，没有理你"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "location_dialogue",
+        "variant_index": null,
+        "parse_warnings": [],
+        "scene": "ArchaeologyHouse"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:ArchaeologyHouse10",
+      "author_key": "ArchaeologyHouse10",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "你来啦，要不要和我一起看看书。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "location_dialogue",
+        "variant_index": null,
+        "parse_warnings": [],
+        "scene": "ArchaeologyHouse"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:ArchaeologyHouse6",
+      "author_key": "ArchaeologyHouse6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "在这里要尽量保持安静，等会我们出去说。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "location_dialogue",
+        "variant_index": null,
+        "parse_warnings": [],
+        "scene": "ArchaeologyHouse"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Beach8",
+      "author_key": "Beach8",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "怎么样的设计才能配得上鹈鹕镇海滩变换多姿的四季呢。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "location_dialogue",
+        "variant_index": null,
+        "parse_warnings": [],
+        "scene": "Beach"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:DumpsterDiveComment",
+      "author_key": "DumpsterDiveComment",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "呃...?"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "reaction_event",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Fair_Judged_PlayerLost",
+      "author_key": "Fair_Judged_PlayerLost",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "别灰心，镇长的评分多少有些主观。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "festival_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "event.fair"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Fair_Judged_PlayerLost_Skipped",
+      "author_key": "Fair_Judged_PlayerLost_Skipped",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "有点可惜没看到你的展品，我很期待来着。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "festival_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "event.fair"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Fair_Judged_PlayerWon",
+      "author_key": "Fair_Judged_PlayerWon",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "你的展品真是太精彩了。或许我该和刘易斯商量一下让你也加入海边宾馆的建设规划。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "festival_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "event.fair"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Fair_Judging",
+      "author_key": "Fair_Judging",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "我很期待大家的展出，都是鹈鹕镇的精华，或许能带给我一些灵感。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "festival_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "event.fair"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Fri",
+      "author_key": "Fri",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "嗯...？"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Fri10",
+      "author_key": "Fri10",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "嘿，今天计划去做什么，农场主？"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Fri2",
+      "author_key": "Fri2",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "有点想Mika。哦，Mika是我的猫。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Fri4",
+      "author_key": "Fri4",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "你好啊，@。本来想奉上金句，但我还没想出来。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Fri6",
+      "author_key": "Fri6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "@，你有没有什么怪癖呢。我焦虑的时候会不自觉抠手指。#$b#在别人面前承认这个真是不好意思啊。$4"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Fri8",
+      "author_key": "Fri8",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "别急着跑，@。我昨天做了最爱吃的炒鳗鱼。给你也尝一点。[225]"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:GreenRain",
+      "author_key": "GreenRain",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "这个天气是什么情况，外面好像长了不少没见过的作物。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "weather_green_rain",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:GreenRain_2",
+      "author_key": "GreenRain_2",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "你没去格斯那避避吗？"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "weather_green_rain",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:HitBySlingshot",
+      "author_key": "HitBySlingshot",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "我想你不是三岁小孩吧？$5"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "reaction_event",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Introduction",
+      "author_key": "Introduction",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "你好，我是来自祖祖城的设计师戴蒙，受刘镇长之邀对小镇做进一步的建设。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "introduction",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:ManorHouse",
+      "author_key": "ManorHouse",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "%戴蒙正在处理工作，没有理你"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "location_dialogue",
+        "variant_index": null,
+        "parse_warnings": [],
+        "scene": "ManorHouse"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:ManorHouse4",
+      "author_key": "ManorHouse4",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "你是来找镇长的吗，有什么事也可以找我传达。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "location_dialogue",
+        "variant_index": null,
+        "parse_warnings": [],
+        "scene": "ManorHouse"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:ManorHouse6",
+      "author_key": "ManorHouse6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "哦，差点没注意到你，我正在整理文件呢。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "location_dialogue",
+        "variant_index": null,
+        "parse_warnings": [],
+        "scene": "ManorHouse"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Mon",
+      "author_key": "Mon",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "%戴蒙似乎在打瞌睡，没有理你。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Mon10",
+      "author_key": "Mon10",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "鹈鹕镇真是好地方，将来我也许会舍不得离开这里。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Mon2",
+      "author_key": "Mon2",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "@...我叫对了吗，前两天从皮埃尔那知道了你的名字。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Mon4",
+      "author_key": "Mon4",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "咖啡和茶真是好东西。不一定提神，但至少也算名正言顺奖励辛苦上班的自己一杯饮料。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Mon6",
+      "author_key": "Mon6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "你好啊，@。今天我多带了一杯咖啡。[253]"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Mon8",
+      "author_key": "Mon8",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "*好像透露出一些苦涩*遵从内心应该是一件幸福的事情吧。$h"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:RejectBouquet_NotDatable",
+      "author_key": "RejectBouquet_NotDatable",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "我想你知道的，等这里的工作结束了我就会离开。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "not_datable",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "gift_response",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Saloon",
+      "author_key": "Saloon",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "%戴蒙正在吃饭"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "location_dialogue",
+        "variant_index": null,
+        "parse_warnings": [],
+        "scene": "Saloon"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Saloon6",
+      "author_key": "Saloon6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "坐下来吃点吗，格斯这的食物真的很不错。或许我该带爸爸来尝尝。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "location_dialogue",
+        "variant_index": null,
+        "parse_warnings": [],
+        "scene": "Saloon"
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sat",
+      "author_key": "Sat",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "对于海上宾馆的设计我已经有初步的想法了。#$b#哦...星露谷的游客和外宾不少，我和镇长商议要在海上建一个宾馆。景观美丽且尽量少打扰居民的生活。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sat10",
+      "author_key": "Sat10",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "已经习惯了早睡早起的生活，感觉身体都变健康了，要不去找哈维评估一下。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sat2",
+      "author_key": "Sat2",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "明天终于放假了。$h#$b#嗯...别误会我，我觉得这里很好，但我还是比较想睡个懒觉然后无所事事一天。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sat4",
+      "author_key": "Sat4",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "@，你有对自己的生活感觉到迷茫吗？"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sat6",
+      "author_key": "Sat6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "你有养宠物吗，它们有时候真的很抚慰心灵。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sat8",
+      "author_key": "Sat8",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "在鹈鹕镇的这段时间你开心吗，反正我觉得很快乐。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sun",
+      "author_key": "Sun",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "今天我就来随便逛逛。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sun10",
+      "author_key": "Sun10",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "我和你说过吗，其实我的妈妈是物理老师，在学业上她帮助了我很多。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sun2",
+      "author_key": "Sun2",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "你周日也要工作么？"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sun4",
+      "author_key": "Sun4",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "待在家里觉得无聊，出来又想回去，人怎么这么矛盾。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sun6",
+      "author_key": "Sun6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "其实我不是真心想成为一名建筑师的，也是误打误撞吧。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Sun8",
+      "author_key": "Sun8",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "一周工作七天的看来不止镇长一人。$u"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Thu",
+      "author_key": "Thu",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "有什么事吗？"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Thu10",
+      "author_key": "Thu10",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "我有时候在想，大学学建筑是不是就是为了来这里，为了遇到一些珍贵的人呢。#$b#突然说这个有点奇怪，你不必在意。$h"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Thu2",
+      "author_key": "Thu2",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "雨天的时候我会稍微改变一下行程，减少在户外的时间。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Thu4",
+      "author_key": "Thu4",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "通勤时长实在让人难以忍耐，大部分时候我都借助在附近的朋友家。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Thu6",
+      "author_key": "Thu6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "你看我在哈维那弄到了什么？你肯定用的上。[351]"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Thu8",
+      "author_key": "Thu8",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "@，你是怎么找到自己想要的生活呢？"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Tue",
+      "author_key": "Tue",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "不好意思，挡着你路了吗？"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Tue10",
+      "author_key": "Tue10",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "如果你之后会再去祖祖城，记得告诉我，我会来找你。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Tue2",
+      "author_key": "Tue2",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "虽然到这就意味着工作，我也不得不承认这里很美。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Tue4",
+      "author_key": "Tue4",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "有时候我觉得这里是个很奇幻的地方。#$b#有次夜里我好像遇见外星人了...#$b#可能是压力大导致的幻觉吧。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Tue6",
+      "author_key": "Tue6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "真是活力满满啊，@。有没有考虑去参加马拉松呢，我可以帮你报名。$u"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Tue8",
+      "author_key": "Tue8",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "不知道Mika一个人在家会不会无聊，我已经想回去了。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Wed",
+      "author_key": "Wed",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "哦...你好。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Wed10",
+      "author_key": "Wed10",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "我想Mika可能会喜欢你。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Wed2",
+      "author_key": "Wed2",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "刘镇长说你有很厉害的农场，也许以后有机会可以合作。我可能会需要从你那进货一些原材料。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Wed4",
+      "author_key": "Wed4",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "@，希望我们见面时你多说说话，你太惜字如金了。$u"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Wed6",
+      "author_key": "Wed6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "@，可以不用跑那么急，你已经是这里的步数第一了。$u"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:Wed8",
+      "author_key": "Wed8",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "又在辛勤地工作吗，@？吃点零食补充能量吧。[223]"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:WinterStar_GiveGift_After",
+      "author_key": "WinterStar_GiveGift_After",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "嗯...不知道你喜不喜欢。$4"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "festival_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "event.winter_star"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:WinterStar_GiveGift_Before",
+      "author_key": "WinterStar_GiveGift_Before",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "没想到我也可以来参加冬日星盛宴。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "festival_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "event.winter_star"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:WinterStar_ReceiveGift",
+      "author_key": "WinterStar_ReceiveGift",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "很高兴收到你的礼物。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "festival_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "event.winter_star"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:WipedMemory",
+      "author_key": "WipedMemory",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "奇怪，小镇里还有我不认识的人吗，你是新来的？"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "special_event",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:danceRejection",
+      "author_key": "danceRejection",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "谢谢你邀请我，不过我穿成这样大概不适合跳舞。你去找别人吧，真不好意思。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "festival_rejection",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:fall_3",
+      "author_key": "fall_3",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "请你收下。[732]"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "3"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "date_specific_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:fall_Mon6",
+      "author_key": "fall_Mon6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "秋天怎么能不吃这个呢[235]$h"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:spring_26",
+      "author_key": "spring_26",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "天气好像已经热起来了。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "spring"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "26"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "date_specific_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:spring_5",
+      "author_key": "spring_5",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "意外发现了这个？也许是什么的种子，你兴许知道。[485]"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "spring"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "5"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "date_specific_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:spring_Thu6",
+      "author_key": "spring_Thu6",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "下矿时要保护好自己。[772][773]"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "spring"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:summer_27",
+      "author_key": "summer_27",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "夏天终于要结束了，我还是更喜欢凉爽的季节。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "27"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "date_specific_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:summer_9",
+      "author_key": "summer_9",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "你看起来快要中暑了，喝杯果汁吧。[350]"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "9"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "date_specific_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:summer_Fri8",
+      "author_key": "summer_Fri8",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "你也是运气很好，我刚在亚历克斯那买了冰淇淋。[233]#$b#你别这样看着我，我买两个是为了留一个明天吃。$4"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:winter_2",
+      "author_key": "winter_2",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "白茫茫的雪地让人感觉很平静。"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "2"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "date_specific_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Damon:winter_Mon10",
+      "author_key": "winter_Mon10",
+      "character": "Damon",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "zh": "这个天气想要起床真的很困难，但是想到早点出门就可以增加碰到你的概率，我还是哄自己起来了。功夫不负有心人啊，看看我碰见谁了。$u"
+      },
+      "source": {
+        "source_type": "custom_npc_asset",
+        "collection": "Dialogue",
+        "files": {
+          "zh": "data/game_scripts/dialogue.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    }
+  ]
+}

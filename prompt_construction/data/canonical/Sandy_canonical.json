@@ -1,0 +1,1391 @@
+{
+  "dataset_meta": {
+    "schema": "canonical_dialogue_v2",
+    "source_root": "data/game_scripts/Dialogue",
+    "collection": "Dialogue",
+    "character": "Sandy",
+    "record_count": 21,
+    "dialogue_type_counts": {
+      "general_dialogue": 21
+    }
+  },
+  "records": [
+    {
+      "canonical_id": "Dialogue/general_dialogue/Sandy:AcceptGift_(O)18",
+      "author_key": "AcceptGift_(O)18",
+      "character": "Sandy",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh, wow! Nichts sagt so sehr \"Frühling\" wie eine Sternentautal-Narzisse!$h",
+        "es": "Oh, ¡guau! ¡Nada dice «primavera» como un narciso de Stardew Valley!$h",
+        "fr": "Ho, wouah ! Rien ne dit \"printemps\" comme une jonquille de Stardew Valley !$h",
+        "hu": "Ó váó! Semmi sem fejezi ki jobban a 'tavaszt', mint a Stardew Valley-beli nárcisz!$h",
+        "it": "Oh, wow! Non c'è niente che dica 'primavera' come una giunchiglia di Stardew Valley!$h",
+        "ja": "まあ！スターデューバレーのスイセンを見ると、春がきたって感じるわ！$h",
+        "en": "Oh, wow! Nothing says 'spring' like a Stardew Valley daffodil!$h",
+        "ko": "오, 어머! '봄'이라면 역시 스타듀 밸리의 수선화겠지!$h",
+        "pt": "Oh, uau! Nada é mais 'primavera' que um narciso do Vale do Orvalho!$h",
+        "ru": "Ух ты! Нарцисс Долины Стардью — явный признак весны!$h",
+        "tr": "Vay canına! 'Bahar' denildiğinde Yıldızçiyi Vadisi'nin nergisleri kadar anlamlı bir şey yok!$h",
+        "zh": "哇！看到黄水仙就让我想到了星露谷的春天！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Sandy.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Sandy.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Sandy.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Sandy.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Sandy.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Sandy.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Sandy.json",
+          "ko": "data\\game_scripts\\Dialogue\\Sandy.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Sandy.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Sandy.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Sandy.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Sandy.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Sandy:AcceptGift_(O)402",
+      "author_key": "AcceptGift_(O)402",
+      "character": "Sandy",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "*schnüffel*... Mmm... Duftende Platterbsen haben einen wunderbaren Geruch.",
+        "es": "*snif*... Mmm... los guisantes dulces tienen el mejor aroma.",
+        "fr": "*Renifle*... Hmm... les pois de senteur ont une odeur merveilleuse.",
+        "hu": "*szimat*... Mmm... a szagos bükkönynek van a legcsodálatosabb illata.",
+        "it": "*annusa*... Mmm... i piselli odorosi hanno un profumo meraviglioso.",
+        "ja": "（クンクン）…うーん… スイートピー香りは本当にすてき。",
+        "en": "*sniff*... Mmm... sweet peas have the most wonderful smell.",
+        "ko": "*킁킁*... 으음... 스위트피의 향기는 원더풀해.",
+        "pt": "*cheira*... Hmm... ervilhas-de-cheiro têm o aroma mais maravilhoso.",
+        "ru": "*нюх*... М-м-м... Душистый горошек так вкусно пахнет.",
+        "tr": "*koklar*... Oh... Tatlı bezelyeler inanılmaz kokuyor.",
+        "zh": "（闻了一下）……嗯……香豌豆的味道最好闻了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Sandy.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Sandy.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Sandy.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Sandy.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Sandy.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Sandy.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Sandy.json",
+          "ko": "data\\game_scripts\\Dialogue\\Sandy.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Sandy.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Sandy.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Sandy.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Sandy.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Sandy:AcceptGift_(O)418",
+      "author_key": "AcceptGift_(O)418",
+      "character": "Sandy",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ahh... selbst im Winter hat das Sternentautal wunderschöne Blumen.",
+        "es": "Ahh... incluso en invierno, Stardew Valley tiene bellas flores.",
+        "fr": "Haaa... même en hiver, Stardew Valley a de belles fleurs.",
+        "hu": "Áhh... Stardew Valleyben még télen is szép virágok teremnek.",
+        "it": "Ahh... perfino d'inverno, Stardew Valley ha dei fiori bellissimi.",
+        "ja": "ああ… スターデューバレーには冬でもきれいな花がさいているのね。",
+        "en": "Ahh... even in winter, Stardew Valley has beautiful flowers.",
+        "ko": "아... 겨울에도 스타듀 밸리의 꽃은 아름답네.",
+        "pt": "Ahh... até no inverno o Vale do Orvalho tem lindas flores.",
+        "ru": "Ах... В Долине Стардью даже зимой есть прекрасные цветы.",
+        "tr": "Ah... Kış mevsiminde bile Yıldızçiyi Vadisi'nde güzel çiçekler var.",
+        "zh": "啊……星露谷即使在冬天也能种出美丽的花朵。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Sandy.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Sandy.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Sandy.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Sandy.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Sandy.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Sandy.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Sandy.json",
+          "ko": "data\\game_scripts\\Dialogue\\Sandy.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Sandy.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Sandy.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Sandy.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Sandy.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Sandy:AcceptGift_(O)StardropTea",
+      "author_key": "AcceptGift_(O)StardropTea",
+      "character": "Sandy",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wow, das ist so selten... Ich kann nicht glauben, dass du mir das schenkst! Danke, Schatz!",
+        "es": "Guau, eso es tan poco común... ¡No puedo creer que me lo estés dando a mí! ¡Gracias, cariño!",
+        "fr": "Wouah, c’est tellement rare... Je n’arrive pas à croire que c’est pour moi ! Merci !",
+        "hu": "Váó, ez annyira ritka... El se hiszem, hogy ezt nekem adod! Köszönöm, édesem!",
+        "it": "Wow, ma è rarissimo... Non riesco a credere che voglia darlo a me! Grazie, tesoro!",
+        "ja": "まあ、こんなに貴重なものを…私にくれるなんて信じられないわ！ありがとう、ハニー！",
+        "en": "Wow, that's so rare... I can't believe you're giving this to me! Thanks, honey!",
+        "ko": "어머, 이렇게 귀한걸... 나한테 주겠다니! 고마워, 자기!",
+        "pt": "Uau, isso é tão raro... Não acredito que você está me dando isso! Obrigada, docinho!",
+        "ru": "Ух ты, вот это редкость... Поверить не могу, что ты даришь это мне. Спасибо, любовь моя!",
+        "tr": "Vay, bu çok nadir... Bunu bana verdiğine inanamıyorum! Teşekkürler tatlım!",
+        "zh": "哇，这个太少见了……你居然要送给我吗？亲爱的，太感谢了！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Sandy.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Sandy.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Sandy.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Sandy.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Sandy.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Sandy.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Sandy.json",
+          "ko": "data\\game_scripts\\Dialogue\\Sandy.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Sandy.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Sandy.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Sandy.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Sandy.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)StardropTea' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Sandy:Fri",
+      "author_key": "Fri",
+      "character": "Sandy",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hier draußen hättest du nicht viel Erfolg mit dem Anbauen, Herzchen.#$e#Nun ja, außer natürlich als Kaktusbauer.$h",
+        "es": "Aquí no tendrías mucha suerte cultivando cosas, cielo.#$e#A menos que quisieras ser ${granjero^granjera}$ de cactus.$h",
+        "fr": "Tu n’arriverais pas à faire pousser grand-chose dans le coin.#$e#À moins que tu ne te lances dans la production de cactus.$h",
+        "hu": "Nem lenne sok szerencséd, ha idekint gazdálkodnál, édes.#$e#Nos, hacsak nem kaktuszt termesztenél.$h",
+        "it": "Non avresti fortuna con una fattoria qui, dolcezza.#$e#Beh, a meno che non coltivassi cactus.$h",
+        "ja": "こんなとこじゃ 農業なんて ロクに やってられないわよ。#$e#サボテンを 育てるなら 話は 別だけど。$h",
+        "en": "You wouldn't have much luck farming out here, honey.#$e#Well, unless you were a cactus farmer.$h",
+        "ko": "자기야, 여기선 농사지어도 별 소용없을 거야.#$e#뭐, 선인장 농장을 차릴 거 아닌 이상.$h",
+        "pt": "Você não teria muita sorte cultivando nada aqui, querido.^Você não teria muita sorte cultivando nada aqui, querida.#$e#Bem, a não ser que você cultivasse cactos.$h",
+        "ru": "Здесь бы у тебя с фермой не заладилось, душечка.#$e#Разве только кактусы разводить.$h",
+        "tr": "Buralarda pek tarım yapamıyorsun.#$e#Kaktüs yetiştirmiyorsan elbette!$h",
+        "zh": "在这里耕种不会有好结果，甜心。#$e#除非你是想种仙人掌。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Sandy.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Sandy.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Sandy.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Sandy.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Sandy.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Sandy.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Sandy.json",
+          "ko": "data\\game_scripts\\Dialogue\\Sandy.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Sandy.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Sandy.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Sandy.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Sandy.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Sandy:Fri4",
+      "author_key": "Fri4",
+      "character": "Sandy",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Mein Name ist nicht wirklich Sandy, weißt du. Er ist nur gut für's Geschäft.#$e#Aber jeder nennt mich Sandy, also habe ich mich daran gewöhnt.",
+        "es": "¿Sabes? En realidad no me llamo Sandy. Es por el negocio.#$e#Pero todos me llaman Sandy, así que ya me he acostumbrado a ese nombre.",
+        "fr": "Je ne m’appelle pas vraiment Sandy, tu sais. C’est juste bon pour les affaires.#$e#Mais de toute façon, tout le monde m’appelle Sandy.",
+        "hu": "Tudod, egyébként nem is Sandy a nevem. Csak jót tesz az üzletnek.#$e#De mivel mindenki Sandynek szólít, így már teljesen hozzászoktam.",
+        "it": "Non mi chiamo davvero Sandy, sai. È che giova agli affari.#$e#Ma tanto tutti mi chiamano Sandy ormai, per cui mi sono abituata.",
+        "ja": "私の本当の 名前は サンディ じゃないの。仕事上 そうしてるだけ。#$e#でも みんな サンディって 呼んでるから、 すっかり 慣れてきたわ。",
+        "en": "My name's not really Sandy, you know. It's just good for business.#$e#But everyone calls me Sandy anyway, so I've just gotten used to it.",
+        "ko": "내 이름 사실 샌디 아니다. 그냥 영업상 좋아서 쓰는 거야.#$e#근데 다들 샌디라고 불러서, 이제 익숙해졌어.",
+        "pt": "Sabe, o meu nome não é Sandy. É um nome artístico.#$e#Todo mundo me chama assim mesmo, então me acostumei.",
+        "ru": "На самом деле, меня зовут не Сэнди, знаешь ли. Это имя лучше звучит для бизнеса.#$e#Но меня все равно все зовут Сэнди, так что я привыкла.",
+        "tr": "İsmim aslında Sandy değil. İşim yüzünden bunu kullanıyorum.#$e#Herkes bana Sandy diyor, alıştım artık.",
+        "zh": "我其实不叫桑迪。都是为了生意才这么叫的。#$e#不过现在大家都叫我桑迪，我也习惯了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Sandy.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Sandy.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Sandy.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Sandy.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Sandy.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Sandy.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Sandy.json",
+          "ko": "data\\game_scripts\\Dialogue\\Sandy.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Sandy.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Sandy.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Sandy.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Sandy.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Sandy:GreenRain",
+      "author_key": "GreenRain",
+      "character": "Sandy",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe gehört, dass es im Tal ein seltenes Wetterereignis gibt.#$e#Ich wünschte, es würde hier manchmal regnen...$s",
+        "es": "He escuchado que hay un evento climático excepcional en el valle.#$e#Desearía que lloviera aquí alguna vez...$s",
+        "fr": "J’ai entendu dire qu’il y a eu un événement météorologique rare dans la vallée.#$e#J’aimerais qu’il pleuve parfois aussi ici...$s",
+        "hu": "Úgy hallottam, hogy egy ritka időjárási jelenség van a völgyben.#$e#Bárcsak néhanapján itt is esne...$s",
+        "it": "Ho sentito che c'è una condizione meteorologica rara nella valle.#$e#Vorrei che piovesse anche qui, ogni tanto...$s",
+        "ja": "谷はめずらしい天気になってるって聞いたわ。#$e#たまにはここにも雨が降ってくれたらいいのに…$s",
+        "en": "I heard there's a rare weather event in the valley.#$e#I wish it rained here sometimes...$s",
+        "ko": "계곡에 보기 드문 이상기후가 나타났다고 들었어.#$e#여기도 가끔 비가 내렸으면 좋겠다...$s",
+        "pt": "Eu ouvi dizer que um fenômeno climático raro está acontecendo no vale.#$e#Eu queria que chovesse aqui de vez em quando...$s",
+        "ru": "Слышала, в Долине происходит какое-то редкое погодное явление.#$e#Вот бы тут тоже иногда шел дождь...$s",
+        "tr": "Vadide nadir bir hava olayı yaşandığını duydum.#$e#Keşke burada da bazen yağmur yağsa...$s",
+        "zh": "听说星露谷出现了罕见的天气。#$e#假如这里也能下雨就好了……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Sandy.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Sandy.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Sandy.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Sandy.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Sandy.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Sandy.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Sandy.json",
+          "ko": "data\\game_scripts\\Dialogue\\Sandy.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Sandy.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Sandy.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Sandy.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Sandy.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "weather_green_rain",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Sandy:Mon",
+      "author_key": "Mon",
+      "character": "Sandy",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hallo hallo, Herzchen!#$b#Ich bin so froh, dass der Bus wieder fährt. Hier draußen wurde es ziemlich einsam.#$e#... Ich bin fast pleite gegangen.$s#$e#Hey, aber jetzt bist du hier, um eine ganze Menge Saat zu kaufen, richtig?$h",
+        "es": "¡Hola, holita, cielito!#$b#Cuánto me alegro de que el autobús vuelva a circular. Empezaba a sentirme sola aquí.#$e#...Y casi me arruino.$s#$e#Pero has venido a comprarme un montón de semillas... ¿Verdad, cielito?$h",
+        "fr": "Bonjour, bonjour !#$b#Je suis tellement contente que le bus soit de nouveau en service. Je commençais à me sentir un peu seule ici.#$e#... J’ai presque fait faillite.$s#$e#Dis-moi, maintenant que tu es là, tu vas m’acheter des graines... n’est-ce pas ?$h",
+        "hu": "Helló-belló, édeském!#$b#Annyira örülök, hogy ismét működik a busz. Már kezdtem nagyon magányos lenni idekint.#$e#...Majdnem tönkrement az üzletem.$s#$e#Hé, de most itt vagy te, hogy egy halom magvat vegyél... ugye, édeském?$h",
+        "it": "Ma salve, tesoro!#$b#Sono così felice che l'autobus funzioni di nuovo. Cominciavo a sentirmi sola, così distante da tutti.#$e#...Ho quasi dovuto chiudere il negozio.$s#$e#Ehi, ma ora tu sei qui per comprare tanti bei semini... vero, tesoro?$h",
+        "ja": "あら、 ごきげんよう！#$b#バスが やっと 復旧して よかったわ。一人で さびしく なってきた ところだったのよ。#$e#… 店じまい 寸前だったわ。$s#$e#それで、 あなたは タネを 買いに ここまで きたのよね… そうでしょ？$h",
+        "en": "Hello hello, sweetie!#$b#I'm so glad that the bus is back in service. It was starting to get lonely out here.#$e#...I almost went out of business.$s#$e#Hey, but now you're here to buy a whole bunch of seeds... right, sweetie?$h",
+        "ko": "안녕 안녕, 자기야!#$b#버스가 다시 운행해서 너무 좋다. 여기 혼자서 외로울뻔했잖아.#$e#...장사도 접을뻔했다고.$s#$e#근데 이제 네가 와서 씨앗 잔뜩 사갈 거지... 맞지, 자기야?$h",
+        "pt": "Oi, coisa linda!#$b#Estou tão feliz de o ônibus voltar a operar! Estava começando a me sentir sozinha aqui.#$e#Quase fali.$s#$e#Ei, mas você está aqui para comprar muitas sementes... né, querido?$h",
+        "ru": "Здравствуй-здравствуй, душечка!#$b#Я так рада, что автобус снова ходит. Мне здесь стало так одиноко.#$e#... Я чуть не разорилась.$s#$e#Эй, но теперь-то ты здесь, купишь целую кучу семян... Правда, душечка?$h",
+        "tr": "Selamlar tatlım!#$b#Otobüsün tekrar çalışıyor olmasına çok sevindim. Burada yalnız kalmaya başlamıştım.#$e#...Nerdeyse dükkanım batıyordu.$s#$e#Hey, sen buraya bir sürü tohum almaya geldin, değil mi balım?$h",
+        "zh": "哈喽，甜心！#$b#很高兴巴士恢复服务。我都开始感觉到孤独了。#$e#……我差点都要关门大吉了。$s#$e#但现在有你来买种子了……对吧，甜心？$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Sandy.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Sandy.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Sandy.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Sandy.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Sandy.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Sandy.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Sandy.json",
+          "ko": "data\\game_scripts\\Dialogue\\Sandy.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Sandy.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Sandy.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Sandy.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Sandy.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Sandy:Sat",
+      "author_key": "Sat",
+      "character": "Sandy",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hi! Willkommen bei Sandys Oase, dem Ziel Nummer Eins in der Calico-Wüste!#$e#*flüster* Klang ich professionell?$h#$e#Vergiss nicht, dir unsere saisonale Saat-Selektion anzuschauen.#$e#Du siehst sehr durstig aus. Hier, koste mal diese eiskalte Milch. [184]#$e#Lecker, was?$h",
+        "es": "¡Hola! ¡Bienvenido al Oasis de Sandy, el destino número uno del desierto de Calico!^¡Hola! ¡Bienvenida al Oasis de Sandy, el destino número uno del desierto de Calico!#$e#*Susurra* ¿Ha sonado profesional?$h#$e#No olvides revisar nuestra selección de semillas de temporada.#$e#Parece que tienes mucha sed. Toma, prueba esta leche fresquita. [184]#$e#Está buena, ¿eh?$h",
+        "fr": "Salut ! Bienvenue dans l’Oasis de Sandy, la destination numéro un du désert de Calico !#$e#*Murmure* Est-ce que je fais professionnelle ?$h#$e#N’oublie pas de consulter notre sélection de graines de saison.#$e#Tu as l’air d’avoir très soif. Tiens, goûte ce lait glacé. [184]#$e#Savoureux, n’est-ce pas ?$h",
+        "hu": "Üdv! Üdvözöllek téged Sandy Oázisában, a Calico-sivatag első számú úticéljában!#$e#*suttogva* Úgy beszéltem mint egy profi?$h#$e#Kérjük nézz rá a szezonális magválasztékunkra.#$e#Nagyon szomjasnak tűnsz. Tessék, kóstold meg ezt a jéghideg tejet. [184]#$e#Ugye milyen finom?$h",
+        "it": "Ciao! Ti do il benvenuto all'Oasi di Sandy, la destinazione numero uno nel deserto di Calico!#$e#*sussurra* Sono stata professionale?$h#$e#Assicurati di dare un'occhiata alla nostra selezione di semi di stagione.#$e#Sembri avere molta sete. Tieni, assaggia questo latte ghiacciato. [184]#$e#Saporito, eh?$h",
+        "ja": "あら、！カリコ砂漠 ナンバーワンの 目的地、 サンディの オアシスへ ようこそ！#$e#(ささやき) うまく 言えたかしら？$h#$e#選び抜かれた 季節特有の タネを チェック していってね。#$e#のどが 乾いてるように 見えるわよ。ほら、 冷えた ミルクでも どうぞ。 [184]#$e#おいしいでしょ？$h",
+        "en": "Hi! Welcome to Sandy's Oasis, the number one destination in Calico Desert!#$e#*whisper* Did I sound professional?$h#$e#Make sure to check out our seasonal seed selection.#$e#You look really thirsty. Here, have a taste of this ice cold milk. [184]#$e#Tasty, huh?$h",
+        "ko": "안녕하세요! 칼리코 사막 최고의 명소, 샌디의 오아시스에 오신 걸 환영합니다!#$e#*소곤* 어때, 프로 같지?$h#$e#아, 우리 계절 씨앗도 꼭 보고 가.#$e#어머, 목말라 보인다. 여기, 차가운 우유 한잔 마셔봐. [184]#$e#맛있지, 그치?$h",
+        "pt": "Oi ! Bem vindo ao Oásis da Sandy, o destino número um do Deserto de Calico!#$e#(Sussurro) soei profissional?$h#$e#Dê uma olhada na nossa seleção de sementes sazonais.#$e#Você parece estar com muita sede. Aqui, tome um pouco deste leite bem gelado. [184]#$e#Gostoso, né?$h",
+        "ru": "Привет! Добро пожаловать в «Оазис Сэнди», магазин номер один в пустыне Калико!#$e#*Шепотом* Ну как, профессионально прозвучало?$h#$e#Не забудь посмотреть наш сезонный ассортимент семян.#$e#Ты, кажется, очень хочешь пить. Вот, держи ледяного молока. [184]#$e#Вкусно, да?$h",
+        "tr": "Patisko Çölü'ndeki bir numaralı mekân olan Sandy'nin Vahası'na hoş geldin!#$e#*fısıldar* Kulağa profesyonel geliyor mu?$h#$e#Mevsimlik tohum koleksiyonumuza göz atmayı unutma.#$e#Susamış görünüyorsun. Al, bu buz gibi sütü iç. [184]#$e#Lezzetli, değil mi?$h",
+        "zh": "嗨！欢迎来到桑迪的绿洲，卡利科沙漠的第一旅游胜地！#$e#*低声说*我听起来够专业吗？$h#$e#请浏览我们的四季种子精品。#$e#你看起来很口渴。来，尝尝这杯冰冻鲜奶。[184]#$e#好喝吧？$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Sandy.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Sandy.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Sandy.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Sandy.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Sandy.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Sandy.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Sandy.json",
+          "ko": "data\\game_scripts\\Dialogue\\Sandy.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Sandy.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Sandy.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Sandy.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Sandy.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Sandy:Sun",
+      "author_key": "Sun",
+      "character": "Sandy",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hier ist es immer sonnig, sogar im Winter!#$e#Eigentlich ist es ein wenig zu heiß für meinen Geschmack... Meine empfindliche Haut leidet in der Sonne ziemlich schnell.$s",
+        "es": "¡Aquí siempre hace sol, incluso en invierno!#$e#En realidad hace demasiado calor para mi gusto... Mi delicada piel se quema rápidamente con este sol.$s",
+        "fr": "Il fait toujours beau ici, même en hiver !#$e#En fait, il fait un peu trop chaud à mon goût... ma peau délicate rougie rapidement au soleil.$s",
+        "hu": "Itt mindig napos az idő, még télen is!#$e#Tulajdonképpen számomra túlságosan nagy a forróság... gyengéd bőröm gyorsan leég a napon.$s",
+        "it": "C'è sempre il sole qua, anche d'inverno!#$e#In realtà, fa un po' caldo per i miei gusti... la mia pelle delicata si scotta in un attimo al sole.$s",
+        "ja": "ここは 冬でも 晴れ続き なのよ！#$e#正直、 ちょっと 暑いと 私は思うけど… 肌が すぐに 日焼けしちゃうわ。$s",
+        "en": "It's always sunny here, even in winter!#$e#Actually, it's a little hot for my tastes... my delicate skin burns quickly in the sun.$s",
+        "ko": "여긴 겨울에도 해가 쨍쨍해!#$e#사실 내가 원하는 것보다 좀 뜨거운 편이야... 피부가 연약해서 햇빛에 금방 타.$s",
+        "pt": "Aqui sempre faz sol - mesmo no inverno!#$e#Na verdade... é um pouco quente demais para o meu gosto... minha pele delicada queima rapidinho no sol.$s",
+        "ru": "Здесь всегда солнечно, даже зимой!#$e#На самом деле, тут даже для меня жарковато... Моя нежная кожа легко обгорает на солнце.$s",
+        "tr": "Buralar kışın bile güneşlidir!#$e#Aslında benim için fazla sıcak, hassas cildim güneşte yanıyor.$s",
+        "zh": "这里四季如夏，哪怕是冬天都一样。#$e#其实是有点热得过分……我的皮肤很容易就被晒伤。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Sandy.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Sandy.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Sandy.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Sandy.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Sandy.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Sandy.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Sandy.json",
+          "ko": "data\\game_scripts\\Dialogue\\Sandy.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Sandy.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Sandy.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Sandy.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Sandy.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Sandy:Sun8",
+      "author_key": "Sun8",
+      "character": "Sandy",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey, Schätzchen. Ja, nur ich, alleine in diesem alten Laden. Hmmm...#$e#Na ja, außer dem unheimlichen Typen da hinten. Aber er bewegt sich nie, also vergesse ich ihn oft.",
+        "es": "Hola, cariño. Sí, aquí estoy, sola en esta gran tienda antigua. Hmmm...#$e#Bueno, exceptuando al tipo siniestro del fondo. Pero nunca mueve ni un músculo, así que a menudo me olvido de que está ahí.",
+        "fr": "Bonjour, toi. Oui, il n’y a que moi, toute seule dans ce grand magasin. Mmm...#$e#Sauf pour ce type bizarre dans le fond. Mais il ne bouge jamais d’un poil, alors je finis par oublier qu’il est là.",
+        "hu": "Üdv néked, édesem. Igen, csak én vagyok itt, egyedül ebben a nagy, öreg boltban. Hmmm...#$e#Nos, kivéve még azt az ijesztő fickót ott hátul. De ő egy tapodtat se mozdul, szóval elég sűrűn feledkezem meg róla.",
+        "it": "Ehilà, dolcezza. Sì, sono solo io, da sola in questo grande negozio. Hmmm...#$e#Beh, a parte quel tipo sospetto sul retro. Ma non muove mai un muscolo, spesso persino me lo dimentico.",
+        "ja": "ねぇ、あなた。ええ、 この 古くて 大きな店で 一人っきりよ。うーん… #$e#裏にいる あの 怪しい 人を 除いてはね。でも 彼は 全く 動かないから、 時々 存在を 忘れてしまうのよ。",
+        "en": "Hi there, honey. Yep, it's just me, alone in this big old shop. Hmmm...#$e#Well, except for that creepy guy in the back. But he never moves a muscle, so I often forget about him.",
+        "ko": "안녕 안녕, 자기야. 웅, 이 큰 가게에 나뿐이지. 흐음...#$e#뭐, 저쪽에 있는 저 오싹한 남자 빼고는 말이지. 근데 꼼짝도 안 해서, 저기 있다는 걸 깜빡하곤 해.",
+        "pt": "Olá, amor. Sim. Sou só eu. Sozinha, nesta loja velha. Huuum...#$e#Bem, exceto por aquele cara estranho lá no fundo. Mas ele nunca se move, então eu até me esqueço dele.",
+        "ru": "Привет, солнце. Да, это снова я, одна в этом большом и старом магазине. Хм-м-м...#$e#Ну, кроме того жуткого типа. Но он даже не шевелится, так что я часто забываю, что он вообще тут есть.",
+        "tr": "Selam balım. Bu koca mağazada yalnız başımayım. Hım...#$e#Yani, arkadaki garip eleman dışında, hiçbir zaman hareket etmiyor, bazen onun orada olduğunu unutuyorum.",
+        "zh": "嗨，甜心。没错，就是我，独自一人在这家老店里。嗯……#$e#除了后面那位奇怪的家伙。但是他从来没有出过来，所以我都经常忘了他。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Sandy.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Sandy.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Sandy.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Sandy.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Sandy.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Sandy.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Sandy.json",
+          "ko": "data\\game_scripts\\Dialogue\\Sandy.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Sandy.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Sandy.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Sandy.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Sandy.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Sandy:Thu",
+      "author_key": "Thu",
+      "character": "Sandy",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Der zwielichtige Typ da hinten? Ich kann nicht darüber reden.#$e#Nun... Wie ist das Wetter im Tal so?",
+        "es": "¿El tipo de pinta sospechosa del fondo? Lo siento, pero no se me permite hablar de ello.#$e#En fin... ¿Qué tiempo hace en el valle?",
+        "fr": "Ce type à l’air louche à l’arrière ? Je ne suis pas censée en parler.#$e#Bref... quel temps fait-il dans la vallée ?",
+        "hu": "Az a sötét fickó ott hátul? Róla nem beszélhetek.#$e#Egyébként... milyen az idő a völgyben?",
+        "it": "Quel tipo losco sul retro? Non ne dovrei parlare.#$e#Ad ogni modo... com'è il tempo nella valle?",
+        "ja": "裏にいる 怪しい 感じの 人が どうしたって？それについては 話したくないわ。#$e#まあ… バレーの 天気は どんな 感じかしら？",
+        "en": "That shady-looking guy in the back? I'm not supposed to talk about it.#$e#Anyway... what's the weather like in the valley?",
+        "ko": "저쪽에 있는 수상해 보이는 사람? 난 얘기 하면 안 되는 거라서.#$e#그건 그렇고... 계곡 쪽 날씨는 어때?",
+        "pt": "Aquele cara suspeito lá atrás? Não posso falar sobre isso.#$e#Enfim... como está o tempo lá no Vale?",
+        "ru": "Тот подозрительный тип? Мне не положено об этом говорить.#$e#Ну ладно... Как погодка-то в долине?",
+        "tr": "Arkadaki gizemli çocuk mu? Onun hakkında konuşmamam gerekiyor.#$e#Her neyse... Vadide işler nasıl?",
+        "zh": "房间后面的那个可疑的家伙？我不想多管闲事。#$e#话说……山谷里的气候怎么样？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Sandy.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Sandy.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Sandy.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Sandy.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Sandy.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Sandy.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Sandy.json",
+          "ko": "data\\game_scripts\\Dialogue\\Sandy.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Sandy.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Sandy.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Sandy.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Sandy.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Sandy:Thu2",
+      "author_key": "Thu2",
+      "character": "Sandy",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Der zwielichtige Typ da hinten? Ich kann wirklich nicht darüber reden.#$e#Nun... Wie ist das Wetter im Tal so?",
+        "es": "¿El tipo de pinta sospechosa del fondo? Lo siento, pero no se me permite hablar de ello.#$e#En fin... ¿Qué tiempo hace en el valle?",
+        "fr": "Ce type à l’air louche la-bas ? Je ne suis pas censée en parler.#$e#Bref... quel temps fait-il dans la vallée ?",
+        "hu": "Az a sötét fickó ott hátul? Róla nem beszélhetek.#$e#Egyébként... milyen az idő a völgyben?",
+        "it": "Il tipo losco sul retro? Non ne dovrei davvero parlare.#$e#Ad ogni modo... com'è il tempo nella valle?",
+        "ja": "裏にいる 怪しい 感じの 人が どうしたって？それについては 話したくないわ。#$e#まあ… バレーの 天気は どんな 感じかしら？",
+        "en": "That shady-looking guy in the back? I'm really not supposed to talk about it.#$e#Anyway... what's the weather like in the valley?",
+        "ko": "저쪽에 있는 수상해 보이는 사람? 난 진짜 얘기 하면 안 되는 거라서.#$e#그건 그렇고... 계곡 쪽 날씨는 어때?",
+        "pt": "Aquele cara suspeito lá atrás? Eu não posso falar dele.#$e#Enfim, como está o tempo lá no vale",
+        "ru": "Тот подозрительный тип? Мне не положено об этом говорить.#$e#Ну ладно... Как погодка-то в долине?",
+        "tr": "Arkadaki gizemli çocuk mu? Ondan bahsetmesem iyi olur.#$e#Her neyse, vadide havalar nasıl?",
+        "zh": "房间后面的那个可疑的家伙？我不想多管闲事。#$e#话说……山谷里的气候怎么样？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Sandy.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Sandy.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Sandy.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Sandy.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Sandy.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Sandy.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Sandy.json",
+          "ko": "data\\game_scripts\\Dialogue\\Sandy.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Sandy.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Sandy.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Sandy.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Sandy.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Sandy:Thu4",
+      "author_key": "Thu4",
+      "character": "Sandy",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey... Ich denke, ich kann dir vertrauen. Du kannst ein Geheimnis für dich behalten, richtig?#$b#*flüster* Der Typ da hinten... Es ist eine Art exklusiver Club. Ich war selbst nie drin, aber sie zahlen eine großzügige Monatsmiete, also stelle ich keine Fragen.#$e#AAALSOOOOoo! Wie ist das Wetter im Sternentautal so?",
+        "es": "Ey... Creo que puedo confiar en ti. Sabes guardar un secreto, ¿no?#$b#*Susurra* El tipo del fondo... Allí hay una especie de club exclusivo. Yo nunca he entrado, pero me pagan una renta mensual bastante generosa para que no haga preguntas.#$e#¡Bueeeno! ¿Qué tiempo hace ahora mismo en Stardew Valley?",
+        "fr": "Bonjour... Je pense pouvoir te faire confiance. Tu peux garder un secret, non ?#$b#*Murmure* Ce type à l’arrière... il tient un genre de club très sélect. Je ne suis jamais allée à l’intérieur, mais il me paie un loyer mensuel généreux pour je ne pose pas de questions.#$e#Aloooors ! Quel temps fait-il dans la vallée de Stardew ?",
+        "hu": "Hé... azt hiszem benned megbízhatok. Tudsz titkot tartani, ugye?#$b#*suttogva* Az a fickó ott hátul... az ott valamilyen exkluzív klub. Én még sose voltam odabent, de mivel elég szép bérleti díjat fizetnek havonta, így nem is kérdezősködöm.#$e#SZÓÓÓóóval! Milyen most az idő Stardew Valleyben?",
+        "it": "Ehi... credo di potermi fidare di te. Lo sai tenere un segreto, sì?#$b#*sussurra* Quel tipo sul retro... fa parte di una specie di club esclusivo. Io non ci sono mai stata, ma mi pagano una somma generosa ogni mese perché non faccia domande.#$e#Duuuuunque! Com'è quel tempo di Stardew Valley adesso?",
+        "ja": "なぁ…あなたになら 話しても いいかと 思うの。秘密に してくれるよね？#$b#(ささやき) あの 裏にいる 男だけど… 何か 秘密クラブ みたいなのを やってるの。中に 入ったことは ないけど、 毎月の 賃料を たんまり 支払ってくれるから 何も 聞かないことに してるの。#$e#それでね！バレーの 天気は いま どんな 感じ かしら？",
+        "en": "Hey... I think I can trust you. You can keep a secret, right?#$b#*whisper* That guy in the back... it's some kind of exclusive club. I've never been inside myself, but they pay me a generous monthly rent so I don't ask any questions.#$e#SOOOOoo! How's that Stardew Valley weather right now?",
+        "ko": "야... 널 믿어도 될 것 같아서. 비밀 지킬 수 있지, 그치?#$b#*소곤* 저 뒤쪽에 있는 남자... 무슨 회원제 클럽이야. 나도 들어가 본 적은 없는데, 나한테 월세를 워낙 많이 주고 있어서 별다른 건 안 물어보고 있어.#$e#그으으으래서! 요즘 계곡 쪽 날씨는 어때?",
+        "pt": "Ei... Acho que posso confiar em você. Você consegue guardar segredo, né?#$b#(Sussurro) Aquele cara lá no fundo... é tipo um clube exclusivo. Nunca estive lá dentro, mas eles me pagam um dinheirinho bem generoso todo mês para não perguntar nada.#$e#Entãããão! Como está o tempo hoje no Vale do Orvalho?",
+        "ru": "Хей. Думаю, я могу тебе доверять. Ты ведь умеешь хранить секреты, да?#$b#*Шепотом* Тот тип... Он охраняет какой-то эксклюзивный клуб. Сама я внутри никогда не была, но мне платят щедрую аренду каждый месяц, так что я не задаю лишних вопросов.#$e#Ну так во-о-о-о-от! Как там погодка-то в долине Стардью?",
+        "tr": "Selam... Sanırım sana güvenebilirim. Sır tutabilir misin?#$b#*fısıldar* Arkadaki eleman... çok özel bir kulüpte. Hiç içeriye girmedim fakat her ay bana yüksek miktarda kira ödüyorlar, yani söylenmiyorum.#$e#Öyle işte... Vadide hava nasıl?",
+        "zh": "嘿……我觉得你是信得过的人。你能够保守秘密的，对吧？#$b#*低声说*后面的那个啊……是某间私人会所。我从没进过去，但是他们每个月给我很丰厚的租金，所以我不会去多管闲事。#$e#啊！星露谷的天气怎么样了？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Sandy.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Sandy.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Sandy.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Sandy.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Sandy.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Sandy.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Sandy.json",
+          "ko": "data\\game_scripts\\Dialogue\\Sandy.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Sandy.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Sandy.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Sandy.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Sandy.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Sandy:Tue",
+      "author_key": "Tue",
+      "character": "Sandy",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du kannst draußen Kokosnüsse und Kaktusfrüchte finden. Nimm ruhig so viele, wie du willst.#$e#Sie sind auch sooo lecker. Heeee!~$h",
+        "es": "Fuera puedes encontrar higos chumbos y cocos. Puedes quedarte todos los que encuentres.#$e#Están ricos, ricos. ¡Ji, ji!$h",
+        "fr": "Tu peux trouver des noix de coco et des fruits de cactus dehors. N’hésite pas à en prendre autant que tu veux.#$e#Ils sont si délicieux.~$h",
+        "hu": "Odakint kókuszdiót és kaktuszgyümölcsöket találhatsz. Nyugodtan vigyél el annyit amennyit csak akarsz.#$e#Azok annnnnyira finomak. Heeee!~$h",
+        "it": "Fuori puoi trovare noci di cocco e fichi d'India. Prendi pure tutti quelli che trovi.#$e#Sono proprio faaaaaaa-volosi. Heeee!~$h",
+        "ja": "外では ココナッツと サボテンが 見つかるわ。見つけたのは 自由に 持っていって いいわよ。#$e#すっごく おいしい くだものだから。フフッ。$h",
+        "en": "You can find coconuts and cactus fruits outside. Feel free to take as many as you can find.#$e#They're oooh-yummy, too. Heeee!~$h",
+        "ko": "밖에서 코코넛이랑 선인장 열매를 찾을 수 있을 거야. 가져가고싶은 만큼 마음껏 챙겨가.#$e#게다가 아주아주 맛있다구. 히히!~$h",
+        "pt": "Dá para achar cocos e cactos lá fora. Pegue quantos você quiser.#$e#Eles também são tããão suculentos! He, he! :)$h",
+        "ru": "Снаружи можно найти кокосы и плоды кактусов. Бери столько, сколько сможешь унести.#$e#Они еще и ой какие вкусные. Хи-и-и!~$h",
+        "tr": "Dışarıda kaktüs meyvelerini ve hindistan cevizlerini bulabilirsin. İstediğin kadar alabilirsin, çekinme.#$e#Çok lezzetlilerdir he!~$h",
+        "zh": "你可以在外面找到椰子和仙人掌果实。想要多少随便拿。#$e#都是非常美味的。嘻嘻！~$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Sandy.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Sandy.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Sandy.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Sandy.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Sandy.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Sandy.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Sandy.json",
+          "ko": "data\\game_scripts\\Dialogue\\Sandy.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Sandy.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Sandy.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Sandy.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Sandy.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Sandy:Tue10",
+      "author_key": "Tue10",
+      "character": "Sandy",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hi!~ Bleib solange du willst.#$e#Die Klimaanlage fühlt sich gut an, nicht?",
+        "es": "¡Hola~! Quédate cuanto quieras.#$e#El aire acondicionado sienta bien, ¿no?",
+        "fr": "Bonjour !~Reste aussi longtemps que tu veux#$e#La climatisation est agréable, n’est-ce pas ?",
+        "hu": "Szió!~ Maradj amíg csak kedved tartja.#$e#Egész jó idebent a légkondi, nem?",
+        "it": "Ciao!~ Resta tutto il tempo che vuoi.#$e#Bella l'aria condizionata, vero?",
+        "ja": "こんにちは！ 好きなだけ ゆっくり していってね。#$e#エアコンが 気持ちいい でしょ？",
+        "en": "Hi!~ Stay as long as you like.#$e#The air conditioning sure feels nice, doesn't it?",
+        "ko": "안녕!~ 오래 있다 가도 좋아.#$e#에어컨 참 좋지, 그치?",
+        "pt": "Oi! Fique o quanto quiser.#$e#O ar condicionado é bom, não é?",
+        "ru": "Привет!~ Оставайся здесь сколько захочешь.#$e#Кондиционер — это так здорово, правда?",
+        "tr": "Selam!~ İstediğin kadar kalabilirsin.#$e#Klima harika, öyle değil mi?",
+        "zh": "嗨！~待久一点啊。#$e#这个空调感觉很不错吧？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Sandy.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Sandy.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Sandy.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Sandy.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Sandy.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Sandy.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Sandy.json",
+          "ko": "data\\game_scripts\\Dialogue\\Sandy.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Sandy.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Sandy.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Sandy.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Sandy.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Sandy:Wed",
+      "author_key": "Wed",
+      "character": "Sandy",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey, hallo! Wenn du meine Freundin Emily in der Stadt triffst, kannst du ihr Grüße von mir sagen?#$e#Danke!$h",
+        "es": "¡Hola, holita! Si ves a mi amiga Emily por el pueblo, ¿podrías saludarla de mi parte?#$e#¡Gracias!$h",
+        "fr": "Bien le bonjour ! Si tu croises mon amie Emily au village, pourrais-tu lui passer le bonjour de ma part ?#$e#Merci !$h",
+        "hu": "Nos, üdv néked! Ha látnád a városban a barátomat, Emilyt, köszönnél neki a nevemben?#$e#Köszönöm!$h",
+        "it": "Ma salve! Se vedi la mia amica Emily in paese, puoi salutarla per me?#$e#Grazie!$h",
+        "ja": "あら、こんにちは！町にいる 友達の エミリーを 見かけたら、 よろしく 言ってくれる？#$e#頼んだわよ！$h",
+        "en": "Why hello there! If you see my friend Emily in town, could you tell her I said 'Hi'?#$e#Thanks!$h",
+        "ko": "오 안녕 안녕! 마을에서 에밀리 보면 내 안부 전해줄래?#$e#고마워!$h",
+        "pt": "Olá! Se você vir a minha amiga Emily na cidade, pode dizer a ela que mandei um \"oi\"?#$e#Obrigada!$h",
+        "ru": "Здравствуй! Если вдруг встретишь в городе мою подружку Эмили, передавай ей привет, ладно?#$e#Спасибо!$h",
+        "tr": "Ah, merhaba! Kasabadaki arkadaşım Emily'i görürsen ona selam söyler misin?#$e#Teşekkürler!$h",
+        "zh": "啊你好！如果你在镇上遇见我的朋友艾米丽，记得帮我打个招呼？#$e#谢谢！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Sandy.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Sandy.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Sandy.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Sandy.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Sandy.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Sandy.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Sandy.json",
+          "ko": "data\\game_scripts\\Dialogue\\Sandy.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Sandy.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Sandy.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Sandy.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Sandy.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Sandy:Wed10",
+      "author_key": "Wed10",
+      "character": "Sandy",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey, wenn das nicht @ ist! Ich bin froh, dich zu sehen, Kind. Ich dachte schon, du würdest nie zurückkommen!#$e#Müsste ich mich nicht um diesen Laden kümmern, würde ich für einen Tag oder zwei mit dir zurück ins Tal kommen... nur du und ich auf dem alten Hof.$s#$e#Du wirst mich wohl häufiger besuchen müssen, damit ich nicht deprimiert werde.$h",
+        "es": "¡Ey, es @! ¡Me alegro de verte! ¡Empezaba a pensar que no ibas a volver!#$e#Si no tuviera que llevar esta tienda, me volvería al valle contigo un día o dos... Tú, yo, y la vieja granja.$s#$e#Vas a tener que visitarme más a menudo para que no me deprima.$h",
+        "fr": "Salut @ ! Je suis contente de te voir. Je commençais à croire que tu ne reviendrais jamais !#$e#Si je n’avais pas cette boutique à gérer, je retournerais avec toi dans la vallée pour un jour ou deux... Rien que toi et moi, dans ta ferme.$s#$e#Il faudra que tu reviennes me voir souvent, sinon je vais déprimer.$h",
+        "hu": "Hé, itt van @! Örülök, hogy látlak, kölyök. Már kezdtem azt hinni, hogy sose térsz vissza!#$e#Ha nem lenne itt ez a bolt, akkor visszamennék veled a völgybe egy-két nap erejéig... csak te és én, meg a régi jó farm.$s#$e#Gyakrabban kell meglátogatnod engem, hogy ne legyek depressziós.$h",
+        "it": "Ehi, è @! Che bello vederti, tesoro. Iniziavo a pensare che non tornassi più!#$e#Se non avessi il negozio da gestire, tornerei alla valle con te per un giorno o due... Solo io e te in quella vecchia fattoria.$s#$e#Bisognerà che tu passi più spesso, così non mi deprimo.$h",
+        "ja": "@あら、じゃない！会いたかったわ。もう 来てくれないかと 思ってたのよ！#$e#もし 店を 運営する 必要が なかったら、 バレーへ 戻って 1、2日くらい… 牧場で あなたと 過ごしたい くらいよ。$s#$e#もっと たくさん 会いにきてくれれば 私も それだけ さびしい思いを しないで すむわ。$h",
+        "en": "Hey, it's @! I'm glad to see you, kid. I was starting to think you'd never come back!#$e#If I didn't have this shop to run I'd come back to the valley with you for a day or two... just you and me on the old farm.$s#$e#You'll just have to visit me more often so I don't get depressed.$h",
+        "ko": "어머, @(이)잖아! 봐서 너무 반갑다, 얘. 다시는 안 돌아오는 줄 알았어!#$e#내가 가게만 안 봐도 됐다면 너 보러 계곡으로 하루 이틀 정도 갈 텐데... 농장에 너랑 나랑 단둘이.$s#$e#나 우울해지지 않게 좀 더 자주 보러 오란 말이야.$h",
+        "pt": "Ei, é @! Estou feliz em ver você, garoto. Estava começando a achar que você não iria mais voltar!^Ei, é @! Estou feliz em ver você, garota. Estava começando a achar que você não iria mais voltar!#$e#Se eu não tivesse esta loja para tocar, voltaria ao vale com você por um dia ou dois... só eu, você e a velha fazenda.$s#$e#Você terá que me visitar com mais frequência para que eu não fique deprimida.$h",
+        "ru": "Эй, да это же @! Я так рада тебя видеть. Я уже было подумала, что ты не вернешься!#$e#Если бы только мне не пришлось работать в магазине, я бы съездила с тобой в долину на денек-другой... Только ты и я на старой ферме.$s#$e#Тебе нужно навещать меня почаще, чтобы я не грустила.$h",
+        "tr": "Vay canına, @ gelmiş! Seni gördüğümde sevindim evlat. Geri gelmeyeceğini düşünmeye başlamıştım!#$e#Eğer işletmem gereken bu mağaza olmasaydı seninle birkaç günlüğüne vadiye gelirdim... Çiftlikte yalnızca sen ve ben...$s#$e#Depresyona girmemem için beni sık sık ziyaret etmek zorundasın.$h",
+        "zh": "嘿，是@！很高兴见到你，孩子。我刚在想你会不会不回来了！#$e#要不是要经营这家店，我就会跟你一块回山谷一两天了……到旧农场里，就你我两人。$s#$e#你得多来看我啊，否则我就会很伤心。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Sandy.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Sandy.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Sandy.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Sandy.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Sandy.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Sandy.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Sandy.json",
+          "ko": "data\\game_scripts\\Dialogue\\Sandy.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Sandy.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Sandy.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Sandy.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Sandy.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Sandy:Wed8",
+      "author_key": "Wed8",
+      "character": "Sandy",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ist es nicht teuer, so oft in die Wüste zu fahren?#$e#Du willst mich wohl unbedingt sehen, was? Hmmm... $h||*seufz*... Ich vermisse die schönen Blumen vom Sternentautal...$s",
+        "es": "¿No te resulta caro venir al desierto tan a menudo?#$e#Te debe de gustar venir a verme, ¿no? Hmmm... $h||*suspiro*... Echo de menos las preciosas flores de Stardew Valley...$s",
+        "fr": "Ça ne te coûte pas une petite fortune de venir aussi souvent dans le désert ?#$e#Tu dois vraiment aimer me voir, hein ? Mmm...$h||*Soupir*... Les magnifiques fleurs de Stardew Valley me manquent...$s",
+        "hu": "Nem túl drága eljönni a sivatagba ilyen gyakran, mint ahogyan te teszed?#$e#Biztosan szeretsz velem találkozni, mi? Hmmm... $h||*sóhaj*... Nekem annyira hiányoznak Stardew Valley csodálatos virágai...$s",
+        "it": "Ma non ti costa troppo venire così spesso nel deserto?#$e#Farmi visita deve davvero piacerti, eh? Hmmm... $h||*sospira*... Mi mancano tanto i bei fiori di Stardew Valley...$s",
+        "ja": "砂漠に 何度も やってくるのって 結構 金が かかったりしない？#$e#そんなに 私と 会いたいの？ふーん…$h||はあ… スターデューバレーのきれいな花々が恋しいわ…$s",
+        "en": "Isn't it expensive, coming to the desert so often like you do?#$e#You must really like to see me, huh? Hmmm... $h||*sigh*... I do miss the beautiful flowers of Stardew Valley...$s",
+        "ko": "사막에 이렇게 자주 오면 돈 많이 들지 않아?#$e#나 정말 많이 보고 싶은 거구나? 흐음... $h||*휴우*... 스타듀 밸리의 예쁜 꽃들이 너무 보고 싶다...$s",
+        "pt": "Não é um pouco caro vir ao deserto com tanta frequência?#$e#Você deve adorar me ver, né? Hmm...$h||*suspira*... Eu sinto saudade das lindas flores do Vale do Orvalho...$s",
+        "ru": "Разве не дорого так часто ездить в пустыню?#$e#Ты, наверное, очень хочешь меня увидеть, да? Хм-м... $h||*вздыхает*... Я и правда скучаю по красивым цветам Долины Стардью...$s",
+        "tr": "Çöle böyle sık gelmek pahalıya patlamıyor mu?#$e#Beni görmeyi seviyorsun ha? Hım... $h||*iç çeker*... Yıldızçiyi Vadisi'nin güzelim çiçeklerini özledim...$s",
+        "zh": "像你这样经常跑来沙漠不是花费很大吗？#$e#你一定是很喜欢来见我，对吧？嗯…… $h||唉……我很怀念星露谷的漂亮花朵……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Sandy.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Sandy.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Sandy.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Sandy.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Sandy.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Sandy.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Sandy.json",
+          "ko": "data\\game_scripts\\Dialogue\\Sandy.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Sandy.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Sandy.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Sandy.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Sandy.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Sandy:accept_866",
+      "author_key": "accept_866",
+      "character": "Sandy",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Eine Rose aus dem Sternentautal? Das ist so schön! Danke!$h#$b#Immer wenn ich das Tal vermisse, werde ich an dieser Rose riechen. Hehe.$h#$b#Hier, nimm das. Es steht seit 10 Jahren im Regal und niemand hat es gekauft. Du kannst es haben!",
+        "es": "¿Una rosa de Stardew Valley? ¡Es todo un detalle! ¡Gracias!$h#$b#Cuando eche de menos el valle, oleré esta rosa. Hehe.$h#$b#Toma, coge esto. Ha estado en el escaparate 10 años y nadie lo ha comprado. ¡Puedes quedártelo!",
+        "fr": "Une rose de Stardew Valley ? Elle est tellement belle ! Je te remercie !$h#$b#Chaque fois que la vallée me manquera, je sentira le parfum de cette rose. Hé, hé.$h#$b#Tiens prends ça. J’essaye de vendre cette chose depuis 10 ans et personne n’en veux. C’est pour toi !",
+        "hu": "Egy Stardew Valley rózsa? Ez olyan csodálatos! Köszönöm!$h#$b#Amikor hiányzik a völgy, akkor meg fogom szagolni ezt a rózsát. Hehe.$h#$b#Tessék, ez a tiéd. Több, mint 10 éve van a polcomon, és még senki se vette meg. A tiéd lehet!",
+        "it": "Una rosa di Stardew Valley? Adorabile! Grazie!$h#$b#Se avrò di nuovo nostalgia della valle, annuserò questa rosa. Hehe.$h#$b#Ecco, prendi questo. È sullo scaffale da 10 anni e nessuno l'ha mai comprato. Te lo regalo!",
+        "ja": "スターデューバレーのバラ？なんて愛らしいの！ありがとう！$h#$b#谷が恋しくなったら、このバラの香りを楽しむわ。ふふふっ。$h#$b#はい、これをあげるわ。10年前から棚に置いてるんだけど、誰も買わないのよ。はい、持って行って！",
+        "en": "A Stardew Valley rose? That's so lovely! Thank you!$h#$b#Whenever I miss the valley, I'll smell this rose. Hehe.$h#$b#Here, take this. It's been on the shelf for 10 years and no one has bought it. You can have it!",
+        "ko": "스타듀 밸리 장미? 너무 사랑스럽다! 고마워!$h#$b#계곡이 그리워질 때마다 이 장미 향기를 맡을게. 헤헤.$h#$b#여기, 이거 줄게. 10년째 전시 중인데 아무도 안 사네. 네가 가져!",
+        "pt": "Uma rosa do Vale do Orvalho? Que encantadora! Obrigada!$h#$b#Sempre que eu sentir saudade do vale, vou cheirar esta rosa. Hehe.$h#$b#Aqui, tome isso. Esteve nas prateleiras por 10 anos e niguém comprou até hoje. Pode ficar!",
+        "ru": "Роза Долины Стардью? Это так мило! Спасибо!$h#$b#Как только я заскучаю по Долине, то сразу понюхаю ее. Хе-хе.$h#$b#Вот, возьми. Эта вещь стоит на витрине уже лет десять, и никто ее так и не купил. Можешь забрать себе!",
+        "tr": "Yıldızçiyi Vadisi gülü mü? Çok güzelmiş! Teşekkür ederim!$h#$b#Ne zaman vadiyi özlesem bu gülü koklayacağım.$h#$b#Bunu al bakalım. 10 yıldır bu rafta duruyordu, alan da olmadı. Senin olsun!",
+        "zh": "星露谷玫瑰？真是太漂亮了！谢谢你！$h#$b#我要是怀念星露谷就闻一闻这朵玫瑰。嘿嘿。$h#$b#来，拿着这个。它已经在架子上待了十年，根本没有人买它。你拿走吧！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Sandy.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Sandy.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Sandy.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Sandy.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Sandy.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Sandy.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Sandy.json",
+          "ko": "data\\game_scripts\\Dialogue\\Sandy.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Sandy.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Sandy.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Sandy.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Sandy.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Sandy:married_Emily",
+      "author_key": "married_Emily",
+      "character": "Sandy",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wie ist der große Tag gelaufen? Emily kam vor einer Weile zu mir und erzählte mir von euren Plänen.#$b#Ich muss euch beide mal auf dem Hof besuchen kommen!",
+        "es": "¿Cómo fue el gran día? Emily vino hace poco y me contó todo sobre vuestros planes.#$b#¡Tendré que ir a visitaros a la granja alguna vez!",
+        "fr": "Comment s’est passé le grand jour ? Emily est venue me voir plus tôt et m’a parlé de tes projets.#$b#Il faudra que je vienne te rendre visite à la ferme un de ces jours !",
+        "hu": "Milyen volt a nagy nap? Emily nemrég itt járt és mesélte, hogy mik a terveitek.#$b#Valamikor meg kellene látogatnom kettőtöket a farmon!",
+        "it": "Com'è andato il grande giorno? Emily è passata di recente e mi ha detto dei tuoi programmi.#$b#Prima o poi devo venire a trovarvi alla fattoria!",
+        "ja": "ねえ、結婚式はどうだった？このあいだエミリーが来て、あなたのプランをぜんぶ教えてくれたの。#$b#いつか2人の牧場に遊びに行かなくちゃね！",
+        "en": "How'd the big day go? Emily came up a while ago and told me all about your plans.#$b#I'll have to come visit you two on the farm sometime!",
+        "ko": "결혼식 어땠어? 에밀리가 전에 와서 나한테 네 계획을 다 알려줬지.#$b#언제 너희 둘 보러 농장에 놀러 갈게!",
+        "pt": "Como foi o grande dia? A Emily veio aqui e me contou sobre todos os planos um tempo atrás.#$b#Eu tenho que visitar a fazenda de vocês algum dia!",
+        "ru": "Как прошло торжество? Эмили не так давно заходила и рассказала о твоих планах.#$b#Когда-нибудь все же загляну к вам на ферму!",
+        "tr": "Büyük gününüz nasıldı? Emily geldi, planlarınızdan bahsetti.#$b#Bir gün sizi çiftlikte ziyaret etmeliyim!",
+        "zh": "你们的婚礼怎么样？艾米丽之前跑过来跟我说了你们的事情。#$b#之后一定要去农场上看看你们俩！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Sandy.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Sandy.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Sandy.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Sandy.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Sandy.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Sandy.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Sandy.json",
+          "ko": "data\\game_scripts\\Dialogue\\Sandy.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Sandy.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Sandy.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Sandy.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Sandy.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'married_Emily' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    }
+  ]
+}

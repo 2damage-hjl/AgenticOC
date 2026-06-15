@@ -1,0 +1,2672 @@
+{
+  "dataset_meta": {
+    "schema": "canonical_dialogue_v2",
+    "source_root": "data/game_scripts/Dialogue",
+    "collection": "Dialogue",
+    "character": "Marnie",
+    "record_count": 40,
+    "dialogue_type_counts": {
+      "general_dialogue": 40
+    }
+  },
+  "records": [
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:AcceptGift_(O)SkillBook_0",
+      "author_key": "AcceptGift_(O)SkillBook_0",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Danke, @. Ich habe immer gern ein Exemplar des Almanachs dabei. Er ist ziemlich genau!$h",
+        "es": "Gracias, @. Siempre me gusta tener un copia del Almanaque por ahí. ¡Es bastante preciso!$h",
+        "fr": "Merci, @. J’aime toujours avoir un exemplaire de l’Almanach à portée de main. C’est assez précis !$h",
+        "hu": "Köszönöm, @. Mindig van egy Almanach másolat nálam. Nagyon pontos!$h",
+        "it": "Grazie, @. Sono sempre contenta di avere una copia dell'Almanacco a disposizione. È molto accurato!$h",
+        "ja": "ありがとう、@さん。いつも手元に年鑑を置いておきたいの。これには情報がたくさん載っているわ！$h",
+        "en": "Thanks, @. I always like to have a copy of the Almanac around. It's pretty accurate!$h",
+        "ko": "고마워, @. 연감은 한 부 챙겨두면 좋더라고. 꽤 정확해!$h",
+        "pt": "Obrigada, @. Eu sempre gosto de ter uma cópia do Almanaque por perto. É bem preciso!$h",
+        "ru": "Спасибо, @. Всегда хотела себе копию Альманаха. Он весьма достоверный!$h",
+        "tr": "Teşekkürler @. Yıllık kopyası bulundurmayı çok severim. Oldukça doğru bir kaynak!$h",
+        "zh": "@，谢谢你，我一直想要一本年历，里面写的都很准！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)SkillBook_0' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:AcceptGift_(O)StardropTea",
+      "author_key": "AcceptGift_(O)StardropTea",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wow, vielen Dank, @. Das werde ich nicht vergessen!",
+        "es": "Guau, un millón de gracias, @. ¡No olvidaré esto!",
+        "fr": "Wouah ! Merci beaucoup, @. Je n’oublierai jamais ça !",
+        "hu": "Váó, ezer hála, @. Ezt nem fogom elfelejteni!",
+        "it": "Wow, un milione di grazie, @. Me ne ricorderò!",
+        "ja": "まあ！ 本当にありがとう、@。このことは一生忘れないわ！",
+        "en": "Wow, thanks a million, @. I won't forget this!",
+        "ko": "와우, 백만 번 고마워, @. 잊지 않을게!",
+        "pt": "Uau, muito obrigada, @. Eu não vou esquecer disso!",
+        "ru": "Ой, большое спасибо, @. Я этого не забуду!",
+        "tr": "Vay be, çok çok teşekkürler @. Bunu unutmayacağım!",
+        "zh": "哇，@，太感谢你了。我会一直记在心里的！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)StardropTea' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Fair_Judged",
+      "author_key": "Fair_Judged",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Nun, ich habe nicht gewonnen... Aber ich bin damit zufrieden, all meine harte Arbeit zu teilen!",
+        "es": "Bueno, no he ganado... ¡Pero compartir los frutos de mi esfuerzo es muy satisfactorio!",
+        "fr": "Eh bien, je n’ai pas gagné... mais c’était toujours sympa de partager avec tout le monde mon dur travail !",
+        "hu": "Nos, nem nyertem... de ugyanúgy nagy öröm volt megosztani mindenkivel kemény munkám eredményét!",
+        "it": "Beh, non ho vinto... ma è stato comunque appagante condividere il mio duro lavoro!",
+        "ja": "あら、 勝てなかったわ… でも、 この成果を みんなと 分かち合うのは いいことね！",
+        "en": "Well, I didn't win... but it was still satisfying to share all my hard work!",
+        "ko": "이기진 않았지만... 내 노력의 성과를 보여줄 수 있어서 만족스러워!",
+        "pt": "Bem, não ganhei... mas ainda assim, foi satisfatório compartilhar todo o meu trabalho duro!",
+        "ru": "Ну да, я не победила... Но было приятно показать всем плоды моих трудов!",
+        "tr": "Eh, kazanamadım... Yine de emeğimi sergilemekten tatmin oldum!",
+        "zh": "嗯，虽然我没有赢……但能和大家一起分享我辛勤劳作的成果，这也不错！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Fair_Judged' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Fair_Judged_PlayerLost_PurpleShorts",
+      "author_key": "Fair_Judged_PlayerLost_PurpleShorts",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Der lila Kohl sah schon echt merkwürdig aus...$h#$b#Ich schwöre, der sah aus wie Bürgermeister Lewis' violette Unter...$3#$b#Oh!... Haha... Vergiss, was ich gesagt habe!$4",
+        "es": "¡Qué lechuga morada tan curiosa has añadido a tu exposición!$h#$b#Se parecía mucho a los calzoncillos especiales del alcal...$3#$b#¡Oh...! Eh... ¡Olvida lo que acabo de decir!$4",
+        "fr": "C’était une étrange laitue violette sur ton présentoir !$h#$b#J’aurais juré qu’elle ressemblait aux sous-vêt... euh, à quelque chose du maire Lewis.$3#$b#Oh, peu importe ! Ça n’a pas d’importance !$4",
+        "hu": "De furcsa kinézete van annak a lila salátának a kirakatodban!$h#$b#Esküszöm, hogy pont úgy néz ki, mint Lewis polgármester különleges alsón... $3#$b#Ó!... heh... hagyjuk!$4",
+        "it": "Era una lattuga viola proprio strana, quella della tua bancarella!$h#$b#Giuro, mi ha ricordato un sacco il sindaco e quelle sue mut... $3#$b#Oh!... heh... lascia stare!$4",
+        "ja": "変な紫のレタスだったのね！$h#$b#まさに町長ルイスの特別なパンツ…$3#$b#あぁ！…はは…なんでもないわ！$4",
+        "en": "That was some strange-looking purple lettuce in your grange display!$h#$b#I swear, it looked just like Mayor Lewis' special und... $3#$b#Oh!... heh... never mind!$4",
+        "ko": "농가 전시에 정말 이상해 보이는 보라색 상추였어!$h#$b#맹세컨대, 루이스 시장님의 행운의 속... $3#$b#오!... 헤... 아무것도 아냐!$4",
+        "pt": "Que alface roxa esquisita é essa aí na sua exposição!$h#$b#Pois é, parece até com a cueca do pref... $3#$b#Ops! É... deixa quieto!$4",
+        "ru": "Какой чудной у тебя был фиолетовый латук в лотке!$h#$b#Ей-богу, чуть не перепутала — мэр наш, Льюис, по особым случаям надевает похожие подштан-$3#$b#Ой!.. Хе-хе... Ладно, забудь!$4",
+        "tr": "Çiftlik serginde garip görünümlü mor bir marul vardı!$h#$b#Yemin ederim Başkan Lewis'in özel... $3#$b#Ah!.. Heh... Neyse ne yav!$4",
+        "zh": "你的农庄展览格子里放了些样子很奇怪紫色生菜啊！$h#$b#等等，这看起来像极了刘易斯镇长的内……$3#$b#噢！……嘿嘿……没事！$4"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Fair_Judged_PlayerLost_PurpleShorts' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Fair_Judging",
+      "author_key": "Fair_Judging",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Nun, wird schon schiefgehen...",
+        "es": "Bueno, a ver cómo va...",
+        "fr": "Eh bien, c’est parti...",
+        "hu": "Nos, mindent vagy semmit...",
+        "it": "Beh, o la va o la spacca...",
+        "ja": "さあ、 いくわよ…",
+        "en": "Well, here goes nothing...",
+        "ko": "그래, 한번 해봐야지...",
+        "pt": "Bem, seja o que Deus quiser...",
+        "ru": "Итак...",
+        "tr": "Heh, hadi hayırlısı...",
+        "zh": "那么，姑且一试吧……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Fair_Judging' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Fri",
+      "author_key": "Fri",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du kannst mich in den meisten Nächten in der Kneipe treffen.#$e#Tiere sind eine gute Gesellschaft, aber ich muss auch Zeit mit Menschen verbringen.",
+        "es": "Puedes encontrarme en el Salón casi todas las noches.#$e#Los animales hacen mucha compañía, pero también necesito pasar tiempo con personas.",
+        "fr": "Tu peux me trouver au saloon presque tous les soirs#$e#J’aime bien être en compagnie d’animaux, mais j’ai aussi besoin de voir des gens.",
+        "hu": "A legtöbb éjszakán a szalonban találhatsz engem.#$e#Az állatok jó társaságnak bizonyulnak, de néhanapján emberekkel is kell időt töltenem.",
+        "it": "La gran parte delle serate, mi trovi al saloon.#$e#Gli animali tengono molta compagnia, ma ho bisogno di stare anche con le persone.",
+        "ja": "ほとんどの日の 夜は、 酒場で あたしと 会えるわ。#$e#動物は いい 仲間だけど、 人と 一緒に 過ごす時間だって 必要よ。",
+        "en": "You can catch me at the saloon most nights.#$e#Animals are great company, but I need to spend time with people, too.",
+        "ko": "난 밤에는 주로 주점에 있어.#$e#동물들과 있는 것도 좋지만, 난 사람들하고도 시간을 보내야 한다고.",
+        "pt": "Você pode me encontrar na taverna quase todas as noites.#$e#Os animais são ótima companhia, mas preciso passar um tempo com pessoas também.",
+        "ru": "По вечерам я часто бываю в салуне.#$e#Животные — хорошая компания, но иногда мне нужно побыть и среди людей.",
+        "tr": "Çoğu akşam beni salonda bulabilirsin.#$e#Hayvanlar bana güzelce eşlik ediyor, fakat insanlarla da zaman geçirmem gerekiyor.",
+        "zh": "大多数晚上，你可以在酒吧找到我。#$e#动物们是很好的同伴，但我也需要花时间和人们相处。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Fri6",
+      "author_key": "Fri6",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich frage mich, ob Herr Lewis in seinem riesigen Haus einsam ist...$s#$e#Es sieht dort drin so leer aus, oder?",
+        "es": "Me pregunto si el Sr. Lewis se sentirá solo en esa casa tan grande...$s#$e#Seguro que echa de menos tener compañía, ¿no crees?",
+        "fr": "Je me demande si M. Lewis se sent seul dans sa grande maison...$s#$e#Elle semble bien vide, non ?",
+        "hu": "Azon tűnődöm, hogy vajon Mr. Lewis nem magányos abban a nagy házban... $s#$e#Olyan üresnek tűnik ott, nem?",
+        "it": "Mi chiedo se il signor Lewis si senta solo in quella sua grande villa... $s#$e#Sembra essere così vuota, non trovi?",
+        "ja": "ルイスさん、 あんな 大きな家に 住んでいて さびしくならないかしら…$s#$e#彼一人だけじゃ 広すぎると 思わない？",
+        "en": "I wonder if Mr. Lewis gets lonely in that big house of his... $s#$e#It seems so empty in there, doesn't it?",
+        "ko": "루이스 씨가 그 큰 집에서 혼자 지내면서 외로워하나 궁금하네... $s#$e#그 집 꽤 비어있어 보이지 않아?",
+        "pt": "Será que o sr. Lewis não se sente sozinho em seu casarão...$s#$e#Parece tão vazio aqui, não acha?",
+        "ru": "Интересно, бывает ли мистеру Льюису одиноко в его огромном доме...$s#$e#Там так пусто, правда?",
+        "tr": "Bay Lewis hiç o büyük evinde yalnız kalıyor mudur acaba?.. $s#$e#Orası çok boş durmuyor mu?",
+        "zh": "不知道刘易斯先生一个人住在那么大的房子里会不会孤单呢……$s#$e#难道你不觉得那里空荡荡的吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:GreenRain",
+      "author_key": "GreenRain",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du bist nicht besorgt wegen des Regens? Das beruhigt mich ein wenig...#$e#Ich hoffe nur, dass die Kühe sich selbst ins Trockene gebracht haben...$s",
+        "es": "¿No te preocupa esta lluvia? Eso me hace sentir un poco más tranquila...#$e#Solo espero que las vacas se hayan arropado solitas...$s",
+        "fr": "Tu ne t’inquiètes pas de cette pluie ? Ça me rassure un peu...#$e#J’espère juste que les vaches se sont mises à l’abri...$s",
+        "hu": "Te nem aggódsz emiatt az eső miatt? Az számomra kissé megnyugtató...#$e#Csak remélem, hogy a tehenek bebújtak a helyükre...$s",
+        "it": "Questa pioggia non ti preoccupa? Allora sono un po' più tranquilla...#$e#Spero solo che le mucche si facciano una scorpacciata...$s",
+        "ja": "あなたはこの雨が心配じゃないの？ それなら少しは安心できるわね…#$e#牛たちがおびえていなければいいけれど…$s",
+        "en": "You're not worried about this rain? That does put me at ease a little...#$e#I just hope the cows tucked themselves in...$s",
+        "ko": "너는 이 비를 걱정하진 않는구나? 네가 그렇다니 나도 조금 마음이 놓인다...#$e#소들이 괜찮아야 할 텐데...$s",
+        "pt": "Você não está preocupado com esta chuva? Isso me acalma um pouquinho...#$e#Eu só espero que as vacas tenham se escondido...$s",
+        "ru": "Ты не переживаешь насчет дождя? Мне от этого немного легче...#$e#Просто надеюсь, что коровы зашли в хлев...$s",
+        "tr": "Yağmur seni endişelendiriyor mu? Beni biraz sakinleştirdi açıkçası...#$e#Umarım inekler dışarıda kalmamıştır...$s",
+        "zh": "你好像不是很担心这场雨？那我就稍微安心一点了……#$e#但愿牛都躲好了，没有乱跑……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "weather_green_rain",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:GreenRainFinished",
+      "author_key": "GreenRainFinished",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Sieht so aus, als hätten wir alle umsonst Angst gehabt... Der Regen war völlig harmlos!",
+        "es": "Bueno, parece que nos asustamos por nada... ¡La lluvia era totalmente inofensiva!",
+        "fr": "Et bien, on dirait que nous avons tous eu peur pour rien... Cette pluie était totalement inoffensive !",
+        "hu": "Nos, úgy tűnik a semmi miatt ijedtünk meg... Az eső teljesen ártalmatlan volt!",
+        "it": "Beh, a quanto pare ci siamo spaventati tutti per nulla... La pioggia era totalmente innocua!",
+        "ja": "私たちは心配しすぎだったのかしら…あの雨に害はなかったみたいね！",
+        "en": "Well, looks like we all got scared for nothing... The rain was totally harmless!",
+        "ko": "다들 괜히 비 걱정했나 보다... 아무런 문제가 없었어!",
+        "pt": "Bem, parece que nós ficamos com medo para nada... A chuva era completamente inofensiva!",
+        "ru": "Что ж, похоже, мы все перепугались просто так... Дождь оказался вообще не опасным!",
+        "tr": "Eh, görünüşe göre yok yere endişelenmişiz... Yağmur tamamen zararsızmış!",
+        "zh": "哎，感觉根本没必要害怕嘛……这场雨根本没什么害处！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'GreenRainFinished' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:GreenRain_2",
+      "author_key": "GreenRain_2",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Die Tiere scheinen diesen Regen zu genießen... Ich glaube, er fügt dem Gras zusätzliche Nährstoffe zu.",
+        "es": "Los animales parecen disfrutar esta lluvia... Creo que aporta nutrientes extra al pasto.",
+        "fr": "Les animaux semblent apprécier cette pluie... Je pense qu’elle apporte des nutriments supplémentaires à l’herbe.",
+        "hu": "Úgy tűnik az állatok élvezik ezt az esőt... Azt hiszem extra tápanyaggal tölti meg a füveket.",
+        "it": "Sembra che la pioggia piaccia agli animali... Credo che metta nutrienti extra nell'erba.",
+        "ja": "動物たちはこの雨を楽しんでるみたい…きっと雨が芝生に栄養を与えているんだわ。",
+        "en": "The animals seems to enjoy this rain... I think it's putting extra nutrients into the grass.",
+        "ko": "동물들은 이 비를 좋아하더라고... 풀에 영양소가 더 많아지나 봐.",
+        "pt": "Parece que os animais gostam desta chuva... Eu acho que ela está colocando mais nutrientes na grama.",
+        "ru": "Похоже, животным нравится этот дождь... Думаю, от него трава стала более питательной.",
+        "tr": "Hayvanlar, yağmuru çok sevmiş gibi duruyor... Sanırım bu, çimenleri ekstradan besliyor.",
+        "zh": "动物好像还挺喜欢这场雨的……可能是因为它让草料的营养增加了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Introduction",
+      "author_key": "Introduction",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ah, Bürgermeister Lewis hat mir gesagt, dass du gerade angekommen bist. Ich bin Marnie!#$e#Ich verkaufe Nutztiere und allerlei Hilfsmittel auf meiner Ranch. Schau auf jeden Fall mal vorbei.$h",
+        "es": "Ah, el alcalde Lewis me ha dicho que acabas de llegar. ¡Soy Marnie!#$e#Vendo ganado y productos para animales en mi rancho. Deberías pasarte un día.$h",
+        "fr": "Ah, le maire Lewis m’a dit que tu venais d’arriver. Je m’appelle Marnie !#$e#Je vends du bétail et des produits de soin pour animaux. Tu devrais passer me voir un de ces jours.$h",
+        "hu": "Ah, Lewis polgármester szólt, hogy nemrég érkeztél. Marnie vagyok!#$e#A tanyámon haszonállatokat és állati termékeket adok el. Beugorhatnál valamikor.$h",
+        "it": "Ah, il sindaco Lewis mi ha detto che sei qui da pochissimo. Sono Marnie!#$e#Vendo bestiame e prodotti per la cura degli animali al mio ranch. Dovresti passarci ogni tanto.$h",
+        "ja": "あら、 ルイスさんから あなたの ことは 聞いてるわ。あたしは マーニーよ！#$e#あたしの牧場で、 動物や 飼育用品を 売ってるわよ。良かったら 見にきてね。$h",
+        "en": "Ah, Mayor Lewis told me you just arrived. I'm Marnie!#$e#I sell livestock and animal care products at my ranch. You should swing by some time.$h",
+        "ko": "아, 루이스 시장님이 네가 막 도착했다고 얘기해줬어. 난 마니라고 해!#$e#내 목장에서 가축과 관련 물품을 팔고 있어. 언제 한번 방문해.$h",
+        "pt": "Ah, o prefeito Lewis me disse que você acabou de chegar. Meu nome é Marnie!#$e#Vendo gado e produtos para animais no meu rancho. Passe lá um dia desses.$h",
+        "ru": "Ах, мэр Льюис говорил мне, что вы приезжаете. Я — Марни!#$e#Я торгую животными и товарами по уходу за ними. Заходите как-нибудь.$h",
+        "tr": "Ah, Başkan Lewis senden bahsetmişti. Ben Marnie!#$e#Çiftliğimde hayvan ve hayvan bakım malzemeleri satıyorum. Bir ara uğra, olur mu?$h",
+        "zh": "啊，镇长刘易斯跟我说你刚到这里。我是玛妮！#$e#我在我的牧场上卖家禽和动物护理用品。你有空的话可以来光顾一下哦。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Introduction' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Mon",
+      "author_key": "Mon",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich liebe Tiere, Herr @. Wenn du dich gut um sie kümmerst, werden wir sicher gute Freunde!^Ich liebe Tiere, Frau @. Kümmere dich gut um sie und wir werden definitiv Freunde!",
+        "es": "Me encantan los animales, @. Si tratas bien a los tuyos, ¡seguro que seremos buenos amigos!^Me encantan los animales, @. Trátalos con cariño y seremos buenas amigas, ¡seguro!",
+        "fr": "J’adore les animaux, Monsieur @. Si tu traites bien les tiens, je suis sûre que nous allons devenir de amis !^J’adore les animaux, madame @. Traite-les avec gentillesse et nous serons bonnes amies, j’en suis sûre !",
+        "hu": "Szeretem az állatokat, @. Ha jól bánsz a tieiddel, akkor jó barátok leszünk!^Szeretem az állatokat, @. Bánj jól a tieiddel és biztos, hogy jó barátok leszünk!",
+        "it": "Io amo gli animali, signor @. Se tratti i tuoi come si deve, sono sicura che diverremo buoni amici!^Io adoro gli animali, signorina @. Trattali bene e saremo grandi amiche, ne sono certa!",
+        "ja": "あたしは 動物が 好きなのよ、@さん。あなたも 動物が 好きなら、 お互い 仲良く なれそうね！^あたしは 動物が 好きなのよ、@さん。ちゃんと 世話して、 お互い 仲良く なりましょうね！",
+        "en": "I love animals, Mr. @. If you treat yours well I'm sure we'll become good friends!^I just love animals, Ms. @. Treat them kindly and we'll become friends, I'm sure!",
+        "ko": "@씨, 난 동물들을 사랑해. 네 동물들을 잘 돌봐준다면 우린 분명 좋은 친구가 될 거야!^@씨, 난 동물들을 사랑해. 동물을 착하게 대해준다면 우린 분명 좋은 친구가 될 거야!",
+        "pt": "Eu amo animais, Sr. @. Se você tratá-los bem, tenho certeza que vamos ser bons amigos!^Eu amo animais, sra. @. Se você tratá-los bem, vamos ser amigas. Tenho certeza!",
+        "ru": "Уважаемый @, я души не чаю в животных. Я уверена, что если вы будете хорошо с ними обращаться, то мы с вами скоро подружимся!^Уважаемая @, я души не чаю в животных. Если будете хорошо с ними обращаться, то мы с вами скоро подружимся!",
+        "tr": "Hayvanları seviyorum, @ Bey. Sen de seninkilere iyi davranırsan harika geçineceğimize eminim!^Hayvanları seviyorum, @ Hanım. Onlara kibar davrandığın takdirde iyi arkadaş olabiliriz!",
+        "zh": "我爱动物，@先生。如果你好好对待你的动物的话，我相信我们能成为好朋友的！^我真的爱动物，@女士。好好地对待你的动物，我们就能成为好朋友，一定能的！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Mon4",
+      "author_key": "Mon4",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Tiere sind so unschuldig und niedlich. Und wenn ich mich nicht um sie kümmere, wer dann?$s#$e#Ich hoffe, meine Hühner sind nicht zu verärgert, wenn ich ihre Eier nehme.$s",
+        "es": "Los animales son tan inocentes y tan dulces. Si yo no cuido de ellos, ¿quién lo hará?$s#$e#Espero que a las gallinas no les siente mal que me lleve sus huevos.$s",
+        "fr": "Les animaux sont si innocents et si gentils. Si je ne les soigne pas, qui le fera ?$s#$e#J’espère juste que mes poules ne sont pas trop en colère contre moi quand je prends leurs oeufs.$s",
+        "hu": "Az állatok olyan ártatlanok, oly édesek. És ha én nem vigyázok rájuk, akkor ki fog?$s#$e#Remélem azért a csirkék nem mérgesek, mikor elveszem a tojásaikat.$s",
+        "it": "Gli animali sono così innocenti, così dolci. E se non mi prendo cura io di loro, chi lo farà?$s#$e#Spero solo che le mie galline non si offendano troppo, quando prendo le loro uova.$s",
+        "ja": "動物は 純粋で とっても かわいいわ。あたしが 世話しなかったら 誰が するのかしら？$s#$e#卵を 取る時、 ニワトリが 動揺 しなければ いいんだけど…$s",
+        "en": "Animals are so innocent, so sweet. And If I don't look after them, who will?$s#$e#I just hope my chickens aren't too upset when I take their eggs.$s",
+        "ko": "동물들은 너무 순진하고 귀여워. 내가 안 돌보면, 누가 돌보지?$s#$e#내가 달걀을 가져갈 때 닭들이 속상해하지 않기를 바라.$s",
+        "pt": "Os animais são tão doces... tão inocentes. E se eu não cuidar deles, quem vai?$s#$e#Só espero que as minhas galinhas não fiquem muito chateadas quando pego os ovos delas.$s",
+        "ru": "Животные такие милые и невинные. Кто позаботится о них, если не я?$s#$e#Я надеюсь, мои курочки не слишком огорчаются, когда я забираю у них яйца.$s",
+        "tr": "Hayvanlar çok tatlı, çok masumlar. Onlara ben bakmazsam kim bakacak?$s#$e#Umarım yumurtalarını aldığımda tavuklar bana darılmıyorlardır.$s",
+        "zh": "动物是如此的天真无邪，真好。如果我们不照顾它们，谁来照顾它们呢？$s#$e#但愿当我拿走鸡蛋的时候，母鸡们不会太难过。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Resort",
+      "author_key": "Resort",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hehe... endlich eine Chance, meine ganze harte Arbeit im Aerobic-Club zu zeigen.$h",
+        "es": "Hehe... finalmente una oportunidad de mostrar mi trabajo duro en el club de aerobic.$h",
+        "fr": "Hé, hé... C’est l’opportunité idéale pour montrer tout mon travail acharné au club d’aérobic.$h",
+        "hu": "Hehe... végre bemutathatom, hogy mi lett az aerobik klubban végzett kemény munkám eredménye.$h",
+        "it": "Hehe... finalmente posso raccogliere i frutti della fatica fatta al circolo di aerobica.$h",
+        "ja": "えへへ…やっとエアロビクスクラブで頑張った姿を披露できるチャンスよ。$h",
+        "en": "Hehe... finally a chance to show off all my hard work at aerobics club.$h",
+        "ko": "헤헤... 에어로빅의 성과를 보여줄 때가 왔네.$h",
+        "pt": "Hehe... finalmente uma chance de mostrar todo o meu trabalho duro no clube de ginástica.$h",
+        "ru": "Хе-хе... Пришла пора показать всем результат моих походов на аэробику.$h",
+        "tr": "Hehe... Sonunda elime aerobik kulübünde öğrendiklerimi gösterme fırsatı geçti.$h",
+        "zh": "嘿嘿……终于有机会展示一下我在有氧健身俱乐部辛苦付出的成果了。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Resort_Bar",
+      "author_key": "Resort_Bar",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Puh... Es ist heiß! $s",
+        "es": "Phew... ¡Hace calor!$s",
+        "fr": "Pfiou... C’est chaud !$s",
+        "hu": "Huhhh... Forróság van!$s",
+        "it": "Fiù... Che caldo!$s",
+        "ja": "ふう…熱いわ！$s",
+        "en": "Phew... It's hot!$s",
+        "ko": "휴... 뜨거워!$s",
+        "pt": "Ufa... Está tão quente!$s",
+        "ru": "Фух... Как же тут жарко!$s",
+        "tr": "Uff... Çok sıcak be!$s",
+        "zh": "呼……真热！$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Resort_Chair",
+      "author_key": "Resort_Chair",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ihh... der Stuhl ist nass.",
+        "es": "Ew... la silla está mojada.",
+        "fr": "Oh, non... La chaise est mouillée.",
+        "hu": "Fúj... vizes a szék.",
+        "it": "Bleh... la sedia è bagnata.",
+        "ja": "うわっ…イスが濡れてる。",
+        "en": "Ew... the chair's wet.",
+        "ko": "으... 의자가 축축하네.",
+        "pt": "Que nojo... a cadeira tá molhada.",
+        "ru": "Иу... стул мокрый.",
+        "tr": "Öff... Sandalye ıslakmış.",
+        "zh": "哎哟……椅子是湿的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Resort_Leaving",
+      "author_key": "Resort_Leaving",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Mir ist warm.",
+        "es": "Hace calor.",
+        "fr": "J’ai chaud.",
+        "hu": "Melegséget érzek.",
+        "it": "Mi sono scaldata.",
+        "ja": "暖かい気持ちになったわ。",
+        "en": "I feel warm.",
+        "ko": "따뜻한 느낌이 들어.",
+        "pt": "Me sinto quente.",
+        "ru": "Мне тепло.",
+        "tr": "Sıcaklandım.",
+        "zh": "我感觉很暖和。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Resort_Shore",
+      "author_key": "Resort_Shore",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hee hee... Es ist interessant, alle in ihren Badeanzügen zu sehen.",
+        "es": "Hee hee... Es interesante ver a todos en bañador.",
+        "fr": "Hé, hé... C’est intéressant de voir tout le monde en maillot de bain.",
+        "hu": "Hee hee... Érdekes mindenkit a fürdőruhájában látni.",
+        "it": "Hii hii... È interessante vedere tutti in costume da bagno.",
+        "ja": "えへへ…みんなの水着姿を見るのは面白いわね。",
+        "en": "Hee hee... It's interesting to see everyone in their bathing suits.",
+        "ko": "히히... 다들 수영복 입은 모습이 재밌네.",
+        "pt": "Hee hee... É interessante ver todo mundo em seus trajes de banho.",
+        "ru": "Хе-хе... Все в купальниках, это забавно.",
+        "tr": "Hehe... Herkesi mayolarıyla görmek bayağı ilginç oldu.",
+        "zh": "嘻嘻……看到大家都穿着泳衣还挺好玩的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Saloon",
+      "author_key": "Saloon",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Jetzt wo ich hier bin, kann ich mich endlich ein wenig entspannen und mit den Leuten reden.",
+        "es": "Ahora que estoy aquí por fin puedo relajarme y socializar.",
+        "fr": "Maintenant que je suis là, je peux enfin me détendre et me faire des amis.",
+        "hu": "Mivel itt vagyok, így végre van időm egy kicsit pihenni és szocializálódni.",
+        "it": "Ora che sono qui posso rilassarmi, finalmente, e socializzare un po'.",
+        "ja": "こうしていると、 ようやく 落ち着いて お話 できるわね。",
+        "en": "Now that I'm here I can finally relax and socialize a bit.",
+        "ko": "여기 왔으니 이제 드디어 좀 쉬면서 사람들과 어울릴 수 있겠어.",
+        "pt": "Agora que estou aqui, finalmente posso relaxar e fazer amigos.",
+        "ru": "Вот я и пришла, теперь можно отдохнуть и поболтать.",
+        "tr": "Burada olduğuma göre biraz rahatlayıp sosyalleşebilirim.",
+        "zh": "在这里，我终于能放松一下，聊聊天了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Saloon' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Saloon_Fri",
+      "author_key": "Saloon_Fri",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "%Marnie scheint nicht zu bemerken, dass du hier bist...",
+        "es": "%Marnie parece no darse cuenta de que estás ahí...",
+        "fr": "%Marnie ne semble pas remarquer ta présence...",
+        "hu": "%Marnie nem veszi észre, hogy itt vagy...",
+        "it": "%Marnie non sembra notare che ci sei...",
+        "ja": "%マーニーは あなたが いることに 気づいていないようだ。",
+        "en": "%Marnie doesn't seem to notice that you're there...",
+        "ko": "%마니는 당신이 옆에 있다는 것을 눈치채지 못한 것 같습니다...",
+        "pt": "%Marnie não percebeu sua presença...",
+        "ru": "%Похоже, Марни вас даже не замечает...",
+        "tr": "%Marnie burada olduğunu fark etmemişe benziyor...",
+        "zh": "%玛妮好像没看到你……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Saloon_Fri' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Saloon_Sat",
+      "author_key": "Saloon_Sat",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich sehe immer Clint hier, aber redet mit niemandem. Er schaut nur gelegentlich über seine Schulter.$s",
+        "es": "Siempre veo a Clint aquí, pero nunca habla con nadie. Solo mira por encima de su hombro de vez en cuando.$s",
+        "fr": "Clint vient tout le temps ici, mais il ne parle à personne. Il se contente de me lancer des regards de temps à autre.$s",
+        "hu": "Mindig látom Clintet idebent, de senkihez se szól. Csak néha szétnéz és ennyi.$s",
+        "it": "Vedo sempre Clint qui, ma non parla mai con nessuno. Si limita, ogni tanto, a lanciarsi un'occhiata dietro le spalle.$s",
+        "ja": "クリントが いつも 来るけど、 誰とも 話さないの。ただ 肩越しに チラ見 してくる だけ。$s",
+        "en": "I always see Clint here but he won't talk to anyone. He just glances over his shoulder now and then.$s",
+        "ko": "여기 오면 항상 클린트가 있는데 아무와도 얘기를 하지 않아. 그냥 가끔 어깨너머로 힐끗힐끗 쳐다보더라고.$s",
+        "pt": "Sempre vejo o Clint aqui, mas ele não fala com ninguém. Ele só balança os ombros de vez em quando.$s",
+        "ru": "Я постоянно вижу здесь Клинта, но он ни с кем не разговаривает. Только оглядывается через плечо иногда.$s",
+        "tr": "Clint'i hep buralarda görüyorum fakat kimseyle konuşmuyor, sadece ara sıra omzunun üstünden bakış atıyor.$s",
+        "zh": "我总能在这儿看到克林特，但是他不愿意和任何人说话。他总是时不时地回头瞅瞅。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Saloon_Sat' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Saloon_Sun",
+      "author_key": "Saloon_Sun",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "*seufz*... Ich war heute nicht sehr produktiv.",
+        "es": "*Sigh...* Hoy no ha sido un día demasiado productivo.",
+        "fr": "*Soupir* ... Je ne suis pas très productive aujourd’hui.",
+        "hu": "*sóhaj*... Ma nem voltam túlságosan eredményes.",
+        "it": "*sospira*... Oggi non sono stata molto produttiva.",
+        "ja": "はぁ… 今日の 仕事は ダメだわ。",
+        "en": "*sigh*... I wasn't very productive today.",
+        "ko": "*한숨*... 나 오늘은 별로 열심히 일하지 못했어.",
+        "pt": "*Aaah*... Não fui muito produtiva hoje.",
+        "ru": "Эх... Немного я сегодня сделала.",
+        "tr": "*iç çeker* Bugün çok bir şey yapamadım.",
+        "zh": "*唉*……我今天不是很有效率。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Saloon_Sun' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Saloon_Thu",
+      "author_key": "Saloon_Thu",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Puh! Es fühlt sich gut an, nach einem harten Arbeitstag die Seele baumeln zu lassen.",
+        "es": "Fíu... Qué bien sienta relajarse tras un duro día de trabajo.",
+        "fr": "Pfiou ! Ça fait du bien de se détendre après une dure journée de travail.",
+        "hu": "Huhhh! Jó érzés egy kemény melós nap után kirúgni a hámból.",
+        "it": "Fiù! Certo che è un gran piacere riposarsi, dopo una giornata di duro lavoro.",
+        "ja": "ふぅ！ハードな 仕事の 後は、 ゆっくり 休むに 限るわね。",
+        "en": "Phew! It sure feels good to kick back after a hard day's work.",
+        "ko": "휴! 하루 열심히 일하고 나서 쉬는 건 참 기분이 좋아.",
+        "pt": "Ufa! Como é bom relaxar após um dia de trabalho.",
+        "ru": "Уф! Как же хорошо расслабиться после тяжелого дня.",
+        "tr": "Of be! Sıkı bir çalışma gününün ardından uzanmak iyi hissettiriyor.",
+        "zh": "呼！努力工作了一天之后休息一下感觉真是不错。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Saloon_Thu' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Saloon_Tue",
+      "author_key": "Saloon_Tue",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Heute sind nicht viele Leute hier...$s",
+        "es": "Hoy no hay mucha gente por aquí...$s",
+        "fr": "Il n’y a pas beaucoup de monde ici aujourd’hui...$s",
+        "hu": "Ma nincsenek itt túl sokan...$s",
+        "it": "Oggi non ci sono molte persone qui...$s",
+        "ja": "今日は あんまり 人が こないわね…$s",
+        "en": "There aren't very many people here today...$s",
+        "ko": "오늘은 여기 사람이 별로 없네...$s",
+        "pt": "Não tem muita gente aqui hoje...$s",
+        "ru": "Что-то немного здесь сегодня народу...$s",
+        "tr": "Bugün burada pek kimse yok...$s",
+        "zh": "今天人不太多呢……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Saloon_Tue' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Saloon_Wed",
+      "author_key": "Saloon_Wed",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "#$1 marnieAnimalSal#Ich habe heute einen ganzen Eimer Milch auf dem Boden verschüttet, es war furchtbar. Und so eine Verschwendung der harten Arbeit meiner armen Belinda.$k$s#$e#Es ist nett von dir, dass du vorbeikommst! Es ist schon ein wenig mehr los.",
+        "es": "#$1 marnieAnimalSal#Se me ha caído un cubo entero de leche por el suelo, ha sido horrible. Menuda forma de desperdiciar el duro trabajo de mi pobre Belinda.$k$s#$e#¡Qué bien que te pases por aquí! Ahora está un poco más animado.",
+        "fr": "#$1 marnieAnimalSal#J’ai renversé un seau de lait par terre aujourd’hui, c’était horrible. C’est un tel gaspillage du lait de ma pauvre Belinda qui travaille si dur pour moi.$k$s#$e#C’est gentil de ta part de venir me voir ! C’est un peu plus vivant ici maintenant.",
+        "hu": "#$1 marnieAnimalSal#Ma egy egész vödör tejet öntöttem ki a padlóra, szörnyű volt. Annyira elpazaroltam szegény Belindám kemény munkáját.$k$s#$e#Örülök, hogy felbukkantál! Most már kissé nyüzsgősebb a nap.",
+        "it": "#$1 marnieAnimalSal#Oggi ho rovesciato per terra un intero secchio di latte, è stato orribile. E il duro lavoro della mia povera Belinda, sprecato!$k$s#$e#Che bello che ci sia anche tu! Adesso c'è un po' più di vita.",
+        "ja": "#$1 marnieAnimalSal#今日は ミルクが なみなみ入った バケツを 床に こぼしちゃったの。 サイアクだったわ。ベリンダの 努力の 結晶が 無駄に なった 感じが したわ。$k$s#$e#あら、 来てくれたのね！この場所に 活気が 出てきたわ。",
+        "en": "#$1 marnieAnimalSal#I spilled a whole bucket of milk on the floor today, it was horrible. And such a waste of my poor Belinda's hard work.$k$s#$e#It's nice of you to show up! It's a little more lively now.",
+        "ko": "#$1 marnieAnimalSal#오늘 우유 한 양동이를 엎질렀는데, 끔찍했어. 내 불쌍한 벨린다가 얼마나 힘들여 만들었는데.$k$s#$e#그래도 네가 와서 좋다! 좀 더 활기가 도네.",
+        "pt": "#$1 marnieAnimalSal#Derramei um balde inteiro de leite no chão hoje, foi horrível. Que desperdício do trabalho de minha pobre Belinha.$k$s#$e#É muito gentil da sua parte aparecer! Agora está tudo um pouco mais animado.",
+        "ru": "#$1 marnieAnimalSal#Я сегодня разлила целое ведро молока, это просто ужас. Бедная моя Белинда, столько труда насмарку.$k$s#$e#Это хорошо, что ты здесь! С тобой будет веселее.",
+        "tr": "#$1 marnieAnimalSal#Bugün yere bir kova dolusu süt döktüm, rezaletti. Zavallı Belinda'nın emeklerine de yazık oldu.$k$s#$e#Gelmen iyi oldu! Durumu biraz daha çekilebilir kıldın.",
+        "zh": "#$1 marnieAnimalSal#我把一大篮牛奶都打翻了，太糟了。比琳达辛苦劳作的成果啊，真是浪费。$k$s#$e#你来了就好！现在更热闹了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Saloon_Wed' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Sat",
+      "author_key": "Sat",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Warst du je in diesem merkwürdigen Turm westlich von meinem Haus?#$e#Einmal habe ich ein furchtbares, übernatürliches Geräusch von dort gehört.$s#$e#Ich würde an deiner Stelle diesen Ort meiden...",
+        "es": "¿Has estado en esa torre extraña al oeste de mi casa?#$e#Una vez oí un ruido como de otro mundo que venía de allí.$s#$e#Yo que tú evitaría ese lugar...",
+        "fr": "Tu as déjà été dans cette étrange tour à l’ouest de ma maison ?#$e#Une fois, j’ai entendu un bruit presque surnaturel venant de là-bas.$s#$e#J’éviterais cet endroit si j’étais toi...",
+        "hu": "Voltál már a házamtól nyugatra lévő furcsa toronyban?#$e#Egy alkalommal szörnyű, másvilági hangot hallottam onnét kiszűrődni.$s#$e#Én a helyedben elkerülném azt a helyet...",
+        "it": "Hai visitato la strana torre a ovest di casa mia?#$e#Una volta ho sentito provenire da lì un rumore terribile, ultraterreno.$s#$e#Se fossi in te, girerei al largo...",
+        "ja": "あたしの家の 西にある 変わった 塔へ 行ったことは ある？#$e#あそこから、 この世のものとは 思えない、 恐ろしい 音が 聞こえたことが あるわ。$s#$e#あたしだったら、 あんな場所に 近づきたくないわね…",
+        "en": "Have you been to that strange tower west of my house?#$e#One time I heard this terrible, otherworldly noise coming from there.$s#$e#I would avoid that place if I were you...",
+        "ko": "내 집 서쪽에 있는 이상한 탑에 가본 적 있니?#$e#한번 무슨 기괴하고 이 세상 것이 아닌 것 같은 소리가 그쪽에서 나는 걸 들었어.$s#$e#나라면 그곳에 가는 건 피할 거야...",
+        "pt": "Você foi àquela torre estranha, a oeste da minha casa?#$e#Uma vez, ouvi um barulho horrível, de outro mundo, vindo dali.$s#$e#Eu evitaria aquele lugar se fosse você...",
+        "ru": "Тебе еще не доводилось заходить в странную башню к западу от моего дома?#$e#Как-то я слышала оттуда какие-то жуткие, потусторонние звуки.$s#$e#На твоем месте я бы избегала этой башни...",
+        "tr": "Evimin batısındaki garip kuleyi gördün mü?#$e#Bir keresinde oradan oldukça korkunç, bu dünyadan olmayan bir ses duydum.$s#$e#Yerinde olsaydım oradan uzak dururdum...",
+        "zh": "你去过我家西边那个奇怪的高塔吗？#$e#有一次，我听到那里传来可怕、怪异的声响。$s#$e#我要是你的话就远远避开那个地方……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Sun",
+      "author_key": "Sun",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hey da, gut dich zu sehen!#$e#Besuche mich bitte, wann immer du willst.",
+        "es": "¡Hola! ¡Qué alegría verte!#$e#Ven a vernos cuando quieras.",
+        "fr": "Salut, ça fait plaisir de te voir !#$e#N’hésite pas à venir me voir quand tu veux.",
+        "hu": "Hé, jó téged itt látni!#$e#Nyugodtan nézz be hozzánk, amikor kedved tartja.",
+        "it": "Ehilà, che bello vederti!#$e#Facci pure visita tutte le volte che vuoi.",
+        "ja": "あら、 あえてうれしいわ！#$e#気が向いたら いつでも 来てね。",
+        "en": "Hey there, it's good to see ya!#$e#Feel free to visit us any time you please.",
+        "ko": "안녕, 반가워!#$e#언제라도 내킬 때 방문하러 와줘.",
+        "pt": "Ei! Como é bom ver você!#$e#Visite-nos sempre que precisar.",
+        "ru": "Приветик, рада тебя видеть!#$e#Заходи к нам, если захочешь.",
+        "tr": "Hey, seni görmek güzel!#$e#Bizi istediğin zaman ziyaret etmekte çekinme lütfen!",
+        "zh": "嘿，很高兴见到你！#$e#想什么时候来看我们都可以哦。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Sun8",
+      "author_key": "Sun8",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hi @!$h#$e#Ich bin froh, dass wir Freunde geworden sind. Ich kann dir meine lieben Tiere ohne Bedenken anvertrauen.",
+        "es": "¡Hola, @!$h#$e#Me alegro de que seamos amigos. Sé que puedo confiar en ti para cuidar de mis queridos animales.^Me alegro de que seamos amigas. Sé que puedo confiar en ti para cuidar de mis queridos animales.",
+        "fr": "Salut @ !$h#$e#Je suis contente que nous soyons devenus amis. Je sais que je peux compter sur toi pour prendre soin de mes animaux.",
+        "hu": "Üdv @!$h#$e#Örülök, hogy összebarátkoztunk. Tudom, hogy jó gondját viseled a kedves állataimnak.",
+        "it": "Ciao @!$h#$e#Sono contenta che abbiamo legato. So che posso fidarmi di te, per la cura dei miei animali.",
+        "ja": "こんにちは、@さん！$h#$e#あなたと 友達に なれて うれしいわ。あたしの 大切な 動物達を 任せても いいぐらい あなたを 信じてるわよ。",
+        "en": "Hi @!$h#$e#I'm glad we've become friends. I know I can trust you to take care of my dear animals.",
+        "ko": "안녕 @!$h#$e#우리 친구가 되어서 기뻐. 너한테는 내 소중한 동물들을 믿고 맡길 수 있어.",
+        "pt": "Oi, @!$h#$e#Que bom que somos amigos! Sei que posso confiar em você para tomar conta dos meus queridos animais.",
+        "ru": "Привет, @!$h#$e#Я рада, что мы теперь друзья. Уж тебе-то я могу доверить моих дорогих животных.",
+        "tr": "Merhaba, @!$h#$e#Arkadaş olduğumuza çok memnunum. Değerli hayvanlarımı sana emanet edebileceğimden eminim.",
+        "zh": "嗨，@！$h#$e#真高兴我们能成为朋友。我就知道可以把我可爱的动物们托付给你照顾。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Thu",
+      "author_key": "Thu",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hi. Brauchst du etwas?#$e#Ich bekomme vielleicht ein paar neue Tiere in der Zukunft.#$e#Aber ich muss zuerst abklären, dass es auch einen Markt für sie gibt, also wirst du mir erst dein Talent bei der Tierhaltung beweisen müssen.#$e#Behandle deine Tiere einfach weiter mit Respekt und gute Dinge werden passieren.",
+        "es": "Hola. ¿Necesitas algo?#$e#Voy a ir añadiendo diferentes tipos de animales al catálogo.#$e#Aunque primero tendré que asegurarme de que hay demanda, así que tendrás que demostrar tu habilidad con los animales.#$e#Sigue tratándolos con respeto y ocurrirán cosas buenas.",
+        "fr": "Salut. Tu as besoin de quelque chose ?#$e#Je vais peut-être avoir différents types d’animaux à vendre à l’avenir.#$e#Mais il faut que je m’assure qu’il existe un marché pour eux, donc tu devras d’abord prouver que tu sais élever des animaux.#$e#Continue de traiter tes animaux avec respect et tout ira bien.",
+        "hu": "Üdv. Szükséged van valamire?#$e#A jövőben lehet, hogy másfajta állatokat is be fogok szerezni.#$e#Habár még nem tudom, hogy van-e rájuk kereslet, szóval előbb be kell bizonyítanod, hogy tudsz bánni az állatokkal.#$e#Csak tisztelettel gondozd az állataidat, és jó dolgok fognak történni.",
+        "it": "Ciao. Serve niente?#$e#Forse in futuro prenderò animali diversi.#$e#Anche se bisognerà che m'accerti che ci sia la richiesta, per cui prima dovrai dimostrare la tua bravura nell'allevamento.#$e#Basta che continui a trattare i tuoi animali con rispetto, e succederanno cose buone.",
+        "ja": "よお。何か 必要かしら？#$e#近いうちに、 他の種類の 動物も 取り扱う 予定なの。#$e#でも、 需要があるか しっかり 確認しなきゃ いけないから、 まず 動物の扱いに 慣れてることを あたしに 示して ちょうだい。#$e#動物を ちゃんと 世話 してあげれば、 いいことが 起こるわよ。",
+        "en": "Hi. Need something?#$e#I might be getting some different kinds of animals in the future.#$e#Although, I'll need to make sure there's a market for them, so you'll have to prove your skill with animals first.#$e#Just keep treating your animals with respect and good things will happen.",
+        "ko": "안녕. 필요한 거 있어?#$e#조만간 다른 종류의 동물도 들여올까 봐.#$e#물론, 수요가 있다는 걸 확인하고 진행해야 해서, 네가 이미 있는 동물들을 충분히 다룰 수 있다는 걸 알아야 해.#$e#꾸준히 동물들을 존중해서 돌본다면 좋은 일이 있을 거야.",
+        "pt": "Oi. Precisa de alguma coisa?#$e#Acho que vou comprar novos tipos de animais no futuro.#$e#Mas preciso saber se há mercado para eles, então você terá que provar sua habilidade com eles primeiro.#$e#Basta tratar seus animais com respeito e coisas boas acontecerão.",
+        "ru": "Привет. Что-то нужно?#$e#Может, в будущем я заведу новых животных.#$e#Правда, сначала нужно будет убедиться, что на них есть спрос, так что придется тебе показать, какой из тебя животновод.#$e#Просто уважай животинку и будь с ней добрее, и все будет хорошо.",
+        "tr": "Selam, bir şeye mi ihtiyacın var?#$e#Gelecekte farklı türlerde hayvan satın alabilirim.#$e#Gerçi ilk olarak talep olduğundan emin olmalıyım. Yani ilk olarak hayvanlar konusunda kendini kanıtlaman gerekiyor.#$e#Hayvanlarına iyi bak yeter. Yakında güzel şeyler olacak.",
+        "zh": "嗨。需要什么吗？#$e#我以后可能会养些其他种类的动物。#$e#但是呢，我得确保他们能卖个好价钱，所以你要先加强自己的畜牧技术。#$e#只要尊重对待你的动物们，总会有好事发生。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Thu_2",
+      "author_key": "Thu_2",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du lebst hier schon eine ganze Weile... Wie läuft es mit dem Hof?#$e#Sich um Tiere zu kümmern ist einfach, solange du sie nicht vergisst!$h",
+        "es": "Ya llevas un tiempo aquí... ¿Qué tal va tu granja?#$e#Cuidar de los animales es fácil, ¡siempre que no te olvides de ellos!$h",
+        "fr": "Tu es ici depuis un bon moment, maintenant... comment va ta ferme ?#$e#Prendre soin des animaux est si facile, à condition de ne pas oublier de le faire !$h",
+        "hu": "Egy ideje már itt vagy... hogy megy a farmod?#$e#Könnyű az állatokról gondoskodni, amíg nem feledkezel meg róluk!$h",
+        "it": "Ormai sei qui da un po'... come va la fattoria?#$e#È facile prendersi cura degli animali: basta non dimenticarsene!$h",
+        "ja": "ここでの 生活に なじんできたわね。 それで… 牧場の 調子は どう？#$e#動物の 世話は しっかり 覚えている限り 簡単な ものよ！$h",
+        "en": "You've been here a while, now... how's your farm doing?#$e#Taking care of animals is easy as long as you don't forget about them!$h",
+        "ko": "네가 여기 온 지도 꽤 되었네... 농장은 잘 되어가고 있어?#$e#동물에 대해 잊지만 않는다면 돌보는 일도 쉽지!$h",
+        "pt": "Você já está aqui há algum tempo... como vai sua fazenda?#$e#Cuidar de animais é fácil, desde que você não esqueça deles!$h",
+        "ru": "Ты живешь здесь уже так давно... Как дела на ферме?#$e#За животными ухаживать несложно, только не забывай о них!$h",
+        "tr": "Bir süredir buralardasın... Çiftliğin nasıl?#$e#Eğer unutmazsan, hayvanlarla ilgilenmek çok kolay.$h",
+        "zh": "你已经在这儿呆了一段时间了，……现在你的农场怎么样了？#$e#只要你不疏忽的话，照料动物其实是一件很简单的事！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Tue",
+      "author_key": "Tue",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "$query PLAYER_NPC_RELATIONSHIP any Shane married roommate#Jetzt, wo Shane weg ist, muss ich Jas beibringen, wie man sich um die Hühner kümmert.|Mein Neffe Shane hat die letzten Monate bei mir verbracht.#$e#Er hilft mir mit den Hühnern, also kann ich mich nicht beschweren.",
+        "es": "$query PLAYER_NPC_RELATIONSHIP any Shane married roommate#Ahora que Shane se ha ido, tendré que enseñar a Jas a cuidar de las gallinas.|Mi sobrino Shane lleva viviendo en mi casa unos meses.#$e#Me ayuda con las gallinas, así que no me quejo.",
+        "fr": "$query PLAYER_NPC_RELATIONSHIP any Shane married roommate#Maintenant que Shane est parti, je vais devoir apprendre à Jas comment s’occuper des poules.|Mon neveu Shane habite chez moi depuis quelques mois.#$e#Il m’aide avec les poules, donc je n’ai pas à me plaindre.",
+        "hu": "$query PLAYER_NPC_RELATIONSHIP any Shane married roommate#Most, hogy Shane elment, meg kell tanítanom Jasnak, hogy hogyan gondozhatja a csirkéket.|Az unokaöcsém, Shane nálunk lakik már pár hónapja.#$e#Besegít nekem a csirkéknél, szóval nem panaszkodhatok.",
+        "it": "$query PLAYER_NPC_RELATIONSHIP any Shane married roommate#Ora che Shane se n'è andato, dovrò insegnare a Jas a badare ai polli.|Mio nipote Shane sta a casa mia da qualche mese.#$e#Mi dà una mano con i polli, quindi non mi lamento.",
+        "ja": "$query PLAYER_NPC_RELATIONSHIP any Shane married roommate#シェーンが引っ越してしまったから、ジャスにニワトリの世話の仕方を教えてあげなくちゃ。|甥の シェーンは 数ヶ月前から あたしの 家に 滞在してるの。#$e#ニワトリの 世話を 手伝ってくれてるから、 文句なしよ。",
+        "en": "$query PLAYER_NPC_RELATIONSHIP any Shane married roommate#Now that Shane's gone, I'm going to have to teach Jas how to care for the chickens.|My nephew Shane has been staying at my place the last few months.#$e#He helps me out with the chickens, so I'm not complaining.",
+        "ko": "$query PLAYER_NPC_RELATIONSHIP any Shane married roommate#셰인이 이제 집에 없으니까 재스에게 닭을 돌보는 법을 가르쳐야겠다.|내 조카 셰인이 지난 몇 달간 내 집에서 머무르고 있어.#$e#닭 돌보는 일을 돕고 있어서, 난 별로 불만이 없지만.",
+        "pt": "$query PLAYER_NPC_RELATIONSHIP any Shane married roommate#Agora que o Shane não está mais aqui, eu vou ensinar pra Jas como cuidar de galinhas.|O meu sobrinho, Shane, está morando aqui em casa há alguns meses.#$e#Ele me ajuda com as galinhas, então não posso reclamar.",
+        "ru": "$query PLAYER_NPC_RELATIONSHIP any Shane married roommate#Раз Шейн переехал, теперь мне придется учить Джас за курами смотреть.|Мой племянник Шейн уже пару месяцев живет у меня.#$e#Он помогает мне с курами, так что я не жалуюсь.",
+        "tr": "$query PLAYER_NPC_RELATIONSHIP any Shane married roommate#Shane gittiğine göre Jas'e tavuklarla ilgilenmesini öğretmeliyim.|Yeğenim Shane birkaç aydır benimle kalıyor.#$e#Bana tavuklarla ilgilenmemde yardımcı oluyor, şikayet etmiyorum.",
+        "zh": "$query PLAYER_NPC_RELATIONSHIP any Shane married roommate#谢恩不住这里了，所以我只好开始教贾斯照看小鸡了。|我的侄子谢恩已经在我这待了几个月了。#$e#不过他会帮我养鸡，所以也没什么可抱怨的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:Wed",
+      "author_key": "Wed",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du kannst eine Sense benutzen, um aus Gras Futter zu machen.#$e#Oder du kannst es natürlich von mir kaufen!$h#$e#Ich könnte das Geld gebrauchen...$u#$e#Adios.",
+        "es": "Puedes usar una guadaña para cortar hierba y conseguir heno.#$e#¡O me lo puedes comprar a mí, claro!$h#$e#Me vendría bien el dinero...$u#$e#Chao.",
+        "fr": "Tu peux utiliser une faux pour couper de l’herbe et l’utiliser comme nourriture.#$e#Ou tu peux m’en acheter !$h#$e#Ça me ferait un peu d’argent...$u#$e#À bientôt.",
+        "hu": "A kaszával levághatod a füvet, hogy azzal etesd az állataidat.#$e#Vagy akár tőlem is vásárolhatsz párat, ha gondolod.$h#$e#Jól jönne egy kis pénz...$u#$e#Adios.",
+        "it": "Puoi usare una falce per tagliare l'erba e farne mangime.#$e#Oppure puoi comprarlo da me, ovviamente!$h#$e#Il denaro mi farebbe comodo...$u#$e#Adios.",
+        "ja": "カマで 牧草を 刈れば エサに できるわ。#$e#または、 あたしから 牧草を 買っても いいのよ！$h#$e#お金は あっても 困らないからね…$u#$e#じゃあね。",
+        "en": "You can use a scythe to cut feed from grass.#$e#Or you can buy it from me, of course!$h#$e#I could use the cash...$u#$e#Adios.",
+        "ko": "잔디를 낫으로 잘라서 여물로 쓸 수 있어.#$e#물론, 나한테서 살 수도 있고!$h#$e#나도 장사는 해야 하니까...$u#$e#아디오스.",
+        "pt": "Você pode usar uma foice para cortar a grama.#$e#Ou pode comprar uma comigo, é claro!$h#$e#Um pouco de dinheiro não me faria mal...$u#$e#Adios.",
+        "ru": "Косой можно накосить сена на корм животным.#$e#Ну, или можешь купить сено у меня, конечно!$h#$e#Деньги мне пригодятся...$u#$e#Адиос.",
+        "tr": "Otlardan yem edinmek için tırpanı kullanabilirsin.#$e#Benden de alabilirsin elbette!$h#$e#Biraz para fena olmazdı...$u#$e#Görüşürüz.",
+        "zh": "你可以使用镰刀割草来当饲料。#$e#当然，你也可以从我这里买！$h#$e#我正需要点钱……$u#$e#再见。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:dating_Shane_memory_oneweek",
+      "author_key": "dating_Shane_memory_oneweek",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Shane scheint in letzter Zeit viel positiver und hoffnungsvoller zu sein.#$b#Ich bin so froh, dass du hierher gezogen bist und dass ihr euch so gut versteht!$h",
+        "es": "Shane parece mucho más positivo y esperanzado, últimamente.#$b#Estoy tan feliz de que te mudaras aquí, ¡y de que os llevéis tan bien!$h",
+        "fr": "Shane semble beaucoup plus positif et plein d’espoir ces derniers temps. #$b#Je suis si heureuse que tu aies emménagé ici, et que vous vous entendiez si bien !$h",
+        "hu": "Mostanában Shane sokkal pozitívabbnak és reménytelibbnek tűnik.#$b#Olyan boldog vagyok, hogy ideköltöztél és ennyire kijöttök egymással!$h",
+        "it": "Ultimamente, sembra che a Shane sia tornata la speranza e la voglia di vivere.#$b#Sono davvero felice che tu sia qui, e che vada così d'accordo con lui!$h",
+        "ja": "最近のシェーンはとても前向きで、希望にあふれているようだわ。#$b#あなたがここに来てくれて、そして2人が仲良くなってくれて本当にうれしいわ！$h",
+        "en": "Shane seems a lot more positive and hopeful, lately.#$b#I'm so happy you moved here, and that you two get along so well!$h",
+        "ko": "셰인이 요즘 긍정적이더라고.#$b#네가 여기로 이사 와서 너무 다행이야, 둘이 사이도 너무 좋고!$h",
+        "pt": "O Shane parece bem mais positivo e esperançoso ultimamente.#$b#Estou muito feliz que você se mudou para cá, e que vocês dois estão se dando tão bem!$h",
+        "ru": "В последнее время Шейн выглядит гораздо более приободренным и полным надежд.#$b#Я так рада, что ты ${поселился^поселилась}$ неподалеку и что вы двое так поладили!$h",
+        "tr": "Son günlerde Shane, hiç olmadığı kadar pozitif ve umutlu görünüyor.#$b#Buraya taşındığın ve iyi anlaştığınız için çok mutluyum!$h",
+        "zh": "谢恩最近明显变得积极乐观了。#$b#幸好你搬到了这里，还跟他相处得那么好！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'dating_Shane_memory_oneweek' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:gotPet",
+      "author_key": "gotPet",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich glaube, du wirst es lieben, einen kleinen Freund auf dem Hof zu haben.",
+        "es": "Creo que te encantará tener un amiguete contigo en la granja.",
+        "fr": "Je pense que tu vas adorer avoir un petit animal de compagnie à la ferme avec toi.",
+        "hu": "Szerintem boldog leszel, hogy van egy kis barátod a farmon.",
+        "it": "Penso che ti piacerà avere un amichetto con te alla fattoria.",
+        "ja": "小さなお友達といっしょに牧場で暮らすのはきっと楽しいと思うわ。",
+        "en": "I think you'll love having a little friend on the farm with you.",
+        "ko": "농장에서 같이 지낼 작은 친구가 생겨서 좋을 것 같구나.",
+        "pt": "Eu acho que você vai amar ter um amiguinho na fazenda para te fazer companhia.",
+        "ru": "С маленьким другом тебе на ферме будет повеселее.",
+        "tr": "Bence çiftliğinde ufak bir dostun olmasına bayılacaksın.",
+        "zh": "我相信农场上有了小动物陪伴你会很开心的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'gotPet' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:gotPet_memory_oneday",
+      "author_key": "gotPet_memory_oneday",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich bin sicher, dass %pet anfangs etwas schüchtern sein wird. Es dauert eine Weile, bis sich ein Tier in einer neuen Umgebung zurechtfindet.",
+        "es": "Estoy segura de que %pet tendrá timidez al principio. A los animales les lleva un tiempo sentirse cómodos en un lugar nuevo.",
+        "fr": "Je suis certaine que %pet sera un peu timide au début. Il faut un certain temps pour qu’un animal se sente à l’aise dans un nouvel environnement.",
+        "hu": "Biztos, hogy %pet kezdetben szégyenlős lesz. Az állatoknak kis időbe telik, mire kényelmesen érzik magukat egy új helyen.",
+        "it": "Sicuramente %pet sarà un po' titubante all'inizio. Ci vuole del tempo perché un animale si trovi a suo agio in un nuovo ambiente.",
+        "ja": "%petもはじめは少し慣れないかもしれないわ。動物が新しい環境になじむには時間がかかるの。",
+        "en": "I'm sure %pet will be a little shy at first. It takes a while for an animal to get comfortable in a new setting.",
+        "ko": "분명 %pet은(는) 처음에는 좀 수줍어할 거야. 동물들은 새로운 환경에 적응하려면 시간이 좀 걸린단다.",
+        "pt": "Eu sei que %pet vai ficar com vergonha no começo. Leva um tempo para um animal ficar confortável em um lugar novo.",
+        "ru": "Уверена, %pet сначала не будет идти на контакт. Животные обычно со временем привыкают к новому месту обитания.",
+        "tr": "Eminim ki %pet başta biraz utangaç olacak. Hayvanların yeni bir düzene alışması zaman alır.",
+        "zh": "%pet一开始肯定会有点怕生，动物适应新环境总是需要一段时间的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'gotPet_memory_oneday' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:gotPet_memory_oneweek",
+      "author_key": "gotPet_memory_oneweek",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hat sich %pet schon eingelebt? Es ist so ein schönes Grundstück, das ein Haustier erkunden kann.",
+        "es": "¿ %pet se ha adaptado ya? Tienes una buena propiedad para que tu mascota explore.",
+        "fr": "Est-ce que %pet a réussi à s’accoutumer à son nouvel environnement ? C’est une si belle propriété à explorer pour un animal de compagnie.",
+        "hu": "A kis %pet már berendezkedett? Egy állat számára az a terület olyan remek a felfedezésekhez.",
+        "it": "Si sta ambientando %pet alla fattoria? È un bel territorio da esplorare per un animale.",
+        "ja": "%petはもう落ち着いたかしら？ペットが探検するにはとてもいい環境だものね。",
+        "en": "Has little %pet settled in yet? It's such a nice property for a pet to explore.",
+        "ko": "작은 %pet은(는) 적응 좀 했니? 탐험하기 좋은 곳이긴 하지.",
+        "pt": "Será que %pet já se estabeleceu? É uma propriedade tão boa para um animal explorar.",
+        "ru": "Как там поживает %pet? У тебя такая хорошая ферма, столько места для животинки.",
+        "tr": "Minik %pet ortama alışabildi mi? Burası, bir hayvanın gezebileceği güzellikte.",
+        "zh": "%pet它适应了吗？那个地方宠物肯定很喜欢探索。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'gotPet_memory_oneweek' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:gotPet_memory_oneyear",
+      "author_key": "gotPet_memory_oneyear",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Da fällt mir gerade ein... es ist ungefähr ein Jahr her, dass du %pet adoptiert hast. Ich wette, ihr zwei seid euch inzwischen sehr nahe gekommen!",
+        "es": "Acabo de recordar... ha pasado más o menos un año desde que adoptaste a %pet. ¡Seguro que estáis muy unidos ahora!",
+        "fr": "Je viens de me rappeler que cela fait environ un an que tu as adopté %pet. Je parie que vous êtes devenus très proches tous les deux !",
+        "hu": "Most ugrott be... nagyjából egy éve, hogy %pet örökbe lett fogadva általad. Fogadok, hogy most már sokkal közelebb kerültetek egymáshoz!",
+        "it": "Mi sono appena ricordata... che è passato un anno, più o meno, da quando hai adottato %pet. Scommetto che ormai siete inseparabili!",
+        "ja": "そういえば… あなたが%petと出会ってからもう1年くらいたったかしら。もうすっかり仲良しでしょうね！",
+        "en": "I just remembered... it's been about a year since you adopted %pet. I bet you two have grown really close by now!",
+        "ko": "방금 기억났다... %pet와(과) 함께한 지 일 년이 되어가는구나. 이제 정말 가까운 사이가 되었겠네!",
+        "pt": "Eu acabei de lembrar... já faz um ano desde que você adotou %pet. Aposto que vocês dois são muito amigos hoje em dia!",
+        "ru": "Я только что вспомнила... %pet же у тебя уже год. Думаю, вы там уже друзья — не разлей вода!",
+        "tr": "Şimdi hatırladım... %pet... Onu sahipleneli neredeyse bir yıl olmuş. Eminim şimdiye çok yakınlaşmışsınızdır!",
+        "zh": "我突然想起来……你收养%pet已经有一年了吧，我猜它应该已经很亲近你了！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'gotPet_memory_oneyear' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:married_Shane",
+      "author_key": "married_Shane",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich bin froh, dass Shane auf deinen Hof zieht... so kann er die Familientradition am Leben erhalten!",
+        "es": "Me alegro de que Shane se mude a tu granja... ¡puede mantener viva la tradición familiar!",
+        "fr": "Je suis contente que Shane s’installe dans ta ferme... il pourra perpétuer la tradition familiale !",
+        "hu": "Örülök, hogy Shane beköltözött a farmodra... tovább folytathatja a családi hagyományt!",
+        "it": "Sono contenta che Shane si trasferisca alla tua fattoria... Può tenere viva la tradizione di famiglia!",
+        "ja": "シェーンがあなたの牧場ではたらけるようになってうれしいわ… 家族の伝統をシェーンが受けついでくれるんだもの。",
+        "en": "I'm glad Shane's moving to your farm... he can keep the family tradition alive!",
+        "ko": "셰인이 네 농장으로 간다니 기쁘구나... 우리 가족 전통을 지킬 수 있겠어!",
+        "pt": "Estou feliz que o Shane está se mudando para a sua fazenda... ele vai poder manter a tradição da família viva!",
+        "ru": "Я рада, что Шейн переехал к тебе на ферму... Так мы сможем сохранить семейную традицию!",
+        "tr": "Shane yanına taşınacağından dolayı çok mutluyum... Aile geleneklerimizi hayatta tutabilir!",
+        "zh": "谢恩搬到你的农场上去，我很高兴……或许他可以把家族传统传承下去！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'married_Shane' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:reject_789",
+      "author_key": "reject_789",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Gah!$4#$b#... Äh... Was? Hah..Ich weiß nicht, was das ist...$3",
+        "es": "¡Gah!$4#$b#...Um... ¿Qué? Heh.. No se que es eso...$3",
+        "fr": "Gah !$4#$b#... Euh... Quoi ? Heu... Je ne sais pas ce que c’est...$3",
+        "hu": "Gyááá!$4#$b#...Öhm... Tessék? Heh.. Nem tudom, hogy mi az...$3",
+        "it": "Gah!$4#$b#...Ehm... Cosa? Heh.. Non so cosa sia...$3",
+        "ja": "ああ！$4#$b#…うん…なに？えへへ…それが何なのか分らないの…$3",
+        "en": "Gah!$4#$b#...Um... What? Heh.. I don't know what that is...$3",
+        "ko": "으악!$4#$b#...음... 뭐라고? 헤.. 그게 뭔지 난 잘 모르겠어...$3",
+        "pt": "Gah!$4#$b#...Hm... O quê? Heh.. Eu não sei o que é isso...$3",
+        "ru": "Эй!$4#$b#...Эм... Чего? Хм... Нет, я не знаю, что это такое...$3",
+        "tr": "Hı!$4#$b#...Ee... Ne? Heh.. Bu ne bilmiyorum ki...$3",
+        "zh": "呃啊！$4#$b#……嗯……什么？啊……我不知道那是什么……$3"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'reject_789' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Marnie:structureBuilt_Stable",
+      "author_key": "structureBuilt_Stable",
+      "character": "Marnie",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh, du hast ein Pferd? Das ist ja wunderbar! Pferde sind erstaunliche Tiere.$h",
+        "es": "Oh, ¿tienes un caballo? ¡Qué maravilla! Los caballos son unos animales increibles.$h",
+        "fr": "Ho, tu as un cheval ! C’est merveilleux ! Les chevaux sont des animaux extraordinaires.$h",
+        "hu": "Ó, van egy lovad? Az csodálatos! A lovak lenyűgöző állatok.$h",
+        "it": "Oh, hai preso un cavallo? Stupendo! I cavalli sono animali incredibili.$h",
+        "ja": "馬を飼うことにしたの？まあ素敵！馬はすばらしい動物なのよ。$h",
+        "en": "Oh, you got a horse? That's so wonderful! Horses are amazing animals.$h",
+        "ko": "말이 생겼다고? 멋진 일이네! 말은 놀라운 동물이지.$h",
+        "pt": "Oh, você conseguiu um cavalo? Que incrível! Cavalos são animais maravilhosos.$h",
+        "ru": "О, у тебя теперь лошадь? Это так замечательно! Лошади — прекрасные создания.$h",
+        "tr": "Aa, atın mı var? Bu harika! Atlar harika hayvanlardır.$h",
+        "zh": "哦？你买了一匹马？那真是太好了！马儿是很了不起的动物。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Marnie.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Marnie.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Marnie.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Marnie.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Marnie.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Marnie.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Marnie.json",
+          "ko": "data\\game_scripts\\Dialogue\\Marnie.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Marnie.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Marnie.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Marnie.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Marnie.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'structureBuilt_Stable' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    }
+  ]
+}

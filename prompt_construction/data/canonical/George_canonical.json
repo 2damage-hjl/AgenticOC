@@ -1,0 +1,2187 @@
+{
+  "dataset_meta": {
+    "schema": "canonical_dialogue_v2",
+    "source_root": "data/game_scripts/Dialogue",
+    "collection": "Dialogue",
+    "character": "George",
+    "record_count": 33,
+    "dialogue_type_counts": {
+      "general_dialogue": 33
+    }
+  },
+  "records": [
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:AcceptGift_(O)StardropTea",
+      "author_key": "AcceptGift_(O)StardropTea",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hmm... *schlürf*... ahhh... Schmeckt genau wie Mamas Thunfischauflauf! Köstlich!",
+        "es": "Hmm... *sorbo*... ahhh... ¡Sabe justo igual que el atún a la cazuela de Mamá! ¡Delicioso!",
+        "fr": "Hmm... *sirote*... Haaa... Ça a le même goût que le gratin de thon de maman ! Délicieux !",
+        "hu": "Hmm... *szürcsöl*... áhhh... Pont olyan az íze, mint a mama tonhalas ragujának! Ízletes!",
+        "it": "Hmm... *sorseggia*... ahhh... Ha proprio il sapore del tonno in casseruola di mamma! Delizioso!",
+        "ja": "うーむ…（一口飲む）…おお…母が作っていたマグロのキャセロールの味に似てるな。これはうまい！",
+        "en": "Hmm... *sip*... ahhh... Tastes just like Mama's tuna casserole! Delicious!",
+        "ko": "흠... *홀짝*... 아아... 어머니께서 만드시던 참치 캐서롤 맛이네! 정말 맛있어!",
+        "pt": "Hmm... *bebe*... ahhh... Tem o gostinho da caçarola de atum da minha mãe! Delicioso!",
+        "ru": "Хм-м... *хлюп*... А-а-ах... На вкус как мамина запеканка из тунца! Вкуснятина!",
+        "tr": "Hım... *yudumlar*... Ah... Tadı annemin ton balıklı güvecine benziyor! Leziz!",
+        "zh": "唔……（喝了一口）……啊……这是我妈妈做的金枪鱼砂锅的味道！好喝！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)StardropTea' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:Fri",
+      "author_key": "Fri",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Dir gehört jetzt also der Hof, was? Zumindest ist es eine ehrliche Arbeit.",
+        "es": "Así que trabajas en la granja, ¿no? Por lo menos es un trabajo honrado.",
+        "fr": "Donc, tu travailles à la ferme, c’est ça ? Au moins, c’est un travail honnête.",
+        "hu": "Szóval gazda vagy? Az legalább becsületes munka.",
+        "it": "Lavori in una fattoria, eh? Perlomeno è un mestiere onesto.",
+        "ja": "お前さん、牧場主なんじゃろ？真っ当な 仕事なのは 確かじゃな。",
+        "en": "So you're a farmer, huh? At least it's honest work.",
+        "ko": "그래서, 농부라고? 뭐, 적어도 정직한 일이구먼.",
+        "pt": "Então você trabalha na fazenda, hã? Pelo menos é um trabalho honesto.",
+        "ru": "Так ты, значит, фермер? Ну, это хотя бы честный труд.",
+        "tr": "Çiftçiymişsin, öyle mi? En azından namuslu bir meslek.",
+        "zh": "所以你是位农民，是吧？至少是个本分的工作。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:Fri10",
+      "author_key": "Fri10",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich war wirklich jedem gegenüber sehr mürrisch. Aber jetzt fühle ich mich, als würde ich wie eine gereifte Frucht immer weicher werden. Hehe!$h#$e#Pass auf dich auf, Sohn.^Pass auf dich auf, Mädchen.",
+        "es": "¿Sabes? Siempre he sido un viejo gruñón con todos. Pero creo que me estoy ablandando como una fruta madura. ¡Je, je!$h#$e#Cuídate, hijo.^Cuídate, pequeña.",
+        "fr": "Tu sais, j’ai été un vieux grincheux avec tout le monde. Mais je sens que je me radoucis comme un vieux fruit bien mûr. Hé hé !$h#$e#À bientôt, fils.^À bientôt, ma petite.",
+        "hu": "Tudod, tényleg csak egy mogorva öregúr voltam mindenkivel. De most úgy érzem, puhulok, mint valami régi, érett gyümölcs. Hehe!$h#$e#Vigyázz magadra, fiam.^Vigyázz magadra, lányom.",
+        "it": "Sai, sono proprio stato un vecchio scorbutico con tutti quanti. Ma ora mi pare di ammorbidirmi come un vecchio frutto maturo. Hehe!$h#$e#Abbi cura di te, figliolo.^Abbi cura di te, cara.",
+        "ja": "今まで、 ワシは 誰に たいしても きつく あたる ガンコジジイ じゃった。でも今は 熟した 古い果実みたいに やわらかくなった 気がするんじゃ。カッカッカッ！$h#$e#気をつけるんじゃよ、 坊主。^気をつけるんじゃよ、 お嬢さん。",
+        "en": "You know, I really have been a grumpy old man to everyone. But now I feel like I'm softening up like an old ripe fruit. Hehe!$h#$e#Take care, son.^Take care, hun.",
+        "ko": "그거 아나, 난 정말 모두에게 투덜이 늙은이였어. 근데 이젠 너무 익은 과일처럼 마음이 말랑말랑해지는 것 같네. 허허!$h#$e#항상 건강 조심해, 친구.^항상 건강 조심해, 아가야.",
+        "pt": "E sabe, eu fui muito rabugento com todo mundo. Mas agora estou amolecendo que nem uma jaca madura. He, he!$h#$e#Cuide-se, filho.^Cuide-se, filha.",
+        "ru": "Знаешь, я действительно был для всех ворчливым стариком. Но сейчас я чувствую, что стал мягче, как перезрелый плод. Хе-хе!$h#$e#Пока, сынок.^Пока, дорогуша.",
+        "tr": "Bilirsin, eskiden herkese karşı huysuzluk eden bir ihtiyardım. Şimdiyse olgun bir meyve gibi hissediyorum, hehe!$h#$e#Sağlıcakla kal, oğlum.^Sağlıcakla kal, kızım.",
+        "zh": "我以前是个脾气暴躁的老头子。但是现在我的脾气变得很好了。呵呵！$h#$e#保重吧，小子。^保重吧，亲爱的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:Fri4",
+      "author_key": "Fri4",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Mein Opa war ein Bauer. Es ist ein respektabler Beruf.#$e#Wenn ich nicht so verdammt alt wäre, würde ich bei dir vorbeischauen und dir das ein oder andere zeigen...",
+        "es": "Mi abuelo era granjero. Es una profesión respetable.#$e#Si no fuera tan viejo, me iría a tu granja y te enseñaría un par de cosas...",
+        "fr": "Mon grand-père était fermier. C’est une profession respectable.#$e#Si je n’étais pas si vieux, je viendrais à ta ferme pour te montrer une chose ou deux...",
+        "hu": "Nagyapám is gazda volt. Tiszteletreméltó foglalkozás.#$e#Ha nem lennék ilyen fene öreg, kimennék a farmodra mutatni egy-két dolgot...",
+        "it": "Mio nonno era un contadino. È una professione rispettabile.#$e#Se non ero così dannatamente vecchio, venivo alla tua fattoria e ti mostravo una cosetta o due...",
+        "ja": "ワシの 祖父は 農夫じゃった。立派な 職業じゃよ。#$e#もし ワシが ここまで 老いてなければ、 お前さんの 牧場へ 行って 色々 教えて やれたんじゃが…",
+        "en": "My grand-pap was a farmer. It's a respectable profession.#$e#If I wasn't so darned old I'd come to your farm and show you a thing or two...",
+        "ko": "내 할아범도 농부셨지. 존경받을만한 직종이야.#$e#내가 이리 늙지만 않았어도 농장에 가서 한두 가지 가르쳐줬을 텐데...",
+        "pt": "Meu avô era um fazendeiro. É uma profissão respeitável.#$e#Se eu não fosse tão velho, iria lá na sua fazenda lhe ensinar uma coisa ou outra...",
+        "ru": "Деда мой был фермером. Это уважаемая профессия.#$e#Не будь я так чертовски стар, я бы пришел к тебе на ферму и показал бы, как надо...",
+        "tr": "Benim büyükbabam da çiftçiydi. İtibarlı bir meslek dalı.#$e#Eğer bu kadar yaşlı olmasaydım çiftliğine gelir, sana birkaç şey öğretirdim...",
+        "zh": "我的爷爷也是农夫。这是个令人尊敬的职业。#$e#如果我年轻一点我就去你的农场指点你几招了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:Fri8",
+      "author_key": "Fri8",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe nachgedacht... Vielleicht war ich ein bisschen griesgrämig.$s#$e#Ich dachte immer, dass sich keiner für uns alten Leute interessiert.",
+        "es": "Estaba pensando... que igual he sido un poco cascarrabias.$s#$e#Solía pensar que los viejos no importábamos a nadie.",
+        "fr": "J’ai bien réfléchi... J’ai peut-être été un peu trop grincheux.$s#$e#Je pensais que personne ne s’intéressait à des vieux comme nous.",
+        "hu": "Gondolkoztam... Talán egy kicsit zsémbes voltam.$s#$e#Mindig úgy gondoltam az öreg emberek iránt már senki nem érdeklődik.",
+        "it": "Stavo pensando... Forse sono stato un po' un brontolone.$s#$e#Pensavo che a nessuno importasse di noi anziani.",
+        "ja": "考えて いたんじゃ… ワシは ちょっと グチが 過ぎるんじゃないかと。$s#$e#ワシらみたいな 老人なんて 誰も 気にしないと 思っとった。",
+        "en": "I've been thinking...Maybe I've been a little bit of a grouch.$s#$e#I used to think no one cared about us old folks.",
+        "ko": "내가 생각해봤는데... 내가 너무 투덜거린 거 아닌가 싶네.$s#$e#아무도 우리 늙은이들은 신경 쓰지 않는다 생각했었어.",
+        "pt": "Estive pensando... acho que estou sendo muito ranzinza.$s#$e#Eu achava que ninguém se importava com nós velhos.",
+        "ru": "Я тут поразмыслил... Может, я немного перегнул со своим ворчанием.$s#$e#Я раньше думал, что никому до нас, стариков, и дела нету.",
+        "tr": "Düşünüyordum da... Belki biraz mızmız davranmış olabilirim.$s#$e#Eskiden biz yaşlıları kimse takmıyor sanırdım.",
+        "zh": "我一直在想……是不是我有点太爱发牢骚了。$s#$e#我以为没人会在乎我们这些老家伙。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:GreenRain",
+      "author_key": "GreenRain",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Na, na, Schatz... Mach dir keine Sorgen.%noturn#$b#Selbst wenn es giftig ist, habe ich in den alten Kohleminen in einer Minute mehr giftiges Gas eingeatmet... Und ich bin immer noch fit!",
+        "es": "Ahí, ahí, cariño... No te preocupes.%noturn#$b#Incluso si es venenoso, he respirado en un minuto más gas nocivo en las antiguas minas de carbón... ¡Y aún estoy vivo!",
+        "fr": "Ne t’inquiète pas pour moi.%noturn#$b#Même si c’est toxique, j’ai respiré plus de gaz nocifs en une minute dans les mines de charbon... Et je suis toujours en pleine forme !",
+        "hu": "Nyugi, nyugi, kedveském... Ne aggódj!%noturn#$b#Még ha mérgező is volna, ettől kártékonyabb gázokat is lélegeztem már be még a régi szénbányákban... És még mindig itt vagyok!",
+        "it": "Su, su, tesoro... Non preoccuparti.%noturn#$b#Anche se fosse velenosa, respiravo più gas tossici in un minuto quando lavoravo nelle miniere di carbone... E non sono ancora schiattato!",
+        "ja": "大丈夫だ、エブリン…心配はいらん。%noturn#$b#たとえこれが毒だったとしても、わしは炭鉱でもっと有毒なガスを吸っていたんじゃ…それでもわしはピンピンしとるぞ！",
+        "en": "There, there, honey... Don't you worry.%noturn#$b#Even if it is poisonous, I breathed in more noxious gas in one minute back in the ol' coal mines... And I'm still kickin'!",
+        "ko": "괜찮아, 괜찮아, 여보... 걱정할 것 없어.%noturn#$b#설마 이게 독성이라도, 내가 광산에서 일할 때 매 분마다 이 것보다 독성 가스를 많이 마셨어... 그래도 난 멀쩡하다고!",
+        "pt": "Calma, querida... Não se preocupe.%noturn#$b#Mesmo se for venenosa, eu já traguei mais gases tóxicos em um minuto nas minas de carvão antigamente... E ainda estou vivo!",
+        "ru": "Ну-ну, любовь моя... Не переживай.%noturn#$b#Даже если он токсичный, я раньше в шахтах за одну минуту куда больше всякой гадости вдыхал... и до сих пор еще жив!",
+        "tr": "Tamam, geçti canım... Endişelenme. %noturn#$b#Zehirli olsa bile korkma, daha kötüsünü görmüşümdür. Eskiden kömür madenlerinde dakikalarca zehirli gaz soluduğum zamanlar oldu, sağlığımsa yerinde.",
+        "zh": "亲爱的，没事的，没事的……别操心了。%noturn#$b#即使有毒，我当初在煤矿里待一分钟，吸到的毒气都比这多……我不还是活得好好的！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "weather_green_rain",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:GreenRain_2",
+      "author_key": "GreenRain_2",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Sieht so aus, als müssten die jungen Leute nach dieser Aktion noch mehr Unkraut jäten... Heheh...$h",
+        "es": "Parece que los jóvenes van a tener que cortar malas hierbas extra después de esto... Jejeje...$h",
+        "fr": "On dirait que les jeunes de la vallée vont devoir désherber un peu plus après toute cette pluie... Hé, hé...$h",
+        "hu": "Úgy tűnik a fiataloknak ezt követően lesz pár extra gyomlálnivalójuk... Heheh...$h",
+        "it": "Mi sa che, quando sarà finita, i giovani dovranno strappare più erbacce del solito...Heheh...$h",
+        "ja": "これが終わったら、若いもんはみんな草むしりに追われることになりそうだな… はっはっは…$h",
+        "en": "Looks like the young folks will have to do some extra weeding after this one...Heheh...$h",
+        "ko": "이번엔 젊은이들이 잡초 꽤나 뽑아야겠는데... 헤헤헤...$h",
+        "pt": "Parece que os jovens terão que fazer hora extra pra tirar esses matos...Heheh...$h",
+        "ru": "Похоже, молодежи придется выдергать побольше сорняков после этого дождя... Хе-хе-хе...$h",
+        "tr": "Yağış dinince ortalığı temizlemek zor olacak gibi... Heheh...$h",
+        "zh": "这场雨下完就要除草，年轻人有得好忙了……嘿嘿……$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:Introduction",
+      "author_key": "Introduction",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hmmpf... Es ist nervig, all diese neuen Leute kennenlernen zu müssen, nicht?#$b#Mein Name ist übrigens George. Und jetzt zisch ab... Hmmpf.",
+        "es": "Hmph... Es un fastidio tener que conocer a tanta gente nueva, ¿no?#$b#Me llamo George, por cierto. Ahora lárgate... Hmph.",
+        "fr": "Mmm... C’est énervant de devoir rencontrer tout un tas de nouvelles personnes, n’est-ce pas ?#$b#Moi c’est George, au fait. Maintenant, fiche le camp... Pff.",
+        "hu": "Hmm... idegesítő ennyi új emberrel találkozni, mi?#$b#Egyébként a nevem George. Na most már menj el... Hmpf.",
+        "it": "Hmmph... È irritante dover incontrare tutta questa gente nuova, eh?#$b#Mi chiamo George, tra parentesi. Ora smamma... Hmmph.",
+        "ja": "ふん…新しく来た人には 必ず 会わなきゃ ならんって 面倒でたまらん。#$b#ワシの名はジョージ。ほら、さっさと行くんじゃ…ふん…",
+        "en": "Hmmph... It's irritating to have to meet all these new people, huh?#$b#Name's George, by the way. Now buzz off... Hmmph.",
+        "ko": "흐응... 새로운 사람들을 자꾸 만나는 것도 짜증나는 일이지?#$b#내 이름은 조지다. 이제 꺼져... 흥.",
+        "pt": "Humf... É irritante ter que cumprimentar todas essas pessoas, né?#$b#Aliás, meu nome é George. Agora, vaza... Huuumf.",
+        "ru": "Хм-мф... Как же раздражает здороваться со всеми этими новичками, а?#$b#Зовут меня Джордж, кстати. А теперь отвяжись... Хм-мф.",
+        "tr": "Hım... Bu kadar yeni insanla tanışmak irite edici değil mi?#$b#İsmim George, şimdi kaybol... Hım.",
+        "zh": "哼……要跟这些新面孔打交道还真是不爽啊。#$b#对了，我叫乔治。赶紧给我消失……哼。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Introduction' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:Mon",
+      "author_key": "Mon",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich bin nicht wirklich ein Freund großer Worte. Besonders nicht gegenüber Fremden, wenn ich das sagen darf.",
+        "es": "No soy muy hablador. Y menos con los extraños, no te ofendas.",
+        "fr": "Je ne parle pas beaucoup. Surtout pas avec des étrangers, sans vouloir te vexer.",
+        "hu": "Nem vagyok beszédes. Különösen nem idegenekkel, ha nem bánod.",
+        "it": "Non sono un gran chiacchierone. Specialmente con gli estranei, se dobbiamo esser chiari.",
+        "ja": "話すことは あんまり好きじゃない。正直なところ、 知らんヤツが 相手なら 尚更のことじゃ。",
+        "en": "I'm not much of a talker. Especially not to strangers, if you don't mind me saying.",
+        "ko": "난 그다지 말수가 많은 편이 아니야. 단도직입적으로 말하자면, 특히 낯선 사람한테는.",
+        "pt": "Eu não sou de falar muito. Especialmente com estranhos, se me permite ser sincero.",
+        "ru": "Я не особо люблю разговаривать. Особенно с незнакомцами, уж простите.",
+        "tr": "Çok konuşkan değilim. Özellikle yabancılara karşı. Alınmaca gücenmece yok yani.",
+        "zh": "我不是很爱说话。尤其不喜欢跟陌生人说话。请别介意。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:Mon6",
+      "author_key": "Mon6",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich bin überrascht, dass du mit einem alten Hasen wie mir befreundet sein willst.",
+        "es": "Me sorprende que quieras llevarte bien con un carcamal como yo.",
+        "fr": "Je suis surpris que tu veuilles être ami avec un vieil homme comme moi.",
+        "hu": "Meglep, hogy egy ilyen magamfajta régi motorossal akarsz barátkozni.",
+        "it": "Mi sorprende che tu voglia per amico un vecchio bacucco come me.",
+        "ja": "ワシみたいな 年寄りと 友達に なりたいだなんて 驚きじゃな。",
+        "en": "I'm surprised you want to be friends with an old-timer like me.",
+        "ko": "나 같은 늙은이와 친구 한다니, 자네도 좀 놀랍구먼.",
+        "pt": "Estou surpreso de você querer fazer amizade com um velho como eu.",
+        "ru": "Удивительно, что ты хочешь дружить с таким стариком, как я.",
+        "tr": "Benim gibi eski toprak ile arkadaş olmaya çalışmana şaşırdım.",
+        "zh": "我很惊讶你愿意和像我一样的老前辈做朋友。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:MovieInvitation",
+      "author_key": "MovieInvitation",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Du willst einen Film mit einem alten Knacker wie mir sehen? ... Nun ... okay. Ich werde dich dort treffen.",
+        "es": "¿Quieres ver una película con un perro viejo como yo? ...Bueno... de acuerdo. Nos vemos allí.",
+        "fr": "Tu veux aller voir un film avec un vieil homme comme moi ? Comme tu veux ! OK. Je te rejoins là-bas.",
+        "hu": "Egy ilyen vénséggel mennél mozizni mint én? ...Nos... rendben. Ott találkozunk.",
+        "it": "Vuoi andare al cinema con un vecchiaccio come me? ...Beh... d'accordo. Ci vediamo là.",
+        "ja": "なに？ ワシと一緒に映画を見たいだと？ …まあいい、少し付き合ってやろう。",
+        "en": "You wanna see a movie with an old geezer like me? ...Well... okay. I'll meet you there.",
+        "ko": "나 같은 늙은이랑 영화를 보고 싶다고? ...그래... 그러자. 거기서 만나마.",
+        "pt": "Você quer ver um filme com um velho como eu? ...Então ...tudo bem. Eu te encontro lá.",
+        "ru": "Хочешь с дедом в кино сходить? Ну... давай... Встретимся у кинотеатра.",
+        "tr": "Benim gibi bir ihtiyarla sinemaya gitmek mi istiyorsun? ...Eh... olur. Orada buluşuruz.",
+        "zh": "你想跟我这样的老头去看电影？……唔……好吧。我们到时候见。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'MovieInvitation' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:Sat",
+      "author_key": "Sat",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das Wochenende ist für mich genauso wie jeder andere Tag auch.#$e#So ist es halt, wenn du in Rente bist.",
+        "es": "El fin de semana no es nada especial para mí.#$e#Así son las cosas cuando te jubilas.",
+        "fr": "Pour moi, le week-end n’est pas différent du reste de la semaine.#$e#C’est comme ça quand on est à la retraite.",
+        "hu": "A hétvége semmiben nem másabb számomra a többi naptól.#$e#Így van ez, ha az ember nyugdíjas.",
+        "it": "Il fine settimana non è diverso dagli altri giorni, per me.#$e#Funziona così, quando sei in pensione.",
+        "ja": "ワシにとって、 週末なんて 平日と 何も 変わらん。#$e#隠居したら、 お前さんも そうなるんじゃ。",
+        "en": "The weekend is no different than any other time, for me.#$e#That's how it is when you're retired.",
+        "ko": "주말이나 평일이나 나한테는 차이가 없어.#$e#퇴직하고 나면 그런 법이지.",
+        "pt": "O fim de semana é um dia como qualquer outro para mim.#$e#Assim são as coisas quando você se aposenta.",
+        "ru": "Для меня выходные ничем не отличаются от будней.#$e#Такая вот жизнь на пенсии.",
+        "tr": "Benim için hafta sonunun diğer günlerden farkı yok.#$e#Emekli olunca böyle oluyor.",
+        "zh": "对我来说周末和平时也没什么不同。#$e#你退休了的话也会一样。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:Sun",
+      "author_key": "Sun",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ist dir nicht kalt? Sie machen die Pullover nicht so wie früher.#$e#*Seufz*",
+        "es": "¿No tienes frío? Ya no hacen jerséis como los de antes.#$e#*suspiro*",
+        "fr": "Tu n’as pas froid ? Les pulls ne sont plus ce qu’ils étaient.#$e#*Soupir*",
+        "hu": "Nem fázol? Nem csinálnak már olyan pulóvereket mint régen.#$e#*Sóhaj*",
+        "it": "Ma non hai freddo? Non li fanno più, i maglioni di una volta.#$e#*Sospira*",
+        "ja": "寒くない？昔は 手編みの セーターを もらえたんじゃがな。#$e#はぁ…",
+        "en": "Aren't you cold? They don't make sweaters like they used to.#$e#*Sigh*",
+        "ko": "춥지 않나? 스웨터도 예전같이 만들지 않아서 말이야.#$e#*한숨*",
+        "pt": "E você, não está com frio? Não se fazem suéteres como antigamente.#$e#Aaaaah...",
+        "ru": "Тебе не холодно? Таких свитеров, как раньше, теперь не делают.#$e#Эх...",
+        "tr": "Üşümüyor musun? Eskisi gibi kazaklar yapmıyorlar artık.#$e#*iç çeker*",
+        "zh": "你不冷吗？他们不再像以前那样织毛衣了。#$e#*唉*……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:Thu",
+      "author_key": "Thu",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich kann gerade nicht reden, junger Mann.^Ich kann gerade nicht reden, Fräulein.#$e#Meine Lieblingssendung läuft.",
+        "es": "Ahora no puedo hablar, muchacho.^Ahora no puedo hablar, muchacha.#$e#Ponen mi programa preferido.",
+        "fr": "Je ne peux pas discuter pour le moment, jeune homme.^Je ne peux pas discuter pour le moment, Mademoiselle.#$e#Je regarde mon programme de télévision préféré.",
+        "hu": "Most nem tudok beszélni fiatalember.^Most nem tudok beszélni, hölgyem.#$e#A kedvenc műsorom megy.",
+        "it": "Adesso non posso parlare, giovanotto.^Adesso non posso parlare, signorina.#$e#C'è il mio programma preferito in TV.",
+        "ja": "今は話せんぞ、 若者よ。^今は話せんぞ、 お嬢さん。#$e#好きな番組が やっているからな。",
+        "en": "I can't talk right now, young man.^I can't talk right now, miss.#$e#My favorite program is on.",
+        "ko": "지금은 얘기할 수 없네, 젊은이.^지금은 얘기할 수 없네, 젊은아가씨.#$e#내가 제일 좋아하는 프로그램 보는 중이거든.",
+        "pt": "Não posso falar agora, mocinho.^Não posso falar agora, mocinha.#$e#Meu programa favorito está no ar.",
+        "ru": "Я сейчас не могу говорить, молодой человек.^Я сейчас не могу говорить, мисс.#$e#Идет моя любимая передача.",
+        "tr": "Şu an konuşamam delikanlı.^Şu an konuşamam hanımefendi.#$e#En sevdiğim program başladı.",
+        "zh": "我现在没空聊天，小伙子。^我现在没空聊天，小姐。#$e#我最喜欢的节目正演着呢。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:Thu10",
+      "author_key": "Thu10",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wenn du so alt wirst wie ich, wird es viel schwerer, sich an neue Dinge anzupassen.#$e#Irgendwann wirst du verstehen, was ich meine.#$e#Los, genieße dein Leben, solange du noch jung bist.",
+        "es": "Cuando te haces tan viejo como yo te cuesta mucho más adaptarte a las cosas nuevas.#$e#Un día entenderás lo que digo.#$e#Ve y disfruta ahora que eres joven.",
+        "fr": "Quand tu seras aussi vieux que moi, c’est plus difficile de s’adapter à de nouvelles choses.#$e#Un jour, tu comprendras ce que je veux dire.#$e#Allez, profite de la vie tant que tu es encore jeune.",
+        "hu": "Amikor olyan öreg lesz az ember mint én, már nehezen alkalmazkodik új dolgokhoz.#$e#Egy szép napon majd megérted.#$e#Menj, érezd jól magad amíg fiatal vagy.",
+        "it": "Quando si è vecchi come me, è molto più difficile adeguarsi alle novità.#$e#Un giorno capirai cosa intendo.#$e#Vai, vai, divertiti finché sei giovane.",
+        "ja": "ワシみたいに 年を取れば、 新しいことに 慣れるのが 大変になってしまうぞ。#$e#お前さんも、 いずれ この意味が 分かるじゃろう。#$e#若いうちに、 人生を 楽しむんじゃ。",
+        "en": "When you get as old as me it's a lot harder to adjust to new things.#$e#One day you'll know what I mean.#$e#Go on, enjoy yourself while you're still young.",
+        "ko": "나만큼 늙으면 새로운 것에 적응하기 많이 어려워져.#$e#언젠간 내 말이 무슨 의미인지 알게 될 거야.#$e#자자, 아직 젊을 때 많이 즐기게나.",
+        "pt": "Quando se fica velho como eu, fica muito mais difícil se ajustar a coisas novas.#$e#Um dia você vai saber o que quero dizer.#$e#Vá, divirta-se enquanto ainda é jovem.",
+        "ru": "Когда доживаешь до моего возраста, становится сложнее приспособиться к новому.#$e#Однажды ты поймешь меня.#$e#Иди и развлекайся, пока есть молодость.",
+        "tr": "Benim kadar yaşlanınca insan yeni şeylere alışmakta zorlanıyor.#$e#Bir gün ne dediğimi anlayacaksın.#$e#Hadi koş, gençken hayatın tadını çıkar.",
+        "zh": "到了我这个年纪就很难再适应新鲜事物了。#$e#有一天你会懂的。#$e#趁着年轻好好享受吧。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:Thu6",
+      "author_key": "Thu6",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hallo, @. Willst du mit mir fernsehen?",
+        "es": "Hola, @. ¿Quieres ver la tele conmigo?",
+        "fr": "Bonjour, @. Tu veux regarder la télé avec moi ?",
+        "hu": "Helló, @. Szeretnél velem együtt tévét nézni?",
+        "it": "Salve, @. Ti va di guardare la TV con me?",
+        "ja": "おや、@か。一緒に テレビでも 見ないか？",
+        "en": "Hello, @. Wanna watch the TV with me?",
+        "ko": "안녕, @. 함께 티비 좀 보겠나?",
+        "pt": "Olá, @. Quer assistir TV comigo?",
+        "ru": "Здравствуй, @. Хочешь посмотреть со мной телик?",
+        "tr": "Selam, @. Benimle televizyon izlemek ister misin?",
+        "zh": "你好，@。想一起看电视吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:Tue",
+      "author_key": "Tue",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hmmpf... Sieht nach einem weiteren, düsteren Tag aus.$s",
+        "es": "Hmph... Otro día triste.$s",
+        "fr": "Mmm... Encore une autre journée pluvieuse.$s",
+        "hu": "Hmpf... Újabb nyomasztó nap.$s",
+        "it": "Hmmph... Un'altra giornata uggiosa.$s",
+        "ja": "ふん…きょうもまた 憂うつな 一日じゃ。$s",
+        "en": "Hmmph... Looks like another gloomy day.$s",
+        "ko": "흐응... 또 침울한 하루가 되겠군.$s",
+        "pt": "Humf... Parece mais um dia triste.$s",
+        "ru": "Хм-мф... Похоже, очередной мрачный день.$s",
+        "tr": "Hım... Anlaşılan yine kasvetli bir gün olacak.$s",
+        "zh": "嗯……貌似又是阴沉的一天。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:Tue10",
+      "author_key": "Tue10",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Weißt du, ich sollte wegen meiner Beine nicht so deprimiert sein.#$e#Ich sollte einfach froh sein, am Leben zu sein.$h",
+        "es": "¿Sabes? No debería deprimirme demasiado por mis piernas.#$e#Debería alegrarme de estar vivo.$h",
+        "fr": "Tu sais, je ne devrais pas être trop déprimé au sujet de mes jambes.#$e#Je devrais juste être heureux d’être en vie.$h",
+        "hu": "Tudod, nem kéne ennyit sajnálkoznom a lábaim miatt.#$e#Örülnöm kéne, hogy még élek.$h",
+        "it": "Sai, non dovrei deprimermi troppo per le mie gambe.#$e#Dovrei anzi essere felice che sono vivo.$h",
+        "ja": "この足について、 あまり悩むべきじゃないと 思っとるんじゃ。#$e#生きている だけでも 十分幸せ じゃからな。$h",
+        "en": "You know, I shouldn't get too depressed about my legs.#$e#I should just be happy that I'm alive.$h",
+        "ko": "그거 아나, 사실 다리 때문에 그렇게 우울하기만 할 게 아닌 것 같네.#$e#살아있다는 사실을 기뻐하는 게 맞지.$h",
+        "pt": "Sabe, eu não deveria ficar tão deprimido por causa das minhas pernas.#$e#Deveria agradecer por estar vivo.$h",
+        "ru": "Знаешь, не стоит мне слишком расстраиваться из-за ног.#$e#Нужно радоваться тому, что я еще жив.$h",
+        "tr": "Bacaklarım için bu kadar üzülmemeliyim.#$e#Hayatta olduğum için mutlu olmalıyım.$h",
+        "zh": "对于我的腿，我不该太悲观的。#$e#我该庆幸我还活着。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:Wed",
+      "author_key": "Wed",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Alex ist mein Enkel. Habe ich dir das schon erzählt?#$e#Hä? Red lauter.",
+        "es": "Alex es mi nieto. ¿Ya te lo había dicho?#$e#¿Eh? Habla.",
+        "fr": "Alex est mon petit-fils. Je te l’ai déjà dit, non ?#$e#Hein ? Parle plus fort.",
+        "hu": "Alex az unokám. Említettem már?#$e#Hogy? Beszélj hangosabban.",
+        "it": "Alex è mio nipote. Te l'ho già detto?#$e#Eh? Alza la voce.",
+        "ja": "アレックスは ワシの孫じゃ。お前さんには そう言ったかの？#$e#ん？大きな声で話してくれ。",
+        "en": "Alex is my grandson. Have I told you that already?#$e#Huh? Speak up.",
+        "ko": "알렉스는 내 손주야. 얘기해줬었나?#$e#뭐라고? 좀 크게 말해.",
+        "pt": "Alex é meu neto. Eu já disse isso?#$e#Hã? Seja sincero.",
+        "ru": "Алекс — мой внук. Я тебе еще не говорил?#$e#А? Говори громче.",
+        "tr": "Alex benim torunum, bunu söylemiş miydim?#$e#Ne? Yüksek sesle konuş.",
+        "zh": "亚历克斯是我的孙子。我跟你说过吗？#$e#哈？没关系随意说。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:Wed10",
+      "author_key": "Wed10",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "@! Lass mich diese dumme Kiste ausschalten und wir können etwas plauschen.$h#$e#Also, was machen die jungen Leute heutzutage so?",
+        "es": "¡@! Deja que apague la dichosa televisión para que podamos hablar.$h#$e#Cuéntame, ¿qué hacéis los jóvenes estos días?",
+        "fr": "@ ! Je vais éteindre cette fichue télévision et nous pourrons discuter un peu.$h#$e#Alors, que font les jeunes ces jours-ci ?",
+        "hu": "@! Kikapcsolom ezt a fene tévét, beszélgessünk kicsit.$h#$e#Szóval, mit csinálnak manapság a fiatalok?",
+        "it": "@! Fammi spegnere questa dannata TV e possiamo chiacchierare un po'.$h#$e#Di', che cosa fanno i giovani di questi tempi?",
+        "ja": "@さん！いまテレビを 切るから、 少し ワシと 話でも しようかの。$h#$e#近頃の 若いもんは 最近 何をして 過ごしてるんじゃ？",
+        "en": "@! Let me turn off this darned television and we can have a little chat.$h#$e#So what are the young people doing these days?",
+        "ko": "@! 우리 얘기 좀 할 수 있게 이 망할 테레비 좀 끌게.$h#$e#그래, 요즘 젊은이들은 뭐하고 지내나?",
+        "pt": "@! Deixe-me desligar essa porcaria de TV para conversarmos.$h#$e#O que há com os jovens de hoje em dia?",
+        "ru": "@! Сейчас я выключу этот чертов ящик, и мы с тобой поболтаем.$h#$e#Ну, что там нынче молодежь?",
+        "tr": "@! Şu lanet olasıca televizyonu kapatayım da az sohbet edelim.$h#$e#Ee, bu günlerde siz gençler neler yapıyorsunuz?",
+        "zh": "@！别看电视了我们来聊天吧。$h#$e#现在的年轻人都在玩啥？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 10,
+        "relationship_gate": "heart_min_10",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:Wed10_inlaw_Alex",
+      "author_key": "Wed10_inlaw_Alex",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich gebe zu, ich fand es... merkwürdig... dass zwei Männer zusammen leben. Aber du bist so ein netter junger Mann und ich weiß, ihr beide liebt euch... Ich habe meine Meinung geändert.^Du jetzt ein Teil der Familie... und ich könnte nicht stolzer sein.",
+        "es": "Lo admito, me parecía... raro... que dos hombres estuvieran juntos. Pero eres un muchacho muy amable, y sé que estáis enamorados... He cambiado de opinión.^Ahora eres parte de la familia... y no podría estar más orgulloso.",
+        "fr": "J’admets que je pensais que c’était... étrange... que deux hommes soient ensemble. Mais tu es un jeune homme si charmant, et je sais que vous êtes amoureux l’un de l’autre... Alors j’ai changé d’avis.^Tu fais partie de la famille, maintenant... et j’en suis très fier.",
+        "hu": "Bevallom, úgy gondoltam... furcsa... hogy két férfi együtt van. De olyan kedves fiatalember vagy és tudom, hogy szeretitek egymást... Meggondoltam magam.^Most már a család tagja vagy... ennél büszkébb nem is lehetnék.",
+        "it": "Lo confesso, pensavo fosse... strano... che due uomini stessero insieme. Ma sei un giovanotto così educato, e so che voi due vi amate... Mi sono ricreduto.^Sei parte della famiglia, ora... e non potrei esserne più orgoglioso.",
+        "ja": "実はな… 最初のところ… 二人の男が 結ばれるなんて 変じゃと 思っていた。だが お前は 良い若造で、 二人の 愛情に 偽りは ないことも 知っておる…ワシの気持ちも 変わったよ。^おまえはいまや… ワシが誇りに 思えるような 家族の 一員じゃ。",
+        "en": "I'll admit, I thought it was... strange... for two men to be together. But you're such a nice young man, and I know you two are in love... I've changed my mind.^You're part of the family, now... and I couldn't be more proud.",
+        "ko": "인정할게, 난 좀... 이상하다 생각했어... 남자 둘이 그렇게 지낸다는 게. 하지만 넌 너무나 훌륭한 청년이고, 둘이 진심으로 사랑한다는 것도 알겠어... 그래서 내 마음도 바꿨네.^너도 이제 가족의 일원이란다... 난 그 사실이 너무나 자랑스럽단다.",
+        "pt": "Admito... achei... estranho... dois homens se juntarem. Mas você é um rapaz tão bom e sei que vocês se amam... Eu mudei de ideia.^Você é parte da família agora... e eu não poderia estar mais orgulhoso.",
+        "ru": "Признаюсь, я думал, что двое мужчин... вместе... это странно. Но ты такой славный молодой человек, и я знаю, что вы любите друг друга... Я передумал.^Ты теперь часть нашей семьи... Я так вами горжусь.",
+        "tr": "Kabul ediyorum, bu biraz... garip... iki erkeğin evlenmesi... Ama sen harika bir delikanlısın. Üstelik birbirinizi sevdiğinizi biliyorum... Fikrimi değiştirdim.^Sen de ailenin bir parçasısın artık. Bundan gurur duyuyorum.",
+        "zh": "我承认，我觉得……两个男人在一起太奇怪了。但是我知道你是个很棒的年轻人，而且我知道你们俩相爱了……我已经改变我的想法了。^现在你是我们家里的一分子了……我简直太骄傲了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Wed10_inlaw_Alex' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:Wed8",
+      "author_key": "Wed8",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich wünschte, meine Beine würden funktionieren und ich könnte mit Alex Ball spielen.$s#$e#Das wird nie passieren.$s",
+        "es": "Ojalá mis piernas funcionasen para poder jugar a lanzar la pelota con Alex.$s#$e#Pero es imposible.$s",
+        "fr": "J’aimerais tellement que mes jambes fonctionnent encore pour pouvoir jouer au ballon avec Alex.$s#$e#Ça n’arrivera jamais.$s",
+        "hu": "Jó lenne, ha a lábaim működnének, hogy labdázhassak Alexszel.$s#$e#Ez már soha nem fog megtörténni.$s",
+        "it": "Se solo mi funzionassero le gambe, giocherei a pallone con Alex.$s#$e#Non accadrà mai.$s",
+        "ja": "この足が 動けば、 アレックスと キャッチボールでも やれた。$s#$e#叶わぬ願いじゃな…$s",
+        "en": "I wish my legs worked so I could play catch with Alex.$s#$e#That'll never happen.$s",
+        "ko": "다리가 말 좀 들어서 알렉스와 공놀이를 할 수 있으면 좋겠건만.$s#$e#결코 없을 일이지.$s",
+        "pt": "Gostaria que as minhas pernas funcionassem para brincar de pega-pega com o Alex.$s#$e#Mas isso nunca vai acontecer...$s",
+        "ru": "Хотел бы я, чтобы ноги у меня заработали, и чтобы я смог покидать мяч с Алексом.$s#$e#Этого никогда не случится.$s",
+        "tr": "Keşke bacaklarımı kullanabilsem, Alex ile yakalamaca oynardım.$s#$e#Asla gerçekleştiremeyeceğim.$s",
+        "zh": "我多希望我的腿好起来，这样就可以和亚历克斯捉迷藏了。$s#$e#但那已经是不可能的了。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:Wed_inlaw_Alex",
+      "author_key": "Wed_inlaw_Alex",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wie können zwei Männer heiraten? Das ist unnatürlich... Hmmpf. Vielleicht bin ich nur 'altmodisch'...^Du bist jetzt ein Teil der Familie. Ich bin froh, dass mein Enkel eine so nette Frau gefunden hat.",
+        "es": "¿Cómo pueden casarse dos hombres? Va contra natura... Hmph. Supongo que estoy «chapado a la antigua»...^Ahora eres parte de la familia. Me alegro de que mi nieto haya encontrado una mujer tan maravillosa.",
+        "fr": "Comment deux hommes peuvent-ils se marier ? Ce n’est pas naturel... Pff. Je suppose que je suis juste trop \"vieux jeu\"...^Tu fais partie de la famille, maintenant. Je suis content que mon petit-fils ait trouvé une femme aussi charmante.",
+        "hu": "Két férfi hogyan házasodhat össze? Ez nem normális... Hmpf. Talán csak \"régimódi\" vagyok...^Most már a család tagja vagy. Örülök, hogy az unokám ilyen kedves feleséget talált magának.",
+        "it": "Come possono sposarsi due uomini? È contro natura... Hmmph. Sarò io ad essere \"vecchio stile\"...^Sei parte della famiglia, ora. Sono contento che mio nipote si sia trovato una moglie così carina.",
+        "ja": "男同士で 結婚？変わった もんじゃな…ふん…ワシの 考えが 古臭すぎるだけかもな…^お前はいまや、 家族の一員じゃ。孫に すばらしい妻が 見つかって、 ワシは嬉しいぞ。",
+        "en": "How can two men get married? It's unnatural... Hmmph. I guess I'm just \"old fashioned\"...^You're part of the family, now. I'm glad that my grandson found such a nice wife.",
+        "ko": "어떻게 남자 둘이 결혼할 수 있는 거지? 비정상적이야... 흐응. 그냥 내가 \"구식\"인 건지도...^너도 이제 가족의 일원이란다. 손주가 이렇게 착한 아내를 찾다니, 기쁘구나.",
+        "pt": "Como pode dois homens se casarem? É antinatural... Huuumf. Acho que eu sou antiquado...^Agora, você é parte da família. Fico feliz de meu neto ter encontrado uma esposa tão linda.",
+        "ru": "Как могут двое мужчин сочетаться браком? Это неестественно... Хм-мф. Наверное, я просто «старомодный»...^Ты теперь часть семьи. Я рад, что мой внук нашел себе такую красавицу-жену.",
+        "tr": "İki erkek nasıl evlenir? Bu doğal değil... Hım. Sanırım ben eski kafalıyım...^Sen de ailenin bir parçasısın artık, Alex senin gibi güzel bir eş bulduğu için mutluyum.",
+        "zh": "两个男人怎么可以结婚呢？太不正常了……哼。可能是我“跟不上时代”了……^现在你是我们家里的一分子了。我很高兴我的孙子娶到了这么好的妻子。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Wed_inlaw_Alex' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:WinterStar_GiveGift_After",
+      "author_key": "WinterStar_GiveGift_After",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das gefällt dir nicht, hm? Bah! Die Jugend von heute... weiß nichts mehr zu schätzen. Das war teuer, und ich bin nicht aus Geld gemacht, weißt du!",
+        "es": "No te gusta, ¿eh? Bah! Los jóvenes de hoy en día... no sienten aprecio por nada. Eso fue caro, y el dinero no crece en los árboles, ¡ya sabes!",
+        "fr": "Tu n’aimes pas ça, n’est-ce pas ? Bah ! Les enfants d’aujourd’hui... ils n’apprécient rien du tout. Ça m’a couté une petite fortune, et je ne suis pas fait en or, tu sais !",
+        "hu": "Nem tetszik, mi? Bah! Ezek a mai fiatalok... semmit se értékelnek. Az drága volt, és tudod én nem szórom a pénzt!",
+        "it": "Non ti piace, eh? Bah! I giovani d'oggi... non sanno apprezzare niente. Mi è costato un sacco, e non mi escono mica i soldi dalle orecchie, sai!",
+        "ja": "気に入らないのか？ふん！最近の若いもんは… 感謝するということを忘れとる。あれは高かったんだ、それにワシは金持ちじゃない！",
+        "en": "You don't like it, huh? Bah! Kids these days... no appreciation for anything. That was expensive, and I'm not made of money, you know!",
+        "ko": "마음에 안 든다고? 에잇! 요즘 애들은... 뭘 감사한 줄 몰라. 그거 비싼 거라고, 내가 돈이 많은 줄 알아?",
+        "pt": "Você não gostou, é? Bá! Jovens de hoje em dia... não apreciam nada. Isso foi caro, e eu não sou feito de dinheiro!",
+        "ru": "Не нравится, а? Ха! Молодежь... ничего нынче не ценят. Она дорогая, а у меня денежных запасов нет, знаешь ли!",
+        "tr": "Beğenmedin öyle mi? Peh! Zamane gençleri... Hiçbir şeyi beğenmiyorsunuz. Bu bana pahalıya patladı ve ben para basmıyorum!",
+        "zh": "你不喜欢是吧？呵！现在的年轻人……什么都不懂得珍惜。我又不是什么有钱人，买这个可贵了！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'WinterStar_GiveGift_After' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:accept_867",
+      "author_key": "accept_867",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Was ist das? #$b#Hmmph... also drückst du zuerst diesen Knopf? Was macht dieser Knopf? Hmmph... *grummel*#$b#Hehe! Nun, was sagt man dazu! Es ist ein neuer Kanal!!$h#$b# Hier, nimm das. Das ist ein Stein, den ich fand, als ich früher im Bergbau arbeitete. Komische Sache, er leuchtete blau und blieb über vierzig Jahre lang kalt. Wie Magie!",
+        "es": "¿Qué es esto?#$b#Hmmph... ¿Así que pulsas este botón primero? ¿Qué hace este botón? Hmmph... *gruñido*#$b#¡Hehe! Bueno, ¡Qué te parece esto! ¡Es un nuevo canal!$h#$b#Toma, quédate esto. Es una piedra que encontré cuando era un minero de carbón en mis días. Es gracioso, ha tenido un brillo azul y se ha mantenido fría cuarenta años. ¡Es magia!",
+        "fr": "C’est quoi ?#$b#Hmmph... Alors il faut appuyer d’abord sur ce bouton ? À quoi sert ce bouton ? Hmmph... *Marmonne*#$b#Hé, hé ! Eh bien, que dites-vous de ça ! C’est une nouvelle chaîne !$h#$b#Tiens, prends ça. C’est une pierre que j’ai trouvée quand j’étais mineur de charbon à l’époque. Ce qui est intéressant c’est que cette pierre a brillé en bleu et est restée froide pendant plus de quarante ans. Comme par magie !",
+        "hu": "Mi ez?#$b#Hmmph... szóval előbb ezt a gombot nyomod meg? És mit csinál ez a gomb? Hmmph... *morog*#$b#Hehe! Nos, odanézzenek! Ez egy új csatorna!$h#$b#Tessék, ez a tiéd. Ez egy kő, amit még régen, szénbányász koromban találtam. Fura, de kéken világított és hideg maradt több, mint negyven éven át. Varázslatos!",
+        "it": "Cos'è questo?#$b#Hmmph... quindi prima si preme questo bottone? E questo bottone che fa? Hmmph... *brontola*#$b#Hehe! Beh, ma guarda un po'! È un nuovo canale!$h#$b#Ecco, prendi questa. È una pietra che trovai quando facevo il minatore. Pensa che strano, sono quarant'anni che manda una luce blu e resta sempre fredda. Pare magica!",
+        "ja": "これは何だ？#$b#ふーむ…このボタンを押すのか？このボタンを押すとどうなるんだ？ふーむ…（ぶつぶつ）#$b#へへへ！さあ、どうだ！新しいチャンネルだ！$h#$b#ほら、これを持って行け。昔、ワシが炭鉱で働いていた時に見つけたものだ。おかしなことだが、40年以上も冷たいままで、青く光ってるんだ。魔法のようにな！",
+        "en": "What's this?#$b#Hmmph... so you push this button first? What's this button do? Hmmph... *grumble*#$b#Hehe! Well, how about that! It's a new channel!$h#$b#Here, take this. It's a stone I found when I was a coal miner back in the day. Funny thing, it's glowed blue and stayed cold for over forty years. Like magic!",
+        "ko": "이건 뭐지?#$b#흥... 그래서 이걸 먼저 누르면 된다고? 이 버튼은 뭘 하는데? 흥... *궁시렁*#$b#헤헤! 오, 이게 뭐야! 새로운 채널이잖아!$h#$b#여기, 이거 받게. 내가 탄광에서 일하던 시절에 찾은 돌이야. 희한한 게, 40년도 넘게 푸른빛이 나고 만져보면 차가워. 마법 같지!",
+        "pt": "O que é isso?#$b#Hmmph... então você aperta esse botão primeiro? O que esse botão faz? Hmmph... *resmunga*#$b#Hehe! Então toma! É um novo canal!$h#$b#Aqui, tome isto. É uma pedra que encontrei quando ainda era minerador de carvão. O engraçado é que ela brilhou e permaneceu fria por mais de quarenta anos. Como se fosse mágica!",
+        "ru": "Это что такое?#$b#Так... Значит, сначала нужно нажать на эту кнопку? А что она делает? Хм... *ворчит*#$b#Хе-хе! Вот так как! Новый канал!$h#$b#Вот, возьми. Я нашел этот камень, когда на угольной шахте работал. Забавное дело, он сорок лет светился голубым и оставался холодным. Какое-то прямо волшебство!",
+        "tr": "Bu ne böyle?#$b#Hım... Önce bu tuşa mı basacağım? Bu tuş ne işe yarıyor? Hım... *homurdanır*#$b#Hehe! Bak sen şu işe! Yeni bir kanal buldum!$h#$b#Al bakayım şunu. Zamanında madende çalışırken bulmuştum. İşin ilginci kırk yıldır parlıyor ve ısınmıyor. Sanırsın büyülü!",
+        "zh": "这是什么？#$b#唔……所以你是先按了这个按键？这个按键是用来做什么的？嗯……（咕哝）#$b#哈哈！嗯，看看这个！是新的频道！$h#$b#给，拿着这个。这是我当年挖矿的时候发现的一块石头。四十年来，它一直冰凉冰凉的，还发着蓝光，很有意思。跟魔法一样！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'accept_867' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:divorced_once",
+      "author_key": "divorced_once",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hmmph... den einfachen Ausweg genommen, hm?#$e#Heutzutage behandeln die Leute die Ehe wie einen Fernseher... wenn du dich langweilst, wechselst du einfach den Kanal! Früher, zu meiner Zeit... *grummel*",
+        "es": "Hmmph... has tomado la salida fácil, ¿eh?#$e#La gente hoy en día trata el matrimonio como un plató de televisión... Si te aburres, ¡solo cambia de canal! En mis tiempos... *quejido*",
+        "fr": "Hmm... Tu as choisi la facilité, n’est-ce pas ?#$e#De nos jours, les gens traitent le mariage comme un poste de télévision... S’ils s’ennuient, il leur suffit de changer de chaîne ! À mon époque... *marmonne*",
+        "hu": "Hmmph... a könnyű kiutat választottad, mi?#$e#A mai fiatalok úgy tekintenek a házasságra, mint a tévére... ha unatkozol, akkor csatornát váltasz! Bezzeg az én időmben... *morog*",
+        "it": "Hmmph... hai scelto la via facile, eh?#$e#La gente oggigiorno tratta il matrimonio come se fosse un televisore... Se cominci ad annoiarti, basta cambiare canale! Ai miei tempi, invece... *borbotta*",
+        "ja": "ふん… 楽な道を選んだな？#$e#最近の若いもんは結婚をテレビのように考えとる…もし飽きたら、チャンネルを変えればいいと思っとるんだ！わしの若い頃はな…（ブツブツ）",
+        "en": "Hmmph... took the easy way out, huh?#$e#People these days treat marriage like a television set... If you get bored, just change the channel! Back in my day... *grumble*",
+        "ko": "흥... 어렵다고 도망쳤구나?#$e#요즘 것들은 결혼을 무슨 티비처럼 생각하더군... 지루하면 그냥 채널을 바꿔버리지! 나 때는 말이야... *중얼중얼*",
+        "pt": "Hmmf... tomou o caminho mais fácil, é?#$e#As pessoas hoje em dia tratam casamento como um canal de televisão... Se ficar entendiado, só mudar o canal! Na minha época... *resmunga*",
+        "ru": "Пф-ф... Легко теперь разводиться, да?#$e#Нынче для людей брак — как телевизор... Надоело что-то смотреть — сменил канал. Вот в мое время... *ворчит*",
+        "tr": "Ya... Kolay yolu seçtin demek.#$e#Bugünlerde insanlar evliliği televizyon gibi görüyorlar... Sıkılırlarsan kanal değiştir! Benim zamanımda... *homurdanır*",
+        "zh": "哼……遇到困难就退缩了是吧？#$e#这年头，结婚就跟看电视一样……要是厌倦了，换个频道就完事了！我年轻的时候啊……（发牢骚）"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "divorced",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "divorced",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:eventSeen_18_memory_oneweek",
+      "author_key": "eventSeen_18_memory_oneweek",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich mag vielleicht nicht mehr ganz auf dem Laufenden sein, aber wenn man so lange lebt wie ich, lernt man das eine oder andere über die Wege des Lebens. Das nennt man \"Weisheit\".#$b#Junge Leute verstehen das große Ganze nicht. Wie sollten sie auch?",
+        "es": "Puede parecer que estoy desactualizado, pero cuando llevas por ahí tanto tiempo como yo, aprendes un par de cosas de la vida. Se llama 'experiencia'.#$b#Los jóvenes no entienden el panorama. ¿Cómo lo iban a hacer?",
+        "fr": "Je suis peut-être vieux jeu, mais quand on est sur cette terre aussi longtemps que moi, on apprend une chose ou deux sur la nature humaine. C’est ce qu’on appelle la \"sagesse\".#$b#Les jeunes ne comprennent pas chaque situation dans leur ensemble. Comment le pourraient-ils ?",
+        "hu": "Lehet úgy tűnik, hogy nem vagyok képben, de ha olyan sokáig élsz mint én, akkor tanulsz egy-két dolgot az életről. Ezt nevezik 'bölcsességnek'.#$b#A fiatalok nem igazán értik az összképet. Hogyan is érthetnék?",
+        "it": "Può sembrare che non sono al passo coi tempi, ma quando uno è campato tanto quanto sono campato io, impara un paio di cosette su come funziona la vita. Si chiama 'saggezza'.#$b#I giovani non hanno una visione d'insieme. E come potrebbero?",
+        "ja": "ワシは世間ずれしてるように見えるかもしれないが、長く生きていれば人生の道筋のひとつやふたつを学んでいくもんなんだ。それが「知恵」だ。#$b#若いもんは視野がせまい。なぜなんだ？",
+        "en": "I may seem out of touch, but when you've been around for as long as I have, you learn a thing or two about the ways of life. It's called 'wisdom'.#$b#Young people don't understand the big picture. How could they?",
+        "ko": "내가 그냥 늙은이로 보일 수 있지만, 나만큼 오래 지내보면 그래도 인생사 한두 가지 정도는 알게 되지. 그걸 보고 '지혜'라고 부르는 거고.#$b#젊은이들은 큰 그림을 생각하지 못해. 어떻게 그럴 수 있겠어?",
+        "pt": "Eu posso parecer desatualizado, mas quando você vive tanto quanto eu, você aprende uma coisa ou outra sobre a vida. Isso é chamado de 'sabedoria'.#$b#Os jovens de hoje em dia não sabem as coisas importantes da vida. E como eles saberiam?",
+        "ru": "Наверное, я уже потерял связь с реальностью, но если поживешь с мое, поймешь, как в жизни все устроено. Это называется «мудрость».#$b#Молодежь не видит всей полноты картины. Да и смогут ли они?",
+        "tr": "Benim modadan uzak olduğum görülebilir. Benim kadar uzun yaşadığında, hayatın yolları hakkında bir iki şey öğreniyorsun. Buna 'bilgelik' deniyor.#$b#Gençler büyük resmi anlamazlar. Nasıl anlayacaklar ki?",
+        "zh": "你看我可能跟不上时代，但你要是到我这个年纪，就能对人生看得透彻了。这就叫“智慧”。#$b#年轻人根本看不清大局。他们哪来这个水平？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'eventSeen_18_memory_oneweek' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:eventSeen_502969_memory_oneweek",
+      "author_key": "eventSeen_502969_memory_oneweek",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich weiß nicht, was du gemacht hast, aber die Waschbären waren seit letzter Woche nicht mehr da!",
+        "es": "No se qué has hecho, ¡pero esos mapaches no han vuelto a aparecer desde la semana pasada!",
+        "fr": "Je ne sais pas ce que tu as fait, mais ces ratons laveurs ne sont pas revenus depuis la semaine dernière !",
+        "hu": "Nem tudom, hogy mit tettél, de a mosómedvék múlt hét óta nem tértek vissza!",
+        "it": "Non so cos'hai combinato, ma quei procioni non si fanno vedere dalla scorsa settimana!",
+        "ja": "おまえさんが何をしたのかは知らないが、アライグマどもが先週から来なくなったんだ！",
+        "en": "I dunno what you did, but those raccoons haven't been back since last week!",
+        "ko": "네가 뭘 한 건진 모르겠지만, 지난주 이후로 그놈의 너구리들이 돌아오지 않더구나!",
+        "pt": "Eu não sei o que cê fez, mas aqueles guaxinins não voltaram desde semana passada!",
+        "ru": "Не знаю, что за магия, но тех енотов уже неделю как не видать!",
+        "tr": "Ne yaptın bilmiyorum ama o rakunlar geçen haftadan beri geri gelmedi!",
+        "zh": "上周之后那个浣熊就再也没来了！不知道你干了什么。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'eventSeen_502969_memory_oneweek' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:joja_Begin",
+      "author_key": "joja_Begin",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Also ist das alte Gemeinschaftszentrum weg, ja? Interessiert sich denn keiner mehr für die Werte kleiner Dörfer? Es ist eine Schande, wie sich die Zeit geändert hat.",
+        "es": "Entonces... ¿el centro cívico es historia? ¿Qué pasó con los valores de los pueblos pequeños? Es una pena ver cómo han cambiado los tiempos...",
+        "fr": "Alors, comme ça, il n’y a plus de centre communautaire ! Qu’est-il arrivé aux valeurs des petites villes ? Quel dommage de voir les temps changer ainsi...",
+        "hu": "Szóval... eltűnt a régi Közösségi központ, mi? Mégis hová lett a kisvárosi értékrend? Szégyen, hogy hogyan változnak az idők...",
+        "it": "Allora... il vecchio Centro sociale è andato, eh? Che diamine è successo ai valori dei paesini? È una vergogna, come sono cambiati i tempi...",
+        "ja": "で…コミュニティ センターは なくなった、 のか？この小さな 村の 魅力は どこへ いったんじゃ？時の 流れは 残酷じゃのう…",
+        "en": "So... the old Community Center is gone, huh? Whatever happened to small-town values? It's a shame how times have changed...",
+        "ko": "그래서... 옛 마을회관이 없어졌다고? 작은 마을을 지키자던 가치관은 어떻게 된 거지? 시대가 많이 변했어, 애석한 일이야...",
+        "pt": "Então... o antigo Centro Comunitário já era, né? O que aconteceu com os antigos valores da nossa pequena cidade? É uma pena ver como as coisas mudaram...",
+        "ru": "Значит... старого клуба больше нет, верно? Что случилось с духом маленького городка? Просто ужас, как быстро всё меняется...",
+        "tr": "Ee... Eski halkevi şu an yok demek. Küçük kasaba değerlerimize ne oldu? Ne yazık, devir değişiyor...",
+        "zh": "那么……老社区中心没了，是吧？不管小镇的价值观有何变化？时代这么变，都是一种耻辱……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'joja_Begin' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:married_Alex",
+      "author_key": "married_Alex",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "...Hmmph.^Ich würde gerne Urgroßvater werden, bevor ich abkratze. Denkst du, du kannst das schaffen?",
+        "es": "...Hmmph.^I'd like to become a great-grandpa before I croak. Think you can make that happen?",
+        "fr": "... Hmmm.^J’aimerais devenir arrière-grand-père avant de mourir. Tu penses pouvoir m’aider ?",
+        "hu": "...Hmmph.^Szeretnék dédnagyapa lenni, mielőtt feldobom a talpam. Szerinted azt meg tudod valósítani?",
+        "it": "...Hmmph.^Mi piacerebbe diventare bisnonno prima di schiattare. Pensi di potermi accontentare?",
+        "ja": "…ふん。^死ぬ前にひ孫の顔が見たいんだがな。見れると思うかね？",
+        "en": "...Hmmph.^I'd like to become a great-grandpa before I croak. Think you can make that happen?",
+        "ko": "...흥.^나 가기 전에 증조할아버지가 되고 싶구나. 해낼 수 있겠니?",
+        "pt": "...Hmm.^Eu gostaria de me tornar um bisavô antes de bater as botas. Acha que consegue fazer isso?",
+        "ru": "...Хм-м.^Хотелось бы стать прадедушкой, пока не отбросил копыта. Поможешь с этим?",
+        "tr": "...Hım.^Nalları dikmeden önce harika bir büyükbaba olmak istiyorum. Sence bu mümkün mü?",
+        "zh": "……哼。^我入土之前让我当个曾爷爷，你看行不行？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'married_Alex' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:pamHouseUpgrade",
+      "author_key": "pamHouseUpgrade",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Danke, dass du den alten Wohnwagen ersetzt hast ... das neue Haus sieht jetzt viel netter aus.#$e#Ganz ehrlich, ich wette, das erhöht auch den Wert unserer Immobilie!",
+        "es": "Gracias por reemplazar esa caravana ajada... La casa nueva es mucho más bonita.#$e#¡Seguro que también aumenta el valor de nuestra propiedad!",
+        "fr": "Merci d’avoir remplacé cette vieille caravane toute cabossée... la nouvelle maison est beaucoup plus agréable à regarder.#$e#Je parie que ça augmente également la valeur de notre propriété !",
+        "hu": "Köszönöm, hogy kicserélted azt a régi, ócska lakókocsit... az új házra sokkal nagyobb öröm ránézni.#$e#Fogadok, hogy ez ugyanakkor megnöveli a mi telkünk értékét is!",
+        "it": "Grazie per aver rimpiazzato quella vecchia roulotte sfasciata... la casa nuova è molto più bella da vedere.#$e#E sai, scommetto che fa pure aumentare di valore la nostra proprietà!",
+        "ja": "あの ボロボロの トレーラーを 取り替えてくれて ありがとうな。新しい 家は 見た目的にも だいぶ 良くなったよ。#$e#あれなら、 土地の 価値も グンと 上がるじゃろうて！",
+        "en": "Thanks for replacing that beat up old trailer... the new house is much nicer to look at.#$e#You know, I'll bet it increases the value of our property too!",
+        "ko": "그 쓰러져가는 트레일러를 교체해줘서 고맙다... 새 집이 훨씬 보기 좋네.#$e#그거 아나, 이러면 우리 부동산 가치도 올라가겠지!",
+        "pt": "Obrigado por substituir aquele velho trailer... a nova casa é bem mais agradável aos olhos.#$e#Sabe, eu aposto que isso também deve ter aumentado o valor de sua propriedade!",
+        "ru": "Спасибо, что ${избавил^избавила}$ нас от этого старого потрепанного фургона... новый дом на этом месте смотрится гораздо лучше!#$e#Знаешь, я думаю это повысило и стоимость нашего участка!",
+        "tr": "O eski karavanı kaldırdığın için çok teşekkürler... Yeni eve bakması daha güzel.#$e#Bahse varım bizim evimizin de değerini artırmıştır.",
+        "zh": "谢谢你换掉那辆破烂不堪的旧拖车……新房子更好看了。#$e#你知道吗，我敢确信，这也会增加我们房产的价值！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'pamHouseUpgrade' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:pamHouseUpgradeAnonymous",
+      "author_key": "pamHouseUpgradeAnonymous",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hm ... das neue Haus versperrt den Blick auf den Fluss. Aber es sieht besser aus, als die alte Blechbüchse, in der Pam gelebt hat.",
+        "es": "Vaya... Esa casa nueva me tapa un poco las vistas al río... pero es mucho más bonita que esa vieja lata en la que vivía Pam.",
+        "fr": "Eh bien... cette nouvelle maison bloque un peu la vue sur la rivière... mais elle est plus jolie que cette vieille bicoque où vivait Pam.",
+        "hu": "Sóhaj... az az új ház elállja kissé a folyóra néző szép kilátást... de mégis szebben néz ki, mint az a vénséges Pam aki benne él.",
+        "it": "Oh beh... la casa nuova mi blocca un po' la vista del fiume... ma è di sicuro più bella di quella vecchia lattina in cui Pam abitava prima.",
+        "ja": "うーむ…新しい 家のせいで ちょっと川が 見えにくく なってな…まあでも 以前パムが 住んでいた 掘っ建て小屋 に比べれば 最高じゃ。",
+        "en": "Welp... that new house blocks my view of the river a little... but it sure looks nicer than that old tin can Pam was livin' in.",
+        "ko": "뭐... 저 새 집 때문에 강이 좀 안 보이긴 하지만... 팸이 살던 깡통에 비하면 훨씬 보기 좋구먼.",
+        "pt": "Bem... aquela casa nova atrapalha um pouco minha vista do rio... mas com certeza é mais bonita que aquela lata velha onde a Pam morava antes.",
+        "ru": "Что ж... Новый дом слегка загораживает мне вид на реку... Но он уж всяко получше, чем та старая жестянка, в которой жила Пэм.",
+        "tr": "Of... Şu yeni ev nehir manzaramı kapatıyor birazcık... ama Pam'in eskiden yaşadığı metal tenekeden daha güzel görünüyor.",
+        "zh": "哎哟……那个新房子有点遮挡我的河景……但它肯定比潘姆原来住的那个老锡罐好看。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'pamHouseUpgradeAnonymous' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/George:winter_1",
+      "author_key": "winter_1",
+      "character": "George",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ohh... Es ist so kalt.#$e#Wenn du jung bist, beißt die Kälte nicht so stark.",
+        "es": "Ohh... Qué frío hace.#$e#Cuando eres joven, el frío no te afecta tanto.",
+        "fr": "Ohh... Il fait si froid.#$e#Quand on est jeune, le froid ne semble pas aussi mordant.",
+        "hu": "Húú... Nagyon hideg van.#$e#Fiatalon még a hideg sem harap olyan erősen.",
+        "it": "Ohh... Che freddo cane.#$e#Quando sei giovane non li senti così, i morsi del freddo.",
+        "ja": "おお…寒いのう。#$e#若い頃は ここまで 寒さで こたえることは がかったんじゃが。",
+        "en": "Ohh... It's so cold.#$e#When you're young the cold doesn't bite as hard.",
+        "ko": "오오... 너무 춥구먼.#$e#젊을 때는 추위도 그렇게 파고드는 느낌은 아니지.",
+        "pt": "Aaah! Está tão frio.#$e#Quando você é jovem, o frio não é tão duro.",
+        "ru": "Ох-х... Как же холодно.#$e#Когда ты молод, мороз не такой кусачий.",
+        "tr": "Ah... Çok soğuk.#$e#Gençken soğuk bu kadar rahatsız etmiyor.",
+        "zh": "噢……太冷了。#$e#年轻人就是抗冻啊。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\George.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\George.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\George.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\George.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\George.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\George.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\George.json",
+          "ko": "data\\game_scripts\\Dialogue\\George.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\George.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\George.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\George.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\George.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "1"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "date_specific_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    }
+  ]
+}

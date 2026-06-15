@@ -1,0 +1,3562 @@
+{
+  "dataset_meta": {
+    "schema": "canonical_dialogue_v2",
+    "source_root": "data/game_scripts/Dialogue",
+    "collection": "Dialogue",
+    "character": "Jodi",
+    "record_count": 54,
+    "dialogue_type_counts": {
+      "general_dialogue": 54
+    }
+  },
+  "records": [
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:2_1",
+      "author_key": "2_1",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Mein Mann Kent ist ein Soldat, er ist im Ausland stationiert. Deswegen ist er gerade nicht hier.#$b#Ich weiß, dass er sicher zurückkommt, sobald sein Dienst vorbei ist!!#$e#Brauchst du etwas?",
+        "es": "Kent, mi marido, es soldado y está fuera del país. Por eso no está aquí ahora.#$b#¡¡Sé que volverá sano y salvo cuando acabe el servicio!!#$e#¿Necesitas algo?",
+        "fr": "Mon mari Kent est dans l’armée et il est basé à l’étranger. C’est pour ça qu’il n’est pas ici pour le moment.#$b#Je sais qu’il reviendra sain et sauf une fois son service terminé !#$e#Tu as besoin de quelque chose",
+        "hu": "A férjem, Kent, a tengerentúlon katona. Ezért nincs most itt velem.#$b#Tudom, hogy épségben hazaér a bevetése után!#$e#Szeretnél valamit?",
+        "it": "Mio marito Kent è un soldato, lavora oltreoceano. Ecco perché non è qui ora.#$b#So che tornerà sano e salvo quando il suo viaggio sarà finito!!#$e#Ti serve niente?",
+        "ja": "夫の ケントは 兵士で、 海外で 働いているの。だから 今 ここにいないのよ。#$b#遠征を 無事に 終えて 帰ってくるって 信じてる！#$e#何か 入用かしら？",
+        "en": "My husband Kent is a soldier, working overseas. That's why he's not here right now.#$b#I know he'll come back safe once his tour is over!!#$e#Need something?",
+        "ko": "내 남편 켄트는 군인이야, 지금은 해외에서 일하고 있어. 그래서 지금 여기에 없는 거고.#$b#파견이 끝나면 안전하게 돌아올 거란 걸 알아!!#$e#혹시 필요한 거 있니?",
+        "pt": "Meu marido, Kent, é um soldado. Ele trabalha no exterior. É por isso que ele não está aqui.#$b#Sei que ele vai voltar em segurança quando sua viagem acabar!#$e#Precisa de alguma coisa?",
+        "ru": "Мой муж Кент — солдат, он работает за рубежом. Поэтому его сейчас здесь нет.#$b#Когда закончится служба, то он вернется, я точно знаю!!#$e#Тебе что-нибудь нужно?",
+        "tr": "Kocam asker ve denizaşırı bir yerde çalışıyor. O yüzden burada değil.#$b#Görevi bittiğinde sağ salim döneceğine eminim!#$e#Bir şey mi lazımdı?",
+        "zh": "我丈夫肯特是位士兵，在海外服役。因此他现在不在。#$b#他服役完了后一定会安全归来的！！！#$e#需要什么吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key '2_1' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:AcceptGift_(O)StardropTea",
+      "author_key": "AcceptGift_(O)StardropTea",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ah... Bist du sicher, dass du einen so wertvollen Gegenstand verschenken willst? Na dann, vielen Dank!",
+        "es": "Ah... ¿Seguro que quieres regalar un ítem tan valioso? Bueno, ¡gracias!",
+        "fr": "Ha... Veux-tu vraiment me donner quelque chose d’aussi précieux ? Eh bien, merci !",
+        "hu": "Áh... Biztos, hogy oda akarsz adni egy ilyen értékes tárgyat? Nos, nagyon köszönöm!",
+        "it": "Ah... Vuoi veramente regalarmi un oggetto così prezioso? Beh, ti ringrazio!",
+        "ja": "まあ…そんなに貴重なものをもらっていいの？本当にありがとう！",
+        "en": "Ah... You sure you want to give away such a precious item? Well, thank you!",
+        "ko": "아... 이렇게 귀중한 걸 나한테 줘도 괜찮겠니? 그래, 고마워!",
+        "pt": "Ah... Você tem certeza que quer presentear um item tão valioso? Bem, obrigada!",
+        "ru": "Ой... Ты хочешь подарить мне такой ценный предмет? Вот спасибо!",
+        "tr": "Aa... Bu kadar değerli bir şeyi bana vermek istediğine emin misin? Peki, teşekkürler!",
+        "zh": "啊……你确定要送这么珍贵的东西吗？好吧，谢谢你！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)StardropTea' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:Fri_joja",
+      "author_key": "Fri_joja",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das Essen vom Joja-Markt ist vielleicht nicht das gesündeste für meine Familie, aber bei solch niedrigen Preisen wäre es verrückt, woanders einzukaufen!",
+        "es": "Los alimentos de MercaJoja puede que no sean los más sanos para mi familia, pero con esos precios tan baratos sería una locura comprar en otro sitio.",
+        "fr": "La nourriture au Marché Joja n’est peut-être pas la plus saine pour ma famille, mais avec des prix aussi bas, ce serait de la folie de faire des courses ailleurs !",
+        "hu": "A JojaMartban vásárolt étel nem a legegészségesebb a családomnak, de ilyen alacsony árak mellett őrült aki nem ott vásárol!",
+        "it": "Il cibo del JojaMart non sarà il più sano per la mia famiglia, ma con quei prezzi stracciati bisogna essere pazzi per andare altrove!",
+        "ja": "Jojaマートの 食品は 家族にとって 健康とは 言えないけど、 あの 値段なら 他のところで 買う気も 起きなくなるわ！",
+        "en": "The food at JojaMart might not be the healthiest for my family, but with such low prices you'd be crazy to shop anywhere else!",
+        "ko": "조자 마트 음식이 그렇게 건강한 음식은 아닐지라도, 가격이 너무 저렴해서 다른 곳을 가기 힘들어.",
+        "pt": "A comida do Mercado Joja pode não ser a mais saudável para minha família, mas com preços tão baixos, quem seria louco de comprar em outro lugar?",
+        "ru": "Пусть еда из ДжоджаМарта не слишком полезна для моей семьи, цены там такие низкие, что глупо закупаться где-то еще!",
+        "tr": "JojaMart'tan aldığım yiyecekler çok sağlıklı olmayabilir ama öyle düşük fiyatlar varken başka bir yerden alışveriş yapmak çılgınlık olur!",
+        "zh": "Joja 超市的食物虽说可能不是特别健康，但是那么低的价格真是让人发疯"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "joja"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:Fri_non_joja",
+      "author_key": "Fri_non_joja",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das Essen bei Pierres ist viel frischer und gesünder als alles, was ich je beim Joja-Markt gekauft habe. Ich vermisse aber die billigen Joja-Preise.",
+        "es": "Los alimentos de Pierre's son mucho más frescos y sanos que los que venden en MercaJoja. Aunque echo de menos las gangas de Joja.",
+        "fr": "La nourriture chez Pierre est tellement plus fraîche et plus saine que tout ce qu’on trouve au Marché Joja. Mais les prix ne sont pas les mêmes.",
+        "hu": "Amit Pierrenél veszek sokkal frissebb és egészségesebb bárminél amit valaha a JojaMartban vettem. Azért az árakat visszasírom a Jojaból.",
+        "it": "Il cibo di Pierre è molto più fresco e sano di qualunque cosa abbia mai preso al JojaMart. Però mi mancano i prezzi bassi del Joja.",
+        "ja": "ピエールの店の 食品は Jojaマートで 買えたものよりも ずっと 新鮮で ヘルシーね。でも、Jojaマートの あの 安さが 恋しいわ。",
+        "en": "The food at Pierre's is so much fresher and healthier than anything I ever bought at JojaMart. I do miss those cheap Joja prices, though.",
+        "ko": "피에르네서 산 식재료가 조자 마트 물품보다 훨씬 신선하고 건강에 좋아. 그런데 싼 조자 가격이 좀 그립기는 해.",
+        "pt": "A comida da Loja do Pierre é bem mais fresca e saudável que qualquer coisa que já comprei no Mercado Joja. Mas eu sinto falta dos preços baixos do Mercado Joja.",
+        "ru": "Еда у Пьера гораздо свежее и полезнее того, что продается в ДжоджаМарте. Правда, цены там были гораздо ниже.",
+        "tr": "Pierre'in dükkanından aldığım yiyecekler JojaMart'tan aldıklarımdan çok daha taze ve sağlıklı. Ucuzluğu özlüyorum gerçi.",
+        "zh": "皮埃尔商店的食物比 Joja 超市的更新鲜也更健康。但我确实怀念 Joja 超市的价格。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "non_joja"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:GreenRain",
+      "author_key": "GreenRain",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Alles in Ordnung? So etwas haben wir noch nie gesehen...$s#$e#Ich wünschte, mein Mann wäre hier. Er würde genau wissen, was zu tun ist.$s",
+        "es": "¿Estás bien? Nunca habíamos visto nada como esto antes...$s#$e#Ojalá mi marido estuviese aquí. Él sabría exactamente lo que hacer.$s",
+        "fr": "Tu vas bien ? Nous n’avons jamais rien vu de tel dans la vallée auparavant...$s#$e#J’aimerais tellement que mon mari soit là. Il saurait exactement quoi faire. $s",
+        "hu": "Jól vagy? Még soha nem láttunk ehhez foghatót...$s#$e#Bár itt lenne a férjem. Ő pontosan tudná, hogy mit kellene tennünk.$s",
+        "it": "Stai bene? Non abbiamo mai visto niente del genere...$s#$e#Vorrei che ci fosse mio marito. Saprebbe esattamente cosa fare.$s",
+        "ja": "あなたは大丈夫？こんなことは初めてだわ…$s#$e#夫がここにいてくれたらよかったのだけど。彼なら、どうすればいいか適切に判断できるはずだもの。$s",
+        "en": "Are you alright? We've never seen anything like this before...$s#$e#I wish my husband was here. He'd know exactly what to do.$s",
+        "ko": "괜찮니? 우리도 이런 건 본 적이 없어서...$s#$e#남편이 여기에 있었으면 좋았을 텐데. 분명 어떻게 해야 할지 알았을 거야.$s",
+        "pt": "Você está bem? Nós nunca vimos algo assim antes...$s#$e#Eu queria que o meu marido estivesse aqui. Ele saberia exatamente o que fazer.$s",
+        "ru": "Ты в порядке? Я такого в жизни не видела...$s#$e#Вот бы мой муж был рядом. Он бы точно знал, что нужно делать.$s",
+        "tr": "İyi misin? Daha önce hiç böyle bir şey görmedim...$s#$e#Keşke kocam da burada olsaydı. O ne yapacağını bilirdi.$s",
+        "zh": "你没事吗？我们以前从来没见过这种情况……$s#$e#要是我老公在就好了，他肯定知道该怎么办。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "weather_green_rain",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:GreenRain_2",
+      "author_key": "GreenRain_2",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Vincent ist früh aufgestanden, um im Regen zu spielen. Ich hoffe nur, sie haben Recht, dass es völlig harmlos ist!",
+        "es": "Vincent se ha levantado temprano para jugar en la lluvia. ¡Solo espero que estén en lo cierto sobre que es completamente inofensiva!",
+        "fr": "Vincent s’est levé tôt pour aller jouer sous la pluie. J’espère qu’ils ont raison de dire que c’est complètement inoffensif !",
+        "hu": "Vincent ma korán kelt, hogy az esőben játszhasson. Remélem tényleg igaz amit mondtak, hogy ez teljesen ártalmatlan!",
+        "it": "Vincent si è alzato presto per andare a giocare sotto la pioggia. Spero solo che abbiano ragione a dire che è totalmente innocua!",
+        "ja": "ヴィンセントったら、雨の中を外で遊ぶために早起きしたのよ。この雨に本当に害がないことを願ってるわ！",
+        "en": "Vincent got up early to go play in the rain. I just hope they're right about it being completely harmless!",
+        "ko": "빈센트는 비 맞으며 놀겠다고 일찍 일어났더라고. 인체에 완전히 무해하다는 게 사실이어야 할 텐데!",
+        "pt": "O Vincent acordou cedo para ir brincar na chuva. Eu só espero que eles estejam certos sobre ela ser completamente inofensiva!",
+        "ru": "Винсент встал рано, чтобы поиграть под дождем. Я только надеюсь, что он и правда совершенно безопасен!",
+        "tr": "Vincent yağmurda oynamak için erkenden uyandı. Umarım yağmurun zararsız olduğu konusunda haklılardır!",
+        "zh": "文森特一大早就跑到雨里玩去了，但愿他们说这场雨完全无害是真的！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:Introduction",
+      "author_key": "Introduction",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh! Du bist nicht ganz so, wie ich es mir vorgestellt habe... Aber das ist okay! Ich bin Jodi.#$e#Das hier ist ein kleines Städtchen, also ist es immer sehr aufregend, wenn jemand Neues einzieht! Einen Bauern hier zu haben könnte einige Sachen ändern.",
+        "es": "¡Oh! No eres exactamente como imaginaba... ¡Pero no pasa nada! Soy Jodi.#$e#Este es un pueblo muy tranquilo, ¡por eso que alguien se mude aquí es tan emocionante! Tener por aquí a alguien con una granja puede cambiar mucho las cosas.",
+        "fr": "Oh ! Tu n’es pas exactement comme je l’avais imaginé... mais ce n’est pas grave ! Je m’appelle Jodi.#$e#C’est une petite ville tranquille, donc c’est bien quand une nouvelle personne s’installe ici ! L’arrivée d’un fermier va vraiment changer les choses.^C’est une petite ville tranquille, donc c’est bien quand une nouvelle personne s’installe ici ! L’arrivée d’une fermière va vraiment changer les choses.",
+        "hu": "Ó! Nem pont ilyennek képzeltelek... semmi gond! Jodi vagyok.#$e#Ez egy csendes kis város, szóval mindig izgalmas amikor új ember költözik ide! Egy gazda jelentősen változtathat a helyi dolgokon.",
+        "it": "Oh! Non sei proprio come m'immaginavo... ma va bene lo stesso! Sono Jodi.#$e#È un paesino tranquillo, questo, per cui è parecchio eccitante quando arriva una persona nuova! E avere una fattoria da noi potrebbe davvero cambiare le cose.",
+        "ja": "あっ！想像とは 違う タイプね… まぁ、 いいかな！私はジョディ。#$e#ここは 小さくて 静かな 町だから、 新しい 人が 来るのが 楽しみ なのよ！牧場主が 来たことで 何かが 変わるんじゃ ないかしらね。",
+        "en": "Oh! You aren't exactly how I imagined... but that's okay! I'm Jodi.#$e#It's a quiet little town, so it's very exciting when someone new moves in! Having a farmer around could really change things.",
+        "ko": "오! 내가 상상한 모습이랑은 다르네... 근데 그럴 수 있지! 난 조디라고 해.#$e#작고 조용한 마을이라, 새로 누가 이사 오면 관심을 많이 받게 되지! 농부가 이사 왔으니 많은 게 변할 수도 있겠다.",
+        "pt": "Ah! Você não é exatamente como imaginei... mas não tem problema! Meu nome é Jodi.#$e#Esta é uma cidade bem quieta, então é muito legal quando alguém novo se muda! Ter um fazendeiro aqui muda muito as coisas.",
+        "ru": "А! Я Вас не совсем так представляла... Но это ничего! Я — Джоди.#$e#Городок у нас тихий, поэтому так здорово, когда кто-то к нам переезжает! Когда в городе есть фермер, многое может измениться.",
+        "tr": "Ah! Hayal ettiğim gibi değilsin... olsun! Ben Jodi.#$e#Burası sakin bir kasaba, birisi taşındığında ortalık hareketleniyor! Kasabada yeni bir çiftçinin olması her şeyi değiştirebilir.",
+        "zh": "噢！你和我想象中的有点不一样呢……但是没关系！我是乔迪。#$e#这是个宁静的小镇，所以能有人搬进来真的让人高兴呢！有个农场主确实可以改变很多事。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Introduction' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:Mon",
+      "author_key": "Mon",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Den Haushalt zu schmeißen ist harte Arbeit... aber irgendjemand muss es tun.#$e#Ja?",
+        "es": "Mantener un hogar es duro... Pero alguien tiene que hacerlo.#$e#¿Sí?",
+        "fr": "Entretenir une maison et une vie de famille demande beaucoup de travail... mais il faut bien que quelqu’un le fasse.#$e#Oui ?",
+        "hu": "Háztartást vezetni nehéz munka... de valakinek muszáj megcsinálnia.#$e#Igen?",
+        "it": "Tenere in ordine la casa è un lavoro tosto... ma qualcuno deve pur farlo.#$e#Sì?",
+        "ja": "家庭を 維持するのって 難しいけど… 誰かが やらなくちゃ ならないのよね。#$e#そうでしょう？",
+        "en": "Maintaining a household is difficult work... but somebody has to do it.#$e#Yes?",
+        "ko": "집안 살림은 어려운 일이지... 하지만 누군가 하긴 해야 해.#$e#응?",
+        "pt": "Manter uma casa é um trabalho difícil... mas alguém tem que dar conta.#$e#Sim?",
+        "ru": "Сложно содержать целый дом... Но кто-то должен этим заниматься.#$e#Да?",
+        "tr": "Evi çekip çevirmek zor iş... ama birisi bunları yapmak zorunda.#$e#Değil mi?",
+        "zh": "维持一个家庭是很不容易的事……但是总得有人做吧。#$e#怎么了？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:Mon2",
+      "author_key": "Mon2",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "$d kent#Gestern habe ich Yoba's Altar besucht, um mich für die sichereRückkehr meines Mannes zu bedanken.|Gestern habe ich Yobas Altar besucht und für die sichere Rückkehr meines Mannes gebetet.#$e#Ich möchte positiv bleiben, aber manchmal ist es schwer.$s",
+        "es": "$d kent#Yesterday visité el altar de Yoba para dar gracias por el regreso a salvo de mi esposo.|Ayer visité el altar de Yoba para pedir que mi marido regrese sano y salvo.#$e#Intento ser positiva, pero a veces me cuesta.$s",
+        "fr": "$d kent#Hier, je suis allée à l’autel de Yoba pour remercier le retour sain et sauf de mon mari.|Hier, je suis allée à l’autel de Yoba pour demander le retour sain et sauf de mon mari.#$e#J’essaie de rester positive, mais c’est difficile parfois.$s",
+        "hu": "$d kent#Tegnap meglátogattam Yoba oltárát és a férjem biztonságos visszatéréséért adtam hálát neki.|Tegnap meglátogattam Yoba oltárát és a férjem biztonságos visszatéréséért imádkoztam.#$e#Próbálok pozitív maradni, de néha nagyon nehéz.$s",
+        "it": "$d kent#Ieri sono stata all'Altare di Yoba a rendere grazie per il ritorno a casa di mio marito.|Ieri sono stata all'Altare di Yoba a chiedere che mio marito ritorni sano e salvo.#$e#Cerco di restare positiva, ma a volte è difficile.$s",
+        "ja": "$d kent#昨日、夫が無事に帰ったことへの感謝のためにヨバ神の祭壇に行って来たわ。|昨日、夫が無事に帰って来るようにヨバ神の祭壇でお祈りして来たわ。#$e#前向きでいようとがんばってるけど、時々つらくなるのよね。$s",
+        "en": "$d kent#Yesterday I visited Yoba's Altar to give thanks for my husband's safe return.|Yesterday I visited Yoba's Altar to ask for my husband's safe return.#$e#I'm trying to stay positive, but it's hard sometimes.$s",
+        "ko": "$d kent#어제 남편이 무사히 돌아온 것을 감사드리기 위해 요바의 제단에 다녀왔어.|어제 남편이 무사히 돌아올 수 있도록 기도를 올리러 요바의 제단에 다녀왔어.#$e#긍정적인 태도를 유지하고 싶은데, 가끔 힘들어.$s",
+        "pt": "$d kent#Ontem, visitei o Altar de Ioba para pedir que meu marido volte em segurança.|Ontem, visitei o Altar de Ioba para pedir que meu marido volte em segurança.#$e#Estou tentando me manter positiva, mas às vezes é difícil.$s",
+        "ru": "$d kent#Вчера я ходила к алтарю Иобы и благодарила за то, что муж вернулся в целости и сохранности.|Вчера я ходила к алтарю Иобы и молилась о том, чтобы муж вернулся в целости и сохранности.#$e#Я пытаюсь мыслить позитивно, но иногда это бывает тяжело.$s",
+        "tr": "$d kent#Dün Yoba'nın Sunağı'nı ziyaret edip kocam sağ salim döndüğü için teşekkürlerimi sundum.|Dün Yoba'nın Sunağı'nı ziyaret edip kocamın sağ salim dönmesi için dua ettim.#$e#Olumlu düşünmeye çalışıyorum ama bazen çok zorlanıyorum.$s",
+        "zh": "$d kent#昨天我去了由巴祭坛感谢我丈夫能平安归来。|昨天我去了由巴祭坛祈求我丈夫能平安归来。#$e#我也想保持乐观，但是有时感觉太难了。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:Mon6",
+      "author_key": "Mon6",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Es ist schön, eine Familie zu haben... Aber ich würde lügen, wenn ich behaupten würde, dass ich mich nie nach der Freiheit meiner Jugend sehne...$s",
+        "es": "Es agradable tener familia... Pero mentiría si dijera que nunca anhelo la libertad de la juventud...$s",
+        "fr": "C’est bien d’avoir une famille... mais je mentirais en disant que je ne regrette jamais l’insouciance de ma jeunesse...$s",
+        "hu": "Jó, ha az embernek van családja... de hazudnék, ha azt mondanám nem hiányzik a fiatalság szabadsága...$s",
+        "it": "È bello avere una famiglia... ma mentirei se dicessi che non rimpiango mai la libertà della gioventù...$s",
+        "ja": "家族を 持てて 幸せだわ… 若かった頃の自由さが 恋しくなることは あるけどね…$s",
+        "en": "It's nice to have a family... but I'd be lying if I said I never miss the freedom of being young...$s",
+        "ko": "가족이 있는 건 좋지만... 젊은 시절의 자유가 그립지 않다고 하면 거짓말이겠지...$s",
+        "pt": "É legal ter uma família... mas estaria mentindo se dissesse que nunca sinto falta da liberdade da juventude...$s",
+        "ru": "Приятно иметь семью... Но я совру, если скажу, что не скучаю по свободе юности...$s",
+        "tr": "Aileye sahip olmak çok hoş... ama gençliğin özgürlüğünü özlemediğimi söylesem yalan söylemiş olurum...$s",
+        "zh": "有个家确实挺好的……但是如果我说我从不渴望年轻时的自由肯定是在撒谎……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:Resort",
+      "author_key": "Resort",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Die Aussicht ist atemberaubend! Tiefblau, so weit das Auge reicht...",
+        "es": "¡La vista es impresionante! Azul profundo hasta donde alcanza la vista...",
+        "fr": "La vue est à couper le souffle! Des flots bleus à perte de vue...",
+        "hu": "Lélegzetelállító ez a kilátás! Mélykék mindenhol, ahová csak a szem ellát...",
+        "it": "La vista è mozzafiato! Blu intenso a perdita d'occhio...",
+        "ja": "息を飲むような景色ね！見渡す限りの深い青…",
+        "en": "The view is breathtaking! Deep blue as far as the eye can see...",
+        "ko": "경치 너무 좋다! 지평선 끝까지 푸르른 바다야...",
+        "pt": "A vista é de tirar o fôlego! Azul profundo até onde a vista alcança...",
+        "ru": "Какой же тут вид! Насыщенная синева до самого горизонта...",
+        "tr": "Manzara nefesimi kesiyor! Gözün görebildiğince mavi deniz...",
+        "zh": "这景色真是摄人心魄！极目远眺，都是一片深蓝……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:Resort_Bar",
+      "author_key": "Resort_Bar",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wir alle lieben es, wenn Gus auftaucht.",
+        "es": "A todos nos encanta cuando Gus aparece.",
+        "fr": "Nous aimons tous quand Gus arrive.",
+        "hu": "Nagyon örülünk annak, mikor Gus felbukkan.",
+        "it": "È sempre una festa quando arriva Gus.",
+        "ja": "ガスの活躍、みんなはそれが大好きなの。",
+        "en": "We all love it when Gus shows up.",
+        "ko": "거스가 등장하면 다들 기뻐하지.",
+        "pt": "Todo mundo gosta quando o Gus aparece.",
+        "ru": "Нам тут всем все нравится, но когда появится Гас, станет еще веселее.",
+        "tr": "Hepimiz Gus'ı görünce bir mutlu oluyoruz.",
+        "zh": "格斯在，我们就很开心。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:Resort_Entering",
+      "author_key": "Resort_Entering",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Welch ein Genuss!",
+        "es": "¡Qué maravilla!",
+        "fr": "Quel régal !",
+        "hu": "Micsoda élvezet!",
+        "it": "Che bellezza!",
+        "ja": "なんて素敵なの！",
+        "en": "What a treat!",
+        "ko": "너무 좋다!",
+        "pt": "Que maravilha!",
+        "ru": "Какая тут красота!",
+        "tr": "Ne güzel bir yer!",
+        "zh": "多么享受啊！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:Resort_Leaving",
+      "author_key": "Resort_Leaving",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich glaube, ich mache heute Abend Meeresfrüchte.$h",
+        "es": "Creo que prepararé marisco esta noche.$h",
+        "fr": "Je pense que je vais faire des fruits de mer ce soir.$h",
+        "hu": "Azt hiszem ma estére tenger gyümölcseit készítek.$h",
+        "it": "Penso che cucinerò del pesce stasera.$h",
+        "ja": "今夜はシーフードにしようかしら。$h",
+        "en": "I think I'll make seafood tonight.$h",
+        "ko": "오늘 저녁은 해산물로 준비해야겠어.$h",
+        "pt": "Acho que vou fazer peixe para o jantar.$h",
+        "ru": "Думаю, сегодня на ужин приготовлю дары моря.$h",
+        "tr": "Sanırım akşama balık yemeği yapacağım.$h",
+        "zh": "我今晚大概会做海鲜。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:Sat",
+      "author_key": "Sat",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hi.#$e#Brauchst du etwas?",
+        "es": "Hola.#$e#¿Necesitas algo?",
+        "fr": "Bonjour.#$e#Tu as besoin de quelque chose ?",
+        "hu": "Szia.#$e#Segíthetek valamiben?",
+        "it": "Ciao.#$e#Ti serve niente?",
+        "ja": "こんにちは。#$e#何か 用かしら？",
+        "en": "Hi.#$e#Need something?",
+        "ko": "안녕.#$e#필요한 거 있어?",
+        "pt": "Oi.#$e#Precisa de alguma coisa?",
+        "ru": "Привет.#$e#Тебе что-то нужно?",
+        "tr": "Selam.#$e#Bir şey mi lazım?",
+        "zh": "嗨。#$e#需要什么吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:Sat4",
+      "author_key": "Sat4",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich bin so froh, dass du versuchst, den alten Hof etwas aufzumöbeln.#$e#Wenn du damit fertig bist, wird es eine Menge zu unserer Gemeinde beitragen!$h#$e#Das wird allerdings eine ganze Menge Arbeit für dich.#$e#Bye.",
+        "es": "Me alegra mucho que intentes mejorar la vieja granja.#$e#Cuando lo tengas todo controlado, ¡será una gran aportación a la comunidad!$h#$e#Aunque va a ser mucho trabajo para ti.#$e#Adiós.",
+        "fr": "Je suis ravie que tu essaies d’améliorer cette vieille ferme.#$e#Une fois que tu auras tout remis en ordre, ce sera un atout pour notre communauté !$h#$e#Mais cela va te demander beaucoup de travail.#$e#Au revoir.",
+        "hu": "Úgy örülök neki, hogy helyreállítod azt a régi farmot.#$e#Sokat fog érni a közösségnek, ha minden készen lesz!$h#$e#Számodra azonban rengeteg munkát jelent.#$e#Viszlát.",
+        "it": "Sono così contenta che tu stia cercando di migliorare quella vecchia fattoria.#$e#Una volta che avrai tutto in ordine, darà un bell'aiuto alla nostra comunità!$h#$e#Sarà un bel lavoraccio per te, però.#$e#Ciao.",
+        "ja": "あの 古い牧場を 良くしてくれている みたいで うれしいわ。#$e#全て 順調に なったら、 コミュニティに 大きく 貢献 できそうね！$h#$e#あなたは、 沢山の仕事を こなすことに なるけど。#$e#じゃあね。",
+        "en": "I'm so glad you're trying to improve that old farm.#$e#Once you've got everything in order, it's going to add a lot to our community!$h#$e#It's going to be a lot of work for you, though.#$e#Bye.",
+        "ko": "그 오래된 농장을 개선하려 한다니 듣기 기쁜 소식이다.#$e#모든 게 정리되면, 우리 마을에 많은 좋은 영향을 줄 거야!$h#$e#네가 할 일이 많긴 하겠다 근데.#$e#안녕.",
+        "pt": "Estou tão feliz de você estar tentando me ajudar a melhorar aquela fazenda velha.#$e#Quando você arrumar tudo, ela contribuirá bastante com a comunidade!$h#$e#Mas deve ser muito trabalho pra você.#$e#Tchau.",
+        "ru": "Я так рада, что ты стараешься привести старую ферму в порядок.#$e#Когда все будет готово, это поможет обществу!$h#$e#Правда, работы у тебя будет невпроворот.#$e#Пока.",
+        "tr": "O eski çiftliği güzelleştirmene çok sevindim.#$e#Her şeyi yoluna koyman, topluluğumuza çok şey katacak!$h#$e#Gerçi, bu senin için çok iş demek.#$e#Hoşça kal.",
+        "zh": "你能动手去翻新那座破旧的农场真是太好了。#$e#等你弄得差不多了，我们大家也都能跟着受益呢！$h#$e#当然，也可是个大工程。#$e#再见。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:Sun",
+      "author_key": "Sun",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "#$c .5#Ich genehmige mir heute eine Pause von der Hausarbeit.$h#$e#Ich nehm mir den Tag frei.$h#$e#Wenn ich es nicht aus dem Haus schaffe, werde ich wahnsinnig!#$e#Außerdem muss ich meine Beine trainieren.",
+        "es": "#$c .5#Hoy voy a descansar de las tareas de la casa.$h#$e#Me voy a tomar un día libre.$h#$e#Si no paso nada de tiempo fuera, ¡me volveré loca!#$e#Además, quiero mantener las piernas tonificadas.",
+        "fr": "#$c .5#Je laisse un peu de côté les tâches ménagères aujourd’hui.$h#$e#Je profite de cette journée pour me détendre$h#$e#Si je ne passe pas un peu de temps dehors, je deviens folle !#$e#Et puis, je ne veux pas que mes jambes se ramollissent.",
+        "hu": "#$c .5#Ma szüneteltetem a házimunkát.$h#$e#Kiveszem ezt a napot.$h#$e#Beleőrülök, ha nem tölthetek kint egy kis időt!#$e#Meg hát azt sem szeretném ha elpuhulnának a lábaim.",
+        "it": "#$c .5#Oggi faccio una pausa dalle faccende domestiche.$h#$e#Mi prendo un giorno di riposo.$h#$e#Se non passo un po' di tempo fuori, impazzirò!#$e#E poi non voglio che mi si inflaccidiscano le gambe.",
+        "ja": "#$c .5#今日の 家事は これぐらいにするわ。$h#$e#今日は これで お休みよ。$h#$e#これ以上 家に 閉じこもってたら、 気が変になっちゃう！#$e#足が太くなるのも イヤだし。",
+        "en": "#$c .5#I'm taking a break from house chores today.$h#$e#I'm taking the day off.$h#$e#If I don't spend any time outside, I'll go crazy!#$e#Plus I don't want my legs to turn soft.",
+        "ko": "#$c .5#오늘은 집안일 좀 쉬려고.$h#$e#하루 휴가 내는 거지.$h#$e#밖에서 시간 안 보냈다가는, 미치는 수가 있어!#$e#게다가 다리가 너무 말랑말랑해지긴 싫어.",
+        "pt": "#$c .5#Estou tirando uma folga das tarefas domésticas hoje.$h#$e#Estou tirando o dia de folga.$h#$e#Se eu não passar um tempo lá fora, vou enlouquecer!#$e#Não quero que minhas pernas fiquem flácidas.",
+        "ru": "#$c .5#Сегодня я отдыхаю от домашних хлопот.$h#$e#Сегодня у меня выходной.$h#$e#Если я не буду выходить из дома, я с ума сойду!#$e#К тому же, я не хочу, чтобы ноги у меня ослабли.",
+        "tr": "#$c .5#Bugün evi işi yapmayacağım.$h#$e#Dinleneceğim.$h#$e#Dışarı çıkmazsam eninde sonunda delireceğim!#$e#Ayrıca bacaklarımın yumuşamasını istemiyorum.",
+        "zh": "#$c .5#今天不做家务活了，我要休息一下。$h#$e#我今天休息。$h#$e#我再不出去待会我就要疯了！#$e#再说，我也不想骨头生锈。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:Sun8",
+      "author_key": "Sun8",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich hatte mal einen Traum, in dem ich völlig frei war, ohne Verpflichtungen an irgendjemanden außer mir...#$b#... Dann bin ich aufgewacht und musste feststellen, dass ich tonnenweise Hausarbeit vor mir hatte...$s#$e#Jedoch bereue ich es nicht eine Familie zu haben, @... Sam und Vincent bedeuten mir alles!",
+        "es": "Un día soñé que tenía libertad total, sin ninguna obligación más que conmigo misma...#$b#Entonces me desperté y vi que tenía un día lleno de tareas domésticas por delante...$s#$e#Pero no me arrepiento de tener una familia, @... ¡Sam y Vincent lo son todo para mi!",
+        "fr": "J’ai rêvé que j’étais libre comme l’air, sans obligations envers quiconque...#$b#... Et puis je me suis réveillée et je me suis souvenue que j’avais toute une journée de ménage qui m’attendait...$s#$e#Mais je ne regrette pas d’avoir une famille, @... Sam et Vincent sont ce que j’ai de plus cher au monde !",
+        "hu": "Azt álmodtam, hogy teljes szabadságom van, senkinek nem tartozom semmivel...#$b#...Aztán felébredtem és rájöttem, hogy egész nap csinálhatom a házimunkát...$s#$e#De nem bánom, hogy van családom, @... Sam és Vincent a mindeneim!",
+        "it": "Ho sognato che avevo completa libertà, nessun obbligo verso nessuno a parte me...#$b#...Poi mi sono svegliata e mi sono resa conto di avere davanti una giornata zeppa di faccende...$s#$e#Ma non mi pento di avere una famiglia, @... Sam e Vincent sono tutto per me!",
+        "ja": "自分以外の誰かに尽くす必要のない、完全に自由だった夢を見てたわ。#$b#…でも目を覚ますと、一日中家事に 付きっ切りっていう現実が待っているのよね…$s#$e#でも家族を持つことに後悔はないわ、@...。サムそしてビンセントは私にとってすべてだもの！",
+        "en": "I had a dream that I had complete freedom, no obligation to anyone but myself...#$b#...Then I woke up and realized I had a full day of house chores ahead of me...$s#$e#But I don't regret having a family, @... Sam and Vincent mean everything to me!",
+        "ko": "완전히 자유로운 꿈을 꿨어, 나 이외의 의무는 전혀 없는...#$b#...그러고 깨서 하루 종일 집안일을 해야 한다는 걸 깨달았지...$s#$e#하지만 가정을 꾸린 걸 후회하는 건 아냐, @... 샘과 빈센트는 나의 모든 것인걸!",
+        "pt": "Tive um sonho no qual eu era totalmente livre, não tinha nenhum compromisso com ninguém além de mim mesma...#$b#E aí, acordei e percebi que tinha um dia inteiro de afazeres domésticos na minha frente...$s#$e#Mas eu não me arrependo de ter uma família, @... Sam e Vincent significam tudo para mim!",
+        "ru": "Мне снился сон, в котором я была абсолютно свободна и отвечала только за себя...#$b#...А потом я проснулась и поняла, что впереди у меня полный день домашних хлопот...$s#$e#Нет, я не жалею, что у меня есть семья, @... Сэм и Винсент для меня все!",
+        "tr": "Bir rüya gördüm, tamamen özgürdüm, kendimden başka kimseye karşı sorumluluğum yoktu...#$b#...Sonra uyandım ve ev işleri ile dolu bir günün beni beklediğini fark ettim...$s#$e#Yine de ailemi hiçbir şeye değişmem, @... Sam ve Vincent benim her şeyim!",
+        "zh": "我梦到我彻底自由了，除了自己以外，对任何人都没有义务……#$b#…………然后我梦醒了并意识到我眼前有一堆家务活儿……$s#$e#但我不后悔有一个家庭，@……山姆和文森对我来说意味着一切！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:Thu",
+      "author_key": "Thu",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Dir gehört jetzt also der Hof, was? Interessant.#$e#Ich habe vorher noch nie einen Bauer getroffen.#$e#Vielleicht kannst du mir eines Tages zeigen, wie man Gemüse anpflanzt.$h",
+        "es": "Así que trabajas en la granja, ¿no? Qué interesante.#$e#Nunca había conocido a un granjero.#$e#A lo mejor me puedes enseñar un día a cultivar verduras.$h",
+        "fr": "Donc, tu travailles à la ferme, c’est ça ? Intéressant.#$e#Je n’ai jamais rencontré d’agriculteur auparavant.#$e#Peut-être qu’un jour, tu pourrais m’apprendre à cultiver des légumes.$h",
+        "hu": "Szóval gazda vagy, igaz? Érdekes.#$e#Soha nem találkoztam még gazdával.#$e#Egy nap megtaníthatnád hogyan kell zöldségeket termelni.$h",
+        "it": "Per cui hai una fattoria, eh? Interessante.#$e#Non avevo mai incontrato dei fattori, prima.#$e#Magari un giorno m'insegnerai come coltivare gli ortaggi.$h",
+        "ja": "あなた、牧場主なんでしょ？　面白いわね。#$e#牧場主に 会ったことが なかったの。#$e#野菜の 育て方を いつか 教えてくれるかしら。$h",
+        "en": "So you're a farmer, huh? Interesting.#$e#I've never met a farmer before.#$e#Maybe some day you can teach me how to grow vegetables.$h",
+        "ko": "너 농부라고 했지? 흥미롭네.#$e#나 농부는 만나본 적 없어.#$e#나중에 언제 채소 기르는 법도 알려줄 수 있겠다.$h",
+        "pt": "Então você trabalha na fazenda, hã? Interessante.#$e#Nunca conheci ninguém que trabalhasse numa fazenda antes.#$e#Talvez um dia você possa me ensinar a cultivar vegetais.$h",
+        "ru": "Так ты, значит, фермер? Интересно.#$e#Никогда не была знакома с фермером.#$e#Может, как-нибудь научишь меня выращивать овощи.$h",
+        "tr": "Çiftçisin demek. İlginç.#$e#Daha önce bir çiftçi ile tanışmamıştım.#$e#Belki bir gün bana sebze yetiştirmeyi öğretirsin.$h",
+        "zh": "你是位农夫，是吧？有意思。#$e#我第一次认识农夫。#$e#也许以后你可以教我怎么种菜。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:Thu6",
+      "author_key": "Thu6",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wohin ist all die Zeit verschwunden? *seufz*#$e#Ich erinnere mich daran, wie Sam noch ein kleines Baby in Windeln war. Er war so ein süßes kleines Kind.$s#$e#Sag ihm nicht, dass ich das gesagt habe.$h#$e#Du musst es ganz schön mögen, mit mir zu reden, was?",
+        "es": "¿Dónde se mete el tiempo? *suspiro*#$e#Recuerdo cuando Sam era un bebé en pañales. Era un niño monísimo.$s#$e#Pero no le digas que te lo he dicho.$h#$e#Supongo que te gusta hablar conmigo, ¿no?",
+        "fr": "Le temps passe tellement vite ! *Soupir*#$e#Je me souviens encore quand Sam portait des couches. C’était un petit garçon adorable.$s#$e#Ne lui dis pas que je t’ai dit ça.$h#$e#Il faut vraiment que tu lui parles, d’accord ?",
+        "hu": "Hova tűnik ez a sok idő? *sóhaj*#$e#Még emlékszem mikor Sam pelenkát hordott. Olyan aranyos kisgyerek volt.$s#$e#Ne mondd el neki, hogy ezt mondtam.$h#$e#Te nagyon szeretsz velem beszélgetni, ugye?",
+        "it": "Ma dove se ne vola il tempo? *sospira*#$e#Ricordo quando Sam aveva ancora il pannolino. Era un bimbetto così carino.$s#$e#Non andare a dirglielo.$h#$e#Deve proprio piacerti parlare con me, eh?",
+        "ja": "時が過ぎるのって あっという間ね。はぁ…#$e#サムが オムツを つけていた 頃のことも 覚えてるわ。あの頃の サムは 本当に かわいかった。$s#$e#これ、あの子には 内緒よ。$h#$e#私と お話するのが 本当に 好きなのね。",
+        "en": "Where does all the time go? *sigh*#$e#I remember when Sam was a little baby wearing diapers. He was such a cute little kid.$s#$e#Don't tell him I said that.$h#$e#You must really like talking to me, huh?",
+        "ko": "시간이 왜 이렇게 빨리 가는 거 같지? *한숨*#$e#샘이 기저귀 찬 아가였던 때가 기억나. 참 귀여운 아이였지.$s#$e#내가 이런 얘기 했다고는 하지 말고.$h#$e#나랑 얘기하는 거 재밌구나, 그치?",
+        "pt": "Como o tempo voa! Aaah...#$e#Eu me lembro de quando o Sam era um bebezinho de fraldas. Ele era um garotinho tão fofo.$s#$e#Não conte para ele que eu disse isso.$h#$e#Você adora conversar comigo, né?",
+        "ru": "Куда летит время? Ох...#$e#Помню, когда Сэм еще был маленьким и в подгузниках. Он был таким миленьким ребеночком.$s#$e#Только не говори ему, что я такое сказала.$h#$e#Кажется, тебе очень нравится со мной разговаривать, да?",
+        "tr": "Bu kadar zaman nereye gidiyor? *iç çeker*#$e#Sam'in küçük bir bebekken bez giydiğini hatırlıyorum. Öyle tatlı bir çocuktu ki.$s#$e#Bunu söylediğimi bilmesin sakın.$h#$e#Benimle konuşmayı gerçekten seviyor olmalısın, ha?",
+        "zh": "时间都去哪了？*唉*#$e#我还记得山姆小时候穿尿布的样子呢。他那时多可爱。$s#$e#你可别告诉他我说过这话。$h#$e#你一定很爱跟我聊天吧？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:Tue",
+      "author_key": "Tue",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Sport ist wichtig, um gesund zu bleiben. Ich nehme mir immer ein wenig Zeit dafür.#$e#Als Mutter habe ich nicht viel Zeit für mich selbst. Deswegen möchte ich jede Minute voll nutzen.",
+        "es": "El ejercicio es importante para mantenerse sano. Siempre intento dejar algo de tiempo para hacer deporte.#$e#Siendo madre, no me queda mucho tiempo para mí. Así que intento que cada minuto cuente.",
+        "fr": "Le sport est important pour rester en bonne santé. Je m’arrange toujours de réserver du temps pour ça.#$e#En tant que mère, je n’ai pas beaucoup de temps à consacrer à moi-même. Alors j’essaie de faire en sorte que chaque minute compte.",
+        "hu": "Az edzés fontos része az egészségnek. Mindig hagyok rá időt.#$e#Szülőként nem sok idő jut magamra, szóval minden perc számít.",
+        "it": "È importante fare esercizio per mantenersi in salute. Mi premuro sempre di ritagliarmi del tempo apposta.#$e#Come madre, non ho molto tempo da dedicare a me stessa. Quindi cerco di sfruttare ogni minuto.",
+        "ja": "運動は 健康を 保つのに 重要よ。私は 運動の時間を ちゃんと 取るように しているわ。#$e#親だから、 自身に 費やせる時間が あんまりないけどね。だから 時間は 有効に 使いたいの。",
+        "en": "Exercise is important for staying healthy. I always make sure to set aside some time for it.#$e#As a parent, I don't have much time to devote to myself. So I try and make every minute count.",
+        "ko": "건강하게 지내려면 운동이 중요하지. 난 꼭 운동할 시간을 따로 마련하는 편이야.#$e#부모로서 난 나 자신에게 할애할 시간이 많지 않아. 그래서 일분일초가 중요하지.",
+        "pt": "Exercício é importante para se manter saudável. Eu sempre separo um tempo para fazê-lo.#$e#Como mãe, não tenho muito tempo para mim. Então eu aproveito cada minuto.",
+        "ru": "Тренировки важны для здоровья. Я всегда стараюсь выделить на них время.#$e#У меня не так много времени на себя, ведь я мать. Поэтому я дорожу каждой минутой.",
+        "tr": "Sağlıklı kalmak için egzersiz önemli. Egzersize zaman ayırmaya dikkat ediyorum.#$e#Bir anne olarak kendime çok zaman ayıramıyorum. Bu yüzden her dakika çok önemli.",
+        "zh": "想保持健康的话，锻炼必不可少。我总是抽时间锻炼。#$e#作为家长，我没什么时间可以花在自己身上。因此我尽可能的抓紧每分每秒。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:Wed",
+      "author_key": "Wed",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Was hast du gesagt? Es ist schon %time Uhr? Meine Güte!#$e#Ich habe noch eine Menge Arbeit vor mir!$s",
+        "es": "¿Qué has dicho? ¿Son ya las %time? ¡Madre mía!#$e#¡Aún tengo miles de cosas que hacer!$s",
+        "fr": "Qu’est-ce que tu as dit ? Il est déjà %time ? Mon Dieu !#$e#J’ai encore tellement de choses à faire !$s",
+        "hu": "Mit is mondtál? Már %time van? Te jó ég!#$e#Még rengeteg dolgom van!$s",
+        "it": "Cos'hai detto? Sono già le %time? Accipicchia!#$e#Ho ancora così tanto lavoro da fare!$s",
+        "ja": "なんて言ったの？もう %time なの？ああ！#$e#まだやることが 沢山 あるのに！$s",
+        "en": "What did you say? It's %time already? My goodness!#$e#I still have tons of work to do!$s",
+        "ko": "뭐라고? 지금 벌써 %time라고? 어머나!#$e#아직 할 일이 잔뜩 남았는데!$s",
+        "pt": "O que você disse? Já são %time? Meu Deus!#$e#Ainda tenho muito trabalho a fazer!$s",
+        "ru": "Что ты говоришь? Уже %time? Боже мой!#$e#У меня еще столько работы!$s",
+        "tr": "Nasıl? Amanın, vakit çoktan %time olmuş!#$e#Yapacak bir ton işim var.$s",
+        "zh": "你说什么？都已经 %time 了？天哪！#$e#我还有成堆的工作没做呢！$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:Wed4",
+      "author_key": "Wed4",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich wünschte, ich könnte mehr Zeit draußen verbringen, aber es gibt so viel Arbeit zu erledigen.#$e#Ich trage neuerdings Gummihandschuhe, um meine Hände weich zu halten.#$e#Je älter du wirst, desto mehr musst du dich um deine Gesundheit kümmern.$s#$e#Tschau!",
+        "es": "Ojalá pudiera pasar más tiempo fuera, ¡pero hay demasiado que hacer!#$e#He empezado a usar guantes de goma para mantener suaves las manos.#$e#Cuanto más mayor te haces, más tienes que trabajar para estar sano.$s#$e#¡Vale, adiós!",
+        "fr": "J’aimerais pouvoir passer plus de temps dehors, mais j’ai tellement de travail à faire.#$e#Je me suis mise à porter des gants en caoutchouc pour garder les mains douces.#$e#Plus on vieillit, plus il faut faire des efforts pour rester en bonne santé.$s#$e#Ok, au revoir !",
+        "hu": "Szeretnék több időt kint tölteni, de olyan sok munka van.#$e#Újabban gumikesztyűt hordok, hogy puha maradjon a kezem.#$e#Minél idősebb vagy annál többet kell dolgozni az egészségért.$s#$e#Oké, szia!",
+        "it": "Vorrei poter passare più tempo fuori, ma c'è così tanto lavoro da fare.#$e#Ho iniziato a indossare i guanti di gomma perché le mani mi restino morbide.#$e#Più ci s'invecchia, più bisogna sforzarsi di restare in salute.$s#$e#Ok, ciao!",
+        "ja": "もっと 外に 出たいけど、 やることが あまりにも 多すぎるわ。#$e#手が 硬くならないよう、 ゴム手袋を つけるように したわ。#$e#年を取るにつれて、 健康を保つために しなきゃ いけないことが 増えるのよね。$s#$e#またね！",
+        "en": "I wish I could spend more time outside, but there's so much work to do.#$e#I started wearing rubber gloves to keep my hands soft.#$e#The older you get, the more work you have to do to stay healthy.$s#$e#Ok, bye!",
+        "ko": "밖에서 좀 더 많은 시간을 보내고 싶지만, 할 일이 너무 많은걸.#$e#손이 너무 거칠어지는 것 같아서 고무장갑을 쓰기 시작했어.#$e#나이가 들수록, 건강하게 지내는데 노력이 더 필요해.$s#$e#그럼, 안녕!",
+        "pt": "Gostaria de poder passar mais tempo fora, mas tenho tanto trabalho para fazer.#$e#Comecei a usar luvas de borracha para manter minhas mãos macias.#$e#Quanto mais velho você fica, mais tem que se esforçar para se manter saudável.$s#$e#Certo, até logo!",
+        "ru": "Я бы хотела больше времени проводить на свежем воздухе, но дома так много работы.#$e#Я начала носить резиновые перчатки, чтобы руки не огрубели.#$e#Чем старше становишься, тем больше труда уходит на поддержание здоровья.$s#$e#Ну, пока!",
+        "tr": "Keşke dışarıda daha çok zaman geçirebilsem, fakat yapacak çok iş var.#$e#Ellerimin sertleşmemesi için lastik eldiven giymeye başladım.#$e#Yaşlandıkça sağlıklı kalmak zorlaşıyor.$s#$e#Görüşürüz!",
+        "zh": "我真希望能多到外面转转，但是有太多的活要干了。#$e#我戴上橡胶手套保护手。#$e#年纪越大，越得花更多精力保持健康。$s#$e#好，再见！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:cc_Bus",
+      "author_key": "cc_Bus",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Sie sagen, der Bus fährt wieder. Ich bin mir sicher, dass Pam sich darüber freut...#$b#Ich habe gehört, dass sie mehr getrunken hat, nachdem sie ihren Job verloren hat... also hoffentlich hilft das.",
+        "es": "Dicen que el bus está reparado y funcionando. Estoy segura de que a Pam le alegra eso...#$b#Escuché que estuvo bebiendo más después de perder su trabajo... espero que esto la ayude a dejarlo.",
+        "fr": "Les gens racontent que le bus est de nouveau opérationnel. Je suis certaine que Pam est ravie...#$b#J’ai entendu dire qu’elle buvait beaucoup plus depuis qu’elle a perdu son travail... J’espère que ça va l’aider.",
+        "hu": "Azt mondják, hogy a busz ismét működik. Pam biztos örül neki...#$b#Úgy hallottam, hogy egyre többet ivott, amióta elvesztette az állását... szóval remélem, hogy ez majd segít neki.",
+        "it": "Dicono che l'autobus funzioni di nuovo. Sono sicura che Pam ne sarà felice...#$b#Ho sentito che beveva di più dopo aver perso il lavoro... Speriamo che questo le sia d'aiuto.",
+        "ja": "バスが修理されたんですって。パムはきっと喜んでるわ…#$b#仕事がなくなってからお酒の量が増えたって聞いたから… これがいいきっかけになると思うの。",
+        "en": "They say the bus is back up and running. I'm sure Pam is happy about that...#$b#I heard she'd been drinking more after losing her job... so hopefully this helps.",
+        "ko": "버스가 다시 운행 중이라며. 분명 팸이 기뻐하겠지...#$b#직장을 잃은 뒤로 술을 많이 마셨다던데... 이제 괜찮아졌으면 좋겠네.",
+        "pt": "Ouvi dizer que o ônibus está funcionando de novo. Tenho certeza que a Pam está feliz sobre isso...#$b#Ouvi falar que ela estava bebendo mais após perder o emprego... então tomara que isso ajude.",
+        "ru": "Говорят, что автобус снова на ходу. Уверена, Пэм очень этому рада...#$b#Слышала, что она начала налегать на спиртное после увольнения... Надеюсь, это поможет.",
+        "tr": "Otobüsün çalışmaya başladığı söyleniyor. Eminim Pam bundan mutludur...#$b#İşini kaybettikten sonra daha fazla içmeye başladığını duymuştum... Umarım bu ona iyi gelir.",
+        "zh": "她们说巴士修好了可以开了，潘姆肯定很高兴。#$b#我听说她失业之后喝得更凶了……希望能有所好转吧。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "community_center_event",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "community_center"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:dating_Sam_memory_oneday",
+      "author_key": "dating_Sam_memory_oneday",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe von dir und Sam gehört. Hoffentlich macht er Ihnen keinen Ärger!$h",
+        "es": "Escuché lo tuyo con Sam. ¡Con suerte, no te causará problemas!$h",
+        "fr": "Je suis au courant pour Sam et toi. J’espère qu’il ne te causera pas d’ennuis !$h",
+        "hu": "Hallottam rólad és Samről. Remélhetőleg nem fog problémát okozni neked!$h",
+        "it": "Ho sentito che esci con Sam. Spero che non ti faccia passare dei guai!$h",
+        "ja": "あなたとサムのことを聞いたの。あの子があなたに迷惑をかけないか心配だわ！$h",
+        "en": "I heard about you and Sam. Hopefully he won't cause you any trouble!$h",
+        "ko": "너와 샘 얘기는 들었단다. 샘이 너를 애먹게 하지 않았으면 좋겠네!$h",
+        "pt": "Ouvi falar sobre você e o Sam. Espero que ele não te dê trabalho!$h",
+        "ru": "Слышала о вас с Сэмом. Надеюсь, он не доставит тебе проблем!$h",
+        "tr": "Sam ile beraber olduğunu duydum. Umarım başına bela açmaz!$h",
+        "zh": "我听说你跟山姆在一起了，但愿他不会给你惹麻烦！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'dating_Sam_memory_oneday' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:eventSeen_101",
+      "author_key": "eventSeen_101",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Armer Clint... man sagt, er ist Hals über Kopf in Emily verliebt, aber ich habe gehört, sie sieht ihn nur als Freund...",
+        "es": "Pobre Clint... dicen que está coladito por Emily, pero escuché que ella solo le ve como un amigo...",
+        "fr": "Pauvre, Clint... La rumeur dit qu’il est fou amoureux d’Emily, mais j’ai entendu dire qu’elle le considère uniquement comme un ami...",
+        "hu": "Szegény Clint... azt mondják, hogy fülig bele van zúgva Emilybe, de úgy hallottam, hogy ő csak barátként tekint rá...",
+        "it": "Povero Clint... dicono che sia innamorato cotto di Emily, ma ho sentito che lei lo vede solo come un amico...",
+        "ja": "かわいそうなクリント… 彼はエミリーのことが好きらしいの。でもエミリーは彼を友達としか思ってないって聞いたわ…",
+        "en": "Poor Clint... they say he's head-over-heels for Emily, but I've heard she only thinks of him as a friend...",
+        "ko": "불쌍한 클린트... 듣기론 완전 에밀리한테 빠진 것 같던데, 에밀리는 그냥 친구로 생각한다더라...",
+        "pt": "Pobre Clint... falam que ele é caidinho pela Emily, mas ela só pensa nele como um amigo...",
+        "ru": "Бедняга Клинт... Говорят, он по уши влюбился в Эмили, а она видит в нем лишь друга...",
+        "tr": "Zavallı Clint... Emily'den hoşlandığını söylüyorlar. Emily ise onu sadece arkadaş olarak görüyor...",
+        "zh": "克林特太惨了……她们说他对艾米丽那是爱惨了，但我听说艾米丽只把他当朋友……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'eventSeen_101' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:eventSeen_3102768",
+      "author_key": "eventSeen_3102768",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Penny ist ein süßes Mädchen. Sie ist schon seit einiger Zeit Vincents Lehrerin, und er mag sie sehr.",
+        "es": "Penny es una dulzura de chica. Lleva siendo la profesora de Vincent un tiempo, él la quiere mucho.",
+        "fr": "Penny est une fille adorable. C’est l’enseignante de Vincent depuis un certain temps et il l’aime beaucoup.",
+        "hu": "Penny remek lány. Egy ideje már Vincent tanítója, és nagyon szereti őt.",
+        "it": "Penny è una ragazza tanto dolce. È l'insegnante di Vincent da un po', ormai, e lui la adora.",
+        "ja": "ペニーは優しい子よ。ヴィンセントの面倒をよく見てくれるし、ヴィンセントはペニーが大好きなの。",
+        "en": "Penny's a sweet girl. She's been Vincent's teacher for a while now, and he really loves her.",
+        "ko": "페니는 정말 좋은 아이란다. 한동안 빈센트를 가르쳐 줬는데, 빈센트가 무척 마음에 들어 하더라고.",
+        "pt": "A Penny é uma moça muito gentil. Ele tem sido a professora do Vincent por um bom tempo, e ele realmente gosta dela.",
+        "ru": "Пенни — милая девушка. Она уже давно учит Винсента, и она ему очень нравится.",
+        "tr": "Penny çok tatlı bir kız. Bir süredir Vincent'a öğretmenlik yapıyor. Vincent da onu oldukça seviyor.",
+        "zh": "潘妮是个温柔的孩子。她当文森特的老师有一段时间了，文森特很喜欢她。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:eventSeen_3910975",
+      "author_key": "eventSeen_3910975",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "*flüster* Hast du das von Shane gehört? Das ist so schrecklich... Ich hoffe, es geht ihm gut.$s",
+        "es": "*susurro* ¿Escuchaste lo de Shane? Que horror... espero que este bien.$s",
+        "fr": "*chuchote* Es-tu au courant pour Shane ? C’est terrible... J’espère qu’il va bien.$s",
+        "hu": "*suttog* Hallottad mi történt Shanenel? Olyan borzasztó... Remélem jól van.$s",
+        "it": "*sussurra* Hai sentito di Shane? Che cosa terribile... Spero che stia bene.$s",
+        "ja": "（ささやき）シェーンのことは聞いた？とても心配だわ…大丈夫だといいのだけど。$s",
+        "en": "*whisper* Did you hear about Shane? That's so terrible... I hope he's doing okay.$s",
+        "ko": "*소곤* 셰인 얘기는 들었니? 너무 끔찍한 일이야... 괜찮아야 할 텐데.$s",
+        "pt": "*sussurra* Você ficou sabendo do Shane? Que terrível... espero que ele esteja bem.$s",
+        "ru": "*шепчет* Вот это у Шейна и ситуация, да? Как ужасно... Надеюсь, он в порядке.$s",
+        "tr": "*fısıldar* Shane'e olanları duydun mu? Cidden korkunç... Umarım iyidir.$s",
+        "zh": "（低声说）你听说谢恩的事了吗？太惨了……希望他能缓过来。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'eventSeen_3910975' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:eventSeen_58",
+      "author_key": "eventSeen_58",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich mache jede Woche Aerobic mit den Damen...#$b#Neulich kam jemand Neues dazu, aber wir mussten alle schwören, dass wir seine Identität nicht preisgeben würden!",
+        "es": "He estado haciendo clase de aerobic con las chicas...#$b#Recientemente, alguien nuevo se unió a la clase, ¡pero nos hizo jurar a todas que no revelaríamos su identidad!",
+        "fr": "Je participe au cours d’aérobic avec les filles chaque semaine...#$b#Récemment, quelqu’un a joint la classe, mais il nous a fait jurer de ne pas révéler son identité !",
+        "hu": "Minden héten aerobik órán vagyok a hölgyekkel...#$b#Nemrég egy férfi is csatlakozott hozzánk, de mindannyian megesküdtünk, hogy nem fedjük fel a kilétét!",
+        "it": "Ogni settimana vado a lezione di aerobica con le ragazze...#$b#Ultimamente abbiamo un nuovo partecipante al corso, ma ha fatto giurare a tutte di non rivelare la sua identità!",
+        "ja": "毎週、女性を集めてエアロビクス教室をやっているの…#$b#最近新しい人が入ったんだけど、彼ったら自分のことは絶対に秘密にしてくれって言うのよ！",
+        "en": "I've been doing aerobics class with the ladies every week...#$b#Recently, someone new joined the class, but he made us all swear we wouldn't reveal his identity!",
+        "ko": "동네 아줌마들이랑 매주 에어로빅 수업을 듣고 있어...#$b#최근 새로운 사람이 합류했는데, 그 남자가 절대로 자기 정체는 공개하지 말라고 맹세하게 했단다!",
+        "pt": "Eu tenho feito aulas de aeróbica com as amigas toda semana...#$b#Recentemente, um novato entrou no grupo, mas ele deixou muito claro que não quer ter sua identidade revelada!",
+        "ru": "Мы с девочками ходим на занятия по аэробике...#$b#Недавно к нам пришел новенький, но он взял с нас слово никому не раскрывать его личность!",
+        "tr": "Her hafta kadınlarla aerobik dersi yapıyorum...#$b#Son zamanlarda sınıfa yeni biri katıldı ve kim olduğunu kimseye söylemememiz için bize yemin ettirdi!",
+        "zh": "我每周都跟她们一起上有氧健身课……#$b#最近来了个新人，不过他让我们发誓不能透露他的身份！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:eventSeen_94",
+      "author_key": "eventSeen_94",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Nochmals vielen Dank, dass du den Fisch mitgebracht hast! Es war einige der besten, die wir seit einer Weile hatten.",
+        "es": "¡Gracias otra vez por haberme traído ese pescado! Fue uno de los mejores que he probado.",
+        "fr": "Merci encore d’avoir apporté ce poisson ! C’est l’un des meilleurs que nous avons mangé depuis longtemps.",
+        "hu": "Köszönöm, hogy elhoztad nekem azt a halat! Rég ettünk már ennyire jót.",
+        "it": "Grazie ancora per avermi portato quel pesce! Era da un po' che non ne mangiavamo di così buoni.",
+        "ja": "あの魚を持ってきてくれてありがとう！あんなに素晴らしい食材は久しぶりだったわ。",
+        "en": "Thanks again for bringing that fish! It was some of the best we've had in a while.",
+        "ko": "저번에 생선 가져다줘서 고마워! 최근 먹은 것 중 제일 맛있었단다.",
+        "pt": "Obrigada novamente por trazer aquele peixe! Foi um dos melhores que comemos em um bom tempo.",
+        "ru": "Еще раз спасибо за рыбу. Давно я такой вкусноты не ела.",
+        "tr": "Balık için tekrar teşekkürler! Uzun zamandır yediğimiz en iyi balıktı.",
+        "zh": "上次你带来的那条鱼，真的很感谢！那是我们最近尝到的最美味的鱼了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:fall_Mon6",
+      "author_key": "fall_Mon6",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich sollte meinen Segen öfter schätzen. Wir haben hier ein gutes Leben. Manche Menschen haben nicht genug zu essen.$s",
+        "es": "Debería ser agradecida con lo que tengo más a menudo. Tenemos una buena vida aquí. Alguna gente ni siquiera tiene para comer.$s",
+        "fr": "Je devrais compter mes bénédictions plus souvent. Nous vivons une belle vie ici. Certaines personnes n’ont même pas de quoi manger.$s",
+        "hu": "Jobban kellene örülnöm annak amim van. Itt jó az életünk. Egyeseknek nincs elég élelmiszerük.$s",
+        "it": "Dovrei pensare più spesso a quanto sono fortunata. Facciamo una bella vita qui. Ci sono persone al mondo che fanno la fame.$s",
+        "ja": "私は自分がどんなに恵まれているかを自覚しなくちゃいけないわ。私たちはここで幸せに暮らしている。世界には十分な食べ物が手に入らない人もいるのよ。$s",
+        "en": "I should count my blessings more often. We have a good life here. Some people don't have enough food to eat.$s",
+        "ko": "내가 복받았다는 걸 종종 기억해야겠어. 여기 생활은 정말 좋아. 세상엔 먹을게 부족한 사람들도 있는 걸.$s",
+        "pt": "Eu devia ser mais grata pelas coisas. Nós temos uma vida boa aqui. Algumas pessoas não tem comida para sobreviver.$s",
+        "ru": "Нужно чаще думать о том, как крупно нам повезло. Мы еще хорошо живем. А ведь у некоторых даже еды нет.$s",
+        "tr": "Daha sık şükretmeliyim. Burada güzel bir hayatımız var. Bazı insanlar aç yatmak zorunda kalıyor.$s",
+        "zh": "我应该多珍惜福气的，毕竟我们已经过得很好了，有些人还是缺衣少食。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:fall_Sun",
+      "author_key": "fall_Sun",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Caroline und ich sind gute Freunde. Ich erzähle ihr alles.",
+        "es": "Caroline y yo somos buenas amigas. Se lo cuento todo.",
+        "fr": "Caroline et moi sommes très bonnes amies. Je lui dis tout.",
+        "hu": "Caroline jó barátom. Mindent elmondok neki.",
+        "it": "Caroline ed io siamo buone amiche. Le racconto tutto.",
+        "ja": "私、 キャロラインとは 仲がいいのよ。彼女には 何でも 話せるの。",
+        "en": "Caroline and I are good friends. I tell her everything.",
+        "ko": "캐롤라인과 나는 좋은 친구야. 그녀한테는 모든 걸 다 이야기해줘.",
+        "pt": "Caroline e eu somos bons amigos. Eu conto tudo para ela.",
+        "ru": "Мы с Кэролайн хорошие друзья. Я рассказываю ей обо всем.",
+        "tr": "Caroline ile çok iyi arkadaşız. Ona her şeyi anlatıyorum.",
+        "zh": "我和卡洛琳是好朋友。我什么事情都跟她说。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:fall_Sun2",
+      "author_key": "fall_Sun2",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wenn du Kinder kriegst, lässt du deinen alten Lebensstil zurück.#$e#Vielleicht ist das nicht komplett wahr... Aber wenn du nicht aufpasst, wird das passieren.",
+        "es": "Cuando tengas hijos, tendrás que dejar atrás tu antiguo estilo de vida.#$e#Puede que no sea del todo cierto... Pero es lo que pasará si no tienes cuidado.",
+        "fr": "Quand on devient parent, il faut abandonner son ancien mode de vie.#$e#Ce n’est peut-être pas tout à fait vrai... mais si on ne fait pas attention, c’est ce qui arrive.",
+        "hu": "Szülővé válás után dobhatod ki az ablakon a régi életmódodat.#$e#Na jó, ez nem teljesen igaz... de ha nem vigyázol, megtörténhet.",
+        "it": "Quando si diventa genitori, bisogna abbandonare il vecchio stile di vita.#$e#Forse non è del tutto vero... ma se non fai attenzione, succederà.",
+        "ja": "あなたも 親に なったら、 昔の 生活を 捨てることに なるわよ。#$e#絶対捨てなきゃ いけないわけじゃ ないけど… 気をつけないと そうなるわ。",
+        "en": "When you become a parent, you have to leave your old lifestyle behind.#$e#Maybe that's not entirely true... but if you're not careful, it will happen.",
+        "ko": "부모가 되면, 예전의 삶은 과거로 남겨둬야 해.#$e#어쩌면 그게 전부 사실은 아니지만... 조심하지 않으면, 그럴 수도 있어.",
+        "pt": "Quando você se torna pai ou mãe, tem que deixar seu antigo estilo de vida para trás.#$e#Talvez isso não seja totalmente verdade... mas se você não tiver cuidado, acontece.",
+        "ru": "Когда у тебя появляются дети, приходится бросать свой прежний образ жизни.#$e#Может, это и не всегда так... Но если не быть осторожным, то так и случится.",
+        "tr": "Çocukların olduğunda, eski hayatını geride bırakmak zorunda kalıyorsun.#$e#Belki de kalmıyorsundur... ama kendini salarsan eninde sonunda kalırsın.",
+        "zh": "等你成了家长，你就得放下你过去的生活方式。#$e#可能倒也不绝对……不过这种事总是在你不经意间就悄悄发生了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:fall_Thu",
+      "author_key": "fall_Thu",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Vielleicht habe ich die Jungs ein wenig zu verwöhnt. Sie mussten sich nie um die Hausarbeit kümmern.#$e#Ich wollte, dass sie ihre Kindheit noch genießen, solange sie können. Na ja, Sam ist jetzt aber erwachsen.#$b#Ich hoffe, er ist deswegen nicht faul geworden. Das wäre nicht gut.$s#$e#Eltern zu sein ist nicht einfach.",
+        "es": "A lo mejor he malcriado algo a mis chicos. Nunca han tenido que hacer las tareas de casa.#$e#Supongo que quiero que disfruten de la infancia ahora que pueden. Aunque Sam ya es todo un hombre.#$b#Espero que no se acostumbre a ser vago. No puede ser.$s#$e#Ser madre no es fácil.",
+        "fr": "Je gâte peut-être un peu trop les garçons. Ils n’ont jamais eu à faire de tâches ménagères.#$e#Je veux qu’ils puissent profiter de leur enfance pendant qu’ils le peuvent encore. Sam est un homme maintenant.#$b#J’espère qu’il ne va pas devenir paresseux. Je n’aimerais pas ça.$s#$e#Ce n’est pas facile d’être parent.",
+        "hu": "Talán egy kicsit elkényeztettem a fiúkat. Soha nem kellett házimunkát csinálniuk.#$e#Szeretném, hogy addig élvezzék a gyerekkorukat amíg megtehetik. Nos, Sam már igazából felnőtt.#$b#Remélem nem lustának neveltem. Az nem járja.$s#$e#Nem egyszerű szülőnek lenni.",
+        "it": "Forse ho un po' viziato i ragazzi. Non gli ho mai fatto fare faccende.#$e#È che voglio che si godano l'infanzia finché possono. Beh, Sam ormai è praticamente un uomo, in effetti.#$b#Spero che non sia cresciuto pigro. Non andrebbe bene.$s#$e#Non è facile fare il genitore.",
+        "ja": "たぶん、 子ども達を 甘やかしすぎたのかも。彼らに 家事を させてなかったから。#$e#子ども達には、 若い間に 色々と 楽しんでほしいと 思ってるのよ。まあ、 サムは 十分 大人に なったけどね。#$b#怠け者に なってなかったら いいけど…そうは 行かないわよね。$s#$e#親になるのって 難しいわ。",
+        "en": "Maybe I've spoiled the boys a bit. They've never had to do any chores.#$e#I guess I want them to be able to enjoy their childhood while they still can. Well, Sam's basically a man now, though.#$b#I hope he hasn't grown up to be lazy. That won't do.$s#$e#Being a parent isn't very easy.",
+        "ko": "아이들 너무 오냐오냐 키운 거 아닌가 몰라. 집안일을 시킨 적이 없거든.#$e#어린 시절을 좀 더 자유롭게 즐길 수 있었으면 하는 마음이었으니까. 뭐, 샘은 이제 성인이나 다름없지.#$b#게으른 마음가짐을 가지게 된 건 아닌가 모르겠네. 그럼 안되는데.$s#$e#부모가 되는 건 쉬운 일이 아냐.",
+        "pt": "Talvez eu tenha mimado um pouco os meninos. Eles nunca fizeram uma tarefa doméstica.#$e#Acho que quis que eles aproveitassem a infância enquanto podiam. Mas sabe, o Sam é praticamente um homem agora.#$b#Espero que ele não tenha ficado preguiçoso. Isso não adianta.$s#$e#Ser pai ou mãe não é muito fácil.",
+        "ru": "Может, я немного избаловала мальчиков. Я никогда не заставляла их работать по дому.#$e#Наверное, я хочу, чтобы они наслаждались детством, пока еще есть время. Ну, Сэм уже практически взрослый мужчина.#$b#Надеюсь, я не вырастила его ленивым. Так дело не пойдет.$s#$e#Быть матерью не так-то просто.",
+        "tr": "Sanırım çocukları biraz şımarttım. Hiçbir zaman ev işleri yapmak zorunda olmadılar.#$e#Sanırım çocukluklarını yaşayabiliyorken yaşamalarını istedim. Neyse, Sam kocaman oldu zaten.#$b#Umarım tembel biri olmaz. Neyse işte.$s#$e#Anne olmak hiç kolay değil.",
+        "zh": "也许是我有点宠坏孩子了。他们从来不干活。#$e#我是想在他们小的时候给他们一个好的童年。不管怎样，山姆现在长大成人了。#$b#希望他不要变得懒惰。太懒惰可不行。$s#$e#做父母真不容易啊。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:fall_Thu_inlaw_Sam",
+      "author_key": "fall_Thu_inlaw_Sam",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Gammelt Sam nur auf der Farm herum, oder hilft er auch?",
+        "es": "¿Está Sam solamente holgazaneando por la granja, o está contribuyendo en algo?",
+        "fr": "Est-ce que Sam passe son temps à trainer autour de la ferme ou contribue-t-il au moins un peu ?",
+        "hu": "Sam csak lazsál a farmon, vagy dolgozik is valamit?",
+        "it": "Sam gironzola per la fattoria senza fare niente, o contribuisce effettivamente a qualcosa?",
+        "ja": "サムは農場でただブラブラしているだけなのか、それとも貢献しているのか？",
+        "en": "Is Sam just bumming around the farm, or is he contributing?",
+        "ko": "샘 농장에서 그냥 빈둥거리고 있니, 아니면 좀 도움이 되니?",
+        "pt": "O Sam só está andando pela fazenda, ou está fazendo alguma coisa?",
+        "ru": "Сэмми просто слоняется по ферме или же помогает по хозяйству?",
+        "tr": "Sam aylaklık ediyor mu? Yoksa sana yardım mı ediyor?",
+        "zh": "山姆只是在农场闲逛，还是在帮着做事？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:married_Sam",
+      "author_key": "married_Sam",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich freue mich so für dich und Sam. Ich finde ihr passt perfekt zusammen#$e#Ich hätte nie gedacht, dass ich das mal sagen würde... aber ich werde diese schrecklichen Geräusche von Sams Gitarre vermissen...$s",
+        "es": "Estoy muy feliz por ti y Sam. ¡Creo que vosotros dos sois la pareja perfecta!#$e#Nunca pensé que diría esto... pero echaré de menos esos horribles ruidos de la guitarra de Sam...$s",
+        "fr": "Je suis si heureuse pour toi et Sam. Je pense que vous êtes le couple parfait !#$e#Je n’aurais jamais pensé dire ça un jour... mais les sons horribles de la guitare de Sam vont me manquer...$s",
+        "hu": "Annyira örülök neked és Samnek. Szerintem tökéletesen illetek egymáshoz!#$e#Sose gondoltam volna, hogy ezt mondom... de hiányozni fognak Sam borzasztó gitáros zajongásai...$s",
+        "it": "Sono così felice per te e per Sam. Penso che siate la coppia perfetta!#$e#Non credevo che l'avrei mai detto... ma mi mancheranno i rumori tremendi della chitarra di Sam...$s",
+        "ja": "あなたとサムがしあわせそうで私もうれしいわ！本当にお似合いの夫婦ね！#$e#サムの部屋からうるさいギターの音が聞こえなくなるのをさびしく思う日が来るなんて思わなかったわ…$s",
+        "en": "I'm so happy for you and Sam. I think you two are the perfect match!#$e#I never thought I'd say it... but I'll miss those awful noises from Sam's guitar...$s",
+        "ko": "너와 샘 일 정말 축하해. 둘이 천생연분이라고 생각하거든!#$e#이런 말을 내가 하게 될 줄은 몰랐는데... 샘이 기타로 내던 그 끔찍한 소리도 그리워질 것 같네...$s",
+        "pt": "Estou muito feliz por você e pelo Sam. Eu acho que vocês são um casal perfeito!#$e#Eu achei que nunca ia falar isso... mas vou sentir falta daquelas notas desafinadas da guitarra do Sam...$s",
+        "ru": "Я так рада за вас с Сэмом. Думаю, вы прекрасная пара!#$e#Не думала, что такое скажу, но я буду скучать по ужасным звукам гитары Сэма...$s",
+        "tr": "Adınıza çok sevindim. Bence tam da birbirinize aitsiniz!#$e#Bunu söyleyeceğimi hiç düşünmezdim ama... Sam'in gitarından çıkan o iğrenç sesleri özleyeceğim...$s",
+        "zh": "你跟山姆结婚了我很开心，我觉得你们俩特别般配！#$e#没想到会有机会说出来……山姆弹的那些轰隆隆的噪音，我还是会想念的……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'married_Sam' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:pamHouseUpgrade",
+      "author_key": "pamHouseUpgrade",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wow... Ich habe gehört, was du für Pam getan hast... Junge, ich frage mich, was sie getan hat, um so in deine Gunst zu geraten?$s#$e#... Ich wünschte, ich hätte so viel Geld zum Herumwerfen...$s",
+        "es": "Guau... Escuché lo que hiciste por Pam... ¿Me pregunto que ha hecho para que te caiga tan bien?$s#$e#...Ojalá tuviera tanto dinero para gastarlo así...$s",
+        "fr": "Wouah... J’ai entendu ce que tu as fait pour Pam... Je me demande ce qu’elle a fait pour s’attirer tes bonnes grâces comme ça...$s#$e#J’aimerais bien aussi avoir autant d’argent à jeter par les fenêtres...$s",
+        "hu": "Váó... Hallottam, hogy mit tettél Pammel... Öregem, vajon mit művelt veled, hogy ilyen jól a kegyeidbe férkőzött?$s#$e#...Bár nekem lenne ennyi pénzem, amivel dobálózhatnék...$s",
+        "it": "Wow... Ho sentito cos'hai fatto per Pam... Cavolo, cos'avrà mai fatto per entrare nelle tue grazie?$s#$e#...Magari ce li avessi io, tutti quei soldi da dare via così...$s",
+        "ja": "まあ…パムのことは聞いたわ…どうして彼女はこんなに親切にしてもらえるのかしら。$s#$e#…私もそんな大金を持ってみたいわ…$s",
+        "en": "Wow... I heard what you did for Pam... Boy, I wonder what she did to get in your good graces like that?$s#$e#...I wish I had that kind of money to throw around...$s",
+        "ko": "오... 팸을 위해서 네가 해준 일을 들었단다... 어우, 팸은 어떻게 해서 네 호감을 그렇게 받았다니?$s#$e#...나도 그럴 돈이 있었다면 좋겠네...$s",
+        "pt": "Uau... Eu fiquei sabendo do que você fez pela Pam... Olha, me pergunto o que ela fez para te agradar tanto assim?$s#$e#...Queria eu ter toda essa grana para gastar...$s",
+        "ru": "Ух ты... Слышала, что тебе удалось сделать для Пэм. Интересно, чем она смогла заслужить такое прекрасное отношение?$s#$e#...Вот бы у меня было столько лишних денег...$s",
+        "tr": "Pam için yaptığını duydum... Vay be, ne yaptı da böyle bir şeye giriştin acaba?$s#$e#...Keşke benim de bu kadar param olsaydı da harcayabilseydim...$s",
+        "zh": "欸……我听说你帮了潘姆……好家伙，她干了什么让你对她这么好？$s#$e#……要是我也有这么多钱可以挥霍就好了……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'pamHouseUpgrade' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:pamHouseUpgradeAnonymous",
+      "author_key": "pamHouseUpgradeAnonymous",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hast du Pams neues Haus gesehen? Junge, Junge... Ich wünschte, ich hätte so viel Geld... Ich würde zumindest gerne die Küche umgestalten lassen...$s",
+        "es": "¿Viste la casa nueva de Pam? Guau...Ojalá tuviera tanto dinero... Me encantaría que me remodelaran la cocina, por lo menos...$s",
+        "fr": "Tu as vu la nouvelle maison de Pam ? Sans blague... Moi aussi j’aimerais avoir autant d’argent... J’aimerais bien pouvoir au moins refaire la cuisine...$s",
+        "hu": "Láttad Pam új házát? Öregem... bárcsak nekem lenne annyi pénzem... Legalább a konyhát szeretném rendbehozni...$s",
+        "it": "Hai visto la nuova casa di Pam? Cavolo... Vorrei averceli io, tutti quei soldi... almeno per rifare la cucina...$s",
+        "ja": "パムの新しい家を見た？はぁ…私もそんな大金を持ってみたいわ…せめてキッチンだけはリフォームしたいの…$s",
+        "en": "Did you see Pam's new house? Boy... I wish I had that kind of money... I'd love to get the kitchen remodeled, at least...$s",
+        "ko": "팸네 새 집 봤니? 어우... 나도 그런 돈이 있었으면 좋겠다... 적어도 주방이라도 리모델링하고 싶은데...$s",
+        "pt": "Você viu a casa nova da Pam? Olha... queria eu ter toda essa grana... Eu adoraria remodelar minha cozinha, pelo menos...$s",
+        "ru": "Как тебе новый дом Пэм? Ой... Вот бы у меня было столько денег... Мне хотя бы кухню обновить...$s",
+        "tr": "Pam'in yeni evini gördün mü? Vay canına... Keşke benim de o kadar param olsa... En azından mutfağı yeniletmeyi çok isterdim...$s",
+        "zh": "你看到潘姆的新房子了吗？好家伙……要是我也有这么多钱就好了……好歹能把厨房重新装修一下……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'pamHouseUpgradeAnonymous' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:reject_864",
+      "author_key": "reject_864",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Was ist das? Sieht aus wie einer von Kents Kumpels aus dem Krieg. Vielleicht sollten Sie es ihm zeigen?",
+        "es": "¿Qué es esto? Parece uno de los compañeros de guerra de Kent. ¿Quizás deberias enseñárselo?",
+        "fr": "Qu’est-ce que c’est, ça ? On dirait l’un des soldats avec qui Kent était ami durant la guerre. Tu devrais peut-être la lui montrer !",
+        "hu": "Ez meg micsoda? Úgy néz ki, mint Kent egykori háborús barátja. Talán meg kellene mutatnod neki?",
+        "it": "E questo chi è? Assomiglia a uno dei vecchi commilitoni di Kent. Prova a mostrarla a lui, magari?",
+        "ja": "これは？ケントの戦友の1人みたいね。彼に見せた方が良いんじゃないかしら？",
+        "en": "What's this? It looks like one of Kent's buddies from the war. Maybe you should show it to him?",
+        "ko": "이게 뭐야? 켄트 동료 사진인 것 같은데. 켄트한테 직접 보여주면 뭔가 얘기해 주려나?",
+        "pt": "O que é isso? Parece um dos companheiros de guerra do Kent. Talvez você devesse mostrar para ele?",
+        "ru": "Это еще что такое? Похоже, это однополчанин Кента. Может, покажешь фото ему?",
+        "tr": "Bu nedir? Kent'in tertibi sanırsam. Belki de bunu ona göstermelisin.",
+        "zh": "这是什么？看起来像是肯特的一位战友。也许你应该把这个拿去给他看看？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:summer_Mon",
+      "author_key": "summer_Mon",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Der Sommer ist angenehm, aber er bedeutet auch mehr Arbeit.#$e#Ich muss zusätzlich zum Haus auch noch den Garten pflegen!",
+        "es": "El verano es agradable, pero siempre supone más trabajo.#$e#¡Tengo que mantener el jardín en condiciones además de la casa!",
+        "fr": "L’été est agréable, mais cela signifie aussi plus de travail.#$e#Je vais devoir m’occuper du jardin en plus de tout ce que j’ai à faire dans la maison !",
+        "hu": "Jó, hogy nyár van, de ez több munkát is jelent.#$e#A házon felül még a kertet is rendben kell tartanom!",
+        "it": "L'estate è bella, ma significa anche più lavoro.#$e#Oltre alla casa, dovrò tenere in ordine anche il giardino!",
+        "ja": "夏は良い季節だけど、 仕事も増えるのよね。#$e#家のことは もちろん、 お庭も ちゃんと 手入れ しなきゃ！",
+        "en": "Summer is nice, but it also means more work.#$e#I'll have to keep the garden in shape on top of working in the house!",
+        "ko": "여름이 좋긴 하지만, 일거리도 더 많아.#$e#집안일뿐만 아니라 정원도 가꿔야 하는 걸!",
+        "pt": "O verão é muito legal, mas também significa mais trabalho.#$e#Vou ter que manter o jardim em ordem além de arrumar a casa!",
+        "ru": "Лето — это хорошо, но летом еще больше работы.#$e#Мне нужно следить не только за домом, но и за садиком!",
+        "tr": "Yaz güzel ama aynı zamanda daha çok iş yapmam gerektiği anlamına geliyor.#$e#Evdeki işlere ek olarak bahçeyi de düzgün tutmalıyım!",
+        "zh": "夏天很不错，但也有很多活。#$e#我得修剪花园接着还得做家务！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:summer_Sun",
+      "author_key": "summer_Sun",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Was mache ich bloß zum Abendessen?#$e#*seufz*...",
+        "es": "¿Qué podría hacer hoy para cenar?#$e#*Sigh...*",
+        "fr": "Qu’est-ce que je vais bien pouvoir faire à dîner ?#$e#*Soupir*...",
+        "hu": "Mi a fészkes fenét fogok csinálni vacsorára?#$e#*sóhaj*...",
+        "it": "Cosa mai posso fare per cena?#$e#*sospira*...",
+        "ja": "今日は いったいどんな 夕食を 作ろうかしら？#$e#はぁ…",
+        "en": "What in the world am I going to make for dinner?#$e#*sigh*...",
+        "ko": "대체 저녁은 뭘 만들어야 하지?#$e#*한숨*...",
+        "pt": "Que diabos vou fazer para o jantar?#$e#Aaah...",
+        "ru": "Ну и что же мне приготовить на ужин?#$e#Ох...",
+        "tr": "Akşam yemeği için ne yapacağım?#$e#*iç çeker*...",
+        "zh": "晚饭到底做什么啊？#$e#*唉* ……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:summer_Thu",
+      "author_key": "summer_Thu",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Die Hausarbeit ist frustrierend, weil du nie fertig bist.#$e#Nachdem ich den Boden gefegt habe, ist er einen Tag später wieder schmutzig.",
+        "es": "Las tareas del hogar son frustrantes porque nunca se acaban.#$e#Un día después de barrer el suelo, vuelve a estar sucio.",
+        "fr": "Ce qui est frustrant avec les tâches ménagères, c’est qu’on n’en voit jamais le bout.#$e#On nettoie le sol, et il est de nouveau sale le lendemain.",
+        "hu": "A házimunka azért idegesítő, mert sosem érsz a végére.#$e#Felmosok, erre másnap kezdhetem újra.",
+        "it": "La cosa frustrante del lavoro domestico è che non finisce mai.#$e#Spazzo il pavimento, e il giorno dopo è di nuovo sporco.",
+        "ja": "家事って、 いつまでたっても 終わらないから ストレスが 溜まるのよね。#$e#床を 掃除しても、 次の日には もう汚れてる。",
+        "en": "Housework is frustrating because you're never finished.#$e#The day after I sweep the floor, it's dirty again.",
+        "ko": "집안일은 끝이 없는 게 좌절감을 주는 것 같아.#$e#바닥청소하고 다음날이 되면, 다시 더러워져있어.",
+        "pt": "As tarefas domésticas são frustrantes porque nunca acabam.#$e#Você varre o chão hoje e amanhã está sujo de novo.",
+        "ru": "Работа по дому так изнуряет, потому что она никогда не заканчивается.#$e#Сегодня я подмела полы, а завтра они опять грязные.",
+        "tr": "Ev işleri çok sinir bozucu, çünkü hiç bitmiyorlar.#$e#Yerleri süpürüyorum, ertesi gün yine kirleniyor.",
+        "zh": "家务很令人烦躁，因为你永远干不完。#$e#拖完地的第二天，又脏了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:summer_Tue",
+      "author_key": "summer_Tue",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hallo.#$e#Brauchst du etwas? Ich bin ein wenig beschäftigt.",
+        "es": "Hola.#$e#¿Necesitas algo? Estoy un pelín ocupada.",
+        "fr": "Bonjour.#$e#Tu as besoin de quelque chose ? Je suis occupée.",
+        "hu": "Helló.#$e#Segíthetek? Kicsit elfoglalt vagyok.",
+        "it": "Salve.#$e#Hai bisogno di qualcosa? Sono un po' indaffarata.",
+        "ja": "こんにちは。#$e#何か 用かしら？今は 少し 忙しいの。",
+        "en": "Hello.#$e#Do you need something? I'm a little busy.",
+        "ko": "안녕.#$e#뭔가 필요한 거 있어? 나 지금은 좀 바빠서.",
+        "pt": "Oi.#$e#Precisa de alguma coisa? Estou um pouco ocupada.",
+        "ru": "Здравствуй.#$e#Тебе что-нибудь нужно? Я немного занята.",
+        "tr": "Merhaba.#$e#Bir şey mi lazım? Biraz meşgulüm.",
+        "zh": "你好。#$e#你需要什么？我有点忙。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:summer_Tue_inlaw_Sam",
+      "author_key": "summer_Tue_inlaw_Sam",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wie geht es meinem kleinen Sammy auf der alten Farm?$h",
+        "es": "¿Cómo está mi pequeño Sammy en la vieja granja?$h",
+        "fr": "Comment se porte mon petit Sammy ?$h",
+        "hu": "Hogy van a kis Sammy fiam a régi farmon?$h",
+        "it": "Come se la passa il mio piccolo Sammy nella vecchia fattoria?$h",
+        "ja": "私の小さなサミーは、古い農場でどうしてますか？$h",
+        "en": "How's my little Sammy doing on the old farm?$h",
+        "ko": "우리 샘 농장에서 잘 지내고 있니?$h",
+        "pt": "Como o meu pequeno Sam está na velha fazenda?$h",
+        "ru": "Как там поживает мой малыш Сэмми на старой ферме?$h",
+        "tr": "Sammy'nin eski çiftlikte keyfi nasıl?$h",
+        "zh": "我的小萨米在旧农场里干得怎么样？$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:winter_Fri",
+      "author_key": "winter_Fri",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Es wäre schön, mir hin und wieder Urlaub zu nehmen...$s",
+        "es": "Estaría bien tener vacaciones de vez en cuando...$s",
+        "fr": "Ce serait tellement bien de partir en vacances de temps en temps...$s",
+        "hu": "Jó lenne néhanapján egy kis szabadság...$s",
+        "it": "Sarebbe bello prendersi una vacanza, ogni tanto...$s",
+        "ja": "たまにでも いいから 休暇を 取れたら うれしいなぁ…$s",
+        "en": "It would be nice to take a vacation once in a while...$s",
+        "ko": "가끔은 휴가 가는 것도 좋을 것 같아...$s",
+        "pt": "Seria legal tirar umas férias de vez em quando...$s",
+        "ru": "Было бы здорово иногда брать отпуск...$s",
+        "tr": "Arada bir tatil yapmak güzel olurdu...$s",
+        "zh": "感觉偶尔休休假也会挺不错的……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:winter_Mon",
+      "author_key": "winter_Mon",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe es als Kind geliebt, im Schnee zu spielen. Das Schöne am Muttersein ist, dass ich so etwas wieder genießen kann.$h",
+        "es": "De niña me encantaba jugar con la nieve. Lo genial de ser madre es que puedo volver a disfrutarlo.$h",
+        "fr": "J’aimais jouer dans la neige quand j’étais petite. Ce qui est génial d’être mère, c’est que je peux à nouveau jouer dans la neige.$h",
+        "hu": "Kicsiként nagyon szerettem a hóban játszani. Csodás dolog, hogy anyaként ezt újra átélhetem.$h",
+        "it": "Da bambina adoravo giocare nella neve. La cosa bella di essere madre è che posso farlo di nuovo.$h",
+        "ja": "子どもの頃、 雪で 遊ぶのが 好きだったわ。母親になって 良かったことと いえば、 また 雪で 楽しめるように なったことかしら。$h",
+        "en": "I loved playing in the snow when I was a kid. The great thing about being a mother is that I get to enjoy it again.$h",
+        "ko": "어렸을 때 눈에서 노는 걸 정말 좋아했는데. 엄마로서 그 감정을 한 번 더 느낄 수 있어서 참 좋아.$h",
+        "pt": "Eu adorava brincar na neve quando era criança. A parte boa de ser mãe é se divertir com isso de novo.$h",
+        "ru": "Ребенком я любила играть в снегу. Матерью быть хорошо, потому что я могу снова пережить то время.$h",
+        "tr": "Çocukken kışları karda oynamayı çok severdim. Anne olmanın iyi yanı, karın tadını tekrar çıkarabiliyor olmam.$h",
+        "zh": "我小时候很喜欢玩雪。当妈妈最大的好处之一就是我能够重温儿时的回忆。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:winter_Sun",
+      "author_key": "winter_Sun",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wäre ich reich, würde ich als erstes ein Dienstmädchen und einen Koch einstellen.#$e#Oh ja, das wäre fantastisch!$h",
+        "es": "Si fuera rica, lo primero que haría sería contratar a una sirvienta y a un chef.#$e#Madre mía, ¡sería fantástico!$h",
+        "fr": "Si j’étais riche, la première chose que je ferais serait d’engager une femme de ménage et un cuisinier.#$e#Oh, mon Dieu, ce serait le rêve !$h",
+        "hu": "Ha gazdag lennék, első dolgom lenne felvenni egy takarítónőt meg egy séfet.#$e#Magasságos ég, az pompás lenne!$h",
+        "it": "Se fossi ricca, la prima cosa che farei sarebbe assumere un cuoco e una domestica.#$e#Accipicchia, se sarebbe bello!$h",
+        "ja": "私が お金持ち だったら、 まず メイドと シェフを 雇うわ。#$e#ええ、 そういうのって 本当に ステキよね！$h",
+        "en": "If I was rich the first thing I'd do would be to hire a maid and a chef.#$e#My goodness, that would be nice!$h",
+        "ko": "내가 돈이 많았다면 가장 먼저 가정부와 요리사를 고용하겠어.#$e#어머 세상에, 그거 너무 좋을 것 같다!$h",
+        "pt": "Se eu fosse rica, a primeira coisa eu que faria seria contratar uma empregada e uma cozinheira.#$e#Meu Deus, seria maravilhoso!$h",
+        "ru": "Была бы я богатой, первым делом наняла бы повара и горничную.#$e#Боже мой, как было бы здорово!$h",
+        "tr": "Zengin olsam ilk işim aşçı ve hizmetçi tutmak olurdu.#$e#Ne de güzel olurdu!$h",
+        "zh": "如果我有钱了，我要做的第一件事就是雇一名女仆和一名厨师。#$e#我的天啊，想想就很美！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:winter_Thu",
+      "author_key": "winter_Thu",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Sam ist mit seiner Musik ganz schön laut. Ich hoffe, das stört die Nachbarn nicht.",
+        "es": "Sam hace mucho ruido con su música. Espero que no moleste a los vecinos.",
+        "fr": "Sam fait beaucoup de bruit avec sa musique. J’espère que ça ne dérange pas les voisins.",
+        "hu": "Sam rengeteg zajt csap a zenéjével. Remélem a szomszédokat nem zavarja.",
+        "it": "Quanto rumore fa Sam con quella sua musica. Speriamo non disturbi i vicini.",
+        "ja": "サムの 音楽が とても うるさいの。お隣さんの 迷惑に ならなきゃ いいけど。",
+        "en": "Sam makes a lot of noise with that music of his. I hope it doesn't disturb the neighbors.",
+        "ko": "샘이 음악 한다고 좀 많이 시끌시끌하더라. 이웃들에게 폐를 끼치면 안 되는데.",
+        "pt": "Sam faz muito barulho com aquela música dele. Espero que não perturbe os vizinhos.",
+        "ru": "Сэм много шумит с этой своей музыкой. Надеюсь, это не мешает соседям.",
+        "tr": "Sam müziği ile çok gürültü yapıyor, umarım komşuları rahatsız etmiyordur.",
+        "zh": "山姆的音乐太吵了。我希望不会打扰到邻居们。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:winter_Thu8",
+      "author_key": "winter_Thu8",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wir haben etwas überstürzt geheiratet, weil Ken ein Soldat ist und so... Ich habe kaum meine Jugend und Freiheit ausnutzen können und jetzt ist es zu spät, um wieder zurückzugehen.$s#$e#Ich kann nicht glauben, dass ich dir das erzähle.$4",
+        "es": "Nos casamos demasiado pronto. Como Kent era soldado... Apenas disfruté de la juventud y la libertad, y ahora es demasiado tarde para volver atrás.$s#$e#No cometas el mismo error.$4",
+        "fr": "Nous nous sommes mariés très jeunes. Kent étant un soldat et tout ça... J’ai à peine eu le temps de profiter de ma jeunesse et de ma liberté, mais il est trop tard pour revenir en arrière.$s#$e#Je ne peux pas croire que je te raconte tout ça.$4",
+        "hu": "Így, hogy Kent katona, kicsit siettettük a házasságot... Alig ízlelhettem meg a szabadságot, a fiatalságot, most meg már késő visszamenni.$s#$e#Nem hiszem el, hogy ezt most elmondtam neked.$4",
+        "it": "Il nostro matrimonio è stato un po' affrettato, con tutta la questione di Kent che è un soldato... Mi sono gustata a malapena un pezzetto di gioventù e libertà, e ormai è troppo tardi per tornare indietro.$s#$e#Non ci credo che te lo sto dicendo davvero.$4",
+        "ja": "ケントが兵士になるから、私達は急いで結婚したのよ…若さと自由をあまり味わえなかったし、振り返るにはもう遅すぎる。$s#$e#それをあなたに言うなんて信じられない。$4",
+        "en": "We kind of rushed into our marriage, with Kent being a soldier and all... I hardly got a taste of youth and freedom, and now it's too late to ever go back.$s#$e#I can't believe I'm saying this to you.$4",
+        "ko": "켄트가 군인이고 해서 우리 결혼을 좀 급하게 하긴 했어... 젊음과 자유를 누려볼 기회가 거의 없었지, 게다가 이젠 너무 늦었어.$s#$e#네게 이런 말을 하고 있다는 게 믿기지 않는다.$4",
+        "pt": "Nós apressamos nosso casamento. O Kent era soldado e tal... Eu não senti o gosto da juventude e da liberdade, e agora é tarde demais para voltar atrás.$s#$e#Não acredito que estou falando isso para você.$4",
+        "ru": "Мы поторопились с браком, ведь Кент — солдат и все такое... Я едва успела попробовать свободу на вкус, а теперь уже слишком поздно.$s#$e#Поверить не могу, что я тебе все это говорю.$4",
+        "tr": "Kent'in asker olmasından dolayı evliliğimiz aceleye geldi... Gençliğin ve özgürlüğün tadını tam olarak çıkaramadım ve şu an geri dönmek için çok geç.$s#$e#Sana bunları dediğime inanamıyorum.$4",
+        "zh": "因为肯特是军人，以及其他种种原因，我们有点像是闪婚……我几乎没有感受过青春和自由，现在已经回不去了。$s#$e#我不敢相信对你说了这些。$4"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:winter_Thu_inlaw_Sam",
+      "author_key": "winter_Thu_inlaw_Sam",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wie geht es Sam so? Ich muss zugeben, es gibt weniger zu kochen und putzen seit er weg ist...",
+        "es": "¿Qué tal le va a Sam? Tengo que admitir que hay menos limpieza y comida que hacer desde que se fue...",
+        "fr": "Comment va Sam ? Je dois admettre qu’il y a moins de cuisine et de nettoyage à faire depuis qu’il est parti de la maison...",
+        "hu": "Hogy van Sam? Be kell valljam, kevesebbet kell főzni meg takarítani mióta kiköltözött...",
+        "it": "Come sta Sam? Devo ammetterlo, da quando ha lasciato casa devo cucinare e pulire assai meno...",
+        "ja": "サムとの 暮らしは どう？あの子が 家を 出て以来、 料理と 掃除が 少し楽になったのよ。",
+        "en": "How's Sam doing? I have to admit, there's less cooking and cleaning to do since he moved out...",
+        "ko": "샘은 요즘 어때? 인정할만한 게, 샘이 이사 나가고 나서 요리하고 청소할게 많이 줄긴 했어...",
+        "pt": "Como está o Sam? Tenho que admitir, preciso cozinhar e limpar menos desde que ele se mudou...",
+        "ru": "Как дела у Сэма? Должна признать, когда он переехал, готовки и уборки стало меньше...",
+        "tr": "Sam nasıl? Kabul etmeliyim, o taşındığından beri daha az ev işi yapmam gerekiyor...",
+        "zh": "山姆怎么样？我必须承认，自从他搬出去后很少需要做饭和打扫了……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:winter_Tue",
+      "author_key": "winter_Tue",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hi. Hast du es nicht satt, dass Leute dich dauernd was über deinen Hof fragen?#$e#Mich würde es jedenfalls nerven.",
+        "es": "Hola. ¿No te cansas de que te pregunten por la granja todo el rato?#$e#A mí me cansaría.",
+        "fr": "Bonjour. Tu n’en as pas assez que les gens te posent plein de questions sur ta ferme ?#$e#Moi je crois que ça finirait par me lasser.",
+        "hu": "Szia. Nem unod még, hogy az emberek folyton a farmodról kérdeznek?#$e#Én biztos unnám.",
+        "it": "Ciao. Ti stanca che le persone ti chiedano sempre della fattoria?#$e#Io mi stancherei.",
+        "ja": "ねぇ。みんなが あなたの 牧場について 聞いてくるの、 飽きてこないかしら？#$e#私なら ウンザリしそう。",
+        "en": "Hi. Do you get tired of people asking about your farm all the time?#$e#I think I would.",
+        "ko": "안녕. 사람들이 매일 농장에 대해 물어보는 거 혹시 질리니?#$e#나라면 그럴 것 같아.",
+        "pt": "Oi. Você não se cansa das pessoas perguntando sobre sua fazenda o tempo todo?#$e#Eu me cansaria.",
+        "ru": "Привет. Тебе еще не надоело, что все спрашивают тебя про ферму?#$e#Мне бы надоело.",
+        "tr": "Selam. İnsanların sürekli çiftliğini sormaları seni bıktırıyor mu?#$e#Bence bıktırıyordur.",
+        "zh": "嗨。人们总是问你农场的事情，你会不会觉得烦？#$e#要是我的话我肯定会。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:winter_Tue6",
+      "author_key": "winter_Tue6",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "*seufz*... Manchmal träume ich von einem Leben... ohne eine Familie, um die ich mich kümmern muss. Ist das furchtbar?$s#$e#Sag es niemandem.$4",
+        "es": "*Sigh...* A veces sueño con una vida por mi cuenta... Sin una familia de la que cuidar. ¿Eso me convierte en alguien horrible?$s#$e#No se lo digas a nadie.$4",
+        "fr": "*Soupir* ... Parfois, je rêve de vivre seule... sans avoir de famille à charge. Est-ce que c’est mal ?$s#$e#Ne le dis à personne.$4",
+        "hu": "*sóhaj*... Néha a magányos életről álmodozom... gondoskodásra váró család nélkül. Ez borzalmas?$s#$e#Ne mondd el senkinek.$4",
+        "it": "*sospira*... A volte sogno una vita per conto mio... senza una famiglia a cui badare. È una cosa brutta?$s#$e#Non dirlo a nessuno.$4",
+        "ja": "はぁ… 時々、 家族の世話を しなくてもいい　独り身の 生活をする 夢を 見るの…それって 恐ろしい 夢かしら。$s#$e#誰にも 言わないでよ。$4",
+        "en": "*sigh*... Sometimes I dream about life on my own... without a family to look after. Is that horrible?$s#$e#Don't tell anyone.$4",
+        "ko": "*한숨*... 가끔은 나 혼자만의 삶을 꿈꿔... 내가 돌봐야 할 가족이 없는 그런 삶은. 끔찍한 건가?$s#$e#아무한테도 말하지 말아 줘.$4",
+        "pt": "*Aaah*...Às vezes sonho com uma vida independente... sem uma família para cuidar. Será que isso é ruim?$s#$e#Não conte a ninguém.$4",
+        "ru": "Эх... Иногда мне снятся сны о том, что я живу одна... И никакой семьи. Ужасно, правда?$s#$e#Только не говори никому.$4",
+        "tr": "*iç çeker*... Bazen kendime ait bir hayat düşlüyorum... Bakmam gereken bir ailem olmuyor. Bu çok mu korkunç?$s#$e#Kimseye söyleme.$4",
+        "zh": "*唉* ……有时候我会梦到自己孤身一人……没有一个需要照顾的家。这听起来很恐怖吗？$s#$e#不要告诉任何人哦。$4"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:winter_Wed2",
+      "author_key": "winter_Wed2",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Was ich mache, wenn ich Spaß haben will? Hmm... Das ist eine gute Frage.#$e#Ich mag es, zu schlafen.$s",
+        "es": "¿Que qué hago para divertirme? Hmm... Buena pregunta.#$e#Me gusta dormir.$s",
+        "fr": "Qu’est-ce que je fais pour me distraire ? Mmm... C’est une bonne question.#$e#J’aime bien dormir.$s",
+        "hu": "Hogyan szórakozom? Hmm... Kiváló kérdés.#$e#Szeretek aludni.$s",
+        "it": "Cosa faccio per divertirmi? Hmm... Buona domanda.#$e#Mi piace dormire.$s",
+        "ja": "何をするのが 好きかって？うーん…いい 質問ね。#$e#寝るのが 好きよ。$s",
+        "en": "What do I do for fun? Hmm... That's a good question.#$e#I like sleeping.$s",
+        "ko": "재미로 뭐 하냐고? 흐음... 좋은 질문이야.#$e#잠자는 거 좋아해.$s",
+        "pt": "O que faço para me divertir? Huum... Essa é uma boa pergunta.#$e#Gosto de dormir.$s",
+        "ru": "Как я развлекаюсь? Хм-м... Хороший вопрос.#$e#Я люблю спать.$s",
+        "tr": "Eğlenmek için ne mi yapıyorum? Hım... Güzel soru.#$e#Uyumayı severim.$s",
+        "zh": "我是怎么找乐子的？嗯……这是个好问题。#$e#我喜欢睡觉。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Jodi:winter_Wed4_2",
+      "author_key": "winter_Wed4_2",
+      "character": "Jodi",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Kent ist jetzt schon eine Weile zurück, aber er scheint immer noch etwas unruhig.$s",
+        "es": "Kent lleva ya un tiempo en casa, pero parece incómodo.$s",
+        "fr": "Kent est rentré à la maison depuis un moment maintenant, mais il semble toujours mal à l’aise.$s",
+        "hu": "Kent hazaért már egy ideje, de még mindig nyugtalan.$s",
+        "it": "Kent è a casa da un po' ormai, ma sembra ancora a disagio.$s",
+        "ja": "ケントが 帰ってきてから しばらく たったけど、 まだ 落ち着かない みたいね。$s",
+        "en": "Kent has been home for a while now, but he still seems uneasy.$s",
+        "ko": "켄트가 집에 돌아온 지 좀 되었는데, 아직 마음이 불안해 보여.$s",
+        "pt": "Já tem um tempo que Kent está em casa, mas ele parece incomodado.$s",
+        "ru": "Кент уже давно дома, но до сих пор не в своей тарелке.$s",
+        "tr": "Kent bir süredir evde ama huzursuz görünüyor.$s",
+        "zh": "肯特已经在家呆了一段时间了，但他还是一副心神不宁的样子。$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Jodi.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Jodi.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Jodi.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Jodi.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Jodi.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Jodi.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Jodi.json",
+          "ko": "data\\game_scripts\\Dialogue\\Jodi.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Jodi.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Jodi.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Jodi.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Jodi.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    }
+  ]
+}

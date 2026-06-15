@@ -1,0 +1,3440 @@
+{
+  "dataset_meta": {
+    "schema": "canonical_dialogue_v2",
+    "source_root": "data/game_scripts/Dialogue",
+    "collection": "Dialogue",
+    "character": "Caroline",
+    "record_count": 52,
+    "dialogue_type_counts": {
+      "general_dialogue": 52
+    }
+  },
+  "records": [
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:AcceptBirthdayGift_Negative",
+      "author_key": "AcceptBirthdayGift_Negative",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh... ist das... ein Geburtstagsgeschenk? Ich verstehe... nun, danke fürs Vorbeischauen.$a",
+        "es": "Oh... es eso... ¿un regalo de cumpleaños? Ya veo... bueno, gracias por acordarte.$a",
+        "fr": "Ho... c’est... un cadeau d’anniversaire ? Je vois... eh bien, merci d’avoir fait le chemin.$a",
+        "hu": "Óh... az egy... születésnapi ajándék? Értem... nos, köszönöm, hogy benéztél.$a",
+        "it": "Oh... questo è... un regalo di compleanno? Vedo... beh, grazie del pensiero.$a",
+        "ja": "ええと… これが誕生日プレゼント… なの？そう… わざわざありがとう。$a",
+        "en": "Oh... is that... a birthday gift? I see... well, thanks for stopping by.$a",
+        "ko": "오... 이건... 생일선물이니? 그렇구나... 그래, 챙겨줘서 고마워.$a",
+        "pt": "Oh... isto é... um presente de aniversário? Claro... bem, obrigada por vir.$a",
+        "ru": "Ой... Это что... подарок на день рождения? Ясно... Спасибо за визит.$a",
+        "tr": "Ah... Bu bir... Hediye mi? Anladım... Eh, uğradığın için teşekkürler.$a",
+        "zh": "呃……这个是……生日礼物？哦……好的，谢谢你过来。$a"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptBirthdayGift_Negative' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:AcceptBirthdayGift_Positive",
+      "author_key": "AcceptBirthdayGift_Positive",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Danke, mein Schatz. Das ist sehr nett von dir, dass du an meinen Geburtstag denkst.$h",
+        "es": "Gracias, cariño. Es muy amable por tu parte acordarte de mi cumpleaños.$h",
+        "fr": "Merci beaucoup. C’est très gentil de ta part de te souvenir de mon anniversaire.$h",
+        "hu": "Köszönöm, kedveském. Nagyon kedves tőled, hogy emlékszel a születésnapomra.$h",
+        "it": "Grazie, tesoro. Sei molto gentile a ricordarti il mio compleanno.$h",
+        "ja": "ありがとう。誕生日を覚えていてくれてうれしいわ。$h",
+        "en": "Thanks, sweetie. That's very kind of you to remember my birthday.$h",
+        "ko": "고마워. 생일을 기억해 주다니, 착하기도 하지.$h",
+        "pt": "Obrigada, meu bem. É muita gentileza da sua parte se lembrar do meu aniversário.$h",
+        "ru": "Спасибо, дорогуша. Как приятно, что ты помнишь про мой день рождения.$h",
+        "tr": "Sağ ol tatlım. Doğum günümü hatırlamana sevindim.$h",
+        "zh": "谢谢你，亲爱的，你能记得我生日真是太好了。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptBirthdayGift_Positive' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:AcceptGift_(O)16",
+      "author_key": "AcceptGift_(O)16",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Oh, du warst sammeln! Danke!#$b#Daraus mache ich eine scharfe Cocktailsauce. Das wird Sam ein paar Haare auf die Brust zaubern.$h",
+        "es": "Oh, ¡has estado recolectando! ¡Gracias!#$b#Haré una picante salsa de cocktail con esto. Así le saldrá pelo en el pecho a Sam.$h",
+        "fr": "Ho, tu as fait un peu de cueillette ! Merci !#$b#Je vais pouvoir faire une sauce cocktail épicée avec ça. Ça donnera à Pierre des poils sur la poitrine.$h",
+        "hu": "Óh, gyűjtögetni voltál! Köszönöm!#$b#Ebből egy fűszeres koktélt fogok készíteni. Attól majd kinő Pierre mellkasán a szőr.$h",
+        "it": "Oh, ti dai da fare con la raccolta selvatica! Grazie!#$b#Ci farò una salsa cocktail piccante. Farà crescere i peli sul petto a Pierre.$h",
+        "ja": "まあ！ 集めていたのね！ありがとう！#$b#これでスパイシーなカクテルソースを作るわ。きっとピエールが元気を出してくれるはずよ。$h",
+        "en": "Oh, you've been foraging! Thank you!#$b#I'll make a spicy cocktail sauce with this. That'll put some hair on Pierre's chest.$h",
+        "ko": "오, 채집하고 다녔구나! 고마워!#$b#이걸로 매콤한 칵테일소스를 만들어야겠다. 그거면 샘이 먹고 기운 차리려나.$h",
+        "pt": "Oh, você tem forrageado bastante! Obrigada!#$b#Eu vou fazer um molho coquetel picante com isto. Vai servir para dar uma amadurecida no Sam.$h",
+        "ru": "О, собирательством занимаешься! Спасибо!#$b#Добавлю в острый коктейльный соус. У Пьера от этого пробьется пару волосков на груди.$h",
+        "tr": "Bakıyorum ormana dalmışsın! Teşekkür ederim!#$b#Bununla acılı bir kokteyl yapacağım. Pierre'e cesaret aşılayacak.$h",
+        "zh": "哦，你在采集是吧！谢谢你！#$b#我就用这个做一个辣的蘸酱，皮埃尔吃了肯定会觉得精神百倍。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:AcceptGift_(O)StardropTea",
+      "author_key": "AcceptGift_(O)StardropTea",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ooohh... das ist schön. Ich hebe es mir für einen ruhigen Tag im Sonnenzimmer auf.",
+        "es": "Ooohh... esto es genial. Lo guardaré para un día tranquilo en la sala de bronceado.",
+        "fr": "Hoooo... c’est tellement gentil de ta part. Je vais le mettre de côté pour une journée tranquille sous la véranda.",
+        "hu": "Óóóhh... ez jó. A napszobámban tartogatom egy csendes napra.",
+        "it": "Ooohh... che meraviglia. Lo conserverò per una giornata tranquilla in veranda.",
+        "ja": "ああ… うっとりするわ。サンルームでゆっくり過ごす日まで取っておくわね。",
+        "en": "Ooohh... this is nice. I'll save it for a quiet day in the sunroom.",
+        "ko": "오오... 이거 정말 좋구나. 조용한 날 일광욕실에서 마시면 딱이겠어.",
+        "pt": "Ooohh... isto é muito bom. Vou guardar para um dia tranquilo no meu jardim de inverno.",
+        "ru": "О-о-о, это так мило. Приберегу для тихого дня на террасе.",
+        "tr": "Vaaay... Bu çok güzel. Kış bahçesinde oturacağımız zaman demlerim.",
+        "zh": "哦哦……这个太棒了，我要在日光房安安静静地坐着喝。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'AcceptGift_(O)StardropTea' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:Fri",
+      "author_key": "Fri",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Es ist ein schöner Tag.#$e#An Tagen wie diesen helfe ich Evelyn gerne mit den öffentlichen Gärten.#$e#Sie ist rüstig für ihr Alter, aber ich bin mir sicher, sie weiß jede Hilfe zu schätzen.",
+        "es": "Qué día tan espléndido.#$e#En días como este, me gusta ayudar a Evelyn con los jardines públicos.#$e#Está muy fuerte para su edad, pero creo que valora toda la ayuda que pueda conseguir.",
+        "fr": "C’est une belle journée.#$e#Quand il fait beau comme ça, j’aime bien aider Evelyn dans les jardins publics.#$e#Elle est en bonne santé pour son âge, mais je pense qu’elle apprécie toute l’aide qu’elle peut obtenir.",
+        "hu": "Szép nap a mai.#$e#Ilyen napokon szeretek segíteni Evelynnek a közös kertekben.#$e#Korához képest erős, de úgy gondolom minden segítségnek örül.",
+        "it": "Splendida giornata oggi.#$e#Nei giorni come questo mi piace aiutare Evelyn con i giardini pubblici.#$e#È forte per la sua età, ma credo che le faccia piacere ricevere tutto l'aiuto che può.",
+        "ja": "今日は いい日ね。#$e#こういう日は、 公園でエブリンさんの お手伝いをしたいわ。#$e#お歳の割には 元気な人だけど、 助けてくれれば ありがたいと 思ってくれるはず。",
+        "en": "It's a fine-looking day.#$e#On days like this I like to help Evelyn with the public gardens.#$e#She's strong for her age, but I think she appreciates all the help she can get.",
+        "ko": "날씨가 참 좋네.#$e#이런 날엔 공공농원에서 에블린을 돕곤 해.#$e#나이에 비해 강하긴 하시지만, 도움을 마다하시진 않으니까.",
+        "pt": "É um dia bonito.#$e#Em dias assim, gosto de ajudar a Evelyn com os jardins comunitários.#$e#Ela é forte para a idade dela, mas acho que fica feliz de receber toda a ajuda possível.",
+        "ru": "Хороший сегодня денек.#$e#В такие дни я люблю помогать Эвелин в городском саду.#$e#Она крепкая для своего возраста, но мне кажется, что она ценит любую помощь.",
+        "tr": "Güzel bir gün.#$e#Bu gibi günlerde parkta Evelyn'e yardım etmeyi seviyorum.#$e#Yaşına göre çok güçlü. Bence, aldığı tüm yardımları takdir ediyor.",
+        "zh": "今天天气真不错呢。#$e#在这样的日子里，我喜欢去帮艾芙琳照料公共花园。#$e#以她的年龄来说，她挺能干的，但她也肯定也乐于接受别人的帮助。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:GreenRain",
+      "author_key": "GreenRain",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe noch nie grünen Regen gesehen... Es muss nicht allzu gefährlich sein, wenn du es hierher geschafft hast!",
+        "es": "Nunca había visto lluvia verde antes... ¡No debe ser muy peligrosa si lograste llegar aquí!",
+        "fr": "Je n’ai jamais vu de pluie verte auparavant... Ça ne doit pas être trop dangereux si tu es arrivé jusqu’ici !",
+        "hu": "Még soha nem láttam zöld esőt... Biztos nem lehet veszélyes, ha idáig eljutottál!",
+        "it": "Non avevo mai visto una pioggia verde... Non dev'essere troppo pericolosa se hai potuto arrivare fino a qui!",
+        "ja": "緑色の雨なんてはじめて…ここにいればあなたもきっと安全よ！",
+        "en": "I've never seen green rain before... It must not be too dangerous if you made it here!",
+        "ko": "녹색 비는 처음이네... 그래도 네가 여기까지 온 걸 보니 위험한 건 아닌가 보구나!",
+        "pt": "Eu nunca vi uma chuva verde... Não deve ser tão perigosa se você chegou até aqui!",
+        "ru": "В жизни не видела зеленый дождь... Наверное, он не такой уж и опасный, раз ты здесь!",
+        "tr": "Daha önce yeşil bir yağmur hiç görmemiştim... Buraya kadar gelebildiysen çok da tehlikeli olmasa gerek!",
+        "zh": "我第一次见到绿色的雨……你能安全到这里来，看来不是特别危险！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "weather_green_rain",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:GreenRain_2",
+      "author_key": "GreenRain_2",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ah, der besondere Regen ist zurück! Dieses Jahr werde ich das Beste daraus machen!#$e#Das schreit nach einer Tasse grünem Tee!$h",
+        "es": "Ah, ¡la lluvia especial ha vuelto! Este año, ¡voy a sacar provecho!#$e#¡Esto se merece una taza de té verde!$h",
+        "fr": "Ha, la pluie spéciale est de retour ! Cette année, je vais en profiter au maximum !#$e#C’est un temps parfait pour une bonne tasse de thé vert !$h",
+        "hu": "Áh, visszatért a különleges eső! Idén teljesen ki fogom használni!#$e#Erre innom kell egy csésze zöld teát!$h",
+        "it": "Ah, è tornata la pioggia speciale! Quest'anno, voglio godermela al meglio!#$e#Ci vuole una tazza di tè verde!$h",
+        "ja": "ああ、またあの不思議な雨が降ってきたのね！今年はこの雨を存分に楽しむつもりなの！#$e#さっそく緑茶を用意しなくっちゃ！$h",
+        "en": "Ah, the special rain is back! This year, I'm going to make the most of it!#$e#This calls for a cup of green tea!$h",
+        "ko": "아, 특별한 비가 다시 오네! 올해는 만끽해야겠어!#$e#녹차부터 한잔해야지!$h",
+        "pt": "Ah, a chuva especial voltou! Este ano eu vou aproveitar o máximo!#$e#Vou tomar um chá verde para celebrar!$h",
+        "ru": "А, особый дождь вернулся, в этом году я наслажусь им по полной!#$e#Время заварить чашечку зеленого чая!$h",
+        "tr": "Ah, şu özel yağmur geri dönmüş! Bu sefer tadını çıkaracağım!#$e#Bir bardak yeşil çay zamanı!$h",
+        "zh": "啊，特别的雨水又来了！今年我要大展身手！#$e#先来一杯绿茶！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "green_rain"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:Introduction",
+      "author_key": "Introduction",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hallo! Du musst @ sein, unser Neuankömmling. Ich bin Caroline.#$e#Mein Mann und ich führen den Gemischtwarenladen hier. Und hast du meine Tochter Abigail getroffen? Sie ist sehr blass, mit violetten Haaren.",
+        "es": "¡Hola! Debes de ser @. Soy Caroline.#$e#Mi marido lleva la tienda local. ¿Conoces a mi hija Abigail? Es la chica pálida de pelo lila.",
+        "fr": "Bonjour ! Tu dois être @, le nouveau fermier.^Tu dois être @, la nouvelle fermière. Moi c’est Caroline.#$e#Mon mari dirige le magasin général ici. As-tu déjà rencontré ma fille, Abigail ? C’est la fille pâle aux cheveux violets.",
+        "hu": "Szia! Biztosan te vagy @, az új gazda. Az én nevem Caroline.#$e#A férjemé a helyi vegyesbolt. Találkoztál már a lányommal, Abigailel? Lila haja és sápadt bőre van.",
+        "it": "Salve! Tu devi essere @. Stai riavviando la vecchia fattoria, vero? Io sono Caroline.#$e#Mio marito gestisce l'emporio di qui. E hai conosciuto mia figlia, Abigail? È la ragazza pallida con i capelli viola.",
+        "ja": "こんにちは！新しい 牧場主の @さんね。私は キャロライン。#$e#夫と 一緒に 雑貨店を やってるの。娘の アビゲイルには 会った？色白で、 髪を紫に 染めてる子よ。",
+        "en": "Hello! You must be @, the new farmer. I'm Caroline.#$e#My husband runs the general store here. And have you met my daughter, Abigail? She's the pale one with the purple hair.",
+        "ko": "안녕! 네가 새로 온 농부 @(이)구나. 난 캐롤라인이라고 해.#$e#남편이 여기 잡화점을 운영하고 있어. 혹시 내 딸 애비게일도 만나봤니? 보라색 머리에 창백한 아이야.",
+        "pt": "Olá! Você deve ser @, o novo fazendeiro. Sou Caroline.^Olá! Você deve ser @, a nova fazendeira. Sou Caroline#$e#Meu marido é dono do armazém daqui. Você conheceu minha filha, Abigail? Ela é a branquinha, do cabelo roxo.",
+        "ru": "Здравствуйте! Вы, должно быть, @, новый фермер. Я — Кэролайн.#$e#Мой муж содержит местный магазин. Вы еще не говорили с моей дочерью, Абигейл? Она такая бледненькая, с фиолетовыми волосами.",
+        "tr": "Merhaba! Sen yeni çiftçi @ olmalısın. Ben Caroline.#$e#Kocam buradaki bakkalı işletiyor. Kızım Abigail ile tanışmış mıydın? Abigail, mor saçlı, solgun olan.",
+        "zh": "你好！你就是那个新来的农民，叫@吧？我是卡洛琳。#$e#我丈夫在这儿开了个杂货店。你见过我的女儿阿比盖尔吧？她很白暂，一头紫发。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Introduction' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:Mon",
+      "author_key": "Mon",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich wünschte, Abby würde nicht so viel Zeit in ihrem Zimmer verbringen.",
+        "es": "Ojalá Abby no pasara tanto tiempo en su habitación.",
+        "fr": "J’aimerais qu’Abby ne passe pas autant de temps dans sa chambre.",
+        "hu": "Jó lenne, ha Abby nem töltene ennyi időt a szobájában.",
+        "it": "Vorrei che Abby non passasse tutto quel tempo in camera sua.",
+        "ja": "アビーが もう少し、 部屋の外へ 出てくれれば いいんだけど。",
+        "en": "I wish Abby wouldn't spend so much time in her room.",
+        "ko": "애비가 너무 방에서만 시간을 많이 보내는 것 같아.",
+        "pt": "Gostaria que a Bibi passasse menos tempo no quarto.",
+        "ru": "Вот бы Эбби не сидела так много у себя в комнате.",
+        "tr": "Keşke Abby odasında bu kadar vakit geçirmese.",
+        "zh": "我希望阿比盖尔别总待在她的房间里。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:Mon8",
+      "author_key": "Mon8",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "#$1 Caroline23#Als wir neu nach Pelikan gezogen sind, habe ich insgeheim Spaziergänge zum Turm des Zauberers unternommen. Sag Pierre nichts davon, er wird schnell eifersüchtig.#$e#Abigail kam ein Jahr nach unserem Umzug nach Pelikan auf die Welt. Ich frage mich, ob sie je ein Leben außerhalb des Tals erleben wird?",
+        "es": "#$1 Caroline23#Cuando nos mudamos a Pueblo Pelícano, solía visitar en secreto la torre del mago. No se lo digas a Pierre. Se pone celoso enseguida.#$e#Abigail nació un año después de mudarnos aquí. ¿Podrá experimentar alguna vez la vida fuera del valle?",
+        "fr": "#$1 Caroline23#Lorsqu’on s’est installés à Pélican Ville, j’allais me promener en secret à la tour du Sorcier. N’en parle pas à Pierre, il est très jaloux.#$e#Abigail est née environ un an après notre arrivée à Pélican Ville. Je me demande si elle ne quittera jamais la vallée.",
+        "hu": "#$1 Caroline23#Amikor Pelikán városba költöztünk, titokban sokszor meglátogattam a Varázsló tornyát. Ne mondd el Pierrenek, féltékeny típus.#$e#Abigail nagyjából egy évvel azután született, hogy ideköltöztünk. Néha elgondolkozom vajon megtapasztalja-e majd a völgyön kívüli életet?",
+        "it": "#$1 Caroline23#Quando eravamo da poco qui a Pelican Town, facevo delle passaggiate in segreto fino alla torre del Mago. Non dirlo a Pierre, ha problemi di gelosia.#$e#Abigail è nata circa un anno dopo il nostro arrivo a Pelican Town. Chissà se farà mai esperienza di com'è la vita fuori della valle?",
+        "ja": "#$1 Caroline23#ペリカンタウンに 引っ越した時、 魔法使いの塔へ こっそり 散歩しに いってたの。ピエールには 言わないでね。 嫉妬しちゃうから。#$e# 私達が引っ越した 次の年に、アビゲイルが 生まれたの。あの子が、町の外での生活を 経験することに なるのかしらね？",
+        "en": "#$1 Caroline23#When we first moved to Pelican Town I would take secret walks to the Wizard's tower. Don't tell Pierre, he has jealousy issues.#$e#Abigail was born about a year after we moved to Pelican Town. I wonder if she'll ever experience life outside the valley?",
+        "ko": "#$1 Caroline23#우리가 처음 펠리컨 마을으로 이사 왔을 때 종종 마법사의 탑으로 몰래 산책 가곤 했어. 피에르한텐 얘기하지 말아, 질투심이 좀 많거든.#$e#애비게일은 우리가 펠리컨 마을에 오고 일 년쯤 후에 태어났어. 애비가 이 계곡 밖의 삶을 경험할 날이 올까?",
+        "pt": "#$1 Caroline23#Quando nos mudamos para a Vila Pelicanos, eu fazia caminhadas secretas até a torre do Mago. Não conte ao Pierre, ele é ciumento.#$e#Abigail nasceu um ano após nossa mudança para a Vila Pelicanos. Será que ela vai saber como é a vida fora do vale?",
+        "ru": "#$1 Caroline23#Когда мы только переехали в город Пеликан, я тайком ходила в башню к волшебнику. Только не говори Пьеру, у него проблемы с ревностью.#$e#Абигейл родилась примерно через год после того, как мы переехали в этот город. Интересно, будет ли она когда-нибудь жить где-нибудь вне долины?",
+        "tr": "#$1 Caroline23#Pelikan Kasabası'na yeni taşındığımızda gizlice Büyücü'nün kulesine yürür dururdum. Pierre'e söyleme, sonra kıskanıyor.#$e#Pelikan Kasabası'na taşındıktan neredeyse bir yıl sonra Abigail doğdu. Acaba vadinin dışındaki yaşamı deneyimleyebilecek mi?",
+        "zh": "#$1 Caroline23#我们刚搬到鹈鹕镇的时候，我有时会悄悄溜达到法师塔那里去。别告诉皮埃尔，他这人心胸狭窄。#$e#我们搬到鹈鹕镇一年后，阿比盖尔就出生了。不知道她有没有机会去看看谷外的生活呢？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 8,
+        "relationship_gate": "heart_min_8",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:Mon_inlaw_Abigail",
+      "author_key": "Mon_inlaw_Abigail",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hi, @. Genießt du dein Eheleben? Ich hoffe es zumindest!",
+        "es": "Hola, @. ¿Disfrutando de tu matrimonio? ¡Espero que sí!",
+        "fr": "Bonjour, @. Aimes-tu la vie de couple ? J’espère bien !",
+        "hu": "Szia, @. Tetszik a házasélet? Remélem!",
+        "it": "Ehi, @. Come va la vita coniugale? Spero bene!",
+        "ja": "こんにちは、@さん。結婚生活は楽しめてるかしら？そうだといいわね！",
+        "en": "Hi, @. Are you enjoying the married life? I hope so!",
+        "ko": "안녕, @. 결혼생활은 즐겁니? 그러길 바란다!",
+        "pt": "Oi, @. Está gostando da vida de casado? Espero que sim!^Oi, @. Está gostando da vida de casada? Espero que sim!",
+        "ru": "Привет, @. Нравится тебе жизнь в браке? Надеюсь, что да!",
+        "tr": "Merhaba, @. Karı koca hayatından memnun musun? Umarım memnunsundur!",
+        "zh": "嗨，@。结婚了开心吗？希望如此！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Mon_inlaw_Abigail' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:Resort",
+      "author_key": "Resort",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hi @. Bist du hier, um dich zu entspannen, oder um zu arbeiten?",
+        "es": "Hey @. ¿Estás aquí para relajarte, o para trabajar?",
+        "fr": "Salut @. Es-tu venu ici pour te détendre ou pour travailler ?",
+        "hu": "Szia @. Pihenni jöttél, vagy dolgozni?",
+        "it": "Ciao, @. Sei qui per rilassarti, o per lavorare?",
+        "ja": "こんにちは@。リラックスしに来たの？それとも働きに来たの？",
+        "en": "Hi @. Are you here to relax, or to do work?",
+        "ko": "안녕 @. 쉬러 왔니, 아니면 일하러 왔니?",
+        "pt": "Oi @. Você está aqui para relaxar ou para trabalhar?",
+        "ru": "Привет, @. Ты тут на отдыхе или по работе?",
+        "tr": "Merhaba @. Buraya dinlenmeye mi yoksa çalışmaya mı geldin?",
+        "zh": "你好啊，@。你来这里是为了放松还是干活？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:Resort_Bar",
+      "author_key": "Resort_Bar",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich sagte Gus, er solle mich überraschen, und er machte einen grünen Eistee mit Mangoschale. Wie nett!$h",
+        "es": "Le pedí a Gus que me sorprendiera, y me preparó un té verde helado con ralladura de mango. ¡Qué amable!$h",
+        "fr": "J’ai dit à Gus de me surprendre, et il m’a préparé un thé vert glacé avec un zeste de mangue. C’est tellement gentil de sa part !$h",
+        "hu": "Mondtam Gusnak, hogy lepjen meg engem, és készített egy jeges zöldteát, egy kis mangóval megspékelve. Milyen kedves!$h",
+        "it": "Ho detto a Gus di sorprendermi, e lui mi ha fatto un tè verde ghiacciato con una scorzetta di mango. Splendido!$h",
+        "ja": "ガスにサプライズをお願いしたら、マンゴーの皮を使った冷たい緑茶を作ってくれたの。とってもおいしいわ！$h",
+        "en": "I told Gus to surprise me, and he made an iced green tea with mango zest. How nice!$h",
+        "ko": "거스한테 맛있는 거 아무거나 만들어달라고 하니까, 망고 제스트가 들어간 아이스 녹차를 만들어줬어. 너무 좋아!$h",
+        "pt": "Eu falei para o Gus me surpreender, e ele fez um chá verde gelado com casca de manga. Que maravilha!$h",
+        "ru": "Я попросила Гаса меня удивить, и он намешал мне ледяной зеленый чай с манговой стружкой. Это так мило!$h",
+        "tr": "Gus'a beni şaşırtmasını söyledim. O da bana buzlu yeşil çay yaptı ve içine mango kabuğu rendeledi. Harikaydı!$h",
+        "zh": "我让格斯给我个惊喜，然后他做了一杯芒果皮冰绿茶。这太棒了！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:Resort_Chair",
+      "author_key": "Resort_Chair",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "%Caroline versucht, ein Nickerchen zu machen.",
+        "es": "%Caroline intenta echarse una siesta.",
+        "fr": "%Caroline essaie de faire une sieste.",
+        "hu": "%Caroline aludni próbál.",
+        "it": "%Caroline sta cercando di sonnecchiare.",
+        "ja": "%キャロラインはうたた寝している。",
+        "en": "%Caroline is trying to nap.",
+        "ko": "%캐롤라인이 낮잠을 자려 하고 있습니다.",
+        "pt": "%Caroline está tentando tirar uma soneca.",
+        "ru": "%Кэролайн пытается вздремнуть.",
+        "tr": "%Caroline uyukluyor.",
+        "zh": "%卡洛琳想打个盹。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:Resort_Entering",
+      "author_key": "Resort_Entering",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Willy gab jedem von uns ein Stück seines Fisch-Trockenfleischs. Ich kaue immer noch darauf herum.",
+        "es": "Willy nos dio a cada uno un trozo de su pescado seco. Aún estoy intentando masticarlo.",
+        "fr": "Willy nous a donné à tous un morceau de son poisson séché. Je suis toujours en train de le mâcher.",
+        "hu": "Willy mindenkinek adott egy kis halszeletet. Még mindig azt rágcsálom.",
+        "it": "Willy ha dato a ciascuno di noi un pezzetto di pesce essiccato. Lo sto ancora masticando.",
+        "ja": "ウィリーが魚のジャーキーをくれたの。私はまだ噛み続けているわ。",
+        "en": "Willy gave us each a piece of his fish jerky. I'm still chewing on it.",
+        "ko": "윌리가 생선포 좀 나눠 줬는데. 아직도 씹고 있어.",
+        "pt": "Willy deu um pedaço de sua carne seca de peixe pra nós. Ainda estou mastigando ela.",
+        "ru": "Вилли раздал нам всем по кусочку его вяленой рыбы. Я до сих пор его жую.",
+        "tr": "Willy her birimize kurutulmuş balık verdi. Çiğne çiğne bitiremedim.",
+        "zh": "威利给每个人分了一块鱼干。我还在啃呢。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:Resort_Leaving",
+      "author_key": "Resort_Leaving",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich werde heute Nacht gut schlafen!$h",
+        "es": "¡Dormiré bien esta noche!$h",
+        "fr": "Je vais bien dormir ce soir !$h",
+        "hu": "Ma este jól fogok aludni!$h",
+        "it": "Stanotte dormirò bene!$h",
+        "ja": "今夜はぐっすり眠れそう！$h",
+        "en": "I'll sleep well tonight!$h",
+        "ko": "오늘 밤은 푹 잘 수 있겠다!$h",
+        "pt": "Vou dormir bem hoje!$h",
+        "ru": "Сегодня я буду очень крепко спать!$h",
+        "tr": "Bu gece güzel bir uyku çekeceğim!$h",
+        "zh": "我今晚会睡得很好！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:Resort_Shore",
+      "author_key": "Resort_Shore",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das Wasser hier ist so warm verglichen zum Tal. Es ist sehr angenehm!",
+        "es": "El agua está tan caliente aquí comparada con la del valle. ¡Es muy placentero!",
+        "fr": "L’eau est si chaude ici par rapport à celle de la vallée. C’est tellement agréable !",
+        "hu": "A víz itt sokkal melegebb, mint a völgyben. Valójában egész kellemes!",
+        "it": "L'acqua di qui è così calda rispetto a quella della valle. È davvero una goduria!",
+        "ja": "谷に比べて、ここの水はとても温かいのね。ホントに気持ちがいいわ！",
+        "en": "The water is so warm here compared to the valley. It's really pleasant!",
+        "ko": "마을에 비해 여기 물은 너무 따뜻하다. 정말 쾌적해!",
+        "pt": "A água aqui é tão quente comparada à do vale. É muito agradável!",
+        "ru": "Тут такая теплая вода, не то, что у нас в Долине. Это так приятно!",
+        "tr": "Buradaki su vadiye kıyasla ılık ki bu çok güzel!",
+        "zh": "与山谷里相比，这里的水很暖和。太开心了！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "ginger_island_resort",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [
+          "world.ginger_island.beach_resort.opened"
+        ],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:Sat",
+      "author_key": "Sat",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Geht es nur mir so, oder hat Abigail ein ungesundes Interesse für Verderben und Düsterkeit?#$e#Vielleicht bin ich einfach zu alt, um es zu verstehen.",
+        "es": "¿Soy yo o Abigail tiene un interés malsano por las cosas siniestras y la oscuridad?#$e#A lo mejor soy demasiado mayor para entenderlo.",
+        "fr": "Il n’y a que moi qui trouve qu’Abigail manifeste un intérêt malsain pour les choses tristes et moroses ?#$e#Peut-être que je suis trop âgée pour comprendre.",
+        "hu": "Csak nekem tűnik úgy, hogy Abigail túl sokat foglalkozik gyásszal és levertséggel?#$e#Talán csak túl öreg vagyok ahhoz, hogy megértsem.",
+        "it": "Sembra a me, o Abigail nutre un interesse malsano per il macabro e il cupo?#$e#Forse sono solo troppo vecchia per capire.",
+        "ja": "アビゲイルが 「闇」や「破滅」みたいな 危ないものに 興味を 持ってるように 思えるのは 私だけ？#$e# 私が もう少し若かったら 理解できたのかも。",
+        "en": "Is it just me, or does Abigail have an unhealthy interest in doom and gloom?#$e#Maybe I'm just too old to understand.",
+        "ko": "애비게일이 유독 암울한 것에 지나치게 관심이 많은 것 같아. 나만 그렇게 생각하는 건가?#$e#어쩌면 이해하기엔 내가 나이가 너무 많아진 걸지도.",
+        "pt": "Sou só eu ou a Abigail possui um interesse meio obsessivo por coisas tenebrosas e sombrias?#$e#Devo estar velha demais para entender.",
+        "ru": "Мне кажется, или у Абигейл какая-то нездоровая тяга ко всему мрачному и безысходному?#$e#Может, я слишком стара, чтобы понять такое.",
+        "tr": "Bana mı öyle geliyor, yoksa Abigail kıyamet ve kasvete hastalıklı bir şekilde ilgi mi duyuyor?#$e#Belki de anlamak için fazla yaşlıyımdır.",
+        "zh": "难道只有我觉得阿比盖尔对毁灭和黑暗有着畸形的兴趣吗？#$e#或许是我年龄大了，理解不了她们了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:Sat2",
+      "author_key": "Sat2",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Abby hatte schon immer ein merkwürdiges Interesse am Okkulten. Ich bin mir nicht sicher, woher sie das hat...",
+        "es": "Abby siempre ha tenido un interés extraño por lo oculto. No sé de dónde lo ha sacado...",
+        "fr": "Abby a toujours eu un étrange intérêt pour l’occultisme. Je ne sais pas d’où ça lui vient.",
+        "hu": "Abbyt mindig is nagyon érdekelte az okkultizmus. Nem tudom ez honnan jön nála...",
+        "it": "Abby ha sempre avuto uno strano interesse per l'occulto. Non sono sicura da dove le venga...",
+        "ja": "アビーは いつもオカルトに 変な関心を 持ってるのよ。どこから あんなものに関心を 得たのかしら…",
+        "en": "Abby's always had a strange interest in the occult. I'm not sure where she gets it from...",
+        "ko": "애비는 항상 초자연적인 것에 이상하게 관심이 많았어. 어디서 그런 취향이 생긴 건지 잘 모르겠어...",
+        "pt": "A Bibi sempre teve um interesse muito estranho pelo oculto. Não sei de onde ela o herdou...",
+        "ru": "У Эбби всегда был странный интерес ко всему оккультному. Не знаю, от кого это у нее...",
+        "tr": "Abby'nin her zaman büyücülüğe karşı garip bir ilgisi vardı. Bu huyu nereden edindiğini bilemiyorum...",
+        "zh": "阿比盖尔对怪力乱神有着诡异的兴趣。我不知道她是从哪儿学来的这些玩意儿……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 2,
+        "relationship_gate": "heart_min_2",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:Sat4",
+      "author_key": "Sat4",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Abby hatte schon immer ein merkwürdiges Interesse am Okkulten. Ich bin mir nicht sicher, woher sie das hat...",
+        "es": "Abby siempre ha tenido un interés extraño por lo oculto. No sé de dónde lo ha sacado...",
+        "fr": "Abby a toujours eu un étrange intérêt pour l’occultisme. Je ne sais pas d’où ça lui vient.",
+        "hu": "Abbyt mindig is nagyon érdekelte az okkultizmus. Ez biztos csak egy fázis nála...",
+        "it": "Abby ha sempre avuto uno strano interesse per l'occulto. Non sono sicura da dove le venga...",
+        "ja": "アビーは いつもオカルトに 変な関心を 持ってるのよ。どこから あんなものに関心を 得たのかしら…",
+        "en": "Abby's always had a strange interest in the occult. I'm sure it's just a phase...",
+        "ko": "애비는 항상 초자연적인 것에 이상하게 관심이 많았어. 어디서 그런 취향이 생긴 건지 잘 모르겠어...",
+        "pt": "A Bibi sempre teve um interesse muito estranho pelo oculto. Não sei de onde ela o herdou...",
+        "ru": "У Эбби всегда был странный интерес ко всему оккультному. Уверена, это у нее просто период такой...",
+        "tr": "Abby'nin her zaman büyücülüğe karşı garip bir ilgisi vardı. Eminim gelip geçici bir şeydir...",
+        "zh": "阿比盖尔对怪力乱神有着诡异的兴趣。我不知道她是从哪儿学来的这些玩意儿……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 4,
+        "relationship_gate": "heart_min_4",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:Sat6",
+      "author_key": "Sat6",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "#$1 Caroline12#Nach unserem Einzug hier hat es eine Weile gedauert, bis ich mich wohl gefühlt habe... Ich war nicht bereit für das häusliche Leben.#$e#Pierre ist ein wenig traditionell... aber er ist ein guter Mann. Er ist ehrgeizig, aber für ihn ist die Familie immer an erster Stelle.",
+        "es": "#$1 Caroline12#Cuando nos mudamos aquí nos costó un poco acostumbrarnos... No estaba preparada para la vida doméstica.#$e#Pierre es un poco tradicional... Pero es un buen hombre. Es ambicioso, pero para él la familia siempre es lo primero.",
+        "fr": "#$1 Caroline12#Quand on a emménagé ici, on a mis du temps à s’y faire... Je n’étais pas prête pour la vie domestique.#$e#Pierre est un peu vieux jeu... mais c’est un homme bien. Il est ambitieux, mais sa famille passe toujours en premier.",
+        "hu": "#$1 Caroline12#Amikor ideköltöztünk, eltartott egy ideig amíg berendezkedtem... Nem álltam még készen a háziasszonyi életre.#$e#Pierre hagyománytisztelő férfi... de nagyon jó ember. Nagyratörő, de első helyen mindig a család áll.",
+        "it": "#$1 Caroline12#Quando ci siamo trasferiti qui, mi ci è voluto un po' per ambientarmi, all'inizio... Non ero pronta per la vita da casalinga.#$e#Pierre è un tipo un po' all'antica... ma è un brav'uomo. È ambizioso, ma mette sempre la famiglia al primo posto.",
+        "ja": "#$1 Caroline12#私達が ここに引っ越した時、 落ち着くまでに 時間がかかったわ…家庭的な 生活を 送る準備が できてなかったの。#$e#ピエールは 伝統的だけど…いい人よ。大きな夢を抱きながらも、 家族を 一番大事にしてくれるから。",
+        "en": "#$1 Caroline12#When we first moved here, I took a while to settle down... I wasn't ready for the domestic life.#$e#Pierre's a bit conventional... but he's a good man. He's ambitious, but he always puts his family first.",
+        "ko": "#$1 Caroline12#우리가 여기 처음 이사 왔을 때, 난 자리 잡는데 시간이 좀 걸렸어... 아직 살림을 할 마음의 준비가 안됐었지.#$e#피에르는 좀 전통적이야... 하지만 좋은 사람이야. 야심 있지만, 항상 가족을 먼저 생각하고.",
+        "pt": "#$1 Caroline12#Quando mudamos para cá, demorei um pouco para me adaptar... Não estava pronta para a vida doméstica.#$e#O Pierre é um pouco tradicional... mas é um bom homem. Um pouco ambicioso, mas sempre coloca a família em primeiro lugar.",
+        "ru": "#$1 Caroline12#Когда мы только сюда переехали, я долго осваивалась... Я не была готова к домашней жизни.#$e#Пьер несколько консервативен в своих взглядах... Но он хороший. У него большие амбиции, но семья для него превыше всего",
+        "tr": "#$1 Caroline12#Buraya yeni taşındığımızda dikiş tutturmam zaman aldı... Ev hayatına hazır değildim.#$e#Pierre biraz gelenekseldir ama iyi bir adamdır. Hırslı olsa da önce hep ailesi gelir.",
+        "zh": "#$1 Caroline12#我们刚搬到这里的时候，我花了些功夫才安顿下来……我对于家庭生活还没有做好准备。#$e#皮埃尔有点儿传统……但他是个好人。他也有雄心壮志，但他总把家庭放在第一位。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:Sat_inlaw_Abigail",
+      "author_key": "Sat_inlaw_Abigail",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das Abendessen ist viel stiller geworden, seit Abigail ausgezogen ist...#$e#Nein, nicht weil sie mit offenem Mund gekaut hat!$h",
+        "es": "Las cenas son mucho más silenciosas desde que Abigail no vive aquí...#$e#No, ¡no es porque masticara con la boca abierta!$h",
+        "fr": "C’est beaucoup plus calme au dîner depuis le départ d’Abigail...#$e#Non, pas parce qu’elle avait l’habitude de mâcher avec la bouche ouverte !$h",
+        "hu": "A vacsora sokkal csendesebb, mióta Abigail kiköltözött...#$e#Nem, nem azért, mert nyitott szájjal evett!$h",
+        "it": "C'è molto più silenzio, a cena, da quando Abigail ha lasciato casa...#$e#No, non perché masticava a bocca aperta!$h",
+        "ja": "アビゲイルが 出て行ってから、 食事が だいぶ静かになったわ…#$e#あの子が 口を開けたまま ものをかむのが 原因じゃないけど。$h",
+        "en": "Dinner's been a lot quieter since Abigail moved out...#$e#No, not because she used to chew with her mouth open!$h",
+        "ko": "애비게일이 이사 나간 뒤로 저녁시간이 많이 조용해졌어...#$e#아니, 입을 열고 음식을 씹어서 그렇다는 게 아니라!$h",
+        "pt": "O jantar está bem mais silencioso desde que Abigail se mudou...#$e#Não, não é porque ela mastigava de boca aberta!$h",
+        "ru": "С тех пор, как Абигейл съехала от нас, ужин проходит гораздо тише.#$e#Нет, вовсе не потому, что она жевала с открытым ртом!$h",
+        "tr": "Abigail gittiğinden beri akşam yemeklerimiz sessizleşti...#$e#Hayır, yemeği şapırdatarak yediğinden değil!$h",
+        "zh": "自从阿比盖尔搬出去后晚饭时间就安静了很多……#$e#不，不是因为她以前总是吧唧嘴！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'Sat_inlaw_Abigail' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:Sun",
+      "author_key": "Sun",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Heute werde ich mich einfach entspannen und positiv denken.#$e#Nimmst du dir je einen Tag frei?",
+        "es": "Hoy simplemente me relajaré y pensaré en positivo.#$e#¿Te tomas un día libre alguna vez?",
+        "fr": "Aujourd’hui, je vais simplement me détendre et penser positivement.#$e#As-tu déjà pris un jour de congé ?",
+        "hu": "A mai nap a pihenésé és a pozitív gondolkodásé.#$e#Te szoktál szabadnapot tartani?",
+        "it": "Oggi voglio soltanto rilassarmi e pensare positivo.#$e#Tu non te lo prendi mai un giorno di riposo?",
+        "ja": "今日は リラックスして、 前向きに考えることにするわ。#$e#あなたは 休みを 取ってる？",
+        "en": "Today I'm just going to relax and think positively.#$e#Do you ever take a day off?",
+        "ko": "오늘 난 그냥 쉬면서 긍정적인 생각을 할 거야.#$e#너도 그냥 쉬는 날이 있어?",
+        "pt": "Hoje só vou relaxar e pensar positivamente.#$e#Você nunca tira um dia de folga?",
+        "ru": "Сегодня я буду расслабляться и мыслить позитивно.#$e#Ты когда-нибудь устраиваешь себе выходные?",
+        "tr": "Bugün rahatlayacak ve olumlu düşüneceğim.#$e#Sen hiç kendine izin vermez misin?",
+        "zh": "今天我要放松一下，各种烦恼放下，过一天积极的生活。#$e#你给自己放过假吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:Thu",
+      "author_key": "Thu",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "#$1 Caroline1#Hmmm... Ich frage mich, ob ich Pierre dazu bringen kann, heute das Abendessen zu machen.#$e#Hmmm... was mache ich heute zu Abend?#$e#Vielleicht hole ich etwas aus der Kneipe zum Mitnehmen.",
+        "es": "#$1 Caroline1#Hmmm... No sé si conseguiré que Pierre haga la cena esta noche.#$e#Hmmm... ¿Qué voy a hacer para cenar?#$e#Igual voy al Salón a por comida para llevar.",
+        "fr": "#$1 Caroline1#Mmm... Je pourrais peut-être demander à Pierre de préparer le dîner ce soir.#$e#Mmm... que vais-je préparer pour le dîner de ce soir ?#$e#Peut-être que je vais juste commander quelque chose à manger au saloon.",
+        "hu": "#$1 Caroline1#Hmmm... Talán rá tudom venni Pierret, hogy ma este ő főzzön.#$e#Hmmm... mit csináljak ma vacsorára?#$e#Esetleg rendelek vacsorát a szalonból.",
+        "it": "#$1 Caroline1#Hmmm... Chissà se posso convincere Pierre a cucinare, stasera.#$e#Hmmm... che cosa preparo stasera per cena?#$e#Forse ordinerò semplicemente del cibo d'asporto al Saloon.",
+        "ja": "#$1 Caroline1#うーん…今夜は ピエールに夕食を 作ってもらうよう 頼むかな。#$e#うーん… 自分で何か 作ろうかしら。#$e#酒場で テイクアウトを 頼んでも いいかも。",
+        "en": "#$1 Caroline1#Hmmm... I wonder if I can get Pierre to cook dinner tonight.#$e#Hmmm... what am I going to make for dinner tonight?#$e#Maybe I'll just get take-out from the Saloon.",
+        "ko": "#$1 Caroline1#흐음... 오늘 저녁은 피에르가 만들게 할 수 있으려나.#$e#흐음... 오늘 저녁은 뭐 만들지?#$e#그냥 술집에서 포장해올까 싶네.",
+        "pt": "#$1 Caroline1#Huuum... Será que consigo mandar o Pierre para a cozinha hoje?#$e#Huum... o que vou fazer hoje no jantar?#$e#Acho que vou comprar um prato feito no Saloon.",
+        "ru": "#$1 Caroline1#Хм-м-м... Может, упросить Пьера приготовить сегодня ужин.#$e#Хм-м-м... Что бы такого приготовить сегодня на ужин?#$e#Может, просто возьму что-нибудь на вынос в салуне.",
+        "tr": "#$1 Caroline1#Hım... Akşama yemek yapması için Pierre'i ikna edebilir miyim ki?#$e#Hım... Akşama ne yapsam?#$e#Belki de Salon'dan söylerim.",
+        "zh": "#$1 Caroline1#嗯……不知能不能让皮埃尔负责今天的晚饭。#$e#嗯……今天的晚饭我该做些什么好呢？#$e#要不从沙龙那儿买份儿外卖好了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Thu"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:Tue",
+      "author_key": "Tue",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe wilden Meerrettich im Wald gefunden.#$e#Ihn zu suchen ist eine nette Methode, ein wenig Geld zu verdienen. Oder nutze Dinge, die du findest, als Geschenk oder Essen.",
+        "es": "He visto rábanos silvestres en el bosque.#$e#Recolectar puede ser una manera divertida de ganar dinero. O puedes usar lo que encuentres como regalos o comida.",
+        "fr": "J’ai vu du raifort sauvage dans la forêt.#$e#La cueillette peut être un moyen amusant de gagner de l’argent. Ou tu peux utiliser ce que tu trouves comme cadeaux ou comme nourriture.",
+        "hu": "Láttam némi vad tormát az erdőben.#$e#A gyűjtögetés szórakoztató módja lehet a pénzkeresésnek. A talált dolgokat pedig meg is lehet enni, vagy el lehet ajándékozni.",
+        "it": "Ho visto dei rafani selvatici nella foresta.#$e#La raccolta selvatica può essere un modo divertente per guadagnare qualcosa. O puoi usare ciò che trovi per fare dei doni, o per mangiare.",
+        "ja": "森で ノワサビを 見たわ。#$e#植物採取は、 楽しい お金稼ぎに なるわよ。見つけたものを 食べるか 贈り物にするのも いいわね。",
+        "en": "I've seen wild horseradish in the forest.#$e#Foraging can be a fun way to earn some cash. Or you can use what you find as gifts or food.",
+        "ko": "숲에서 야생 고추냉이를 본 적 있어.#$e#채집은 재미도 있고 돈도 벌 수 있는 활동이지. 아니면 찾아낸 걸 먹거나 선물할 수도 있고.",
+        "pt": "Eu vi um pouco de raiz-forte selvagem na floresta.#$e#Coletar recursos pode ser um jeito divertido de ganhar algum dinheiro. Ou você pode usar o que encontrar, como presente ou comida.",
+        "ru": "Я видела в лесу дикий хрен.#$e#Собирательство — это увлекательный способ заработать. А еще то, что ты собираешь, можно дарить или есть.",
+        "tr": "Ormanda yabani bayır turpları gördüm.#$e#Toplayıcılık, eğlenceli bir para kazanma uğraşı olabilir. Bulduğun şeyleri yiyecek ya da hediye olarak da değerlendirebilirsin.",
+        "zh": "我在树林里见过野生山葵。#$e#采集山货是挣钱的好方法。你也可以把你找到的东西当作礼物送人或者自己留着吃了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:Wed",
+      "author_key": "Wed",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hallo. Hast du auf deinem Hof alles, was du brauchst?#$e#Falls nicht, können wir dir vielleicht aushelfen.#$e#Wir haben eine Vielfalt an nützlichen Gegenständen.",
+        "es": "Hola. ¿Tienes ya todo lo que necesitas para la granja?#$e#Si no, tal vez podamos ayudarte.#$e#Tenemos toda una gama de objetos útiles.",
+        "fr": "Bonjour. As-tu tout ce dont tu as besoin à la ferme ?#$e#Sinon, nous pourrions peut-être t’aider.#$e#Nous proposons une variété d’objets utiles.",
+        "hu": "Helló. Megvan minden ami a farmra kell?#$e#Ha nincs, mi segíthetünk.#$e#Rengeteg hasznos dolgot lehet nálunk kapni.",
+        "it": "Ehilà. Hai tutto quello che ti serve per la fattoria?#$e#Se ti manca qualcosa, potremmo darti una mano noi.#$e#Abbiamo tantissime cose utili.",
+        "ja": "こんにちは。牧場に 必要なものは 全部そろってるかしら？#$e#そろってないなら、 力になれるかも知れない。#$e#役に立つ道具を 色々売ってるの。",
+        "en": "Hi there. Do you have everything you need for the farm?#$e#If not, we might be able to help you out.#$e#We carry a variety of useful items.",
+        "ko": "안녕. 농장에 필요한 물품은 다 있니?#$e#아니라면, 우리가 도와줄 수도 있어.#$e#유용한 물품을 다양하게 팔고 있으니까.",
+        "pt": "Olá! Já tem tudo o que precisa para a fazenda?#$e#Se não tiver, talvez possamos ajudar.#$e#Temos vários itens úteis.",
+        "ru": "Привет. У тебя все нужное есть на ферме?#$e#Если нет, то мы можем помочь.#$e#Мы продаем разные полезные вещи.",
+        "tr": "Selam. Çiftlikte her şey tamam mı?#$e#Eksiğin varsa yardımcı olabiliriz.#$e#Elimizde bir sürü kullanışlı mal var.",
+        "zh": "嗨。你农场里的东西都置办齐了吗？#$e#如果还缺什么的话，尽管来找我们帮忙。#$e#我们什么好东西都有。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:Wed6",
+      "author_key": "Wed6",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Das Sternentautal ist nett, aber ich wünschte, ich würde mehr Leute kennen.#$e#Ich bin froh, dass wir Freunde geworden sind.",
+        "es": "Stardew Valley es bonito, pero me gustaría conocer a más gente.#$e#Me alegro de que seamos amigos.",
+        "fr": "J’aime bien Stardew Valley, mais j’aimerais connaître plus de gens.#$e#suis contente qu’on soit devenus amis.",
+        "hu": "Stardew Valley remek hely, de bárcsak több embert ismernék.#$e#Örülök, hogy barátok lettünk.",
+        "it": "Stardew Valley è bella, ma vorrei conoscere più persone.#$e#Sono contenta di aver fatto amicizia con te.",
+        "ja": "スターデューバレーは いい所だけど、 もっといろんな人と 知り合いたいわ#$e#あなたと 仲良くなれて 嬉しいの。",
+        "en": "Stardew Valley is nice, but I wish I knew more people.#$e#I'm glad that we've become friends.",
+        "ko": "스타듀 밸리도 좋지만, 좀 더 많은 사람들을 만났으면 좋겠어.#$e#우리가 친해져서 기뻐.",
+        "pt": "O Vale do Orvalho é legal, mas eu gostaria de conhecer mais pessoas.#$e#Fico feliz que nos tornamos amigos.",
+        "ru": "Долина Стардью — славное место, но я хотела бы познакомиться с новыми людьми.#$e#Я рада, что мы подружились.",
+        "tr": "Yıldızçiyi Vadisi güzel ama keşke daha çok insan tanıyabilsem.#$e#Arkadaş olduğumuza memnunum.",
+        "zh": "星露谷是个好地方，不过我还是喜欢多认识些人。#$e#很高兴我们可以成为朋友。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:achievement_15",
+      "author_key": "achievement_15",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Nach den schmackhaften Gerüchen zu urteilen, die aus Ihrer Wohnung wehen, kann ich sagen, dass du in der Küche stark beschäftigt warst!$h",
+        "es": "A juzgar por los olores sabrosos que emanan de tu hogar, ¡puedo deducir que has estado trabajando en la cocina!$h",
+        "fr": "À en juger par les odeurs savoureuses qui s’échappent de chez toi, je sais que tu passes beaucoup de temps dans la cuisine !$h",
+        "hu": "Az otthonodból áradó kellemes szagokból ítélve meg tudom állapítani, hogy a konyhádban szorgoskodtál!$h",
+        "it": "A giudicare dai buoni odori che aleggiano intorno a casa tua, direi che ti stai dando da fare in cucina!$h",
+        "ja": "あなたのお家からおいしそうな香りがしてくるの。 キッチンでたくさん料理を作っているんでしょうね！$h",
+        "en": "Judging by the savory smells wafting from your place, I can tell you've been busy in the kitchen!$h",
+        "ko": "네 농장 쪽에서 좋은 냄새가 나던데, 주방 잘 활용하고 있구나!$h",
+        "pt": "A julgar pelos aromas deliciosos saindo da sua casa, tenho certeza que você tem passado um tempo na cozinha!$h",
+        "ru": "Ветер приносит с фермы такие приятные ароматы, сдается мне, ты готовишь что-то очень вкусное!$h",
+        "tr": "Evinden gelen hoş kokulara dayanarak mutfakta bayağı bir meşgul olduğunu söyleyebilirim!$h",
+        "zh": "你家总是飘来香味，我想你在厨房忙得不亦乐乎吧！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'achievement_15' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:cropMatured_815",
+      "author_key": "cropMatured_815",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Mir ist aufgefallen, dass du auf deinem Hof Tee anbaust. Bring mir unbedingt eine Tasse mit!$h",
+        "es": "Me he dado cuenta de que estás cultivando té en tu granja. ¡Asegúrate de traerme una copa!$h",
+        "fr": "J’ai vu que tu fais pousser des plantes pour infusion dans ta ferme. N’oublie pas de m’apporter une tasse de thé !$h",
+        "hu": "Észrevettem, hogy teát termesztesz a farmodon. Majd hozz nekem egy csészével!$h",
+        "it": "Ho visto che coltivi il tè nella tua fattoria. Ricordati di portarmene una tazza!$h",
+        "ja": "牧場でお茶を育てているそうね。よかったらお裾分けしてね！$h",
+        "en": "I noticed you're growing tea on your farm. Make sure to bring me a cup!$h",
+        "ko": "농장에서 찻잎 기르고 있는 걸 봤어. 나도 꼭 한잔 주는 거 잊지 말고!$h",
+        "pt": "Eu vi que você tem cultivado chá na sua fazenda. Não se esqueça de me trazer um pouco!$h",
+        "ru": "Заметила, ты чай у себя на ферме выращиваешь. Не забудь, принеси мне на чашечку!$h",
+        "tr": "Çiftliğinde çay yetiştirdiğini gördüm. Bir ara bana bir fincan getirmeyi unutma!$h",
+        "zh": "我看到你在农场里种了茶叶，记得给我带一点啊！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'cropMatured_815' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:dating_Abigail_memory_oneday",
+      "author_key": "dating_Abigail_memory_oneday",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Abby hat mir erzählt, dass ihr zusammen seid. Das ist süß!",
+        "es": "Abby me dijo que tú y ella estáis saliendo. ¡Es adorable!",
+        "fr": "Abby m’a dit que vous sortez ensemble. C’est tellement mignon !",
+        "hu": "Abby mondta, hogy találkozni szoktatok. Ez édes!",
+        "it": "Abby mi ha detto che sta uscendo con te. Quanto siete dolci!",
+        "ja": "アビーからあなたと付き合っていると聞いたの。なんて素敵なのかしら！",
+        "en": "Abby told me that you and her are seeing each other. That's sweet!",
+        "ko": "애비랑 요즘 사귀고 있다고 들었단다. 아, 젊은이란!",
+        "pt": "A Bibi me contou que vocês dois estão saindo. Que fofos!",
+        "ru": "Эбби сказала мне, что вы встречаетесь. Как славно!",
+        "tr": "Abby bana arada görüştüğünüzü söyledi. Çok tatlı!",
+        "zh": "我听阿比说你们在一起了，真好啊！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'dating_Abigail_memory_oneday' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:eventSeen_719926",
+      "author_key": "eventSeen_719926",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Bist du entspannt? Ich wette...",
+        "es": "¿Te sientes con más tranquilidad? Supongo que...",
+        "fr": "Tu dois te sentir un peu plus détendu ? J’en suis certaine...",
+        "hu": "Kipihentnek érzed magad? Lefogadom...",
+        "it": "Ti senti rilassato? Ci scommetto...^Ti senti rilassata? Ci scommetto...",
+        "ja": "リラックスできたかしら？よかった…",
+        "en": "Are you feeling relaxed? I bet...",
+        "ko": "좀 편안해졌니? 당연히 그렇겠지...",
+        "pt": "Você está mais calmo? Eu aposto que sim...^Você está mais calma? Eu aposto que sim...",
+        "ru": "Ну как, правда расслабляет? Еще бы...",
+        "tr": "Biraz rahatlamış hissediyor musun? Eminim hissediyorsundur...",
+        "zh": "你觉得放松了吗？我觉得肯定是……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Heart suffix detected, but full key pattern was not fully parsed."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:fall_Mon",
+      "author_key": "fall_Mon",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Der Herbst ist Abbys Lieblingsjahreszeit, also hoffe ich, dass sie öfter ihr Zimmer verlassen wird.",
+        "es": "El otoño es la estación preferida de Abby, así que espero que salga de la habitación más a menudo.",
+        "fr": "L’automne est la saison préférée d’Abby, alors j’espère qu’elle sortira de sa chambre plus souvent.",
+        "hu": "Az ősz Abby kedvenc évszaka, szóval remélem most többször fog kijönni a szobájából.",
+        "it": "L'autunno è la stagione preferita di Abby, per cui spero che esca più spesso dalla sua stanza.",
+        "ja": "秋はアビーの お気に入りの 季節だから、 もっと外へ 出てくれるように なってくれれば いいと思うの。",
+        "en": "Fall is Abby's favorite season, so I'm hoping she'll come out of her room more often.",
+        "ko": "가을이 애비가 제일 좋아하는 계절이라, 방에서 좀 더 자주 나오길 바라고 있어.",
+        "pt": "O outono é a estação favorita da Bibi, então espero que ela saia mais do quarto.",
+        "ru": "Осень — любимое время года Эбби, поэтому я надеюсь, что она будет почаще выходить из комнаты.",
+        "tr": "Güz, Abby'nin en sevdiği mevsimdir. Dolayısıyla odasından daha sık çıkacağını umuyorum.",
+        "zh": "秋天可是阿比盖尔最喜欢的季节啊，正因为如此我希望她可以从屋里出来，多在外面待会儿。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:fall_Mon_inlaw_Abigail",
+      "author_key": "fall_Mon_inlaw_Abigail",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Abby hat hier ein paar Onlinekurse besucht, aber ich befürchte, dass sie nicht mit Leib und Seele dabei war...#$e#Sie ist ein Freigeist, so wie ich es war, bevor ich Pierre getroffen habe. Sie fühlt sich auf deinem Hof sicher pudelwohl.",
+        "es": "Abby iba a clases online desde aquí, pero creo que no le entusiasmaba mucho...#$e#Es un alma libre, igual que yo antes de conocer a Pierre. Seguro que se lo está pasando bomba en tu granja.",
+        "fr": "Abby suivait des cours en ligne ici, mais je crois que ça ne l’intéressait pas vraiment...#$e#C’est un esprit libre, comme je l’étais avant de rencontrer Pierre. J’imagine qu’elle passe un merveilleux moment dans ta ferme.",
+        "hu": "Abby internetes órákat vett itthon, de nem hiszem, hogy igazán szerette őket...#$e#Szabad lélek, olyan, amilyen én voltam Pierre előtt. Úgy gondolom élete legjobb időszakát éli a farmodon.",
+        "it": "Abby frequentava delle lezioni online qui, ma non penso che lo facesse molto volentieri...#$e#È uno spirito libero, lei, come lo ero io prima di conoscere Pierre. Probabilmente si sta sentendo realizzata, nella tua fattoria.",
+        "ja": "アビーはここで オンラインの 授業を 受けてるけど、 本気で やってるようには 見えないわ… #$e#だってあの子、 ピエールと 会う前の 私みたいに 自由だから。あなたの牧場に いるほうが アビーにとって 楽しいのかも",
+        "en": "Abby was taking online classes here, but I don't think her heart was really in it...#$e#She's a free spirit, like I was before I met Pierre. She's probably having the time of her life on your farm.",
+        "ko": "애비가 여기서 온라인 수업을 듣곤 했는데, 그렇게 몰두하는 느낌은 아니었어...#$e#자유로운 영혼이야, 피에르를 만나기 전의 나처럼. 아마 네 농장에서 정말 최고의 시간을 보내고 있을 거야.",
+        "pt": "A Bibi estava assistindo umas aulas à distância aqui, mas não acho que ela goste disso de verdade...#$e#Ela tem um espírito inquieto, como eu, antes de conhecer o Pierre. Ela deve estar se divertindo muito na sua fazenda.",
+        "ru": "Эбби тут занималась онлайн-курсами, но я не думаю, что она особенно этого хотела...#$e#Она — свободная душа, прямо как я до встречи с Пьером. Наверное, ей сейчас на твоей ферме живется лучше всего.",
+        "tr": "Abby burada çevrim içi ders alıyordu. Ancak, bunu kalbinden istediğini sanmıyorum.#$e#Özgür bir ruhu var. Aynı Pierre ile tanışmadan önceki ben gibi. Muhtemelen senin çiftliğinde hayatının en güzel anlarını yaşıyordur.",
+        "zh": "阿比盖尔曾在这里上网络课程，但我觉得她的心思并不在那上面……#$e#她是个独立又要强的孩子，就像我遇到皮埃尔之前那样。她可能是想在你的农场生活。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:fall_Sat",
+      "author_key": "fall_Sat",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Geht es nur mir so, oder spielt Abigail zu viele Videospiele?#$e#Vielleicht bin ich ein wenig altmodisch.",
+        "es": "¿Soy yo o Abigail juega demasiados videojuegos?#$e#A lo mejor es que estoy anticuada.",
+        "fr": "C’est moi ou Abigail joue trop aux jeux vidéo ?#$e#Peut-être que je suis un peu vieux jeu.",
+        "hu": "Csak nekem tűnik úgy, hogy Abigail túl sokat játszik videójátékokkal?#$e#Talán csak kicsit régimódi vagyok.",
+        "it": "Sembra a me, o Abigail passa troppo tempo davanti ai videogiochi?#$e#Forse sono io un po' vecchio stile.",
+        "ja": "アビゲイルったら、 ビデオゲームを 遊びすぎてると 思うの。#$e#私が 古臭いだけかも しれないけど。",
+        "en": "Is it just me, or does Abigail play too many video games?#$e#Maybe I'm a little old-fashioned.",
+        "ko": "나만 그렇게 생각하는 건지는 모르겠는데, 애비게일 게임 너무 많이 하지 않니?#$e#그냥 내 사고방식이 너무 옛날 식인 걸까.",
+        "pt": "Sou só eu ou a Abigail está jogando muito videogame?#$e#Acho que sou um pouco antiquada.",
+        "ru": "Мне кажется, или Абигейл слишком много играет в видеоигры?#$e#Может быть, я немного старомодна.",
+        "tr": "Bana mı öyle geliyor, yoksa Abigail çok mu bilgisayar oyunu oynuyor?#$e#Belki de ben geri kafalıyımdır.",
+        "zh": "难道只有我觉得阿比盖尔玩游戏玩得太多了吗？#$e#也许我太落伍了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:fall_Tue",
+      "author_key": "fall_Tue",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe essbare Pilze im Wald gefunden.#$e#Sie zu suchen ist eine nette Methode, ein wenig Geld zu verdienen. Oder nutze Dinge, die du findest, als Geschenk oder Essen.",
+        "es": "He visto setas comestibles en el bosque.#$e#Recolectar puede ser una manera divertida de ganar dinero. O puedes usar lo que encuentres como regalos o comida.",
+        "fr": "J’ai vu des champignons comestibles dans la forêt.#$e#La cueillette peut être une façon amusante de gagner de l’argent. Ou tu peux utiliser ce que tu trouves comme cadeaux ou comme nourriture.",
+        "hu": "Láttam ehető gombákat az erdőben.#$e#A gyűjtögetés szórakoztató módja lehet a pénzkeresésnek. A talált dolgokat pedig meg is lehet enni, vagy el lehet ajándékozni.",
+        "it": "Ho visto dei funghi commestibili nella foresta.#$e#La raccolta selvatica può essere un modo divertente per guadagnare qualcosa. O puoi usare ciò che trovi per fare dei doni, o per mangiare.",
+        "ja": "森で 食用キノコを 見かけたわ。#$e#植物採取は、 楽しい お金稼ぎに なるわよ。見つけたものを 食べるか 贈り物にするのも いいわね。",
+        "en": "I've seen edible mushrooms in the forest.#$e#Foraging can be a fun way to earn some cash. Or you can use what you find as gifts or food.",
+        "ko": "버섯에서 식용 버섯을 봤어#$e#채집은 재미도 있고 돈도 벌 수 있는 활동이지. 아니면 찾아낸 걸 먹거나 선물할 수도 있고.",
+        "pt": "Eu vi alguns cogumelos comestíveis na floresta.#$e#Coletar recursos pode ser um jeito divertido de ganhar algum dinheiro. Ou você pode usar o que encontrar, como presente ou comida.",
+        "ru": "Я видела в лесу съедобные грибы.#$e#Собирательство — это увлекательный способ заработать. А еще то, что ты собираешь, можно дарить или есть.",
+        "tr": "Ormanda tam yemelik mantarlar gördüm.#$e#Toplayıcılık, eğlenceli bir para kazanma uğraşı olabilir. Bulduğun şeyleri yiyecek ya da hediye olarak da değerlendirebilirsin.",
+        "zh": "我在森林里见到了可以吃的蘑菇。#$e#采集山货是挣钱的好方法。你也可以把你找到的东西当作礼物送人或者自己留着吃了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:fall_Wed6",
+      "author_key": "fall_Wed6",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Weißt du, ich wollte selbst Bauer werden. Na ja, eigentlich mehr so ein Viehzüchter.#$e#Als ich jung war, habe ich diese Wild-West-Filme immer geliebt.",
+        "es": "¿Sabes? Yo también quería ser granjera. O más bien ranchera.#$e#Me encantaban las películas del lejano oeste cuando era niña.",
+        "fr": "Tu sais, j’aurais bien aimé devenir agricultrice, moi aussi. Avoir mon propre ranch.#$e#J’adorais les films de far west quand j’étais petite",
+        "hu": "Tudod, régen én is gazda akartam lenni. Nos, inkább állattenyésztő.#$e#Kislánykoromban nagyon szerettem a vadnyugati filmeket.",
+        "it": "Sai, mi sarebbe piaciuto gestire una fattoria. Beh, più che altro un ranch.#$e#Da ragazza adoravo i film sul selvaggio west.",
+        "ja": "あのね、 昔自分も 牧場主に なってみたいと 思ってたの。むしろ 農園主 かしら。#$e#子どもの頃、 西部劇の 映画が 大好き だったからね。",
+        "en": "You know, I used to want to be a farmer myself. Well, more like a rancher.#$e#I always loved movies about the wild west when I was a girl.",
+        "ko": "사실, 나도 예전에 농부가 되고 싶었다? 뭐, 사실 목장 주인이 되고 싶은 거였지.#$e#어렸을 때 서부 영화를 항상 사랑했었어.",
+        "pt": "Sabe, antes eu queria ser uma fazendeira. Bem, uma rancheira, na verdade.#$e#Sempre amei filmes sobre o velho oeste quando era menina.",
+        "ru": "Знаешь, я когда-то сама хотела стать фермером. Точнее, хозяйкой ранчо.#$e#Я всегда любила вестерны, когда была маленькой.",
+        "tr": "Bilirsin, ben de çiftçi olmak istemiştim. Daha çok bir çiftlik sahibi...#$e#Gençken vahşi batı filmlerine bayılırdım.",
+        "zh": "我以前还想务农呢。好吧，其实我更想当一名牛仔。#$e#我还是个小女孩的时候可是非常喜欢西部电影的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "fall"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:houseUpgrade_1",
+      "author_key": "houseUpgrade_1",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "$y 'Ich habe gehört, du hast eine neue Küche! Glaubst du, du wirst viel kochen?_Ich habe es vor!_Es ist gut, das zu können. Und mit all den frischen Zutaten auf deinem Hof wirst du gut dastehen!_Nein, das ist nur fürs Aussehen, ich verstehe._Vergiss nicht, dich richtig zu ernähren... Nährstoffe sind wichtig..'",
+        "es": "$y '¡He oido que tienes una nueva cocina! ¿Crees que vas a estar cocinando mucho?_¡Ese es el plan!_Es una buena habilidad que tener. Y con todos esos ingredientes frescos en tu granja, ¡tienes que estar en una buena posición!_No, es solo por la apariencia_Ya veo. Bueno, no te olvides comer sano... la nutrición es importante.'",
+        "fr": "$y 'J’ai entendu dire que tu as une nouvelle cuisine ! Tu penses que tu vas passer beaucoup de temps à cuisiner ?_J’en ai bien l’intention !_C’est une bonne chose de savoir cuisiner. Et avec tous ces ingrédients frais de ta ferme, tu mangeras des plats copieux et délicieux !_Non, c’est juste pour le style._Je vois. N’oublie pas de manger équilibré... Une nutrition de qualité, c’est important pour la santé.'",
+        "hu": "$y 'Úgy hallottam, hogy van egy új konyhád! Sokat tervezel majd főzőcskézni?_Igen, szeretnék!_Az jó, ha tudsz, remek képesség. És a farmodon lévő friss alapanyagoknak hála jó dolgod lesz!_Dehogy, csak mutatóba van_Értem. Nos, ne felejts el helyesen táplálkozni... az étkezés fontos.'",
+        "it": "$y 'Ho sentito che hai preso una cucina nuova! Pensi che cucinerai molto?_L'idea è quella!_È una buona cosa saper cucinare. E con tutti gli ingredienti freschi della tua fattoria, mangerai bene!_Nah, è solo bella da vedere_Capisco. Beh, non dimenticare di mangiare sano... L'alimentazione è importante.'",
+        "ja": "$y '新しくキッチンが出来たんですってね！料理をたくさん作るの？_そのつもり！_料理ができるのはすばらしいことよ。それに、あなたの牧場の新鮮な食材があればきっとおいしいものが作れるわ！_たぶん作らない_あらそうなの。でも食事はきちんととってね… 栄養は大切よ。'",
+        "en": "$y 'I heard you got a new kitchen! Think you'll be doing a lot of cooking?_I plan to!_It's a good skill to have. And with all those fresh ingredients on your farm, you'll be sitting pretty!_Nah, it's just for looks_I see. Well, don't forget to eat right... nutrition is important.'",
+        "ko": "$y '새 주방을 마련했다고 들었어! 앞으로 요리 많이 할 예정이니?_그러려고요!_요리할 줄 알면 유용하지. 농장에서 바로 키운 싱싱한 작물도 있으니 딱 좋네!_아뇨, 그냥 보기 좋으라고 있는 거예요_그렇구나. 그래도 식사는 챙겨서 먹고... 건강 생각해야지.'",
+        "pt": "$y 'Fiquei sabendo que você tem uma nova cozinha! Você acha que vai cozinhar bastante?_Está nos planos!_É uma boa habilidade para se ter. E com todos esses ingredientes frescos na sua fazenda, os seus pratos serão incríveis!_Não, é só pela estética_Claro. Só não se esqueça de comer bem... nutrição é importante.'",
+        "ru": "$y 'Слышала, у тебя новая кухня! Думаешь, теперь будешь много готовить?_Планирую!_Это крайне полезный навык. У тебя на ферме столько всего свежего растет — блюда получатся просто замечательные!_Не, это просто для красоты._Ясно. Что ж, не забывай хотя бы правильно питаться... организму нужна полезная пища.'",
+        "tr": "$y 'Duyduğuma göre yeni bir mutfağın varmış! Birçok yemek yapacaksın sanırım?_Yapmayı düşünüyorum!_Sahip olması güzel bir yetenek bu. Çiftliğinden gelen tüm o taze ekinlerle gerçekten rahat edeceksin!_Yok, süs niyetine._Anladım. O halde düzgün yemekler yemeyi unutma... Beslenme önemli.'",
+        "zh": "$y '我听说你有了个新厨房！你会经常做饭吗？_我正有此意！_会做饭可是很实用的，你还有农场上的新鲜食材，条件可谓是得天独厚！_没有，只是撑个门面。_好吧，不过还是要健康膳食……营养是很重要的。'"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'houseUpgrade_1' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:married_Abigail",
+      "author_key": "married_Abigail",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich freue mich so sehr für euch beide! Willkommen in der Familie!$h",
+        "es": "¡Estoy tan contenta por vosotros dos! ¡Bienvenidos a la familia!$h",
+        "fr": "Je suis si heureuse pour vous deux ! Bienvenue dans la famille !$h",
+        "hu": "Annyira örülök nektek! Üdv a családban!$h",
+        "it": "Sono così felice per voi! Ora anche tu fai parte della famiglia!$h",
+        "ja": "2人とも本当におめでとう！私たちは家族になったのよ！$h",
+        "en": "I'm so happy for you two! Welcome to the family!$h",
+        "ko": "애비와 결혼하다니, 기쁜 일이구나! 우리 가족이 된걸 환영한단다!$h",
+        "pt": "Eu estou muito feliz por vocês! Boas-vindas à família!$h",
+        "ru": "Я так рада за вас обоих. Добро пожаловать в семью!$h",
+        "tr": "İkiniz için çok mutluyum! Ailemize hoş geldin!$h",
+        "zh": "我真为你们俩高兴！欢迎加入这个家庭！$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'married_Abigail' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:married_memory_oneweek",
+      "author_key": "married_memory_oneweek",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ah, die Frischvermählten. Und, wie waren die Flitterwochen?#$e#Verstehe. Nun, ich denke, der Hof würde verwelken, wenn du dir eine Auszeit nimmst...",
+        "es": "Ah, los recién casados. Así que, ¿cómo fue la luna de miel?#$e#Ya veo. Bueno, supongo que la granja se resentiría si te tomases tiempo libre...",
+        "fr": "Ha, les deux nouveaux tourtereaux. Alors, comment s’est passée la lune de miel ?#$e#Je vois. Eh bien, ce serait dommage que la ferme se détériore si tu passes trop de temps en vacances...",
+        "hu": "Áh, az ifjú pár. Nos, milyen volt a nászút?#$e#Értem. Nos, azt hiszem a farm elhervadna, ha nem lennél ott...",
+        "it": "Ancora congratulazioni per il matrimonio. Com'è andata la luna di miele?#$e#Capisco. Beh, immagino che la fattoria andrebbe in malora se ti allontanassi per troppo tempo...",
+        "ja": "あら、新婚さん。ハネムーンはどうだった？#$e#そうよね。留守にしたら作物が枯れてしまうものね…",
+        "en": "Ah, the newlywed. So, how was the honeymoon?#$e#I see. Well, I guess the farm would wither if you took time away...",
+        "ko": "아, 우리 신혼부부. 신혼여행은 어땠니?#$e#그렇구나. 관리를 안 하면 농장이 큰일 나긴 하겠지...",
+        "pt": "Ah, os recém-casados. Então, como foi a lua de mel?#$e#Ah, claro. Bem, eu acho que a fazenda inteira iria definhar se você não estivesse presente...",
+        "ru": "А, молодожены. Ну и как прошел медовый месяц?#$e#Ясно. Сдается мне, что на ферме все завяло, раз вас там не было...",
+        "tr": "Aa, yeni çiftimiz gelmiş. Ee, balayınız nasıldı?#$e#Anlıyorum. Eh, çok uzak kalsaydınız tüm ekinler kururdu...",
+        "zh": "哎呀，新婚夫妇，你们蜜月怎么样？#$e#这样啊，好吧，我想如果你们离开太久，农场上的作物确实都要枯萎了……"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'married_memory_oneweek' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:movieTheater_memory_oneweek",
+      "author_key": "movieTheater_memory_oneweek",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Es ist toll, ein Kino in der Stadt zu haben. Ich möchte mir einen Western ansehen!",
+        "es": "Es divertido tener un cine en el Pueblo. ¡Quiero ir a ver una de vaqueros!",
+        "fr": "C’est génial d’avoir un cinéma en ville. Je veux aller voir un western !",
+        "hu": "Mókás dolog, hogy van egy mozi a városban. Én megnéznék egy westernt!",
+        "it": "È divertente avere un cinema in paese. Voglio andare a vedere un western!",
+        "ja": "町に映画館があるのはいいことね。私は西部劇を見に行きたいわ！",
+        "en": "It's fun to have a movie theater in town. I want to go see a western!",
+        "ko": "마을에 영화관이 생기다니, 너무 즐겁네. 서부 영화를 보고 싶어!",
+        "pt": "É divertido ter um cinema na vila. Eu queria ver um filme de faroeste!",
+        "ru": "Хорошо, что у нас теперь есть кинотеатр. Хочу сходить на вестерн!",
+        "tr": "Kasabada bir sinema olması güzel. Gidip bir vahşi batı filmi izlemek istiyorum!",
+        "zh": "镇上有个电影院真不错，我想去看西部片！"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'movieTheater_memory_oneweek' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:summer_Mon",
+      "author_key": "summer_Mon",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Am Mittwoch ist der Laden geschlossen.#$e#Behalte das im Hinterkopf, falls du irgendetwas brauchst.",
+        "es": "Los miércoles la tienda cierra.#$e#Recuérdalo por si necesitas algo.",
+        "fr": "Le magasin est fermé le mercredi.#$e#Ne l’oublie pas si tu as besoin de quelque chose.",
+        "hu": "Szerdánként zárva van a bolt.#$e#Ha kell valami ezt tartsd észben!",
+        "it": "Il negozio è chiuso di mercoledì.#$e#Tienilo a mente se ti serve qualcosa.",
+        "ja": "水曜日は 定休日なの。#$e#何か必要になりそうな時は、 そのことを 覚えておいて。",
+        "en": "On Wednesdays the shop is closed.#$e#Keep that in mind if you're going to need anything.",
+        "ko": "수요일은 가게를 닫아.#$e#혹시 급할 때 까먹을 수도 있으니까, 잘 기억해두고.",
+        "pt": "Às quartas, a loja está fechada.#$e#Lembre-se disso se precisar de alguma coisa.",
+        "ru": "По средам наш магазин закрыт.#$e#Имей это в виду, если тебе что-то будет нужно.",
+        "tr": "Çarşambaları dükkan kapalı oluyor.#$e#Bir şey lazım olursa bu aklında bulunsun.",
+        "zh": "周三的时候商店不开门哦。#$e#如果要买东西的话，可一定要牢记啊。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Mon"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:summer_Sat",
+      "author_key": "summer_Sat",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Geht es nur mir so, oder sieht Abigail ein wenig bleich aus?#$e#Vielleicht sorge ich mich einfach zu sehr um sie.",
+        "es": "¿Soy yo o Abigail está un poco pálida?#$e#A lo mejor me preocupo demasiado.",
+        "fr": "Il n’y a que moi qui trouve Abigail un peu pâle ?#$e#Je m’inquiète peut-être trop pour elle.",
+        "hu": "Csak nekem tűnik úgy, hogy Abigail kicsit sápadt?#$e#Talán csak túlságosan aggódom érte.",
+        "it": "Sembra a me, o Abigail è un tantino pallida?#$e#Forse mi preoccupo troppo per lei.",
+        "ja": "アビゲイルの 顔色が 悪いのは 気のせいかしら？#$e#たぶん、 私が 心配しすぎてるだけかも。",
+        "en": "Is it just me, or does Abigail look a little pale?#$e#Maybe I'm just worrying about her too much.",
+        "ko": "나만 그렇게 생각하는 건지 모르겠는데, 애비게일 너무 창백해 보이지 않아?#$e#어쩌면 그냥 내가 너무 걱정하는 걸지도.",
+        "pt": "Sou só eu ou Abigail está um pouco pálida?#$e#Devo estar me preocupando demais com ela.",
+        "ru": "Мне кажется, или Абигейл бледновата?#$e#Может быть, я просто слишком много за нее переживаю.",
+        "tr": "Bana mı öyle geliyor, yoksa Abigail biraz solgun mu duruyor?#$e#Belki de çok endişeleniyorum.",
+        "zh": "阿比盖尔是不是脸色不太好？#$e#也许是我太担心了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:summer_Sat_inlaw_Abigail",
+      "author_key": "summer_Sat_inlaw_Abigail",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Wie geht es Abigail gesundheitlich so? Sie war schon immer so ein blasses Mädchen. Hoffentlich wird ihr das Hofleben ein wenig Farbe auf die Wangen bringen.",
+        "es": "¿Qué tal la salud de Abigail? Siempre ha sido tan pálida... Espero que la vida de la granja le dé algo de color en las mejillas.",
+        "fr": "Est-ce qu’Abigail se porte bien ? Elle a toujours été très pâle. J’espère que la vie à la ferme lui donnera des couleurs.",
+        "hu": "Hogy van Abigail? Mindig is olyan sápadt lány volt. Remélhetőleg a gazdaélet megszínezi kicsit az arcát.",
+        "it": "Com'è la salute di Abigail? È da sempre una ragazza così pallida. Speriamo che la vita nella fattoria le doni un po' di colore alle guance.",
+        "ja": "アビゲイルの 体調はどう？あの子はいつも、 あんな青白い感じなの。牧場生活で、 もう少し 頬に 色がつけば いいんだけど。",
+        "en": "How's Abigail's health? She's always been such a pale girl. Hopefully the farm lifestyle puts a little color in her cheeks.",
+        "ko": "애비게일은 요즘 건강하니? 항상 그렇게 창백했어서. 농장 생활이 좀 안색에 활력을 불어넣었으면 좋겠다.",
+        "pt": "Como está a saúde da Abigail? Ela sempre foi tão pálida. Espero que o estilo de vida da fazenda dê um pouco de cor às bochechas dela.",
+        "ru": "Как там у Абигейл со здоровьем? Она всегда была бледной девочкой. Надеюсь, она станет хоть немного румянее от жизни на ферме.",
+        "tr": "Abigail'in durumu nasıl? Hep böyle solgun bir kızdı. Umarım çiftlik hayatı yanaklarına biraz olsun renk getirir.",
+        "zh": "阿比盖尔的身体怎么样？她脸色一直很苍白。希望农场生活能让她脸颊红润起来。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:summer_Sun",
+      "author_key": "summer_Sun",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Heute werde ich mich einfach entspannen und positiv denken.#$e#Nimmst du dir je einen Tag frei?",
+        "es": "Hoy simplemente me relajaré y pensaré en positivo.#$e#¿Te tomas un día libre alguna vez?",
+        "fr": "Aujourd’hui, je vais simplement me détendre et penser positivement.#$e#As-tu déjà pris un jour de congé ?",
+        "hu": "A mai nap a pihenésé és a pozitív gondolkodásé.#$e#Te szoktál szabadnapot tartani?",
+        "it": "Oggi voglio soltanto rilassarmi e pensare positivo.#$e#Tu non te lo prendi mai un giorno di riposo?",
+        "ja": "今日は リラックスして、 前向きに考えることにするわ。#$e#あなたは 休みを 取ってる？",
+        "en": "Today I'm just going to relax and think positively.#$e#Do you ever take a day off?",
+        "ko": "오늘 난 그냥 쉬면서 긍정적인 생각을 할 거야.#$e#너도 그냥 쉬는 날이 있어?",
+        "pt": "Hoje só vou relaxar e pensar positivamente.#$e#Você nunca tira um dia de folga?",
+        "ru": "Сегодня я буду расслабляться и думать позитивно.#$e#Ты когда-нибудь устраиваешь себе выходные?",
+        "tr": "Bugün rahatlayacak ve olumlu düşüneceğim.#$e#Sen hiç kendine izin vermez misin?",
+        "zh": "今天我要放松一下，各种烦恼放下，过一天积极的生活。#$e#你给自己放过假吗？"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Sun"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:summer_Tue",
+      "author_key": "summer_Tue",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Ich habe in letzter Zeit Wildfrüchte im Wald gesehen.#$e#Sie zu suchen ist eine nette Methode, ein wenig Geld zu verdienen. Oder nutze Dinge, die du findest, als Geschenk oder Essen.",
+        "es": "He visto frutos silvestres en el bosque últimamente.#$e#Recolectar puede ser una manera divertida de ganar dinero. O puedes usar lo que encuentres como regalos o comida.",
+        "fr": "J’ai vu des fruits sauvages dans la forêt.#$e#La cueillette peut être une façon amusante de gagner de l’argent. Ou tu peux utiliser ce que tu trouves comme cadeaux ou comme nourriture.",
+        "hu": "Újabban láttam vad gyümölcsöket az erdőben.#$e#A gyűjtögetés szórakoztató módja lehet a pénzkeresésnek. A talált dolgokat pedig meg is lehet enni, vagy el lehet ajándékozni.",
+        "it": "Ho visto dei frutti selvatici nella foresta, di recente.#$e#La raccolta selvatica può essere un modo divertente per guadagnare qualcosa. O puoi usare ciò che trovi per fare dei doni, o per mangiare.",
+        "ja": "最近、 森で 野生のくだものを よく見かけるの。#$e#植物採取は、 楽しい お金稼ぎに なるわよ。見つけたものを 食べるか 贈り物にするのも いいわね。",
+        "en": "I've been seeing wild fruits in the forest lately.#$e#Foraging can be a fun way to earn some cash. Or you can use what you find as gifts or food.",
+        "ko": "요즘 숲에서 야생 과일이 많이 보이더라.#$e#채집은 재미도 있고 돈도 벌 수 있는 활동이지. 아니면 찾아낸 걸 먹거나 선물할 수도 있고.",
+        "pt": "Eu vi umas frutas silvestres na floresta recentemente.#$e#Coletar recursos pode ser um jeito divertido de ganhar algum dinheiro. Ou você pode usar o que encontrar, como presente ou comida.",
+        "ru": "В последнее время я вижу в лесу много диких плодов.#$e#Собирательство — это увлекательный способ заработать. А еще то, что ты собираешь, можно дарить или есть.",
+        "tr": "Son zamanlarda ormanda yabani meyveler görüyorum.#$e#Toplayıcılık, eğlenceli bir para kazanma uğraşı olabilir. Bulduğun şeyleri yiyecek ya da hediye olarak da değerlendirebilirsin.",
+        "zh": "我最近在森林里见过野果。#$e#采集山货是挣钱的好方法。你也可以把你找到的东西当作礼物送人或者自己留着吃了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:summer_Wed",
+      "author_key": "summer_Wed",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Hallo. Hast du auf deinem Hof alles, was du brauchst?#$e#Falls nicht, können wir dir vielleicht aushelfen.#$e#Wir haben eine Vielfalt an nützlichen Gegenständen.",
+        "es": "Hola. ¿Tienes ya todo lo que necesitas para la granja?#$e#Si no, tal vez podamos ayudarte.#$e#Tenemos toda una gama de objetos útiles.",
+        "fr": "Salut. As-tu tout ce dont tu as besoin à la ferme ?#$e#Sinon, nous pourrions peut-être t’aider.#$e#Nous proposons une variété d’objets utiles.",
+        "hu": "Helló. Megvan minden ami a farmra kell?#$e#Ha nincs, mi segíthetünk.#$e#Rengeteg hasznos dolgot lehet nálunk kapni.",
+        "it": "Ehilà. Hai tutto quello che ti serve per la fattoria?#$e#Se ti manca qualcosa, potremmo darti una mano noi.#$e#Abbiamo tantissime cose utili.",
+        "ja": "こんにちは。牧場に 必要なものは 全部そろってるかしら？#$e#そろってないなら、 力になれるかも知れない。#$e#役に立つ道具を 色々売ってるの。",
+        "en": "Hi there. Do you have everything you need for the farm?#$e#If not, we might be able to help you out.#$e#We carry a variety of useful items.",
+        "ko": "안녕. 농장에 필요한 물품은 다 있니?#$e#아니라면, 우리가 도와줄 수도 있어.#$e#유용한 물품을 다양하게 팔고 있으니까.",
+        "pt": "Olá! Já tem tudo o que precisa para a fazenda?#$e#Se não tiver, talvez possamos ajudar.#$e#Temos vários itens úteis.",
+        "ru": "Привет. У тебя все нужное есть на ферме?#$e#Если нет, то мы можем помочь.#$e#Мы продаем разные полезные вещи.",
+        "tr": "Selam. Çiftlikte her şey tamam mı?#$e#Eksiğin varsa yardımcı olabiliriz.#$e#Elimizde bir sürü kullanışlı mal var.",
+        "zh": "嗨。你农场里的东西都置办齐了吗？#$e#如果还缺什么的话，尽管来找我们帮忙。#$e#我们什么好东西都有。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:summer_Wed6",
+      "author_key": "summer_Wed6",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Je älter man wird, desto schneller scheint die Zeit zu vergehen...$s",
+        "es": "El tiempo parece ir más rápido cuantos más años tienes...$s",
+        "fr": "Le temps semble aller de plus en plus vite avec l’âge...$s",
+        "hu": "Minél öregebb vagy annál gyorsabban telik az idő...$s",
+        "it": "Più ci s'invecchia, più il tempo sembra correre veloce...$s",
+        "ja": "年を取ると、 時間が 速く過ぎるように 感じるわ…$s",
+        "en": "Time seems to go by faster and faster the older you get...$s",
+        "ko": "나이가 들수록 시간이 점점 더 빨리 가는 느낌이야...$s",
+        "pt": "Quanto mais velho você fica, mais rápido o tempo passa...$s",
+        "ru": "Кажется, что чем ты старше, тем быстрее летит время...$s",
+        "tr": "Yaşlandıkça zaman çok daha hızlı geçiyor...$s",
+        "zh": "长大后，你就更容易理解什么叫时光飞逝，日月如梭了……$s"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "summer"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:winter_Fri",
+      "author_key": "winter_Fri",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Obwohl es kalt ist, schaue ich hin und wieder nach den öffentlichen Gartenbeeten.#$e#Ich will nur sicher gehen, dass sie nicht allzu gelitten haben, bevor der Frühling kommt.",
+        "es": "Aunque haga frío, echo un vistazo de vez en cuando a los parterres de los jardines públicos.#$e#Quiero asegurarme de que no estén demasiado dañados antes de que vuelva la primavera.",
+        "fr": "Même s’il fait froid, je vérifie de temps en temps les parterres des jardins publics.#$e#Je veux juste m’assurer qu’ils ne sont pas trop endommagés avant le retour du printemps.",
+        "hu": "A hideg ellenére néha rászoktam nézni a közös virágágyásokra.#$e#Csak biztosra akarok menni, hogy ne menjenek tönkre túlságosan mielőtt beköszönt a tavasz.",
+        "it": "Anche se fa freddo, ogni tanto controllo comunque le aiuole dei giardini pubblici.#$e#Voglio solo accertarmi che non subiscano troppi danni prima che torni la primavera.",
+        "ja": "外がいくら寒くても、 公園の 花壇の 様子は 何度も 見てるわ。#$e# 春が 戻ってくる前に、 花壇が ダメに なっていないか ちゃんと 確かめたいのよ。",
+        "en": "Even though it's cold, I still check on the public garden beds every now and then.#$e#I just want to make sure they aren't damaged too much before spring returns.",
+        "ko": "아직 춥긴 하지만, 종종 공공농원에 가서 화단을 확인하곤 해.#$e#그냥 봄이 오기 전에 너무 손상되진 않나 확인하려고.",
+        "pt": "Mesmo com esse frio, ainda consigo dar uma olhada no canteiro do jardim comunitário de vez em quando.#$e#Só preciso verificar se eles não estão danificados demais antes do retorno da primavera.",
+        "ru": "Пускай сейчас и холодно, я все равно иногда проверяю городские клумбы.#$e#Просто хочу убедиться, что они не слишком повреждены перед весной.",
+        "tr": "Hava soğuk olsa da arada bir çiçek yataklarını kontrol ediyorum.#$e#Bahar gelmeden önce fazla hasar görmediklerinden emin olmak istiyorum.",
+        "zh": "虽然现在天气很冷了，可我还是会时不时地去检查下公共花园。#$e#我这么做只是为了让它们在春天到来之前不会凋零。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Fri"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:winter_Sat",
+      "author_key": "winter_Sat",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Denkst du nicht, dass Abby mit ihrer natürlichen Haarfarbe besser aussehen würde?#$e#Sie hatte früher kastanienbraune Haare.",
+        "es": "¿No crees que Abby estaría más guapa con su color de pelo natural?#$e#Antes tenía el cabello castaño claro.",
+        "fr": "Tu ne crois pas qu’Abby aurait meilleure mine avec sa couleur de cheveux naturelle ?#$e#Elle avait des cheveux châtain clair.",
+        "hu": "Nem gondolod, hogy Abbynek jobban állna a természetes hajszíne?#$e#Világos gesztenyeszínű haja volt.",
+        "it": "Secondo te Abby non starebbe meglio con i capelli al naturale?#$e#Li aveva color nocciola chiaro.",
+        "ja": "アビーの 髪色、 染める前のほうが 良いと思わない？#$e#染める前までは、 ライトブラウンだったのよ。",
+        "en": "Don't you think Abby would look better with her natural hair color?#$e#She used to have light chestnut-colored hair.",
+        "ko": "애비 원래 머리색이 더 잘 어울릴 것 같지 않아?#$e#원래는 연한 적갈색 머리였어.",
+        "pt": "Você não acha que a Bibi ficaria mais bonita com o cabelo na cor natural?#$e#O cabelo dela era castanho claro.",
+        "ru": "Тебе не кажется, что Эбби больше идет ее естественный цвет волос?#$e#Раньше у нее были светло-каштановые волосы.",
+        "tr": "Sence de Abby doğal saç rengiyle daha iyi görünmez mi?#$e#Eskiden saçları kestane rengindeydi.",
+        "zh": "不觉得阿比盖尔发色自然的时候更好看吗？#$e#她的头发之前是浅栗色的。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Sat"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:winter_Tue",
+      "author_key": "winter_Tue",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Der Winter ist brutal, aber du kannst ein paar Wurzeln ausgraben, wenn du Glück hast.#$e#Sie zu suchen ist eine nette Methode, ein wenig Geld zu verdienen. Oder nutze Dinge, die du findest, als Geschenk oder Essen.",
+        "es": "El invierno es duro, pero puedes extraer del suelo algunas raíces si tienes suerte.#$e#Recolectar puede ser una manera divertida de ganar dinero. O puedes usar lo que encuentres como regalos o comida.",
+        "fr": "L’hiver est rude, mais tu peux trouver des racines si tu as de la chance.#$e#La cueillette peut être une façon amusante de gagner de l’argent. Ou tu peux utiliser ce que tu trouves comme cadeaux ou comme nourriture.",
+        "hu": "A tél kemény, de ha szerencsés vagy kiáshatsz pár gyökeret.#$e#A gyűjtögetés szórakoztató módja lehet a pénzkeresésnek. A talált dolgokat pedig meg is lehet enni, vagy el lehet ajándékozni.",
+        "it": "L'inverno è rigido, ma se scavi e hai fortuna, puoi trovare qualche radice.#$e#La raccolta selvatica può essere un modo divertente per guadagnare qualcosa. O puoi usare ciò che trovi per fare dei doni, o per mangiare.",
+        "ja": "冬は厳しい 季節だけど、 運が良かったら 根菜を 掘り出せるわ。#$e#植物採取は、 楽しい お金稼ぎに なるわよ。見つけたものを 食べるか 贈り物にするのも いいわね。",
+        "en": "Winter is harsh, but you can dig up some roots if you're lucky.#$e#Foraging can be a fun way to earn some cash. Or you can use what you find as gifts or food.",
+        "ko": "겨울이 좀 냉혹할 수도 있지만, 운이 좋다면 괜찮은 뿌리를 캘 수도 있어.#$e#채집은 재미도 있고 돈도 벌 수 있는 활동이지. 아니면 찾아낸 걸 먹거나 선물할 수도 있고.",
+        "pt": "O inverno é duro, mas talvez você consiga encontrar algumas raízes, se tiver sorte.#$e#Coletar recursos pode ser um jeito divertido de ganhar algum dinheiro. Ou você pode usar o que encontrar, como presente ou comida.",
+        "ru": "Зимой бывает нелегко, но если тебе повезет, можешь накопать кореньев.#$e#Собирательство — это увлекательный способ заработать. А еще то, что ты собираешь, можно дарить или есть.",
+        "tr": "Kış oldukça sert geçer ama şanslıysan toprağı kazıp kök çıkartabilirsin. #$e#Toplayıcılık, eğlenceli bir para kazanma uğraşı olabilir. Bulduğun şeyleri yiyecek ya da hediye olarak da değerlendirebilirsin.",
+        "zh": "冬天的生活很艰难，不过幸运的话还是可以挖到一些植物的根。#$e#采集山货是挣钱的好方法。你也可以把你找到的东西当作礼物送人或者自己留着吃了。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Tue"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:winter_Wed6",
+      "author_key": "winter_Wed6",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Bist du gespannt auf das neue Jahr?#$e#Ich prophezeie, dass du super-erfolgreich mit deinem Hof wirst.$h",
+        "es": "¿Te emociona el nuevo año?#$e#Presiento que vas a tener muchísimo éxito con tu granja.$h",
+        "fr": "Tu es content qu’une nouvelle année commence ?^Tu es contente qu’une nouvelle année commence ?#$e#Je suis sûre que tu auras beaucoup de succès avec ta ferme.$h",
+        "hu": "Várod már az újévet?#$e#Úgy sejtem nagyon sikeres leszel a farmodon.$h",
+        "it": "Attendi con ansia l'anno nuovo?#$e#Prevedo che otterrai un successone con la tua fattoria.$h",
+        "ja": "新年に 期待しているの？#$e#あなたの 牧場は 大成功すると 思ってるわ。$h",
+        "en": "Are you excited for the new year?#$e#I predict that you'll be super-successful on your farm.$h",
+        "ko": "새해가 기대되니?#$e#네가 농장 일로 대성공할 거라고 난 예상해.$h",
+        "pt": "Está empolgado com o ano novo?#$e#Prevejo que você terá muito sucesso com sua fazenda!$h",
+        "ru": "Ты радуешься наступлению нового года?#$e#Предсказываю тебе огромный успех на ферме.$h",
+        "tr": "Yeni yıl için heyecanlı mısın?#$e#Çiftliğinde bol bol başarı elde edeceğini öngörüyorum.$h",
+        "zh": "是不是迫不及待要迎接新的一年了？#$e#我相信你的农场一定会超成功的。$h"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "winter"
+        ],
+        "day_of_week": [
+          "Wed"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": 6,
+        "relationship_gate": "heart_min_6",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": []
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "high"
+      }
+    },
+    {
+      "canonical_id": "Dialogue/general_dialogue/Caroline:wonGrange",
+      "author_key": "wonGrange",
+      "character": "Caroline",
+      "dialogue_type": "general_dialogue",
+      "texts": {
+        "de": "Pierre versucht, cool zu bleiben, aber er ist wütend, weil er auf dem Jahrmarkt vom Sternentautal gegen dich verloren hat.",
+        "es": "Pierre está intentando hacerse el duro, pero está furioso por haber perdido contra ti en la Feria de Stardew Valley.",
+        "fr": "Pierre essaie de garder la tête froide, mais il est furieux d’avoir perdu contre toi au grand festival de Stardew Valley.",
+        "hu": "Pierre lazának tűnhet, de forrong amiatt, hogy kikapott tőled a Stardew Valley vásáron.",
+        "it": "Pierre cerca di non darlo a vedere, ma è furioso per aver perso contro di te alla Fiera di Stardew Valley.",
+        "ja": "ピエールは平気な顔をしているけど、スターデューバレーまつりであなたに負けたことを悔しがっているの。",
+        "en": "Pierre's trying to play it cool, but he's seething about losing to you at the Stardew Valley Fair.",
+        "ko": "피에르는 아닌척하고 있지만, 농가 전시에서 졌다고 무척 분하게 생각하고 있더라고.",
+        "pt": "O Pierre está tentando disfarçar, mas ele está furioso porque perdeu para você na Feira do Vale do Orvalho.",
+        "ru": "Пьер, конечно, виду не подает, но он крайне раздосадован, что проиграл тебе на Ярмарке Долины Стардью.",
+        "tr": "Pierre soğukkanlı davranmaya çalışıyor ama Yıldızçiyi Vadisi Şöleni'nde sana kaybettiği için köpürüyor.",
+        "zh": "皮埃尔之前在星露谷集市上输给你，他装作不在意，其实还耿耿于怀呢。"
+      },
+      "source": {
+        "source_type": "verified_game_asset",
+        "collection": "Dialogue",
+        "files": {
+          "de": "data\\game_scripts\\Dialogue\\Caroline.de-DE.json",
+          "es": "data\\game_scripts\\Dialogue\\Caroline.es-ES.json",
+          "fr": "data\\game_scripts\\Dialogue\\Caroline.fr-FR.json",
+          "hu": "data\\game_scripts\\Dialogue\\Caroline.hu-HU.json",
+          "it": "data\\game_scripts\\Dialogue\\Caroline.it-IT.json",
+          "ja": "data\\game_scripts\\Dialogue\\Caroline.ja-JP.json",
+          "en": "data\\game_scripts\\Dialogue\\Caroline.json",
+          "ko": "data\\game_scripts\\Dialogue\\Caroline.ko-KR.json",
+          "pt": "data\\game_scripts\\Dialogue\\Caroline.pt-BR.json",
+          "ru": "data\\game_scripts\\Dialogue\\Caroline.ru-RU.json",
+          "tr": "data\\game_scripts\\Dialogue\\Caroline.tr-TR.json",
+          "zh": "data\\game_scripts\\Dialogue\\Caroline.zh-CN.json"
+        }
+      },
+      "script_conditions": {
+        "season": [
+          "any"
+        ],
+        "day_of_week": [
+          "any"
+        ],
+        "day_of_month": [
+          "any"
+        ],
+        "heart_min": null,
+        "relationship_gate": "any",
+        "weather": [
+          "any"
+        ],
+        "special_key_type": "generic_dialogue",
+        "variant_index": null,
+        "parse_warnings": [
+          "Key 'wonGrange' did not match any known pattern."
+        ]
+      },
+      "control": {
+        "required_flags": [],
+        "route": "any"
+      },
+      "quality": {
+        "source_confidence": "high",
+        "script_parse_confidence": "medium"
+      }
+    }
+  ]
+}

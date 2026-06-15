@@ -1,0 +1,408 @@
+version: 1
+
+route_states:
+  pre_choice:
+    description: "尚未购买 Joja 会员，也尚未完成社区中心。"
+
+  community_center_completed:
+    description: "社区中心已完成，JojaMart 已关闭或变为废弃状态。"
+
+  joja_active:
+    description: "已购买 Joja 会员，社区中心已变成 Joja Warehouse，Joja 发展项目进行中。"
+
+  joja_completed:
+    description: "Joja Community Development Form 已完成。"
+
+
+route_groups:
+  any:
+    includes:
+      - pre_choice
+      - community_center_completed
+      - joja_active
+      - joja_completed
+    description: "不限制路线。"
+
+  pre_choice:
+    includes:
+      - pre_choice
+    description: "仅限路线尚未确定。"
+
+  non_joja:
+    includes:
+      - pre_choice
+      - community_center_completed
+    description: "未进入 Joja 线时可用。"
+
+  community_center:
+    includes:
+      - community_center_completed
+    description: "仅限社区中心完成后的献祭线。"
+
+  joja:
+    includes:
+      - joja_active
+      - joja_completed
+    description: "仅限 Joja 线。"
+
+  post_joja:
+    includes:
+      - joja_completed
+    description: "仅限 Joja 全部发展项目完成后。"
+
+
+flags:
+
+  # =========================
+  # 1. Community Center / Joja
+  # =========================
+
+  world.community_center.opened:
+    category: world
+    description: "社区中心已经开放，玩家至少触发过刘易斯带玩家进入社区中心的剧情。"
+    use_when: "对话提到社区中心内部、祝尼魔、奇怪卷轴、献祭板等。"
+
+  world.community_center.forest_magic_unlocked:
+    category: world
+    description: "玩家已经获得 Forest Magic，可以读懂祝尼魔文字。"
+    use_when: "对话提到献祭包、祝尼魔请求、社区中心收集等。"
+
+  world.community_center.completed:
+    category: world
+    description: "社区中心已经完成。"
+    use_when: "对话提到社区中心被修复、镇上恢复活力、JojaMart 倒闭等。"
+
+  world.joja.membership_purchased:
+    category: world
+    description: "玩家已经购买 Joja 会员。"
+    use_when: "对话提到玩家成为 Joja 会员。"
+
+  world.joja.warehouse_created:
+    category: world
+    description: "社区中心已经变成 Joja Warehouse。"
+    use_when: "对话提到 Joja 仓库、社区中心被改造成仓库。"
+
+  world.joja.developments_completed:
+    category: world
+    description: "Joja 社区发展项目全部完成。"
+    use_when: "对话提到 Joja 完成城镇开发、Morris 的发展计划完成等。"
+
+
+  # =========================
+  # 2. Town repair / unlocks
+  # =========================
+
+  world.bus.repaired:
+    category: world
+    description: "公交车已经修好。"
+    use_when: "对话提到公交车恢复运营。"
+
+  world.desert.accessible:
+    category: world
+    description: "玩家可以前往 Calico Desert。"
+    derived_from:
+      - world.bus.repaired
+    use_when: "对话提到沙漠、Sandy、Oasis、Desert Trader、沙漠节日等。"
+
+  world.skull_cavern.accessible:
+    category: world
+    description: "玩家可以进入 Skull Cavern。"
+    recommended_required:
+      - world.desert.accessible
+      - item.skull_key.obtained
+    use_when: "对话提到 Skull Cavern、骷髅洞穴、沙漠深层矿洞等。"
+
+  world.casino.accessible:
+    category: world
+    description: "玩家可以进入 Casino。"
+    recommended_required:
+      - world.desert.accessible
+      - quest.mysterious_qi.completed
+    use_when: "对话提到 Casino、齐先生赌场、Oasis 后门等。"
+
+  world.minecart.repaired:
+    category: world
+    description: "矿车系统已经修好。"
+    use_when: "对话提到矿车、快速移动、城镇交通恢复等。"
+
+  world.greenhouse.repaired:
+    category: world
+    description: "温室已经修好。"
+    use_when: "对话提到温室种植、反季节作物等。"
+
+  world.quarry_bridge.repaired:
+    category: world
+    description: "通往采石场的桥已经修好。"
+    use_when: "对话提到采石场、桥修复等。"
+
+  world.panning.unlocked:
+    category: world
+    description: "淘盘系统已经解锁。"
+    use_when: "对话提到淘金、河边闪光点、panning。"
+
+
+  # =========================
+  # 3. Movie Theater
+  # =========================
+
+  world.movie_theater.unlocked:
+    category: world
+    description: "电影院已经解锁。"
+    use_when: "对话提到看电影、电影票、电影院、邀请 NPC 看电影。"
+
+  world.movie_theater.from_abandoned_jojamart:
+    category: world
+    description: "献祭线中，废弃 JojaMart 变成电影院。"
+    recommended_required:
+      - world.movie_theater.unlocked
+      - world.community_center.completed
+    use_when: "对话明确提到废弃 JojaMart、Missing Bundle、祝尼魔建电影院。"
+
+  world.movie_theater.from_joja_warehouse:
+    category: world
+    description: "Joja 线中，Joja Warehouse 变成电影院。"
+    recommended_required:
+      - world.movie_theater.unlocked
+      - world.joja.developments_completed
+    use_when: "对话明确提到 Joja 仓库被改成电影院。"
+
+
+  # =========================
+  # 4. Ginger Island
+  # =========================
+
+  world.ginger_island.accessible:
+    category: world
+    description: "玩家已经可以前往 Ginger Island。"
+    use_when: "对话提到姜岛、Willy 的船、Fern Islands、岛屿旅行等。"
+
+  world.ginger_island.visited:
+    category: world
+    description: "玩家已经实际去过 Ginger Island。"
+    use_when: "对话表现为角色知道玩家去过岛，或者玩家谈论岛上经历。"
+
+  world.ginger_island.north_unlocked:
+    category: world
+    description: "姜岛北部区域已经开放。"
+    use_when: "对话提到火山、挖掘场、岛屿北部等。"
+
+  world.ginger_island.west_unlocked:
+    category: world
+    description: "姜岛西部区域已经开放。"
+    use_when: "对话提到岛屿农场、Birdie、岛屿西部等。"
+
+  world.ginger_island.farmhouse_repaired:
+    category: world
+    description: "姜岛农舍已经修复。"
+    use_when: "对话提到岛屿农场、在姜岛过夜、岛屿农舍。"
+
+  world.ginger_island.beach_resort.opened:
+    category: world
+    description: "姜岛 Beach Resort 已经开放。"
+    recommended_required:
+      - world.ginger_island.farmhouse_repaired
+    use_when: "对话提到村民去姜岛度假、泳装、Gus 在岛上开酒吧、岛屿度假区饮料。"
+
+  world.ginger_island.qi_room_unlocked:
+    category: world
+    description: "齐先生的核桃房已经解锁。"
+    use_when: "对话提到 Qi's Walnut Room、齐先生后期挑战、完美度相关内容。"
+
+
+  # =========================
+  # 5. Relationship
+  # =========================
+
+  relationship.unmarried:
+    category: relationship
+    description: "玩家当前未结婚，也没有 Krobus 室友。"
+    use_when: "只适合单身状态的暧昧、约会、普通朋友对话。"
+
+  relationship.dating.Abigail:
+    category: relationship
+    description: "玩家正在与 Abigail 约会（10 心事件后确认关系）。"
+    use_when: "Abigail 约会阶段对话，或群体 10 心事件相关对话。"
+
+  relationship.dating.Sam:
+    category: relationship
+    description: "玩家正在与 Sam 约会。"
+    use_when: "其他 NPC 评论玩家和 Sam 的约会关系。"
+
+  relationship.dating.Sebastian:
+    category: relationship
+    description: "玩家正在与 Sebastian 约会。"
+    use_when: "其他 NPC 评论玩家和 Sebastian 的约会关系。"
+
+  relationship.engaged_to.Abigail:
+    category: relationship
+    description: "玩家已向 Abigail 求婚（送出美人鱼吊坠），婚礼尚未举行。"
+    use_when: "Abigail 收到吊坠后的反应、订婚期对话。"
+
+  relationship.engaged_to.Sam:
+    category: relationship
+    description: "玩家已向 Sam 求婚。"
+    use_when: "其他 NPC 评论玩家和 Sam 的订婚。"
+
+  relationship.engaged_to.Sebastian:
+    category: relationship
+    description: "玩家已向 Sebastian 求婚。"
+    use_when: "其他 NPC 评论玩家和 Sebastian 的订婚。"
+
+  relationship.married_to.Abigail:
+    category: relationship
+    description: "玩家与 Abigail 结婚。"
+    use_when: "Abigail 配偶对话，或其他 NPC 评论玩家和 Abigail 的婚姻。"
+
+  relationship.married_to.Sam:
+    category: relationship
+    description: "玩家与 Sam 结婚。"
+    use_when: "其他 NPC 评论玩家和 Sam 的婚姻。"
+
+  relationship.married_to.Sebastian:
+    category: relationship
+    description: "玩家与 Sebastian 结婚。"
+    use_when: "Sebastian 配偶对话，或其他 NPC 评论玩家和 Sebastian 的婚姻。"
+
+  relationship.married_to.Leah:
+    category: relationship
+    description: "玩家与 Leah 结婚。"
+    use_when: "Leah 配偶对话，或其他 NPC 评论玩家和 Leah 的婚姻。"
+
+  relationship.married_to.Haley:
+    category: relationship
+    description: "玩家与 Haley 结婚。"
+    use_when: "其他 NPC 评论玩家和 Haley 的婚姻。"
+
+  relationship.married_to.Penny:
+    category: relationship
+    description: "玩家与 Penny 结婚。"
+    use_when: "其他 NPC 评论玩家和 Penny 的婚姻。"
+
+  relationship.married_to.Emily:
+    category: relationship
+    description: "玩家与 Emily 结婚。"
+    use_when: "其他 NPC 评论玩家和 Emily 的婚姻。"
+
+  relationship.married_to.Alex:
+    category: relationship
+    description: "玩家与 Alex 结婚。"
+    use_when: "其他 NPC 评论玩家和 Alex 的婚姻。"
+
+  relationship.married_to.Elliott:
+    category: relationship
+    description: "玩家与 Elliott 结婚。"
+    use_when: "其他 NPC 评论玩家和 Elliott 的婚姻。"
+
+  relationship.married_to.Harvey:
+    category: relationship
+    description: "玩家与 Harvey 结婚。"
+    use_when: "其他 NPC 评论玩家和 Harvey 的婚姻。"
+
+  relationship.married_to.Shane:
+    category: relationship
+    description: "玩家与 Shane 结婚。"
+    use_when: "其他 NPC 评论玩家和 Shane 的婚姻。"
+
+  relationship.married_to.Maru:
+    category: relationship
+    description: "玩家与 Maru 结婚。"
+    use_when: "其他 NPC 评论玩家和 Maru 的婚姻。"
+
+  relationship.married_to.Pam:
+    category: relationship
+    description: "玩家与 Pam 结婚（模组）。"
+    use_when: "模组场景。"
+
+  relationship.roommate.Krobus:
+    category: relationship
+    description: "Krobus 成为玩家室友。"
+    use_when: "Krobus 室友状态相关对话。"
+
+  relationship.divorced_from.Abigail:
+    category: relationship
+    description: "玩家曾与 Abigail 离婚。"
+    use_when: "离婚后的冷淡、尴尬、负面关系对话。"
+
+  relationship.divorced_from.Sam:
+    category: relationship
+    description: "玩家曾与 Sam 离婚。"
+    use_when: "离婚后相关对话。"
+
+  relationship.divorced_from.Sebastian:
+    category: relationship
+    description: "玩家曾与 Sebastian 离婚。"
+    use_when: "离婚后相关对话。"
+
+  family.has_child:
+    category: family
+    description: "玩家和配偶已经有了孩子。"
+    use_when: "对话提到孩子、育儿、当父母等。"
+
+  relationship.broken_up_with.Abigail:
+    category: relationship
+    description: "玩家曾与 Abigail 分手。"
+    use_when: "分手后的冷淡、尴尬、负面关系对话。"
+
+  relationship.engaged_to.Abigail:
+    category: relationship
+    description: "玩家与 Abigail 订婚。"
+    use_when: "Abigail 订婚对话，或其他 NPC 评论玩家和 Abigail 的订婚。"
+
+  family.has_child_with.Abigail:
+    category: family
+    description: "玩家与 Abigail 有孩子。"
+    use_when: "对话提到孩子、孩子相关对话。"
+    
+  # =========================
+  # 6. NPC / quest / event
+  # =========================
+
+  npc.leo.met:
+    category: npc
+    description: "玩家已经见过 Leo。"
+    use_when: "对话提到 Leo。"
+
+  npc.sandy.met:
+    category: npc
+    description: "玩家已经见过 Sandy。"
+    use_when: "对话提到 Sandy，并且不是单纯泛指沙漠商店。"
+
+  npc.kent.returned:
+    category: npc
+    description: "Kent 已经回到小镇。"
+    use_when: "对话提到 Kent 或 Sam/Jodi 家庭变化。"
+
+  quest.mysterious_qi.completed:
+    category: quest
+    description: "The Mysterious Qi 任务完成。"
+    use_when: "对话提到 Casino、Qi 的秘密任务。"
+
+  item.skull_key.obtained:
+    category: item
+    description: "玩家已经获得 Skull Key。"
+    use_when: "对话提到骷髅洞穴入口、Skull Key。"
+
+  event.abigail.heart_8.seen:
+    category: event
+    description: "Abigail 8 心事件已经看过。"
+    use_when: "对话承接 Abigail 特定心事件。"
+
+  event.abigail.heart_10.seen:
+    category: event
+    description: "Abigail 10 心事件已经看过（确认约会关系）。"
+    use_when: "对话承接 Abigail 10 心事件。"
+
+  event.sam.heart_10.seen:
+    category: event
+    description: "Sam 10 心事件已经看过。"
+    use_when: "对话承接 Sam 10 心事件。"
+
+  event.sebastian.heart_10.seen:
+    category: event
+    description: "Sebastian 10 心事件已经看过。"
+    use_when: "对话承接 Sebastian 特定心事件。"
+
+  event.group_10heart.abigail.seen:
+    category: event
+    description: "Abigail 参与的群体 10 心事件已经看过（约会中被撞见）。"
+    use_when: "对话承接群体 10 心事件，如分手、原谅等。"
