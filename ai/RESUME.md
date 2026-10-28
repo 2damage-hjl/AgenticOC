@@ -88,7 +88,7 @@ Recall: 51% → 69% → — → — → 80% → —
 
 ### 打包与发布流程
 
-- **C# SMAPI Mod + Python AI Server 双端集成**：.NET 6 构建 DLL + PyInstaller 打包独立 exe，一键 `Build.bat` 生成免 Python 环境的分发包
-- **双模式启动**：`Start_AgenticOC.bat` 自动检测 standalone exe / Python dev 模式，兼容开发与发布场景
+- **C# SMAPI Mod + Python AI Server 双端集成**：.NET 6 构建 DLL，Python 源码部署（依赖锁定于 `requirements.txt`），不再使用 PyInstaller 打包
+- **源码部署**：仓库即完整 mod 目录，放入 `Mods` 后运行 `python server.py` 启动服务
 - **OC Builder Web UI**：内置角色创建器（`/oc`），用户通过表单配置 persona / speech_style / relationship_map 等维度，自动生成 NPC 配置 JSON
-- **Nexus Mods 发布包**：自动整理 `manifest.json` + DLL + AI Server + OC Builder 的完整发布目录结构
+- **发布包**：`manifest.json` + DLL + `ai/` 源码 + OC Builder 构成完整目录结构

@@ -40,7 +40,6 @@
    Mods\[CP] Damon\
    ├── AgenticOC.dll
    ├── manifest.json
-   ├── Start_AgenticOC.bat
    └── ai\
        ├── server.py
        ├── config.json
@@ -73,13 +72,11 @@
    python server.py
    ```
 
-   服务地址 `http://localhost:8000`，OC 构建器 `http://localhost:8000/oc`。保持窗口开启；也可双击根目录 `Start_AgenticOC.bat`（会自动选择装好依赖的 Python）。
+   服务地址 `http://localhost:8000`，OC 构建器 `http://localhost:8000/oc`。保持窗口开启。
 
 6. 通过 SMAPI 启动游戏。
 
 首次运行需下载 BGE-M3 模型（1–2 分钟），之后启动即秒开。
-
-> 仓库中的 `Build.bat` / `AgenticOC.spec`（PyInstaller 打包）仍然保留，但当前不推荐使用。
 
 ---
 
@@ -191,7 +188,7 @@ AgenticOC 内置了一个 **网页端 OC 角色构建器**，让非技术用户�
 
 ## 使用方式
 
-1. 启动 AgenticOC 服务器（`python server.py`，或双击 `Start_AgenticOC.bat`）
+1. 启动 AgenticOC 服务器（`python server.py`）
 2. 浏览器打开 `http://localhost:8000/oc`
 3. 在网页表单中填写 OC 信息：
    - **基础人设**：名称、核心性格、背景故事、说话风格
