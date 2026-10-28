@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net6.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>latest</LangVersion>
+		<AssemblyName>AgenticOC</AssemblyName>
+		<EnableHarmony>true</EnableHarmony>
+		<GamePath>D:\SteamLibrary\steamapps\common\Stardew Valley</GamePath>
+	</PropertyGroup>
+
+	<!-- Exclude ai/ directory from C# compilation (it contains duplicate source copies) -->
+	<ItemGroup>
+		<Compile Remove="ai\**" />
+		<None Remove="ai\**" />
+		<EmbeddedResource Remove="ai\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+		<PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.1.0" />
+	</ItemGroup>
+
+</Project>

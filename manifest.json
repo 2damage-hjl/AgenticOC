@@ -1,0 +1,16 @@
+{
+  "Name": "AgenticOC",
+  "Author": "jlhuang",
+  "Version": "1.0.0",
+  "Description": "AI-powered NPC conversations for Stardew Valley. Configure your API key in ai/config.json before use.",
+  "UniqueID": "jlhuang.AgenticOC",
+  "EntryDll": "AgenticOC.dll",
+  "MinimumApiVersion": "3.18.0",
+  "UpdateKeys": [],
+  "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "IsRequired": true
+    }
+  ]
+}

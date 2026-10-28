@@ -1,4 +1,3 @@
-from langgraph.graph import StateGraph, END
 import os
 from typing import List, TypedDict, Literal, Optional, Dict
 from memory.STMemory import ChatMemory
@@ -33,8 +32,6 @@ class DialogueState(TypedDict):
     # ===== Graph 内部状态 =====
     error: Optional[str] 
 
-
-graph = StateGraph(DialogueState)
 
 from memory.embedded import MemoryStore
 from memory.LTMemory import ContextManager,MemoryRetriever, MemoryRanker
@@ -291,7 +288,7 @@ def handle_cancel(state: DialogueState):
     return state
 
 def handle_end_of_day(state: DialogueState) -> Dict:
-    """END_DAY 长期记忆结转：中期记忆 → 长期事件 + 主观偏好 belief + 关系 impression + 轻量 decay"""
+    """END_DAY 长期记忆结转：中期记忆 → 长期事件 + 关系 impression + 轻量 decay"""
     npc_id = state.get("npc_id", "Damon")
     current_day = state.get("time_num", 1)
 
@@ -299,7 +296,6 @@ def handle_end_of_day(state: DialogueState) -> Dict:
     from memory.end_day_pipeline import (
         filter_episodic_events,
         save_episodic_events,
-        update_daily_preference_beliefs,
         update_daily_relationship_impression,
         apply_daily_memory_decay,
     )
@@ -324,28 +320,39 @@ def handle_end_of_day(state: DialogueState) -> Dict:
         store=store,
     )
 
-    # 5. 根据今日事件更新 preference_belief
-    update_daily_preference_beliefs(
-        saved_events=saved_events,
-        state=state,
-        store=store,
-    )
+    # 4.5 写入 preference_belief（candidate_beliefs 之前被 filter_episodic_events 丢弃，这里补上）
+    from memory.belief_update import update_preference_belief
+    belief_candidates = [c for c in candidates if c.get("memory_type") == "preference_belief"]
+    for blf in belief_candidates:
+        topic = blf.get("topic", "").strip()
+        if not topic:
+            continue
+        update_preference_belief(
+            npc_id=blf.get("npc_id", npc_id),
+            target="player",
+            topic=topic,
+            new_polarity=blf.get("polarity", "uncertain"),
+            evidence_event_id=blf.get("memory_id", ""),
+            current_day=current_day,
+            store=store,
+            new_confidence=blf.get("confidence", 0.5),
+        )
 
-    # 6. 根据今日事件更新 relationship_impression
+    # 5. 根据今日事件更新 relationship_impression
     update_daily_relationship_impression(
         saved_events=saved_events,
         state=state,
         store=store,
     )
 
-    # 7. 对旧 episodic_event 做轻量 decay
+    # 6. 对旧 episodic_event 做轻量 decay
     apply_daily_memory_decay(
         npc_id=npc_id,
         current_day=current_day,
         store=store,
     )
 
-    # 8. 清空中期记忆
+    # 7. 清空中期记忆
     MidTermMemory.clear(npc_id)
 
     print(
@@ -504,8 +511,6 @@ def route_by_command(state):
         return "handle_cancel"
     elif cmd == "END_DAY":
         return "handle_end_of_day"
-    elif cmd == "WEEKLY_REFLECTION":
-        return "handle_weekly_reflection"
     elif cmd == "SEASON_END":
         return "handle_season_end"
     else:

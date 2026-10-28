@@ -272,7 +272,7 @@ def search_dialogues(
 
     search_builder = table.search(query_vector).limit(_search_k)
     if character is not None:
-        search_builder = search_builder.where(f'character = "{character}"', prefilter=True)
+        search_builder = search_builder.where(f"character = '{character}'", prefilter=True)
 
     raw_results = search_builder.to_list()
 

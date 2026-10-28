@@ -58,35 +58,44 @@ class MemoryRetriever:
         # 动态从 store 获取，利用 store 的懒加载特性
         return self.store.embedding_function.embed_query
 
-    # 需要做 tag boost 的层及其关键词来源
-    _BOOST_LAYERS = {"episodic_event", "preference_belief"}
+    # 需要做 sparse hybrid 的层
+    _BOOST_LAYERS = {"episodic_event", "persona_seed", "relationship_impression"}
+
+    @property
+    def _sparse_model(self):
+        """懒加载 FlagEmbedding 模型（共享 embedded.py 的 singleton）。"""
+        from memory.embedded import _get_embed_model
+        return _get_embed_model()
 
     @staticmethod
-    def _extract_keywords(text: str) -> set:
-        """从文本中提取可用于 tag 匹配的关键词。"""
-        keywords = set()
-        # 常见中文关键词映射
-        kw_map = {
-            "咖啡": "coffee", "茶": "tea", "啤酒": "beer", "酒": "beer",
-            "矿": "mining", "矿洞": "mines", "冒险": "adventure",
-            "农场": "farm", "种": "farm_work", "田": "farm_work",
-            "鸡": "chickens", "礼物": "gift", "送": "gift",
-            "雨": "rainy", "下雨": "rainy", "冬": "winter", "雪": "winter",
-            "夏": "summer", "春": "spring", "秋": "fall",
-            "海": "beach", "滩": "beach", "山": "mountain",
-            "书": "library", "图书馆": "library",
-            "烟": "smoking", "摩托": "motorcycle",
-            "孩子": "children", "学生": "teaching", "教": "teaching",
-            "妈妈": "family", "父母": "family", "家": "family",
-            "梦": "dream", "噩梦": "nightmare",
-            "工作": "work", "项目": "work", "建筑师": "work",
-            "城市": "city_life", "祖祖城": "city_life",
-            "第一次": "first_meeting", "认识": "first_meeting", "见面": "first_meeting",
-        }
-        for cn_word, en_tag in kw_map.items():
-            if cn_word in text:
-                keywords.add(en_tag)
-        return keywords
+    def _sparse_similarity(query_sparse: dict, doc_sparse_json: str) -> float:
+        """计算 query sparse 与文档 sparse 的相似度（weighted dot product）。
+
+        query_sparse: {"token_str": weight, ...}
+        doc_sparse_json: JSON string of {token_str: weight}
+
+        返回值已归一化到 [0,1]，由 query 自身范数归一化。
+        """
+        if not query_sparse or not doc_sparse_json:
+            return 0.0
+        try:
+            import json
+            doc_sparse = json.loads(doc_sparse_json)
+        except Exception:
+            return 0.0
+
+        # query 范数（用于归一化）
+        q_norm = sum(w * w for w in query_sparse.values()) ** 0.5
+        if q_norm == 0:
+            return 0.0
+
+        # 交集加权求和 / query 范数 → 归一化到 [0, 1]
+        score = 0.0
+        for token_str, q_weight in query_sparse.items():
+            d_weight = doc_sparse.get(token_str, 0.0)
+            if d_weight > 0:
+                score += q_weight * d_weight
+        return score / q_norm
 
     def retrieve(
         self,
@@ -94,74 +103,54 @@ class MemoryRetriever:
         npc_id: str,
         persona_k: int,
         episodic_k: int,
-        belief_k: int,
         relation_k: int,
-        arc_k: int,
     ) -> Dict[str,List[Dict]]:
 
-        # 1. 生成 Query 向量
-        query_emb = self.embed_fn(query_text)
+        # 1. 生成 Query 向量（dense + sparse）
+        from memory.embedded import encode_dense_sparse
+        query_emb, query_sparse = encode_dense_sparse(query_text)
 
-        # 2. 提取关键词（用于 tag boost）
-        query_keywords = self._extract_keywords(query_text)
+        # 2. 分层检索（sparse hybrid 覆盖全部三层）
+        def _fetch(layer, k):
+            if layer in self._BOOST_LAYERS:
+                return self._hybrid_retrieve(query_emb, npc_id, layer, k, query_sparse)
+            return self._retrieve_by_layer(query_emb, npc_id, layer, k)
 
-        # 3. 分层检索：取 top_k * 2 候选，给 tag 匹配的加分后截断
-        HYBRID_FACTOR = 2  # 多取倍数
-        persona = self._retrieve_by_layer(query_emb, npc_id, "persona_seed", persona_k)
-        episodic = self._hybrid_retrieve(query_emb, npc_id, "episodic_event",
-                                         episodic_k, query_keywords)
-        beliefs = self._hybrid_retrieve(query_emb, npc_id, "preference_belief",
-                                        belief_k, query_keywords)
-        relations = self._retrieve_by_layer(query_emb, npc_id, "relationship_impression", relation_k)
-        arcs = self._retrieve_by_layer(query_emb, npc_id, "narrative_arc", arc_k)
+        persona = _fetch("persona_seed", persona_k)
+        episodic = _fetch("episodic_event", episodic_k)
+        relations = _fetch("relationship_impression", relation_k)
 
         print(f"[Retriever] persona: {len(persona)}, episodic: {len(episodic)}, "
-              f"beliefs: {len(beliefs)}, relations: {len(relations)}, arcs: {len(arcs)}")
-        if query_keywords:
-            print(f"[Retriever] Query keywords: {query_keywords}")
+              f"relations: {len(relations)}")
         return {
             "persona_seed": persona,
             "episodic_event": episodic,
-            "preference_belief": beliefs,
             "relationship_impression": relations,
-            "narrative_arc": arcs,
         }
 
-    def _hybrid_retrieve(self, query_emb, npc_id, layer, top_k, keywords):
-        """混合检索：向量召回 + tag 关键词加分。
+    def _hybrid_retrieve(self, query_emb, npc_id, layer, top_k,
+                         query_sparse: dict | None = None):
+        """混合检索：dense 向量召回 + BGE-M3 sparse 词汇匹配重排序。
 
-        取 top_k * HYBRID_FACTOR 候选，对 topic_tags 匹配关键词的加 similarity 分，
-        重新排序后截断到 top_k。
+        取 top_k × 2 候选，对每条候选计算 sparse 相似度，与 dense 分数加权合并。
         """
-        fetch_k = top_k * self.__class__._BOOST_FACTOR if hasattr(self.__class__, '_BOOST_FACTOR') else top_k * 2
+        fetch_k = top_k * 2
         candidates = self._retrieve_by_layer(query_emb, npc_id, layer, fetch_k)
 
-        if not keywords or not candidates:
+        if not query_sparse or not candidates:
             return candidates[:top_k]
 
-        TAG_BOOST = 0.15  # similarity 加分幅度
+        # dense + sparse 加权权重
+        ALPHA_DENSE = 0.7
+
         for mem in candidates:
             meta = mem.get("metadata", {})
-            topic_tags = meta.get("topic_tags", [])
-            if isinstance(topic_tags, str):
-                try:
-                    import json
-                    topic_tags = json.loads(topic_tags)
-                except Exception:
-                    topic_tags = []
-            # 也检查 topic_tags_json
-            tags_json = meta.get("topic_tags_json", "")
-            if tags_json:
-                try:
-                    import json
-                    topic_tags = topic_tags + json.loads(tags_json)
-                except Exception:
-                    pass
+            doc_sparse_json = meta.get("sparse_json", "")
+            sparse_score = self._sparse_similarity(query_sparse, doc_sparse_json)
+            dense_score = mem.get("similarity", 0.0)
+            mem["similarity"] = ALPHA_DENSE * dense_score + (1 - ALPHA_DENSE) * sparse_score
+            mem["sparse_score"] = round(sparse_score, 4)
 
-            if any(kw in topic_tags for kw in keywords):
-                mem["similarity"] = min(1.0, mem["similarity"] + TAG_BOOST)
-
-        # 按 similarity 重排
         candidates.sort(key=lambda m: m["similarity"], reverse=True)
         return candidates[:top_k]
 
@@ -231,9 +220,7 @@ class MemoryRanker:
         self.layer_weights = layer_weights or {
             "persona_seed": 1.2,
             "episodic_event": 0.6,
-            "preference_belief": 1.0,
             "relationship_impression": 1.1,
-            "narrative_arc": 0.8,
         }
 
     # 场景标签匹配加分权重
@@ -243,10 +230,13 @@ class MemoryRanker:
               scene_tags: set = None) -> float:
         meta = memory["metadata"]
 
-        # 0. status 过滤：dormant/archived 不参与打分
+        # 0. status 过滤
         status = meta.get("status", "active")
-        if status in ("dormant", "archived"):
-            return -1.0
+        if status == "archived":
+            return -1.0  # 彻底退役，等待物理删除
+
+        # dormant 可被检索但重罚，只有高度相关且无 active 覆盖时才浮上来
+        dormant_penalty = 0.3 if status == "dormant" else 1.0
 
         # 1. 基础分：相似度 + 重要性
         sim = memory.get("similarity", 0.0)
@@ -297,7 +287,7 @@ class MemoryRanker:
             tag_bonus
         )
 
-        return raw_score * layer_w * consolidated_penalty
+        return raw_score * layer_w * consolidated_penalty * dormant_penalty
 
     def rank(self, memories: List[Dict], now_time: float, current_loc: str = "Unknown",
              top_k: int = 5, scene_tags: set = None) -> List[Dict]:
@@ -397,23 +387,37 @@ class ContextManager:
             npc_id=state.get("npc_id", "Damon"),
             persona_k=3,
             episodic_k=5,
-            belief_k=3,
             relation_k=1,
-            arc_k=2,
         )
 
         final_persona = self.ranker.rank(raw_results["persona_seed"], current_time, current_loc, top_k=3, scene_tags=scene_tags)
         final_episodic = self.ranker.rank(raw_results["episodic_event"], current_time, current_loc, top_k=5, scene_tags=scene_tags)
-        final_beliefs = self.ranker.rank(raw_results["preference_belief"], current_time, current_loc, top_k=3, scene_tags=scene_tags)
         final_relations = self.ranker.rank(raw_results["relationship_impression"], current_time, current_loc, top_k=1, scene_tags=scene_tags)
-        final_arcs = self.ranker.rank(raw_results["narrative_arc"], current_time, current_loc, top_k=2, scene_tags=scene_tags)
+
+        # 更新 last_access
+        for mem in final_episodic + final_relations:
+            meta = mem.get("metadata", {})
+            update_fields = {"last_access": current_time}
+            if meta.get("status") == "dormant":
+                update_fields["status"] = "active"
+            try:
+                self.retriever.store.update_memory(
+                    mem["memory_id"],
+                    metadata=update_fields,
+                )
+            except Exception:
+                pass  # 静默失败，不影响主流程
+
+        episodic_text = self._format_list(final_episodic, "episodic_event", current_time)
+        relation_text = self._format_list(final_relations, "relationship_impression", current_time)
+
+        event_text = episodic_text if episodic_text else "（无相关记录）"
+        summary_text = relation_text if relation_text else "（无相关记录）"
 
         formatted = {
             "persona_text": self._format_list(final_persona, "persona_seed", current_time),
-            "episodic_text": self._format_list(final_episodic, "episodic_event", current_time),
-            "belief_text": self._format_list(final_beliefs, "preference_belief", current_time),
-            "relation_text": self._format_list(final_relations, "relationship_impression", current_time),
-            "arc_text": self._format_list(final_arcs, "narrative_arc", current_time),
+            "event_text": event_text,
+            "summary_text": summary_text,
         }
 
         if return_raw:
@@ -474,17 +478,10 @@ class ContextManager:
                 raw_time = meta.get("time")
                 time_str = self._get_relative_time(raw_time, current_time)
                 lines.append(f"- [{time_str} @ {loc}] {content}")
-            elif layer == "preference_belief":
-                lines.append(f"- [信念] {content}")
             elif layer == "relationship_impression":
                 meta = m["metadata"]
                 target = meta.get("target", "")
                 prefix = f"[→{target}] " if target else ""
-                lines.append(f"- {prefix}{content}")
-            elif layer == "narrative_arc":
-                meta = m["metadata"]
-                week_range = meta.get("week_range", "")
-                prefix = f"[{week_range}] " if week_range else ""
                 lines.append(f"- {prefix}{content}")
             else:
                 lines.append(f"- {content}")

@@ -109,11 +109,22 @@ hiddenimports = [
     'httpcore',
     'httpx',
     'sniffio',
+    'jsonpatch',
+    'jsonpointer',
+    'scipy',
+    'scipy.sparse',
+    'scipy.spatial',
+    'scipy.spatial.distance',
+    'sklearn',
+    'sklearn.utils',
+    'sklearn.metrics',
+    'sklearn.metrics.pairwise',
+    'joblib',
 ]
 
 # 自动收集子模块
 for pkg in ['langchain', 'langchain_core', 'langchain_openai', 'langchain_chroma',
-            'chromadb', 'sentence_transformers', 'pydantic']:
+            'chromadb', 'sentence_transformers', 'pydantic', 'sklearn', 'scipy']:
     try:
         hiddenimports += collect_submodules(pkg)
     except Exception:
@@ -128,8 +139,8 @@ a = Analysis(
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
-    excludes=['tkinter', 'matplotlib', 'scipy', 'pandas', 'PIL', 'IPython',
-              'notebook', 'pytest', 'setuptools', 'pip'],
+    excludes=['tkinter', 'matplotlib', 'pandas', 'PIL', 'IPython',
+              'notebook', 'pytest', 'setuptools', 'pip', 'langgraph'],
     noarchive=False,
     cipher=block_cipher,
 )

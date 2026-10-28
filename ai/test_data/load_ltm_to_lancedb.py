@@ -1,8 +1,8 @@
 """
-将 ltm_data.json 导入临时 ChromaDB，返回 MemoryStore 实例。
+将 ltm_data.json 导入临时 LanceDB MemoryStore，返回 MemoryStore 实例。
 
 用法:
-    from test_data.load_ltm_to_chromadb import load_test_ltm
+    from test_data.load_ltm_to_lancedb import load_test_ltm
     store, tmpdir = load_test_ltm("test_data/ltm_data.json")
     # ... 跑评估 ...
     import shutil; shutil.rmtree(tmpdir)
@@ -41,8 +41,8 @@ def load_test_ltm(ltm_path: str | None = None) -> Tuple:
     with open(ltm_path, "r", encoding="utf-8") as f:
         all_ltm = json.load(f)
 
-    # 创建临时 ChromaDB
-    tmpdir = tempfile.mkdtemp(prefix="eval_chroma_")
+    # 创建临时 LanceDB
+    tmpdir = tempfile.mkdtemp(prefix="eval_lancedb_")
     store = MemoryStore(db_path=tmpdir)
 
     total = 0
@@ -65,7 +65,7 @@ def load_test_ltm(ltm_path: str | None = None) -> Tuple:
                                    "last_access", "source"):
                         val = mem[key]
                         if isinstance(val, list):
-                            # ChromaDB metadata 只接受 str/int/float/bool
+                            # LanceDB metadata 只接受 str/int/float/bool
                             metadata[f"{key}_json"] = json.dumps(val, ensure_ascii=False)
                         elif isinstance(val, dict):
                             metadata[f"{key}_json"] = json.dumps(val, ensure_ascii=False)
@@ -86,7 +86,7 @@ def load_test_ltm(ltm_path: str | None = None) -> Tuple:
 
 if __name__ == "__main__":
     store, tmpdir = load_test_ltm()
-    print(f"临时 ChromaDB 路径: {tmpdir}")
+    print(f"临时 LanceDB 路径: {tmpdir}")
     print("验证：各 collection 行数")
     for mt in store.MEMORY_TYPES:
         count = store._get_collection(mt)._collection.count()

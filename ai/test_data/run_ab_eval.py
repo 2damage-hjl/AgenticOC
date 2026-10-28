@@ -17,11 +17,76 @@ import sys
 import time
 import random
 import argparse
+import hashlib
+import uuid
+from datetime import datetime
 from pathlib import Path
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional
 
 _PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+
+# ---------------------------------------------------------------------------
+# 可复现性工具
+# ---------------------------------------------------------------------------
+
+def _hash_file(filepath: Path) -> str:
+    """SHA256 of a file's content, truncated to 16 hex chars."""
+    try:
+        return hashlib.sha256(filepath.read_text(encoding="utf-8").encode()).hexdigest()[:16]
+    except Exception:
+        return "MISSING"
+
+
+def _hash_case_content(case: dict) -> str:
+    """Content hash of a test case for drift detection.
+
+    Hashes everything except case_id, so renumbering cases doesn't
+    change the hash — only content changes do.
+    """
+    content = {k: v for k, v in case.items() if k != "case_id"}
+    raw = json.dumps(content, sort_keys=True, ensure_ascii=False)
+    return hashlib.sha256(raw.encode()).hexdigest()[:12]
+
+
+def _compute_prompt_template_hash() -> str:
+    """Combined SHA256 of prompt template source files.
+
+    If any of these files change, the hash changes → prompts may differ.
+    """
+    template_files = [
+        "prompt_construction/prompt/prompt_builder.py",
+        "prompt_construction/prompt/context_formatter.py",
+        "prompt_construction/prompt/prompt_damon.py",
+        "prompt_construction/prompt/prompt_others.py",
+    ]
+    h = hashlib.sha256()
+    for rel_path in template_files:
+        fp = _PROJECT_ROOT / rel_path
+        h.update(_hash_file(fp).encode())
+    # Also hash this eval script itself (changes here affect results)
+    h.update(_hash_file(Path(__file__)).encode())
+    return h.hexdigest()[:16]
+
+
+def _snapshot_config() -> dict:
+    """Load config.json, redact sensitive fields, return key params."""
+    try:
+        cfg_path = _PROJECT_ROOT / "config.json"
+        raw = json.loads(cfg_path.read_text(encoding="utf-8"))
+        safe = {}
+        for k in ("Provider", "ModelName", "Temperature", "ServerAddress",
+                   "MaxTokens", "TopP", "FrequencyPenalty", "PresencePenalty"):
+            if k in raw:
+                safe[k] = raw[k]
+        # Redact API key presence
+        if "ApiKey" in raw:
+            key = raw["ApiKey"]
+            safe["ApiKey"] = f"***{key[-4:]}" if key and len(key) > 4 else "***"
+        return safe
+    except Exception as e:
+        return {"error": str(e)}
 if str(_PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(_PROJECT_ROOT))
 
@@ -31,16 +96,14 @@ if str(_PROJECT_ROOT) not in sys.path:
 
 @dataclass
 class RetrievalStats:
-    """检索数量统计（原 MemoryRecallResult）"""
+    """检索数量统计"""
     persona_count: int = 0
     episodic_count: int = 0
-    belief_count: int = 0
     relation_count: int = 0
-    arc_count: int = 0
     total_retrieved: int = 0
     total_available: int = 0
     avg_similarity: float = 0.0
-    layer_coverage: float = 0.0        # 5 层中有多少层有结果
+    layer_coverage: float = 0.0        # 3 层中有多少层有结果
     all_retrieved: List[Dict] = field(default_factory=list)
 
 
@@ -57,26 +120,24 @@ class RecallCorrectness:
 
 
 @dataclass
-class MemoryUseVerdict:
-    """memory use judge 评估结果"""
-    memory_usage: int = 1        # 0-3
-    contradiction: int = 1       # 0-3
-    tone_match: int = 1          # 0-3
-    evidence: str = ""
+class QualityVerdict:
+    """单条回复质量评估（简化版：只测 OOC + 相关性 + 矛盾）"""
+    character_fidelity: int = 1   # 0-3 角色还原度
+    relevance: int = 1            # 0-3 回复相关性
+    contradiction: int = 0        # 0-3 事实矛盾/幻觉（越低越好）
 
 
 @dataclass
 class ABVerdict:
     """A/B 对比 judge 评估结果"""
     winner: str = "tie"          # "A" | "B" | "tie"
-    a_in_character: int = 1
-    b_in_character: int = 1
-    a_style_match: int = 1
-    b_style_match: int = 1
+    a_character_fidelity: int = 1
+    b_character_fidelity: int = 1
     a_relevance: int = 1
     b_relevance: int = 1
-    a_better_reason: str = ""
-    b_better_reason: str = ""
+    a_contradiction: int = 0
+    b_contradiction: int = 0
+    reason: str = ""
 
 
 @dataclass
@@ -104,14 +165,21 @@ class CaseResult:
     retrieval_stats: Optional[RetrievalStats] = None
     recall_correctness: Optional[RecallCorrectness] = None
 
-    # memory use（judge 标签 A/B，后续需根据 a_is_few_shot 映射回真实 variant）
-    memory_use_a: Optional[MemoryUseVerdict] = None
-    memory_use_b: Optional[MemoryUseVerdict] = None
+    # 质量评估（judge 标签 A/B，后续需根据 a_is_few_shot 映射回真实 variant）
+    quality_a: Optional[QualityVerdict] = None
+    quality_b: Optional[QualityVerdict] = None
 
     # A/B 对比（judge 标签 A/B，后续需根据 a_is_few_shot 映射回真实 variant）
     ab_verdict: Optional[ABVerdict] = None
 
-    # 耗时
+    # 完整 prompt（可追溯）
+    prompt_fs_on: str = ""
+    prompt_fs_off: str = ""
+
+    # 分阶段耗时（ms）
+    timing_ms: Dict[str, float] = field(default_factory=dict)
+
+    # 总耗时
     latency_a_ms: float = 0.0
     latency_b_ms: float = 0.0
     latency_judge_ms: float = 0.0
@@ -182,9 +250,7 @@ class ABEvalRunner:
         layer_counts = {
             "persona_seed": ("persona_count", raw_results.get("persona_seed", [])),
             "episodic_event": ("episodic_count", raw_results.get("episodic_event", [])),
-            "preference_belief": ("belief_count", raw_results.get("preference_belief", [])),
             "relationship_impression": ("relation_count", raw_results.get("relationship_impression", [])),
-            "narrative_arc": ("arc_count", raw_results.get("narrative_arc", [])),
         }
 
         for layer, (attr, mems) in layer_counts.items():
@@ -203,9 +269,8 @@ class ABEvalRunner:
             stats.avg_similarity = sum(sims) / len(sims)
 
         covered = sum(1 for v in [stats.persona_count, stats.episodic_count,
-                                   stats.belief_count, stats.relation_count,
-                                   stats.arc_count] if v > 0)
-        stats.layer_coverage = covered / 5.0
+                                   stats.relation_count] if v > 0)
+        stats.layer_coverage = covered / 3.0
 
         # ---- Recall Correctness ----
         correctness = RecallCorrectness()
@@ -300,24 +365,39 @@ class ABEvalRunner:
     # ---- Judge ----
 
     def judge_case(self, case: dict, response_a: str, response_b: str,
-                   retrieval_stats: RetrievalStats) -> dict:
-        """一次 judge 调用完成 memory use + A/B 对比评估"""
-        # 格式化检索到的记忆
-        mem_lines = []
-        for m in retrieval_stats.all_retrieved[:10]:  # 只取 top 10
-            mem_lines.append(f"  [{m['memory_type']}] {m['content'][:100]}")
-        mem_text = "\n".join(mem_lines) if mem_lines else "（无检索到的记忆）"
+                   npc_config: dict) -> dict:
+        """一次 judge 调用完成角色还原度 + 相关性 + 矛盾检测 + A/B 对比。
 
-        judge_prompt = f"""你是对话质量评审专家。请评估以下两个 NPC 对话回复的质量。
+        Judge 不看检索到的记忆——只看回复是否符合 NPC 人设和是否合理回应玩家。
+        """
+        persona_core = npc_config.get("persona_core") or ""
+        speech_style = npc_config.get("speech_style") or ""
+        persona_bg = npc_config.get("persona_background") or ""
+        character_type = npc_config.get("character_type", "native")
 
-【场景信息】
-- NPC: {case['npc_id']}
+        # 截断过长文本避免 prompt 膨胀
+        if len(persona_core) > 300:
+            persona_core = persona_core[:300] + "..."
+        if len(speech_style) > 150:
+            speech_style = speech_style[:150] + "..."
+
+        npc_name = case['npc_id']
+        char_type_label = "原创角色" if character_type == "original" else "原版角色"
+        fallback = f"（使用你对{npc_name}的了解）"
+
+        judge_prompt = f"""你是星露谷物语角色扮演评审专家。请评估以下两个 NPC 对话回复的质量。
+
+【NPC 信息】
+- 名字: {npc_name}
+- 类型: {character_type}（{char_type_label}）
 - 关系阶段: {case['relationship']}
+- 性格核心: {persona_core or fallback}
+- 说话风格: {speech_style or fallback}
+- 背景: {persona_bg or fallback}
+
+【场景】
 - 玩家输入: "{case['player_input']}"
 - 季节/天气/地点: {case['game_state']['season']}/{case['game_state']['weather']}/{case['game_state']['location']}
-
-【检索到的长期记忆】（供参考，回复不一定要逐条使用）
-{mem_text}
 
 【回复 A】
 {response_a[:500]}
@@ -325,26 +405,41 @@ class ABEvalRunner:
 【回复 B】
 {response_b[:500]}
 
-请从以下三个维度评分（0-3），并对比 A/B，输出严格 JSON：
+请从以下维度评分并对比 A/B，输出严格 JSON：
 
 {{
-  "a_memory_usage": <0=完全未使用记忆, 1=模糊提及, 2=明确引用, 3=自然融入>,
-  "b_memory_usage": <同上>,
-  "a_contradiction": <0=无矛盾, 1=轻微不一致, 2=明显矛盾, 3=严重幻觉>,
-  "b_contradiction": <同上>,
-  "a_tone_match": <0=完全不符合 NPC 人设, 1=部分符合, 2=基本符合, 3=完美符合>,
-  "b_tone_match": <同上>,
-
+  "a_character_fidelity": <0-3>,
+  "b_character_fidelity": <0-3>,
+  "a_relevance": <0-3>,
+  "b_relevance": <0-3>,
+  "a_contradiction": <0-3>,
+  "b_contradiction": <0-3>,
   "winner": "<A 或 B 或 tie>",
-  "a_in_character": <0-3, A 的角色人格一致性>,
-  "b_in_character": <0-3, B 的角色人格一致性>,
-  "a_style_match": <0-3, A 的说话风格与 NPC 配置中示例的匹配度>,
-  "b_style_match": <0-3, B 的说话风格与 NPC 配置中示例的匹配度>,
-  "a_relevance": <0-3, A 的回复与玩家输入的关联度>,
-  "b_relevance": <0-3, B 的回复与玩家输入的关联度>,
-  "a_better_reason": "<简短说明 A 更好的原因，tie 则写双方优缺点>",
-  "b_better_reason": "<简短说明 B 更好的原因，tie 则写双方优缺点>"
+  "reason": "<1-2句话说明判断依据>"
 }}
+
+评分锚定：
+- character_fidelity（角色还原度）:
+  0 = 完全不符合 NPC 设定，说的话换任何 NPC 都一样甚至相反
+  1 = 只有礼貌性通用寒暄，看不出是这个 NPC 在说话
+  2 = 能看出 NPC 的性格特点或说话习惯
+  3 = 令人信服——这就是 {npc_name} 会说的话，语气、用词、态度都准确
+- relevance（回复相关性）:
+  0 = 答非所问或无视玩家输入
+  1 = 勉强相关，但回避了话题核心
+  2 = 合理回应了玩家的输入
+  3 = 精准回应且自然推进或丰富了对话
+- contradiction（事实矛盾/幻觉）:
+  0 = 无可察觉的矛盾
+  1 = 用词或态度轻微不符合当前关系阶段
+  2 = 明显与 NPC 设定、原版游戏事实或常识矛盾
+  3 = 严重幻觉，编造不存在的物品/事件/人物关系
+
+winner 判断规则：
+- 两方都在 0-1 分水平 → 判 tie（都没意义，比较无价值）
+- 明显一方 character_fidelity 更高 → 判该方
+- 相同水平但一方 relevance 明显更高 → 判该方
+- 难以取舍 → tie
 
 只输出 JSON，不要有其他内容。"""
 
@@ -416,6 +511,7 @@ class ABEvalRunner:
         }
 
         # ---- Step 1: Memory Retrieval（A/B 共享） ----
+        t_retrieval_start = time.perf_counter()
         try:
             expected_ids = case.get("expected_memory_ids", [])
             memory_formatted, raw_results, retrieval_stats, recall_correctness = \
@@ -427,9 +523,11 @@ class ABEvalRunner:
             memory_formatted = {}
             result.retrieval_stats = RetrievalStats()
             result.recall_correctness = RecallCorrectness()
+        result.timing_ms["memory_retrieval"] = (time.perf_counter() - t_retrieval_start) * 1000
 
         # ---- Step 2: 生成两个 variant 的回复 ----
         # few-shot ON
+        t_fewshot_start = time.perf_counter()
         try:
             from prompt_construction.retrieval.few_shot_provider import get_few_shot_examples
 
@@ -442,12 +540,21 @@ class ABEvalRunner:
             examples_text = npc_config.get("static_examples", "")
             result.few_shot_source = "error_fallback"
             result.few_shot_count = 0
+        result.timing_ms["few_shot_retrieval"] = (time.perf_counter() - t_fewshot_start) * 1000
 
+        t_prompt_fs_on = time.perf_counter()
         prompt_fs_on = self.build_prompt(state, npc_config, memory_formatted, examples_text)
+        result.prompt_fs_on = prompt_fs_on
+        result.timing_ms["prompt_build_fs_on"] = (time.perf_counter() - t_prompt_fs_on) * 1000
+
         response_fs_on, latency_fs_on = self.get_response(prompt_fs_on)
 
         # few-shot OFF
+        t_prompt_fs_off = time.perf_counter()
         prompt_fs_off = self.build_prompt(state, npc_config, memory_formatted, "")
+        result.prompt_fs_off = prompt_fs_off
+        result.timing_ms["prompt_build_fs_off"] = (time.perf_counter() - t_prompt_fs_off) * 1000
+
         response_fs_off, latency_fs_off = self.get_response(prompt_fs_off)
 
         # ---- 随机交换 A/B 顺序（盲测） ----
@@ -468,32 +575,31 @@ class ABEvalRunner:
         # ---- Step 3: Judge（盲测：judge 不知道哪个是 few-shot） ----
         if result.response_a or result.response_b:
             verdict_raw, judge_latency = self.judge_case(case, result.response_a, result.response_b,
-                                                         result.retrieval_stats)
+                                                         npc_config)
             result.latency_judge_ms = judge_latency
 
-            # memory use A（judge 视角的 A/B，后续汇总时再映射回真实 variant）
-            result.memory_use_a = MemoryUseVerdict(
-                memory_usage=verdict_raw.get("a_memory_usage", 1),
-                contradiction=verdict_raw.get("a_contradiction", 1),
-                tone_match=verdict_raw.get("a_tone_match", 1),
+            # 质量评估 A（judge 视角的 A/B，后续汇总时再映射回真实 variant）
+            result.quality_a = QualityVerdict(
+                character_fidelity=verdict_raw.get("a_character_fidelity", 1),
+                relevance=verdict_raw.get("a_relevance", 1),
+                contradiction=verdict_raw.get("a_contradiction", 0),
             )
-            # memory use B
-            result.memory_use_b = MemoryUseVerdict(
-                memory_usage=verdict_raw.get("b_memory_usage", 1),
-                contradiction=verdict_raw.get("b_contradiction", 1),
-                tone_match=verdict_raw.get("b_tone_match", 1),
+            # 质量评估 B
+            result.quality_b = QualityVerdict(
+                character_fidelity=verdict_raw.get("b_character_fidelity", 1),
+                relevance=verdict_raw.get("b_relevance", 1),
+                contradiction=verdict_raw.get("b_contradiction", 0),
             )
             # A/B 对比（judge 视角）
             result.ab_verdict = ABVerdict(
                 winner=verdict_raw.get("winner", "tie"),
-                a_in_character=verdict_raw.get("a_in_character", 1),
-                b_in_character=verdict_raw.get("b_in_character", 1),
-                a_style_match=verdict_raw.get("a_style_match", 1),
-                b_style_match=verdict_raw.get("b_style_match", 1),
+                a_character_fidelity=verdict_raw.get("a_character_fidelity", 1),
+                b_character_fidelity=verdict_raw.get("b_character_fidelity", 1),
                 a_relevance=verdict_raw.get("a_relevance", 1),
                 b_relevance=verdict_raw.get("b_relevance", 1),
-                a_better_reason=verdict_raw.get("a_better_reason", ""),
-                b_better_reason=verdict_raw.get("b_better_reason", ""),
+                a_contradiction=verdict_raw.get("a_contradiction", 0),
+                b_contradiction=verdict_raw.get("b_contradiction", 0),
+                reason=verdict_raw.get("reason", ""),
             )
 
         return result
@@ -519,8 +625,7 @@ def compute_summary(case_results: List[CaseResult]) -> dict:
         "avg_similarity": 0.0,
         "avg_layer_coverage": 0.0,
         "per_layer_avg": {"persona_seed": 0, "episodic_event": 0,
-                          "preference_belief": 0, "relationship_impression": 0,
-                          "narrative_arc": 0},
+                          "relationship_impression": 0},
     }
     if cases:
         n = len(cases)
@@ -530,8 +635,7 @@ def compute_summary(case_results: List[CaseResult]) -> dict:
         for layer in retrieval_stats["per_layer_avg"]:
             attr_map = {
                 "persona_seed": "persona_count", "episodic_event": "episodic_count",
-                "preference_belief": "belief_count", "relationship_impression": "relation_count",
-                "narrative_arc": "arc_count",
+                "relationship_impression": "relation_count",
             }
             retrieval_stats["per_layer_avg"][layer] = sum(
                 getattr(r.retrieval_stats, attr_map[layer]) for r in cases
@@ -556,49 +660,51 @@ def compute_summary(case_results: List[CaseResult]) -> dict:
     else:
         recall_correctness["overall_recall"] = 0.0
 
-    # --- Memory Use（映射回真实 variant） ---
-    # 收集 few-shot / no-few-shot 的 memory use 分数
-    fs_use = []   # few-shot variant 的 memory use
-    nfs_use = []  # no-few-shot variant 的 memory use
+    # --- 质量评估（映射回真实 variant） ---
+    fs_char = []   # few-shot variant 的 character_fidelity
+    nfs_char = []  # no-few-shot variant 的 character_fidelity
+    fs_rel = []
+    nfs_rel = []
+    fs_contra = []
+    nfs_contra = []
 
     for r in cases:
-        if r.memory_use_a is not None and r.memory_use_b is not None:
-            a_use = r.memory_use_a
-            b_use = r.memory_use_b
+        if r.quality_a is not None and r.quality_b is not None:
             if r.a_is_few_shot:
-                fs_use.append(a_use)
-                nfs_use.append(b_use)
+                fs_char.append(r.quality_a.character_fidelity)
+                fs_rel.append(r.quality_a.relevance)
+                fs_contra.append(r.quality_a.contradiction)
+                nfs_char.append(r.quality_b.character_fidelity)
+                nfs_rel.append(r.quality_b.relevance)
+                nfs_contra.append(r.quality_b.contradiction)
             else:
-                fs_use.append(b_use)
-                nfs_use.append(a_use)
+                nfs_char.append(r.quality_a.character_fidelity)
+                nfs_rel.append(r.quality_a.relevance)
+                nfs_contra.append(r.quality_a.contradiction)
+                fs_char.append(r.quality_b.character_fidelity)
+                fs_rel.append(r.quality_b.relevance)
+                fs_contra.append(r.quality_b.contradiction)
 
     use_stats = {
-        "few_shot_utilization_rate": 0.0, "no_few_shot_utilization_rate": 0.0,
-        "few_shot_contradiction_rate": 0.0, "no_few_shot_contradiction_rate": 0.0,
-        "few_shot_tone_avg": 0.0, "no_few_shot_tone_avg": 0.0,
+        "few_shot_char_fidelity_avg": sum(fs_char) / len(fs_char) if fs_char else 0.0,
+        "no_few_shot_char_fidelity_avg": sum(nfs_char) / len(nfs_char) if nfs_char else 0.0,
+        "few_shot_relevance_avg": sum(fs_rel) / len(fs_rel) if fs_rel else 0.0,
+        "no_few_shot_relevance_avg": sum(nfs_rel) / len(nfs_rel) if nfs_rel else 0.0,
+        "few_shot_contradiction_rate": sum(1 for c in fs_contra if c >= 2) / len(fs_contra) if fs_contra else 0.0,
+        "no_few_shot_contradiction_rate": sum(1 for c in nfs_contra if c >= 2) / len(nfs_contra) if nfs_contra else 0.0,
+        "char_fidelity_delta": (sum(fs_char) - sum(nfs_char)) / len(fs_char) if fs_char else 0.0,
+        "relevance_delta": (sum(fs_rel) - sum(nfs_rel)) / len(fs_rel) if fs_rel else 0.0,
     }
-    if fs_use:
-        n = len(fs_use)
-        use_stats["few_shot_utilization_rate"] = sum(1 for u in fs_use if u.memory_usage >= 2) / n
-        use_stats["few_shot_contradiction_rate"] = sum(1 for u in fs_use if u.contradiction >= 2) / n
-        use_stats["few_shot_tone_avg"] = sum(u.tone_match for u in fs_use) / n
-    if nfs_use:
-        n = len(nfs_use)
-        use_stats["no_few_shot_utilization_rate"] = sum(1 for u in nfs_use if u.memory_usage >= 2) / n
-        use_stats["no_few_shot_contradiction_rate"] = sum(1 for u in nfs_use if u.contradiction >= 2) / n
-        use_stats["no_few_shot_tone_avg"] = sum(u.tone_match for u in nfs_use) / n
 
     # --- A/B Comparison（映射回真实 variant） ---
     ab_cases = [r for r in cases if r.ab_verdict is not None]
     fs_wins = 0
     nfs_wins = 0
     ties = 0
-    fs_in_character_sum = 0.0
-    nfs_in_character_sum = 0.0
-    fs_style_match_sum = 0.0
-    nfs_style_match_sum = 0.0
-    fs_relevance_sum = 0.0
-    nfs_relevance_sum = 0.0
+    fs_char_sum = 0.0
+    nfs_char_sum = 0.0
+    fs_rel_sum = 0.0
+    nfs_rel_sum = 0.0
 
     for r in ab_cases:
         v = r.ab_verdict
@@ -618,26 +724,21 @@ def compute_summary(case_results: List[CaseResult]) -> dict:
 
         # 映射分数
         if r.a_is_few_shot:
-            fs_in_character_sum += v.a_in_character
-            nfs_in_character_sum += v.b_in_character
-            fs_style_match_sum += v.a_style_match
-            nfs_style_match_sum += v.b_style_match
-            fs_relevance_sum += v.a_relevance
-            nfs_relevance_sum += v.b_relevance
+            fs_char_sum += v.a_character_fidelity
+            nfs_char_sum += v.b_character_fidelity
+            fs_rel_sum += v.a_relevance
+            nfs_rel_sum += v.b_relevance
         else:
-            nfs_in_character_sum += v.a_in_character
-            fs_in_character_sum += v.b_in_character
-            nfs_style_match_sum += v.a_style_match
-            fs_style_match_sum += v.b_style_match
-            nfs_relevance_sum += v.a_relevance
-            fs_relevance_sum += v.b_relevance
+            nfs_char_sum += v.a_character_fidelity
+            fs_char_sum += v.b_character_fidelity
+            nfs_rel_sum += v.a_relevance
+            fs_rel_sum += v.b_relevance
 
     ab_stats = {
         "few_shot_win_rate": 0.0,
         "no_few_shot_win_rate": 0.0,
         "tie_rate": 0.0,
-        "in_character_delta": 0.0,
-        "style_match_delta": 0.0,
+        "char_fidelity_delta": 0.0,
         "relevance_delta": 0.0,
         "position_bias_a_win_rate": 0.0,  # A 位置胜出率（检测位置偏见）
     }
@@ -646,9 +747,8 @@ def compute_summary(case_results: List[CaseResult]) -> dict:
         ab_stats["few_shot_win_rate"] = fs_wins / n
         ab_stats["no_few_shot_win_rate"] = nfs_wins / n
         ab_stats["tie_rate"] = ties / n
-        ab_stats["in_character_delta"] = (fs_in_character_sum - nfs_in_character_sum) / n
-        ab_stats["style_match_delta"] = (fs_style_match_sum - nfs_style_match_sum) / n
-        ab_stats["relevance_delta"] = (fs_relevance_sum - nfs_relevance_sum) / n
+        ab_stats["char_fidelity_delta"] = (fs_char_sum - nfs_char_sum) / n
+        ab_stats["relevance_delta"] = (fs_rel_sum - nfs_rel_sum) / n
         ab_stats["position_bias_a_win_rate"] = sum(
             1 for r in ab_cases if r.ab_verdict.winner == "A"
         ) / n
@@ -713,13 +813,40 @@ def generate_markdown(report: dict) -> str:
     lines = [
         "# A/B 评估报告（盲测）",
         "",
-        f"**模型**: {report['config']['model']}",
-        f"**温度**: {report['config']['temperature']}",
-        f"**随机种子**: {report['config'].get('seed', 'N/A')}",
-        f"**总 case 数**: {summary['total_cases']}（有效: {summary['valid_cases']}）",
-        f"**A/B 交换分布**: A=few-shot {swap_dist.get('a_is_few_shot', '?')} 条, A=no-few-shot {swap_dist.get('a_is_no_few_shot', '?')} 条",
+        "## 0. 可复现性元数据",
+        "",
+        f"| 字段 | 值 |",
+        f"|------|----|",
+        f"| eval_run_id | `{report.get('eval_run_id', 'N/A')}` |",
+        f"| 模型 | {report['config']['model']} |",
+        f"| 温度 | {report['config']['temperature']} |",
+        f"| 随机种子 | {report['config'].get('seed', 'N/A')} |",
+        f"| case_id 过滤 | {report['config'].get('case_id_filter') or '无'} |",
+        f"| 总 case 数 | {summary['total_cases']}（有效: {summary['valid_cases']}） |",
+        f"| A/B 交换分布 | A=few-shot {swap_dist.get('a_is_few_shot', '?')} 条, A=no-few-shot {swap_dist.get('a_is_no_few_shot', '?')} 条 |",
+    ]
+
+    # Code hashes
+    hashes = report.get("code_hashes", {})
+    if hashes:
+        lines.append(f"| prompt_template hash | `{hashes.get('prompt_template', '?')}` |")
+        lines.append(f"| eval_script hash | `{hashes.get('eval_script', '?')}` |")
+        lines.append(f"| test_cases_file hash | `{hashes.get('test_cases_file', '?')}` |")
+        lines.append(f"| ltm_data_file hash | `{hashes.get('ltm_data_file', '?')}` |")
+
+    # Config snapshot
+    snap = report.get("config_snapshot", {})
+    if snap:
+        provider = snap.get("Provider", "?")
+        server = snap.get("ServerAddress", "?")
+        lines.append(f"| LLM Provider | {provider} |")
+        lines.append(f"| API Server | {server} |")
+
+    lines += [
         "",
         "> **盲测说明**: Judge 不知道哪个回复有 few-shot，每条 case 随机交换 A/B 顺序，汇总时映射回真实 variant。",
+        "> **单条复现**: `python test_data/run_ab_eval.py --case-id DAMON_01 --seed {seed}`".format(
+            seed=report['config'].get('seed', 42)),
         "",
         "---",
         "",
@@ -737,7 +864,7 @@ def generate_markdown(report: dict) -> str:
         "",
         f"- 平均检索记忆数: **{retrieval['avg_total_retrieved']:.1f}** 条",
         f"- 平均 similarity: **{retrieval['avg_similarity']:.3f}**",
-        f"- 平均 layer 覆盖率: **{retrieval['avg_layer_coverage']:.1%}**（5 层中有几层有结果）",
+        f"- 平均 layer 覆盖率: **{retrieval['avg_layer_coverage']:.1%}**（3 层中有几层有结果）",
         "",
         "| Layer | 平均检索数 |",
         "|-------|-----------|",
@@ -745,9 +872,7 @@ def generate_markdown(report: dict) -> str:
     layer_names = {
         "persona_seed": "persona_seed",
         "episodic_event": "episodic_event",
-        "preference_belief": "preference_belief",
         "relationship_impression": "relationship_impression",
-        "narrative_arc": "narrative_arc",
     }
     for layer, name in layer_names.items():
         lines.append(f"| {name} | {retrieval['per_layer_avg'][layer]:.1f} |")
@@ -763,23 +888,22 @@ def generate_markdown(report: dict) -> str:
 
     lines += [
         "",
-        "## 4. Memory Use（记忆使用质量）",
+        "## 4. 回复质量（Judge 评分，0-3）",
         "",
-        "| 指标 | few-shot | no-few-shot |",
-        "|------|----------|-------------|",
-        f"| memory_utilization_rate（>=2） | **{use['few_shot_utilization_rate']:.1%}** | **{use['no_few_shot_utilization_rate']:.1%}** |",
-        f"| contradiction_rate（>=2） | **{use['few_shot_contradiction_rate']:.1%}** | **{use['no_few_shot_contradiction_rate']:.1%}** |",
-        f"| tone_match 平均分 | **{use['few_shot_tone_avg']:.2f}** | **{use['no_few_shot_tone_avg']:.2f}** |",
+        "| 指标 | few-shot | no-few-shot | delta |",
+        "|------|----------|-------------|-------|",
+        f"| character_fidelity（角色还原度） | **{use['few_shot_char_fidelity_avg']:.2f}** | **{use['no_few_shot_char_fidelity_avg']:.2f}** | **{use['char_fidelity_delta']:+.2f}** |",
+        f"| relevance（回复相关性） | **{use['few_shot_relevance_avg']:.2f}** | **{use['no_few_shot_relevance_avg']:.2f}** | **{use['relevance_delta']:+.2f}** |",
+        f"| contradiction_rate（矛盾率, >=2） | **{use['few_shot_contradiction_rate']:.1%}** | **{use['no_few_shot_contradiction_rate']:.1%}** | — |",
         "",
-        "## 5. A/B 对比（盲测，Judge 不知道 variant）",
+        "## 5. A/B 对比（盲测）",
         "",
         "| 指标 | 值 |",
         "|------|----|",
         f"| few-shot 胜出率 | **{ab['few_shot_win_rate']:.1%}** |",
         f"| no-few-shot 胜出率 | **{ab['no_few_shot_win_rate']:.1%}** |",
         f"| 平局率 | **{ab['tie_rate']:.1%}** |",
-        f"| in_character delta（few-shot - no-few-shot） | **{ab['in_character_delta']:+.2f}** |",
-        f"| style_match delta（few-shot - no-few-shot） | **{ab['style_match_delta']:+.2f}** |",
+        f"| char_fidelity delta（few-shot - no-few-shot） | **{ab['char_fidelity_delta']:+.2f}** |",
         f"| relevance delta（few-shot - no-few-shot） | **{ab['relevance_delta']:+.2f}** |",
         f"| 位置偏见：A 位置胜出率 | **{ab['position_bias_a_win_rate']:.1%}**（≈50% 说明无明显位置偏见）|",
         "",
@@ -789,7 +913,46 @@ def generate_markdown(report: dict) -> str:
         f"- no-few-shot 平均: **{latency['no_few_shot_avg_ms']:.0f}ms**",
         f"- Judge 平均: **{latency['judge_avg_ms']:.0f}ms**",
         "",
-        "## 7. 结论",
+        "### 分阶段耗时（平均值）",
+        "",
+        "| 阶段 | 平均耗时 |",
+        "|------|----------|",
+    ]
+
+    # Collect per-stage timing averages from per_case
+    stage_sums = {}
+    stage_counts = {}
+    for r in report.get("per_case", []):
+        t = r.get("timing_ms", {})
+        for stage, ms in t.items():
+            stage_sums[stage] = stage_sums.get(stage, 0) + ms
+            stage_counts[stage] = stage_counts.get(stage, 0) + 1
+
+    stage_names = {
+        "memory_retrieval": "Memory Retrieval（向量检索 + Ranker）",
+        "few_shot_retrieval": "Few-shot Retrieval（LanceDB）",
+        "prompt_build_fs_on": "Prompt Build（few-shot ON）",
+        "prompt_build_fs_off": "Prompt Build（few-shot OFF）",
+        "llm_call_fs_on": "LLM Call（few-shot ON）",
+        "llm_call_fs_off": "LLM Call（few-shot OFF）",
+        "judge": "Judge（LLM 评审）",
+    }
+    for stage, name in stage_names.items():
+        if stage in stage_sums and stage_counts[stage] > 0:
+            avg = stage_sums[stage] / stage_counts[stage]
+            lines.append(f"| {name} | **{avg:.0f}ms** |")
+
+    lines += [
+        "",
+        "## 7. 可追溯性",
+        "",
+        "每条 case 的 JSON 输出包含以下完整 trace 数据：",
+        "- `retrieval_stats.all_retrieved`: 所有检索到的记忆（memory_id / type / content 全文 / similarity）",
+        "- `prompt_fs_on` / `prompt_fs_off`: 完整 prompt 文本",
+        "- `timing_ms`: 分阶段耗时明细（memory_retrieval / few_shot_retrieval / prompt_build / llm_call / judge）",
+        "- `recall_correctness.missed_ids`: 未召回的 expected memory IDs",
+        "",
+        "## 8. 结论",
         "",
         "（根据实际运行结果填写）",
     ]
@@ -811,7 +974,12 @@ def main():
     parser.add_argument("--seed", type=int, default=42, help="随机种子（保证 A/B 交换可复现，默认 42）")
     parser.add_argument("--ltm", type=str, default="test_data/ltm_data.json", help="LTM JSON 路径")
     parser.add_argument("--cases", type=str, default="test_data/test_cases.jsonl", help="测试用例路径")
+    parser.add_argument("--case-id", type=str, default="", help="只跑指定 case_id（用于单条复现，如 DAMON_01）")
     args = parser.parse_args()
+
+    # ---- 生成 eval_run_id ----
+    eval_run_id = datetime.now().strftime("%Y%m%d_%H%M%S_") + uuid.uuid4().hex[:6]
+    print(f"eval_run_id: {eval_run_id}")
 
     # ---- 加载数据 ----
     print("=" * 60)
@@ -822,7 +990,7 @@ def main():
     random.seed(args.seed)
     print(f"随机种子: {args.seed}")
 
-    from test_data.load_ltm_to_chromadb import load_test_ltm
+    from test_data.load_ltm_to_lancedb import load_test_ltm
 
     print("\n[1/4] 加载 LTM 数据到 ChromaDB...")
     store, tmpdir = load_test_ltm(args.ltm)
@@ -859,9 +1027,18 @@ def main():
             if line:
                 cases.append(json.loads(line))
 
-    if args.limit > 0:
+    if args.case_id:
+        cases = [c for c in cases if c["case_id"] == args.case_id]
+        if not cases:
+            print(f"  [ERROR] 未找到 case_id={args.case_id}")
+            sys.exit(1)
+        print(f"  --case-id 过滤: 仅运行 {args.case_id}")
+    elif args.limit > 0:
         cases = cases[:args.limit]
     print(f"  已加载 {len(cases)} 条 case")
+
+    # Build lookup for content hash in per_case output
+    case_lookup = {c["case_id"]: c for c in cases}
 
     # ---- 初始化 Runner ----
     print("\n[3/4] 初始化评估管道...")
@@ -883,8 +1060,22 @@ def main():
         fs_info = f"fs={result.few_shot_source}({result.few_shot_count})"
         recall_info = f"recall={result.recall_correctness.matched_count}/{result.recall_correctness.expected_count}" if result.recall_correctness else "recall=?"
         winner = result.ab_verdict.winner if result.ab_verdict else "?"
-        print(f"    {fs_info}, {recall_info}, winner={winner}, "
-              f"latency: A={result.latency_a_ms:.0f}ms B={result.latency_b_ms:.0f}ms")
+        llm_fs = result.latency_a_ms if result.a_is_few_shot else result.latency_b_ms
+        llm_nofs = result.latency_b_ms if result.a_is_few_shot else result.latency_a_ms
+        # 质量分（映射到真实 variant）
+        if result.quality_a and result.quality_b:
+            if result.a_is_few_shot:
+                char_fs, char_nfs = result.quality_a.character_fidelity, result.quality_b.character_fidelity
+                rel_fs, rel_nfs = result.quality_a.relevance, result.quality_b.relevance
+            else:
+                char_fs, char_nfs = result.quality_b.character_fidelity, result.quality_a.character_fidelity
+                rel_fs, rel_nfs = result.quality_b.relevance, result.quality_a.relevance
+            qual_str = f"char-fs={char_fs} char-nfs={char_nfs} rel-fs={rel_fs} rel-nfs={rel_nfs}"
+        else:
+            qual_str = "qual=?"
+        print(f"    {fs_info}, {recall_info}, winner={winner}, {qual_str}, "
+              f"timing: retrieval={result.timing_ms.get('memory_retrieval',0):.0f}ms fs={result.timing_ms.get('few_shot_retrieval',0):.0f}ms "
+              f"llm_fs={llm_fs:.0f}ms llm_nofs={llm_nofs:.0f}ms")
 
     # ---- 生成报告 ----
     print("\n" + "=" * 60)
@@ -893,16 +1084,26 @@ def main():
 
     summary = compute_summary(results)
     report = {
+        "eval_run_id": eval_run_id,
         "config": {
             "model": runner.llm.model_name,
             "temperature": runner.temperature if runner.temperature is not None else "config.json default",
             "total_cases": len(cases),
             "seed": args.seed,
+            "case_id_filter": args.case_id or None,
+        },
+        "config_snapshot": _snapshot_config(),
+        "code_hashes": {
+            "prompt_template": _compute_prompt_template_hash(),
+            "eval_script": _hash_file(Path(__file__)),
+            "test_cases_file": _hash_file(cases_path),
+            "ltm_data_file": _hash_file(Path(args.ltm)),
         },
         "summary": summary,
         "per_case": [
             {
                 "case_id": r.case_id,
+                "case_content_hash": _hash_case_content(case_lookup.get(r.case_id, {})),
                 "npc_id": r.npc_id,
                 "relationship": r.relationship,
                 "player_input": r.player_input,
@@ -917,6 +1118,20 @@ def main():
                     "total_retrieved": r.retrieval_stats.total_retrieved if r.retrieval_stats else 0,
                     "avg_similarity": r.retrieval_stats.avg_similarity if r.retrieval_stats else 0,
                     "layer_coverage": r.retrieval_stats.layer_coverage if r.retrieval_stats else 0,
+                    "per_layer": {
+                        "persona_seed": r.retrieval_stats.persona_count if r.retrieval_stats else 0,
+                        "episodic_event": r.retrieval_stats.episodic_count if r.retrieval_stats else 0,
+                        "relationship_impression": r.retrieval_stats.relation_count if r.retrieval_stats else 0,
+                    },
+                    "all_retrieved": [
+                        {
+                            "memory_id": m.get("memory_id", ""),
+                            "memory_type": m.get("memory_type", ""),
+                            "content": m.get("content", ""),
+                            "similarity": m.get("similarity", 0.0),
+                        }
+                        for m in (r.retrieval_stats.all_retrieved if r.retrieval_stats else [])
+                    ],
                 } if r.retrieval_stats else None,
                 "recall_correctness": {
                     "expected_count": r.recall_correctness.expected_count,
@@ -925,25 +1140,37 @@ def main():
                     "precision": r.recall_correctness.precision,
                     "missed_ids": r.recall_correctness.missed_ids,
                 } if r.recall_correctness else None,
-                "memory_use_a": {
-                    "memory_usage": r.memory_use_a.memory_usage,
-                    "contradiction": r.memory_use_a.contradiction,
-                    "tone_match": r.memory_use_a.tone_match,
-                } if r.memory_use_a else None,
-                "memory_use_b": {
-                    "memory_usage": r.memory_use_b.memory_usage,
-                    "contradiction": r.memory_use_b.contradiction,
-                    "tone_match": r.memory_use_b.tone_match,
-                } if r.memory_use_b else None,
+                "quality_a": {
+                    "character_fidelity": r.quality_a.character_fidelity,
+                    "relevance": r.quality_a.relevance,
+                    "contradiction": r.quality_a.contradiction,
+                } if r.quality_a else None,
+                "quality_b": {
+                    "character_fidelity": r.quality_b.character_fidelity,
+                    "relevance": r.quality_b.relevance,
+                    "contradiction": r.quality_b.contradiction,
+                } if r.quality_b else None,
                 "ab_verdict": {
                     "winner": r.ab_verdict.winner,
-                    "a_in_character": r.ab_verdict.a_in_character,
-                    "b_in_character": r.ab_verdict.b_in_character,
-                    "a_style_match": r.ab_verdict.a_style_match,
-                    "b_style_match": r.ab_verdict.b_style_match,
+                    "a_character_fidelity": r.ab_verdict.a_character_fidelity,
+                    "b_character_fidelity": r.ab_verdict.b_character_fidelity,
                     "a_relevance": r.ab_verdict.a_relevance,
                     "b_relevance": r.ab_verdict.b_relevance,
+                    "a_contradiction": r.ab_verdict.a_contradiction,
+                    "b_contradiction": r.ab_verdict.b_contradiction,
+                    "reason": r.ab_verdict.reason,
                 } if r.ab_verdict else None,
+                "prompt_fs_on": r.prompt_fs_on,
+                "prompt_fs_off": r.prompt_fs_off,
+                "timing_ms": {
+                    "memory_retrieval": round(r.timing_ms.get("memory_retrieval", 0), 1),
+                    "few_shot_retrieval": round(r.timing_ms.get("few_shot_retrieval", 0), 1),
+                    "prompt_build_fs_on": round(r.timing_ms.get("prompt_build_fs_on", 0), 1),
+                    "prompt_build_fs_off": round(r.timing_ms.get("prompt_build_fs_off", 0), 1),
+                    "llm_call_fs_on": round(r.latency_a_ms if r.a_is_few_shot else r.latency_b_ms, 1),
+                    "llm_call_fs_off": round(r.latency_b_ms if r.a_is_few_shot else r.latency_a_ms, 1),
+                    "judge": round(r.latency_judge_ms, 1),
+                },
                 "latency_ms": {
                     "a": round(r.latency_a_ms, 1),
                     "b": round(r.latency_b_ms, 1),

@@ -85,3 +85,10 @@ Recall: 51% → 69% → — → — → 80% → —
 - 临时 ChromaDB 隔离测试（tempfile.mkdtemp）
 - Character type 白名单控制检索开关
 - ChromaDB 维度不兼容检测（384 → 1024 迁移保护）
+
+### 打包与发布流程
+
+- **C# SMAPI Mod + Python AI Server 双端集成**：.NET 6 构建 DLL + PyInstaller 打包独立 exe，一键 `Build.bat` 生成免 Python 环境的分发包
+- **双模式启动**：`Start_AgenticOC.bat` 自动检测 standalone exe / Python dev 模式，兼容开发与发布场景
+- **OC Builder Web UI**：内置角色创建器（`/oc`），用户通过表单配置 persona / speech_style / relationship_map 等维度，自动生成 NPC 配置 JSON
+- **Nexus Mods 发布包**：自动整理 `manifest.json` + DLL + AI Server + OC Builder 的完整发布目录结构

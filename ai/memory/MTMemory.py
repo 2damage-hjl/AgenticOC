@@ -79,9 +79,9 @@ def summarize_to_mid_term(state: dict) -> dict | None:
 
 3. **candidate_beliefs**：提取值得记住的【偏好、信念、判断】，每条包含：
    - content：以 NPC 第一人称描述（不超过 30 字），如"玩家似乎不喜欢紫水晶"
-   - belief_key：简短标识，如 "player_preference_amethyst"
+   - topic：纯名词（物品/行为名，禁止形容词、动词、下划线），如 amethyst、coffee、mining。用于匹配旧信念，同话题必须用同一个词
+   - polarity：like / dislike / neutral / uncertain
    - confidence：0.0 ~ 1.0（NPC 对此判断的置信度）
-   - tag：从 preference / conviction / impression 中选一个
 
 注意：
 - 事件和信念是不同维度：事件是"发生了什么"，信念是"我从中得出什么判断"
@@ -95,7 +95,7 @@ def summarize_to_mid_term(state: dict) -> dict | None:
     {{ "content": "...", "tag": "...", "salience": "...", "topic_tags": ["...", "..."] }}
   ],
   "candidate_beliefs": [
-    {{ "content": "...", "belief_key": "...", "confidence": 0.0, "tag": "..." }}
+    {{ "content": "...", "topic": "...", "polarity": "...", "confidence": 0.0 }}
   ]
 }}
 """
@@ -244,7 +244,11 @@ class MidTermMemory:
                     candidates = cls._create_ltm_item(
                         item=blf, today_int=day, npc_id=npc_id, location=location,
                         memory_type="preference_belief", source="dialogue",
-                        extra_fields={"belief_key": blf.get("belief_key", ""), "confidence": confidence},
+                        extra_fields={
+                            "topic": blf.get("topic", ""),
+                            "polarity": blf.get("polarity", "uncertain"),
+                            "confidence": confidence,
+                        },
                     )
                     long_term_candidates.append(candidates)
 

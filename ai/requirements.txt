@@ -1,0 +1,42 @@
+# AgenticOC 运行时依赖
+# 版本按本机实际运行环境锁定（Windows / Anaconda Python 3.11.7）
+# 安装：python -m pip install -r requirements.txt
+# 注意：请用实际运行 server.py 的解释器安装。本机 `py -3` 指向一个未装依赖的 Python 3.11.0，不要用它。
+
+# --- Web 服务（server.py 入口） ---
+fastapi==0.141.1
+uvicorn==0.52.1
+pydantic==2.12.3
+
+# --- LLM 调用 ---
+langchain-core==1.5.3
+langchain-openai==1.4.1
+# Provider=gemini 时另需（本机未使用，版本未验证，故不锁定）：
+# langchain-google-genai
+
+# --- 向量库 / 记忆 ---
+lancedb==0.30.2
+numpy==1.26.4
+
+# --- Embedding（BGE-M3） ---
+FlagEmbedding==1.4.0
+transformers==5.6.0
+sentence-transformers==5.4.1
+# 本机为 GPU 版（2.6.0+cu124）。GPU 环境先执行：
+#   python -m pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0
+
+# --- 配置 / 模板 ---
+PyYAML==6.0.3
+python-dotenv==1.1.0
+Jinja2==3.1.6
+
+# --- 数据构建脚本（prompt_construction/scripts、test_data） ---
+tqdm==4.67.1
+
+# --- 测试 / 手动脚本 ---
+pytest==9.1.0
+requests==2.32.4   # test_api.py
+
+# 说明：web/app.py 是遗留 Flask 页面，server.py 不依赖它。
+# 如需单独运行：python -m pip install flask requests

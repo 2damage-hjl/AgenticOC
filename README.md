@@ -1,149 +1,155 @@
 # AgenticOC
-这是一个为 Stardew Valley 定制的 AI驱动 NPC 系统，在游戏中为玩家和所有原生角色（以及自定义角色 Damon）提供动态对话与行为模拟。系统结合 多层记忆架构（短期 / 中期 / 长期） 与 社会关系网络（gossip system），能够根据玩家行为、环境状态和角色关系自动调整对话态度与赠礼行为，实现角色人格的连续性与社会感知。C# 部分负责游戏内事件捕捉、UI 展示与状态传输，Python 部分通过 LLM 生成对话并管理记忆，形成一个与原游戏风格一致、沉浸感强的智能角色生态。
 
-一个为 **Stardew Valley** 设计的 AI NPC 扩展系统。本项目为游戏中的角色（包括原版 NPC 和自定义 OC）提供 **动态对话、记忆系统、社交传播（Gossip）以及行为逻辑**，让鹈鹕镇的居民表现得更像真实的人。
+AI-powered NPC conversations for Stardew Valley. Uses LLM to generate dynamic, contextual dialogue with any villager.
 
-该系统通过 **C# + Python + LLM** 的架构实现：  
-- **C#** 负责与游戏通信、捕捉玩家行为并构建 UI  
-- **Python** 负责 AI 对话生成、记忆管理与社会传播机制  
+## Quick Start (For Users)
 
-最终效果是一个 **具有持续记忆、社会关系和个性化行为的 NPC 生态系统**。
+### Prerequisites
 
----
+1. **Stardew Valley** with **SMAPI** installed (minimum version 3.18.0)
+2. **Content Patcher** (required dependency listed in `manifest.json`)
+3. **Python 3.11** with pip
+4. An **LLM API key** (DeepSeek, OpenAI, OpenRouter, Qwen, or Gemini)
 
-# ✨ 项目优势
+### Installation
 
-## 💬 动态 AI 对话系统
-传统 Stardew Valley 的对话是脚本驱动的，而本项目通过 LLM 实现：
+1. Download this repository (**Code → Download ZIP**, or `git clone`) and put the whole folder into your Stardew Valley `Mods` folder, e.g. `Mods\[CP] Damon\`
+2. Install Python dependencies from the `ai` folder inside the mod:
 
-- NPC 能根据 **玩家行为、环境状态、关系变化** 生成实时对话  
-- 对话会考虑：
-  - 玩家行为（送礼、翻垃圾桶等）
-  - 玩家状态（健康值）
-  - 环境（天气 / 时间 / 地点）
-  - 与 NPC 的关系
-- NPC 拥有不同关系阶段的 **人格描述（persona）**，确保角色始终符合设定
+```bash
+cd "<Stardew Valley>\Mods\[CP] Damon\ai"
+python -m pip install -r requirements.txt
+```
 
-这使得每次对话都可能不同，增强沉浸感。
+> NVIDIA GPU users can speed up embeddings by first running
+> `python -m pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124`
 
----
+3. Open `ai/config.json` and fill in your API key:
 
-## 🎁 智能送礼系统
-NPC 不仅会接受礼物，还可能主动赠送礼物。
+```json
+{
+    "Provider": "deepseek",
+    "ModelName": "deepseek-chat",
+    "ServerAddress": "https://api.deepseek.com",
+    "ApiKey": "sk-your-api-key-here",
+    "Temperature": 0.75
+}
+```
 
-特点：
+4. Start the AI server:
 
-- NPC 会根据 **关系、情境、玩家状态** 决定是否送礼
-- 礼物类型遵循 Stardew Valley 世界观，例如：
-  - 甜品
-  - 水果
-  - 饮料
-  - 增加运势
-  - 增强钓鱼 / 下矿 / 耕种
-  - 恢复生命体力
-- NPC 只能赠送 **合理的类别**，不会生成不存在的物品
-- 一天只会赠礼一次，避免滥用
+```bash
+cd "<Stardew Valley>\Mods\[CP] Damon\ai"
+python server.py
+```
 
-这样既保持 **AI 自然行为**，又不会破坏游戏平衡。
+or double-click **`Start_AgenticOC.bat`**. Keep the window open (server at `http://localhost:8000`).
 
----
+5. Launch Stardew Valley through SMAPI
 
-## 🗣 Gossip 社会传播系统
-NPC 之间并不会直接对话，但信息会通过 **关系网络传播**。
+> **First launch** will take 1-2 minutes to download the AI embedding model (BGE-M3, ~2GB). Subsequent launches are instant.
 
-机制：
+> 中文部署说明见 [ai/README.md](ai/README.md)。
 
-1. 玩家与 NPC A 对话
-2. 对话总结为 **中期记忆**
-3. 根据 NPC A 的 **关系网**，该记忆可能传播给其他 NPC
-4. 传播会根据 **关系权重衰减**
+### How to Use
 
-效果：
-
-- NPC 会“听说”玩家的行为
-- 不同 NPC 可能对同一件事有不同态度
-- 鹤鹕镇会表现出一种 **社会意识**
-
-- ---
-
-# 🧠 记忆系统设计
-
-NPC 使用 **三层记忆架构** 来保持长期人格一致性。
-
-## 1️⃣ 短期记忆 (Short-term Memory)
-
-- 存储当前对话历史
-- 存储于 JSON
-- 对话结束后会被总结并清空
+1. Start the AI server via `Start_AgenticOC.bat` (keep the window open)
+2. Launch Stardew Valley
+3. Walk near any NPC and press **Q** to start a conversation
+4. Type your message and press Enter
+5. Choose "Continue" to keep talking or "Stay Silent" to end
 
 ---
 
-## 2️⃣ 中期记忆 (Mid-term Memory)
+## Configuration
 
-- 存储当天的重要互动
-- 一天结束后进行筛选
-- 一部分会升级为长期记忆
+### config.json Fields
 
----
+| Field | Description | Example |
+|-------|-------------|---------|
+| `Provider` | LLM provider | `deepseek`, `openai`, `openrouter`, `qwen`, `gemini` |
+| `ModelName` | Model identifier | `deepseek-chat`, `gpt-4o` |
+| `ServerAddress` | API endpoint URL | `https://api.deepseek.com` |
+| `ApiKey` | Your API key (**required**) | `sk-xxxxxxxx` |
+| `Temperature` | Response creativity (0.0-1.0) | `0.75` |
 
-## 3️⃣ 长期记忆 (Long-term Memory)
+### Supported Providers
 
-长期记忆分为三层：
-### 1. event
-在一天结束时，根据权重筛选中期记忆保留为长期记忆，有时间衰减机制
+| Provider | ServerAddress | Environment Variable |
+|----------|---------------|---------------------|
+| DeepSeek | `https://api.deepseek.com` | `DEEPSEEK_API_KEY` |
+| OpenAI | `https://api.openai.com/v1` | `OPENAI_API_KEY` |
+| OpenRouter | `https://openrouter.ai/api/v1` | `OPENROUTER_API_KEY` |
+| Qwen | `https://dashscope.aliyuncs.com/compatible-mode/v1` | `QWEN_API_KEY` |
+| Gemini | (uses Google API) | `GOOGLE_API_KEY` |
 
-### 2. Persona Seed
-角色基础设定，在游戏开始时初始化
-
-例如：
-
-- 性格
-- 兴趣
-- 与其他 NPC 的关系
-
-用于保证 **角色始终符合人设**。
-
-### 3. Consolidation
-系统每 **两周** 会总结：
-
-- 高频事件
-- 高权重事件
-
-该记忆将作为角色对玩家的好感度增减标准反馈回游戏。
+> You can also set API keys via environment variables instead of `config.json`.
 
 ---
 
-# 🎨 OC 角色构建器
+## For Developers (Building from Source)
 
-AgenticOC 内置了一个 **网页端 OC 角色构建器**，让非技术用户也能轻松创建自己的原创角色并接入 AI 对话系统。
+### Prerequisites
 
-## 使用方式
+- Python 3.11
+- .NET 6.0 SDK (only to rebuild the mod DLL)
 
-1. 启动 AgenticOC 服务器（双击 `Start_AgenticOC.bat`）
-2. 浏览器打开 `http://localhost:5000/oc`
-3. 在网页表单中填写 OC 信息：
-   - **基础人设**：名称、核心性格、背景故事、说话风格
-   - **关系网**：OC 与鹈鹕镇 NPC 的关系和权值衰减
-   - **记忆种子**：核心性格特征、事实背景、台词示例
-4. 点击「生成 NPC → 一键接入对话」
-5. 重启游戏，即可与你的 OC 对话！
+### Build the SMAPI Mod DLL (optional)
 
-## 技术原理
+The prebuilt `AgenticOC.dll` is included. To rebuild it, set `GamePath` in `AgenticOC.csproj` to your Stardew Valley install if needed, then:
 
-用户填写的表单数据会被自动解析并写入三处：
+```bash
+dotnet build -c Release
+```
 
-| 数据 | 写入位置 | 作用 |
-|------|---------|------|
-| NPC JSON 配置 | `prompt_construction/npc/{OC名}.json` | 定义角色人设、关系阶段、台词示例 |
-| Persona Seed | ChromaDB `persona_seed` collection | 角色的核心记忆，确保 AI 始终遵循人设 |
-| 关系网 | `prompt_construction/npc/relation_map.py` | 社交图谱，控制 Gossip 传播路径 |
+### Run the AI Server from Source
 
-整个过程 **无需手动编辑任何代码文件**，OC Builder 会自动完成所有配置和导入。
+```bash
+cd ai
+python -m pip install -r requirements.txt
+python server.py
+```
 
-## 一键运行兼容性
+PyInstaller packaging (`Build.bat` / `AgenticOC.spec`) is still in the repo but no longer the recommended path.
 
-OC Builder 完全兼容 PyInstaller 打包模式：
-- 网页 UI 在 `http://localhost:5000/oc` 提供服务
-- AI 服务器在 `http://localhost:8000` 提供服务
-- 两者在 `Start_AgenticOC.bat` 启动时同时运行
-- 用户上传的 OC 数据保存在 `oc_uploads/` 目录
+### Project Structure
+
+```
+AgenticOC/
+├── AgenticOC.dll              # SMAPI mod (prebuilt)
+├── manifest.json              # SMAPI manifest
+├── Start_AgenticOC.bat        # One-click launcher
+├── AgenticOC.csproj / src/    # C# mod source
+├── ai/
+│   ├── config.json            # User fills in API key here
+│   ├── requirements.txt       # Pinned Python dependencies
+│   ├── server.py              # FastAPI server entry point
+│   ├── graph.py               # Core conversation graph
+│   ├── llm.py                 # LLM factory
+│   ├── memory/                # Memory systems (ST/MT/LT)
+│   ├── gameinfo/              # Game state utilities
+│   ├── prompt_construction/   # Prompt templates & few-shot
+│   └── ...
+└── README.md
+```
+
+### Nexus Mod Release Package
+
+The repository itself is the distributable folder — zip it and users drop it into `Mods`:
+
+```
+[CP] Damon/
+├── AgenticOC.dll
+├── manifest.json
+├── Start_AgenticOC.bat
+└── ai/
+    ├── config.json             # user edits this
+    ├── requirements.txt
+    └── ...（Python 源码）
+```
+
+Users still need Python 3.11 + `pip install -r ai/requirements.txt`.
+
+## License
+
+See [ai/LICENSE](ai/LICENSE) for details.
